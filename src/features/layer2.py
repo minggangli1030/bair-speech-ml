@@ -36,7 +36,7 @@ DEFAULT_LAYER2_WEIGHTS: dict[int, list[tuple[int, float]]] = {
     6: [(19, 1.0), (12, 1.0), (10, 1.0)],                    # Semantic paraphasias
     7: [(15, 1.0), (18, 1.0)],                                # Phonemic paraphasias
     8: [(18, 1.0), (8, 1.0), (4, 1.0)],                      # Self-correction
-    9: [(0, 1.0), (5, 1.0), (10, 1.0), (11, 1.0), (19, 1.0)], # Overall impairment
+    9: [(0, 1.0), (5, 1.0), (10, 1.0), (11, 1.0), (19, 1.0)],  # Overall impairment
 }
 
 

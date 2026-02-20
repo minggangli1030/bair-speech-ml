@@ -19,6 +19,7 @@ from sklearn.metrics import (
 from sklearn.model_selection import (
     StratifiedKFold,
     cross_validate,
+    cross_val_predict,
     train_test_split,
 )
 from sklearn.preprocessing import StandardScaler
@@ -67,6 +68,7 @@ def _feature_matrix(
     layer2_names: list[str],
     use_layer1: bool,
     use_layer2: bool,
+    use_s_sem: bool = True,
 ) -> tuple[np.ndarray, list[str]]:
     """Build X matrix and feature name list from subject-level dataframe."""
     from ..features.layer1 import LAYER1_NAMES
@@ -76,6 +78,8 @@ def _feature_matrix(
         names.extend(LAYER2_NAMES)
     if use_layer1:
         names.extend(LAYER1_NAMES)
+    if use_s_sem and "s_sem" in df.columns:
+        names.append("s_sem")
     cols = [c for c in names if c in df.columns]
     X = df[cols].to_numpy(dtype=float)
     # Impute NaN with column median for training
@@ -90,6 +94,7 @@ def train_baseline(
     target_column: str = "label",
     use_layer1: bool = False,
     use_layer2: bool = True,
+    use_s_sem: bool = True,
     cv_folds: int = 5,
     random_state: int = 42,
     penalty: str = "l2",
@@ -106,7 +111,7 @@ def train_baseline(
 
     y = features_df[target_column].astype(int).to_numpy()
     X, feat_names = _feature_matrix(
-        features_df, LAYER1_NAMES, LAYER2_NAMES, use_layer1, use_layer2
+        features_df, LAYER1_NAMES, LAYER2_NAMES, use_layer1, use_layer2, use_s_sem
     )
 
     scaler = StandardScaler()
@@ -161,6 +166,7 @@ def train_baseline(
         "coefficients": {feat_names[i]: float(coef[i]) for i in range(len(feat_names))},
         "use_layer1": use_layer1,
         "use_layer2": use_layer2,
+        "use_s_sem": use_s_sem,
         "feature_medians": medians,
     }
     return clf, scaler, feat_names, report
@@ -174,6 +180,7 @@ def train_baseline_with_splits(
     test_ratio: float = 0.2,
     use_layer1: bool = False,
     use_layer2: bool = True,
+    use_s_sem: bool = True,
     random_state: int = 42,
     penalty: str = "l2",
     C: float = 1.0,
@@ -193,7 +200,7 @@ def train_baseline_with_splits(
 
     y_train = train_df[target_column].astype(int).to_numpy()
     X_train, feat_names = _feature_matrix(
-        train_df, LAYER1_NAMES, LAYER2_NAMES, use_layer1, use_layer2
+        train_df, LAYER1_NAMES, LAYER2_NAMES, use_layer1, use_layer2, use_s_sem
     )
 
     scaler = StandardScaler()
@@ -268,6 +275,7 @@ def train_baseline_with_splits(
         "coefficients": {feat_names[i]: float(coef[i]) for i in range(len(feat_names))},
         "use_layer1": use_layer1,
         "use_layer2": use_layer2,
+        "use_s_sem": use_s_sem,
         "feature_medians": medians,
     }
     return clf, scaler, feat_names, report, train_df, val_df, test_df

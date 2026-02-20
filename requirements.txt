@@ -23,6 +23,9 @@ spacy>=3.7
 # Optional: semantic distance
 sentence-transformers>=2.2
 
+# Spatiosemantic graph (Level 2 semantic scoring)
+networkx>=3.0
+
 # CLI
 typer>=0.9
 

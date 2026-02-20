@@ -1,0 +1,96 @@
+{
+  "scene": "picnic",
+  "schema_version": "v0",
+  "notes": [
+    "Gold graph is a single canonical representation of the picnic stimulus.",
+    "If an entity/edge is not in your exact image, delete it rather than leaving it optional.",
+    "IDs are stable; evaluation aligns using canonical labels, not IDs."
+  ],
+  "nodes": [
+    {"id": "family_1", "type": "group", "label": "family"},
+
+    {"id": "man_1", "type": "person", "label": "man"},
+    {"id": "woman_1", "type": "person", "label": "woman"},
+    {"id": "boy_1", "type": "person", "label": "boy"},
+    {"id": "girl_1", "type": "person", "label": "girl"},
+
+    {"id": "dog_1", "type": "animal", "label": "dog"},
+
+    {"id": "kite_1", "type": "object", "label": "kite"},
+    {"id": "string_1", "type": "object", "label": "kite string"},
+
+    {"id": "blanket_1", "type": "object", "label": "blanket"},
+    {"id": "basket_1", "type": "object", "label": "picnic basket"},
+    {"id": "food_1", "type": "object", "label": "food"},
+    {"id": "drink_1", "type": "object", "label": "drink"},
+
+    {"id": "book_1", "type": "object", "label": "book"},
+    {"id": "ball_1", "type": "object", "label": "ball"},
+
+    {"id": "tree_1", "type": "object", "label": "tree"},
+    {"id": "grass_1", "type": "place", "label": "grass"},
+    {"id": "sky_1", "type": "place", "label": "sky"},
+
+    {"id": "lake_1", "type": "place", "label": "lake"},
+    {"id": "boat_1", "type": "object", "label": "boat"},
+
+    {"id": "house_1", "type": "object", "label": "house"},
+    {"id": "path_1", "type": "place", "label": "path"}
+  ],
+  "edges": [
+    {"subj": "man_1", "rel": "member_of", "obj": "family_1"},
+    {"subj": "woman_1", "rel": "member_of", "obj": "family_1"},
+    {"subj": "boy_1", "rel": "member_of", "obj": "family_1"},
+    {"subj": "girl_1", "rel": "member_of", "obj": "family_1"},
+
+    {"subj": "blanket_1", "rel": "on", "obj": "grass_1"},
+    {"subj": "basket_1", "rel": "on", "obj": "blanket_1"},
+    {"subj": "food_1", "rel": "on", "obj": "blanket_1"},
+    {"subj": "drink_1", "rel": "on", "obj": "blanket_1"},
+
+    {"subj": "woman_1", "rel": "sitting_on", "obj": "blanket_1"},
+    {"subj": "man_1", "rel": "sitting_on", "obj": "blanket_1"},
+
+    {"subj": "woman_1", "rel": "holding", "obj": "book_1"},
+    {"subj": "woman_1", "rel": "reading", "obj": "book_1"},
+
+    {"subj": "boy_1", "rel": "holding", "obj": "string_1"},
+    {"subj": "string_1", "rel": "attached_to", "obj": "kite_1"},
+    {"subj": "kite_1", "rel": "in", "obj": "sky_1"},
+
+    {"subj": "dog_1", "rel": "on", "obj": "grass_1"},
+    {"subj": "dog_1", "rel": "chasing", "obj": "ball_1"},
+    {"subj": "ball_1", "rel": "on", "obj": "grass_1"},
+
+    {"subj": "tree_1", "rel": "on", "obj": "grass_1"},
+    {"subj": "lake_1", "rel": "near", "obj": "grass_1"},
+    {"subj": "boat_1", "rel": "on", "obj": "lake_1"},
+
+    {"subj": "house_1", "rel": "near", "obj": "path_1"},
+    {"subj": "path_1", "rel": "leads_to", "obj": "grass_1"}
+  ],
+  "attributes": [
+    {"node": "kite_1", "attr": "state", "value": "flying"},
+    {"node": "dog_1", "attr": "activity", "value": "running"},
+    {"node": "family_1", "attr": "activity", "value": "picnicking"},
+
+    {"node": "blanket_1", "attr": "location", "value": "foreground"},
+    {"node": "kite_1", "attr": "location", "value": "upper_sky"},
+    {"node": "lake_1", "attr": "location", "value": "background"}
+  ],
+  "content_units": [
+    {"id": "CU_E01", "kind": "edge", "subj": "blanket_1", "rel": "on", "obj": "grass_1"},
+    {"id": "CU_E02", "kind": "edge", "subj": "woman_1", "rel": "sitting_on", "obj": "blanket_1"},
+    {"id": "CU_E03", "kind": "edge", "subj": "man_1", "rel": "sitting_on", "obj": "blanket_1"},
+    {"id": "CU_E04", "kind": "edge", "subj": "woman_1", "rel": "reading", "obj": "book_1"},
+    {"id": "CU_E05", "kind": "edge", "subj": "boy_1", "rel": "holding", "obj": "string_1"},
+    {"id": "CU_E06", "kind": "edge", "subj": "string_1", "rel": "attached_to", "obj": "kite_1"},
+    {"id": "CU_E07", "kind": "edge", "subj": "kite_1", "rel": "in", "obj": "sky_1"},
+    {"id": "CU_E08", "kind": "edge", "subj": "dog_1", "rel": "chasing", "obj": "ball_1"},
+    {"id": "CU_E09", "kind": "edge", "subj": "boat_1", "rel": "on", "obj": "lake_1"},
+
+    {"id": "CU_A01", "kind": "attr", "node": "kite_1", "attr": "state", "value": "flying"},
+    {"id": "CU_A02", "kind": "attr", "node": "dog_1", "attr": "activity", "value": "running"},
+    {"id": "CU_A03", "kind": "attr", "node": "family_1", "attr": "activity", "value": "picnicking"}
+  ]
+}

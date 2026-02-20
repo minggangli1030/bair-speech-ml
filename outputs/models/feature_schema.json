@@ -62,29 +62,29 @@
     "top_positive_coefficients": [
       [
         "reduced_length_complexity",
-        0.26556138261920015
+        0.2655613826192003
       ],
       [
         "overall_communication_impairment",
-        0.17857463727433642
+        0.17857463727433645
       ],
       [
         "phonemic_paraphasias_neologisms",
-        0.1366103046683084
+        0.13661030466830834
       ],
       [
         "self_correction",
-        0.06794610362429856
+        0.06794610362429848
       ],
       [
         "reduced_speech_rate",
-        0.01810090708709563
+        0.018100907087095594
       ]
     ],
     "top_negative_coefficients": [
       [
         "paragrammatism",
-        -0.9782647309540797
+        -0.9782647309540795
       ],
       [
         "semantic_paraphasias",
@@ -92,15 +92,15 @@
       ],
       [
         "empty_speech",
-        -0.6485122047375946
+        -0.6485122047375945
       ],
       [
         "anomia",
-        -0.3398724249806544
+        -0.3398724249806543
       ],
       [
         "agrammatism",
-        -0.09529598600125877
+        -0.0952959860012588
       ]
     ],
     "feature_names": [
@@ -116,19 +116,20 @@
       "overall_communication_impairment"
     ],
     "coefficients": {
-      "reduced_speech_rate": 0.01810090708709563,
-      "reduced_length_complexity": 0.26556138261920015,
-      "agrammatism": -0.09529598600125877,
-      "paragrammatism": -0.9782647309540797,
-      "anomia": -0.3398724249806544,
-      "empty_speech": -0.6485122047375946,
+      "reduced_speech_rate": 0.018100907087095594,
+      "reduced_length_complexity": 0.2655613826192003,
+      "agrammatism": -0.0952959860012588,
+      "paragrammatism": -0.9782647309540795,
+      "anomia": -0.3398724249806543,
+      "empty_speech": -0.6485122047375945,
       "semantic_paraphasias": -0.6970044044892624,
-      "phonemic_paraphasias_neologisms": 0.1366103046683084,
-      "self_correction": 0.06794610362429856,
-      "overall_communication_impairment": 0.17857463727433642
+      "phonemic_paraphasias_neologisms": 0.13661030466830834,
+      "self_correction": 0.06794610362429848,
+      "overall_communication_impairment": 0.17857463727433645
     },
     "use_layer1": false,
     "use_layer2": true,
+    "use_s_sem": true,
     "feature_medians": [
       0.7983486784594342,
       0.4303930853793747,

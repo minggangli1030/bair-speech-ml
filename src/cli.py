@@ -14,6 +14,7 @@ import typer
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.config import PipelineConfig
+from src.features.graph_semantic import compute_s_sem
 from src.features.layer1 import LAYER1_NAMES, compute_layer1_features
 from src.features.layer2 import LAYER2_NAMES, compute_layer2_features
 from src.io.cache import (
@@ -115,6 +116,8 @@ def extract(
     output: Path = typer.Option(Path("outputs/features.csv"), "--output", "-o"),
     audio_dir: Optional[Path] = typer.Option(None, "--audio-dir"),
     use_semantic_distance: bool = typer.Option(True, "--semantic/--no-semantic"),
+    use_graph_semantic: bool = typer.Option(True, "--graph-semantic/--no-graph-semantic", help="S_sem from spatiosemantic scene graph"),
+    gold_graph: Optional[Path] = typer.Option(None, "--gold-graph", help="Path to gold scene graph JSON (default: data/graph/picnic_gold_star.json)"),
     spacy_model: str = typer.Option("en_core_web_sm", "--spacy-model"),
 ) -> None:
     """
@@ -127,12 +130,15 @@ def extract(
     if audio_dir:
         cfg.paths.audio_dir = audio_dir
     cfg.features.use_semantic_distance = use_semantic_distance
+    cfg.features.use_graph_semantic = use_graph_semantic
+    cfg.features.gold_graph_path = gold_graph
     cfg.features.spacy_model = spacy_model
 
     df = load_manifest(cfg.paths.manifest_path, cfg.paths.audio_dir)
     rows = []
     for subject_id, group, label in iter_subjects(df):
         l1_agg: list[dict[str, float]] = []
+        s_sem_agg: list[float] = []
         for _, row in group.iterrows():
             path = row["audio_path_resolved"]
             path_str = str(path)
@@ -154,6 +160,9 @@ def extract(
                 use_semantic_distance=cfg.features.use_semantic_distance,
             )
             l1_agg.append(l1)
+            if cfg.features.use_graph_semantic:
+                s_sem_val, _ = compute_s_sem(transcript, gold_graph_path=cfg.features.gold_graph_path)
+                s_sem_agg.append(s_sem_val)
         if not l1_agg:
             logger.warning("No features for subject %s", subject_id)
             continue
@@ -168,6 +177,9 @@ def extract(
             out_row[k] = l1_mean[k]
         for k in LAYER2_NAMES:
             out_row[k] = l2_scores[k]
+        # S_sem: spatiosemantic graph completeness (separate branch, not Layer 1)
+        s_sem = float(pd.Series(s_sem_agg).mean()) if s_sem_agg else float("nan")
+        out_row["s_sem"] = s_sem
         rows.append(out_row)
 
     out_df = pd.DataFrame(rows)
@@ -183,6 +195,7 @@ def train(
     target: str = typer.Option("label", "--target"),
     use_layer1: bool = typer.Option(False, "--layer1/--no-layer1"),
     use_layer2: bool = typer.Option(True, "--layer2/--no-layer2"),
+    use_s_sem: bool = typer.Option(True, "--s-sem/--no-s-sem", help="Include s_sem (spatiosemantic graph) in features"),
     cv_folds: int = typer.Option(5, "--cv-folds"),
     report_path: Optional[Path] = typer.Option(None, "--report", help="Write report JSON here"),
     split: Optional[str] = typer.Option(
@@ -225,6 +238,7 @@ def train(
             test_ratio=test_ratio,
             use_layer1=use_layer1,
             use_layer2=use_layer2,
+            use_s_sem=use_s_sem,
         )
         save_trained_pipeline(Path(model_dir), clf, scaler, feat_names, report)
         out_splits = Path(splits_dir) if splits_dir else Path(model_dir) / "splits"
@@ -247,6 +261,7 @@ def train(
             target_column=target,
             use_layer1=use_layer1,
             use_layer2=use_layer2,
+            use_s_sem=use_s_sem,
             cv_folds=cv_folds,
         )
         save_trained_pipeline(Path(model_dir), clf, scaler, feat_names, report)

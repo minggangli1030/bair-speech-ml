@@ -54,6 +54,9 @@ class FeatureConfig:
     # Sentence embedding model for semantic distance (optional)
     sentence_embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     use_semantic_distance: bool = True  # False to stub and return NaN
+    # Spatiosemantic graph (Level 2): S_sem from picnic scene graph
+    use_graph_semantic: bool = True
+    gold_graph_path: Path | None = None  # Default: data/graph/picnic_gold_star.json
     # Layer 2: mapping from construct index to (Layer 1 indices, weights)
     # Default equal weights; override in config or code
     layer2_weights: dict[int, list[tuple[int, float]]] = field(default_factory=dict)
