@@ -1,0 +1,3 @@
+subject_id,audio_path,label,task
+sub01,sub01_task1.wav,1,picture
+sub02,sub02_task1.wav,0,picture
