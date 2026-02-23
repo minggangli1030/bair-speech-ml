@@ -1,0 +1,97 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-8497_ses-20180122_task-picnic_lang-en_final.wav
+Total Segments: 11
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.705 → 00:07.962     Participant  7.26      s Okay, I see a man in a woman sitting having a picn AH OW SIL K EY SIL AY S IY SIL AH AA AH M SIL AH N M AE N IH N W AH M IH AH S IH DX IY NG HH AE V IH NG IH SIL P IH SIL K SIL N IH SIL K Y IY Z SIL R IH DX IY IH AH SIL B UH SIL K SH IY Z S SIL P AA R IH NG W AY N DH IH Z S AH SIL P IH SIL K IH F AE S SIL K IH SIL DH EH ER
+2    00:08.232 → 00:13.834     Participant  5.60      s omebody else is flying a kite with a dog nearby. T S AH M B IH IY EH L S AH Z S F P L AY IH NG AH SIL K AY SIL SIL W AH IH DH IH SIL D AA SIL N IH ER SIL B AY DH ER Z AH S EH L SIL B OW SIL AW DX AA N DH AH W AA DX ER DH EH ER
+3    00:14.256 → 00:15.792     Participant  1.54      s There's somebody that...                           AA AA AA M DH IH ER S AH M SIL B AH DX IY DH EH SIL
+4    00:15.960 → 00:19.859     Participant  3.90      s It's a little hard to see, it might be in a boat,  M AY EY SIL IH SIL S AH L HH AA R SIL D IH S IY M AY EY SIL P B IY IH N AH SIL B OW SIL AY F IH NG SIL K IH S IY IH SH AH V L SIL
+5    00:20.280 → 00:23.402     Participant  3.12      s and a bucket on the edge of the water.             AA M SIL HH AE N AH SIL B AA AH SIL K IH SIL SIL AW N DH IY IH SIL JH AH DH AH W AA DX ER
+6    00:23.672 → 00:31.469     Participant  7.80      s Behind the couple is having picnic is a house with B IH IY HH AY N DH AH SIL K AH SIL P L AH IH Z HH EH M EY NG SIL P IH SIL L N IH SIL K IH Z AH HH AW S SIL W IH DH AH IH SIL CH T R IY SIL SIL SIL AE EH N IH Z OW L S UH UW SIL CH R IY Z AH DH AH SIL B AE SIL K R AW N L DH EH ER Z AH L S UH OW AH SIL K W K AA R IH N DH AH SIL JH R AY V W EY
+7    00:31.890 → 00:35.586     Participant  3.70      s These wing glasses, she's red shorts, these very l AA M IY Z SIL W AY IH NG SIL G L AE AA S IH S SH IY Z SIL W AY SIL SH AA R ER SIL S IY Z SIL W R EH L AA NG SIL P AE N SIL S
+8    00:35.890 → 00:37.729     Participant  1.84      s he is long hair, there's also work.                SH IY IH Z L AA NG HH EH ER DH IH Z AA L S OW ER SIL
+9    00:38.084 → 00:40.665     Clinician    2.58      s a radio, a transistor radio.                       AH R EY SIL DX IY OW SIL AA M AH IH SIL CH T R EH Z IH S SIL T ER R EY DX IY OW
+10   00:42.690 → 00:47.280     Clinician    4.59      s And I think those are all the important things. Th AE N SIL D SIL AY F IH NG SIL K TH DH OW Z S ER AA L DH IY IH M SIL P AA R N TH IH NG Z ER Z SIL G R AE S SIL AH M
+11   00:48.749 → 00:50.639     Clinician    1.89      s Oh, there's a flag on a flagpole.                  AH M SIL OW DH IH Z S AH F L AE SIL G AH N AH F L AE SIL P OW L
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.705 - 00:07.962 (7.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, I see a man in a woman sitting having a picnic. He's reading a book. She's pouring wine. There's a picnic basket there.
+  Phonemic Encoding: AH OW SIL K EY SIL AY S IY SIL AH AA AH M SIL AH N M AE N IH N W AH M IH AH S IH DX IY NG HH AE V IH NG IH SIL P IH SIL K SIL N IH SIL K Y IY Z SIL R IH DX IY IH AH SIL B UH SIL K SH IY Z S SIL P AA R IH NG W AY N DH IH Z S AH SIL P IH SIL K IH F AE S SIL K IH SIL DH EH ER
+
+Segment 2:
+  Timestamp: 00:08.232 - 00:13.834 (5.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody else is flying a kite with a dog nearby. There's a sailboat out on the water there.
+  Phonemic Encoding: S AH M B IH IY EH L S AH Z S F P L AY IH NG AH SIL K AY SIL SIL W AH IH DH IH SIL D AA SIL N IH ER SIL B AY DH ER Z AH S EH L SIL B OW SIL AW DX AA N DH AH W AA DX ER DH EH ER
+
+Segment 3:
+  Timestamp: 00:14.256 - 00:15.792 (1.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's somebody that...
+  Phonemic Encoding: AA AA AA M DH IH ER S AH M SIL B AH DX IY DH EH SIL
+
+Segment 4:
+  Timestamp: 00:15.960 - 00:19.859 (3.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's a little hard to see, it might be in a boat, I think I see a shovel.
+  Phonemic Encoding: M AY EY SIL IH SIL S AH L HH AA R SIL D IH S IY M AY EY SIL P B IY IH N AH SIL B OW SIL AY F IH NG SIL K IH S IY IH SH AH V L SIL
+
+Segment 5:
+  Timestamp: 00:20.280 - 00:23.402 (3.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and a bucket on the edge of the water.
+  Phonemic Encoding: AA M SIL HH AE N AH SIL B AA AH SIL K IH SIL SIL AW N DH IY IH SIL JH AH DH AH W AA DX ER
+
+Segment 6:
+  Timestamp: 00:23.672 - 00:31.469 (7.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Behind the couple is having picnic is a house with a tree and there's also trees in the background. There's also a car in the driveway.
+  Phonemic Encoding: B IH IY HH AY N DH AH SIL K AH SIL P L AH IH Z HH EH M EY NG SIL P IH SIL L N IH SIL K IH Z AH HH AW S SIL W IH DH AH IH SIL CH T R IY SIL SIL SIL AE EH N IH Z OW L S UH UW SIL CH R IY Z AH DH AH SIL B AE SIL K R AW N L DH EH ER Z AH L S UH OW AH SIL K W K AA R IH N DH AH SIL JH R AY V W EY
+
+Segment 7:
+  Timestamp: 00:31.890 - 00:35.586 (3.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: These wing glasses, she's red shorts, these very long pants.
+  Phonemic Encoding: AA M IY Z SIL W AY IH NG SIL G L AE AA S IH S SH IY Z SIL W AY SIL SH AA R ER SIL S IY Z SIL W R EH L AA NG SIL P AE N SIL S
+
+Segment 8:
+  Timestamp: 00:35.890 - 00:37.729 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: he is long hair, there's also work.
+  Phonemic Encoding: SH IY IH Z L AA NG HH EH ER DH IH Z AA L S OW ER SIL
+
+Segment 9:
+  Timestamp: 00:38.084 - 00:40.665 (2.58s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: a radio, a transistor radio.
+  Phonemic Encoding: AH R EY SIL DX IY OW SIL AA M AH IH SIL CH T R EH Z IH S SIL T ER R EY DX IY OW
+
+Segment 10:
+  Timestamp: 00:42.690 - 00:47.280 (4.59s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: And I think those are all the important things. There's grass.
+  Phonemic Encoding: AE N SIL D SIL AY F IH NG SIL K TH DH OW Z S ER AA L DH IY IH M SIL P AA R N TH IH NG Z ER Z SIL G R AE S SIL AH M
+
+Segment 11:
+  Timestamp: 00:48.749 - 00:50.639 (1.89s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Oh, there's a flag on a flagpole.
+  Phonemic Encoding: AH M SIL OW DH IH Z S AH F L AE SIL G AH N AH F L AE SIL P OW L

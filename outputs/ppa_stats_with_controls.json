@@ -1,0 +1,22 @@
+{
+  "s_sem_comparisons": [
+    {
+      "group_1": "control",
+      "group_2": "svppa",
+      "n_1": 25,
+      "n_2": 42,
+      "u_statistic": 866.0,
+      "p_value": 9.890127003995696e-06,
+      "cliffs_delta": 0.6495238095238095,
+      "effect_size": "large"
+    }
+  ],
+  "svppa_dissociation": {
+    "n": 42,
+    "delta_mean": 0.2088962370037954,
+    "delta_std": 0.07865509324974923,
+    "delta_positive_pct": 100.0,
+    "s_ph_mean": 0.3512308520092179,
+    "s_sem_mean": 0.14233461500542244
+  }
+}

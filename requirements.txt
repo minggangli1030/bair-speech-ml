@@ -16,6 +16,11 @@ resampy>=0.4
 # ASR (Whisper)
 openai-whisper>=20231117
 
+# Diarization (pyannote) - for full PPA pipeline
+pyannote.audio>=3.0
+torch
+torchaudio
+
 # NLP
 spacy>=3.7
 # Download: python -m spacy download en_core_web_sm

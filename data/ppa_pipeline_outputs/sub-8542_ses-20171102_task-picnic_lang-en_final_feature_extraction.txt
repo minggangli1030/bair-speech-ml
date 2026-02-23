@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-8542_ses-20171102_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.600 → 00:04.047     Participant  2.45      s I see a man and a woman.                           AY S IY SIL AH M AE N IH N AH W AH M IH N SIL
+2    00:04.418 → 00:05.650     Participant  1.23      s itting on a blanket.                               S IH DX IY NG AA N AH SIL B L AE NG SIL K IH EH Z
+3    00:06.443 → 00:09.615     Participant  3.17      s in front of a house with a car parked in the garag IH N F R EH N IH AH V AH HH AW S SIL W AH DH AH SIL K AA R SIL P AA R SIL T IH N DH AH IH SIL G R AA AY SH
+4    00:10.223 → 00:12.332     Participant  2.11      s and they're sitting under a tree.                  AE N SIL DH IH ER S IH DX IH NG SIL AH N SIL D ER AH SIL T CH T T R IY
+5    00:13.362 → 00:15.353     Participant  1.99      s The man is reading a book.                         DH AH M AE AW AE N IH Z R IY DX IY NG SIL AH SIL B UH SIL K
+6    00:15.741 → 00:18.644     Participant  2.90      s The woman is pouring some liquid in too.           DH AH W AH M EH N SIL IH Z S SIL P SIL AA R IH NG S AH M L IH SIL K W IH DX IH N SIL T UW
+7    00:19.420 → 00:20.483     Participant  1.06      s appears to be.                                     SIL P IH ER S SIL T AH SIL B IY
+8    00:20.955 → 00:22.305     Participant  1.35      s cut a glass.                                       K HH AH SIL AH SIL G L AE S
+9    00:23.554 → 00:25.275     Participant  1.72      s There's a picnic.                                  AA M SIL DH IH ER Z AH SIL P IH SIL N IH SIL K
+10   00:25.697 → 00:28.802     Participant  3.11      s basket with the lid partially open between them.   B AE AW S SIL K IH SIL W IH DH AH L IH SIL P AA R SH L IY SIL OW SIL P IH N SIL B IH SIL T CH T R IH IY N IH EH M
+11   00:33.848 → 00:36.227     Participant  2.38      s and assume it's a radio with the antenna.          IH SIL M IH S UW M EY IH SIL S AH R EY DX IY OW W IH SIL T V DH IY EY SIL AE EH N SIL T EH AE EH N AH
+12   00:39.029 → 00:42.032     Clinician    3.00      s hoes are off to the side.                          N SIL S SH UW S SIL AA R SIL AA F SIL SIL T SIL DH AH S AY SIL D
+13   00:43.230 → 00:45.171     Clinician    1.94      s They appear to be sandals.                         P IY IH SIL P Y IH ER DX IH SIL B IY IH S AE N SIL D L S
+14   00:47.736 → 00:49.964     Clinician    2.23      s There's a flag at um...                            DH ER Z AH F L AE SIL SIL AE F SIL F SIL SIL AA M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.600 - 00:04.047 (2.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a man and a woman.
+  Phonemic Encoding: AY S IY SIL AH M AE N IH N AH W AH M IH N SIL
+
+Segment 2:
+  Timestamp: 00:04.418 - 00:05.650 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: itting on a blanket.
+  Phonemic Encoding: S IH DX IY NG AA N AH SIL B L AE NG SIL K IH EH Z
+
+Segment 3:
+  Timestamp: 00:06.443 - 00:09.615 (3.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in front of a house with a car parked in the garage.
+  Phonemic Encoding: IH N F R EH N IH AH V AH HH AW S SIL W AH DH AH SIL K AA R SIL P AA R SIL T IH N DH AH IH SIL G R AA AY SH
+
+Segment 4:
+  Timestamp: 00:10.223 - 00:12.332 (2.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and they're sitting under a tree.
+  Phonemic Encoding: AE N SIL DH IH ER S IH DX IH NG SIL AH N SIL D ER AH SIL T CH T T R IY
+
+Segment 5:
+  Timestamp: 00:13.362 - 00:15.353 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The man is reading a book.
+  Phonemic Encoding: DH AH M AE AW AE N IH Z R IY DX IY NG SIL AH SIL B UH SIL K
+
+Segment 6:
+  Timestamp: 00:15.741 - 00:18.644 (2.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The woman is pouring some liquid in too.
+  Phonemic Encoding: DH AH W AH M EH N SIL IH Z S SIL P SIL AA R IH NG S AH M L IH SIL K W IH DX IH N SIL T UW
+
+Segment 7:
+  Timestamp: 00:19.420 - 00:20.483 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: appears to be.
+  Phonemic Encoding: SIL P IH ER S SIL T AH SIL B IY
+
+Segment 8:
+  Timestamp: 00:20.955 - 00:22.305 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: cut a glass.
+  Phonemic Encoding: K HH AH SIL AH SIL G L AE S
+
+Segment 9:
+  Timestamp: 00:23.554 - 00:25.275 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a picnic.
+  Phonemic Encoding: AA M SIL DH IH ER Z AH SIL P IH SIL N IH SIL K
+
+Segment 10:
+  Timestamp: 00:25.697 - 00:28.802 (3.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: basket with the lid partially open between them.
+  Phonemic Encoding: B AE AW S SIL K IH SIL W IH DH AH L IH SIL P AA R SH L IY SIL OW SIL P IH N SIL B IH SIL T CH T R IH IY N IH EH M
+
+Segment 11:
+  Timestamp: 00:33.848 - 00:36.227 (2.38s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and assume it's a radio with the antenna.
+  Phonemic Encoding: IH SIL M IH S UW M EY IH SIL S AH R EY DX IY OW W IH SIL T V DH IY EY SIL AE EH N SIL T EH AE EH N AH
+
+Segment 12:
+  Timestamp: 00:39.029 - 00:42.032 (3.00s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: hoes are off to the side.
+  Phonemic Encoding: N SIL S SH UW S SIL AA R SIL AA F SIL SIL T SIL DH AH S AY SIL D
+
+Segment 13:
+  Timestamp: 00:43.230 - 00:45.171 (1.94s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: They appear to be sandals.
+  Phonemic Encoding: P IY IH SIL P Y IH ER DX IH SIL B IY IH S AE N SIL D L S
+
+Segment 14:
+  Timestamp: 00:47.736 - 00:49.964 (2.23s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's a flag at um...
+  Phonemic Encoding: DH ER Z AH F L AE SIL SIL AE F SIL F SIL SIL AA M

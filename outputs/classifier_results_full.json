@@ -1,0 +1,164 @@
+[
+  {
+    "model": "S_sem_only",
+    "n_samples": 67,
+    "n_features": 1,
+    "feature_names": [
+      "s_sem"
+    ],
+    "accuracy": 0.7313432835820896,
+    "f1": 0.775,
+    "roc_auc": 0.8095238095238095,
+    "confusion_matrix": [
+      [
+        18,
+        7
+      ],
+      [
+        11,
+        31
+      ]
+    ],
+    "coefficients": {
+      "s_sem": -1.364553847583101
+    },
+    "top_features": [
+      [
+        "s_sem",
+        -1.364553847583101
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem",
+    "n_samples": 67,
+    "n_features": 2,
+    "feature_names": [
+      "s_ph",
+      "s_sem"
+    ],
+    "accuracy": 0.835820895522388,
+    "f1": 0.8641975308641975,
+    "roc_auc": 0.919047619047619,
+    "confusion_matrix": [
+      [
+        21,
+        4
+      ],
+      [
+        7,
+        35
+      ]
+    ],
+    "coefficients": {
+      "s_ph": -1.919743441129736,
+      "s_sem": -0.9573110544976022
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -1.919743441129736
+      ],
+      [
+        "s_sem",
+        -0.9573110544976022
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem_Delta",
+    "n_samples": 67,
+    "n_features": 3,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta"
+    ],
+    "accuracy": 0.8507462686567164,
+    "f1": 0.875,
+    "roc_auc": 0.920952380952381,
+    "confusion_matrix": [
+      [
+        22,
+        3
+      ],
+      [
+        7,
+        35
+      ]
+    ],
+    "coefficients": {
+      "s_ph": -1.7971109282280473,
+      "s_sem": -1.1519834794833959,
+      "delta": -0.1899040244606715
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -1.7971109282280473
+      ],
+      [
+        "s_sem",
+        -1.1519834794833959
+      ],
+      [
+        "delta",
+        -0.1899040244606715
+      ]
+    ]
+  },
+  {
+    "model": "Dissociation_Plus",
+    "n_samples": 67,
+    "n_features": 5,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta",
+      "phoneme_error_rate",
+      "silence_ratio"
+    ],
+    "accuracy": 0.835820895522388,
+    "f1": 0.8607594936708861,
+    "roc_auc": 0.9142857142857144,
+    "confusion_matrix": [
+      [
+        22,
+        3
+      ],
+      [
+        8,
+        34
+      ]
+    ],
+    "coefficients": {
+      "s_ph": -1.1370884388189832,
+      "s_sem": -0.8876957440495066,
+      "delta": 0.06945029811803333,
+      "phoneme_error_rate": 1.1370884388189835,
+      "silence_ratio": -0.0010240495576971974
+    },
+    "top_features": [
+      [
+        "phoneme_error_rate",
+        1.1370884388189835
+      ],
+      [
+        "s_ph",
+        -1.1370884388189832
+      ],
+      [
+        "s_sem",
+        -0.8876957440495066
+      ],
+      [
+        "delta",
+        0.06945029811803333
+      ],
+      [
+        "silence_ratio",
+        -0.0010240495576971974
+      ]
+    ]
+  }
+]

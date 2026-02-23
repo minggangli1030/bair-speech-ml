@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-9822_ses-20180926_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:35.232     Participant  35.20     s Okay. A couple is having a picnic while another pe K EY HH AH SIL EY SIL SIL AH SIL K AH SIL P L ER IH Z HH AE V IY IH AH SIL P IH SIL N EY SIL K K W AA L SIL HH N SIL HH AH DX AH DH ER V SIL SIL SIL P R ER SH IH N SIL K R ER M IH EH N SIL SIL IH S F L IH SIL K AY SIL K W IH TH DH IH SIL T HH EH N IY HH AE EH Z AH N SIL D AA SIL W IH TH IH NG HH AE N SIL S AH M W AH N IH S F IH SH ER DH AH SIL SIL P IH ER SIL HH EY SIL P IH ER HH SIL P F W UH IH SIL CH IH Z SIL HH EH AE AH N IH N SIL D AH L EY AH CH EH Z AH S EH OW L SIL B OW DX N IH IH SIL W AH IH TH SIL AH SIL K AH SIL P L SIL S EY L IY IH N DH UW SIL DH AH M AE N IH AH Z SIL W EY V IH NG HH IH Z AA R ER M HH AE EH N SIL HH SIL AY SIL SIL K W AH SIL L UH S AY SIL K AH SIL B OY EY HH EH IH Z S SIL M B IH EH L DX IH NG S IH SIL K EH N AH V W AH SIL S SIL SH CH AH SIL K SH EH SIL T SIL AA N M N DH IH SIL B IY CH SIL HH AA N DH AH SH AA R L AY N
+2    00:36.278 → 00:54.030     Participant  17.75     s And there is a sand showble and a pale pup near th HH AE N DH D DH EH ER IH Z AH SH SIL T AH SIL S AE N SH AH OW L SIL EH AE EH N AH SIL P EY L SIL P AH V SIL N IH ER DH IH SIL D AA SIL V IH NG N DH IH M EH N SIL TH AH M IH EH IH Z S SIL P AY N IH SIL K AY M SIL HH EH N AA V F SIL T R W AA S AY AH DH AH M EH N IH Z AH F L AE SIL G P OW R W IH TH DH AH SIL F L AE NG AA N IH SIL R IH N SIL P AA R SH S IH SIL T AH SIL B
+3    00:54.030 → 01:08.037     Clinician    14.01     s and inland behind the couple, having the picnic, t AA N IH M EH N SIL SIL IH EH N L IH N SIL P AH DH AE SIL B IH HH AY AE EH N DH IH SIL K AH SIL P L SIL HH AH SIL HH AE V IH NG DH IH SIL P IH SIL N EY IH SIL K TH ER Z IH SIL CH T R IY IH M B IH HH AY EH N DH AH SIL CH R IY DH ER Z AH SIL HH AW S SIL W AH DH AH SIL K AA R ER SIL P AA R SIL T IH N DH IH AH F R AH HH EH IH SIL P F R AH N AH V DH IH SIL G R AY SIL JH CH
+4    01:08.037 → 01:28.979     Participant  20.94     s And it's a small house with a tree in front of it  AE EH IH N D EH SIL S AH S SIL M AA L HH AW S K W IH TH DH EH AH EH AH SIL CH T R IY IH N SIL P F P R AE DX AH V IH SIL T IH EH N S AH M SIL B UH SH IH Z IH N P F R AH DX AH V IH SIL T SIL HH IH N IH N SIL B HH IH SIL HH EH N DH AH V AE SIL K AE N SIL DH TH EH R Z AH S SIL M AA L AY HH IH EH L N AA SIL K W AY DX AH SIL P UH SH EH IH M AW N SIL N SIL K W IH TH AH L AH DX IH SIL CH T R IY Z ER IH EH N EH ER SIL HH AA V IY IH S SIL L EY IH SIL T S AH M SIL D IH S SIL T AH S SIL P B IH SIL K AH Z AH SIL CH T R IY Z ER SIL DH AH UH SIL K L S SIL M AA L AH N SIL D IH S T AH N
+5    01:32.269 → 01:39.374     Participant  7.10      s in between the house and this distant scenery. The IH N DH AH SIL P AH M SIL B IH SIL T R IH N DH AH HH AW S SIL IH EH N DH IH S SIL D IH S T IH N AE S IY N ER R IY DH IH ER Z SIL HH AE W AH SIL L UH SIL SH S SIL L AY SIL K AA AA AH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:35.232 (35.20s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay. A couple is having a picnic while another person command is flying a kite with it and he has a dog with him. And someone is fisher in the pier, a pier which is an interlaced which has a sailboat with a couple sailing in the man is waving his arm. and what looks like a boy is building some kind of a structure on the beach on the shoreline.
+  Phonemic Encoding: K EY HH AH SIL EY SIL SIL AH SIL K AH SIL P L ER IH Z HH AE V IY IH AH SIL P IH SIL N EY SIL K K W AA L SIL HH N SIL HH AH DX AH DH ER V SIL SIL SIL P R ER SH IH N SIL K R ER M IH EH N SIL SIL IH S F L IH SIL K AY SIL K W IH TH DH IH SIL T HH EH N IY HH AE EH Z AH N SIL D AA SIL W IH TH IH NG HH AE N SIL S AH M W AH N IH S F IH SH ER DH AH SIL SIL P IH ER SIL HH EY SIL P IH ER HH SIL P F W UH IH SIL CH IH Z SIL HH EH AE AH N IH N SIL D AH L EY AH CH EH Z AH S EH OW L SIL B OW DX N IH IH SIL W AH IH TH SIL AH SIL K AH SIL P L SIL S EY L IY IH N DH UW SIL DH AH M AE N IH AH Z SIL W EY V IH NG HH IH Z AA R ER M HH AE EH N SIL HH SIL AY SIL SIL K W AH SIL L UH S AY SIL K AH SIL B OY EY HH EH IH Z S SIL M B IH EH L DX IH NG S IH SIL K EH N AH V W AH SIL S SIL SH CH AH SIL K SH EH SIL T SIL AA N M N DH IH SIL B IY CH SIL HH AA N DH AH SH AA R L AY N
+
+Segment 2:
+  Timestamp: 00:36.278 - 00:54.030 (17.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there is a sand showble and a pale pup near the dog in the man. The man is finally cut. And off towards the other man is a flag, Call with a flag on it, reinforce it to the...
+  Phonemic Encoding: HH AE N DH D DH EH ER IH Z AH SH SIL T AH SIL S AE N SH AH OW L SIL EH AE EH N AH SIL P EY L SIL P AH V SIL N IH ER DH IH SIL D AA SIL V IH NG N DH IH M EH N SIL TH AH M IH EH IH Z S SIL P AY N IH SIL K AY M SIL HH EH N AA V F SIL T R W AA S AY AH DH AH M EH N IH Z AH F L AE SIL G P OW R W IH TH DH AH SIL F L AE NG AA N IH SIL R IH N SIL P AA R SH S IH SIL T AH SIL B
+
+Segment 3:
+  Timestamp: 00:54.030 - 01:08.037 (14.01s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and inland behind the couple, having the picnic, there's a tree and behind the tree, there's a house with a car parked in the front, in front of the garage.
+  Phonemic Encoding: AA N IH M EH N SIL SIL IH EH N L IH N SIL P AH DH AE SIL B IH HH AY AE EH N DH IH SIL K AH SIL P L SIL HH AH SIL HH AE V IH NG DH IH SIL P IH SIL N EY IH SIL K TH ER Z IH SIL CH T R IY IH M B IH HH AY EH N DH AH SIL CH R IY DH ER Z AH SIL HH AW S SIL W AH DH AH SIL K AA R ER SIL P AA R SIL T IH N DH IH AH F R AH HH EH IH SIL P F R AH N AH V DH IH SIL G R AY SIL JH CH
+
+Segment 4:
+  Timestamp: 01:08.037 - 01:28.979 (20.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And it's a small house with a tree in front of it and some bushes in front of it. And in the background, there's a small, here, oh, not quite a push or a mountain, with a lot of trees on it. And there, obviously, it's some distance because the trees are a little small and distant.
+  Phonemic Encoding: AE EH IH N D EH SIL S AH S SIL M AA L HH AW S K W IH TH DH EH AH EH AH SIL CH T R IY IH N SIL P F P R AE DX AH V IH SIL T IH EH N S AH M SIL B UH SH IH Z IH N P F R AH DX AH V IH SIL T SIL HH IH N IH N SIL B HH IH SIL HH EH N DH AH V AE SIL K AE N SIL DH TH EH R Z AH S SIL M AA L AY HH IH EH L N AA SIL K W AY DX AH SIL P UH SH EH IH M AW N SIL N SIL K W IH TH AH L AH DX IH SIL CH T R IY Z ER IH EH N EH ER SIL HH AA V IY IH S SIL L EY IH SIL T S AH M SIL D IH S SIL T AH S SIL P B IH SIL K AH Z AH SIL CH T R IY Z ER SIL DH AH UH SIL K L S SIL M AA L AH N SIL D IH S T AH N
+
+Segment 5:
+  Timestamp: 01:32.269 - 01:39.374 (7.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in between the house and this distant scenery. There's what looks like.
+  Phonemic Encoding: IH N DH AH SIL P AH M SIL B IH SIL T R IH N DH AH HH AW S SIL IH EH N DH IH S SIL D IH S T IH N AE S IY N ER R IY DH IH ER Z SIL HH AE W AH SIL L UH SIL SH S SIL L AY SIL K AA AA AH

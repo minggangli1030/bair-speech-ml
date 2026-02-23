@@ -296,19 +296,46 @@ def _attrs_as_set(G) -> set[tuple[str, str, str]]:
     return out
 
 
+def _nodes_as_set(G) -> set[str]:
+    """Get set of node labels from graph."""
+    return {data.get("label", _norm(nid)) for nid, data in G.nodes(data=True)}
+
+
 def _score_graphs(gold: dict[str, Any], pred: dict[str, Any]) -> dict[str, Any]:
-    """Score predicted graph vs gold. Returns completeness (S_sem) and detailed metrics."""
+    """
+    Score predicted graph vs gold. Returns completeness (S_sem) and detailed metrics.
+    
+    S_sem is computed as weighted combination of:
+    - Node recall (0.6 weight): what fraction of gold entities were mentioned
+    - Edge recall (0.3 weight): what fraction of gold relations were captured  
+    - Attr recall (0.1 weight): what fraction of gold attributes were captured
+    
+    For PPA semantic assessment, mentioning entities matters most.
+    """
     gold_G = _graph_from_spec(gold)
     pred_G = _graph_from_spec(pred)
 
+    # Node matching (entities mentioned)
+    gn = _nodes_as_set(gold_G)
+    pn = _nodes_as_set(pred_G)
+    matched_nodes = gn & pn
+    node_recall = len(matched_nodes) / len(gn) if gn else 0.0
+    
+    # Edge matching (relations)
     ge = _edges_as_set(gold_G)
     pe = _edges_as_set(pred_G)
+    matched_edges = ge & pe
+    edge_recall = len(matched_edges) / len(ge) if ge else 0.0
+    
+    # Attribute matching
     ga = _attrs_as_set(gold_G)
     pa = _attrs_as_set(pred_G)
-
-    gold_units = ge | ga
-    pred_units = pe | pa
-    completeness = (len(gold_units & pred_units) / len(gold_units)) if gold_units else 0.0
+    matched_attrs = ga & pa
+    attr_recall = len(matched_attrs) / len(ga) if ga else 0.0
+    
+    # Weighted completeness - nodes matter most for semantic content
+    # Weight: 60% nodes, 30% edges, 10% attributes
+    completeness = 0.6 * node_recall + 0.3 * edge_recall + 0.1 * attr_recall
 
     tp_e = len(ge & pe)
     fp_e = len(pe - ge)
@@ -327,8 +354,18 @@ def _score_graphs(gold: dict[str, Any], pred: dict[str, Any]) -> dict[str, Any]:
     return {
         "completeness": completeness,
         "s_sem": completeness,
+        "node_completeness": node_recall,
+        "edge_completeness": edge_recall,
+        "attr_completeness": attr_recall,
+        "gold_node_count": len(gn),
+        "pred_node_count": len(pn),
+        "matched_node_count": len(matched_nodes),
+        "matched_nodes": list(matched_nodes),
+        "gold_edge_count": len(ge),
+        "matched_edge_count": len(matched_edges),
         "edges": {"precision": prec_e, "recall": rec_e, "f1": f1_e, "tp": tp_e, "fp": fp_e, "fn": fn_e},
         "attributes": {"precision": prec_a, "recall": rec_a, "f1": f1_a, "tp": tp_a, "fp": fp_a, "fn": fn_a},
+        "extracted_graph": pred,
     }
 
 

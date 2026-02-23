@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-10683_ses-20181019_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.123 → 00:07.506     Clinician    5.38      s A warrior's flying kite, a man and a woman are hav AH V OY IH Z S F L AY IH NG SIL K AY SIL T DH AH M AE N EH N AH W AH M IH N ER HH AE V IH NG AH SIL P IH SIL K N EY SIL T K
+2    00:08.687 → 00:11.219     Clinician    2.53      s two people are sailing in a boat.                  SIL T UW SIL P IY SIL P L AH ER S EY L IH NG IH N AH SIL B OW L SIL T
+3    00:11.775 → 00:22.356     Clinician    10.58     s And the dog is next to the boy flying to Cate. Som AE AE AE N DH AH SIL D AA NG SIL G IH SIL IH S SIL AH SIL K AA AA M N SIL N EH SIL K S SIL T UW DH AH SIL B OY F L AY N SIL D ER SIL K AY SIL T S AH M SIL B IH DX IY IH IH Z AA N DH AH SIL B IY SIL CH SH S AH M B AH DX IY EH L S IH Z S F IH SH IH NG
+4    00:24.027 → 00:29.224     Participant  5.20      s flag is waving, cars part in the driver, you can t F L AE EY SIL G IH Z W EY V IH NG IH SIL SIL K AA R ER IH Z SIL P AA R SIL T IH N DH AH SIL D R AY V ER UW IY N CH SH F R ER N DH IH SIL G R AA N SIL JH SH
+5    00:29.764 → 00:30.945     Participant  1.18      s Angle.                                             N ER IH
+6    00:31.907 → 00:35.991     Participant  4.08      s um, some people I have picked neck are under a big AH AH M N SIL N S AH IH SIL P IY SIL P L EH V IH NG AH V SIL P IH SIL N AE SIL K ER AH N SIL D ER IH SIL B IH SIL T CH T R IY SH
+7    00:36.227 → 00:59.549     Participant  23.32     s There are areas of Bucket and a shovel on the beac N M N SIL DH EH ER SIL AA R ER SIL DH EH R ER IH Z AH SIL B AH SIL K IH N DH IH SIL EH N AE AH SH AH V L AA N DH AH SIL B IY SIL CH SH DH IH F L EY SIL G IH Z W EY V IY NG M G R EY SIL DX D IY OW Z S SIL P L EY NG N F ER DH IH ER SIL P IY SIL P L HH AE V IH NG IH SIL P IH SIL N IH EH IH SIL K M AE N IH Z R IY DX IY NG AH M SIL B UH SIL K HH EH V IH NG IH SIL DH AH SIL M W AH N IH DH AH SIL P IH SIL N IH SIL K ER Z S DH AH M AE N IH Z R IY DX IY IH NG AH SIL B UH SIL K TH HH IH SH ER Z ER R AA F L EY DX IY IH Z S Z SIL P AA R IH NG IH SIL D R EY NG
+8    01:05.050 → 01:09.404     Participant  4.35      s The... someone on the boat is waving to Pughon, su DH EY T S AH M W AH N AA N DH AH M SIL B OW DX IH Z R EY V IY NG SIL D IH SIL P IY UW SIL K L AA N NG N SH AA R ER
+9    01:10.129 → 01:12.812     Participant  2.68      s Um, the kite has a                                 AA M N DH IH SIL K AY SIL T HH EH Z SIL EY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.123 - 00:07.506 (5.38s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: A warrior's flying kite, a man and a woman are having a picnic.
+  Phonemic Encoding: AH V OY IH Z S F L AY IH NG SIL K AY SIL T DH AH M AE N EH N AH W AH M IH N ER HH AE V IH NG AH SIL P IH SIL K N EY SIL T K
+
+Segment 2:
+  Timestamp: 00:08.687 - 00:11.219 (2.53s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: two people are sailing in a boat.
+  Phonemic Encoding: SIL T UW SIL P IY SIL P L AH ER S EY L IH NG IH N AH SIL B OW L SIL T
+
+Segment 3:
+  Timestamp: 00:11.775 - 00:22.356 (10.58s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: And the dog is next to the boy flying to Cate. Somebody is on the beach. Somebody else is fishing.
+  Phonemic Encoding: AE AE AE N DH AH SIL D AA NG SIL G IH SIL IH S SIL AH SIL K AA AA M N SIL N EH SIL K S SIL T UW DH AH SIL B OY F L AY N SIL D ER SIL K AY SIL T S AH M SIL B IH DX IY IH IH Z AA N DH AH SIL B IY SIL CH SH S AH M B AH DX IY EH L S IH Z S F IH SH IH NG
+
+Segment 4:
+  Timestamp: 00:24.027 - 00:29.224 (5.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: flag is waving, cars part in the driver, you can turn the garage.
+  Phonemic Encoding: F L AE EY SIL G IH Z W EY V IH NG IH SIL SIL K AA R ER IH Z SIL P AA R SIL T IH N DH AH SIL D R AY V ER UW IY N CH SH F R ER N DH IH SIL G R AA N SIL JH SH
+
+Segment 5:
+  Timestamp: 00:29.764 - 00:30.945 (1.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Angle.
+  Phonemic Encoding: N ER IH
+
+Segment 6:
+  Timestamp: 00:31.907 - 00:35.991 (4.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: um, some people I have picked neck are under a big tree.
+  Phonemic Encoding: AH AH M N SIL N S AH IH SIL P IY SIL P L EH V IH NG AH V SIL P IH SIL N AE SIL K ER AH N SIL D ER IH SIL B IH SIL T CH T R IY SH
+
+Segment 7:
+  Timestamp: 00:36.227 - 00:59.549 (23.32s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There are areas of Bucket and a shovel on the beach. The flag is waving. Radio is playing for the people having a picnic. Man is reading a book. Having the one of the picnickers, the man is reading a book. The shoes are off. Lady is pouring a drink.
+  Phonemic Encoding: N M N SIL DH EH ER SIL AA R ER SIL DH EH R ER IH Z AH SIL B AH SIL K IH N DH IH SIL EH N AE AH SH AH V L AA N DH AH SIL B IY SIL CH SH DH IH F L EY SIL G IH Z W EY V IY NG M G R EY SIL DX D IY OW Z S SIL P L EY NG N F ER DH IH ER SIL P IY SIL P L HH AE V IH NG IH SIL P IH SIL N IH EH IH SIL K M AE N IH Z R IY DX IY NG AH M SIL B UH SIL K HH EH V IH NG IH SIL DH AH SIL M W AH N IH DH AH SIL P IH SIL N IH SIL K ER Z S DH AH M AE N IH Z R IY DX IY IH NG AH SIL B UH SIL K TH HH IH SH ER Z ER R AA F L EY DX IY IH Z S Z SIL P AA R IH NG IH SIL D R EY NG
+
+Segment 8:
+  Timestamp: 01:05.050 - 01:09.404 (4.35s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The... someone on the boat is waving to Pughon, sure.
+  Phonemic Encoding: DH EY T S AH M W AH N AA N DH AH M SIL B OW DX IH Z R EY V IY NG SIL D IH SIL P IY UW SIL K L AA N NG N SH AA R ER
+
+Segment 9:
+  Timestamp: 01:10.129 - 01:12.812 (2.68s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Um, the kite has a
+  Phonemic Encoding: AA M N DH IH SIL K AY SIL T HH EH Z SIL EY

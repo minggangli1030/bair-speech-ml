@@ -1,0 +1,97 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-9757_ses-20180205_task-picnic_lang-en_final.wav
+Total Segments: 11
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.267 → 00:05.447     Participant  5.18      s Okay, I see a couple having a picnic, the man's re OW SIL K EY SIL K HH AY S IY SIL EY SIL K AH SIL P L HH AE V IY IH N AH SIL P IH SIL N IH SIL T DH AH M AE N S R IY DX IY N
+2    00:06.156 → 00:08.232     Participant  2.08      s The woman is pouring...                            DH IH IY W AH M IH N D IH S SIL P AA R IY N EH AH
+3    00:08.535 → 00:10.105     Participant  1.57      s This is something we'llenser                       T S AH M SIL TH IH N R ER M V AH SIL B AA DX L
+4    00:10.797 → 00:18.509     Participant  7.71      s a boy is flying his kite with a dog nearby and the AH AH AH SIL B OY IH S F L AY N IH S SIL K HH AY EY SIL T L UW SIL W IH SIL D IH SIL D AA SIL N IH R SIL B AY AE N D AH IH SIL D EH R ER SIL B OW SIL IH N IH R IH L EY SIL K
+5    00:18.542 → 00:33.882     Participant  15.34     s where there's a duck and somebody is fishing on th W EH ER DH ER S IH DX SIL B IH SIL DH TH AH SIL D AA SIL K IH SIL IH EH N SIL T S AH M SIL B UH IH DX IY IH S SIL TH IH SH IY N HH SIL SIL T AA N DH AH SIL D AA SIL K N AH DH IH SIL P R ER S IH N SIL IH Z S W EY DX IY N HH IH SIL IH N DH AH W AA DX ER HH IH AE N SIL D AH DX AH SIL K AH SIL P L L SIL IH S S EY L IH IY NG N IH DX IY V SIL S EY EH L SIL B OW SIL T AA N DH AH L EY SIL K DH EH ER IH S EY
+6    00:35.400 → 00:44.682     Participant  9.28      s house nearby with the tree. A car is parked in the HH AW S AH DH SIL N D IH EH R SIL B AY T SIL T SIL W IH SIL DH IH SIL CH R IY AH SIL K AA R ER IH Z S SIL P AA R SIL T SIL IH N DH IY SIL D R AY V W EY F L AE SIL G IH SIL IH S
+7    00:47.230 → 00:48.529     Participant  1.30      s Waving                                             W EY V IY NG N SIL T HH SIL AA
+8    00:50.115 → 00:57.827     Participant  7.71      s in the beside the lake. There is a pale and shovel IH N SIL D DH IY Y EH ER N IH SIL B IH S AY SIL DH AH L EY SIL K SIL DH D EH ER Z S EY SIL P HH EY L IH N SIL SH AH V L SIL AA N SIL DH AH SIL B IY SIL CH AH V DH AH L EY SIL K IH
+9    00:59.835 → 01:03.447     Participant  3.61      s There's a radio on the blanket, a picnic basket.   DH EH ER Z S DH AH R EY DX IY OW L SIL SIL AA M N DH AH SIL B L AE NG SIL K IH SIL T SIL DH AH SIL P IH SIL K N IH SIL B AE S SIL K IH SIL T
+10   01:03.970 → 01:06.974     Participant  3.00      s and some flip-flops looks                          HH AE N SIL D EH SIL S AH M SIL P L IH SIL P L AE AA SIL P S SIL L IH SIL K S
+11   01:08.965 → 01:11.175     Clinician    2.21      s just trees around the lake.                        D IH SH SIL CH T R IY S EH AH SIL AH AA R AA M SIL B AH L EY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.267 - 00:05.447 (5.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Okay, I see a couple having a picnic, the man's reading.
+  Phonemic Encoding: OW SIL K EY SIL K HH AY S IY SIL EY SIL K AH SIL P L HH AE V IY IH N AH SIL P IH SIL N IH SIL T DH AH M AE N S R IY DX IY N
+
+Segment 2:
+  Timestamp: 00:06.156 - 00:08.232 (2.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The woman is pouring...
+  Phonemic Encoding: DH IH IY W AH M IH N D IH S SIL P AA R IY N EH AH
+
+Segment 3:
+  Timestamp: 00:08.535 - 00:10.105 (1.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: This is something we'llenser
+  Phonemic Encoding: T S AH M SIL TH IH N R ER M V AH SIL B AA DX L
+
+Segment 4:
+  Timestamp: 00:10.797 - 00:18.509 (7.71s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: a boy is flying his kite with a dog nearby and they're both near a lake.
+  Phonemic Encoding: AH AH AH SIL B OY IH S F L AY N IH S SIL K HH AY EY SIL T L UW SIL W IH SIL D IH SIL D AA SIL N IH R SIL B AY AE N D AH IH SIL D EH R ER SIL B OW SIL IH N IH R IH L EY SIL K
+
+Segment 5:
+  Timestamp: 00:18.542 - 00:33.882 (15.34s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: where there's a duck and somebody is fishing on the duck. Another person is waiting in the water, and a couple is sailing a sailboat on the lake. There's a...
+  Phonemic Encoding: W EH ER DH ER S IH DX SIL B IH SIL DH TH AH SIL D AA SIL K IH SIL IH EH N SIL T S AH M SIL B UH IH DX IY IH S SIL TH IH SH IY N HH SIL SIL T AA N DH AH SIL D AA SIL K N AH DH IH SIL P R ER S IH N SIL IH Z S W EY DX IY N HH IH SIL IH N DH AH W AA DX ER HH IH AE N SIL D AH DX AH SIL K AH SIL P L L SIL IH S S EY L IH IY NG N IH DX IY V SIL S EY EH L SIL B OW SIL T AA N DH AH L EY SIL K DH EH ER IH S EY
+
+Segment 6:
+  Timestamp: 00:35.400 - 00:44.682 (9.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: house nearby with the tree. A car is parked in the driveway. Flag is...
+  Phonemic Encoding: HH AW S AH DH SIL N D IH EH R SIL B AY T SIL T SIL W IH SIL DH IH SIL CH R IY AH SIL K AA R ER IH Z S SIL P AA R SIL T SIL IH N DH IY SIL D R AY V W EY F L AE SIL G IH SIL IH S
+
+Segment 7:
+  Timestamp: 00:47.230 - 00:48.529 (1.30s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Waving
+  Phonemic Encoding: W EY V IY NG N SIL T HH SIL AA
+
+Segment 8:
+  Timestamp: 00:50.115 - 00:57.827 (7.71s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in the beside the lake. There is a pale and shovel on the beach of the lake.
+  Phonemic Encoding: IH N SIL D DH IY Y EH ER N IH SIL B IH S AY SIL DH AH L EY SIL K SIL DH D EH ER Z S EY SIL P HH EY L IH N SIL SH AH V L SIL AA N SIL DH AH SIL B IY SIL CH AH V DH AH L EY SIL K IH
+
+Segment 9:
+  Timestamp: 00:59.835 - 01:03.447 (3.61s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's a radio on the blanket, a picnic basket.
+  Phonemic Encoding: DH EH ER Z S DH AH R EY DX IY OW L SIL SIL AA M N DH AH SIL B L AE NG SIL K IH SIL T SIL DH AH SIL P IH SIL K N IH SIL B AE S SIL K IH SIL T
+
+Segment 10:
+  Timestamp: 01:03.970 - 01:06.974 (3.00s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and some flip-flops looks
+  Phonemic Encoding: HH AE N SIL D EH SIL S AH M SIL P L IH SIL P L AE AA SIL P S SIL L IH SIL K S
+
+Segment 11:
+  Timestamp: 01:08.965 - 01:11.175 (2.21s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: just trees around the lake.
+  Phonemic Encoding: D IH SH SIL CH T R IY S EH AH SIL AH AA R AA M SIL B AH L EY

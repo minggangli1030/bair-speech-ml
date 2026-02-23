@@ -1,0 +1,160 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33609_ses-20220504_task-picnic_lang-en_final.wav
+Total Segments: 20
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.739 → 00:01.870     Participant  1.13      s I see.                                             AY S IY SIL EH AH M SIL
+2    00:02.157 → 00:03.169     Participant  1.01      s Man.                                               M B EY N
+3    00:03.794 → 00:04.992     Participant  1.20      s Fly in and kite.                                   S L AY IH N AH SIL K HH AY SIL T
+4    00:05.549 → 00:08.603     Participant  3.05      s I see I don't some people in a boat.               AY S IY SIL AW N SIL S AH M SIL P HH IY SIL P L SIL IH N AH SIL B OW L SIL T
+5    00:08.873 → 00:10.594     Participant  1.72      s I see.                                             AY S IY SIL
+6    00:10.797 → 00:11.843     Participant  1.05      s A dog?                                             AH SIL D AA SIL G
+7    00:12.805 → 00:15.741     Participant  2.94      s I see a person on a pier like                      AY S IY SIL AH SIL P ER S IH N SIL AA N AH SIL P HH IH ER L AY SIL
+8    00:17.648 → 00:19.268     Participant  1.62      s I see a radio.                                     AY S IY IH AH R EY DX IY Y OW L
+9    00:19.892 → 00:25.866     Participant  5.97      s I see a picnic basket, I see a man reading, I see  AY S IY IH SIL P IH SIL K N IH SIL B AE S SIL K EH DX AY S IY IH AH M AE N R IY DX IY NG SIL SIL AY S IY IH AH W AH M W IH N AA R IY NG
+10   00:26.322 → 00:27.959     Participant  1.64      s Oh, well.                                          M AH L IH SIL K W IH SIL
+11   00:28.262 → 00:34.742     Participant  6.48      s I see a car. I also see a house and the tree and t AY S IY IH SIL K HH P AA ER AY AA L S AH L S IY IH AH HH AW S IH N DH AH SIL CH T R IY HH AE N DH AH SIL G AH R AA AY SH
+12   00:39.467 → 00:42.454     Clinician    2.99      s a blanket maybe? They're sitting on a blanket.     AH SIL B L AY SIL K IH SIL M EY SIL B IY DH EH R S IH DX IY N AA N AH SIL B L AE SIL K IH
+13   00:46.740 → 00:55.448     Participant  8.71      s Think I see some shoes, some sandals like on, and  F TH IH EY NG SIL K G AY S IY S IH AH OW SH UW S M AA SIL S M S AE N D L OW Z SIL L AY SIL K AA N DH AH SIL AH AH SIL AA R SIL AH N SIL AA M L S AH N D ER N IY SIL TH DH AH M AE N Z SIL L EY SIL G IH
+14   00:56.764 → 00:58.958     Participant  2.19      s Let's see what else do I see.                      N N IH SIL T S IY SIL P W AH DX AH L S SIL T L AY S IY EY
+15   01:00.949 → 01:07.851     Participant  6.90      s of course I see water and maybe those are mountain K W IH S EH S IY W AA DX ER HH IH EH IH N M EY SIL B IY DH OW Z EH ER M AW SIL N Z SIL B IY HH AY NG N SIL SIL DH EH ER SIL SIL IH N DH AH SIL B AE SIL R AW N SIL DH EH ER SIL SH
+16   01:11.952 → 01:14.213     Participant  2.26      s It might be somebody in the car.                   IH M L AY SIL B IY S AH M B AE AY DX IY IH N DH AH SIL K AA ER SIL
+17   01:14.382 → 01:15.479     Participant  1.10      s that I see.                                        B EH DX AY S IY SIL
+18   01:16.609 → 01:18.212     Participant  1.60      s in the driver's side.                              EH V SIL IH N DH AH SIL D R AY V ER S AY
+19   01:27.764 → 01:30.059     Clinician    2.30      s Then it's probably about it.                       DH EH N SIL S SIL SIL SIL S SIL P R AA V AH SIL B L IY IH AH SIL B AW DX IH AH
+20   01:31.898 → 01:33.822     Participant  1.92      s that I see in this picture.                        DH EH DX AY S IY SIL IH N DH IH Z S SIL P IH SIL CH ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.739 - 00:01.870 (1.13s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see.
+  Phonemic Encoding: AY S IY SIL EH AH M SIL
+
+Segment 2:
+  Timestamp: 00:02.157 - 00:03.169 (1.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Man.
+  Phonemic Encoding: M B EY N
+
+Segment 3:
+  Timestamp: 00:03.794 - 00:04.992 (1.20s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Fly in and kite.
+  Phonemic Encoding: S L AY IH N AH SIL K HH AY SIL T
+
+Segment 4:
+  Timestamp: 00:05.549 - 00:08.603 (3.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see I don't some people in a boat.
+  Phonemic Encoding: AY S IY SIL AW N SIL S AH M SIL P HH IY SIL P L SIL IH N AH SIL B OW L SIL T
+
+Segment 5:
+  Timestamp: 00:08.873 - 00:10.594 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see.
+  Phonemic Encoding: AY S IY SIL
+
+Segment 6:
+  Timestamp: 00:10.797 - 00:11.843 (1.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: A dog?
+  Phonemic Encoding: AH SIL D AA SIL G
+
+Segment 7:
+  Timestamp: 00:12.805 - 00:15.741 (2.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a person on a pier like
+  Phonemic Encoding: AY S IY SIL AH SIL P ER S IH N SIL AA N AH SIL P HH IH ER L AY SIL
+
+Segment 8:
+  Timestamp: 00:17.648 - 00:19.268 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a radio.
+  Phonemic Encoding: AY S IY IH AH R EY DX IY Y OW L
+
+Segment 9:
+  Timestamp: 00:19.892 - 00:25.866 (5.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a picnic basket, I see a man reading, I see a woman pouring.
+  Phonemic Encoding: AY S IY IH SIL P IH SIL K N IH SIL B AE S SIL K EH DX AY S IY IH AH M AE N R IY DX IY NG SIL SIL AY S IY IH AH W AH M W IH N AA R IY NG
+
+Segment 10:
+  Timestamp: 00:26.322 - 00:27.959 (1.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh, well.
+  Phonemic Encoding: M AH L IH SIL K W IH SIL
+
+Segment 11:
+  Timestamp: 00:28.262 - 00:34.742 (6.48s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a car. I also see a house and the tree and the garage.
+  Phonemic Encoding: AY S IY IH SIL K HH P AA ER AY AA L S AH L S IY IH AH HH AW S IH N DH AH SIL CH T R IY HH AE N DH AH SIL G AH R AA AY SH
+
+Segment 12:
+  Timestamp: 00:39.467 - 00:42.454 (2.99s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: a blanket maybe? They're sitting on a blanket.
+  Phonemic Encoding: AH SIL B L AY SIL K IH SIL M EY SIL B IY DH EH R S IH DX IY N AA N AH SIL B L AE SIL K IH
+
+Segment 13:
+  Timestamp: 00:46.740 - 00:55.448 (8.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Think I see some shoes, some sandals like on, and almost underneath the man's leg.
+  Phonemic Encoding: F TH IH EY NG SIL K G AY S IY S IH AH OW SH UW S M AA SIL S M S AE N D L OW Z SIL L AY SIL K AA N DH AH SIL AH AH SIL AA R SIL AH N SIL AA M L S AH N D ER N IY SIL TH DH AH M AE N Z SIL L EY SIL G IH
+
+Segment 14:
+  Timestamp: 00:56.764 - 00:58.958 (2.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Let's see what else do I see.
+  Phonemic Encoding: N N IH SIL T S IY SIL P W AH DX AH L S SIL T L AY S IY EY
+
+Segment 15:
+  Timestamp: 01:00.949 - 01:07.851 (6.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: of course I see water and maybe those are mountains behind the in the background there.
+  Phonemic Encoding: K W IH S EH S IY W AA DX ER HH IH EH IH N M EY SIL B IY DH OW Z EH ER M AW SIL N Z SIL B IY HH AY NG N SIL SIL DH EH ER SIL SIL IH N DH AH SIL B AE SIL R AW N SIL DH EH ER SIL SH
+
+Segment 16:
+  Timestamp: 01:11.952 - 01:14.213 (2.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It might be somebody in the car.
+  Phonemic Encoding: IH M L AY SIL B IY S AH M B AE AY DX IY IH N DH AH SIL K AA ER SIL
+
+Segment 17:
+  Timestamp: 01:14.382 - 01:15.479 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that I see.
+  Phonemic Encoding: B EH DX AY S IY SIL
+
+Segment 18:
+  Timestamp: 01:16.609 - 01:18.212 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in the driver's side.
+  Phonemic Encoding: EH V SIL IH N DH AH SIL D R AY V ER S AY
+
+Segment 19:
+  Timestamp: 01:27.764 - 01:30.059 (2.30s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Then it's probably about it.
+  Phonemic Encoding: DH EH N SIL S SIL SIL SIL S SIL P R AA V AH SIL B L IY IH AH SIL B AW DX IH AH
+
+Segment 20:
+  Timestamp: 01:31.898 - 01:33.822 (1.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that I see in this picture.
+  Phonemic Encoding: DH EH DX AY S IY SIL IH N DH IH Z S SIL P IH SIL CH ER

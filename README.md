@@ -1,164 +1,135 @@
-# svPPA Speech Analysis Pipeline
+# Phonetic-Semantic Dissociation Index for PPA Classification
 
-End-to-end inference and baseline training for **semantic variant Primary Progressive Aphasia (svPPA)** speech analysis.
+End-to-end pipeline for **Primary Progressive Aphasia (PPA)** speech analysis using the phonetic-semantic dissociation index (Δ = S_ph - S_sem).
+
+## Key Results
+
+| Model | Accuracy | F1 | AUC |
+|-------|----------|-----|-----|
+| S_sem only | 73.1% | 0.775 | 0.810 |
+| S_ph + S_sem | 83.6% | 0.864 | 0.919 |
+| **S_ph + S_sem + Δ** | **85.1%** | **0.875** | **0.921** |
 
 ## Overview
 
-- **Input**: Per-subject audio (wav/mp3) of elicited speech tasks, optional metadata/labels.
-- **Output**:
-  1. **Layer 1**: 20 proxy features (speech rate, MLU, lexical/morphosyntactic, etc.)
-  2. **Layer 2**: 10 specialized constructs (reduced speech rate, agrammatism, anomia, etc.)
-  3. **Baseline**: Logistic regression (svPPA vs control) with explainability (coefficients, per-subject top features).
+- **S_sem (Semantic Adequacy)**: Content Unit coverage against gold scene graph (Picnic task)
+- **S_ph (Phonological Adequacy)**: Phoneme accuracy from SylWav vs G2P-converted transcripts
+- **Δ (Dissociation Index)**: S_ph - S_sem, capturing the phonology-semantics dissociation
 
 ## Setup
 
 ```bash
-cd "/Users/minggangli/Workspace/Speech/Semantic Evaluation"
 python -m venv .venv
-source .venv/bin/activate   # or: .venv\Scripts\activate on Windows
+source .venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-Optional: `sentence-transformers` for semantic distance (Layer 1 feature 20). If not installed, that feature is stubbed (NaN).
+## Data
 
-## Data Format
-
-**Manifest CSV** (`data/manifest.csv`):
-
-| subject_id | audio_path        | label | task  |
-|------------|-------------------|-------|-------|
-| sub01      | sub01_task1.wav   | 1     | picture |
-| sub01      | sub01_task2.wav   | 1     | story  |
-| sub02      | sub02_task1.wav   | 0     | picture |
-
-- `subject_id`, `audio_path` required.
-- `label`: optional; 0 = control, 1 = svPPA (or impaired). Used for training.
-- Multiple rows per subject: features are aggregated (mean) to subject-level.
+**Manifest CSV** (`data/manifest_ppa_full.csv`):
+- 254 samples: 25 controls, 42 svPPA, 109 lvPPA, 78 nfvPPA
+- Columns: `subject_id`, `session`, `audio_path`, `label`, `subtype`, `task`
 
 ## Usage
 
-Run from the **project root** (or set `PYTHONPATH=.`).
+### 1. Run Full Pipeline (Diarization + ASR + Phoneme)
 
-### 1. Preprocess (ASR + phonetic cache)
-
-```bash
-python -m src.cli preprocess \
-  --manifest data/manifest.csv \
-  --cache-dir data/cache \
-  --asr whisper \
-  --whisper-model base
-```
-
-- Skips files that already have cached transcript/phonetic (use `--no-skip-existing` to rerun).
-- Phonetic encoder: stub by default; use `--phonetic-encoder mylab.phonetic:LabEncoder` when available.
-
-### 2. Extract features (Layer 1 + Layer 2)
+Requires `HF_TOKEN` for pyannote diarization:
 
 ```bash
-python -m src.cli extract \
-  --manifest data/manifest.csv \
-  --cache-dir data/cache \
-  --output outputs/features.csv
+export HF_TOKEN="your_huggingface_token"
+export CODE_DIR=/path/to/code  # Optional: for SylWav phoneme decoding
+
+python -m src.cli ppa-pipeline \
+  --manifest data/manifest_ppa_full.csv \
+  --data-dir /path/to/PPA/enhanced \
+  --output-dir data/ppa_pipeline_outputs
 ```
 
-- Reads cached transcripts/phonetics, computes 20 Layer 1 and 10 Layer 2 features per subject.
-- Writes `outputs/features.csv` with columns: `subject_id`, `label`, plus all feature names.
-
-### 3. Train baseline (logistic regression)
-
-**Option A – no split (all data for training + CV):**
-```bash
-python -m src.cli train \
-  --features outputs/features.csv \
-  --model-dir outputs/models \
-  --target label \
-  --report outputs/train_report.json
-```
-
-**Option B – stratified train/val/test (recommended when you have limited data):**
-```bash
-python -m src.cli train \
-  --features outputs/features.csv \
-  --model-dir outputs/models \
-  --target label \
-  --split 0.6,0.2,0.2 \
-  --report outputs/train_report.json
-```
-- Fit is on the **train** portion only; **val** and **test** are held out.
-- Saves `outputs/models/splits/train.csv`, `val.csv`, `test.csv` with subject-level rows so the split is reproducible.
-- Report includes train/val/test accuracy, F1, ROC-AUC, and confusion matrices.
-
-- Uses Layer 2 features by default; add `--layer1` to also use Layer 1. Saves model, scaler, and feature schema under `outputs/models/`.
-
-### 4. Predict (per-subject probabilities + explainability)
+### 2. Run Dissociation Analysis
 
 ```bash
-python -m src.cli predict \
-  --features outputs/features.csv \
-  --model-dir outputs/models \
-  --output outputs/predictions.csv \
-  --top-k 5
+python scripts/run_full_analysis.py \
+  --manifest data/manifest_ppa_full.csv \
+  --data-dir /path/to/PPA/enhanced \
+  --pipeline-output-dir data/ppa_pipeline_outputs \
+  --output outputs/ppa_dissociation.csv \
+  --stats-output outputs/ppa_stats.json
 ```
 
-- Outputs `subject_id`, `prob_svPPA`, `predicted`, and top contributing features per subject.
+### 3. Train Classifier
+
+```bash
+# Binary: control vs svPPA
+python scripts/train_dissociation_classifier.py \
+  --features outputs/ppa_dissociation_with_controls.csv \
+  --output outputs/classifier_results.json
+
+# Multi-class: all subtypes
+python scripts/train_multiclass_classifier.py \
+  --features outputs/ppa_dissociation_all.csv
+```
+
+### 4. Validate S_sem Scoring
+
+```bash
+python scripts/validate_s_sem.py
+```
 
 ## Project Structure
 
 ```
-src/
-  config.py         # Paths and model settings (dataclasses)
-  io/
-    dataset.py      # Load manifest, iterate subjects, load audio
-    cache.py       # Disk cache for transcripts/phonetics
-  models/
-    asr.py         # ASR interface + Whisper backend (pluggable)
-    phonetic.py    # Phonetic encoder interface + stub
-  features/
-    layer1.py      # 20 Layer 1 proxy features
-    layer2.py      # 10 Layer 2 constructs from Layer 1
-    utils.py       # spaCy POS, dependency, tokenization helpers
-  train/
-    baseline.py   # Logistic regression train/eval/predict + reporting
-  cli.py          # Entrypoints: preprocess, extract, train, predict
-scripts/          # Optional helper scripts
-requirements.txt
+semantic-evaluation/
+├── src/
+│   ├── cli.py                    # CLI entry points
+│   ├── analyze.py                # Dissociation analysis orchestration
+│   ├── config.py                 # Configuration
+│   ├── features/
+│   │   ├── graph_semantic.py     # S_sem: scene graph scoring
+│   │   ├── phoneme_adequacy.py   # S_ph: phonological adequacy
+│   │   ├── dissociation.py       # Δ computation + statistics
+│   │   ├── layer1.py             # 20 Layer 1 proxy features
+│   │   └── layer2.py             # 10 Layer 2 constructs
+│   ├── pipeline/
+│   │   └── runner.py             # Diarization + ASR + phoneme pipeline
+│   ├── io/                       # Data loading and caching
+│   ├── models/                   # ASR and phonetic interfaces
+│   └── train/                    # Baseline classifier
+├── scripts/
+│   ├── run_full_analysis.py      # Main analysis script
+│   ├── train_dissociation_classifier.py
+│   ├── train_multiclass_classifier.py
+│   ├── run_ablation_study.py
+│   └── validate_s_sem.py
+├── data/
+│   ├── manifest_ppa_full.csv     # Full PPA dataset manifest
+│   ├── graph/picnic_gold_star.json  # Gold scene graph
+│   └── ppa_pipeline_outputs/     # Pipeline outputs (ASR + phonemes)
+├── outputs/
+│   ├── ppa_dissociation_all.csv  # S_sem for all 254 samples
+│   ├── ppa_dissociation_with_controls.csv  # Full features (67 samples)
+│   └── classifier_results_full.json
+├── requirements.txt
+└── README.md
 ```
 
-## Layer 1 (20) and Layer 2 (10)
+## Feature Definitions
 
-- **Layer 1**: WPM, articulation rate, pauses, MLU, clause count, TTR, pronoun ratio, function word omission, dependency completeness, word-finding pause, filled pause frequency, semantic distance to expected entities, etc.
-- **Layer 2**: Reduced speech rate, reduced length/complexity, agrammatism, paragrammatism, anomia, empty speech, semantic paraphasias, phonemic paraphasias (placeholder), self-correction, overall communication impairment. Each is a deterministic score in [0,1] from standardized Layer 1 z-scores (configurable weights).
+### Dissociation Features
+- **S_sem**: Weighted completeness (60% nodes, 30% edges, 10% attributes) vs gold graph
+- **S_ph**: 1 - Phoneme Error Rate (Levenshtein distance between SylWav and G2P)
+- **Δ**: S_ph - S_sem (positive = phonology > semantics)
 
-## Caching and logging
+### Layer 1 (20 features)
+WPM, articulation rate, pause metrics, MLU, TTR, pronoun ratio, function word omission, etc.
 
-- Transcripts and phonetic outputs are stored under `cache_dir/transcripts/` and `cache_dir/phonetics/` keyed by subject and audio path. Re-running preprocess skips existing files unless `--no-skip-existing` is set.
-- Logging goes to stderr; level INFO by default.
+### Layer 2 (10 constructs)
+Reduced speech rate, agrammatism, paragrammatism, anomia, empty speech, semantic/phonemic paraphasias, etc.
 
-## TODOs (marked in code)
+## Statistical Validation
 
-- **Phonetic encoder**: Integrate lab-provided model; stub used when not available.
-- **Semantic distance**: Requires `sentence-transformers` and optional task-level expected entities; otherwise NaN.
-- **Morphological error rate**: Heuristic baseline; TODO for richer rule set.
-
-## Minimal test (feature functions)
-
-**Requires spaCy.** From project root:
-
-```bash
-pip install spacy
-python -m spacy download en_core_web_sm
-python scripts/test_features.py
-```
-
-If spaCy or `en_core_web_sm` is missing, the script prints the install command and exits. The test runs unit-test-style checks on Layer 1/Layer 2 with a small synthetic transcript (no audio).
-
-## Synthetic data (no audio)
-
-To try the full train/predict pipeline without real audio or transcripts:
-
-```bash
-python scripts/generate_synthetic_features.py   # creates outputs/features.csv with 24 synthetic subjects
-python -m src.cli train --features outputs/features.csv --model-dir outputs/models --split 0.6,0.2,0.2
-python -m src.cli predict --features outputs/features.csv --model-dir outputs/models --output outputs/predictions.csv
-```
+Effect sizes (Cliff's δ) for control vs svPPA:
+- S_sem: δ = 0.65 (large)
+- S_ph: δ = 0.79 (large)
+- 100% of svPPA samples show Δ > 0 (mean = 0.209)

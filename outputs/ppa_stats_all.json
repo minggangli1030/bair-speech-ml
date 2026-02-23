@@ -1,0 +1,72 @@
+{
+  "s_sem_comparisons": [
+    {
+      "group_1": "control",
+      "group_2": "svppa",
+      "n_1": 25,
+      "n_2": 42,
+      "u_statistic": 958.5,
+      "p_value": 2.763572391931438e-09,
+      "cliffs_delta": 0.8257142857142857,
+      "effect_size": "large"
+    },
+    {
+      "group_1": "control",
+      "group_2": "lvppa",
+      "n_1": 25,
+      "n_2": 109,
+      "u_statistic": 2367.5,
+      "p_value": 8.286967103969305e-10,
+      "cliffs_delta": 0.7376146788990826,
+      "effect_size": "large"
+    },
+    {
+      "group_1": "control",
+      "group_2": "nfvppa",
+      "n_1": 25,
+      "n_2": 78,
+      "u_statistic": 1569.0,
+      "p_value": 1.7063523776336855e-06,
+      "cliffs_delta": 0.6092307692307692,
+      "effect_size": "large"
+    },
+    {
+      "group_1": "svppa",
+      "group_2": "lvppa",
+      "n_1": 42,
+      "n_2": 109,
+      "u_statistic": 1939.5,
+      "p_value": 0.09652990637841105,
+      "cliffs_delta": -0.1526867627785059,
+      "effect_size": "small"
+    },
+    {
+      "group_1": "svppa",
+      "group_2": "nfvppa",
+      "n_1": 42,
+      "n_2": 78,
+      "u_statistic": 1071.0,
+      "p_value": 0.0006844957768854385,
+      "cliffs_delta": -0.34615384615384615,
+      "effect_size": "medium"
+    },
+    {
+      "group_1": "lvppa",
+      "group_2": "nfvppa",
+      "n_1": 109,
+      "n_2": 78,
+      "u_statistic": 3410.5,
+      "p_value": 0.012290108462070112,
+      "cliffs_delta": -0.19771818395671606,
+      "effect_size": "small"
+    }
+  ],
+  "svppa_dissociation": {
+    "n": 42,
+    "delta_mean": 0.33645252688606514,
+    "delta_std": 0.06775792607186396,
+    "delta_positive_pct": 100.0,
+    "s_ph_mean": 0.3512308520092179,
+    "s_sem_mean": 0.01477832512315271
+  }
+}

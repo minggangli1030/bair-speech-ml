@@ -321,5 +321,35 @@ def predict(
         print("...")
 
 
+@app.command()
+def ppa_pipeline(
+    manifest: Path = typer.Option(Path("data/manifest_ppa_full.csv"), "--manifest", "-m", help="PPA manifest CSV"),
+    data_dir: Path = typer.Option(Path("/data/sarikapasumarthy/data/PPA/enhanced"), "--data-dir", help="Base dir for PPA audio (enhanced folder)"),
+    output_dir: Path = typer.Option(Path("data/ppa_pipeline_outputs"), "--output-dir", "-o", help="Output dir for *_feature_extraction.txt and *.rttm"),
+    audio_column: str = typer.Option("audio_path", "--audio-column"),
+    hf_token: Optional[str] = typer.Option(None, "--hf-token", envvar="HF_TOKEN", help="Hugging Face token for pyannote"),
+    phoneme_code_dir: Optional[Path] = typer.Option(None, "--phoneme-code-dir", envvar="CODE_DIR", help="Path to code repo for SylWav/Chenxu phoneme decoding"),
+    skip_existing: bool = typer.Option(True, "--skip-existing/--no-skip-existing"),
+    max_files: Optional[int] = typer.Option(None, "--max-files", help="Limit number of files (for testing)"),
+) -> None:
+    """
+    Run diarization (pyannote) + ASR (Whisper) + optional phoneme on PPA manifest.
+    Writes *_feature_extraction.txt per file. Set CODE_DIR to enable phoneme decoding.
+    """
+    from src.pipeline.runner import run_pipeline_on_manifest
+    run_pipeline_on_manifest(
+        manifest_path=manifest,
+        data_dir=data_dir,
+        output_dir=output_dir,
+        audio_column=audio_column,
+        hf_token=hf_token,
+        phoneme_code_dir=str(phoneme_code_dir) if phoneme_code_dir else None,
+        skip_existing=skip_existing,
+        max_files=max_files,
+        verbose=True,
+    )
+    logger.info("PPA pipeline done. Outputs in %s", output_dir)
+
+
 if __name__ == "__main__":
     app()

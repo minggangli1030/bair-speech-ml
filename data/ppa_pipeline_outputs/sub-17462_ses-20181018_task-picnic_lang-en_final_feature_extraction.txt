@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17462_ses-20181018_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:04.739     Clinician    4.71      s The man and the wife are having a picnic in their  DH IY M AE N IH N IY W AY F ER HH AE V IH N IH SIL P IH SIL K SIL N EH IH SIL K SIL IH SIL IH N DH EH ER R F R AH EH N SIL Y AA R ER SIL D IH
+2    00:06.561 → 00:17.969     Clinician    11.41     s The wind is blowing. The boy, I'm assuming it's th DH EY IY Y W IH N SIL D IH Z SIL B L OW IY N DH AH SIL SIL B OY SIL AE M AH S UW M IH N IH SIL S DH ER SIL B OY HH IH Z S F L AY N EY SIL K AY EY SIL T AE N D IH Z SIL D AA SIL G IH Z S SIL P L EY IY NG N SIL B AY IH S F IY SIL T P DH EH R IH S AH M W AH N D F
+3    00:17.969 → 00:19.808     Participant  1.84      s Fishing on a dark.                                 F IH SH IY N AH SIL AA N SIL AH SIL D AA SIL K
+4    00:21.040 → 00:50.014     Participant  28.97     s There is a boy playing on the beach by the water,  DH EH ER SIL IH S EY IH SIL P B OY EY SIL P L EY N AA N DH IH SIL B IY SIL CH SIL B AY DH AH OW W AA DX ER SIL N DH EH R ER SIL AA R ER SIL T UW SIL P Y IY SIL P L IH N AH SIL B OW SIL T AH F L AE SIL G HH AW SIL CH SH SIL R IY N ER SIL T CH T R IY Z S IH N AH SIL B AE SIL K R AW N SIL D AH AH M SIL AH R EY DX IY OW W IH Z S SIL P L AY EY N DH AH M AE N HH AE EH Z IH SH S AE N SIL D L Z AA F SIL F SIL DH AH W AH M IH N IH Z S SIL P AA R EY IY NG N K AA F IY AA R S AH M N SIL JH R IH NG SIL K IH DH AH M AE N IH Z R IY DX IY N AH SIL B UH SIL K IH DH ER IH Z S IH SIL K AA R ER SIL IH N M DH AH SIL SIL SIL T R AY V W OY EY
+5    00:51.465 → 00:53.828     Participant  2.36      s And that's pretty much it.                         IY N EH SIL S SIL P R DX IH M AH IH SIL CH SH EH N SIL T
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:04.739 (4.71s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: The man and the wife are having a picnic in their front yard.
+  Phonemic Encoding: DH IY M AE N IH N IY W AY F ER HH AE V IH N IH SIL P IH SIL K SIL N EH IH SIL K SIL IH SIL IH N DH EH ER R F R AH EH N SIL Y AA R ER SIL D IH
+
+Segment 2:
+  Timestamp: 00:06.561 - 00:17.969 (11.41s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: The wind is blowing. The boy, I'm assuming it's their boy, is flying a kite and his dog is playing by his feet. There is someone.
+  Phonemic Encoding: DH EY IY Y W IH N SIL D IH Z SIL B L OW IY N DH AH SIL SIL B OY SIL AE M AH S UW M IH N IH SIL S DH ER SIL B OY HH IH Z S F L AY N EY SIL K AY EY SIL T AE N D IH Z SIL D AA SIL G IH Z S SIL P L EY IY NG N SIL B AY IH S F IY SIL T P DH EH R IH S AH M W AH N D F
+
+Segment 3:
+  Timestamp: 00:17.969 - 00:19.808 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Fishing on a dark.
+  Phonemic Encoding: F IH SH IY N AH SIL AA N SIL AH SIL D AA SIL K
+
+Segment 4:
+  Timestamp: 00:21.040 - 00:50.014 (28.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a boy playing on the beach by the water, and there are two people in a boat. A flaghouse tree, there are trees in the background, a radio is playing. The man has his sandals off, the woman is pouring coffee or some drink. The man is reading a book. There is a car in the driveway.
+  Phonemic Encoding: DH EH ER SIL IH S EY IH SIL P B OY EY SIL P L EY N AA N DH IH SIL B IY SIL CH SIL B AY DH AH OW W AA DX ER SIL N DH EH R ER SIL AA R ER SIL T UW SIL P Y IY SIL P L IH N AH SIL B OW SIL T AH F L AE SIL G HH AW SIL CH SH SIL R IY N ER SIL T CH T R IY Z S IH N AH SIL B AE SIL K R AW N SIL D AH AH M SIL AH R EY DX IY OW W IH Z S SIL P L AY EY N DH AH M AE N HH AE EH Z IH SH S AE N SIL D L Z AA F SIL F SIL DH AH W AH M IH N IH Z S SIL P AA R EY IY NG N K AA F IY AA R S AH M N SIL JH R IH NG SIL K IH DH AH M AE N IH Z R IY DX IY N AH SIL B UH SIL K IH DH ER IH Z S IH SIL K AA R ER SIL IH N M DH AH SIL SIL SIL T R AY V W OY EY
+
+Segment 5:
+  Timestamp: 00:51.465 - 00:53.828 (2.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And that's pretty much it.
+  Phonemic Encoding: IY N EH SIL S SIL P R DX IH M AH IH SIL CH SH EH N SIL T
