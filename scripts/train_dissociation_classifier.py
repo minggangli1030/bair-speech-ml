@@ -135,7 +135,12 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("outputs/classifier_results.json"))
     parser.add_argument("--cv-folds", type=int, default=5)
     parser.add_argument("--binary", action="store_true", default=True,
-                        help="Binary classification: svPPA (1) vs rest (0)")
+                        help="Binary classification (used when --task control_vs_svppa)")
+    parser.add_argument("--task", type=str, default="control_vs_svppa",
+                        choices=["control_vs_svppa", "sv_vs_nflf"],
+                        help="control_vs_svppa: control(0) vs svPPA(1). sv_vs_nflf: among PPA only, svPPA(1) vs nfv+lv(0)")
+    parser.add_argument("--simulated-csv", type=Path, default=None,
+                        help="Optional: simulated svPPA samples CSV to merge for sv_vs_nflf (augment svPPA)")
     args = parser.parse_args()
     
     df = load_features(args.features, args.layer2_features)
@@ -143,9 +148,24 @@ def main():
     # Filter to samples with valid labels and at least S_sem
     df = df[df["label"].notna() & df["s_sem"].notna()]
     
-    # Binary: svPPA (label=1) vs control (label=0); for multi-class, use label directly
-    if args.binary:
-        # Keep only control (0) and svPPA (1)
+    if args.task == "sv_vs_nflf":
+        # PPA only: svPPA (1) vs nfvPPA+lvPPA (0). Optionally merge simulated svPPA.
+        df = df[df["subtype"].isin(["svppa", "nfvppa", "lvppa"])].copy()
+        df["binary_label"] = (df["subtype"] == "svppa").astype(int)
+        if args.simulated_csv and args.simulated_csv.exists():
+            sim = pd.read_csv(args.simulated_csv)
+            sim = sim.dropna(subset=["s_ph", "s_sem"])
+            sim["binary_label"] = 1
+            sim["subtype"] = "simulated_svppa"
+            for c in df.columns:
+                if c not in sim.columns:
+                    sim[c] = np.nan
+            df = pd.concat([df, sim[df.columns]], ignore_index=True)
+            print(f"Merged {len(sim)} simulated svPPA samples")
+        y = df["binary_label"].astype(int).values
+        df = df.copy()
+        df["label"] = y  # so downstream df_with_sph["label"] etc. work
+    elif args.task == "control_vs_svppa" and args.binary:
         df = df[df["label"].isin([0, 1])]
         y = df["label"].astype(int).values
     else:
@@ -222,7 +242,9 @@ def main():
             results.append(r6)
             print(f"6. Layer 2 + Dissociation: Acc={r6['accuracy']:.3f} Prec={r6.get('precision',0):.3f} Rec={r6.get('recall',0):.3f} F1={r6['f1']:.3f}")
     
-    # Statistical comparison: S_sem between groups
+    # Statistical comparison
+    g0_name = "nflf" if args.task == "sv_vs_nflf" else "control"
+    g1_name = "svppa"
     print("\n" + "="*60)
     print("STATISTICAL COMPARISONS")
     print("="*60)
@@ -230,12 +252,11 @@ def main():
     for feat in ["s_sem", "s_ph", "delta"]:
         if feat not in df.columns:
             continue
-        for label_val, label_name in [(0, "control"), (1, "svppa")]:
+        for label_val, label_name in [(0, g0_name), (1, g1_name)]:
             vals = df[df["label"] == label_val][feat].dropna()
             if len(vals) > 0:
                 print(f"{feat} ({label_name}): n={len(vals)}, mean={vals.mean():.3f}, std={vals.std():.3f}")
     
-    # Pairwise comparison
     if 0 in df["label"].values and 1 in df["label"].values:
         for feat in ["s_sem", "s_ph", "delta"]:
             if feat not in df.columns:
@@ -245,7 +266,7 @@ def main():
             if len(v0) >= 2 and len(v1) >= 2:
                 u, p = mann_whitney_u(v0, v1)
                 d = cliffs_delta(v0, v1)
-                print(f"\n{feat} (control vs svppa): U={u:.1f}, p={p:.6f}, δ={d:.3f} ({interpret_cliffs_delta(d)})")
+                print(f"\n{feat} ({g0_name} vs {g1_name}): U={u:.1f}, p={p:.6f}, δ={d:.3f} ({interpret_cliffs_delta(d)})")
     
     # Save results
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -255,7 +276,10 @@ def main():
     
     # Summary table
     print("\n" + "="*70)
-    print("SUMMARY: Classification Results (control vs svPPA)")
+    title = f"SUMMARY: {g0_name} vs {g1_name}"
+    if args.simulated_csv and args.simulated_csv.exists() and args.task == "sv_vs_nflf":
+        title += " (with simulated svPPA augmentation)"
+    print(title)
     print("="*70)
     print(f"{'Model':<28} {'N':>4} {'Acc':>6} {'Prec':>6} {'Rec':>6} {'F1':>6} {'AUC':>6}")
     print("-"*70)

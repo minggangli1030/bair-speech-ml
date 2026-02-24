@@ -1,0 +1,572 @@
+{
+  "n_svppa": 42,
+  "n_nflv": 187,
+  "results": [
+    {
+      "model": "S_ph_S_sem_LR",
+      "features": [
+        "s_ph",
+        "s_sem"
+      ],
+      "n_features": 2,
+      "accuracy": 0.519650655021834,
+      "f1": 0.27631578947368424,
+      "roc_auc": 0.49146931499872676,
+      "mann_whitney_u": 3860.0,
+      "p_value": 0.8639117110407932,
+      "cliffs_delta": -0.017061370002546473,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "S_ph_S_sem_RF",
+      "features": [
+        "s_ph",
+        "s_sem"
+      ],
+      "n_features": 2,
+      "accuracy": 0.7554585152838428,
+      "f1": 0.2631578947368421,
+      "roc_auc": 0.6094346829640946,
+      "mann_whitney_u": 4786.5,
+      "p_value": 0.026829291029413317,
+      "cliffs_delta": 0.21886936592818945,
+      "effect_size": "small"
+    },
+    {
+      "model": "S_ph_S_sem_graph_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph"
+      ],
+      "n_features": 3,
+      "accuracy": 0.5021834061135371,
+      "f1": 0.2597402597402597,
+      "roc_auc": 0.5398523045581869,
+      "mann_whitney_u": 4240.0,
+      "p_value": 0.42056786646632927,
+      "cliffs_delta": 0.07970460911637382,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "S_ph_S_sem_graph_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph"
+      ],
+      "n_features": 3,
+      "accuracy": 0.74235807860262,
+      "f1": 0.25316455696202533,
+      "roc_auc": 0.5741023682200153,
+      "mann_whitney_u": 4509.0,
+      "p_value": 0.1339368092873029,
+      "cliffs_delta": 0.14820473644003057,
+      "effect_size": "small"
+    },
+    {
+      "model": "S_ph_S_sem_Delta_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta"
+      ],
+      "n_features": 3,
+      "accuracy": 0.519650655021834,
+      "f1": 0.27631578947368424,
+      "roc_auc": 0.49312452253628725,
+      "mann_whitney_u": 3873.0,
+      "p_value": 0.8903267848929222,
+      "cliffs_delta": -0.013750954927425516,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "S_ph_S_sem_Delta_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta"
+      ],
+      "n_features": 3,
+      "accuracy": 0.7248908296943232,
+      "f1": 0.2222222222222222,
+      "roc_auc": 0.5583778966131908,
+      "mann_whitney_u": 4385.5,
+      "p_value": 0.2378215135913725,
+      "cliffs_delta": 0.11675579322638147,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "S_ph_S_sem_graph_Delta_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta"
+      ],
+      "n_features": 4,
+      "accuracy": 0.5021834061135371,
+      "f1": 0.2597402597402597,
+      "roc_auc": 0.5409982174688056,
+      "mann_whitney_u": 4249.0,
+      "p_value": 0.4073120991611038,
+      "cliffs_delta": 0.08199643493761141,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "S_ph_S_sem_graph_Delta_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta"
+      ],
+      "n_features": 4,
+      "accuracy": 0.7510917030567685,
+      "f1": 0.24,
+      "roc_auc": 0.551693404634581,
+      "mann_whitney_u": 4333.0,
+      "p_value": 0.2959604049684371,
+      "cliffs_delta": 0.10338680926916222,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "+Acoustic_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio"
+      ],
+      "n_features": 5,
+      "accuracy": 0.5982532751091703,
+      "f1": 0.31343283582089554,
+      "roc_auc": 0.6201935319582378,
+      "mann_whitney_u": 4871.0,
+      "p_value": 0.015025090674231906,
+      "cliffs_delta": 0.24038706391647569,
+      "effect_size": "small"
+    },
+    {
+      "model": "+Acoustic_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio"
+      ],
+      "n_features": 5,
+      "accuracy": 0.7947598253275109,
+      "f1": 0.3380281690140845,
+      "roc_auc": 0.5416348357524828,
+      "mann_whitney_u": 4254.0,
+      "p_value": 0.40005645000201184,
+      "cliffs_delta": 0.08326967150496563,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "+Acoustic_graph_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio"
+      ],
+      "n_features": 6,
+      "accuracy": 0.6200873362445415,
+      "f1": 0.33587786259541985,
+      "roc_auc": 0.6466768525592055,
+      "mann_whitney_u": 5079.0,
+      "p_value": 0.002998689618550434,
+      "cliffs_delta": 0.293353705118411,
+      "effect_size": "small"
+    },
+    {
+      "model": "+Acoustic_graph_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio"
+      ],
+      "n_features": 6,
+      "accuracy": 0.7816593886462883,
+      "f1": 0.3055555555555556,
+      "roc_auc": 0.5455818691112809,
+      "mann_whitney_u": 4285.0,
+      "p_value": 0.35683143832587927,
+      "cliffs_delta": 0.09116373822256175,
+      "effect_size": "negligible"
+    },
+    {
+      "model": "+L2_semantic_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias"
+      ],
+      "n_features": 6,
+      "accuracy": 0.5938864628820961,
+      "f1": 0.3841059602649007,
+      "roc_auc": 0.6493506493506495,
+      "mann_whitney_u": 5100.0,
+      "p_value": 0.0025111258049051524,
+      "cliffs_delta": 0.2987012987012987,
+      "effect_size": "small"
+    },
+    {
+      "model": "+L2_semantic_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias"
+      ],
+      "n_features": 6,
+      "accuracy": 0.7685589519650655,
+      "f1": 0.15873015873015872,
+      "roc_auc": 0.607843137254902,
+      "mann_whitney_u": 4774.0,
+      "p_value": 0.02912674849790003,
+      "cliffs_delta": 0.21568627450980393,
+      "effect_size": "small"
+    },
+    {
+      "model": "+L2_gram_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 5,
+      "accuracy": 0.6681222707423581,
+      "f1": 0.3968253968253968,
+      "roc_auc": 0.6154825566590273,
+      "mann_whitney_u": 4834.0,
+      "p_value": 0.019469880858893226,
+      "cliffs_delta": 0.2309651133180545,
+      "effect_size": "small"
+    },
+    {
+      "model": "+L2_gram_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 5,
+      "accuracy": 0.8034934497816594,
+      "f1": 0.3835616438356164,
+      "roc_auc": 0.7289279348102877,
+      "mann_whitney_u": 5725.0,
+      "p_value": 3.6062216952985214e-06,
+      "cliffs_delta": 0.4578558696205755,
+      "effect_size": "medium"
+    },
+    {
+      "model": "+L2_all_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 13,
+      "accuracy": 0.6768558951965066,
+      "f1": 0.4393939393939394,
+      "roc_auc": 0.7177234530175708,
+      "mann_whitney_u": 5637.0,
+      "p_value": 1.0526803880128512e-05,
+      "cliffs_delta": 0.43544690603514136,
+      "effect_size": "medium"
+    },
+    {
+      "model": "+L2_all_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 13,
+      "accuracy": 0.8078602620087336,
+      "f1": 0.2903225806451613,
+      "roc_auc": 0.7245989304812834,
+      "mann_whitney_u": 5691.0,
+      "p_value": 5.487296499975397e-06,
+      "cliffs_delta": 0.44919786096256686,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_clinical_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 10,
+      "accuracy": 0.6506550218340611,
+      "f1": 0.42028985507246375,
+      "roc_auc": 0.7130124777183601,
+      "mann_whitney_u": 5600.0,
+      "p_value": 1.627416072492743e-05,
+      "cliffs_delta": 0.42602495543672014,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_clinical_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 10,
+      "accuracy": 0.8209606986899564,
+      "f1": 0.36923076923076925,
+      "roc_auc": 0.7207155589508529,
+      "mann_whitney_u": 5660.5,
+      "p_value": 7.945743517156896e-06,
+      "cliffs_delta": 0.44143111790170614,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_clinical_graph_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 11,
+      "accuracy": 0.6637554585152838,
+      "f1": 0.42962962962962964,
+      "roc_auc": 0.7103386809269162,
+      "mann_whitney_u": 5579.0,
+      "p_value": 2.075865639867022e-05,
+      "cliffs_delta": 0.4206773618538324,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_clinical_graph_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_agrammatism",
+        "l2_reduced_speech_rate"
+      ],
+      "n_features": 11,
+      "accuracy": 0.8165938864628821,
+      "f1": 0.3225806451612903,
+      "roc_auc": 0.7097020626432392,
+      "mann_whitney_u": 5574.0,
+      "p_value": 2.1987620462581278e-05,
+      "cliffs_delta": 0.41940412528647825,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_all_L2_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 15,
+      "accuracy": 0.6855895196506551,
+      "f1": 0.4461538461538462,
+      "roc_auc": 0.7308377896613191,
+      "mann_whitney_u": 5740.0,
+      "p_value": 2.989623934228508e-06,
+      "cliffs_delta": 0.46167557932263814,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_all_L2_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 15,
+      "accuracy": 0.8078602620087336,
+      "f1": 0.21428571428571427,
+      "roc_auc": 0.7247262541380189,
+      "mann_whitney_u": 5692.0,
+      "p_value": 5.420511016764098e-06,
+      "cliffs_delta": 0.44945250827603767,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_all_L2_graph_LR",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 16,
+      "accuracy": 0.6812227074235808,
+      "f1": 0.44274809160305345,
+      "roc_auc": 0.7324929971988796,
+      "mann_whitney_u": 5753.0,
+      "p_value": 2.5381923218234173e-06,
+      "cliffs_delta": 0.4649859943977591,
+      "effect_size": "medium"
+    },
+    {
+      "model": "Full_all_L2_graph_RF",
+      "features": [
+        "s_ph",
+        "s_sem",
+        "s_sem_graph",
+        "delta",
+        "phoneme_error_rate",
+        "silence_ratio",
+        "l2_reduced_speech_rate",
+        "l2_reduced_length_complexity",
+        "l2_agrammatism",
+        "l2_paragrammatism",
+        "l2_anomia",
+        "l2_empty_speech",
+        "l2_semantic_paraphasias",
+        "l2_phonemic_paraphasias_neologisms",
+        "l2_self_correction",
+        "l2_overall_communication_impairment"
+      ],
+      "n_features": 16,
+      "accuracy": 0.8209606986899564,
+      "f1": 0.2807017543859649,
+      "roc_auc": 0.7344665138782785,
+      "mann_whitney_u": 5768.5,
+      "p_value": 2.085146382998172e-06,
+      "cliffs_delta": 0.46893302775655715,
+      "effect_size": "medium"
+    }
+  ],
+  "best_p_value": 2.085146382998172e-06,
+  "best_result": {
+    "model": "Full_all_L2_graph_RF",
+    "features": [
+      "s_ph",
+      "s_sem",
+      "s_sem_graph",
+      "delta",
+      "phoneme_error_rate",
+      "silence_ratio",
+      "l2_reduced_speech_rate",
+      "l2_reduced_length_complexity",
+      "l2_agrammatism",
+      "l2_paragrammatism",
+      "l2_anomia",
+      "l2_empty_speech",
+      "l2_semantic_paraphasias",
+      "l2_phonemic_paraphasias_neologisms",
+      "l2_self_correction",
+      "l2_overall_communication_impairment"
+    ],
+    "n_features": 16,
+    "accuracy": 0.8209606986899564,
+    "f1": 0.2807017543859649,
+    "roc_auc": 0.7344665138782785,
+    "mann_whitney_u": 5768.5,
+    "p_value": 2.085146382998172e-06,
+    "cliffs_delta": 0.46893302775655715,
+    "effect_size": "medium"
+  }
+}
