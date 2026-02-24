@@ -1,0 +1,734 @@
+{
+  "text": " There's a tree, there's a picnic table, a picnic, there's a picnic going on and there's a guy up fine kite and there's a dog and there's boats and there's a bucket in the sand and there's a dog and there's a car and there's a hill and there's a flag and that's all it.",
+  "words": [
+    {
+      "word": "There's",
+      "start": 0.0,
+      "end": 0.84
+    },
+    {
+      "word": "a",
+      "start": 0.84,
+      "end": 0.94
+    },
+    {
+      "word": "tree,",
+      "start": 0.94,
+      "end": 1.54
+    },
+    {
+      "word": "there's",
+      "start": 2.38,
+      "end": 2.84
+    },
+    {
+      "word": "a",
+      "start": 2.84,
+      "end": 2.94
+    },
+    {
+      "word": "picnic",
+      "start": 2.94,
+      "end": 3.7
+    },
+    {
+      "word": "table,",
+      "start": 3.7,
+      "end": 4.36
+    },
+    {
+      "word": "a",
+      "start": 4.54,
+      "end": 4.68
+    },
+    {
+      "word": "picnic,",
+      "start": 4.68,
+      "end": 5.14
+    },
+    {
+      "word": "there's",
+      "start": 5.44,
+      "end": 7.88
+    },
+    {
+      "word": "a",
+      "start": 7.88,
+      "end": 7.88
+    },
+    {
+      "word": "picnic",
+      "start": 7.88,
+      "end": 13.02
+    },
+    {
+      "word": "going",
+      "start": 13.02,
+      "end": 13.36
+    },
+    {
+      "word": "on",
+      "start": 13.36,
+      "end": 13.84
+    },
+    {
+      "word": "and",
+      "start": 13.84,
+      "end": 15.0
+    },
+    {
+      "word": "there's",
+      "start": 15.0,
+      "end": 15.22
+    },
+    {
+      "word": "a",
+      "start": 15.22,
+      "end": 15.34
+    },
+    {
+      "word": "guy",
+      "start": 15.34,
+      "end": 15.54
+    },
+    {
+      "word": "up",
+      "start": 15.54,
+      "end": 15.78
+    },
+    {
+      "word": "fine",
+      "start": 15.78,
+      "end": 16.02
+    },
+    {
+      "word": "kite",
+      "start": 16.02,
+      "end": 16.52
+    },
+    {
+      "word": "and",
+      "start": 16.52,
+      "end": 17.86
+    },
+    {
+      "word": "there's",
+      "start": 17.86,
+      "end": 18.1
+    },
+    {
+      "word": "a",
+      "start": 18.1,
+      "end": 18.2
+    },
+    {
+      "word": "dog",
+      "start": 18.2,
+      "end": 18.6
+    },
+    {
+      "word": "and",
+      "start": 18.6,
+      "end": 19.92
+    },
+    {
+      "word": "there's",
+      "start": 19.92,
+      "end": 20.18
+    },
+    {
+      "word": "boats",
+      "start": 20.18,
+      "end": 20.64
+    },
+    {
+      "word": "and",
+      "start": 20.64,
+      "end": 21.88
+    },
+    {
+      "word": "there's",
+      "start": 21.88,
+      "end": 22.22
+    },
+    {
+      "word": "a",
+      "start": 22.22,
+      "end": 22.56
+    },
+    {
+      "word": "bucket",
+      "start": 22.56,
+      "end": 25.08
+    },
+    {
+      "word": "in",
+      "start": 25.08,
+      "end": 25.46
+    },
+    {
+      "word": "the",
+      "start": 25.46,
+      "end": 25.64
+    },
+    {
+      "word": "sand",
+      "start": 25.64,
+      "end": 26.0
+    },
+    {
+      "word": "and",
+      "start": 26.0,
+      "end": 26.42
+    },
+    {
+      "word": "there's",
+      "start": 26.42,
+      "end": 26.7
+    },
+    {
+      "word": "a",
+      "start": 26.7,
+      "end": 26.8
+    },
+    {
+      "word": "dog",
+      "start": 26.8,
+      "end": 27.24
+    },
+    {
+      "word": "and",
+      "start": 27.24,
+      "end": 28.72
+    },
+    {
+      "word": "there's",
+      "start": 28.72,
+      "end": 28.98
+    },
+    {
+      "word": "a",
+      "start": 28.98,
+      "end": 29.08
+    },
+    {
+      "word": "car",
+      "start": 29.08,
+      "end": 29.54
+    },
+    {
+      "word": "and",
+      "start": 29.54,
+      "end": 30.7
+    },
+    {
+      "word": "there's",
+      "start": 30.7,
+      "end": 34.06
+    },
+    {
+      "word": "a",
+      "start": 34.06,
+      "end": 34.16
+    },
+    {
+      "word": "hill",
+      "start": 34.16,
+      "end": 34.44
+    },
+    {
+      "word": "and",
+      "start": 34.44,
+      "end": 35.28
+    },
+    {
+      "word": "there's",
+      "start": 35.28,
+      "end": 35.5
+    },
+    {
+      "word": "a",
+      "start": 35.5,
+      "end": 35.58
+    },
+    {
+      "word": "flag",
+      "start": 35.58,
+      "end": 35.96
+    },
+    {
+      "word": "and",
+      "start": 35.96,
+      "end": 37.8
+    },
+    {
+      "word": "that's",
+      "start": 37.8,
+      "end": 40.96
+    },
+    {
+      "word": "all",
+      "start": 40.96,
+      "end": 41.06
+    },
+    {
+      "word": "it.",
+      "start": 41.06,
+      "end": 41.3
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 15.22,
+      "text": " There's a tree, there's a picnic table, a picnic, there's a picnic going on and there's",
+      "tokens": [
+        50364,
+        821,
+        311,
+        257,
+        4230,
+        11,
+        456,
+        311,
+        257,
+        32137,
+        3199,
+        11,
+        257,
+        32137,
+        11,
+        456,
+        311,
+        257,
+        32137,
+        516,
+        322,
+        293,
+        456,
+        311,
+        51124
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29762883279837815,
+      "compression_ratio": 1.881720430107527,
+      "no_speech_prob": 0.16800116002559662,
+      "words": [
+        {
+          "word": " There's",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.841640055179596
+        },
+        {
+          "word": " a",
+          "start": 0.84,
+          "end": 0.94,
+          "probability": 0.9834012985229492
+        },
+        {
+          "word": " tree,",
+          "start": 0.94,
+          "end": 1.54,
+          "probability": 0.9941097497940063
+        },
+        {
+          "word": " there's",
+          "start": 2.38,
+          "end": 2.84,
+          "probability": 0.9170522391796112
+        },
+        {
+          "word": " a",
+          "start": 2.84,
+          "end": 2.94,
+          "probability": 0.9754766821861267
+        },
+        {
+          "word": " picnic",
+          "start": 2.94,
+          "end": 3.7,
+          "probability": 0.7695805430412292
+        },
+        {
+          "word": " table,",
+          "start": 3.7,
+          "end": 4.36,
+          "probability": 0.9645506143569946
+        },
+        {
+          "word": " a",
+          "start": 4.54,
+          "end": 4.68,
+          "probability": 0.44751936197280884
+        },
+        {
+          "word": " picnic,",
+          "start": 4.68,
+          "end": 5.14,
+          "probability": 0.9971964359283447
+        },
+        {
+          "word": " there's",
+          "start": 5.44,
+          "end": 7.88,
+          "probability": 0.6896821409463882
+        },
+        {
+          "word": " a",
+          "start": 7.88,
+          "end": 7.88,
+          "probability": 0.654528021812439
+        },
+        {
+          "word": " picnic",
+          "start": 7.88,
+          "end": 13.02,
+          "probability": 0.9955623149871826
+        },
+        {
+          "word": " going",
+          "start": 13.02,
+          "end": 13.36,
+          "probability": 0.36657750606536865
+        },
+        {
+          "word": " on",
+          "start": 13.36,
+          "end": 13.84,
+          "probability": 0.9967595934867859
+        },
+        {
+          "word": " and",
+          "start": 13.84,
+          "end": 15.0,
+          "probability": 0.3847319483757019
+        },
+        {
+          "word": " there's",
+          "start": 15.0,
+          "end": 15.22,
+          "probability": 0.9926912784576416
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 15.22,
+      "end": 26.0,
+      "text": " a guy up fine kite and there's a dog and there's boats and there's a bucket in the sand",
+      "tokens": [
+        51124,
+        257,
+        2146,
+        493,
+        2489,
+        38867,
+        293,
+        456,
+        311,
+        257,
+        3000,
+        293,
+        456,
+        311,
+        17772,
+        293,
+        456,
+        311,
+        257,
+        13058,
+        294,
+        264,
+        4932,
+        51678
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29762883279837815,
+      "compression_ratio": 1.881720430107527,
+      "no_speech_prob": 0.16800116002559662,
+      "words": [
+        {
+          "word": " a",
+          "start": 15.22,
+          "end": 15.34,
+          "probability": 0.9971038699150085
+        },
+        {
+          "word": " guy",
+          "start": 15.34,
+          "end": 15.54,
+          "probability": 0.916891872882843
+        },
+        {
+          "word": " up",
+          "start": 15.54,
+          "end": 15.78,
+          "probability": 0.24208787083625793
+        },
+        {
+          "word": " fine",
+          "start": 15.78,
+          "end": 16.02,
+          "probability": 0.26283442974090576
+        },
+        {
+          "word": " kite",
+          "start": 16.02,
+          "end": 16.52,
+          "probability": 0.8756650686264038
+        },
+        {
+          "word": " and",
+          "start": 16.52,
+          "end": 17.86,
+          "probability": 0.8015174865722656
+        },
+        {
+          "word": " there's",
+          "start": 17.86,
+          "end": 18.1,
+          "probability": 0.990958958864212
+        },
+        {
+          "word": " a",
+          "start": 18.1,
+          "end": 18.2,
+          "probability": 0.9967336654663086
+        },
+        {
+          "word": " dog",
+          "start": 18.2,
+          "end": 18.6,
+          "probability": 0.9948563575744629
+        },
+        {
+          "word": " and",
+          "start": 18.6,
+          "end": 19.92,
+          "probability": 0.9051845669746399
+        },
+        {
+          "word": " there's",
+          "start": 19.92,
+          "end": 20.18,
+          "probability": 0.9924844801425934
+        },
+        {
+          "word": " boats",
+          "start": 20.18,
+          "end": 20.64,
+          "probability": 0.8818420171737671
+        },
+        {
+          "word": " and",
+          "start": 20.64,
+          "end": 21.88,
+          "probability": 0.9433373212814331
+        },
+        {
+          "word": " there's",
+          "start": 21.88,
+          "end": 22.22,
+          "probability": 0.9906830489635468
+        },
+        {
+          "word": " a",
+          "start": 22.22,
+          "end": 22.56,
+          "probability": 0.9678295254707336
+        },
+        {
+          "word": " bucket",
+          "start": 22.56,
+          "end": 25.08,
+          "probability": 0.7304323315620422
+        },
+        {
+          "word": " in",
+          "start": 25.08,
+          "end": 25.46,
+          "probability": 0.9980906844139099
+        },
+        {
+          "word": " the",
+          "start": 25.46,
+          "end": 25.64,
+          "probability": 0.996665894985199
+        },
+        {
+          "word": " sand",
+          "start": 25.64,
+          "end": 26.0,
+          "probability": 0.9966946840286255
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2600,
+      "start": 26.0,
+      "end": 41.3,
+      "text": " and there's a dog and there's a car and there's a hill and there's a flag and that's all it.",
+      "tokens": [
+        50364,
+        293,
+        456,
+        311,
+        257,
+        3000,
+        293,
+        456,
+        311,
+        257,
+        1032,
+        293,
+        456,
+        311,
+        257,
+        10997,
+        293,
+        456,
+        311,
+        257,
+        7166,
+        293,
+        300,
+        311,
+        439,
+        309,
+        13,
+        51120
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30477615882610454,
+      "compression_ratio": 1.7037037037037037,
+      "no_speech_prob": 0.02470947429537773,
+      "words": [
+        {
+          "word": " and",
+          "start": 26.0,
+          "end": 26.42,
+          "probability": 0.4832598567008972
+        },
+        {
+          "word": " there's",
+          "start": 26.42,
+          "end": 26.7,
+          "probability": 0.9430464208126068
+        },
+        {
+          "word": " a",
+          "start": 26.7,
+          "end": 26.8,
+          "probability": 0.9867581725120544
+        },
+        {
+          "word": " dog",
+          "start": 26.8,
+          "end": 27.24,
+          "probability": 0.9855308532714844
+        },
+        {
+          "word": " and",
+          "start": 27.24,
+          "end": 28.72,
+          "probability": 0.6381528377532959
+        },
+        {
+          "word": " there's",
+          "start": 28.72,
+          "end": 28.98,
+          "probability": 0.986360102891922
+        },
+        {
+          "word": " a",
+          "start": 28.98,
+          "end": 29.08,
+          "probability": 0.9958457350730896
+        },
+        {
+          "word": " car",
+          "start": 29.08,
+          "end": 29.54,
+          "probability": 0.9961391091346741
+        },
+        {
+          "word": " and",
+          "start": 29.54,
+          "end": 30.7,
+          "probability": 0.7263256907463074
+        },
+        {
+          "word": " there's",
+          "start": 30.7,
+          "end": 34.06,
+          "probability": 0.7711328268051147
+        },
+        {
+          "word": " a",
+          "start": 34.06,
+          "end": 34.16,
+          "probability": 0.9637306928634644
+        },
+        {
+          "word": " hill",
+          "start": 34.16,
+          "end": 34.44,
+          "probability": 0.43392711877822876
+        },
+        {
+          "word": " and",
+          "start": 34.44,
+          "end": 35.28,
+          "probability": 0.9395031929016113
+        },
+        {
+          "word": " there's",
+          "start": 35.28,
+          "end": 35.5,
+          "probability": 0.9926932454109192
+        },
+        {
+          "word": " a",
+          "start": 35.5,
+          "end": 35.58,
+          "probability": 0.9959343671798706
+        },
+        {
+          "word": " flag",
+          "start": 35.58,
+          "end": 35.96,
+          "probability": 0.9835929870605469
+        },
+        {
+          "word": " and",
+          "start": 35.96,
+          "end": 37.8,
+          "probability": 0.7644942998886108
+        },
+        {
+          "word": " that's",
+          "start": 37.8,
+          "end": 40.96,
+          "probability": 0.9898780584335327
+        },
+        {
+          "word": " all",
+          "start": 40.96,
+          "end": 41.06,
+          "probability": 0.8563343286514282
+        },
+        {
+          "word": " it.",
+          "start": 41.06,
+          "end": 41.3,
+          "probability": 0.5756851434707642
+        }
+      ]
+    }
+  ]
+}

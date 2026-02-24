@@ -23,7 +23,7 @@ COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
 7    00:12.805 → 00:15.741     Participant  2.94      s I see a person on a pier like                      AY S IY SIL AH SIL P ER S IH N SIL AA N AH SIL P HH IH ER L AY SIL
 8    00:17.648 → 00:19.268     Participant  1.62      s I see a radio.                                     AY S IY IH AH R EY DX IY Y OW L
 9    00:19.892 → 00:25.866     Participant  5.97      s I see a picnic basket, I see a man reading, I see  AY S IY IH SIL P IH SIL K N IH SIL B AE S SIL K EH DX AY S IY IH AH M AE N R IY DX IY NG SIL SIL AY S IY IH AH W AH M W IH N AA R IY NG
-10   00:26.322 → 00:27.959     Participant  1.64      s Oh, well.                                          M AH L IH SIL K W IH SIL
+10   00:26.322 → 00:27.959     Participant  1.64      s Liquid.                                            M AH L IH SIL K W IH SIL
 11   00:28.262 → 00:34.742     Participant  6.48      s I see a car. I also see a house and the tree and t AY S IY IH SIL K HH P AA ER AY AA L S AH L S IY IH AH HH AW S IH N DH AH SIL CH T R IY HH AE N DH AH SIL G AH R AA AY SH
 12   00:39.467 → 00:42.454     Clinician    2.99      s a blanket maybe? They're sitting on a blanket.     AH SIL B L AY SIL K IH SIL M EY SIL B IY DH EH R S IH DX IY N AA N AH SIL B L AE SIL K IH
 13   00:46.740 → 00:55.448     Participant  8.71      s Think I see some shoes, some sandals like on, and  F TH IH EY NG SIL K G AY S IY S IH AH OW SH UW S M AA SIL S M S AE N D L OW Z SIL L AY SIL K AA N DH AH SIL AH AH SIL AA R SIL AH N SIL AA M L S AH N D ER N IY SIL TH DH AH M AE N Z SIL L EY SIL G IH
@@ -96,7 +96,7 @@ Segment 9:
 Segment 10:
   Timestamp: 00:26.322 - 00:27.959 (1.64s)
   Speaker: Participant (SPEAKER_01)
-  ASR Transcription: Oh, well.
+  ASR Transcription: Liquid.
   Phonemic Encoding: M AH L IH SIL K W IH SIL
 
 Segment 11:

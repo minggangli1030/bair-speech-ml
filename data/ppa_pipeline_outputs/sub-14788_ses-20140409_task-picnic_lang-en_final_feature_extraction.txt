@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14788_ses-20140409_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.397 → 00:14.864     Participant  13.47     s It looks like a family at their vacation house. Th IH L UH SIL K S TH SIL L AY SIL K G EH AH V SIL SIL F AE M L EY IY SIL SIL SIL EH AE SIL DH EH ER V F IH SIL K EY SH IH N HH AW S DH V M SIL DH EY SIL D R IH V IH N F R M S AH M AH DH ER SIL P L EY S SIL B IH SIL K AH S DH ER SIL K AA R ER Z IH N DH IH SIL SIL AH AH M SIL DH N D R AY V W EY SIL SIL AH AH SIL DH EH SIL K SIL IH HH AW S
+2    00:16.180 → 00:36.210     Participant  20.03     s It is near a lake and maybe up in the mountains, a IH DX IH Z SIL N IH ER ER L EY SIL K IH AE N SIL D T IH SIL EH AH AH M SIL AH SIL TH SIL N M DH EY SIL B IY EH AH SIL P IH N DH IH M AW N SIL N S EH L AA DX AH V SIL B IH SIL T R IY S SIL N AH R ER SIL AH M N IH ER SIL B AY SIL M TH AH SIL AH SIL HH SIL AH M AE N AH SIL EH N AH W AH M IH N ER IH SIL D AE AH M SIL HH AE V IH NG AH SIL P IH SIL N IH SIL K AA N DH AH EH SIL AH DH AH SIL T SH AA R ER AH V DH AH L EY SIL K
+3    00:36.514 → 01:03.025     Participant  26.51     s and reading up the man's reading a book and the wo EY AE N SIL D AH R IY DX IH NG AH SIL P AH SIL DH AH M AE N Z S SIL R IY DX IH NG AH SIL B UH SIL K HH IH N DH AH M SIL SIL W M AH IH N IH Z S SIL P AA R IH NG S AH M N SIL TH NG F R M AH SIL M EY B IY IH TH ER M IH S T ER V W AH SIL N AA SIL T AH SIL N DH EH R L IH S N IH NG SIL T IH M Y UW Z IH SIL K W AA L DH ER SIL D UW IH NG DH IH S SIL AE N SIL D T SIL AH SIL DH EH ER S EY SIL AA SIL K AA L DX AH SIL B OY OY SIL B AH IH SIL AH SIL M EY SIL B IY IH SIL T S N AH DH IH ER M AE N SIL HH UW Z IH SIL DH EY EH SIL JH CH AH DH AH L EY SIL K IH EH N IH Z S F L AY IH NG IH SIL K HH AY SIL T P M DH EH ER Z S
+4    01:03.025 → 01:16.137     Clinician    13.11     s It's a flagpole with a flag flying nearby and ther AH EH B AH AH F L AE SIL P OW L IH AH W IH TH DH AH F L AE SIL G F L AY IH NG D HH SIL HH IH SIL AH SIL SIL N IH ER SIL B AY SIL IH AE N DH EY EH R ER SIL P Y IY SIL P L HH UW AA ER HH IH SIL AH F IH SH IH NG F R ER M AH SIL D AA SIL K IH AE N S EY L IH NG AH S EY L SIL B OW
+5    01:17.115 → 01:34.210     Clinician    17.09     s like two people in the sailboat and the man that f W L AY SIL SIL T UW SIL P IY SIL P L N AH S EY EH L SIL B OW SIL D SIL AE N SIL D SIL AE AH M SIL SIL DH AH N SIL D M AE N DH IH SIL T SIL F L AY NG G SIL AA R ER DH AH SIL B OY EY V DH IH SIL D IH Z F L AY NG DH IH SIL K AY EY SIL T SIL IH SIL HH AE Z S AH SIL D AA SIL G HH SIL R AY SIL N IH ER HH IH EH M AH SIL M AH L UH SIL K S L AY SIL DH EH ER S SIL S AH M S EY AE N SIL D
+6    01:35.526 → 01:38.834     Clinician    3.31      s at the edge of the lake or something.              AE SIL DH AH SIL EH SIL JH CH IH SIL DH EY IH N L SIL L EY SIL K ER S AH M N SIL TH IH NG SIL HH SIL M SIL
+7    01:40.234 → 01:44.639     Clinician    4.40      s Let's see. And there's another person who is...    AH SIL T S IY IH N DH EH ER S SIL AH N AH DH ER SIL P ER S IH N HH UW IH S
+8    01:46.967 → 01:56.654     Clinician    9.69      s I think just at the edge of the lake, kind of digg AY TH IH NG SIL CH JH IH S SIL T IH SIL DH IY SIL EH SIL JH IH DH AH TH D SIL AH DH AH V B L EY SIL K SIL EH AH SIL SIL K EH N IH SIL D IH SIL G IH NG ER S AH M N SIL TH IH NG SIL K HH IH SIL T S SIL EH N IH Z S SIL F AA R DH ER AH W EY TH IH N DH IH SIL B OY EY HH UW S
+9    01:57.362 → 01:59.134     Clinician    1.77      s uh, flying the kite.                               AH F L AY IH NG DH IH SIL K AY EY SIL T S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.397 - 00:14.864 (13.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It looks like a family at their vacation house. They've driven from some other place because they're cars in the driveway, like a house.
+  Phonemic Encoding: IH L UH SIL K S TH SIL L AY SIL K G EH AH V SIL SIL F AE M L EY IY SIL SIL SIL EH AE SIL DH EH ER V F IH SIL K EY SH IH N HH AW S DH V M SIL DH EY SIL D R IH V IH N F R M S AH M AH DH ER SIL P L EY S SIL B IH SIL K AH S DH ER SIL K AA R ER Z IH N DH IH SIL SIL AH AH M SIL DH N D R AY V W EY SIL SIL AH AH SIL DH EH SIL K SIL IH HH AW S
+
+Segment 2:
+  Timestamp: 00:16.180 - 00:36.210 (20.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It is near a lake and maybe up in the mountains, a lot of big trees nearby. A man and a woman are having a picnic on the shore of the lake.
+  Phonemic Encoding: IH DX IH Z SIL N IH ER ER L EY SIL K IH AE N SIL D T IH SIL EH AH AH M SIL AH SIL TH SIL N M DH EY SIL B IY EH AH SIL P IH N DH IH M AW N SIL N S EH L AA DX AH V SIL B IH SIL T R IY S SIL N AH R ER SIL AH M N IH ER SIL B AY SIL M TH AH SIL AH SIL HH SIL AH M AE N AH SIL EH N AH W AH M IH N ER IH SIL D AE AH M SIL HH AE V IH NG AH SIL P IH SIL N IH SIL K AA N DH AH EH SIL AH DH AH SIL T SH AA R ER AH V DH AH L EY SIL K
+
+Segment 3:
+  Timestamp: 00:36.514 - 01:03.025 (26.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and reading up the man's reading a book and the woman is pouring something from a maybe a thermistor whatnot. They're listening to music while they're doing this and there's a I'll call it a boy but maybe it's another man who's at the edge of the lake and is flying a kite. there's
+  Phonemic Encoding: EY AE N SIL D AH R IY DX IH NG AH SIL P AH SIL DH AH M AE N Z S SIL R IY DX IH NG AH SIL B UH SIL K HH IH N DH AH M SIL SIL W M AH IH N IH Z S SIL P AA R IH NG S AH M N SIL TH NG F R M AH SIL M EY B IY IH TH ER M IH S T ER V W AH SIL N AA SIL T AH SIL N DH EH R L IH S N IH NG SIL T IH M Y UW Z IH SIL K W AA L DH ER SIL D UW IH NG DH IH S SIL AE N SIL D T SIL AH SIL DH EH ER S EY SIL AA SIL K AA L DX AH SIL B OY OY SIL B AH IH SIL AH SIL M EY SIL B IY IH SIL T S N AH DH IH ER M AE N SIL HH UW Z IH SIL DH EY EH SIL JH CH AH DH AH L EY SIL K IH EH N IH Z S F L AY IH NG IH SIL K HH AY SIL T P M DH EH ER Z S
+
+Segment 4:
+  Timestamp: 01:03.025 - 01:16.137 (13.11s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's a flagpole with a flag flying nearby and there are people who are fishing from a the dock and sailing a sailboat.
+  Phonemic Encoding: AH EH B AH AH F L AE SIL P OW L IH AH W IH TH DH AH F L AE SIL G F L AY IH NG D HH SIL HH IH SIL AH SIL SIL N IH ER SIL B AY SIL IH AE N DH EY EH R ER SIL P Y IY SIL P L HH UW AA ER HH IH SIL AH F IH SH IH NG F R ER M AH SIL D AA SIL K IH AE N S EY L IH NG AH S EY L SIL B OW
+
+Segment 5:
+  Timestamp: 01:17.115 - 01:34.210 (17.09s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: like two people in the sailboat and the man that flying or the boy that is flying the kite has a dog right near him. looks like there's some sand.
+  Phonemic Encoding: W L AY SIL SIL T UW SIL P IY SIL P L N AH S EY EH L SIL B OW SIL D SIL AE N SIL D SIL AE AH M SIL SIL DH AH N SIL D M AE N DH IH SIL T SIL F L AY NG G SIL AA R ER DH AH SIL B OY EY V DH IH SIL D IH Z F L AY NG DH IH SIL K AY EY SIL T SIL IH SIL HH AE Z S AH SIL D AA SIL G HH SIL R AY SIL N IH ER HH IH EH M AH SIL M AH L UH SIL K S L AY SIL DH EH ER S SIL S AH M S EY AE N SIL D
+
+Segment 6:
+  Timestamp: 01:35.526 - 01:38.834 (3.31s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: at the edge of the lake or something.
+  Phonemic Encoding: AE SIL DH AH SIL EH SIL JH CH IH SIL DH EY IH N L SIL L EY SIL K ER S AH M N SIL TH IH NG SIL HH SIL M SIL
+
+Segment 7:
+  Timestamp: 01:40.234 - 01:44.639 (4.40s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Let's see. And there's another person who is...
+  Phonemic Encoding: AH SIL T S IY IH N DH EH ER S SIL AH N AH DH ER SIL P ER S IH N HH UW IH S
+
+Segment 8:
+  Timestamp: 01:46.967 - 01:56.654 (9.69s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I think just at the edge of the lake, kind of digging or something, hits and is farther away than the boy who's...
+  Phonemic Encoding: AY TH IH NG SIL CH JH IH S SIL T IH SIL DH IY SIL EH SIL JH IH DH AH TH D SIL AH DH AH V B L EY SIL K SIL EH AH SIL SIL K EH N IH SIL D IH SIL G IH NG ER S AH M N SIL TH IH NG SIL K HH IH SIL T S SIL EH N IH Z S SIL F AA R DH ER AH W EY TH IH N DH IH SIL B OY EY HH UW S
+
+Segment 9:
+  Timestamp: 01:57.362 - 01:59.134 (1.77s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: uh, flying the kite.
+  Phonemic Encoding: AH F L AY IH NG DH IH SIL K AY EY SIL T S

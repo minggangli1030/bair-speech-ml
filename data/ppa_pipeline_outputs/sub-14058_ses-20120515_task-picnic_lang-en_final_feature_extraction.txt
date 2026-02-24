@@ -1,0 +1,104 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14058_ses-20120515_task-picnic_lang-en_final.wav
+Total Segments: 12
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:05.430     Participant  5.40      s omebody with a swine a kite and there's this.      AH M B AH DX IY W IH TH AH SIL SIL F L AY IH N AH SIL K AY AE N ER Z IH S
+2    00:11.219 → 00:12.282     Participant  1.06      s going along the                                    G OW AA N AH L W AA N NG DH AH
+3    00:16.500 → 00:21.209     Participant  4.71      s whatever it is and there's seeing I                W AH DX ER V ER DX IH S HH AE N DH EH ER SH S SIL W AH SIL AH S IY AA SIL AY
+4    00:23.554 → 00:25.275     Participant  1.72      s omebody that's uh...                               S AH M SIL B AH DX IY Z DH IH SIL S AH
+5    00:27.402 → 00:28.482     Participant  1.08      s Have a lunch.                                      HH AE R V AH AH L AH N SIL CH SH
+6    00:36.835 → 00:38.016     Participant  1.18      s I have a radio there.                              AE V R EY SIL DX IY OW N DH EH ER
+7    00:39.636 → 00:41.307     Participant  1.67      s Here's the top dog.                                HH ER Z IH SIL T AH SIL N AA
+8    00:48.597 → 00:49.947     Participant  1.35      s Really nice dotting tree.                          IH N AY S SIL T L AH SIL TH M N SIL CH T R IY
+9    00:55.954 → 00:57.422     Participant  1.47      s Can I add some bow to it? Yes.                     NG N EH SIL S AH M SIL B AW AA DX IH SIL HH AY EH SIL Y EH S
+10   01:03.548 → 01:05.927     Clinician    2.38      s That's the hard part.                              SH P AE S SIL DH AH HH AA R SIL P AA R ER IH N SIL D IH SIL D HH IH HH EH S UW IH SIL
+11   01:11.564 → 01:14.314     Participant  2.75      s and I see that's my problem. And important.        AA L N AE S IY SIL DH D AE S SIL M AY SIL P AA L M SIL N AE EH AH M N SIL SIL P OY N
+12   01:22.364 → 01:23.967     Participant  1.60      s trides in the nuts.                                S SIL T R AY SIL Z IH N AH SIL S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:05.430 (5.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody with a swine a kite and there's this.
+  Phonemic Encoding: AH M B AH DX IY W IH TH AH SIL SIL F L AY IH N AH SIL K AY AE N ER Z IH S
+
+Segment 2:
+  Timestamp: 00:11.219 - 00:12.282 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: going along the
+  Phonemic Encoding: G OW AA N AH L W AA N NG DH AH
+
+Segment 3:
+  Timestamp: 00:16.500 - 00:21.209 (4.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: whatever it is and there's seeing I
+  Phonemic Encoding: W AH DX ER V ER DX IH S HH AE N DH EH ER SH S SIL W AH SIL AH S IY AA SIL AY
+
+Segment 4:
+  Timestamp: 00:23.554 - 00:25.275 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody that's uh...
+  Phonemic Encoding: S AH M SIL B AH DX IY Z DH IH SIL S AH
+
+Segment 5:
+  Timestamp: 00:27.402 - 00:28.482 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Have a lunch.
+  Phonemic Encoding: HH AE R V AH AH L AH N SIL CH SH
+
+Segment 6:
+  Timestamp: 00:36.835 - 00:38.016 (1.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have a radio there.
+  Phonemic Encoding: AE V R EY SIL DX IY OW N DH EH ER
+
+Segment 7:
+  Timestamp: 00:39.636 - 00:41.307 (1.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Here's the top dog.
+  Phonemic Encoding: HH ER Z IH SIL T AH SIL N AA
+
+Segment 8:
+  Timestamp: 00:48.597 - 00:49.947 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Really nice dotting tree.
+  Phonemic Encoding: IH N AY S SIL T L AH SIL TH M N SIL CH T R IY
+
+Segment 9:
+  Timestamp: 00:55.954 - 00:57.422 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Can I add some bow to it? Yes.
+  Phonemic Encoding: NG N EH SIL S AH M SIL B AW AA DX IH SIL HH AY EH SIL Y EH S
+
+Segment 10:
+  Timestamp: 01:03.548 - 01:05.927 (2.38s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: That's the hard part.
+  Phonemic Encoding: SH P AE S SIL DH AH HH AA R SIL P AA R ER IH N SIL D IH SIL D HH IH HH EH S UW IH SIL
+
+Segment 11:
+  Timestamp: 01:11.564 - 01:14.314 (2.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I see that's my problem. And important.
+  Phonemic Encoding: AA L N AE S IY SIL DH D AE S SIL M AY SIL P AA L M SIL N AE EH AH M N SIL SIL P OY N
+
+Segment 12:
+  Timestamp: 01:22.364 - 01:23.967 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: trides in the nuts.
+  Phonemic Encoding: S SIL T R AY SIL Z IH N AH SIL S

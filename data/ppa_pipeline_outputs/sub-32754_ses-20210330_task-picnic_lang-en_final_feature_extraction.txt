@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-32754_ses-20210330_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.756 → 00:03.034     Participant  2.28      s I won.                                             AY SIL W AH N
+2    00:03.591 → 00:05.852     Participant  2.26      s Bye, Guy.                                          DH AY AY N SIL SIL SIL G AY
+3    00:20.432 → 00:21.563     Clinician    1.13      s Doggy.                                             SIL D AA AY SIL G IY
+4    00:25.647 → 00:27.419     Clinician    1.77      s and pick the thing.                                AE SIL SIL P EY SIL P N SIL DH EY NG
+5    00:31.165 → 00:37.560     Participant  6.40      s I want to go on a picnic.                          AY SIL W W N SIL T UW SIL G L SIL AE N SIL AE SIL P EY SIL N EY SIL
+6    00:45.255 → 00:51.584     Participant  6.33      s I want to go flying at night.                      AY W W AH N SIL T CH UW SIL K G L P L AY NG SIL G AE SIL SIL K AY SIL T
+7    00:57.692 → 01:01.067     Participant  3.38      s There is a doggy.                                  DH EH R ER SIL EH SIL S SIL SIL SIL D AA SIL G HH IY
+8    01:09.302 → 01:15.310     Participant  6.01      s and I want to go sailing.                          AE SIL AE V W AH N SIL T CH UW G L SIL SIL SIL S EY L EY IH NG
+9    01:26.228 → 01:32.438     Participant  6.21      s I want to go on the picnic.                        AY SIL W AH N SIL T CH UW SIL K AH HH AH OW HH OW L L SIL SIL AA N M SIL B EH SIL SIL P IH SIL K N EY SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.756 - 00:03.034 (2.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I won.
+  Phonemic Encoding: AY SIL W AH N
+
+Segment 2:
+  Timestamp: 00:03.591 - 00:05.852 (2.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Bye, Guy.
+  Phonemic Encoding: DH AY AY N SIL SIL SIL G AY
+
+Segment 3:
+  Timestamp: 00:20.432 - 00:21.563 (1.13s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Doggy.
+  Phonemic Encoding: SIL D AA AY SIL G IY
+
+Segment 4:
+  Timestamp: 00:25.647 - 00:27.419 (1.77s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and pick the thing.
+  Phonemic Encoding: AE SIL SIL P EY SIL P N SIL DH EY NG
+
+Segment 5:
+  Timestamp: 00:31.165 - 00:37.560 (6.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I want to go on a picnic.
+  Phonemic Encoding: AY SIL W W N SIL T UW SIL G L SIL AE N SIL AE SIL P EY SIL N EY SIL
+
+Segment 6:
+  Timestamp: 00:45.255 - 00:51.584 (6.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I want to go flying at night.
+  Phonemic Encoding: AY W W AH N SIL T CH UW SIL K G L P L AY NG SIL G AE SIL SIL K AY SIL T
+
+Segment 7:
+  Timestamp: 00:57.692 - 01:01.067 (3.38s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a doggy.
+  Phonemic Encoding: DH EH R ER SIL EH SIL S SIL SIL SIL D AA SIL G HH IY
+
+Segment 8:
+  Timestamp: 01:09.302 - 01:15.310 (6.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I want to go sailing.
+  Phonemic Encoding: AE SIL AE V W AH N SIL T CH UW G L SIL SIL SIL S EY L EY IH NG
+
+Segment 9:
+  Timestamp: 01:26.228 - 01:32.438 (6.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I want to go on the picnic.
+  Phonemic Encoding: AY SIL W AH N SIL T CH UW SIL K AH HH AH OW HH OW L L SIL SIL AA N M SIL B EH SIL SIL P IH SIL K N EY SIL

@@ -1,0 +1,132 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-27219_ses-20190129_task-picnic_lang-en_final.wav
+Total Segments: 16
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.857 → 00:04.215     Participant  3.36      s I see man.                                         AH M SIL AY S IY SIL AH M SIL M AE N SIL K AH SIL EH IH SIL
+2    00:05.481 → 00:06.679     Participant  1.20      s Flying head~~~                                     B L AY N HH EH IH SIL K AY SIL
+3    00:07.135 → 00:10.695     Participant  3.56      s and I see a dog and I see...                       EH N AY S IY SIL AH SIL D AA SIL K IH IH N AY S IY SIL AH M
+4    00:13.581 → 00:18.711     Participant  5.13      s and I see house with the car. I see...             EH N SIL P K AY S IY SIL AH M V HH AW S SIL W IH TH AH SIL K AA R ER AY S IY SIL AH M
+5    00:21.310 → 00:24.550     Participant  3.24      s I see people on their house.                       AY S IY N P IY SIL P L SIL AA N DH EH ER HH AW S
+6    00:25.107 → 00:26.440     Participant  1.33      s on the grass.                                      AA N SIL DH AH SIL K G R AE S
+7    00:28.667 → 00:31.435     Participant  2.77      s I think there have a technique.                    AY S T IH NG SIL K S DH EH ER HH AE SIL B L SIL AH SIL P IH SIL K N IH EH EY SIL
+8    00:32.059 → 00:40.024     Participant  7.97      s And I see a man reading with his glasses and his s EH AE EH N SIL AY S IY SIL AH M AE N SIL SIL R IY SIL D IY N NG SIL W IH SIL HH IH S SIL K L AE S IH Z S EH AE EH N SIL D HH IH SH UW S SIL AA R ER AA F
+9    00:41.526 → 00:44.682     Participant  3.16      s is speed and I see um                              IH EH S SIL P IY SIL T AE EH N AY S IY SIL AH N
+10   00:45.492 → 00:46.724     Participant  1.23      s um radio                                           AH AA M SIL R EY SIL D IY OW SIL
+11   00:46.977 → 00:49.103     Participant  2.13      s and I see the lady.                                AE EH N AY S IY SIL IH DH TH DH AH L EY SIL D IY SIL
+12   00:51.246 → 00:52.697     Participant  1.45      s Doing a drink.                                     D UW OY IY N SIL AE SIL D R EY IY NG SIL
+13   00:52.967 → 00:54.739     Participant  1.77      s and I see a flag.                                  IH N AY S IY SIL AH SIL F L AE SIL
+14   00:55.735 → 00:59.177     Participant  3.44      s and I see a dark and I see um                      IH EH N AY S IY SIL AH SIL D AA SIL K SIL IH EH N AY S IY SIL AH
+15   01:01.945 → 01:02.974     Participant  1.03      s and I see.                                         AE EH N AY S IY SIL
+16   01:16.896 → 01:20.879     Clinician    3.98      s and I see landscape.                               EH N AY S IY SIL AH M M L AE N SIL S SIL K EY SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.857 - 00:04.215 (3.36s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see man.
+  Phonemic Encoding: AH M SIL AY S IY SIL AH M SIL M AE N SIL K AH SIL EH IH SIL
+
+Segment 2:
+  Timestamp: 00:05.481 - 00:06.679 (1.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Flying head~~~
+  Phonemic Encoding: B L AY N HH EH IH SIL K AY SIL
+
+Segment 3:
+  Timestamp: 00:07.135 - 00:10.695 (3.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see a dog and I see...
+  Phonemic Encoding: EH N AY S IY SIL AH SIL D AA SIL K IH IH N AY S IY SIL AH M
+
+Segment 4:
+  Timestamp: 00:13.581 - 00:18.711 (5.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see house with the car. I see...
+  Phonemic Encoding: EH N SIL P K AY S IY SIL AH M V HH AW S SIL W IH TH AH SIL K AA R ER AY S IY SIL AH M
+
+Segment 5:
+  Timestamp: 00:21.310 - 00:24.550 (3.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see people on their house.
+  Phonemic Encoding: AY S IY N P IY SIL P L SIL AA N DH EH ER HH AW S
+
+Segment 6:
+  Timestamp: 00:25.107 - 00:26.440 (1.33s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: on the grass.
+  Phonemic Encoding: AA N SIL DH AH SIL K G R AE S
+
+Segment 7:
+  Timestamp: 00:28.667 - 00:31.435 (2.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I think there have a technique.
+  Phonemic Encoding: AY S T IH NG SIL K S DH EH ER HH AE SIL B L SIL AH SIL P IH SIL K N IH EH EY SIL
+
+Segment 8:
+  Timestamp: 00:32.059 - 00:40.024 (7.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And I see a man reading with his glasses and his shoes are off.
+  Phonemic Encoding: EH AE EH N SIL AY S IY SIL AH M AE N SIL SIL R IY SIL D IY N NG SIL W IH SIL HH IH S SIL K L AE S IH Z S EH AE EH N SIL D HH IH SH UW S SIL AA R ER AA F
+
+Segment 9:
+  Timestamp: 00:41.526 - 00:44.682 (3.16s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: is speed and I see um
+  Phonemic Encoding: IH EH S SIL P IY SIL T AE EH N AY S IY SIL AH N
+
+Segment 10:
+  Timestamp: 00:45.492 - 00:46.724 (1.23s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: um radio
+  Phonemic Encoding: AH AA M SIL R EY SIL D IY OW SIL
+
+Segment 11:
+  Timestamp: 00:46.977 - 00:49.103 (2.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see the lady.
+  Phonemic Encoding: AE EH N AY S IY SIL IH DH TH DH AH L EY SIL D IY SIL
+
+Segment 12:
+  Timestamp: 00:51.246 - 00:52.697 (1.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Doing a drink.
+  Phonemic Encoding: D UW OY IY N SIL AE SIL D R EY IY NG SIL
+
+Segment 13:
+  Timestamp: 00:52.967 - 00:54.739 (1.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see a flag.
+  Phonemic Encoding: IH N AY S IY SIL AH SIL F L AE SIL
+
+Segment 14:
+  Timestamp: 00:55.735 - 00:59.177 (3.44s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see a dark and I see um
+  Phonemic Encoding: IH EH N AY S IY SIL AH SIL D AA SIL K SIL IH EH N AY S IY SIL AH
+
+Segment 15:
+  Timestamp: 01:01.945 - 01:02.974 (1.03s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see.
+  Phonemic Encoding: AE EH N AY S IY SIL
+
+Segment 16:
+  Timestamp: 01:16.896 - 01:20.879 (3.98s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and I see landscape.
+  Phonemic Encoding: EH N AY S IY SIL AH M M L AE N SIL S SIL K EY SIL

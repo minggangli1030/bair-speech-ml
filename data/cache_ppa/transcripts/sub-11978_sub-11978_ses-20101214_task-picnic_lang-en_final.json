@@ -1,0 +1,1145 @@
+{
+  "text": " It's like they're gonna fit in it. Mean. A kite. Oh, and they have a... a boat. A little dog. Nice tree. They're having a good time, I would think. A minute. As much as you can say. It looks like they're having a picnic on their house. It's like a... A lot of people in the water. See, I can't. And I can... Let's go ahead and do it.",
+  "words": [
+    {
+      "word": "It's",
+      "start": 0.0,
+      "end": 1.32
+    },
+    {
+      "word": "like",
+      "start": 1.32,
+      "end": 1.46
+    },
+    {
+      "word": "they're",
+      "start": 1.46,
+      "end": 1.66
+    },
+    {
+      "word": "gonna",
+      "start": 1.66,
+      "end": 1.9
+    },
+    {
+      "word": "fit",
+      "start": 1.9,
+      "end": 2.14
+    },
+    {
+      "word": "in",
+      "start": 2.14,
+      "end": 2.32
+    },
+    {
+      "word": "it.",
+      "start": 2.32,
+      "end": 4.0
+    },
+    {
+      "word": "Mean.",
+      "start": 4.7,
+      "end": 5.18
+    },
+    {
+      "word": "A",
+      "start": 6.680000000000001,
+      "end": 7.36
+    },
+    {
+      "word": "kite.",
+      "start": 7.36,
+      "end": 7.8
+    },
+    {
+      "word": "Oh,",
+      "start": 9.1,
+      "end": 9.46
+    },
+    {
+      "word": "and",
+      "start": 9.5,
+      "end": 9.56
+    },
+    {
+      "word": "they",
+      "start": 9.56,
+      "end": 9.66
+    },
+    {
+      "word": "have",
+      "start": 9.66,
+      "end": 9.84
+    },
+    {
+      "word": "a...",
+      "start": 9.84,
+      "end": 12.04
+    },
+    {
+      "word": "a",
+      "start": 12.04,
+      "end": 12.36
+    },
+    {
+      "word": "boat.",
+      "start": 12.36,
+      "end": 12.6
+    },
+    {
+      "word": "A",
+      "start": 15.66,
+      "end": 16.34
+    },
+    {
+      "word": "little",
+      "start": 16.34,
+      "end": 16.5
+    },
+    {
+      "word": "dog.",
+      "start": 16.5,
+      "end": 16.84
+    },
+    {
+      "word": "Nice",
+      "start": 23.6,
+      "end": 24.28
+    },
+    {
+      "word": "tree.",
+      "start": 24.28,
+      "end": 24.56
+    },
+    {
+      "word": "They're",
+      "start": 30.119999999999997,
+      "end": 30.72
+    },
+    {
+      "word": "having",
+      "start": 30.72,
+      "end": 30.88
+    },
+    {
+      "word": "a",
+      "start": 30.88,
+      "end": 30.96
+    },
+    {
+      "word": "good",
+      "start": 30.96,
+      "end": 31.06
+    },
+    {
+      "word": "time,",
+      "start": 31.06,
+      "end": 31.34
+    },
+    {
+      "word": "I",
+      "start": 31.38,
+      "end": 31.54
+    },
+    {
+      "word": "would",
+      "start": 31.54,
+      "end": 31.64
+    },
+    {
+      "word": "think.",
+      "start": 31.64,
+      "end": 32.02
+    },
+    {
+      "word": "A",
+      "start": 37.779999999999994,
+      "end": 38.379999999999995
+    },
+    {
+      "word": "minute.",
+      "start": 38.379999999999995,
+      "end": 38.98
+    },
+    {
+      "word": "As",
+      "start": 39.94,
+      "end": 40.3
+    },
+    {
+      "word": "much",
+      "start": 40.3,
+      "end": 40.4
+    },
+    {
+      "word": "as",
+      "start": 40.4,
+      "end": 40.54
+    },
+    {
+      "word": "you",
+      "start": 40.54,
+      "end": 40.66
+    },
+    {
+      "word": "can",
+      "start": 40.66,
+      "end": 40.82
+    },
+    {
+      "word": "say.",
+      "start": 40.82,
+      "end": 41.18
+    },
+    {
+      "word": "It",
+      "start": 47.379999999999995,
+      "end": 47.98
+    },
+    {
+      "word": "looks",
+      "start": 47.98,
+      "end": 48.58
+    },
+    {
+      "word": "like",
+      "start": 48.58,
+      "end": 48.88
+    },
+    {
+      "word": "they're",
+      "start": 48.88,
+      "end": 50.08
+    },
+    {
+      "word": "having",
+      "start": 50.08,
+      "end": 50.28
+    },
+    {
+      "word": "a",
+      "start": 50.28,
+      "end": 50.42
+    },
+    {
+      "word": "picnic",
+      "start": 50.42,
+      "end": 50.78
+    },
+    {
+      "word": "on",
+      "start": 50.78,
+      "end": 51.62
+    },
+    {
+      "word": "their",
+      "start": 51.62,
+      "end": 51.8
+    },
+    {
+      "word": "house.",
+      "start": 51.8,
+      "end": 52.12
+    },
+    {
+      "word": "It's",
+      "start": 52.12,
+      "end": 52.12
+    },
+    {
+      "word": "like",
+      "start": 52.12,
+      "end": 52.24
+    },
+    {
+      "word": "a...",
+      "start": 52.24,
+      "end": 58.12
+    },
+    {
+      "word": "A",
+      "start": 59.06,
+      "end": 59.06
+    },
+    {
+      "word": "lot",
+      "start": 59.06,
+      "end": 63.06
+    },
+    {
+      "word": "of",
+      "start": 63.06,
+      "end": 67.44
+    },
+    {
+      "word": "people",
+      "start": 67.44,
+      "end": 67.96
+    },
+    {
+      "word": "in",
+      "start": 67.96,
+      "end": 69.18
+    },
+    {
+      "word": "the",
+      "start": 69.18,
+      "end": 69.26
+    },
+    {
+      "word": "water.",
+      "start": 69.26,
+      "end": 70.3
+    },
+    {
+      "word": "See,",
+      "start": 73.92,
+      "end": 75.32
+    },
+    {
+      "word": "I",
+      "start": 75.44,
+      "end": 75.44
+    },
+    {
+      "word": "can't.",
+      "start": 75.44,
+      "end": 75.7
+    },
+    {
+      "word": "And",
+      "start": 75.7,
+      "end": 75.88
+    },
+    {
+      "word": "I",
+      "start": 75.88,
+      "end": 75.98
+    },
+    {
+      "word": "can...",
+      "start": 75.98,
+      "end": 76.52
+    },
+    {
+      "word": "Let's",
+      "start": 76.52,
+      "end": 77.4
+    },
+    {
+      "word": "go",
+      "start": 77.4,
+      "end": 77.58
+    },
+    {
+      "word": "ahead",
+      "start": 77.58,
+      "end": 77.74
+    },
+    {
+      "word": "and",
+      "start": 77.74,
+      "end": 78.02
+    },
+    {
+      "word": "do",
+      "start": 78.02,
+      "end": 78.34
+    },
+    {
+      "word": "it.",
+      "start": 78.34,
+      "end": 78.5
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": " It's like they're gonna fit in it.",
+      "tokens": [
+        50364,
+        467,
+        311,
+        411,
+        436,
+        434,
+        799,
+        3318,
+        294,
+        309,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " It's",
+          "start": 0.0,
+          "end": 1.32,
+          "probability": 0.4841284994035959
+        },
+        {
+          "word": " like",
+          "start": 1.32,
+          "end": 1.46,
+          "probability": 0.8906156420707703
+        },
+        {
+          "word": " they're",
+          "start": 1.46,
+          "end": 1.66,
+          "probability": 0.627217173576355
+        },
+        {
+          "word": " gonna",
+          "start": 1.66,
+          "end": 1.9,
+          "probability": 0.4935092329978943
+        },
+        {
+          "word": " fit",
+          "start": 1.9,
+          "end": 2.14,
+          "probability": 0.4674781262874603
+        },
+        {
+          "word": " in",
+          "start": 2.14,
+          "end": 2.32,
+          "probability": 0.6954076290130615
+        },
+        {
+          "word": " it.",
+          "start": 2.32,
+          "end": 4.0,
+          "probability": 0.6353956460952759
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.7,
+      "end": 5.18,
+      "text": " Mean.",
+      "tokens": [
+        50564,
+        12302,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " Mean.",
+          "start": 4.7,
+          "end": 5.18,
+          "probability": 0.06570149213075638
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.680000000000001,
+      "end": 7.8,
+      "text": " A kite.",
+      "tokens": [
+        50664,
+        316,
+        38867,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " A",
+          "start": 6.680000000000001,
+          "end": 7.36,
+          "probability": 0.5530335903167725
+        },
+        {
+          "word": " kite.",
+          "start": 7.36,
+          "end": 7.8,
+          "probability": 0.9567655920982361
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.1,
+      "end": 12.04,
+      "text": " Oh, and they have a...",
+      "tokens": [
+        50814,
+        876,
+        11,
+        293,
+        436,
+        362,
+        257,
+        485,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 9.1,
+          "end": 9.46,
+          "probability": 0.9127486944198608
+        },
+        {
+          "word": " and",
+          "start": 9.5,
+          "end": 9.56,
+          "probability": 0.9326913356781006
+        },
+        {
+          "word": " they",
+          "start": 9.56,
+          "end": 9.66,
+          "probability": 0.7668185830116272
+        },
+        {
+          "word": " have",
+          "start": 9.66,
+          "end": 9.84,
+          "probability": 0.9981101751327515
+        },
+        {
+          "word": " a...",
+          "start": 9.84,
+          "end": 12.04,
+          "probability": 0.5711479261517525
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.04,
+      "end": 12.6,
+      "text": " a boat.",
+      "tokens": [
+        50964,
+        257,
+        6582,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " a",
+          "start": 12.04,
+          "end": 12.36,
+          "probability": 0.642606794834137
+        },
+        {
+          "word": " boat.",
+          "start": 12.36,
+          "end": 12.6,
+          "probability": 0.9134218692779541
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.66,
+      "end": 16.84,
+      "text": " A little dog.",
+      "tokens": [
+        51164,
+        316,
+        707,
+        3000,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " A",
+          "start": 15.66,
+          "end": 16.34,
+          "probability": 0.673020601272583
+        },
+        {
+          "word": " little",
+          "start": 16.34,
+          "end": 16.5,
+          "probability": 0.9905301928520203
+        },
+        {
+          "word": " dog.",
+          "start": 16.5,
+          "end": 16.84,
+          "probability": 0.8635448813438416
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.6,
+      "end": 24.56,
+      "text": " Nice tree.",
+      "tokens": [
+        51564,
+        5490,
+        4230,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5067184766133627,
+      "compression_ratio": 1.1063829787234043,
+      "no_speech_prob": 0.2726428508758545,
+      "words": [
+        {
+          "word": " Nice",
+          "start": 23.6,
+          "end": 24.28,
+          "probability": 0.947717547416687
+        },
+        {
+          "word": " tree.",
+          "start": 24.28,
+          "end": 24.56,
+          "probability": 0.9610514640808105
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2456,
+      "start": 30.119999999999997,
+      "end": 32.02,
+      "text": " They're having a good time, I would think.",
+      "tokens": [
+        50364,
+        814,
+        434,
+        1419,
+        257,
+        665,
+        565,
+        11,
+        286,
+        576,
+        519,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2379915991494822,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 0.008424879051744938,
+      "words": [
+        {
+          "word": " They're",
+          "start": 30.119999999999997,
+          "end": 30.72,
+          "probability": 0.6041978001594543
+        },
+        {
+          "word": " having",
+          "start": 30.72,
+          "end": 30.88,
+          "probability": 0.9807177782058716
+        },
+        {
+          "word": " a",
+          "start": 30.88,
+          "end": 30.96,
+          "probability": 0.9867700338363647
+        },
+        {
+          "word": " good",
+          "start": 30.96,
+          "end": 31.06,
+          "probability": 0.994541585445404
+        },
+        {
+          "word": " time,",
+          "start": 31.06,
+          "end": 31.34,
+          "probability": 0.998714804649353
+        },
+        {
+          "word": " I",
+          "start": 31.38,
+          "end": 31.54,
+          "probability": 0.9667665362358093
+        },
+        {
+          "word": " would",
+          "start": 31.54,
+          "end": 31.64,
+          "probability": 0.9899702668190002
+        },
+        {
+          "word": " think.",
+          "start": 31.64,
+          "end": 32.02,
+          "probability": 0.9907914400100708
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2456,
+      "start": 37.779999999999994,
+      "end": 38.98,
+      "text": " A minute.",
+      "tokens": [
+        50864,
+        316,
+        3456,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2379915991494822,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 0.008424879051744938,
+      "words": [
+        {
+          "word": " A",
+          "start": 37.779999999999994,
+          "end": 38.379999999999995,
+          "probability": 0.3011952042579651
+        },
+        {
+          "word": " minute.",
+          "start": 38.379999999999995,
+          "end": 38.98,
+          "probability": 0.9152512550354004
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2456,
+      "start": 39.94,
+      "end": 41.18,
+      "text": " As much as you can say.",
+      "tokens": [
+        51064,
+        1018,
+        709,
+        382,
+        291,
+        393,
+        584,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2379915991494822,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 0.008424879051744938,
+      "words": [
+        {
+          "word": " As",
+          "start": 39.94,
+          "end": 40.3,
+          "probability": 0.9357285499572754
+        },
+        {
+          "word": " much",
+          "start": 40.3,
+          "end": 40.4,
+          "probability": 0.9453809261322021
+        },
+        {
+          "word": " as",
+          "start": 40.4,
+          "end": 40.54,
+          "probability": 0.9957485795021057
+        },
+        {
+          "word": " you",
+          "start": 40.54,
+          "end": 40.66,
+          "probability": 0.8868016600608826
+        },
+        {
+          "word": " can",
+          "start": 40.66,
+          "end": 40.82,
+          "probability": 0.9463082551956177
+        },
+        {
+          "word": " say.",
+          "start": 40.82,
+          "end": 41.18,
+          "probability": 0.9876638054847717
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2456,
+      "start": 47.379999999999995,
+      "end": 52.12,
+      "text": " It looks like they're having a picnic on their house.",
+      "tokens": [
+        51514,
+        467,
+        1542,
+        411,
+        436,
+        434,
+        1419,
+        257,
+        32137,
+        322,
+        641,
+        1782,
+        13,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2379915991494822,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 0.008424879051744938,
+      "words": [
+        {
+          "word": " It",
+          "start": 47.379999999999995,
+          "end": 47.98,
+          "probability": 0.5522987842559814
+        },
+        {
+          "word": " looks",
+          "start": 47.98,
+          "end": 48.58,
+          "probability": 0.9292625188827515
+        },
+        {
+          "word": " like",
+          "start": 48.58,
+          "end": 48.88,
+          "probability": 0.9977008700370789
+        },
+        {
+          "word": " they're",
+          "start": 48.88,
+          "end": 50.08,
+          "probability": 0.9543921947479248
+        },
+        {
+          "word": " having",
+          "start": 50.08,
+          "end": 50.28,
+          "probability": 0.9991486072540283
+        },
+        {
+          "word": " a",
+          "start": 50.28,
+          "end": 50.42,
+          "probability": 0.995541512966156
+        },
+        {
+          "word": " picnic",
+          "start": 50.42,
+          "end": 50.78,
+          "probability": 0.9850008487701416
+        },
+        {
+          "word": " on",
+          "start": 50.78,
+          "end": 51.62,
+          "probability": 0.9037603735923767
+        },
+        {
+          "word": " their",
+          "start": 51.62,
+          "end": 51.8,
+          "probability": 0.9834897518157959
+        },
+        {
+          "word": " house.",
+          "start": 51.8,
+          "end": 52.12,
+          "probability": 0.9948828220367432
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5212,
+      "start": 52.12,
+      "end": 58.12,
+      "text": " It's like a...",
+      "tokens": [
+        50364,
+        467,
+        311,
+        411,
+        257,
+        485,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.732004236291956,
+      "compression_ratio": 0.8923076923076924,
+      "no_speech_prob": 0.04425494372844696,
+      "words": [
+        {
+          "word": " It's",
+          "start": 52.12,
+          "end": 52.12,
+          "probability": 0.30363517720252275
+        },
+        {
+          "word": " like",
+          "start": 52.12,
+          "end": 52.24,
+          "probability": 0.06609170138835907
+        },
+        {
+          "word": " a...",
+          "start": 52.24,
+          "end": 58.12,
+          "probability": 0.11765459459275007
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5212,
+      "start": 59.06,
+      "end": 70.3,
+      "text": " A lot of people in the water.",
+      "tokens": [
+        50664,
+        316,
+        688,
+        295,
+        561,
+        294,
+        264,
+        1281,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.732004236291956,
+      "compression_ratio": 0.8923076923076924,
+      "no_speech_prob": 0.04425494372844696,
+      "words": [
+        {
+          "word": " A",
+          "start": 59.06,
+          "end": 59.06,
+          "probability": 0.005254619289189577
+        },
+        {
+          "word": " lot",
+          "start": 59.06,
+          "end": 63.06,
+          "probability": 0.7095066905021667
+        },
+        {
+          "word": " of",
+          "start": 63.06,
+          "end": 67.44,
+          "probability": 0.9650169014930725
+        },
+        {
+          "word": " people",
+          "start": 67.44,
+          "end": 67.96,
+          "probability": 0.9780374765396118
+        },
+        {
+          "word": " in",
+          "start": 67.96,
+          "end": 69.18,
+          "probability": 0.6410109400749207
+        },
+        {
+          "word": " the",
+          "start": 69.18,
+          "end": 69.26,
+          "probability": 0.8980553150177002
+        },
+        {
+          "word": " water.",
+          "start": 69.26,
+          "end": 70.3,
+          "probability": 0.9932734966278076
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5212,
+      "start": 73.92,
+      "end": 75.7,
+      "text": " See, I can't.",
+      "tokens": [
+        51264,
+        3008,
+        11,
+        286,
+        393,
+        380,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.732004236291956,
+      "compression_ratio": 0.8923076923076924,
+      "no_speech_prob": 0.04425494372844696,
+      "words": [
+        {
+          "word": " See,",
+          "start": 73.92,
+          "end": 75.32,
+          "probability": 0.6696290969848633
+        },
+        {
+          "word": " I",
+          "start": 75.44,
+          "end": 75.44,
+          "probability": 0.9850778579711914
+        },
+        {
+          "word": " can't.",
+          "start": 75.44,
+          "end": 75.7,
+          "probability": 0.9833602607250214
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7570,
+      "start": 75.7,
+      "end": 76.52,
+      "text": " And I can...",
+      "tokens": [
+        50364,
+        400,
+        286,
+        393,
+        485,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4749268363503849,
+      "compression_ratio": 0.8444444444444444,
+      "no_speech_prob": 0.020063942298293114,
+      "words": [
+        {
+          "word": " And",
+          "start": 75.7,
+          "end": 75.88,
+          "probability": 0.2597367465496063
+        },
+        {
+          "word": " I",
+          "start": 75.88,
+          "end": 75.98,
+          "probability": 0.919707715511322
+        },
+        {
+          "word": " can...",
+          "start": 75.98,
+          "end": 76.52,
+          "probability": 0.4739112854003906
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 7570,
+      "start": 76.52,
+      "end": 78.5,
+      "text": " Let's go ahead and do it.",
+      "tokens": [
+        50514,
+        961,
+        311,
+        352,
+        2286,
+        293,
+        360,
+        309,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4749268363503849,
+      "compression_ratio": 0.8444444444444444,
+      "no_speech_prob": 0.020063942298293114,
+      "words": [
+        {
+          "word": " Let's",
+          "start": 76.52,
+          "end": 77.4,
+          "probability": 0.7052268236875534
+        },
+        {
+          "word": " go",
+          "start": 77.4,
+          "end": 77.58,
+          "probability": 0.5732665061950684
+        },
+        {
+          "word": " ahead",
+          "start": 77.58,
+          "end": 77.74,
+          "probability": 0.27743837237358093
+        },
+        {
+          "word": " and",
+          "start": 77.74,
+          "end": 78.02,
+          "probability": 0.5380077958106995
+        },
+        {
+          "word": " do",
+          "start": 78.02,
+          "end": 78.34,
+          "probability": 0.6775919795036316
+        },
+        {
+          "word": " it.",
+          "start": 78.34,
+          "end": 78.5,
+          "probability": 0.893463671207428
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-29432_ses-20190410_task-picnic_lang-en_final.wav
+Total Segments: 19
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:03.861 → 00:05.110     Participant  1.25      s Looks like a picnic.                               L UH S L AY SIL K G AH SIL P IH SIL N IH SIL
+2    00:11.084 → 00:13.969     Participant  2.89      s Lunch and they have music and                      L AH N SIL CH SH SIL IH EH AH AH AH M N DH EY EH V M Y UW Z IH SIL K SIL AE M N
+3    00:14.391 → 00:16.298     Participant  1.91      s The gentleman has his...                           DH IH SIL JH EH L M IH EH N HH AE EH Z Z S IH Z S SIL
+4    00:18.171 → 00:21.310     Participant  3.14      s I can't see the woman's feet.                      B EH ER SIL D IH EH N AH SIL AY SIL K OW EH N SIL T S IY DH AH W L SIL W L SIL W AH M IH N S SIL P B IY SIL
+5    00:21.951 → 00:23.892     Participant  1.94      s but he's kinda looking at a book.                  B EH DX IY Z S SIL K AE EH N AH L UH SIL K IH NG IH DX AH SIL B OW L SIL
+6    00:25.596 → 00:28.650     Participant  3.05      s Looks like a sun is flying a kite.                 W L UH SIL K S L AY SIL K IH AH S AH N SIL IH S F L AY IH NG AH SIL K AY SIL
+7    00:31.637 → 00:33.392     Participant  1.76      s There's another little guy.                        DH EH ER Z AH N AH DH ER L UH DX L SIL G AY SIL
+8    00:36.734 → 00:38.269     Participant  1.54      s and there's somebody on them.                      IH EH N DH EH R S AH M SIL B AH DX IY SIL AA N AH M
+9    00:45.019 → 00:56.444     Clinician    11.42     s a board, but not a board. It's walking on a, and h AH SIL B AA R ER SIL AH SIL B UH N AA DX AH SIL B AA R ER DX IH SIL IH SIL IH SIL T S AH M W AA SIL K IH NG SIL AH SIL P AH N IH SIL P SIL IH SIL P AH SIL IH N HH AA DX ER SIL B R IH SIL JH AH M EH N DH IY Z S SIL TH IH SH IH NG SIL P F R AH V DH IH
+10   00:58.317 → 01:00.747     Participant  2.43      s and there's a flag.                                AE EH ER N SIL D DH ER Z AH V SIL SIL AH F L AE AY EY SIL K
+11   01:01.219 → 01:02.721     Participant  1.50      s and let us sail boat.                              IH N N L N IH S EY L SIL B OW SIL T
+12   01:03.160 → 01:08.070     Participant  4.91      s and people are waiting to everybody or on the land AE IH AE N IH N SIL P IY SIL P L ER W EY DX IY NG SIL T UW SIL EH V R IH IY SIL B AH DX IY OW SIL AA N DH AH L AE N D IH SIL K S EH SIL P
+13   01:08.948 → 01:10.349     Participant  1.40      s And there's a...                                   AA M N SIL IH EH N SIL DH EH ER Z AH SIL
+14   01:11.969 → 01:23.933     Participant  11.96     s And a little guy on it, I guess, got tired of his  IH EH N AH SIL SIL AH HH AH AH SIL DH AH L IH UH DX L SIL G AY SIL DH AA N IH AH SIL IH P AY SIL G EH S K G AA SIL T AY EH ER DX IH V IH Z S HH AH S AE IH SIL HH IH HH IH S SIL T SIL T S SIL T SIL HH SIL S AE N SIL B AH SIL K EH SIL IH N AH SIL P AH N
+15   01:31.560 → 01:37.264     Participant  5.70      s And it's just kind of a jettel afternoon and a com IH N IH SIL T CH IH S SIL SIL K AY N DX IH V IH SIL T SIL CH JH EH DX L AE F SIL T ER N UW N SIL IH N AH SIL K AH N P F SIL T AH SIL B L W AH N M
+16   01:38.783 → 01:41.280     Participant  2.50      s the basket.                                        DH AH SIL B AE SIL AH SIL B AE S SIL K IH SIL N EH SIL DH AH AH
+17   01:43.086 → 01:45.027     Participant  1.94      s picnic, picnic basket.                             IH SIL K M L IY SIL SIL P IH SIL N IH SIL B AE S SIL K IH
+18   01:45.955 → 01:49.701     Participant  3.75      s This part is the line for the kite, the string.    DH IH S SIL P B AA R SIL IH Z DH AH L AY NG F IH DH AH SIL K AY DH IH S SIL T R IH NG
+19   01:50.275 → 02:03.488     Participant  13.21     s But the tree, the trunk, there were his sandals. T AH SIL T IH N SIL AH SIL D EH AH SIL T R IY SH DH AH S SIL DH IY Y EH AH SIL T R AH NG SIL K SIL DH EH R W ER HH IH S AE N D L S DH EH SIL T TH DH AH R EY DX IY OW TH IH NG SIL K SIL SH IH IY S SIL P AA R IH NG AH SIL B AA DX L AH W AY N SIL IH N SIL T UW SIL K G L AE S SIL AY SIL D OW SIL N OW L SIL B AH N EH DX IY Z SIL P AA R IH NG SIL K SIL S AH M SIL SIL F L AH SIL F L UW
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:03.861 - 00:05.110 (1.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like a picnic.
+  Phonemic Encoding: L UH S L AY SIL K G AH SIL P IH SIL N IH SIL
+
+Segment 2:
+  Timestamp: 00:11.084 - 00:13.969 (2.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Lunch and they have music and
+  Phonemic Encoding: L AH N SIL CH SH SIL IH EH AH AH AH M N DH EY EH V M Y UW Z IH SIL K SIL AE M N
+
+Segment 3:
+  Timestamp: 00:14.391 - 00:16.298 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The gentleman has his...
+  Phonemic Encoding: DH IH SIL JH EH L M IH EH N HH AE EH Z Z S IH Z S SIL
+
+Segment 4:
+  Timestamp: 00:18.171 - 00:21.310 (3.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can't see the woman's feet.
+  Phonemic Encoding: B EH ER SIL D IH EH N AH SIL AY SIL K OW EH N SIL T S IY DH AH W L SIL W L SIL W AH M IH N S SIL P B IY SIL
+
+Segment 5:
+  Timestamp: 00:21.951 - 00:23.892 (1.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: but he's kinda looking at a book.
+  Phonemic Encoding: B EH DX IY Z S SIL K AE EH N AH L UH SIL K IH NG IH DX AH SIL B OW L SIL
+
+Segment 6:
+  Timestamp: 00:25.596 - 00:28.650 (3.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like a sun is flying a kite.
+  Phonemic Encoding: W L UH SIL K S L AY SIL K IH AH S AH N SIL IH S F L AY IH NG AH SIL K AY SIL
+
+Segment 7:
+  Timestamp: 00:31.637 - 00:33.392 (1.76s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's another little guy.
+  Phonemic Encoding: DH EH ER Z AH N AH DH ER L UH DX L SIL G AY SIL
+
+Segment 8:
+  Timestamp: 00:36.734 - 00:38.269 (1.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's somebody on them.
+  Phonemic Encoding: IH EH N DH EH R S AH M SIL B AH DX IY SIL AA N AH M
+
+Segment 9:
+  Timestamp: 00:45.019 - 00:56.444 (11.42s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: a board, but not a board. It's walking on a, and how to breathe. And these fishing from it.
+  Phonemic Encoding: AH SIL B AA R ER SIL AH SIL B UH N AA DX AH SIL B AA R ER DX IH SIL IH SIL IH SIL T S AH M W AA SIL K IH NG SIL AH SIL P AH N IH SIL P SIL IH SIL P AH SIL IH N HH AA DX ER SIL B R IH SIL JH AH M EH N DH IY Z S SIL TH IH SH IH NG SIL P F R AH V DH IH
+
+Segment 10:
+  Timestamp: 00:58.317 - 01:00.747 (2.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's a flag.
+  Phonemic Encoding: AE EH ER N SIL D DH ER Z AH V SIL SIL AH F L AE AY EY SIL K
+
+Segment 11:
+  Timestamp: 01:01.219 - 01:02.721 (1.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and let us sail boat.
+  Phonemic Encoding: IH N N L N IH S EY L SIL B OW SIL T
+
+Segment 12:
+  Timestamp: 01:03.160 - 01:08.070 (4.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and people are waiting to everybody or on the land except.
+  Phonemic Encoding: AE IH AE N IH N SIL P IY SIL P L ER W EY DX IY NG SIL T UW SIL EH V R IH IY SIL B AH DX IY OW SIL AA N DH AH L AE N D IH SIL K S EH SIL P
+
+Segment 13:
+  Timestamp: 01:08.948 - 01:10.349 (1.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: AA M N SIL IH EH N SIL DH EH ER Z AH SIL
+
+Segment 14:
+  Timestamp: 01:11.969 - 01:23.933 (11.96s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And a little guy on it, I guess, got tired of his sand bucket and...
+  Phonemic Encoding: IH EH N AH SIL SIL AH HH AH AH SIL DH AH L IH UH DX L SIL G AY SIL DH AA N IH AH SIL IH P AY SIL G EH S K G AA SIL T AY EH ER DX IH V IH Z S HH AH S AE IH SIL HH IH HH IH S SIL T SIL T S SIL T SIL HH SIL S AE N SIL B AH SIL K EH SIL IH N AH SIL P AH N
+
+Segment 15:
+  Timestamp: 01:31.560 - 01:37.264 (5.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And it's just kind of a jettel afternoon and a comfortable one.
+  Phonemic Encoding: IH N IH SIL T CH IH S SIL SIL K AY N DX IH V IH SIL T SIL CH JH EH DX L AE F SIL T ER N UW N SIL IH N AH SIL K AH N P F SIL T AH SIL B L W AH N M
+
+Segment 16:
+  Timestamp: 01:38.783 - 01:41.280 (2.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the basket.
+  Phonemic Encoding: DH AH SIL B AE SIL AH SIL B AE S SIL K IH SIL N EH SIL DH AH AH
+
+Segment 17:
+  Timestamp: 01:43.086 - 01:45.027 (1.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: picnic, picnic basket.
+  Phonemic Encoding: IH SIL K M L IY SIL SIL P IH SIL N IH SIL B AE S SIL K IH
+
+Segment 18:
+  Timestamp: 01:45.955 - 01:49.701 (3.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This part is the line for the kite, the string.
+  Phonemic Encoding: DH IH S SIL P B AA R SIL IH Z DH AH L AY NG F IH DH AH SIL K AY DH IH S SIL T R IH NG
+
+Segment 19:
+  Timestamp: 01:50.275 - 02:03.488 (13.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: But the tree, the trunk, there were his sandals. That's the radio. Think she's pouring a bottle of wine into a glass. I don't know, but now he's pouring some flow.
+  Phonemic Encoding: AH SIL T IH N SIL AH SIL D EH AH SIL T R IY SH DH AH S SIL DH IY Y EH AH SIL T R AH NG SIL K SIL DH EH R W ER HH IH S AE N D L S DH EH SIL T TH DH AH R EY DX IY OW TH IH NG SIL K SIL SH IH IY S SIL P AA R IH NG AH SIL B AA DX L AH W AY N SIL IH N SIL T UW SIL K G L AE S SIL AY SIL D OW SIL N OW L SIL B AH N EH DX IY Z SIL P AA R IH NG SIL K SIL S AH M SIL SIL F L AH SIL F L UW

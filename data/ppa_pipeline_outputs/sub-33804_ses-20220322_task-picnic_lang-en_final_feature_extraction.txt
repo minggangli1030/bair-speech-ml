@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33804_ses-20220322_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:24.685     Participant  24.65     s Well, there's now this is going to be tough for me B L AH L SIL DH EH ER S AA AW SIL SIL DH IH S IH Z SIL G AH N AH SIL B IY SIL T AH F ER M IY SIL B IH SIL K AH Z DH IH S AH Z DH AH S SIL T AH F SIL DH IH DX R IH L IY SIL G IH SIL Z AE SIL M IY AH ER SIL K EH EY SIL SIL S OW SIL AY AA AW AA DH EH ER S AH M SIL CH T R IY Z IH N EH ER DH ER Z S AH SIL K AA R ER DH ER Z AH HH AW L S SIL DH ER S AH M SIL P IY SIL P L EY NG N IH SIL S EH SIL N AA N DH IH SIL AA N SIL G R AW N D DH ER L UH SIL K S L AY SIL TH DH ER SIL G AH N AH IH HH AE AW V V F HH AA SIL AH SIL B UH SIL K IH N IH Z S HH EH DX SIL AA ER IH N IH S SIL N Z HH EH AE N SIL D T SIL M SIL P R AA AH V L IY IH Z S SIL SIL SIL AA M AH S UW M IH NG AH
+2    00:27.149 → 00:35.974     Participant  8.83      s the woman, they were setting on something like tha DH AH W AH M IH N SIL DH EY W ER S EH SIL Y ER S EH SIL N AA N S AH M SIL TH IH NG L AY SIL DH AE SIL DH ER Z S AH SIL D AA SIL DH ER S AH IH SIL G AE AY DX DH IH S SIL K G AH N AH HH AE AW V F F SIL V SIL IH N SIL DH IY Z ER DH AH W AH N Z IH SIL G IH SIL M EY NG SIL T UW
+3    00:35.974 → 00:55.667     Clinician    19.69     s as well. But there's a out there way out in the ba UW SIL HH EH Z S SIL W EH L SIL M B EH SIL AA M SIL DH EH ER R ER SIL DH ER S AH AH AW SIL TH DH EH ER W EY AW SIL N AH SIL B AE SIL AH M SIL W IH TH AH SIL B OW SIL T SIL DH EH ER Z S IH AH N AH DH ER IH SIL G AE AY L UH SIL K S S SIL S IY N M S L AY EY SIL TH DH ER Z S IH S AH M SIL B AH DX IY SIL D AW N EH ER IH SIL T AH EH SIL DH AH SIL B AA DX AH M SIL OW SIL AH SIL B OY EY L UH SIL K S L AY EY SIL K SIL M
+4    00:57.473 → 01:01.877     Clinician    4.40      s There's trees in the background. There's a, there' DH IH ER SH SIL SIL CH R IY Z IH N DH AH SIL B AE SIL G R AW N SIL AA AH SIL B DH ER S AH DH ER S EY Y AH AA SIL
+5    01:06.906 → 01:17.402     Participant  10.50     s that. See, it's not, it come, this is the kind of  B AE SIL S IY IH S SIL N AH SIL IY SIL K AH M SIL D SIL IH SIL D IH SIL DH IH S AH S SIL DH IH SIL K AY N IH S SIL T AH V F SIL T IH SIL S SIL D UW IH N IH SIL T IH M IH M SIL DH IH S R AY Y IH ER AY N OW W AH DX IH DX IH S SIL AA AY SIL DH EH DX EH AY EY IY SIL
+6    01:19.174 → 01:22.937     Participant  3.76      s He doesn't come up to say what it was with this is IY SIL D EH Z IH NG SIL K AH M AH SIL T DH AH S EY W AH DX IH SIL W AH S W AH TH SIL TH DH IH S IH S
+7    01:25.215 → 01:56.265     Participant  31.05     s Does it make sense? And there's some people or the DH D IH Z HH IH AH SIL M B EY S IH EH N SIL T S SIL IH N EH ER S AH M SIL P IY SIL P L SIL AA R ER DH EH ER S AH M SIL K IH SIL S SIL DH IH EH HH AE V F AH IH N HH IH SIL AH SIL G IH N IY Z S L UH DX L TH IH NG Z L AY SIL DH IH S AY N OW W AH DX IH DX IH S SIL AY S IY IH B AH DX EH IH SIL D OW N AH OW W AH SIL T AH S SIL K AA L IH DX IH N IH M AA R ER SIL ER SIL K AE AY EY SIL N IH N DH EH ER Z AH SIL B OW SIL DH AH SIL B OW DX IH Z AW SIL T DH EH ER HH SIL HH N OW SIL N AA SIL T AH SIL B OW SIL DH AH SIL B OW SIL S AW SIL TH DH EH ER N AW SIL DH IH SIL N AW IH SIL S AA N AA M SIL EY IY Y AW SIL DH AH SIL P L AE F AA R ER M SIL S SIL N AA SIL K AA OW L DX AH SIL P L AE SIL F AA R M SIL F ER M OW S SIL P IY SIL P L SIL DH AH IH SIL DH AE S SIL W AH DX AY SIL K AA OW L SIL DX IH R AY
+8    02:01.227 → 02:10.221     Participant  8.99      s I already said the house, the trees, the people, t AY AW AA R ER DX IY S EH SIL DH IH HH AW S SIL T DH IH SIL T R IY S DH AH SIL P IY SIL P L L SIL DH AH SIL D AA SIL G SIL K IH DX IH SIL IH SIL T DH AH IH SIL D AA R SIL D SIL F P ER SH S SIL B AY M IH AH IH AH SIL DH IH ER SIL SIL DH IH SIL D AA R SIL S SIL K IH NG SIL K AH M W IH TH IH S SIL
+9    02:12.330 → 02:14.305     Clinician    1.97      s but I still can't.                                 AA AH SIL B IH DX IH SIL EY R SIL AY S SIL T IH OW L SIL K AE
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:24.685 (24.65s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Well, there's now this is going to be tough for me because this is the stuff that it really gets at me. Okay. So There's some trees in there. There's a car. There's a house. There's some people laying it setting on the ground or it looks like they're gonna have Booking his head or in his hand Probably is I'm assuming
+  Phonemic Encoding: B L AH L SIL DH EH ER S AA AW SIL SIL DH IH S IH Z SIL G AH N AH SIL B IY SIL T AH F ER M IY SIL B IH SIL K AH Z DH IH S AH Z DH AH S SIL T AH F SIL DH IH DX R IH L IY SIL G IH SIL Z AE SIL M IY AH ER SIL K EH EY SIL SIL S OW SIL AY AA AW AA DH EH ER S AH M SIL CH T R IY Z IH N EH ER DH ER Z S AH SIL K AA R ER DH ER Z AH HH AW L S SIL DH ER S AH M SIL P IY SIL P L EY NG N IH SIL S EH SIL N AA N DH IH SIL AA N SIL G R AW N D DH ER L UH SIL K S L AY SIL TH DH ER SIL G AH N AH IH HH AE AW V V F HH AA SIL AH SIL B UH SIL K IH N IH Z S HH EH DX SIL AA ER IH N IH S SIL N Z HH EH AE N SIL D T SIL M SIL P R AA AH V L IY IH Z S SIL SIL SIL AA M AH S UW M IH NG AH
+
+Segment 2:
+  Timestamp: 00:27.149 - 00:35.974 (8.83s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: the woman, they were setting on something like that. There's a dog, there's a guy that's gonna have, and these are the ones that get me to.
+  Phonemic Encoding: DH AH W AH M IH N SIL DH EY W ER S EH SIL Y ER S EH SIL N AA N S AH M SIL TH IH NG L AY SIL DH AE SIL DH ER Z S AH SIL D AA SIL DH ER S AH IH SIL G AE AY DX DH IH S SIL K G AH N AH HH AE AW V F F SIL V SIL IH N SIL DH IY Z ER DH AH W AH N Z IH SIL G IH SIL M EY NG SIL T UW
+
+Segment 3:
+  Timestamp: 00:35.974 - 00:55.667 (19.69s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: as well. But there's a out there way out in the back with a boat. There's another guy. It looks seems like there's somebody down there at the at the bottom. A boy it looks like.
+  Phonemic Encoding: UW SIL HH EH Z S SIL W EH L SIL M B EH SIL AA M SIL DH EH ER R ER SIL DH ER S AH AH AW SIL TH DH EH ER W EY AW SIL N AH SIL B AE SIL AH M SIL W IH TH AH SIL B OW SIL T SIL DH EH ER Z S IH AH N AH DH ER IH SIL G AE AY L UH SIL K S S SIL S IY N M S L AY EY SIL TH DH ER Z S IH S AH M SIL B AH DX IY SIL D AW N EH ER IH SIL T AH EH SIL DH AH SIL B AA DX AH M SIL OW SIL AH SIL B OY EY L UH SIL K S L AY EY SIL K SIL M
+
+Segment 4:
+  Timestamp: 00:57.473 - 01:01.877 (4.40s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: There's trees in the background. There's a, there's a, yeah.
+  Phonemic Encoding: DH IH ER SH SIL SIL CH R IY Z IH N DH AH SIL B AE SIL G R AW N SIL AA AH SIL B DH ER S AH DH ER S EY Y AH AA SIL
+
+Segment 5:
+  Timestamp: 01:06.906 - 01:17.402 (10.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: that. See, it's not, it come, this is the kind of stuff that's doing it to me. This right here, I know what it is. I, that I...
+  Phonemic Encoding: B AE SIL S IY IH S SIL N AH SIL IY SIL K AH M SIL D SIL IH SIL D IH SIL DH IH S AH S SIL DH IH SIL K AY N IH S SIL T AH V F SIL T IH SIL S SIL D UW IH N IH SIL T IH M IH M SIL DH IH S R AY Y IH ER AY N OW W AH DX IH DX IH S SIL AA AY SIL DH EH DX EH AY EY IY SIL
+
+Segment 6:
+  Timestamp: 01:19.174 - 01:22.937 (3.76s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: He doesn't come up to say what it was with this is.
+  Phonemic Encoding: IY SIL D EH Z IH NG SIL K AH M AH SIL T DH AH S EY W AH DX IH SIL W AH S W AH TH SIL TH DH IH S IH S
+
+Segment 7:
+  Timestamp: 01:25.215 - 01:56.265 (31.05s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Does it make sense? And there's some people or there's some kids that have, and again, these little things like this. I know what it is, I see it, but I don't know what to call it anymore, okay? And then there's a boat. The boat is out there. Not the boats out there now, but now it's on the platform. It's not called a platform for most people, but that's what I called it, right?
+  Phonemic Encoding: DH D IH Z HH IH AH SIL M B EY S IH EH N SIL T S SIL IH N EH ER S AH M SIL P IY SIL P L SIL AA R ER DH EH ER S AH M SIL K IH SIL S SIL DH IH EH HH AE V F AH IH N HH IH SIL AH SIL G IH N IY Z S L UH DX L TH IH NG Z L AY SIL DH IH S AY N OW W AH DX IH DX IH S SIL AY S IY IH B AH DX EH IH SIL D OW N AH OW W AH SIL T AH S SIL K AA L IH DX IH N IH M AA R ER SIL ER SIL K AE AY EY SIL N IH N DH EH ER Z AH SIL B OW SIL DH AH SIL B OW DX IH Z AW SIL T DH EH ER HH SIL HH N OW SIL N AA SIL T AH SIL B OW SIL DH AH SIL B OW SIL S AW SIL TH DH EH ER N AW SIL DH IH SIL N AW IH SIL S AA N AA M SIL EY IY Y AW SIL DH AH SIL P L AE F AA R ER M SIL S SIL N AA SIL K AA OW L DX AH SIL P L AE SIL F AA R M SIL F ER M OW S SIL P IY SIL P L SIL DH AH IH SIL DH AE S SIL W AH DX AY SIL K AA OW L SIL DX IH R AY
+
+Segment 8:
+  Timestamp: 02:01.227 - 02:10.221 (8.99s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I already said the house, the trees, the people, the dog. Can I get the dog first time? Yeah, yeah. The dogs can come with us.
+  Phonemic Encoding: AY AW AA R ER DX IY S EH SIL DH IH HH AW S SIL T DH IH SIL T R IY S DH AH SIL P IY SIL P L L SIL DH AH SIL D AA SIL G SIL K IH DX IH SIL IH SIL T DH AH IH SIL D AA R SIL D SIL F P ER SH S SIL B AY M IH AH IH AH SIL DH IH ER SIL SIL DH IH SIL D AA R SIL S SIL K IH NG SIL K AH M W IH TH IH S SIL
+
+Segment 9:
+  Timestamp: 02:12.330 - 02:14.305 (1.97s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: but I still can't.
+  Phonemic Encoding: AA AH SIL B IH DX IH SIL EY R SIL AY S SIL T IH OW L SIL K AE

@@ -1,0 +1,230 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-26792_ses-20180723_task-picnic_lang-en_final.wav
+Total Segments: 30
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.689 → 00:02.477     Participant  1.79      s There's a lady.                                    DH EH R ER Z S Z SIL AH SIL D L EY SIL D IY
+2    00:04.266 → 00:05.903     Participant  1.64      s And there's O.                                     IH EH SIL N N EH R ER S SIL L
+3    00:12.653 → 00:15.640     Participant  2.99      s Unch, read, a tree.                                N SIL CH SIL R IY IY SIL AH SIL CH T R IY
+4    00:16.095 → 00:17.749     Participant  1.65      s There's a car.                                     DH EH R Z AH SIL K SIL P AA R ER N
+5    00:19.420 → 00:20.702     Participant  1.28      s Oh                                                 OW L AA
+6    00:26.372 → 00:28.380     Participant  2.01      s Cut, top, tape.                                    AA SIL SIL T AH SIL K SIL T S CH HH EY SIL
+7    00:29.444 → 00:33.190     Participant  3.75      s Instead, I can hate now night. I'm not going to se S SIL EH IH SIL T SIL K HH EY SIL N AW M N AY L SIL B AA AY L AA HH AH N IH S EY SIL DH AE SIL
+8    00:37.341 → 00:43.045     Clinician    5.70      s There's a little boy there. There's a job.         T D IH ER Z AH L UH V L SIL B OY N DH EH ER DH EH ER ER S SIL K EY NG SIL T JH AA AA L
+9    00:45.779 → 00:46.859     Clinician    1.08      s And there's a...                                   IH N N N SIL D IH Z AH
+10   00:50.453 → 00:52.022     Clinician    1.57      s I am tinted.                                       AE SIL AE M N DH IH SIL M IY SIL IY S
+11   00:52.984 → 00:54.250     Participant  1.27      s Ah, I'm glad.                                      B AY
+12   00:58.924 → 01:00.038     Participant  1.11      s all of these                                       OW L SIL T ER S
+13   01:04.307 → 01:05.522     Clinician    1.22      s ホールンペフテレ ウデっ                                       AA R L N SIL EH S SIL T ER DX ER
+14   01:08.813 → 01:10.281     Participant  1.47      s I just thought no.                                 AY EY SIL CH S SIL T AA SIL IH N OW NG
+15   01:11.395 → 01:12.441     Participant  1.05      s I'll go set.                                       EH L SIL DH IH S AE EH SIL CH
+16   01:25.739 → 01:28.523     Participant  2.78      s We can be bothered to add the edge of the team if  IH N M IY IH M B AA L SIL K T IH EY EH IH SIL D IY IH N SIL CH S IH SIL T IY N IH UW M IH S UW SIL G UH SIL IY IH N
+17   01:32.185 → 01:35.138     Participant  2.95      s I don't know this. I know it, but it goes up       AY SIL D OW N OW SIL D DH IH S SIL AY N OW L W EH EY SIL T CH M SIL B EH DX SIL IH IY SIL K G OW Z AH SIL P B
+18   01:40.842 → 01:42.006     Participant  1.16      s Cut, cut, nope.                                    K S HH AA SIL K AE SIL N OW L SIL
+19   01:48.419 → 01:49.988     Participant  1.57      s by 100% ...                                        K AA SIL T S SIL AH V SIL P AA N AH
+20   01:53.025 → 01:57.126     Participant  4.10      s I don't think that's it, but yeah.                 AY N OW N SIL P IY SIL P DH EH AE SIL T S IH EH SIL T SIL P EH SIL T CH SH T AH SIL G AE N AE N M N
+21   01:59.927 → 02:01.277     Participant  1.35      s Glitches here.                                     G L IY JH EH S SIL Y IH ER ER
+22   02:03.252 → 02:04.973     Participant  1.72      s or they had bow.                                   AH L DH EY HH AE SIL SIL P B EH
+23   02:09.040 → 02:12.972     Participant  3.93      s I know it's a famous, a hybrid music and it's a... M SIL AY N D AA SIL T S OW W SIL K IH SIL K S SIL M Y UW S SIL IY HH AH V IH M Y UW Z IH SIL K IH N IH N SIL T S AW AA AW SIL
+24   02:16.752 → 02:21.629     Participant  4.88      s and then I'll be sure they're having a bad past it IH N DH IH EH N OW V IH SH IH SIL DH ER HH AE SIL M IY N SIL AH M SIL B AE SIL P HH AE S SIL G IH SIL T P AE S SIL
+25   02:24.413 → 02:26.404     Participant  1.99      s And then...                                        AH N HH AW M UW SIL
+26   02:34.656 → 02:37.289     Participant  2.63      s This is the arm.                                   DH OW S SIL IH S SIL DH IY IY SIL AY N AH
+27   02:39.432 → 02:40.664     Participant  1.23      s and I'm never                                      IH M SIL P AA N N DH AE EH ER
+28   02:43.279 → 02:46.654     Participant  3.38      s I'm totally a Jew of the turn not to say it. I fou AY N SIL T EH OW L IY NG IH HH SH IH SIL DH AH SIL DH IH SIL T K AY AE N AH AA AH SIL T S SIL S EY EH IH HH OW L M AH TH
+29   02:48.207 → 02:49.304     Participant  1.10      s TRUE BEHIND THE FLUTE                              T R EH N SIL EH N L
+30   02:54.434 → 02:56.256     Clinician    1.82      s goal.                                              B EH N IY IY SIL IH TH IH N AH AH SIL DH AH S AH AA AW N SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.689 - 00:02.477 (1.79s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a lady.
+  Phonemic Encoding: DH EH R ER Z S Z SIL AH SIL D L EY SIL D IY
+
+Segment 2:
+  Timestamp: 00:04.266 - 00:05.903 (1.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's O.
+  Phonemic Encoding: IH EH SIL N N EH R ER S SIL L
+
+Segment 3:
+  Timestamp: 00:12.653 - 00:15.640 (2.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Unch, read, a tree.
+  Phonemic Encoding: N SIL CH SIL R IY IY SIL AH SIL CH T R IY
+
+Segment 4:
+  Timestamp: 00:16.095 - 00:17.749 (1.65s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a car.
+  Phonemic Encoding: DH EH R Z AH SIL K SIL P AA R ER N
+
+Segment 5:
+  Timestamp: 00:19.420 - 00:20.702 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh
+  Phonemic Encoding: OW L AA
+
+Segment 6:
+  Timestamp: 00:26.372 - 00:28.380 (2.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Cut, top, tape.
+  Phonemic Encoding: AA SIL SIL T AH SIL K SIL T S CH HH EY SIL
+
+Segment 7:
+  Timestamp: 00:29.444 - 00:33.190 (3.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Instead, I can hate now night. I'm not going to see that.
+  Phonemic Encoding: S SIL EH IH SIL T SIL K HH EY SIL N AW M N AY L SIL B AA AY L AA HH AH N IH S EY SIL DH AE SIL
+
+Segment 8:
+  Timestamp: 00:37.341 - 00:43.045 (5.70s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's a little boy there. There's a job.
+  Phonemic Encoding: T D IH ER Z AH L UH V L SIL B OY N DH EH ER DH EH ER ER S SIL K EY NG SIL T JH AA AA L
+
+Segment 9:
+  Timestamp: 00:45.779 - 00:46.859 (1.08s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: IH N N N SIL D IH Z AH
+
+Segment 10:
+  Timestamp: 00:50.453 - 00:52.022 (1.57s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I am tinted.
+  Phonemic Encoding: AE SIL AE M N DH IH SIL M IY SIL IY S
+
+Segment 11:
+  Timestamp: 00:52.984 - 00:54.250 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Ah, I'm glad.
+  Phonemic Encoding: B AY
+
+Segment 12:
+  Timestamp: 00:58.924 - 01:00.038 (1.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: all of these
+  Phonemic Encoding: OW L SIL T ER S
+
+Segment 13:
+  Timestamp: 01:04.307 - 01:05.522 (1.22s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: ホールンペフテレ ウデっ
+  Phonemic Encoding: AA R L N SIL EH S SIL T ER DX ER
+
+Segment 14:
+  Timestamp: 01:08.813 - 01:10.281 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I just thought no.
+  Phonemic Encoding: AY EY SIL CH S SIL T AA SIL IH N OW NG
+
+Segment 15:
+  Timestamp: 01:11.395 - 01:12.441 (1.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'll go set.
+  Phonemic Encoding: EH L SIL DH IH S AE EH SIL CH
+
+Segment 16:
+  Timestamp: 01:25.739 - 01:28.523 (2.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: We can be bothered to add the edge of the team if you go in.
+  Phonemic Encoding: IH N M IY IH M B AA L SIL K T IH EY EH IH SIL D IY IH N SIL CH S IH SIL T IY N IH UW M IH S UW SIL G UH SIL IY IH N
+
+Segment 17:
+  Timestamp: 01:32.185 - 01:35.138 (2.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't know this. I know it, but it goes up
+  Phonemic Encoding: AY SIL D OW N OW SIL D DH IH S SIL AY N OW L W EH EY SIL T CH M SIL B EH DX SIL IH IY SIL K G OW Z AH SIL P B
+
+Segment 18:
+  Timestamp: 01:40.842 - 01:42.006 (1.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Cut, cut, nope.
+  Phonemic Encoding: K S HH AA SIL K AE SIL N OW L SIL
+
+Segment 19:
+  Timestamp: 01:48.419 - 01:49.988 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: by 100% ...
+  Phonemic Encoding: K AA SIL T S SIL AH V SIL P AA N AH
+
+Segment 20:
+  Timestamp: 01:53.025 - 01:57.126 (4.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't think that's it, but yeah.
+  Phonemic Encoding: AY N OW N SIL P IY SIL P DH EH AE SIL T S IH EH SIL T SIL P EH SIL T CH SH T AH SIL G AE N AE N M N
+
+Segment 21:
+  Timestamp: 01:59.927 - 02:01.277 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Glitches here.
+  Phonemic Encoding: G L IY JH EH S SIL Y IH ER ER
+
+Segment 22:
+  Timestamp: 02:03.252 - 02:04.973 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: or they had bow.
+  Phonemic Encoding: AH L DH EY HH AE SIL SIL P B EH
+
+Segment 23:
+  Timestamp: 02:09.040 - 02:12.972 (3.93s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I know it's a famous, a hybrid music and it's a...
+  Phonemic Encoding: M SIL AY N D AA SIL T S OW W SIL K IH SIL K S SIL M Y UW S SIL IY HH AH V IH M Y UW Z IH SIL K IH N IH N SIL T S AW AA AW SIL
+
+Segment 24:
+  Timestamp: 02:16.752 - 02:21.629 (4.88s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and then I'll be sure they're having a bad past it past.
+  Phonemic Encoding: IH N DH IH EH N OW V IH SH IH SIL DH ER HH AE SIL M IY N SIL AH M SIL B AE SIL P HH AE S SIL G IH SIL T P AE S SIL
+
+Segment 25:
+  Timestamp: 02:24.413 - 02:26.404 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then...
+  Phonemic Encoding: AH N HH AW M UW SIL
+
+Segment 26:
+  Timestamp: 02:34.656 - 02:37.289 (2.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is the arm.
+  Phonemic Encoding: DH OW S SIL IH S SIL DH IY IY SIL AY N AH
+
+Segment 27:
+  Timestamp: 02:39.432 - 02:40.664 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I'm never
+  Phonemic Encoding: IH M SIL P AA N N DH AE EH ER
+
+Segment 28:
+  Timestamp: 02:43.279 - 02:46.654 (3.38s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm totally a Jew of the turn not to say it. I found this...
+  Phonemic Encoding: AY N SIL T EH OW L IY NG IH HH SH IH SIL DH AH SIL DH IH SIL T K AY AE N AH AA AH SIL T S SIL S EY EH IH HH OW L M AH TH
+
+Segment 29:
+  Timestamp: 02:48.207 - 02:49.304 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: TRUE BEHIND THE FLUTE
+  Phonemic Encoding: T R EH N SIL EH N L
+
+Segment 30:
+  Timestamp: 02:54.434 - 02:56.256 (1.82s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: goal.
+  Phonemic Encoding: B EH N IY IY SIL IH TH IH N AH AH SIL DH AH S AH AA AW N SIL

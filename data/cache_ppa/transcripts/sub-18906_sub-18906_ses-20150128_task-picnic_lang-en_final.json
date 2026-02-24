@@ -1,0 +1,1592 @@
+{
+  "text": " I see the guy is reading the book. He has his shoes off. And if he has his glasses on, he is... Oh. And she is pouring... She is pouring the... He and... Colt? Listening to the radio? Go. He is... This guy is flying the kite. Flying is flying. He has a dog. The... The... Are... Does the sand pale? And a boy is... Is going fishing? No, no, no. He is going... He is going of sandbox. He is... This is a fishing. The sailboat. The sailboat is going.",
+  "words": [
+    {
+      "word": "I",
+      "start": 2.459999999999999,
+      "end": 3.58
+    },
+    {
+      "word": "see",
+      "start": 3.58,
+      "end": 3.78
+    },
+    {
+      "word": "the",
+      "start": 3.78,
+      "end": 4.62
+    },
+    {
+      "word": "guy",
+      "start": 4.62,
+      "end": 10.86
+    },
+    {
+      "word": "is",
+      "start": 10.86,
+      "end": 11.16
+    },
+    {
+      "word": "reading",
+      "start": 11.16,
+      "end": 11.88
+    },
+    {
+      "word": "the",
+      "start": 11.88,
+      "end": 12.16
+    },
+    {
+      "word": "book.",
+      "start": 12.16,
+      "end": 12.7
+    },
+    {
+      "word": "He",
+      "start": 13.34,
+      "end": 14.46
+    },
+    {
+      "word": "has",
+      "start": 14.46,
+      "end": 16.7
+    },
+    {
+      "word": "his",
+      "start": 16.7,
+      "end": 16.84
+    },
+    {
+      "word": "shoes",
+      "start": 16.84,
+      "end": 17.08
+    },
+    {
+      "word": "off.",
+      "start": 17.08,
+      "end": 17.58
+    },
+    {
+      "word": "And",
+      "start": 18.88,
+      "end": 19.96
+    },
+    {
+      "word": "if",
+      "start": 19.96,
+      "end": 20.16
+    },
+    {
+      "word": "he",
+      "start": 20.16,
+      "end": 20.3
+    },
+    {
+      "word": "has",
+      "start": 20.3,
+      "end": 20.56
+    },
+    {
+      "word": "his",
+      "start": 20.56,
+      "end": 20.84
+    },
+    {
+      "word": "glasses",
+      "start": 20.84,
+      "end": 21.2
+    },
+    {
+      "word": "on,",
+      "start": 21.2,
+      "end": 21.76
+    },
+    {
+      "word": "he",
+      "start": 23.34,
+      "end": 24.26
+    },
+    {
+      "word": "is...",
+      "start": 24.26,
+      "end": 26.46
+    },
+    {
+      "word": "Oh.",
+      "start": 26.46,
+      "end": 28.96
+    },
+    {
+      "word": "And",
+      "start": 30.04,
+      "end": 31.44
+    },
+    {
+      "word": "she",
+      "start": 31.44,
+      "end": 32.98
+    },
+    {
+      "word": "is",
+      "start": 32.98,
+      "end": 33.18
+    },
+    {
+      "word": "pouring...",
+      "start": 33.18,
+      "end": 34.7
+    },
+    {
+      "word": "She",
+      "start": 36.4,
+      "end": 37.8
+    },
+    {
+      "word": "is",
+      "start": 37.8,
+      "end": 38.04
+    },
+    {
+      "word": "pouring",
+      "start": 38.04,
+      "end": 38.48
+    },
+    {
+      "word": "the...",
+      "start": 38.48,
+      "end": 41.46
+    },
+    {
+      "word": "He",
+      "start": 44.52,
+      "end": 45.0
+    },
+    {
+      "word": "and...",
+      "start": 45.0,
+      "end": 46.54
+    },
+    {
+      "word": "Colt?",
+      "start": 46.54,
+      "end": 47.02
+    },
+    {
+      "word": "Listening",
+      "start": 49.1,
+      "end": 49.78
+    },
+    {
+      "word": "to",
+      "start": 49.78,
+      "end": 49.98
+    },
+    {
+      "word": "the",
+      "start": 49.98,
+      "end": 50.1
+    },
+    {
+      "word": "radio?",
+      "start": 50.1,
+      "end": 50.46
+    },
+    {
+      "word": "Go.",
+      "start": 54.28,
+      "end": 54.98
+    },
+    {
+      "word": "He",
+      "start": 59.28,
+      "end": 59.98
+    },
+    {
+      "word": "is...",
+      "start": 59.98,
+      "end": 60.64
+    },
+    {
+      "word": "This",
+      "start": 60.64,
+      "end": 60.86
+    },
+    {
+      "word": "guy",
+      "start": 60.86,
+      "end": 61.08
+    },
+    {
+      "word": "is",
+      "start": 61.08,
+      "end": 61.26
+    },
+    {
+      "word": "flying",
+      "start": 61.26,
+      "end": 61.56
+    },
+    {
+      "word": "the",
+      "start": 61.56,
+      "end": 61.76
+    },
+    {
+      "word": "kite.",
+      "start": 61.76,
+      "end": 62.06
+    },
+    {
+      "word": "Flying",
+      "start": 65.31,
+      "end": 65.66
+    },
+    {
+      "word": "is",
+      "start": 65.66,
+      "end": 65.84
+    },
+    {
+      "word": "flying.",
+      "start": 65.84,
+      "end": 66.24
+    },
+    {
+      "word": "He",
+      "start": 69.12,
+      "end": 69.82
+    },
+    {
+      "word": "has",
+      "start": 69.82,
+      "end": 69.98
+    },
+    {
+      "word": "a",
+      "start": 69.98,
+      "end": 70.14
+    },
+    {
+      "word": "dog.",
+      "start": 70.14,
+      "end": 70.42
+    },
+    {
+      "word": "The...",
+      "start": 76.38,
+      "end": 77.78
+    },
+    {
+      "word": "The...",
+      "start": 77.78,
+      "end": 78.58
+    },
+    {
+      "word": "Are...",
+      "start": 84.03999999999999,
+      "end": 85.44
+    },
+    {
+      "word": "Does",
+      "start": 88.11999999999999,
+      "end": 88.82
+    },
+    {
+      "word": "the",
+      "start": 88.82,
+      "end": 89.12
+    },
+    {
+      "word": "sand",
+      "start": 89.12,
+      "end": 89.32
+    },
+    {
+      "word": "pale?",
+      "start": 89.32,
+      "end": 89.68
+    },
+    {
+      "word": "And",
+      "start": 91.96,
+      "end": 93.36
+    },
+    {
+      "word": "a",
+      "start": 93.36,
+      "end": 93.52
+    },
+    {
+      "word": "boy",
+      "start": 93.52,
+      "end": 94.12
+    },
+    {
+      "word": "is...",
+      "start": 94.12,
+      "end": 95.64
+    },
+    {
+      "word": "Is",
+      "start": 95.64,
+      "end": 95.64
+    },
+    {
+      "word": "going",
+      "start": 95.64,
+      "end": 97.1
+    },
+    {
+      "word": "fishing?",
+      "start": 97.1,
+      "end": 98.92
+    },
+    {
+      "word": "No,",
+      "start": 101.32,
+      "end": 102.02
+    },
+    {
+      "word": "no,",
+      "start": 102.16,
+      "end": 102.62
+    },
+    {
+      "word": "no.",
+      "start": 102.88,
+      "end": 102.88
+    },
+    {
+      "word": "He",
+      "start": 104.16,
+      "end": 104.3
+    },
+    {
+      "word": "is",
+      "start": 104.3,
+      "end": 107.78
+    },
+    {
+      "word": "going...",
+      "start": 107.78,
+      "end": 108.78
+    },
+    {
+      "word": "He",
+      "start": 108.78,
+      "end": 109.58
+    },
+    {
+      "word": "is",
+      "start": 109.58,
+      "end": 109.72
+    },
+    {
+      "word": "going",
+      "start": 109.72,
+      "end": 109.98
+    },
+    {
+      "word": "of",
+      "start": 109.98,
+      "end": 110.2
+    },
+    {
+      "word": "sandbox.",
+      "start": 110.2,
+      "end": 110.82
+    },
+    {
+      "word": "He",
+      "start": 110.82,
+      "end": 112.9
+    },
+    {
+      "word": "is...",
+      "start": 112.9,
+      "end": 113.58
+    },
+    {
+      "word": "This",
+      "start": 114.32,
+      "end": 115.02
+    },
+    {
+      "word": "is",
+      "start": 115.02,
+      "end": 116.18
+    },
+    {
+      "word": "a",
+      "start": 116.18,
+      "end": 116.32
+    },
+    {
+      "word": "fishing.",
+      "start": 116.32,
+      "end": 116.7
+    },
+    {
+      "word": "The",
+      "start": 120.8,
+      "end": 121.5
+    },
+    {
+      "word": "sailboat.",
+      "start": 121.5,
+      "end": 122.7
+    },
+    {
+      "word": "The",
+      "start": 123.82,
+      "end": 124.6
+    },
+    {
+      "word": "sailboat",
+      "start": 124.6,
+      "end": 124.98
+    },
+    {
+      "word": "is",
+      "start": 124.98,
+      "end": 125.36
+    },
+    {
+      "word": "going.",
+      "start": 125.36,
+      "end": 126.58
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2.459999999999999,
+      "end": 12.7,
+      "text": " I see the guy is reading the book.",
+      "tokens": [
+        50364,
+        286,
+        536,
+        264,
+        2146,
+        307,
+        3760,
+        264,
+        1446,
+        13,
+        51190
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5872879589305204,
+      "compression_ratio": 1.1875,
+      "no_speech_prob": 0.1809791773557663,
+      "words": [
+        {
+          "word": " I",
+          "start": 2.459999999999999,
+          "end": 3.58,
+          "probability": 0.7645961046218872
+        },
+        {
+          "word": " see",
+          "start": 3.58,
+          "end": 3.78,
+          "probability": 0.9561293721199036
+        },
+        {
+          "word": " the",
+          "start": 3.78,
+          "end": 4.62,
+          "probability": 0.1277168244123459
+        },
+        {
+          "word": " guy",
+          "start": 4.62,
+          "end": 10.86,
+          "probability": 0.009405342862010002
+        },
+        {
+          "word": " is",
+          "start": 10.86,
+          "end": 11.16,
+          "probability": 0.601953387260437
+        },
+        {
+          "word": " reading",
+          "start": 11.16,
+          "end": 11.88,
+          "probability": 0.968853771686554
+        },
+        {
+          "word": " the",
+          "start": 11.88,
+          "end": 12.16,
+          "probability": 0.9715741276741028
+        },
+        {
+          "word": " book.",
+          "start": 12.16,
+          "end": 12.7,
+          "probability": 0.9987109899520874
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 13.34,
+      "end": 17.58,
+      "text": " He has his shoes off.",
+      "tokens": [
+        51190,
+        634,
+        575,
+        702,
+        6654,
+        766,
+        13,
+        51362
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5872879589305204,
+      "compression_ratio": 1.1875,
+      "no_speech_prob": 0.1809791773557663,
+      "words": [
+        {
+          "word": " He",
+          "start": 13.34,
+          "end": 14.46,
+          "probability": 0.6819478273391724
+        },
+        {
+          "word": " has",
+          "start": 14.46,
+          "end": 16.7,
+          "probability": 0.9374712705612183
+        },
+        {
+          "word": " his",
+          "start": 16.7,
+          "end": 16.84,
+          "probability": 0.9519276022911072
+        },
+        {
+          "word": " shoes",
+          "start": 16.84,
+          "end": 17.08,
+          "probability": 0.9930324554443359
+        },
+        {
+          "word": " off.",
+          "start": 17.08,
+          "end": 17.58,
+          "probability": 0.9970384836196899
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 18.88,
+      "end": 26.46,
+      "text": " And if he has his glasses on, he is...",
+      "tokens": [
+        51362,
+        400,
+        498,
+        415,
+        575,
+        702,
+        10812,
+        322,
+        11,
+        415,
+        307,
+        485,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5872879589305204,
+      "compression_ratio": 1.1875,
+      "no_speech_prob": 0.1809791773557663,
+      "words": [
+        {
+          "word": " And",
+          "start": 18.88,
+          "end": 19.96,
+          "probability": 0.798174262046814
+        },
+        {
+          "word": " if",
+          "start": 19.96,
+          "end": 20.16,
+          "probability": 0.9496889114379883
+        },
+        {
+          "word": " he",
+          "start": 20.16,
+          "end": 20.3,
+          "probability": 0.9950674772262573
+        },
+        {
+          "word": " has",
+          "start": 20.3,
+          "end": 20.56,
+          "probability": 0.9911003708839417
+        },
+        {
+          "word": " his",
+          "start": 20.56,
+          "end": 20.84,
+          "probability": 0.967835545539856
+        },
+        {
+          "word": " glasses",
+          "start": 20.84,
+          "end": 21.2,
+          "probability": 0.9437236785888672
+        },
+        {
+          "word": " on,",
+          "start": 21.2,
+          "end": 21.76,
+          "probability": 0.9981999397277832
+        },
+        {
+          "word": " he",
+          "start": 23.34,
+          "end": 24.26,
+          "probability": 0.9393295049667358
+        },
+        {
+          "word": " is...",
+          "start": 24.26,
+          "end": 26.46,
+          "probability": 0.6192646920681
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2646,
+      "start": 26.46,
+      "end": 28.96,
+      "text": " Oh.",
+      "tokens": [
+        50364,
+        876,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " Oh.",
+          "start": 26.46,
+          "end": 28.96,
+          "probability": 0.23629434406757355
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2646,
+      "start": 30.04,
+      "end": 34.7,
+      "text": " And she is pouring...",
+      "tokens": [
+        50564,
+        400,
+        750,
+        307,
+        20450,
+        485,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " And",
+          "start": 30.04,
+          "end": 31.44,
+          "probability": 0.4089781939983368
+        },
+        {
+          "word": " she",
+          "start": 31.44,
+          "end": 32.98,
+          "probability": 0.7632004022598267
+        },
+        {
+          "word": " is",
+          "start": 32.98,
+          "end": 33.18,
+          "probability": 0.947442889213562
+        },
+        {
+          "word": " pouring...",
+          "start": 33.18,
+          "end": 34.7,
+          "probability": 0.5988320484757423
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2646,
+      "start": 36.4,
+      "end": 41.46,
+      "text": " She is pouring the...",
+      "tokens": [
+        50764,
+        1240,
+        307,
+        20450,
+        264,
+        485,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " She",
+          "start": 36.4,
+          "end": 37.8,
+          "probability": 0.5762860774993896
+        },
+        {
+          "word": " is",
+          "start": 37.8,
+          "end": 38.04,
+          "probability": 0.9758613109588623
+        },
+        {
+          "word": " pouring",
+          "start": 38.04,
+          "end": 38.48,
+          "probability": 0.9964566826820374
+        },
+        {
+          "word": " the...",
+          "start": 38.48,
+          "end": 41.46,
+          "probability": 0.6137709617614746
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2646,
+      "start": 44.52,
+      "end": 46.54,
+      "text": " He and...",
+      "tokens": [
+        51114,
+        634,
+        293,
+        485,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " He",
+          "start": 44.52,
+          "end": 45.0,
+          "probability": 0.17368394136428833
+        },
+        {
+          "word": " and...",
+          "start": 45.0,
+          "end": 46.54,
+          "probability": 0.567759096622467
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2646,
+      "start": 46.54,
+      "end": 47.02,
+      "text": " Colt?",
+      "tokens": [
+        51364,
+        4004,
+        83,
+        30,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " Colt?",
+          "start": 46.54,
+          "end": 47.02,
+          "probability": 0.526182048022747
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2646,
+      "start": 49.1,
+      "end": 50.46,
+      "text": " Listening to the radio?",
+      "tokens": [
+        51514,
+        49321,
+        281,
+        264,
+        6477,
+        30,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5458091529639991,
+      "compression_ratio": 1.1756756756756757,
+      "no_speech_prob": 0.15151134133338928,
+      "words": [
+        {
+          "word": " Listening",
+          "start": 49.1,
+          "end": 49.78,
+          "probability": 0.8689461350440979
+        },
+        {
+          "word": " to",
+          "start": 49.78,
+          "end": 49.98,
+          "probability": 0.9987013339996338
+        },
+        {
+          "word": " the",
+          "start": 49.98,
+          "end": 50.1,
+          "probability": 0.9961163997650146
+        },
+        {
+          "word": " radio?",
+          "start": 50.1,
+          "end": 50.46,
+          "probability": 0.9955875873565674
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5046,
+      "start": 54.28,
+      "end": 54.98,
+      "text": " Go.",
+      "tokens": [
+        50364,
+        1037,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3122860879609079,
+      "compression_ratio": 1.123076923076923,
+      "no_speech_prob": 0.06160547211766243,
+      "words": [
+        {
+          "word": " Go.",
+          "start": 54.28,
+          "end": 54.98,
+          "probability": 0.04689902812242508
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5046,
+      "start": 59.28,
+      "end": 60.64,
+      "text": " He is...",
+      "tokens": [
+        50714,
+        634,
+        307,
+        485,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3122860879609079,
+      "compression_ratio": 1.123076923076923,
+      "no_speech_prob": 0.06160547211766243,
+      "words": [
+        {
+          "word": " He",
+          "start": 59.28,
+          "end": 59.98,
+          "probability": 0.5065032243728638
+        },
+        {
+          "word": " is...",
+          "start": 59.98,
+          "end": 60.64,
+          "probability": 0.040514979511499405
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5046,
+      "start": 60.64,
+      "end": 62.06,
+      "text": " This guy is flying the kite.",
+      "tokens": [
+        50864,
+        639,
+        2146,
+        307,
+        7137,
+        264,
+        38867,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3122860879609079,
+      "compression_ratio": 1.123076923076923,
+      "no_speech_prob": 0.06160547211766243,
+      "words": [
+        {
+          "word": " This",
+          "start": 60.64,
+          "end": 60.86,
+          "probability": 0.1846323311328888
+        },
+        {
+          "word": " guy",
+          "start": 60.86,
+          "end": 61.08,
+          "probability": 0.9934185743331909
+        },
+        {
+          "word": " is",
+          "start": 61.08,
+          "end": 61.26,
+          "probability": 0.8941020965576172
+        },
+        {
+          "word": " flying",
+          "start": 61.26,
+          "end": 61.56,
+          "probability": 0.9941196441650391
+        },
+        {
+          "word": " the",
+          "start": 61.56,
+          "end": 61.76,
+          "probability": 0.532586395740509
+        },
+        {
+          "word": " kite.",
+          "start": 61.76,
+          "end": 62.06,
+          "probability": 0.9992157220840454
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5046,
+      "start": 65.46000000000001,
+      "end": 66.24,
+      "text": " Flying is flying.",
+      "tokens": [
+        51114,
+        34287,
+        307,
+        7137,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3122860879609079,
+      "compression_ratio": 1.123076923076923,
+      "no_speech_prob": 0.06160547211766243,
+      "words": [
+        {
+          "word": " Flying",
+          "start": 65.31,
+          "end": 65.66,
+          "probability": 0.8550105094909668
+        },
+        {
+          "word": " is",
+          "start": 65.66,
+          "end": 65.84,
+          "probability": 0.8150635361671448
+        },
+        {
+          "word": " flying.",
+          "start": 65.84,
+          "end": 66.24,
+          "probability": 0.9960079193115234
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5046,
+      "start": 69.12,
+      "end": 70.42,
+      "text": " He has a dog.",
+      "tokens": [
+        51314,
+        634,
+        575,
+        257,
+        3000,
+        13,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3122860879609079,
+      "compression_ratio": 1.123076923076923,
+      "no_speech_prob": 0.06160547211766243,
+      "words": [
+        {
+          "word": " He",
+          "start": 69.12,
+          "end": 69.82,
+          "probability": 0.8102859854698181
+        },
+        {
+          "word": " has",
+          "start": 69.82,
+          "end": 69.98,
+          "probability": 0.9508254528045654
+        },
+        {
+          "word": " a",
+          "start": 69.98,
+          "end": 70.14,
+          "probability": 0.8663029670715332
+        },
+        {
+          "word": " dog.",
+          "start": 70.14,
+          "end": 70.42,
+          "probability": 0.9655628204345703
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7042,
+      "start": 76.38,
+      "end": 77.78,
+      "text": " The...",
+      "tokens": [
+        50364,
+        440,
+        485,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4769313903081985,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.03695279359817505,
+      "words": [
+        {
+          "word": " The...",
+          "start": 76.38,
+          "end": 77.78,
+          "probability": 0.1549011543393135
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 7042,
+      "start": 77.78,
+      "end": 78.58,
+      "text": " The...",
+      "tokens": [
+        50714,
+        440,
+        485,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4769313903081985,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.03695279359817505,
+      "words": [
+        {
+          "word": " The...",
+          "start": 77.78,
+          "end": 78.58,
+          "probability": 0.3440559394657612
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 7042,
+      "start": 84.03999999999999,
+      "end": 85.44,
+      "text": " Are...",
+      "tokens": [
+        50964,
+        2014,
+        485,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4769313903081985,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.03695279359817505,
+      "words": [
+        {
+          "word": " Are...",
+          "start": 84.03999999999999,
+          "end": 85.44,
+          "probability": 0.4449199475347996
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 7042,
+      "start": 88.42,
+      "end": 89.68,
+      "text": " Does the sand pale?",
+      "tokens": [
+        51264,
+        4402,
+        264,
+        4932,
+        19546,
+        30,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4769313903081985,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.03695279359817505,
+      "words": [
+        {
+          "word": " Does",
+          "start": 88.11999999999999,
+          "end": 88.82,
+          "probability": 0.3465714752674103
+        },
+        {
+          "word": " the",
+          "start": 88.82,
+          "end": 89.12,
+          "probability": 0.9078360199928284
+        },
+        {
+          "word": " sand",
+          "start": 89.12,
+          "end": 89.32,
+          "probability": 0.9527512788772583
+        },
+        {
+          "word": " pale?",
+          "start": 89.32,
+          "end": 89.68,
+          "probability": 0.3028346598148346
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8968,
+      "start": 91.96,
+      "end": 95.64,
+      "text": " And a boy is...",
+      "tokens": [
+        50364,
+        400,
+        257,
+        3237,
+        307,
+        485,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4490771042673211,
+      "compression_ratio": 1.1830985915492958,
+      "no_speech_prob": 0.030280068516731262,
+      "words": [
+        {
+          "word": " And",
+          "start": 91.96,
+          "end": 93.36,
+          "probability": 0.13165085017681122
+        },
+        {
+          "word": " a",
+          "start": 93.36,
+          "end": 93.52,
+          "probability": 0.6489481925964355
+        },
+        {
+          "word": " boy",
+          "start": 93.52,
+          "end": 94.12,
+          "probability": 0.9624192714691162
+        },
+        {
+          "word": " is...",
+          "start": 94.12,
+          "end": 95.64,
+          "probability": 0.4914088435471058
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8968,
+      "start": 95.64,
+      "end": 98.92,
+      "text": " Is going fishing?",
+      "tokens": [
+        50714,
+        1119,
+        516,
+        10180,
+        30,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4490771042673211,
+      "compression_ratio": 1.1830985915492958,
+      "no_speech_prob": 0.030280068516731262,
+      "words": [
+        {
+          "word": " Is",
+          "start": 95.64,
+          "end": 95.64,
+          "probability": 0.17607079446315765
+        },
+        {
+          "word": " going",
+          "start": 95.64,
+          "end": 97.1,
+          "probability": 0.4705142378807068
+        },
+        {
+          "word": " fishing?",
+          "start": 97.1,
+          "end": 98.92,
+          "probability": 0.642804741859436
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 8968,
+      "start": 101.68,
+      "end": 102.88,
+      "text": " No, no, no.",
+      "tokens": [
+        50964,
+        883,
+        11,
+        572,
+        11,
+        572,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4490771042673211,
+      "compression_ratio": 1.1830985915492958,
+      "no_speech_prob": 0.030280068516731262,
+      "words": [
+        {
+          "word": " No,",
+          "start": 101.32,
+          "end": 102.02,
+          "probability": 0.54128098487854
+        },
+        {
+          "word": " no,",
+          "start": 102.16,
+          "end": 102.62,
+          "probability": 0.9624158143997192
+        },
+        {
+          "word": " no.",
+          "start": 102.88,
+          "end": 102.88,
+          "probability": 0.9858577251434326
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 8968,
+      "start": 104.16,
+      "end": 108.78,
+      "text": " He is going...",
+      "tokens": [
+        51114,
+        634,
+        307,
+        516,
+        485,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4490771042673211,
+      "compression_ratio": 1.1830985915492958,
+      "no_speech_prob": 0.030280068516731262,
+      "words": [
+        {
+          "word": " He",
+          "start": 104.16,
+          "end": 104.3,
+          "probability": 0.6752641201019287
+        },
+        {
+          "word": " is",
+          "start": 104.3,
+          "end": 107.78,
+          "probability": 0.06998134404420853
+        },
+        {
+          "word": " going...",
+          "start": 107.78,
+          "end": 108.78,
+          "probability": 0.608969047665596
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 8968,
+      "start": 108.78,
+      "end": 110.82,
+      "text": " He is going of sandbox.",
+      "tokens": [
+        51314,
+        634,
+        307,
+        516,
+        295,
+        4932,
+        4995,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4490771042673211,
+      "compression_ratio": 1.1830985915492958,
+      "no_speech_prob": 0.030280068516731262,
+      "words": [
+        {
+          "word": " He",
+          "start": 108.78,
+          "end": 109.58,
+          "probability": 0.7192397117614746
+        },
+        {
+          "word": " is",
+          "start": 109.58,
+          "end": 109.72,
+          "probability": 0.6482365131378174
+        },
+        {
+          "word": " going",
+          "start": 109.72,
+          "end": 109.98,
+          "probability": 0.1660774052143097
+        },
+        {
+          "word": " of",
+          "start": 109.98,
+          "end": 110.2,
+          "probability": 0.06884140521287918
+        },
+        {
+          "word": " sandbox.",
+          "start": 110.2,
+          "end": 110.82,
+          "probability": 0.3355640172958374
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 11082,
+      "start": 110.82,
+      "end": 113.58,
+      "text": " He is...",
+      "tokens": [
+        50364,
+        634,
+        307,
+        485,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32090381339744284,
+      "compression_ratio": 1.2307692307692308,
+      "no_speech_prob": 0.05805866792798042,
+      "words": [
+        {
+          "word": " He",
+          "start": 110.82,
+          "end": 112.9,
+          "probability": 0.3748236894607544
+        },
+        {
+          "word": " is...",
+          "start": 112.9,
+          "end": 113.58,
+          "probability": 0.1362365409731865
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 11082,
+      "start": 114.82,
+      "end": 116.7,
+      "text": " This is a fishing.",
+      "tokens": [
+        50564,
+        639,
+        307,
+        257,
+        10180,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32090381339744284,
+      "compression_ratio": 1.2307692307692308,
+      "no_speech_prob": 0.05805866792798042,
+      "words": [
+        {
+          "word": " This",
+          "start": 114.32,
+          "end": 115.02,
+          "probability": 0.2895999848842621
+        },
+        {
+          "word": " is",
+          "start": 115.02,
+          "end": 116.18,
+          "probability": 0.9762985706329346
+        },
+        {
+          "word": " a",
+          "start": 116.18,
+          "end": 116.32,
+          "probability": 0.8939268589019775
+        },
+        {
+          "word": " fishing.",
+          "start": 116.32,
+          "end": 116.7,
+          "probability": 0.735917329788208
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 11082,
+      "start": 120.82,
+      "end": 122.7,
+      "text": " The sailboat.",
+      "tokens": [
+        50864,
+        440,
+        15758,
+        31883,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32090381339744284,
+      "compression_ratio": 1.2307692307692308,
+      "no_speech_prob": 0.05805866792798042,
+      "words": [
+        {
+          "word": " The",
+          "start": 120.8,
+          "end": 121.5,
+          "probability": 0.7038785815238953
+        },
+        {
+          "word": " sailboat.",
+          "start": 121.5,
+          "end": 122.7,
+          "probability": 0.8850994110107422
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 11082,
+      "start": 123.82,
+      "end": 126.58,
+      "text": " The sailboat is going.",
+      "tokens": [
+        51014,
+        440,
+        15758,
+        31883,
+        307,
+        516,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32090381339744284,
+      "compression_ratio": 1.2307692307692308,
+      "no_speech_prob": 0.05805866792798042,
+      "words": [
+        {
+          "word": " The",
+          "start": 123.82,
+          "end": 124.6,
+          "probability": 0.6538947820663452
+        },
+        {
+          "word": " sailboat",
+          "start": 124.6,
+          "end": 124.98,
+          "probability": 0.8596251010894775
+        },
+        {
+          "word": " is",
+          "start": 124.98,
+          "end": 125.36,
+          "probability": 0.39643487334251404
+        },
+        {
+          "word": " going.",
+          "start": 125.36,
+          "end": 126.58,
+          "probability": 0.5510033369064331
+        }
+      ]
+    }
+  ]
+}

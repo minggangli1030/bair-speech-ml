@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-15069_ses-20121206_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.722 → 00:07.844     Clinician    7.12      s People are having picnic and there's a guy flying  P IY SIL B L AA R ER HH AE EH AE V EY NG SIL P IH SIL D G L EH IH SIL K AE N DH EH ER R Z DH AH SIL G AY F L AY IH NG IH AH SIL K AY SIL CH IH N DH IH ER R Z AH S EH L SIL B AA AH N AA AW AA AW L N M DH AH L W AA DX ER
+2    00:11.337 → 00:12.704     Clinician    1.37      s A person on it.                                    AH SIL P ER S AH M N AA N L EH S
+3    00:12.974 → 00:14.695     Clinician    1.72      s Too people on it, maybe.                           T UW SIL P IY SIL P L AY N EH SIL T S SIL M EY SIL B IY
+4    00:15.792 → 00:23.436     Participant  7.64      s And there's a kid playing in the sand and there's  AE N DH EH ER R Z AH SIL K IH EH SIL P L AE EY NG IH N DH AH S AE N D SIL IH N DH EH R Z AH SIL D AA N SIL G R EH N IH NG IH M NG SIL W UH AH SIL TH S DH AH SIL B OY F L AY NG N DH IH SIL K AY SIL T
+5    00:27.554 → 00:30.220     Participant  2.67      s the people have a pic-wink basket.                 DH AH SIL P IY SIL P AH L HH AE V AH SIL P IH SIL W IH NG SIL K SIL B AE S SIL K IH EH SIL T
+6    00:30.405 → 00:33.139     Participant  2.73      s and the guy's reading a book.                      AE N DH EH AH SIL G AY Z S R IY DX IH NG AH M SIL B AA SIL K
+7    00:33.443 → 00:35.974     Participant  2.53      s and the girls pouring us so they can.              IH N DH AH IH SIL G R ER OW L S SIL P AA R IH NG AH S AA DX IH SIL K AE N SIL
+8    00:39.029 → 00:40.379     Participant  1.35      s he has a radio.                                    SH IY AE Z AH R EY DX IY AA L SIL
+9    00:41.914 → 00:45.272     Participant  3.36      s And there's a house in the car in the driveway.    IH N DH EH R Z AH HH AW L S IH N DH AH SIL K AA R IH N DH AH SIL D R AY V W EY SIL
+10   00:47.837 → 00:49.643     Participant  1.81      s There's trees on the background.                   DH EH ER S SIL CH R EY IY EY Z AH N DH AH SIL B AE SIL K R AW N SIL D T
+11   00:51.837 → 00:53.406     Participant  1.57      s And there's a tree up there.                       IH N EH R ER Z AH SIL T CH R IY AW M SIL DH EH ER
+12   00:54.891 → 00:56.460     Participant  1.57      s the halver shade.                                  DH EH SIL HH AA F ER SH EY SIL T
+13   00:57.152 → 01:00.696     Participant  3.54      s to the pickle and there's a flag flying in the win T AH DH AH SIL P EY IY SIL P L IH N DH EH Z AH F L AE SIL K F L AY IH NG IH N DH AH W IH N SIL D
+14   01:07.260 → 01:09.302     Participant  2.04      s There's a tree in front of the window.             N DH EH Z AH SIL T CH T R IY AE EH N F R AW N DH AH W IH N SIL D OW L SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.722 - 00:07.844 (7.12s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: People are having picnic and there's a guy flying a kite and there's a sailboat out in the water.
+  Phonemic Encoding: P IY SIL B L AA R ER HH AE EH AE V EY NG SIL P IH SIL D G L EH IH SIL K AE N DH EH ER R Z DH AH SIL G AY F L AY IH NG IH AH SIL K AY SIL CH IH N DH IH ER R Z AH S EH L SIL B AA AH N AA AW AA AW L N M DH AH L W AA DX ER
+
+Segment 2:
+  Timestamp: 00:11.337 - 00:12.704 (1.37s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: A person on it.
+  Phonemic Encoding: AH SIL P ER S AH M N AA N L EH S
+
+Segment 3:
+  Timestamp: 00:12.974 - 00:14.695 (1.72s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Too people on it, maybe.
+  Phonemic Encoding: T UW SIL P IY SIL P L AY N EH SIL T S SIL M EY SIL B IY
+
+Segment 4:
+  Timestamp: 00:15.792 - 00:23.436 (7.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a kid playing in the sand and there's a dog running What's a boy flying the kite
+  Phonemic Encoding: AE N DH EH ER R Z AH SIL K IH EH SIL P L AE EY NG IH N DH AH S AE N D SIL IH N DH EH R Z AH SIL D AA N SIL G R EH N IH NG IH M NG SIL W UH AH SIL TH S DH AH SIL B OY F L AY NG N DH IH SIL K AY SIL T
+
+Segment 5:
+  Timestamp: 00:27.554 - 00:30.220 (2.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the people have a pic-wink basket.
+  Phonemic Encoding: DH AH SIL P IY SIL P AH L HH AE V AH SIL P IH SIL W IH NG SIL K SIL B AE S SIL K IH EH SIL T
+
+Segment 6:
+  Timestamp: 00:30.405 - 00:33.139 (2.73s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the guy's reading a book.
+  Phonemic Encoding: AE N DH EH AH SIL G AY Z S R IY DX IH NG AH M SIL B AA SIL K
+
+Segment 7:
+  Timestamp: 00:33.443 - 00:35.974 (2.53s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the girls pouring us so they can.
+  Phonemic Encoding: IH N DH AH IH SIL G R ER OW L S SIL P AA R IH NG AH S AA DX IH SIL K AE N SIL
+
+Segment 8:
+  Timestamp: 00:39.029 - 00:40.379 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: he has a radio.
+  Phonemic Encoding: SH IY AE Z AH R EY DX IY AA L SIL
+
+Segment 9:
+  Timestamp: 00:41.914 - 00:45.272 (3.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a house in the car in the driveway.
+  Phonemic Encoding: IH N DH EH R Z AH HH AW L S IH N DH AH SIL K AA R IH N DH AH SIL D R AY V W EY SIL
+
+Segment 10:
+  Timestamp: 00:47.837 - 00:49.643 (1.81s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's trees on the background.
+  Phonemic Encoding: DH EH ER S SIL CH R EY IY EY Z AH N DH AH SIL B AE SIL K R AW N SIL D T
+
+Segment 11:
+  Timestamp: 00:51.837 - 00:53.406 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a tree up there.
+  Phonemic Encoding: IH N EH R ER Z AH SIL T CH R IY AW M SIL DH EH ER
+
+Segment 12:
+  Timestamp: 00:54.891 - 00:56.460 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the halver shade.
+  Phonemic Encoding: DH EH SIL HH AA F ER SH EY SIL T
+
+Segment 13:
+  Timestamp: 00:57.152 - 01:00.696 (3.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: to the pickle and there's a flag flying in the wind.
+  Phonemic Encoding: T AH DH AH SIL P EY IY SIL P L IH N DH EH Z AH F L AE SIL K F L AY IH NG IH N DH AH W IH N SIL D
+
+Segment 14:
+  Timestamp: 01:07.260 - 01:09.302 (2.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a tree in front of the window.
+  Phonemic Encoding: N DH EH Z AH SIL T CH T R IY AE EH N F R AW N DH AH W IH N SIL D OW L SIL

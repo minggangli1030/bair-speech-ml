@@ -1,0 +1,806 @@
+{
+  "text": " And THAT has a life When the Day of Drain Eh and the life It's the seven-moins Yes, three, sighs. And I would\u7834\uad6c zelft, say\u3084,\u309c\u3058 palm, \ub09c jaan\u031darn, \ub09c Yard\u0323', \ub09c \u03c4 ou'n \u0432\u0441\u0435\u043c, claiming When that guy Where?",
+  "words": [
+    {
+      "word": "And",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "THAT",
+      "start": 7.1,
+      "end": 7.8
+    },
+    {
+      "word": "has",
+      "start": 7.8,
+      "end": 8.9
+    },
+    {
+      "word": "a",
+      "start": 8.9,
+      "end": 9.78
+    },
+    {
+      "word": "life",
+      "start": 9.78,
+      "end": 10.48
+    },
+    {
+      "word": "When",
+      "start": 12.06,
+      "end": 12.76
+    },
+    {
+      "word": "the",
+      "start": 12.76,
+      "end": 13.16
+    },
+    {
+      "word": "Day",
+      "start": 13.16,
+      "end": 14.02
+    },
+    {
+      "word": "of",
+      "start": 14.02,
+      "end": 14.42
+    },
+    {
+      "word": "Drain",
+      "start": 14.42,
+      "end": 14.68
+    },
+    {
+      "word": "Eh",
+      "start": 16.68,
+      "end": 17.38
+    },
+    {
+      "word": "and",
+      "start": 18.92,
+      "end": 19.8
+    },
+    {
+      "word": "the",
+      "start": 20.04,
+      "end": 20.74
+    },
+    {
+      "word": "life",
+      "start": 20.74,
+      "end": 21.54
+    },
+    {
+      "word": "It's",
+      "start": 23.16,
+      "end": 24.04
+    },
+    {
+      "word": "the",
+      "start": 24.04,
+      "end": 24.24
+    },
+    {
+      "word": "seven",
+      "start": 24.24,
+      "end": 25.0
+    },
+    {
+      "word": "-moins",
+      "start": 25.0,
+      "end": 25.72
+    },
+    {
+      "word": "Yes,",
+      "start": 26.46,
+      "end": 27.16
+    },
+    {
+      "word": "three,",
+      "start": 27.48,
+      "end": 27.64
+    },
+    {
+      "word": "sighs.",
+      "start": 57.64,
+      "end": 58.1
+    },
+    {
+      "word": "And",
+      "start": 59.7,
+      "end": 60.44
+    },
+    {
+      "word": "I",
+      "start": 60.44,
+      "end": 61.06
+    },
+    {
+      "word": "would",
+      "start": 61.06,
+      "end": 64.38
+    },
+    {
+      "word": "\u7834\uad6c",
+      "start": 64.38,
+      "end": 66.6
+    },
+    {
+      "word": "zelft,",
+      "start": 66.6,
+      "end": 67.22
+    },
+    {
+      "word": "say\u3084",
+      "start": 67.7,
+      "end": 68.44
+    },
+    {
+      "word": ",\u309c\u3058",
+      "start": 68.44,
+      "end": 69.02
+    },
+    {
+      "word": "palm,",
+      "start": 69.02,
+      "end": 70.42
+    },
+    {
+      "word": "\ub09c",
+      "start": 70.42,
+      "end": 72.6
+    },
+    {
+      "word": "jaan\u031darn,",
+      "start": 72.6,
+      "end": 75.1
+    },
+    {
+      "word": "\ub09c",
+      "start": 75.54,
+      "end": 75.54
+    },
+    {
+      "word": "Yard\u0323',",
+      "start": 75.54,
+      "end": 77.22
+    },
+    {
+      "word": "\ub09c",
+      "start": 77.22,
+      "end": 77.62
+    },
+    {
+      "word": "\u03c4",
+      "start": 77.62,
+      "end": 78.28
+    },
+    {
+      "word": "ou",
+      "start": 78.28,
+      "end": 78.38
+    },
+    {
+      "word": "'n",
+      "start": 78.38,
+      "end": 79.36
+    },
+    {
+      "word": "\u0432\u0441\u0435\u043c,",
+      "start": 79.36,
+      "end": 80.58
+    },
+    {
+      "word": "claiming",
+      "start": 81.48,
+      "end": 81.48
+    },
+    {
+      "word": "When",
+      "start": 118.41999999999999,
+      "end": 119.82
+    },
+    {
+      "word": "that",
+      "start": 119.82,
+      "end": 121.22
+    },
+    {
+      "word": "guy",
+      "start": 121.22,
+      "end": 121.62
+    },
+    {
+      "word": "Where?",
+      "start": 121.62,
+      "end": 122.16
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.78,
+      "text": " And",
+      "tokens": [
+        50364,
+        400,
+        50445
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " And",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.044026006013154984
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.22,
+      "end": 8.9,
+      "text": " THAT has",
+      "tokens": [
+        50725,
+        15532,
+        575,
+        50833
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " THAT",
+          "start": 7.1,
+          "end": 7.8,
+          "probability": 8.373928721994162e-05
+        },
+        {
+          "word": " has",
+          "start": 7.8,
+          "end": 8.9,
+          "probability": 0.02169778011739254
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.9,
+      "end": 10.48,
+      "text": " a life",
+      "tokens": [
+        50833,
+        257,
+        993,
+        50917
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " a",
+          "start": 8.9,
+          "end": 9.78,
+          "probability": 0.26499801874160767
+        },
+        {
+          "word": " life",
+          "start": 9.78,
+          "end": 10.48,
+          "probability": 0.13934387266635895
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.26,
+      "end": 13.16,
+      "text": " When the",
+      "tokens": [
+        50977,
+        1133,
+        264,
+        51036
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " When",
+          "start": 12.06,
+          "end": 12.76,
+          "probability": 0.14843080937862396
+        },
+        {
+          "word": " the",
+          "start": 12.76,
+          "end": 13.16,
+          "probability": 0.8289361000061035
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.16,
+      "end": 14.68,
+      "text": " Day of Drain",
+      "tokens": [
+        51036,
+        5226,
+        295,
+        413,
+        7146,
+        51130
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " Day",
+          "start": 13.16,
+          "end": 14.02,
+          "probability": 0.002036958234384656
+        },
+        {
+          "word": " of",
+          "start": 14.02,
+          "end": 14.42,
+          "probability": 0.9413518905639648
+        },
+        {
+          "word": " Drain",
+          "start": 14.42,
+          "end": 14.68,
+          "probability": 0.6036763936281204
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.68,
+      "end": 17.38,
+      "text": " Eh",
+      "tokens": [
+        51198,
+        9663,
+        51269
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " Eh",
+          "start": 16.68,
+          "end": 17.38,
+          "probability": 0.02905985713005066
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 18.92,
+      "end": 19.8,
+      "text": " and",
+      "tokens": [
+        51310,
+        293,
+        51367
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " and",
+          "start": 18.92,
+          "end": 19.8,
+          "probability": 0.044993218034505844
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.400000000000002,
+      "end": 21.54,
+      "text": " the life",
+      "tokens": [
+        51384,
+        264,
+        993,
+        51469
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " the",
+          "start": 20.04,
+          "end": 20.74,
+          "probability": 0.4140377342700958
+        },
+        {
+          "word": " life",
+          "start": 20.74,
+          "end": 21.54,
+          "probability": 0.07249216735363007
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 23.16,
+      "end": 24.24,
+      "text": " It's the",
+      "tokens": [
+        51522,
+        467,
+        311,
+        264,
+        51615
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " It's",
+          "start": 23.16,
+          "end": 24.04,
+          "probability": 0.3657478019595146
+        },
+        {
+          "word": " the",
+          "start": 24.04,
+          "end": 24.24,
+          "probability": 0.20184122025966644
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 24.24,
+      "end": 25.72,
+      "text": " seven-moins",
+      "tokens": [
+        51615,
+        3407,
+        12,
+        3280,
+        1292,
+        51691
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " seven",
+          "start": 24.24,
+          "end": 25.0,
+          "probability": 0.0003685240517370403
+        },
+        {
+          "word": "-moins",
+          "start": 25.0,
+          "end": 25.72,
+          "probability": 0.3238732690612475
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 26.54,
+      "end": 27.64,
+      "text": " Yes, three,",
+      "tokens": [
+        51691,
+        1079,
+        11,
+        1045,
+        11,
+        51789
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4939541625976562,
+      "compression_ratio": 1.0465116279069768,
+      "no_speech_prob": 0.4084097743034363,
+      "words": [
+        {
+          "word": " Yes,",
+          "start": 26.46,
+          "end": 27.16,
+          "probability": 0.14215242862701416
+        },
+        {
+          "word": " three,",
+          "start": 27.48,
+          "end": 27.64,
+          "probability": 0.0018806027946993709
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5764,
+      "start": 57.64,
+      "end": 64.38,
+      "text": " sighs. And I would",
+      "tokens": [
+        50364,
+        44705,
+        13,
+        400,
+        286,
+        576,
+        51836
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.2052360110812717,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.5110737085342407,
+      "words": [
+        {
+          "word": " sighs.",
+          "start": 57.64,
+          "end": 58.1,
+          "probability": 3.109733370365575e-06
+        },
+        {
+          "word": " And",
+          "start": 59.7,
+          "end": 60.44,
+          "probability": 0.025321435183286667
+        },
+        {
+          "word": " I",
+          "start": 60.44,
+          "end": 61.06,
+          "probability": 0.0980687141418457
+        },
+        {
+          "word": " would",
+          "start": 61.06,
+          "end": 64.38,
+          "probability": 0.02385461889207363
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 6438,
+      "start": 64.38,
+      "end": 81.48,
+      "text": "\u7834\uad6c zelft, say\u3084,\u309c\u3058 palm, \ub09c jaan\u031darn, \ub09c Yard\u0323', \ub09c \u03c4 ou'n \u0432\u0441\u0435\u043c, claiming",
+      "tokens": [
+        50364,
+        39560,
+        7675,
+        710,
+        338,
+        844,
+        11,
+        584,
+        7355,
+        11,
+        824,
+        250,
+        9257,
+        17018,
+        11,
+        19252,
+        2784,
+        282,
+        136,
+        251,
+        1083,
+        11,
+        19252,
+        398,
+        515,
+        136,
+        96,
+        6098,
+        19252,
+        3596,
+        2820,
+        6,
+        77,
+        21042,
+        11,
+        19232,
+        51223
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.763919536884014,
+      "compression_ratio": 0.9787234042553191,
+      "no_speech_prob": 0.43749120831489563,
+      "words": [
+        {
+          "word": "\u7834\uad6c",
+          "start": 64.38,
+          "end": 66.6,
+          "probability": 0.000747517639410944
+        },
+        {
+          "word": " zelft,",
+          "start": 66.6,
+          "end": 67.22,
+          "probability": 0.09307996886006246
+        },
+        {
+          "word": " say\u3084",
+          "start": 67.7,
+          "end": 68.44,
+          "probability": 0.03666390455327928
+        },
+        {
+          "word": ",\u309c\u3058",
+          "start": 68.44,
+          "end": 69.02,
+          "probability": 0.06677497978671454
+        },
+        {
+          "word": " palm,",
+          "start": 69.02,
+          "end": 70.42,
+          "probability": 7.422646376653574e-06
+        },
+        {
+          "word": " \ub09c",
+          "start": 70.42,
+          "end": 72.6,
+          "probability": 0.0011002544779330492
+        },
+        {
+          "word": " jaan\u031darn,",
+          "start": 72.6,
+          "end": 75.1,
+          "probability": 0.030114762438461184
+        },
+        {
+          "word": " \ub09c",
+          "start": 75.54,
+          "end": 75.54,
+          "probability": 0.33280742168426514
+        },
+        {
+          "word": " Yard\u0323',",
+          "start": 75.54,
+          "end": 77.22,
+          "probability": 0.057481827706214975
+        },
+        {
+          "word": " \ub09c",
+          "start": 77.22,
+          "end": 77.62,
+          "probability": 0.39526188373565674
+        },
+        {
+          "word": " \u03c4",
+          "start": 77.62,
+          "end": 78.28,
+          "probability": 0.003887469181790948
+        },
+        {
+          "word": " ou",
+          "start": 78.28,
+          "end": 78.38,
+          "probability": 2.493061765562743e-05
+        },
+        {
+          "word": "'n",
+          "start": 78.38,
+          "end": 79.36,
+          "probability": 0.2096044309437275
+        },
+        {
+          "word": " \u0432\u0441\u0435\u043c,",
+          "start": 79.36,
+          "end": 80.58,
+          "probability": 1.6680052112860722e-06
+        },
+        {
+          "word": " claiming",
+          "start": 81.48,
+          "end": 81.48,
+          "probability": 3.962727078032913e-06
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 11148,
+      "start": 118.41999999999999,
+      "end": 121.62,
+      "text": " When that guy",
+      "tokens": [
+        50364,
+        1133,
+        300,
+        2146,
+        50836
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.077754701886858,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 0.4080096483230591,
+      "words": [
+        {
+          "word": " When",
+          "start": 118.41999999999999,
+          "end": 119.82,
+          "probability": 0.005110482219606638
+        },
+        {
+          "word": " that",
+          "start": 119.82,
+          "end": 121.22,
+          "probability": 0.02349459007382393
+        },
+        {
+          "word": " guy",
+          "start": 121.22,
+          "end": 121.62,
+          "probability": 0.8669177293777466
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 12162,
+      "start": 121.62,
+      "end": 122.16,
+      "text": " Where?",
+      "tokens": [
+        50364,
+        2305,
+        30,
+        50669
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.9747579574584961,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 0.3974374234676361,
+      "words": [
+        {
+          "word": " Where?",
+          "start": 121.62,
+          "end": 122.16,
+          "probability": 0.07755062729120255
+        }
+      ]
+    }
+  ]
+}

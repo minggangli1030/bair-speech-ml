@@ -1,0 +1,862 @@
+{
+  "text": " We got a tree and a house and a car and a kite and a dog and a sailboat and a fishman and taking a sleeping out the blanket to a man and a woman and a radio and a flag and a jet ski. That's theory and sandals and a dragon soda and a basket and a book. Turn the clock and a dog.",
+  "words": [
+    {
+      "word": "We",
+      "start": 0.0,
+      "end": 1.58
+    },
+    {
+      "word": "got",
+      "start": 1.58,
+      "end": 1.72
+    },
+    {
+      "word": "a",
+      "start": 1.72,
+      "end": 1.86
+    },
+    {
+      "word": "tree",
+      "start": 1.86,
+      "end": 2.28
+    },
+    {
+      "word": "and",
+      "start": 2.28,
+      "end": 2.74
+    },
+    {
+      "word": "a",
+      "start": 2.74,
+      "end": 2.92
+    },
+    {
+      "word": "house",
+      "start": 2.92,
+      "end": 3.34
+    },
+    {
+      "word": "and",
+      "start": 3.34,
+      "end": 4.52
+    },
+    {
+      "word": "a",
+      "start": 4.52,
+      "end": 4.68
+    },
+    {
+      "word": "car",
+      "start": 4.68,
+      "end": 6.5
+    },
+    {
+      "word": "and",
+      "start": 6.5,
+      "end": 7.22
+    },
+    {
+      "word": "a",
+      "start": 7.22,
+      "end": 7.72
+    },
+    {
+      "word": "kite",
+      "start": 7.72,
+      "end": 8.4
+    },
+    {
+      "word": "and",
+      "start": 8.4,
+      "end": 9.2
+    },
+    {
+      "word": "a",
+      "start": 9.2,
+      "end": 9.28
+    },
+    {
+      "word": "dog",
+      "start": 9.28,
+      "end": 9.74
+    },
+    {
+      "word": "and",
+      "start": 9.74,
+      "end": 10.12
+    },
+    {
+      "word": "a",
+      "start": 10.12,
+      "end": 10.7
+    },
+    {
+      "word": "sailboat",
+      "start": 10.7,
+      "end": 13.08
+    },
+    {
+      "word": "and",
+      "start": 13.08,
+      "end": 14.14
+    },
+    {
+      "word": "a",
+      "start": 14.14,
+      "end": 14.52
+    },
+    {
+      "word": "fishman",
+      "start": 14.52,
+      "end": 14.92
+    },
+    {
+      "word": "and",
+      "start": 17.759999999999994,
+      "end": 18.639999999999997
+    },
+    {
+      "word": "taking",
+      "start": 18.639999999999997,
+      "end": 19.52
+    },
+    {
+      "word": "a",
+      "start": 19.52,
+      "end": 19.84
+    },
+    {
+      "word": "sleeping",
+      "start": 19.84,
+      "end": 21.72
+    },
+    {
+      "word": "out",
+      "start": 21.72,
+      "end": 21.98
+    },
+    {
+      "word": "the",
+      "start": 21.98,
+      "end": 22.22
+    },
+    {
+      "word": "blanket",
+      "start": 22.22,
+      "end": 28.12
+    },
+    {
+      "word": "to",
+      "start": 28.12,
+      "end": 29.58
+    },
+    {
+      "word": "a",
+      "start": 29.58,
+      "end": 29.8
+    },
+    {
+      "word": "man",
+      "start": 29.8,
+      "end": 30.32
+    },
+    {
+      "word": "and",
+      "start": 30.32,
+      "end": 30.44
+    },
+    {
+      "word": "a",
+      "start": 30.44,
+      "end": 30.56
+    },
+    {
+      "word": "woman",
+      "start": 30.56,
+      "end": 30.86
+    },
+    {
+      "word": "and",
+      "start": 30.86,
+      "end": 32.1
+    },
+    {
+      "word": "a",
+      "start": 32.1,
+      "end": 32.24
+    },
+    {
+      "word": "radio",
+      "start": 32.24,
+      "end": 32.78
+    },
+    {
+      "word": "and",
+      "start": 32.78,
+      "end": 34.96
+    },
+    {
+      "word": "a",
+      "start": 34.96,
+      "end": 35.1
+    },
+    {
+      "word": "flag",
+      "start": 35.1,
+      "end": 35.56
+    },
+    {
+      "word": "and",
+      "start": 35.56,
+      "end": 37.86
+    },
+    {
+      "word": "a",
+      "start": 37.86,
+      "end": 38.14
+    },
+    {
+      "word": "jet",
+      "start": 38.14,
+      "end": 38.56
+    },
+    {
+      "word": "ski.",
+      "start": 38.56,
+      "end": 39.2
+    },
+    {
+      "word": "That's",
+      "start": 41.800000000000004,
+      "end": 43.2
+    },
+    {
+      "word": "theory",
+      "start": 43.2,
+      "end": 43.58
+    },
+    {
+      "word": "and",
+      "start": 43.58,
+      "end": 45.8
+    },
+    {
+      "word": "sandals",
+      "start": 45.8,
+      "end": 46.84
+    },
+    {
+      "word": "and",
+      "start": 46.84,
+      "end": 49.02
+    },
+    {
+      "word": "a",
+      "start": 49.02,
+      "end": 49.32
+    },
+    {
+      "word": "dragon",
+      "start": 49.32,
+      "end": 50.86
+    },
+    {
+      "word": "soda",
+      "start": 50.86,
+      "end": 52.04
+    },
+    {
+      "word": "and",
+      "start": 52.04,
+      "end": 53.9
+    },
+    {
+      "word": "a",
+      "start": 53.9,
+      "end": 53.98
+    },
+    {
+      "word": "basket",
+      "start": 53.98,
+      "end": 54.42
+    },
+    {
+      "word": "and",
+      "start": 54.42,
+      "end": 55.22
+    },
+    {
+      "word": "a",
+      "start": 55.22,
+      "end": 55.44
+    },
+    {
+      "word": "book.",
+      "start": 55.44,
+      "end": 59.36
+    },
+    {
+      "word": "Turn",
+      "start": 59.36,
+      "end": 60.64
+    },
+    {
+      "word": "the",
+      "start": 60.64,
+      "end": 60.8
+    },
+    {
+      "word": "clock",
+      "start": 60.8,
+      "end": 60.88
+    },
+    {
+      "word": "and",
+      "start": 60.88,
+      "end": 62.72
+    },
+    {
+      "word": "a",
+      "start": 62.72,
+      "end": 62.88
+    },
+    {
+      "word": "dog.",
+      "start": 62.88,
+      "end": 63.28
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 14.92,
+      "text": " We got a tree and a house and a car and a kite and a dog and a sailboat and a fishman",
+      "tokens": [
+        50364,
+        492,
+        658,
+        257,
+        4230,
+        293,
+        257,
+        1782,
+        293,
+        257,
+        1032,
+        293,
+        257,
+        38867,
+        293,
+        257,
+        3000,
+        293,
+        257,
+        15758,
+        31883,
+        293,
+        257,
+        3506,
+        1601,
+        51186
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3839491776057652,
+      "compression_ratio": 1.3492063492063493,
+      "no_speech_prob": 0.20615993440151215,
+      "words": [
+        {
+          "word": " We",
+          "start": 0.0,
+          "end": 1.58,
+          "probability": 0.824518620967865
+        },
+        {
+          "word": " got",
+          "start": 1.58,
+          "end": 1.72,
+          "probability": 0.601650059223175
+        },
+        {
+          "word": " a",
+          "start": 1.72,
+          "end": 1.86,
+          "probability": 0.9972787499427795
+        },
+        {
+          "word": " tree",
+          "start": 1.86,
+          "end": 2.28,
+          "probability": 0.998340368270874
+        },
+        {
+          "word": " and",
+          "start": 2.28,
+          "end": 2.74,
+          "probability": 0.37106359004974365
+        },
+        {
+          "word": " a",
+          "start": 2.74,
+          "end": 2.92,
+          "probability": 0.9964266419410706
+        },
+        {
+          "word": " house",
+          "start": 2.92,
+          "end": 3.34,
+          "probability": 0.9981321692466736
+        },
+        {
+          "word": " and",
+          "start": 3.34,
+          "end": 4.52,
+          "probability": 0.8328884840011597
+        },
+        {
+          "word": " a",
+          "start": 4.52,
+          "end": 4.68,
+          "probability": 0.9926658272743225
+        },
+        {
+          "word": " car",
+          "start": 4.68,
+          "end": 6.5,
+          "probability": 0.9970974922180176
+        },
+        {
+          "word": " and",
+          "start": 6.5,
+          "end": 7.22,
+          "probability": 0.6899935007095337
+        },
+        {
+          "word": " a",
+          "start": 7.22,
+          "end": 7.72,
+          "probability": 0.4180870056152344
+        },
+        {
+          "word": " kite",
+          "start": 7.72,
+          "end": 8.4,
+          "probability": 0.9821385145187378
+        },
+        {
+          "word": " and",
+          "start": 8.4,
+          "end": 9.2,
+          "probability": 0.9745284914970398
+        },
+        {
+          "word": " a",
+          "start": 9.2,
+          "end": 9.28,
+          "probability": 0.9428322911262512
+        },
+        {
+          "word": " dog",
+          "start": 9.28,
+          "end": 9.74,
+          "probability": 0.9969626069068909
+        },
+        {
+          "word": " and",
+          "start": 9.74,
+          "end": 10.12,
+          "probability": 0.960891842842102
+        },
+        {
+          "word": " a",
+          "start": 10.12,
+          "end": 10.7,
+          "probability": 0.8579826354980469
+        },
+        {
+          "word": " sailboat",
+          "start": 10.7,
+          "end": 13.08,
+          "probability": 0.9706664979457855
+        },
+        {
+          "word": " and",
+          "start": 13.08,
+          "end": 14.14,
+          "probability": 0.9636350870132446
+        },
+        {
+          "word": " a",
+          "start": 14.14,
+          "end": 14.52,
+          "probability": 0.35362082719802856
+        },
+        {
+          "word": " fishman",
+          "start": 14.52,
+          "end": 14.92,
+          "probability": 0.3933589309453964
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 1492,
+      "start": 17.759999999999994,
+      "end": 39.2,
+      "text": " and taking a sleeping out the blanket to a man and a woman and a radio and a flag and a jet ski.",
+      "tokens": [
+        50364,
+        293,
+        1940,
+        257,
+        8296,
+        484,
+        264,
+        17907,
+        281,
+        257,
+        587,
+        293,
+        257,
+        3059,
+        293,
+        257,
+        6477,
+        293,
+        257,
+        7166,
+        293,
+        257,
+        14452,
+        14274,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.439154897417341,
+      "compression_ratio": 1.28,
+      "no_speech_prob": 0.35810932517051697,
+      "words": [
+        {
+          "word": " and",
+          "start": 17.759999999999994,
+          "end": 18.639999999999997,
+          "probability": 0.48831674456596375
+        },
+        {
+          "word": " taking",
+          "start": 18.639999999999997,
+          "end": 19.52,
+          "probability": 0.3973475694656372
+        },
+        {
+          "word": " a",
+          "start": 19.52,
+          "end": 19.84,
+          "probability": 0.8768515586853027
+        },
+        {
+          "word": " sleeping",
+          "start": 19.84,
+          "end": 21.72,
+          "probability": 0.5379984974861145
+        },
+        {
+          "word": " out",
+          "start": 21.72,
+          "end": 21.98,
+          "probability": 0.5369566082954407
+        },
+        {
+          "word": " the",
+          "start": 21.98,
+          "end": 22.22,
+          "probability": 0.8812628388404846
+        },
+        {
+          "word": " blanket",
+          "start": 22.22,
+          "end": 28.12,
+          "probability": 0.9800310134887695
+        },
+        {
+          "word": " to",
+          "start": 28.12,
+          "end": 29.58,
+          "probability": 0.9178813695907593
+        },
+        {
+          "word": " a",
+          "start": 29.58,
+          "end": 29.8,
+          "probability": 0.545648455619812
+        },
+        {
+          "word": " man",
+          "start": 29.8,
+          "end": 30.32,
+          "probability": 0.9971070885658264
+        },
+        {
+          "word": " and",
+          "start": 30.32,
+          "end": 30.44,
+          "probability": 0.9415234923362732
+        },
+        {
+          "word": " a",
+          "start": 30.44,
+          "end": 30.56,
+          "probability": 0.9652523994445801
+        },
+        {
+          "word": " woman",
+          "start": 30.56,
+          "end": 30.86,
+          "probability": 0.9981651902198792
+        },
+        {
+          "word": " and",
+          "start": 30.86,
+          "end": 32.1,
+          "probability": 0.30049002170562744
+        },
+        {
+          "word": " a",
+          "start": 32.1,
+          "end": 32.24,
+          "probability": 0.9665800333023071
+        },
+        {
+          "word": " radio",
+          "start": 32.24,
+          "end": 32.78,
+          "probability": 0.9967948794364929
+        },
+        {
+          "word": " and",
+          "start": 32.78,
+          "end": 34.96,
+          "probability": 0.7472535371780396
+        },
+        {
+          "word": " a",
+          "start": 34.96,
+          "end": 35.1,
+          "probability": 0.9634582996368408
+        },
+        {
+          "word": " flag",
+          "start": 35.1,
+          "end": 35.56,
+          "probability": 0.9951711297035217
+        },
+        {
+          "word": " and",
+          "start": 35.56,
+          "end": 37.86,
+          "probability": 0.905161440372467
+        },
+        {
+          "word": " a",
+          "start": 37.86,
+          "end": 38.14,
+          "probability": 0.9502717852592468
+        },
+        {
+          "word": " jet",
+          "start": 38.14,
+          "end": 38.56,
+          "probability": 0.7889816164970398
+        },
+        {
+          "word": " ski.",
+          "start": 38.56,
+          "end": 39.2,
+          "probability": 0.9610598683357239
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 3920,
+      "start": 41.800000000000004,
+      "end": 59.36,
+      "text": " That's theory and sandals and a dragon soda and a basket and a book.",
+      "tokens": [
+        50364,
+        663,
+        311,
+        5261,
+        293,
+        4932,
+        1124,
+        293,
+        257,
+        12165,
+        17192,
+        293,
+        257,
+        8390,
+        293,
+        257,
+        1446,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4861407507033575,
+      "compression_ratio": 1.1333333333333333,
+      "no_speech_prob": 0.45489761233329773,
+      "words": [
+        {
+          "word": " That's",
+          "start": 41.800000000000004,
+          "end": 43.2,
+          "probability": 0.6608579605817795
+        },
+        {
+          "word": " theory",
+          "start": 43.2,
+          "end": 43.58,
+          "probability": 0.32122084498405457
+        },
+        {
+          "word": " and",
+          "start": 43.58,
+          "end": 45.8,
+          "probability": 0.18300731480121613
+        },
+        {
+          "word": " sandals",
+          "start": 45.8,
+          "end": 46.84,
+          "probability": 0.8988294899463654
+        },
+        {
+          "word": " and",
+          "start": 46.84,
+          "end": 49.02,
+          "probability": 0.6535232663154602
+        },
+        {
+          "word": " a",
+          "start": 49.02,
+          "end": 49.32,
+          "probability": 0.8413149118423462
+        },
+        {
+          "word": " dragon",
+          "start": 49.32,
+          "end": 50.86,
+          "probability": 0.1940157413482666
+        },
+        {
+          "word": " soda",
+          "start": 50.86,
+          "end": 52.04,
+          "probability": 0.9322551488876343
+        },
+        {
+          "word": " and",
+          "start": 52.04,
+          "end": 53.9,
+          "probability": 0.7713091373443604
+        },
+        {
+          "word": " a",
+          "start": 53.9,
+          "end": 53.98,
+          "probability": 0.9750481247901917
+        },
+        {
+          "word": " basket",
+          "start": 53.98,
+          "end": 54.42,
+          "probability": 0.9844244122505188
+        },
+        {
+          "word": " and",
+          "start": 54.42,
+          "end": 55.22,
+          "probability": 0.9658545255661011
+        },
+        {
+          "word": " a",
+          "start": 55.22,
+          "end": 55.44,
+          "probability": 0.9789313673973083
+        },
+        {
+          "word": " book.",
+          "start": 55.44,
+          "end": 59.36,
+          "probability": 0.9982587695121765
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 5936,
+      "start": 59.36,
+      "end": 63.28,
+      "text": " Turn the clock and a dog.",
+      "tokens": [
+        50414,
+        7956,
+        264,
+        7830,
+        293,
+        257,
+        3000,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9869576454162597,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 0.7575468420982361,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 59.36,
+          "end": 60.64,
+          "probability": 0.1393747627735138
+        },
+        {
+          "word": " the",
+          "start": 60.64,
+          "end": 60.8,
+          "probability": 0.12245544791221619
+        },
+        {
+          "word": " clock",
+          "start": 60.8,
+          "end": 60.88,
+          "probability": 0.11065617948770523
+        },
+        {
+          "word": " and",
+          "start": 60.88,
+          "end": 62.72,
+          "probability": 0.0954531580209732
+        },
+        {
+          "word": " a",
+          "start": 62.72,
+          "end": 62.88,
+          "probability": 0.5714510679244995
+        },
+        {
+          "word": " dog.",
+          "start": 62.88,
+          "end": 63.28,
+          "probability": 0.9717490077018738
+        }
+      ]
+    }
+  ]
+}

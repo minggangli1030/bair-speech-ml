@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-4703_ses-20060616_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.583 → 00:04.975     Clinician    3.39      s and family is having him.                          N F AE AW M L IY SIL IH IH EH Z S SIL SIL HH AE V IH NG IH HH IH EH SIL
+2    00:06.038 → 00:19.386     Clinician    13.35     s Dick and the lady is boring her south paw crank an D IH EY NG SIL K HH AE N AH DH AH SIL B L EY DH IY SIL SIL HH IH Z S F P B AA R ER IH NG SIL G K HH ER S AE AW V F SIL P F AA SIL K R IH NG SIL G IH SIL EY HH EH AE N SIL L EH DX ZH IH S SIL T S SIL T N IH IH NG SIL T UW SIL TH DH ER R EY SIL D IY Y HH OW L
+3    00:20.837 → 00:27.486     Clinician    6.65      s Though father is reading a book in his...          DH AH AW F AA R SIL DH ER SIL HH IH EH Z S SIL SIL R IY N D IY NG SIL AW SIL B UH SIL HH EH DX SIL HH IY S
+4    00:28.262 → 00:30.034     Clinician    1.77      s God, here's...                                     SIL K AA SIL D SIL HH IH ER SH SH
+5    00:30.034 → 00:31.502     Participant  1.47      s ure is sharp!                                      UW S AA F P
+6    00:31.705 → 00:40.109     Participant  8.40      s The sun is flying a kite, and the dog is watching. DH AH S AH N AH SIL HH IH Z S F L AY NG AE SIL SIL K AY SIL T HH IH AE N IH SIL TH DH AH IH SIL T AA SIL K G S SIL W AA AY SIL CH JH IH NG G
+7    00:41.459 → 00:53.305     Participant  11.85     s There's a little boy in the plane, in the sand, in DH EH ER Z S AH AW L EH IH DX L AH SIL B OY EY IH SIL IH EH N DH AH B L EY NG IH HH SIL AE EH N DH AH SIL HH AH S AE N D AH IH IH EH N AH SIL AH DX IH S EY L SIL B SIL B OW SIL T CH AW OW SIL T IY IH N DH AE AH B EY
+8    00:54.705 → 01:04.493     Participant  9.79      s There's a person fishing from the dock. Yes, and a DH EH ER Z AA AH SIL P ER S IH EH N AH F EH IH SH IH NG SIL F R M N DH AH AA SIL D AA SIL K Y EH S HH AH N DH AA SIL SIL HH AH N AY S SIL D EY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.583 - 00:04.975 (3.39s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and family is having him.
+  Phonemic Encoding: N F AE AW M L IY SIL IH IH EH Z S SIL SIL HH AE V IH NG IH HH IH EH SIL
+
+Segment 2:
+  Timestamp: 00:06.038 - 00:19.386 (13.35s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Dick and the lady is boring her south paw crank and and just staying to their radio.
+  Phonemic Encoding: D IH EY NG SIL K HH AE N AH DH AH SIL B L EY DH IY SIL SIL HH IH Z S F P B AA R ER IH NG SIL G K HH ER S AE AW V F SIL P F AA SIL K R IH NG SIL G IH SIL EY HH EH AE N SIL L EH DX ZH IH S SIL T S SIL T N IH IH NG SIL T UW SIL TH DH ER R EY SIL D IY Y HH OW L
+
+Segment 3:
+  Timestamp: 00:20.837 - 00:27.486 (6.65s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Though father is reading a book in his...
+  Phonemic Encoding: DH AH AW F AA R SIL DH ER SIL HH IH EH Z S SIL SIL R IY N D IY NG SIL AW SIL B UH SIL HH EH DX SIL HH IY S
+
+Segment 4:
+  Timestamp: 00:28.262 - 00:30.034 (1.77s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: God, here's...
+  Phonemic Encoding: SIL K AA SIL D SIL HH IH ER SH SH
+
+Segment 5:
+  Timestamp: 00:30.034 - 00:31.502 (1.47s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: ure is sharp!
+  Phonemic Encoding: UW S AA F P
+
+Segment 6:
+  Timestamp: 00:31.705 - 00:40.109 (8.40s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The sun is flying a kite, and the dog is watching.
+  Phonemic Encoding: DH AH S AH N AH SIL HH IH Z S F L AY NG AE SIL SIL K AY SIL T HH IH AE N IH SIL TH DH AH IH SIL T AA SIL K G S SIL W AA AY SIL CH JH IH NG G
+
+Segment 7:
+  Timestamp: 00:41.459 - 00:53.305 (11.85s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's a little boy in the plane, in the sand, in a sailboat out in the bay.
+  Phonemic Encoding: DH EH ER Z S AH AW L EH IH DX L AH SIL B OY EY IH SIL IH EH N DH AH B L EY NG IH HH SIL AE EH N DH AH SIL HH AH S AE N D AH IH IH EH N AH SIL AH DX IH S EY L SIL B SIL B OW SIL T CH AW OW SIL T IY IH N DH AE AH B EY
+
+Segment 8:
+  Timestamp: 00:54.705 - 01:04.493 (9.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's a person fishing from the dock. Yes, and a nice day.
+  Phonemic Encoding: DH EH ER Z AA AH SIL P ER S IH EH N AH F EH IH SH IH NG SIL F R M N DH AH AA SIL D AA SIL K Y EH S HH AH N DH AA SIL SIL HH AH N AY S SIL D EY

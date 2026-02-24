@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-22401_ses-20170531_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.621 → 00:02.055     Participant  1.43      s A Man Hennel                                       IY SIL M AE N AH SIL HH AE N EH AH
+2    00:02.224 → 00:03.456     Participant  1.23      s Woman are...                                       W L M L EH IH N AH SIL P HH AA R ER
+3    00:03.760 → 00:05.245     Participant  1.48      s having a picnic.                                   HH AE V B IY NG IH SIL AH SIL P IH SIL N IH SIL K
+4    00:09.717 → 00:10.999     Participant  1.28      s playing a kite.                                    P L AY NG EH IH V SIL K S HH AY SIL
+5    00:11.269 → 00:13.024     Participant  1.75      s And there's a                                      AE N SIL DH EH AE AH SIL DH IH ER Z AH AH
+6    00:17.817 → 00:19.032     Participant  1.21      s Bye, him.                                          B AY SIL SIL T S IH M AH HH
+7    00:20.399 → 00:21.580     Participant  1.18      s And there's a...                                   AE IH EH N DH IH ER S AH AH
+8    00:22.592 → 00:27.469     Participant  4.88      s cell dole on the lake and there's a child          S EH L SIL B OW L SIL T AA M DH AH L EY SIL K HH AE N DH EH ER Z AH SIL AH SIL CH AY L SIL D
+9    00:29.140 → 00:30.220     Participant  1.08      s playing                                            P L EY NG SIL S
+10   00:30.524 → 00:32.009     Participant  1.49      s along the shorter...                               AH L W AA NG SIL DH AH SH AA R EH ER
+11   00:33.915 → 00:35.957     Participant  2.04      s and I see a cabin.                                 EH N AY EY SIL S IY AH SIL P HH AE SIL B IH N
+12   00:46.285 → 00:49.339     Participant  3.05      s or maybe it's a house.                             K ER AH EY SIL B IY IH EH IH SIL S AH HH AW L S
+13   00:57.574 → 00:59.835     Clinician    2.26      s applying at the shoreline.                         P L AY IH NG IH SIL AE SIL DH AH SH AA R L AY N
+14   01:15.445 → 01:16.862     Participant  1.42      s There's a person.                                  DH EH ER ZH Z AH SIL SIL P ER S IH NG SIL
+15   01:18.145 → 01:19.377     Participant  1.23      s off the pier.                                      AA SIL DH AH V SIL SIL P HH IY ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.621 - 00:02.055 (1.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: A Man Hennel
+  Phonemic Encoding: IY SIL M AE N AH SIL HH AE N EH AH
+
+Segment 2:
+  Timestamp: 00:02.224 - 00:03.456 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Woman are...
+  Phonemic Encoding: W L M L EH IH N AH SIL P HH AA R ER
+
+Segment 3:
+  Timestamp: 00:03.760 - 00:05.245 (1.48s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having a picnic.
+  Phonemic Encoding: HH AE V B IY NG IH SIL AH SIL P IH SIL N IH SIL K
+
+Segment 4:
+  Timestamp: 00:09.717 - 00:10.999 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: playing a kite.
+  Phonemic Encoding: P L AY NG EH IH V SIL K S HH AY SIL
+
+Segment 5:
+  Timestamp: 00:11.269 - 00:13.024 (1.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a
+  Phonemic Encoding: AE N SIL DH EH AE AH SIL DH IH ER Z AH AH
+
+Segment 6:
+  Timestamp: 00:17.817 - 00:19.032 (1.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Bye, him.
+  Phonemic Encoding: B AY SIL SIL T S IH M AH HH
+
+Segment 7:
+  Timestamp: 00:20.399 - 00:21.580 (1.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: AE IH EH N DH IH ER S AH AH
+
+Segment 8:
+  Timestamp: 00:22.592 - 00:27.469 (4.88s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: cell dole on the lake and there's a child
+  Phonemic Encoding: S EH L SIL B OW L SIL T AA M DH AH L EY SIL K HH AE N DH EH ER Z AH SIL AH SIL CH AY L SIL D
+
+Segment 9:
+  Timestamp: 00:29.140 - 00:30.220 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: playing
+  Phonemic Encoding: P L EY NG SIL S
+
+Segment 10:
+  Timestamp: 00:30.524 - 00:32.009 (1.49s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: along the shorter...
+  Phonemic Encoding: AH L W AA NG SIL DH AH SH AA R EH ER
+
+Segment 11:
+  Timestamp: 00:33.915 - 00:35.957 (2.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I see a cabin.
+  Phonemic Encoding: EH N AY EY SIL S IY AH SIL P HH AE SIL B IH N
+
+Segment 12:
+  Timestamp: 00:46.285 - 00:49.339 (3.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: or maybe it's a house.
+  Phonemic Encoding: K ER AH EY SIL B IY IH EH IH SIL S AH HH AW L S
+
+Segment 13:
+  Timestamp: 00:57.574 - 00:59.835 (2.26s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: applying at the shoreline.
+  Phonemic Encoding: P L AY IH NG IH SIL AE SIL DH AH SH AA R L AY N
+
+Segment 14:
+  Timestamp: 01:15.445 - 01:16.862 (1.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a person.
+  Phonemic Encoding: DH EH ER ZH Z AH SIL SIL P ER S IH NG SIL
+
+Segment 15:
+  Timestamp: 01:18.145 - 01:19.377 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: off the pier.
+  Phonemic Encoding: AA SIL DH AH V SIL SIL P HH IY ER

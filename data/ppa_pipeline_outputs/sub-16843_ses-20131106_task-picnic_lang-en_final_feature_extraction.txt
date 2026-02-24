@@ -1,0 +1,62 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-16843_ses-20131106_task-picnic_lang-en_final.wav
+Total Segments: 6
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:04.975 → 00:06.578     Participant  1.60      s They're having a pic neck.                         DH ER HH AE V IY NG AH SIL P IH SIL K N EH SIL
+2    00:08.299 → 00:10.307     Participant  2.01      s in front of their house.                           IH N DH SIL F R EH AH N ER AH V SIL DH EH ER HH AW S
+3    00:11.084 → 00:16.197     Participant  5.11      s and they have a kite flying.                       HH AE N SIL DH EY HH AE V AH K AY SIL F L AY N NG
+4    00:22.744 → 00:24.145     Participant  1.40      s They have a dog.                                   IH N L DH EY HH AE V AH SIL D AA NG G
+5    00:27.064 → 00:29.781     Participant  2.72      s And a sailboat, I guess.                           AH IH N EH AH S EY EH L SIL B OW SIL T AY SIL G EH S
+6    00:34.455 → 00:36.784     Clinician    2.33      s It's pretty picturesque.                           EH IH SIL S SIL P R ER DX IY SIL SIL P IH SIL K SH ER R EH AE S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:04.975 - 00:06.578 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They're having a pic neck.
+  Phonemic Encoding: DH ER HH AE V IY NG AH SIL P IH SIL K N EH SIL
+
+Segment 2:
+  Timestamp: 00:08.299 - 00:10.307 (2.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in front of their house.
+  Phonemic Encoding: IH N DH SIL F R EH AH N ER AH V SIL DH EH ER HH AW S
+
+Segment 3:
+  Timestamp: 00:11.084 - 00:16.197 (5.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and they have a kite flying.
+  Phonemic Encoding: HH AE N SIL DH EY HH AE V AH K AY SIL F L AY N NG
+
+Segment 4:
+  Timestamp: 00:22.744 - 00:24.145 (1.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They have a dog.
+  Phonemic Encoding: IH N L DH EY HH AE V AH SIL D AA NG G
+
+Segment 5:
+  Timestamp: 00:27.064 - 00:29.781 (2.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And a sailboat, I guess.
+  Phonemic Encoding: AH IH N EH AH S EY EH L SIL B OW SIL T AY SIL G EH S
+
+Segment 6:
+  Timestamp: 00:34.455 - 00:36.784 (2.33s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's pretty picturesque.
+  Phonemic Encoding: EH IH SIL S SIL P R ER DX IY SIL SIL P IH SIL K SH ER R EH AE S

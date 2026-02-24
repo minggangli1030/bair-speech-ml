@@ -1,0 +1,111 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-20496_ses-20170130_task-picnic_lang-en_final.wav
+Total Segments: 13
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.106 → 00:03.524     Participant  1.42      s It'll clear.                                       S IH DX L SIL K L EH ER
+2    00:06.595 → 00:09.548     Participant  2.95      s Okay, when we got here, the soft side of the gun o DH OW L SIL T CH JH EY W IH N W IH IY SIL K EH AE DX IY IH EH ER SIL DH AH N DH AH S L SH S AA AY SIL K AH N AH V F
+3    00:10.679 → 00:11.759     Participant  1.08      s Well, no, no, no.                                  M AA L N DH IH N M B EY SIL P IY SIL
+4    00:13.952 → 00:22.052     Participant  8.10      s with Ted and these cops, I mean the mom and boy ta UW W IH AH V HH SIL T EH DX IH N DH IY SIL K AA SIL P S AH M IH IY NG N DH AH M AA N M SIL SIL EH N DH AH AH B OY SIL T AA SIL K AH N AH DH EH ER ER
+5    00:24.347 → 00:26.001     Participant  1.65      s two kids on the hug.                               T UW SIL K IH SIL S SIL W AH N SIL D AA SIL
+6    00:27.942 → 00:30.844     Participant  2.90      s It's not long when Dad, I'm shooting with...       P W AH N M L AA L M SIL P SIL W AH N SIL D AE AH IH SH IH DX IH NG W IH SIL
+7    00:32.684 → 00:34.354     Participant  1.67      s Okay, so it looks like clear.                      AH SIL K IH N SIL S OW L UH S L AY SIL K L IY IH ER AH M
+8    00:37.476 → 00:38.894     Participant  1.42      s kater peep                                         S SIL K AE SIL T IH N M SIL P IY SIL
+9    00:42.842 → 00:45.407     Clinician    2.57      s It's either that they're...                        IH SIL S AY DH ER DH EH SIL T ER ER
+10   00:47.112 → 00:51.179     Clinician    4.07      s worth using a                                      W AH AH V SIL Y IY IH SIL Y UW Z NG EY SIL HH L
+11   00:58.114 → 01:01.574     Participant  3.46      s a house for a week or something.                   AH HH AW L S SIL F AA R ER AH DH AH W IY SIL K IH EH DX ER S AH SIL P TH IH NG
+12   01:05.573 → 01:13.319     Participant  7.75      s It could be their house, but I think that's what's IH SIL K UH IH SIL B IY DH ER HH AW S SIL P AH DX AY TH IH NG SIL TH DH EH SIL T S SIL P W AH SIL S R AA M N AA AY SIL EH N DH EH AH W AH IH SIL K IH SIL T S SIL M W AH L DH AH IH SIL D SIL W IH N SIL K IH N S UW S SIL M
+13   01:17.419 → 01:24.760     Participant  7.34      s play in the same and the other one is try and kind P L IY SIL IH N AH S S EY IH N SIL IH EH IH N DH IY EH AH DH AH W IH N IH S T F AY IH V M IH SIL K AE AW L IH SIL AH SIL K AY SIL T HH EH N AH M AA L M IH N SIL D AE SIL D ER AE M IH NG AH L UH L TH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.106 - 00:03.524 (1.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It'll clear.
+  Phonemic Encoding: S IH DX L SIL K L EH ER
+
+Segment 2:
+  Timestamp: 00:06.595 - 00:09.548 (2.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, when we got here, the soft side of the gun of
+  Phonemic Encoding: DH OW L SIL T CH JH EY W IH N W IH IY SIL K EH AE DX IY IH EH ER SIL DH AH N DH AH S L SH S AA AY SIL K AH N AH V F
+
+Segment 3:
+  Timestamp: 00:10.679 - 00:11.759 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, no, no, no.
+  Phonemic Encoding: M AA L N DH IH N M B EY SIL P IY SIL
+
+Segment 4:
+  Timestamp: 00:13.952 - 00:22.052 (8.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with Ted and these cops, I mean the mom and boy talk another.
+  Phonemic Encoding: UW W IH AH V HH SIL T EH DX IH N DH IY SIL K AA SIL P S AH M IH IY NG N DH AH M AA N M SIL SIL EH N DH AH AH B OY SIL T AA SIL K AH N AH DH EH ER ER
+
+Segment 5:
+  Timestamp: 00:24.347 - 00:26.001 (1.65s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: two kids on the hug.
+  Phonemic Encoding: T UW SIL K IH SIL S SIL W AH N SIL D AA SIL
+
+Segment 6:
+  Timestamp: 00:27.942 - 00:30.844 (2.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's not long when Dad, I'm shooting with...
+  Phonemic Encoding: P W AH N M L AA L M SIL P SIL W AH N SIL D AE AH IH SH IH DX IH NG W IH SIL
+
+Segment 7:
+  Timestamp: 00:32.684 - 00:34.354 (1.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, so it looks like clear.
+  Phonemic Encoding: AH SIL K IH N SIL S OW L UH S L AY SIL K L IY IH ER AH M
+
+Segment 8:
+  Timestamp: 00:37.476 - 00:38.894 (1.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: kater peep
+  Phonemic Encoding: S SIL K AE SIL T IH N M SIL P IY SIL
+
+Segment 9:
+  Timestamp: 00:42.842 - 00:45.407 (2.57s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's either that they're...
+  Phonemic Encoding: IH SIL S AY DH ER DH EH SIL T ER ER
+
+Segment 10:
+  Timestamp: 00:47.112 - 00:51.179 (4.07s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: worth using a
+  Phonemic Encoding: W AH AH V SIL Y IY IH SIL Y UW Z NG EY SIL HH L
+
+Segment 11:
+  Timestamp: 00:58.114 - 01:01.574 (3.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a house for a week or something.
+  Phonemic Encoding: AH HH AW L S SIL F AA R ER AH DH AH W IY SIL K IH EH DX ER S AH SIL P TH IH NG
+
+Segment 12:
+  Timestamp: 01:05.573 - 01:13.319 (7.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It could be their house, but I think that's what's throwing that in the one kid's, well, one kid's since, um...
+  Phonemic Encoding: IH SIL K UH IH SIL B IY DH ER HH AW S SIL P AH DX AY TH IH NG SIL TH DH EH SIL T S SIL P W AH SIL S R AA M N AA AY SIL EH N DH EH AH W AH IH SIL K IH SIL T S SIL M W AH L DH AH IH SIL D SIL W IH N SIL K IH N S UW S SIL M
+
+Segment 13:
+  Timestamp: 01:17.419 - 01:24.760 (7.34s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: play in the same and the other one is try and kind a kite and uh... mom and dad are having a little
+  Phonemic Encoding: P L IY SIL IH N AH S S EY IH N SIL IH EH IH N DH IY EH AH DH AH W IH N IH S T F AY IH V M IH SIL K AE AW L IH SIL AH SIL K AY SIL T HH EH N AH M AA L M IH N SIL D AE SIL D ER AE M IH NG AH L UH L TH

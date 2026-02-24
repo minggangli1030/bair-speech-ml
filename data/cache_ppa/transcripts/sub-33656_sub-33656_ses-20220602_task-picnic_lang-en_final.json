@@ -1,0 +1,1087 @@
+{
+  "text": " I see a group of people and what it looks like to be working some couple of them are by the house and others are out just wiggling around looking at things that are beyond that in the flag, of course, there had some more of some background stuff there too. So, I mean, what else? Somebody likes to play in the water too, way over in the corner of that. So, I think that should be night despite some of that...",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.0,
+      "end": 0.48
+    },
+    {
+      "word": "see",
+      "start": 0.48,
+      "end": 0.9
+    },
+    {
+      "word": "a",
+      "start": 0.9,
+      "end": 2.1
+    },
+    {
+      "word": "group",
+      "start": 2.1,
+      "end": 3.18
+    },
+    {
+      "word": "of",
+      "start": 3.18,
+      "end": 3.4
+    },
+    {
+      "word": "people",
+      "start": 3.4,
+      "end": 3.78
+    },
+    {
+      "word": "and",
+      "start": 3.78,
+      "end": 5.38
+    },
+    {
+      "word": "what",
+      "start": 5.38,
+      "end": 6.12
+    },
+    {
+      "word": "it",
+      "start": 6.12,
+      "end": 6.48
+    },
+    {
+      "word": "looks",
+      "start": 6.48,
+      "end": 6.94
+    },
+    {
+      "word": "like",
+      "start": 6.94,
+      "end": 7.22
+    },
+    {
+      "word": "to",
+      "start": 7.22,
+      "end": 7.48
+    },
+    {
+      "word": "be",
+      "start": 7.48,
+      "end": 7.78
+    },
+    {
+      "word": "working",
+      "start": 7.78,
+      "end": 8.24
+    },
+    {
+      "word": "some",
+      "start": 8.24,
+      "end": 9.04
+    },
+    {
+      "word": "couple",
+      "start": 9.04,
+      "end": 9.5
+    },
+    {
+      "word": "of",
+      "start": 9.5,
+      "end": 9.66
+    },
+    {
+      "word": "them",
+      "start": 9.66,
+      "end": 9.9
+    },
+    {
+      "word": "are",
+      "start": 9.9,
+      "end": 10.36
+    },
+    {
+      "word": "by",
+      "start": 10.36,
+      "end": 11.28
+    },
+    {
+      "word": "the",
+      "start": 11.28,
+      "end": 12.12
+    },
+    {
+      "word": "house",
+      "start": 12.12,
+      "end": 12.64
+    },
+    {
+      "word": "and",
+      "start": 12.64,
+      "end": 13.58
+    },
+    {
+      "word": "others",
+      "start": 13.58,
+      "end": 13.94
+    },
+    {
+      "word": "are",
+      "start": 13.94,
+      "end": 14.28
+    },
+    {
+      "word": "out",
+      "start": 14.28,
+      "end": 14.44
+    },
+    {
+      "word": "just",
+      "start": 14.44,
+      "end": 14.74
+    },
+    {
+      "word": "wiggling",
+      "start": 14.74,
+      "end": 15.66
+    },
+    {
+      "word": "around",
+      "start": 15.66,
+      "end": 16.44
+    },
+    {
+      "word": "looking",
+      "start": 16.44,
+      "end": 17.66
+    },
+    {
+      "word": "at",
+      "start": 17.66,
+      "end": 18.06
+    },
+    {
+      "word": "things",
+      "start": 18.06,
+      "end": 19.28
+    },
+    {
+      "word": "that",
+      "start": 19.28,
+      "end": 20.06
+    },
+    {
+      "word": "are",
+      "start": 20.06,
+      "end": 20.48
+    },
+    {
+      "word": "beyond",
+      "start": 20.48,
+      "end": 21.24
+    },
+    {
+      "word": "that",
+      "start": 21.24,
+      "end": 21.68
+    },
+    {
+      "word": "in",
+      "start": 21.68,
+      "end": 22.32
+    },
+    {
+      "word": "the",
+      "start": 22.32,
+      "end": 22.5
+    },
+    {
+      "word": "flag,",
+      "start": 22.5,
+      "end": 22.76
+    },
+    {
+      "word": "of",
+      "start": 22.76,
+      "end": 23.0
+    },
+    {
+      "word": "course,",
+      "start": 23.0,
+      "end": 23.28
+    },
+    {
+      "word": "there",
+      "start": 23.6,
+      "end": 24.34
+    },
+    {
+      "word": "had",
+      "start": 24.34,
+      "end": 25.16
+    },
+    {
+      "word": "some",
+      "start": 25.16,
+      "end": 26.9
+    },
+    {
+      "word": "more",
+      "start": 26.9,
+      "end": 27.34
+    },
+    {
+      "word": "of",
+      "start": 27.34,
+      "end": 28.62
+    },
+    {
+      "word": "some",
+      "start": 28.62,
+      "end": 29.62
+    },
+    {
+      "word": "background",
+      "start": 29.62,
+      "end": 30.5
+    },
+    {
+      "word": "stuff",
+      "start": 30.5,
+      "end": 31.82
+    },
+    {
+      "word": "there",
+      "start": 31.82,
+      "end": 32.18
+    },
+    {
+      "word": "too.",
+      "start": 32.18,
+      "end": 32.54
+    },
+    {
+      "word": "So,",
+      "start": 33.82,
+      "end": 33.94
+    },
+    {
+      "word": "I",
+      "start": 34.56,
+      "end": 35.18
+    },
+    {
+      "word": "mean,",
+      "start": 35.18,
+      "end": 35.66
+    },
+    {
+      "word": "what",
+      "start": 35.92,
+      "end": 36.1
+    },
+    {
+      "word": "else?",
+      "start": 36.1,
+      "end": 36.54
+    },
+    {
+      "word": "Somebody",
+      "start": 38.14,
+      "end": 38.78
+    },
+    {
+      "word": "likes",
+      "start": 38.78,
+      "end": 39.08
+    },
+    {
+      "word": "to",
+      "start": 39.08,
+      "end": 39.28
+    },
+    {
+      "word": "play",
+      "start": 39.28,
+      "end": 39.46
+    },
+    {
+      "word": "in",
+      "start": 39.46,
+      "end": 39.6
+    },
+    {
+      "word": "the",
+      "start": 39.6,
+      "end": 39.66
+    },
+    {
+      "word": "water",
+      "start": 39.66,
+      "end": 39.86
+    },
+    {
+      "word": "too,",
+      "start": 39.86,
+      "end": 40.2
+    },
+    {
+      "word": "way",
+      "start": 40.68,
+      "end": 40.78
+    },
+    {
+      "word": "over",
+      "start": 40.78,
+      "end": 40.98
+    },
+    {
+      "word": "in",
+      "start": 40.98,
+      "end": 41.1
+    },
+    {
+      "word": "the",
+      "start": 41.1,
+      "end": 41.2
+    },
+    {
+      "word": "corner",
+      "start": 41.2,
+      "end": 41.44
+    },
+    {
+      "word": "of",
+      "start": 41.44,
+      "end": 41.6
+    },
+    {
+      "word": "that.",
+      "start": 41.6,
+      "end": 41.7
+    },
+    {
+      "word": "So,",
+      "start": 42.44,
+      "end": 42.56
+    },
+    {
+      "word": "I",
+      "start": 43.36,
+      "end": 43.46
+    },
+    {
+      "word": "think",
+      "start": 43.46,
+      "end": 45.02
+    },
+    {
+      "word": "that",
+      "start": 45.02,
+      "end": 45.22
+    },
+    {
+      "word": "should",
+      "start": 45.22,
+      "end": 46.0
+    },
+    {
+      "word": "be",
+      "start": 46.0,
+      "end": 46.32
+    },
+    {
+      "word": "night",
+      "start": 46.32,
+      "end": 47.02
+    },
+    {
+      "word": "despite",
+      "start": 47.02,
+      "end": 48.18
+    },
+    {
+      "word": "some",
+      "start": 48.18,
+      "end": 48.32
+    },
+    {
+      "word": "of",
+      "start": 48.32,
+      "end": 48.32
+    },
+    {
+      "word": "that...",
+      "start": 48.32,
+      "end": 49.16
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 10.36,
+      "text": " I see a group of people and what it looks like to be working some couple of them are",
+      "tokens": [
+        50364,
+        286,
+        536,
+        257,
+        1594,
+        295,
+        561,
+        293,
+        437,
+        309,
+        1542,
+        411,
+        281,
+        312,
+        1364,
+        512,
+        1916,
+        295,
+        552,
+        366,
+        50884
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.48089604045069495,
+      "compression_ratio": 1.4789915966386555,
+      "no_speech_prob": 0.19533853232860565,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.721534788608551
+        },
+        {
+          "word": " see",
+          "start": 0.48,
+          "end": 0.9,
+          "probability": 0.986239492893219
+        },
+        {
+          "word": " a",
+          "start": 0.9,
+          "end": 2.1,
+          "probability": 0.9615746736526489
+        },
+        {
+          "word": " group",
+          "start": 2.1,
+          "end": 3.18,
+          "probability": 0.9909851551055908
+        },
+        {
+          "word": " of",
+          "start": 3.18,
+          "end": 3.4,
+          "probability": 0.9989768266677856
+        },
+        {
+          "word": " people",
+          "start": 3.4,
+          "end": 3.78,
+          "probability": 0.9989979863166809
+        },
+        {
+          "word": " and",
+          "start": 3.78,
+          "end": 5.38,
+          "probability": 0.6787482500076294
+        },
+        {
+          "word": " what",
+          "start": 5.38,
+          "end": 6.12,
+          "probability": 0.24859115481376648
+        },
+        {
+          "word": " it",
+          "start": 6.12,
+          "end": 6.48,
+          "probability": 0.7722702026367188
+        },
+        {
+          "word": " looks",
+          "start": 6.48,
+          "end": 6.94,
+          "probability": 0.9746107459068298
+        },
+        {
+          "word": " like",
+          "start": 6.94,
+          "end": 7.22,
+          "probability": 0.9981398582458496
+        },
+        {
+          "word": " to",
+          "start": 7.22,
+          "end": 7.48,
+          "probability": 0.29831182956695557
+        },
+        {
+          "word": " be",
+          "start": 7.48,
+          "end": 7.78,
+          "probability": 0.3059277832508087
+        },
+        {
+          "word": " working",
+          "start": 7.78,
+          "end": 8.24,
+          "probability": 0.9246959090232849
+        },
+        {
+          "word": " some",
+          "start": 8.24,
+          "end": 9.04,
+          "probability": 0.6539786458015442
+        },
+        {
+          "word": " couple",
+          "start": 9.04,
+          "end": 9.5,
+          "probability": 0.8580304980278015
+        },
+        {
+          "word": " of",
+          "start": 9.5,
+          "end": 9.66,
+          "probability": 0.9407037496566772
+        },
+        {
+          "word": " them",
+          "start": 9.66,
+          "end": 9.9,
+          "probability": 0.5858904123306274
+        },
+        {
+          "word": " are",
+          "start": 9.9,
+          "end": 10.36,
+          "probability": 0.5915350914001465
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 10.36,
+      "end": 21.68,
+      "text": " by the house and others are out just wiggling around looking at things that are beyond that",
+      "tokens": [
+        50884,
+        538,
+        264,
+        1782,
+        293,
+        2357,
+        366,
+        484,
+        445,
+        261,
+        24542,
+        926,
+        1237,
+        412,
+        721,
+        300,
+        366,
+        4399,
+        300,
+        51452
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.48089604045069495,
+      "compression_ratio": 1.4789915966386555,
+      "no_speech_prob": 0.19533853232860565,
+      "words": [
+        {
+          "word": " by",
+          "start": 10.36,
+          "end": 11.28,
+          "probability": 0.13713692128658295
+        },
+        {
+          "word": " the",
+          "start": 11.28,
+          "end": 12.12,
+          "probability": 0.9734859466552734
+        },
+        {
+          "word": " house",
+          "start": 12.12,
+          "end": 12.64,
+          "probability": 0.9313108921051025
+        },
+        {
+          "word": " and",
+          "start": 12.64,
+          "end": 13.58,
+          "probability": 0.658202588558197
+        },
+        {
+          "word": " others",
+          "start": 13.58,
+          "end": 13.94,
+          "probability": 0.9613524675369263
+        },
+        {
+          "word": " are",
+          "start": 13.94,
+          "end": 14.28,
+          "probability": 0.9483999609947205
+        },
+        {
+          "word": " out",
+          "start": 14.28,
+          "end": 14.44,
+          "probability": 0.6423385143280029
+        },
+        {
+          "word": " just",
+          "start": 14.44,
+          "end": 14.74,
+          "probability": 0.9579149484634399
+        },
+        {
+          "word": " wiggling",
+          "start": 14.74,
+          "end": 15.66,
+          "probability": 0.8377693295478821
+        },
+        {
+          "word": " around",
+          "start": 15.66,
+          "end": 16.44,
+          "probability": 0.9978703260421753
+        },
+        {
+          "word": " looking",
+          "start": 16.44,
+          "end": 17.66,
+          "probability": 0.622718095779419
+        },
+        {
+          "word": " at",
+          "start": 17.66,
+          "end": 18.06,
+          "probability": 0.9957736134529114
+        },
+        {
+          "word": " things",
+          "start": 18.06,
+          "end": 19.28,
+          "probability": 0.3069169223308563
+        },
+        {
+          "word": " that",
+          "start": 19.28,
+          "end": 20.06,
+          "probability": 0.8987084031105042
+        },
+        {
+          "word": " are",
+          "start": 20.06,
+          "end": 20.48,
+          "probability": 0.95456862449646
+        },
+        {
+          "word": " beyond",
+          "start": 20.48,
+          "end": 21.24,
+          "probability": 0.488211989402771
+        },
+        {
+          "word": " that",
+          "start": 21.24,
+          "end": 21.68,
+          "probability": 0.9604350924491882
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2168,
+      "start": 21.68,
+      "end": 36.54,
+      "text": " in the flag, of course, there had some more of some background stuff there too. So, I mean, what else?",
+      "tokens": [
+        50380,
+        294,
+        264,
+        7166,
+        11,
+        295,
+        1164,
+        11,
+        456,
+        632,
+        512,
+        544,
+        295,
+        512,
+        3678,
+        1507,
+        456,
+        886,
+        13,
+        407,
+        11,
+        286,
+        914,
+        11,
+        437,
+        1646,
+        30,
+        51100
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4038585935320173,
+      "compression_ratio": 1.4532374100719425,
+      "no_speech_prob": 0.15554939210414886,
+      "words": [
+        {
+          "word": " in",
+          "start": 21.68,
+          "end": 22.32,
+          "probability": 0.19148139655590057
+        },
+        {
+          "word": " the",
+          "start": 22.32,
+          "end": 22.5,
+          "probability": 0.9827010035514832
+        },
+        {
+          "word": " flag,",
+          "start": 22.5,
+          "end": 22.76,
+          "probability": 0.9661101698875427
+        },
+        {
+          "word": " of",
+          "start": 22.76,
+          "end": 23.0,
+          "probability": 0.7198387980461121
+        },
+        {
+          "word": " course,",
+          "start": 23.0,
+          "end": 23.28,
+          "probability": 0.9959624409675598
+        },
+        {
+          "word": " there",
+          "start": 23.6,
+          "end": 24.34,
+          "probability": 0.8445084691047668
+        },
+        {
+          "word": " had",
+          "start": 24.34,
+          "end": 25.16,
+          "probability": 0.5279337167739868
+        },
+        {
+          "word": " some",
+          "start": 25.16,
+          "end": 26.9,
+          "probability": 0.4887208938598633
+        },
+        {
+          "word": " more",
+          "start": 26.9,
+          "end": 27.34,
+          "probability": 0.9503353238105774
+        },
+        {
+          "word": " of",
+          "start": 27.34,
+          "end": 28.62,
+          "probability": 0.4066700339317322
+        },
+        {
+          "word": " some",
+          "start": 28.62,
+          "end": 29.62,
+          "probability": 0.5886099338531494
+        },
+        {
+          "word": " background",
+          "start": 29.62,
+          "end": 30.5,
+          "probability": 0.8966379165649414
+        },
+        {
+          "word": " stuff",
+          "start": 30.5,
+          "end": 31.82,
+          "probability": 0.9976563453674316
+        },
+        {
+          "word": " there",
+          "start": 31.82,
+          "end": 32.18,
+          "probability": 0.9832837581634521
+        },
+        {
+          "word": " too.",
+          "start": 32.18,
+          "end": 32.54,
+          "probability": 0.7557950019836426
+        },
+        {
+          "word": " So,",
+          "start": 33.82,
+          "end": 33.94,
+          "probability": 0.8087179660797119
+        },
+        {
+          "word": " I",
+          "start": 34.56,
+          "end": 35.18,
+          "probability": 0.25359296798706055
+        },
+        {
+          "word": " mean,",
+          "start": 35.18,
+          "end": 35.66,
+          "probability": 0.9944584369659424
+        },
+        {
+          "word": " what",
+          "start": 35.92,
+          "end": 36.1,
+          "probability": 0.9376813769340515
+        },
+        {
+          "word": " else?",
+          "start": 36.1,
+          "end": 36.54,
+          "probability": 0.999618411064148
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2168,
+      "start": 38.14,
+      "end": 46.32,
+      "text": " Somebody likes to play in the water too, way over in the corner of that. So, I think that should be",
+      "tokens": [
+        51188,
+        13463,
+        5902,
+        281,
+        862,
+        294,
+        264,
+        1281,
+        886,
+        11,
+        636,
+        670,
+        294,
+        264,
+        4538,
+        295,
+        300,
+        13,
+        407,
+        11,
+        286,
+        519,
+        300,
+        820,
+        312,
+        51600
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4038585935320173,
+      "compression_ratio": 1.4532374100719425,
+      "no_speech_prob": 0.15554939210414886,
+      "words": [
+        {
+          "word": " Somebody",
+          "start": 38.14,
+          "end": 38.78,
+          "probability": 0.6483438611030579
+        },
+        {
+          "word": " likes",
+          "start": 38.78,
+          "end": 39.08,
+          "probability": 0.9442930221557617
+        },
+        {
+          "word": " to",
+          "start": 39.08,
+          "end": 39.28,
+          "probability": 0.9927922487258911
+        },
+        {
+          "word": " play",
+          "start": 39.28,
+          "end": 39.46,
+          "probability": 0.8725290894508362
+        },
+        {
+          "word": " in",
+          "start": 39.46,
+          "end": 39.6,
+          "probability": 0.7327775955200195
+        },
+        {
+          "word": " the",
+          "start": 39.6,
+          "end": 39.66,
+          "probability": 0.9971363544464111
+        },
+        {
+          "word": " water",
+          "start": 39.66,
+          "end": 39.86,
+          "probability": 0.9945959448814392
+        },
+        {
+          "word": " too,",
+          "start": 39.86,
+          "end": 40.2,
+          "probability": 0.7670000791549683
+        },
+        {
+          "word": " way",
+          "start": 40.68,
+          "end": 40.78,
+          "probability": 0.9821781516075134
+        },
+        {
+          "word": " over",
+          "start": 40.78,
+          "end": 40.98,
+          "probability": 0.9593904614448547
+        },
+        {
+          "word": " in",
+          "start": 40.98,
+          "end": 41.1,
+          "probability": 0.9884441494941711
+        },
+        {
+          "word": " the",
+          "start": 41.1,
+          "end": 41.2,
+          "probability": 0.9945312142372131
+        },
+        {
+          "word": " corner",
+          "start": 41.2,
+          "end": 41.44,
+          "probability": 0.482387900352478
+        },
+        {
+          "word": " of",
+          "start": 41.44,
+          "end": 41.6,
+          "probability": 0.6581929326057434
+        },
+        {
+          "word": " that.",
+          "start": 41.6,
+          "end": 41.7,
+          "probability": 0.8875920176506042
+        },
+        {
+          "word": " So,",
+          "start": 42.44,
+          "end": 42.56,
+          "probability": 0.9527036547660828
+        },
+        {
+          "word": " I",
+          "start": 43.36,
+          "end": 43.46,
+          "probability": 0.39806002378463745
+        },
+        {
+          "word": " think",
+          "start": 43.46,
+          "end": 45.02,
+          "probability": 0.9600489139556885
+        },
+        {
+          "word": " that",
+          "start": 45.02,
+          "end": 45.22,
+          "probability": 0.7922705411911011
+        },
+        {
+          "word": " should",
+          "start": 45.22,
+          "end": 46.0,
+          "probability": 0.5404562950134277
+        },
+        {
+          "word": " be",
+          "start": 46.0,
+          "end": 46.32,
+          "probability": 0.9644768834114075
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 4632,
+      "start": 46.32,
+      "end": 49.16,
+      "text": " night despite some of that...",
+      "tokens": [
+        50388,
+        1818,
+        7228,
+        512,
+        295,
+        300,
+        485,
+        50506
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.4201471540662975,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.1620081067085266,
+      "words": [
+        {
+          "word": " night",
+          "start": 46.32,
+          "end": 47.02,
+          "probability": 0.03211500868201256
+        },
+        {
+          "word": " despite",
+          "start": 47.02,
+          "end": 48.18,
+          "probability": 0.0001400880137225613
+        },
+        {
+          "word": " some",
+          "start": 48.18,
+          "end": 48.32,
+          "probability": 0.005816594697535038
+        },
+        {
+          "word": " of",
+          "start": 48.32,
+          "end": 48.32,
+          "probability": 0.045843880623579025
+        },
+        {
+          "word": " that...",
+          "start": 48.32,
+          "end": 49.16,
+          "probability": 0.0759817622601986
+        }
+      ]
+    }
+  ]
+}

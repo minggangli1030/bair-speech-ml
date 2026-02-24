@@ -1,0 +1,1120 @@
+{
+  "text": " The guy is flying a kite. I used to do that down at the beach. And two people are sitting down, one's reading a book, and one's pouring water, I think, or pouring something into a bottle. And they're right in front of a house, and there's a car stand sitting there. And there's a dog right there. Oh, and there's a boat out there. And somebody else is sitting on something. OK. OK.",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "word": "guy",
+      "start": 0.12,
+      "end": 0.28
+    },
+    {
+      "word": "is",
+      "start": 0.28,
+      "end": 0.48
+    },
+    {
+      "word": "flying",
+      "start": 0.48,
+      "end": 0.78
+    },
+    {
+      "word": "a",
+      "start": 0.78,
+      "end": 1.1
+    },
+    {
+      "word": "kite.",
+      "start": 1.1,
+      "end": 1.3
+    },
+    {
+      "word": "I",
+      "start": 2.28,
+      "end": 2.66
+    },
+    {
+      "word": "used",
+      "start": 2.66,
+      "end": 2.82
+    },
+    {
+      "word": "to",
+      "start": 2.82,
+      "end": 2.92
+    },
+    {
+      "word": "do",
+      "start": 2.92,
+      "end": 3.02
+    },
+    {
+      "word": "that",
+      "start": 3.02,
+      "end": 3.18
+    },
+    {
+      "word": "down",
+      "start": 3.18,
+      "end": 3.46
+    },
+    {
+      "word": "at",
+      "start": 3.46,
+      "end": 3.6
+    },
+    {
+      "word": "the",
+      "start": 3.6,
+      "end": 3.68
+    },
+    {
+      "word": "beach.",
+      "start": 3.68,
+      "end": 4.12
+    },
+    {
+      "word": "And",
+      "start": 5.32,
+      "end": 5.4
+    },
+    {
+      "word": "two",
+      "start": 5.4,
+      "end": 5.64
+    },
+    {
+      "word": "people",
+      "start": 5.64,
+      "end": 6.0
+    },
+    {
+      "word": "are",
+      "start": 6.0,
+      "end": 6.18
+    },
+    {
+      "word": "sitting",
+      "start": 6.18,
+      "end": 6.52
+    },
+    {
+      "word": "down,",
+      "start": 6.52,
+      "end": 6.94
+    },
+    {
+      "word": "one's",
+      "start": 7.26,
+      "end": 7.54
+    },
+    {
+      "word": "reading",
+      "start": 7.54,
+      "end": 7.8
+    },
+    {
+      "word": "a",
+      "start": 7.8,
+      "end": 7.94
+    },
+    {
+      "word": "book,",
+      "start": 7.94,
+      "end": 8.24
+    },
+    {
+      "word": "and",
+      "start": 8.42,
+      "end": 8.62
+    },
+    {
+      "word": "one's",
+      "start": 8.62,
+      "end": 9.54
+    },
+    {
+      "word": "pouring",
+      "start": 9.54,
+      "end": 10.22
+    },
+    {
+      "word": "water,",
+      "start": 10.22,
+      "end": 10.94
+    },
+    {
+      "word": "I",
+      "start": 11.22,
+      "end": 11.3
+    },
+    {
+      "word": "think,",
+      "start": 11.3,
+      "end": 11.6
+    },
+    {
+      "word": "or",
+      "start": 11.66,
+      "end": 11.86
+    },
+    {
+      "word": "pouring",
+      "start": 11.86,
+      "end": 12.32
+    },
+    {
+      "word": "something",
+      "start": 12.32,
+      "end": 12.82
+    },
+    {
+      "word": "into",
+      "start": 12.82,
+      "end": 13.18
+    },
+    {
+      "word": "a",
+      "start": 13.18,
+      "end": 13.34
+    },
+    {
+      "word": "bottle.",
+      "start": 13.34,
+      "end": 13.68
+    },
+    {
+      "word": "And",
+      "start": 14.6,
+      "end": 15.0
+    },
+    {
+      "word": "they're",
+      "start": 15.0,
+      "end": 15.08
+    },
+    {
+      "word": "right",
+      "start": 15.08,
+      "end": 15.28
+    },
+    {
+      "word": "in",
+      "start": 15.28,
+      "end": 15.42
+    },
+    {
+      "word": "front",
+      "start": 15.42,
+      "end": 15.56
+    },
+    {
+      "word": "of",
+      "start": 15.56,
+      "end": 15.7
+    },
+    {
+      "word": "a",
+      "start": 15.7,
+      "end": 15.86
+    },
+    {
+      "word": "house,",
+      "start": 15.86,
+      "end": 16.14
+    },
+    {
+      "word": "and",
+      "start": 16.4,
+      "end": 16.48
+    },
+    {
+      "word": "there's",
+      "start": 16.48,
+      "end": 16.7
+    },
+    {
+      "word": "a",
+      "start": 16.7,
+      "end": 16.84
+    },
+    {
+      "word": "car",
+      "start": 16.84,
+      "end": 16.98
+    },
+    {
+      "word": "stand",
+      "start": 16.98,
+      "end": 17.4
+    },
+    {
+      "word": "sitting",
+      "start": 17.4,
+      "end": 17.88
+    },
+    {
+      "word": "there.",
+      "start": 17.88,
+      "end": 18.18
+    },
+    {
+      "word": "And",
+      "start": 18.46,
+      "end": 18.54
+    },
+    {
+      "word": "there's",
+      "start": 18.54,
+      "end": 18.76
+    },
+    {
+      "word": "a",
+      "start": 18.76,
+      "end": 18.94
+    },
+    {
+      "word": "dog",
+      "start": 18.94,
+      "end": 19.12
+    },
+    {
+      "word": "right",
+      "start": 19.12,
+      "end": 19.44
+    },
+    {
+      "word": "there.",
+      "start": 19.44,
+      "end": 19.72
+    },
+    {
+      "word": "Oh,",
+      "start": 21.24,
+      "end": 21.72
+    },
+    {
+      "word": "and",
+      "start": 21.8,
+      "end": 21.88
+    },
+    {
+      "word": "there's",
+      "start": 21.88,
+      "end": 22.08
+    },
+    {
+      "word": "a",
+      "start": 22.08,
+      "end": 22.18
+    },
+    {
+      "word": "boat",
+      "start": 22.18,
+      "end": 22.42
+    },
+    {
+      "word": "out",
+      "start": 22.42,
+      "end": 22.72
+    },
+    {
+      "word": "there.",
+      "start": 22.72,
+      "end": 22.98
+    },
+    {
+      "word": "And",
+      "start": 24.18,
+      "end": 24.36
+    },
+    {
+      "word": "somebody",
+      "start": 24.36,
+      "end": 24.68
+    },
+    {
+      "word": "else",
+      "start": 24.68,
+      "end": 24.9
+    },
+    {
+      "word": "is",
+      "start": 24.9,
+      "end": 25.14
+    },
+    {
+      "word": "sitting",
+      "start": 25.14,
+      "end": 25.36
+    },
+    {
+      "word": "on",
+      "start": 25.36,
+      "end": 25.48
+    },
+    {
+      "word": "something.",
+      "start": 25.48,
+      "end": 26.02
+    },
+    {
+      "word": "OK.",
+      "start": 27.74,
+      "end": 28.22
+    },
+    {
+      "word": "OK.",
+      "start": 28.22,
+      "end": 28.34
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.3,
+      "text": " The guy is flying a kite.",
+      "tokens": [
+        50364,
+        440,
+        2146,
+        307,
+        7137,
+        257,
+        38867,
+        13,
+        50492
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.12,
+          "probability": 0.15094077587127686
+        },
+        {
+          "word": " guy",
+          "start": 0.12,
+          "end": 0.28,
+          "probability": 0.6768582463264465
+        },
+        {
+          "word": " is",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 0.5233522653579712
+        },
+        {
+          "word": " flying",
+          "start": 0.48,
+          "end": 0.78,
+          "probability": 0.8613831996917725
+        },
+        {
+          "word": " a",
+          "start": 0.78,
+          "end": 1.1,
+          "probability": 0.9475902318954468
+        },
+        {
+          "word": " kite.",
+          "start": 1.1,
+          "end": 1.3,
+          "probability": 0.9868027567863464
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.28,
+      "end": 4.12,
+      "text": " I used to do that down at the beach.",
+      "tokens": [
+        50492,
+        286,
+        1143,
+        281,
+        360,
+        300,
+        760,
+        412,
+        264,
+        7534,
+        13,
+        50630
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " I",
+          "start": 2.28,
+          "end": 2.66,
+          "probability": 0.9450237154960632
+        },
+        {
+          "word": " used",
+          "start": 2.66,
+          "end": 2.82,
+          "probability": 0.7709674835205078
+        },
+        {
+          "word": " to",
+          "start": 2.82,
+          "end": 2.92,
+          "probability": 0.9952399730682373
+        },
+        {
+          "word": " do",
+          "start": 2.92,
+          "end": 3.02,
+          "probability": 0.997490406036377
+        },
+        {
+          "word": " that",
+          "start": 3.02,
+          "end": 3.18,
+          "probability": 0.9983185529708862
+        },
+        {
+          "word": " down",
+          "start": 3.18,
+          "end": 3.46,
+          "probability": 0.9818254709243774
+        },
+        {
+          "word": " at",
+          "start": 3.46,
+          "end": 3.6,
+          "probability": 0.9490159153938293
+        },
+        {
+          "word": " the",
+          "start": 3.6,
+          "end": 3.68,
+          "probability": 0.9971039891242981
+        },
+        {
+          "word": " beach.",
+          "start": 3.68,
+          "end": 4.12,
+          "probability": 0.9911695718765259
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.32,
+      "end": 8.24,
+      "text": " And two people are sitting down, one's reading a book,",
+      "tokens": [
+        50630,
+        400,
+        732,
+        561,
+        366,
+        3798,
+        760,
+        11,
+        472,
+        311,
+        3760,
+        257,
+        1446,
+        11,
+        50788
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " And",
+          "start": 5.32,
+          "end": 5.4,
+          "probability": 0.9257071018218994
+        },
+        {
+          "word": " two",
+          "start": 5.4,
+          "end": 5.64,
+          "probability": 0.9858313798904419
+        },
+        {
+          "word": " people",
+          "start": 5.64,
+          "end": 6.0,
+          "probability": 0.998248815536499
+        },
+        {
+          "word": " are",
+          "start": 6.0,
+          "end": 6.18,
+          "probability": 0.9922526478767395
+        },
+        {
+          "word": " sitting",
+          "start": 6.18,
+          "end": 6.52,
+          "probability": 0.9650521874427795
+        },
+        {
+          "word": " down,",
+          "start": 6.52,
+          "end": 6.94,
+          "probability": 0.998568058013916
+        },
+        {
+          "word": " one's",
+          "start": 7.26,
+          "end": 7.54,
+          "probability": 0.8107612431049347
+        },
+        {
+          "word": " reading",
+          "start": 7.54,
+          "end": 7.8,
+          "probability": 0.993560791015625
+        },
+        {
+          "word": " a",
+          "start": 7.8,
+          "end": 7.94,
+          "probability": 0.9557828903198242
+        },
+        {
+          "word": " book,",
+          "start": 7.94,
+          "end": 8.24,
+          "probability": 0.9994537234306335
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.42,
+      "end": 12.82,
+      "text": " and one's pouring water, I think, or pouring something",
+      "tokens": [
+        50788,
+        293,
+        472,
+        311,
+        20450,
+        1281,
+        11,
+        286,
+        519,
+        11,
+        420,
+        20450,
+        746,
+        51010
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " and",
+          "start": 8.42,
+          "end": 8.62,
+          "probability": 0.7632691860198975
+        },
+        {
+          "word": " one's",
+          "start": 8.62,
+          "end": 9.54,
+          "probability": 0.986662745475769
+        },
+        {
+          "word": " pouring",
+          "start": 9.54,
+          "end": 10.22,
+          "probability": 0.37287959456443787
+        },
+        {
+          "word": " water,",
+          "start": 10.22,
+          "end": 10.94,
+          "probability": 0.9951352477073669
+        },
+        {
+          "word": " I",
+          "start": 11.22,
+          "end": 11.3,
+          "probability": 0.3442268669605255
+        },
+        {
+          "word": " think,",
+          "start": 11.3,
+          "end": 11.6,
+          "probability": 0.9845544695854187
+        },
+        {
+          "word": " or",
+          "start": 11.66,
+          "end": 11.86,
+          "probability": 0.9775600433349609
+        },
+        {
+          "word": " pouring",
+          "start": 11.86,
+          "end": 12.32,
+          "probability": 0.9657750129699707
+        },
+        {
+          "word": " something",
+          "start": 12.32,
+          "end": 12.82,
+          "probability": 0.9906347393989563
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.82,
+      "end": 13.68,
+      "text": " into a bottle.",
+      "tokens": [
+        51010,
+        666,
+        257,
+        7817,
+        13,
+        51108
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " into",
+          "start": 12.82,
+          "end": 13.18,
+          "probability": 0.9922451376914978
+        },
+        {
+          "word": " a",
+          "start": 13.18,
+          "end": 13.34,
+          "probability": 0.9938175082206726
+        },
+        {
+          "word": " bottle.",
+          "start": 13.34,
+          "end": 13.68,
+          "probability": 0.8239768147468567
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 14.6,
+      "end": 16.14,
+      "text": " And they're right in front of a house,",
+      "tokens": [
+        51108,
+        400,
+        436,
+        434,
+        558,
+        294,
+        1868,
+        295,
+        257,
+        1782,
+        11,
+        51184
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " And",
+          "start": 14.6,
+          "end": 15.0,
+          "probability": 0.4754531979560852
+        },
+        {
+          "word": " they're",
+          "start": 15.0,
+          "end": 15.08,
+          "probability": 0.859261155128479
+        },
+        {
+          "word": " right",
+          "start": 15.08,
+          "end": 15.28,
+          "probability": 0.9950202703475952
+        },
+        {
+          "word": " in",
+          "start": 15.28,
+          "end": 15.42,
+          "probability": 0.9926000833511353
+        },
+        {
+          "word": " front",
+          "start": 15.42,
+          "end": 15.56,
+          "probability": 0.9970845580101013
+        },
+        {
+          "word": " of",
+          "start": 15.56,
+          "end": 15.7,
+          "probability": 0.9995323419570923
+        },
+        {
+          "word": " a",
+          "start": 15.7,
+          "end": 15.86,
+          "probability": 0.9605970978736877
+        },
+        {
+          "word": " house,",
+          "start": 15.86,
+          "end": 16.14,
+          "probability": 0.9996154308319092
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.4,
+      "end": 18.18,
+      "text": " and there's a car stand sitting there.",
+      "tokens": [
+        51184,
+        293,
+        456,
+        311,
+        257,
+        1032,
+        1463,
+        3798,
+        456,
+        13,
+        51286
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " and",
+          "start": 16.4,
+          "end": 16.48,
+          "probability": 0.987415611743927
+        },
+        {
+          "word": " there's",
+          "start": 16.48,
+          "end": 16.7,
+          "probability": 0.9610162675380707
+        },
+        {
+          "word": " a",
+          "start": 16.7,
+          "end": 16.84,
+          "probability": 0.85182124376297
+        },
+        {
+          "word": " car",
+          "start": 16.84,
+          "end": 16.98,
+          "probability": 0.9610325694084167
+        },
+        {
+          "word": " stand",
+          "start": 16.98,
+          "end": 17.4,
+          "probability": 0.2871567904949188
+        },
+        {
+          "word": " sitting",
+          "start": 17.4,
+          "end": 17.88,
+          "probability": 0.9863449335098267
+        },
+        {
+          "word": " there.",
+          "start": 17.88,
+          "end": 18.18,
+          "probability": 0.915702223777771
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 18.46,
+      "end": 19.72,
+      "text": " And there's a dog right there.",
+      "tokens": [
+        51286,
+        400,
+        456,
+        311,
+        257,
+        3000,
+        558,
+        456,
+        13,
+        51444
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " And",
+          "start": 18.46,
+          "end": 18.54,
+          "probability": 0.9914622902870178
+        },
+        {
+          "word": " there's",
+          "start": 18.54,
+          "end": 18.76,
+          "probability": 0.9960443079471588
+        },
+        {
+          "word": " a",
+          "start": 18.76,
+          "end": 18.94,
+          "probability": 0.6781281232833862
+        },
+        {
+          "word": " dog",
+          "start": 18.94,
+          "end": 19.12,
+          "probability": 0.9967893362045288
+        },
+        {
+          "word": " right",
+          "start": 19.12,
+          "end": 19.44,
+          "probability": 0.9929065704345703
+        },
+        {
+          "word": " there.",
+          "start": 19.44,
+          "end": 19.72,
+          "probability": 0.9989394545555115
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 21.24,
+      "end": 22.98,
+      "text": " Oh, and there's a boat out there.",
+      "tokens": [
+        51444,
+        876,
+        11,
+        293,
+        456,
+        311,
+        257,
+        6582,
+        484,
+        456,
+        13,
+        51578
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 21.24,
+          "end": 21.72,
+          "probability": 0.545261561870575
+        },
+        {
+          "word": " and",
+          "start": 21.8,
+          "end": 21.88,
+          "probability": 0.8550375699996948
+        },
+        {
+          "word": " there's",
+          "start": 21.88,
+          "end": 22.08,
+          "probability": 0.9518492519855499
+        },
+        {
+          "word": " a",
+          "start": 22.08,
+          "end": 22.18,
+          "probability": 0.9961485862731934
+        },
+        {
+          "word": " boat",
+          "start": 22.18,
+          "end": 22.42,
+          "probability": 0.8637209534645081
+        },
+        {
+          "word": " out",
+          "start": 22.42,
+          "end": 22.72,
+          "probability": 0.9989559650421143
+        },
+        {
+          "word": " there.",
+          "start": 22.72,
+          "end": 22.98,
+          "probability": 0.9992720484733582
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 24.18,
+      "end": 26.02,
+      "text": " And somebody else is sitting on something.",
+      "tokens": [
+        51578,
+        400,
+        2618,
+        1646,
+        307,
+        3798,
+        322,
+        746,
+        13,
+        51760
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " And",
+          "start": 24.18,
+          "end": 24.36,
+          "probability": 0.8438272476196289
+        },
+        {
+          "word": " somebody",
+          "start": 24.36,
+          "end": 24.68,
+          "probability": 0.9902967810630798
+        },
+        {
+          "word": " else",
+          "start": 24.68,
+          "end": 24.9,
+          "probability": 0.9994379878044128
+        },
+        {
+          "word": " is",
+          "start": 24.9,
+          "end": 25.14,
+          "probability": 0.43182048201560974
+        },
+        {
+          "word": " sitting",
+          "start": 25.14,
+          "end": 25.36,
+          "probability": 0.9873894453048706
+        },
+        {
+          "word": " on",
+          "start": 25.36,
+          "end": 25.48,
+          "probability": 0.9942914247512817
+        },
+        {
+          "word": " something.",
+          "start": 25.48,
+          "end": 26.02,
+          "probability": 0.9938281178474426
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 27.74,
+      "end": 28.22,
+      "text": " OK.",
+      "tokens": [
+        51760,
+        2264,
+        13,
+        51810
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31190008179754275,
+      "compression_ratio": 1.7699530516431925,
+      "no_speech_prob": 0.03157104179263115,
+      "words": [
+        {
+          "word": " OK.",
+          "start": 27.74,
+          "end": 28.22,
+          "probability": 0.23696769773960114
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2822,
+      "start": 28.22,
+      "end": 28.34,
+      "text": " OK.",
+      "tokens": [
+        50376,
+        2264,
+        13,
+        50437
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.1668825149536133,
+      "compression_ratio": 0.2727272727272727,
+      "no_speech_prob": 0.5820273756980896,
+      "words": [
+        {
+          "word": " OK.",
+          "start": 28.22,
+          "end": 28.34,
+          "probability": 0.000765618693549186
+        }
+      ]
+    }
+  ]
+}

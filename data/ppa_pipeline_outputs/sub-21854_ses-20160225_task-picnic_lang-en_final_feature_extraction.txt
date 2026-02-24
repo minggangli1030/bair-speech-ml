@@ -1,0 +1,160 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-21854_ses-20160225_task-picnic_lang-en_final.wav
+Total Segments: 20
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:03.945 → 00:07.287     Clinician    3.34      s There's people that have a pen.                    N SIL D IH ER Z S TH SIL P Y IY SIL P L DH EH DX HH AE SIL P AH SIL B EH N ER SIL AA M
+2    00:10.662 → 00:17.597     Clinician    6.94      s to look like found a nice and there is a nice fun. T HH UW HH SIL L UH SIL K F AY EY SIL K K F AW M SIL SIL HH AE SIL N AY S IH N ER Z SIL N AY EY S SIL F AH N
+3    00:19.487 → 00:20.719     Clinician    1.23      s tree                                               AA SIL SIL T R IY
+4    00:21.951 → 00:26.355     Participant  4.40      s and um nice car and house                          AE N SIL D SIL AH M N AY S SIL K AA R ER IH N HH AW S
+5    00:29.815 → 00:33.983     Participant  4.17      s Maybe it is their house but and there's water.     M EY SIL B IY IH DX IH EH S SIL IH Z SIL DH EH ER R HH AW S TH SIL DH AH SIL T AE N DH EH R ER R Z S SIL DH L W AA DX ER SIL
+6    00:34.472 → 00:35.991     Participant  1.52      s and keep the layer of the rain.                    IH EH IH N M W SIL P Y IY SIL P L ER AH V SIL DH OW L R EY N
+7    00:37.594 → 00:39.012     Participant  1.42      s with that image.                                   W IH TH F SIL AH DH AE SIL T S SIL IH N M AH
+8    00:40.210 → 00:41.813     Participant  1.60      s There's a dawn there.                              DH ER Z IH SIL D AA N NG DH EH R ER SIL
+9    00:41.965 → 00:46.454     Participant  4.49      s and it's that long, length it's and                EH N IH S SIL T D EH L OW SIL P W L EY F IH SIL T S HH AE N SIL T S
+10   00:48.597 → 00:58.148     Participant  9.55      s There's, it looks like there would be a sponce, so DH ER IH S AH SIL L UH SIL K F TH L AY SIL AA M N DH EH R W IH SIL B IY EY S SIL S SIL P AA R M S S AH M M SIL SIL S AH M N SIL P T IH NG SIL W B AH SIL DH OW SIL SIL SIL F B AY N AH M AY SIL K AE SIL K G UH DX IH SIL D IH UW IH IH S
+11   01:02.232 → 01:10.500     Participant  8.27      s to you what. And so there's people in this in here T IY Y IH L W AY S N S AH SIL DH ER SIL Z IH SIL P IY SIL P L SIL IH R N N IH S SIL IH N HH IH ER AA M N AH SIL B AA F L AA DX ER
+12   01:12.998 → 01:15.833     Clinician    2.84      s and drink a heavy amount.                          AE N SIL D T S SIL T SIL D IH EH HH ER HH SIL P HH AE V IY NG N SIL HH AH N SIL T
+13   01:17.132 → 01:19.512     Clinician    2.38      s Hmm, soode.                                        AW NG K SIL K ER N SIL S UH SIL D
+14   01:20.963 → 01:22.110     Participant  1.15      s and the element.                                   AE N IY IY EY SIL AA AH M
+15   01:23.950 → 01:26.177     Participant  2.23      s The guy has a book.                                IH N SIL G AY HH AE EH Z S SIL AH M SIL B SIL B UH SIL
+16   01:26.819 → 01:30.902     Participant  4.08      s and she's having a look for like croc water or som IH N SIL T SH IY Z HH AE M V IH NG L G F AA R M W L UH SIL L AY EY SIL K W AH AY SIL W L W AA AY ER IH S AH M N SIL TH IH NG
+17   01:35.408 → 01:41.939     Participant  6.53      s I don't know what the piss is. I need some flower. IH N D OW N OW W AH SIL M AH IH SIL DH IH S IH S EH N IY IH SIL S AH SIL T DH IH SIL F L AA AY AH SIL P F L AW AA ER SIL AA N AH TH SIL TH SIL DH EH DX AA AY N AH SIL AY DX AH N OW W EH DX IH SIL S SIL B AW L SIL T S
+18   01:43.002 → 01:47.406     Participant  4.40      s and the books looks like night, fly hour.          AE N SIL DH AH SIL B UH SIL K S L UH SIL K S SIL T P P L AY EY SIL M AY SIL F L AH F AW R ER SIL AA M
+19   01:49.127 → 01:51.439     Participant  2.31      s nice things and                                    N AY S SIL T SIL F IH NG SIL S N NG
+20   01:54.224 → 02:00.282     Participant  6.06      s Here, and I guess it's the best. There's something EH ER AH M IH NG G EH S SIL AY SIL G EH TH IH SIL T AH M SIL B EH AE S P ER IH S AH M N SIL P IH N SIL SIL HH AH N SIL P IH NG HH IH EH ER R IH N EH N OW L IH DX D IH SIL D IH S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:03.945 - 00:07.287 (3.34s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's people that have a pen.
+  Phonemic Encoding: N SIL D IH ER Z S TH SIL P Y IY SIL P L DH EH DX HH AE SIL P AH SIL B EH N ER SIL AA M
+
+Segment 2:
+  Timestamp: 00:10.662 - 00:17.597 (6.94s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: to look like found a nice and there is a nice fun.
+  Phonemic Encoding: T HH UW HH SIL L UH SIL K F AY EY SIL K K F AW M SIL SIL HH AE SIL N AY S IH N ER Z SIL N AY EY S SIL F AH N
+
+Segment 3:
+  Timestamp: 00:19.487 - 00:20.719 (1.23s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: tree
+  Phonemic Encoding: AA SIL SIL T R IY
+
+Segment 4:
+  Timestamp: 00:21.951 - 00:26.355 (4.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and um nice car and house
+  Phonemic Encoding: AE N SIL D SIL AH M N AY S SIL K AA R ER IH N HH AW S
+
+Segment 5:
+  Timestamp: 00:29.815 - 00:33.983 (4.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Maybe it is their house but and there's water.
+  Phonemic Encoding: M EY SIL B IY IH DX IH EH S SIL IH Z SIL DH EH ER R HH AW S TH SIL DH AH SIL T AE N DH EH R ER R Z S SIL DH L W AA DX ER SIL
+
+Segment 6:
+  Timestamp: 00:34.472 - 00:35.991 (1.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and keep the layer of the rain.
+  Phonemic Encoding: IH EH IH N M W SIL P Y IY SIL P L ER AH V SIL DH OW L R EY N
+
+Segment 7:
+  Timestamp: 00:37.594 - 00:39.012 (1.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with that image.
+  Phonemic Encoding: W IH TH F SIL AH DH AE SIL T S SIL IH N M AH
+
+Segment 8:
+  Timestamp: 00:40.210 - 00:41.813 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a dawn there.
+  Phonemic Encoding: DH ER Z IH SIL D AA N NG DH EH R ER SIL
+
+Segment 9:
+  Timestamp: 00:41.965 - 00:46.454 (4.49s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and it's that long, length it's and
+  Phonemic Encoding: EH N IH S SIL T D EH L OW SIL P W L EY F IH SIL T S HH AE N SIL T S
+
+Segment 10:
+  Timestamp: 00:48.597 - 00:58.148 (9.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's, it looks like there would be a sponce, some, something with the one, and I can't put it as...
+  Phonemic Encoding: DH ER IH S AH SIL L UH SIL K F TH L AY SIL AA M N DH EH R W IH SIL B IY EY S SIL S SIL P AA R M S S AH M M SIL SIL S AH M N SIL P T IH NG SIL W B AH SIL DH OW SIL SIL SIL F B AY N AH M AY SIL K AE SIL K G UH DX IH SIL D IH UW IH IH S
+
+Segment 11:
+  Timestamp: 01:02.232 - 01:10.500 (8.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: to you what. And so there's people in this in here on the water.
+  Phonemic Encoding: T IY Y IH L W AY S N S AH SIL DH ER SIL Z IH SIL P IY SIL P L SIL IH R N N IH S SIL IH N HH IH ER AA M N AH SIL B AA F L AA DX ER
+
+Segment 12:
+  Timestamp: 01:12.998 - 01:15.833 (2.84s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and drink a heavy amount.
+  Phonemic Encoding: AE N SIL D T S SIL T SIL D IH EH HH ER HH SIL P HH AE V IY NG N SIL HH AH N SIL T
+
+Segment 13:
+  Timestamp: 01:17.132 - 01:19.512 (2.38s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Hmm, soode.
+  Phonemic Encoding: AW NG K SIL K ER N SIL S UH SIL D
+
+Segment 14:
+  Timestamp: 01:20.963 - 01:22.110 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the element.
+  Phonemic Encoding: AE N IY IY EY SIL AA AH M
+
+Segment 15:
+  Timestamp: 01:23.950 - 01:26.177 (2.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The guy has a book.
+  Phonemic Encoding: IH N SIL G AY HH AE EH Z S SIL AH M SIL B SIL B UH SIL
+
+Segment 16:
+  Timestamp: 01:26.819 - 01:30.902 (4.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and she's having a look for like croc water or something.
+  Phonemic Encoding: IH N SIL T SH IY Z HH AE M V IH NG L G F AA R M W L UH SIL L AY EY SIL K W AH AY SIL W L W AA AY ER IH S AH M N SIL TH IH NG
+
+Segment 17:
+  Timestamp: 01:35.408 - 01:41.939 (6.53s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't know what the piss is. I need some flower. I don't know what it's about.
+  Phonemic Encoding: IH N D OW N OW W AH SIL M AH IH SIL DH IH S IH S EH N IY IH SIL S AH SIL T DH IH SIL F L AA AY AH SIL P F L AW AA ER SIL AA N AH TH SIL TH SIL DH EH DX AA AY N AH SIL AY DX AH N OW W EH DX IH SIL S SIL B AW L SIL T S
+
+Segment 18:
+  Timestamp: 01:43.002 - 01:47.406 (4.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the books looks like night, fly hour.
+  Phonemic Encoding: AE N SIL DH AH SIL B UH SIL K S L UH SIL K S SIL T P P L AY EY SIL M AY SIL F L AH F AW R ER SIL AA M
+
+Segment 19:
+  Timestamp: 01:49.127 - 01:51.439 (2.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: nice things and
+  Phonemic Encoding: N AY S SIL T SIL F IH NG SIL S N NG
+
+Segment 20:
+  Timestamp: 01:54.224 - 02:00.282 (6.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Here, and I guess it's the best. There's something here and I know what it is.
+  Phonemic Encoding: EH ER AH M IH NG G EH S SIL AY SIL G EH TH IH SIL T AH M SIL B EH AE S P ER IH S AH M N SIL P IH N SIL SIL HH AH N SIL P IH NG HH IH EH ER R IH N EH N OW L IH DX D IH SIL D IH S

@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24304_ses-20161208_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.414 → 00:05.498     Participant  4.08      s There's a young couple there, they're sitting ther EH ER Z DH AH IH Y AH AA AH NG SIL K AH F L DH EH ER DX DH ER S IH EY IH N ER HH AE V IH NG AH SIL P AH M N L AY SH S SIL M AH SIL
+2    00:05.970 → 00:08.282     Participant  2.31      s a meal on the grass.                               SIL AH SIL M IY L AH N AH SIL K AH SIL AA N DH AH SIL G R AE S S
+3    00:09.194 → 00:13.159     Participant  3.97      s There's another in the Parapial man booth as he's  DH IH AH Z AH N AH DH ER SH SIL IH N DH AH SIL P EH R AH L IY Y AW L M AE N SIL B D UW UH Z IH Z DH IY SIL P B IH N SIL CH AA EY W
+4    00:13.412 → 00:14.864     Participant  1.45      s and then come in here or                           DH IH N IH M SIL P K HH IH N IY NG IH AH S SIL AA
+5    00:16.939 → 00:29.089     Participant  12.15     s light sky with the name of the thingy is yet up in L AY AH S SIL K AY SIL AH DX AH AA AA M SIL P ER EH SIL DH AH N EY M AH DH AH SIL P DH IH TH IH NG IY Z IY EH AH DX AH SIL P IH N DH IY EH ER AE M SIL B IY EY SIL N EH SIL S SIL T AE EH N IH Z N S SIL N SIL HH EH IH Z N AA W L AH V IH S AA S N W AA S SIL T AH F SIL SIL N AH S AH M B IY SIL AH N AH L AH V CH SIL B AY SIL D IH Z SIL AY
+6    00:30.203 → 00:37.729     Participant  7.53      s Yeah, I want to also have a nice tree here. Got th AE L EH L S AH AH N L AY S SIL CH T R IY HH EH ER T AH L SIL TH DH AH L L IY Z AH AA R DX AA AA N IH AH S AH M N AY SH S IY SIL P N AA M AY S SIL P L EY S N AY EH S SIL N EY
+7    00:38.927 → 00:41.965     Participant  3.04      s and there are actually a next tool up close for th IH N DH EH ER AA AE R SIL CH L EY IH N EH SIL S SIL T UW L AH SIL M NG M AH SIL P AH SIL P L EY S F UH L DX IH
+8    00:44.462 → 00:55.718     Clinician    11.26     s ome shintour or oil and the water there. It's a bo L AA F L SH IH N SIL T UW R OW L W SIL AA R M W AY AH M AE AH AH SIL HH F SIL AE IH N DH EY SIL AH N DH EY AA SIL SIL N SIL F W AA DX ER DH EH ER M TH AH S AH M B OW SIL T AH AA SIL SIL SIL AH Z N SIL N F UW SIL L DH AH DX AE DX IH N IH N SIL B AH IH SIL AH M
+9    00:58.975 → 01:02.080     Clinician    3.11      s then it is to a house growth and car parking.      DH IH EH N M IH SIL IH SH S SIL T UW AH HH AW L S SIL L AH V F V IH N M AH K AA R SIL P AA R SIL T IY IH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.414 - 00:05.498 (4.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's a young couple there, they're sitting there having a nice up.
+  Phonemic Encoding: EH ER Z DH AH IH Y AH AA AH NG SIL K AH F L DH EH ER DX DH ER S IH EY IH N ER HH AE V IH NG AH SIL P AH M N L AY SH S SIL M AH SIL
+
+Segment 2:
+  Timestamp: 00:05.970 - 00:08.282 (2.31s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: a meal on the grass.
+  Phonemic Encoding: SIL AH SIL M IY L AH N AH SIL K AH SIL AA N DH AH SIL G R AE S S
+
+Segment 3:
+  Timestamp: 00:09.194 - 00:13.159 (3.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's another in the Parapial man booth as he's been showing.
+  Phonemic Encoding: DH IH AH Z AH N AH DH ER SH SIL IH N DH AH SIL P EH R AH L IY Y AW L M AE N SIL B D UW UH Z IH Z DH IY SIL P B IH N SIL CH AA EY W
+
+Segment 4:
+  Timestamp: 00:13.412 - 00:14.864 (1.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and then come in here or
+  Phonemic Encoding: DH IH N IH M SIL P K HH IH N IY NG IH AH S SIL AA
+
+Segment 5:
+  Timestamp: 00:16.939 - 00:29.089 (12.15s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: light sky with the name of the thingy is yet up in the air and be next to him as his dog was lost in the sea on the loaves by the sky
+  Phonemic Encoding: L AY AH S SIL K AY SIL AH DX AH AA AA M SIL P ER EH SIL DH AH N EY M AH DH AH SIL P DH IH TH IH NG IY Z IY EH AH DX AH SIL P IH N DH IY EH ER AE M SIL B IY EY SIL N EH SIL S SIL T AE EH N IH Z N S SIL N SIL HH EH IH Z N AA W L AH V IH S AA S N W AA S SIL T AH F SIL SIL N AH S AH M B IY SIL AH N AH L AH V CH SIL B AY SIL D IH Z SIL AY
+
+Segment 6:
+  Timestamp: 00:30.203 - 00:37.729 (7.53s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Yeah, I want to also have a nice tree here. Got the wings on, it's a nice, nice place, nice day.
+  Phonemic Encoding: AE L EH L S AH AH N L AY S SIL CH T R IY HH EH ER T AH L SIL TH DH AH L L IY Z AH AA R DX AA AA N IH AH S AH M N AY SH S IY SIL P N AA M AY S SIL P L EY S N AY EH S SIL N EY
+
+Segment 7:
+  Timestamp: 00:38.927 - 00:41.965 (3.04s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and there are actually a next tool up close for this.
+  Phonemic Encoding: IH N DH EH ER AA AE R SIL CH L EY IH N EH SIL S SIL T UW L AH SIL M NG M AH SIL P AH SIL P L EY S F UH L DX IH
+
+Segment 8:
+  Timestamp: 00:44.462 - 00:55.718 (11.26s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: ome shintour or oil and the water there. It's a boat. I said, I love it. I didn't even let go.
+  Phonemic Encoding: L AA F L SH IH N SIL T UW R OW L W SIL AA R M W AY AH M AE AH AH SIL HH F SIL AE IH N DH EY SIL AH N DH EY AA SIL SIL N SIL F W AA DX ER DH EH ER M TH AH S AH M B OW SIL T AH AA SIL SIL SIL AH Z N SIL N F UW SIL L DH AH DX AE DX IH N IH N SIL B AH IH SIL AH M
+
+Segment 9:
+  Timestamp: 00:58.975 - 01:02.080 (3.11s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: then it is to a house growth and car parking.
+  Phonemic Encoding: DH IH EH N M IH SIL IH SH S SIL T UW AH HH AW L S SIL L AH V F V IH N M AH K AA R SIL P AA R SIL T IY IH

@@ -1,0 +1,512 @@
+{
+  "text": " The family's having a Pick-make-and-the Kids are flying a kite and That's about it there got some got up We'll sailor him out there and one Kid and a lake",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "family's",
+      "start": 0.5,
+      "end": 0.98
+    },
+    {
+      "word": "having",
+      "start": 0.98,
+      "end": 1.16
+    },
+    {
+      "word": "a",
+      "start": 1.16,
+      "end": 1.54
+    },
+    {
+      "word": "Pick",
+      "start": 2.72,
+      "end": 3.22
+    },
+    {
+      "word": "-make",
+      "start": 3.22,
+      "end": 3.38
+    },
+    {
+      "word": "-and",
+      "start": 3.38,
+      "end": 3.96
+    },
+    {
+      "word": "-the",
+      "start": 3.96,
+      "end": 4.54
+    },
+    {
+      "word": "Kids",
+      "start": 5.08,
+      "end": 5.78
+    },
+    {
+      "word": "are",
+      "start": 5.78,
+      "end": 5.94
+    },
+    {
+      "word": "flying",
+      "start": 5.94,
+      "end": 6.3
+    },
+    {
+      "word": "a",
+      "start": 6.3,
+      "end": 6.5
+    },
+    {
+      "word": "kite",
+      "start": 6.5,
+      "end": 6.78
+    },
+    {
+      "word": "and",
+      "start": 6.78,
+      "end": 7.34
+    },
+    {
+      "word": "That's",
+      "start": 8.760000000000002,
+      "end": 9.64
+    },
+    {
+      "word": "about",
+      "start": 9.64,
+      "end": 9.82
+    },
+    {
+      "word": "it",
+      "start": 9.82,
+      "end": 10.12
+    },
+    {
+      "word": "there",
+      "start": 10.12,
+      "end": 10.58
+    },
+    {
+      "word": "got",
+      "start": 10.58,
+      "end": 11.2
+    },
+    {
+      "word": "some",
+      "start": 11.2,
+      "end": 11.56
+    },
+    {
+      "word": "got",
+      "start": 11.56,
+      "end": 12.22
+    },
+    {
+      "word": "up",
+      "start": 12.22,
+      "end": 12.66
+    },
+    {
+      "word": "We'll",
+      "start": 13.420000000000002,
+      "end": 14.3
+    },
+    {
+      "word": "sailor",
+      "start": 14.3,
+      "end": 14.74
+    },
+    {
+      "word": "him",
+      "start": 14.74,
+      "end": 14.88
+    },
+    {
+      "word": "out",
+      "start": 14.88,
+      "end": 15.16
+    },
+    {
+      "word": "there",
+      "start": 15.16,
+      "end": 15.4
+    },
+    {
+      "word": "and",
+      "start": 15.4,
+      "end": 15.82
+    },
+    {
+      "word": "one",
+      "start": 15.82,
+      "end": 16.64
+    },
+    {
+      "word": "Kid",
+      "start": 17.84,
+      "end": 18.34
+    },
+    {
+      "word": "and",
+      "start": 18.34,
+      "end": 20.36
+    },
+    {
+      "word": "a",
+      "start": 20.36,
+      "end": 20.48
+    },
+    {
+      "word": "lake",
+      "start": 20.48,
+      "end": 20.66
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.54,
+      "text": " The family's having a",
+      "tokens": [
+        50364,
+        440,
+        1605,
+        311,
+        1419,
+        257,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.6846296787261963
+        },
+        {
+          "word": " family's",
+          "start": 0.5,
+          "end": 0.98,
+          "probability": 0.8316836953163147
+        },
+        {
+          "word": " having",
+          "start": 0.98,
+          "end": 1.16,
+          "probability": 0.9112974405288696
+        },
+        {
+          "word": " a",
+          "start": 1.16,
+          "end": 1.54,
+          "probability": 0.9882398843765259
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.72,
+      "end": 4.54,
+      "text": " Pick-make-and-the",
+      "tokens": [
+        50500,
+        14129,
+        12,
+        38705,
+        12,
+        474,
+        12,
+        3322,
+        50600
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " Pick",
+          "start": 2.72,
+          "end": 3.22,
+          "probability": 0.10309997200965881
+        },
+        {
+          "word": "-make",
+          "start": 3.22,
+          "end": 3.38,
+          "probability": 0.19397103041410446
+        },
+        {
+          "word": "-and",
+          "start": 3.38,
+          "end": 3.96,
+          "probability": 0.4380926564335823
+        },
+        {
+          "word": "-the",
+          "start": 3.96,
+          "end": 4.54,
+          "probability": 0.6852538585662842
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.08,
+      "end": 7.34,
+      "text": " Kids are flying a kite and",
+      "tokens": [
+        50618,
+        15694,
+        366,
+        7137,
+        257,
+        38867,
+        293,
+        50718
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " Kids",
+          "start": 5.08,
+          "end": 5.78,
+          "probability": 0.17939028143882751
+        },
+        {
+          "word": " are",
+          "start": 5.78,
+          "end": 5.94,
+          "probability": 0.9179834723472595
+        },
+        {
+          "word": " flying",
+          "start": 5.94,
+          "end": 6.3,
+          "probability": 0.987032413482666
+        },
+        {
+          "word": " a",
+          "start": 6.3,
+          "end": 6.5,
+          "probability": 0.876684308052063
+        },
+        {
+          "word": " kite",
+          "start": 6.5,
+          "end": 6.78,
+          "probability": 0.9990707039833069
+        },
+        {
+          "word": " and",
+          "start": 6.78,
+          "end": 7.34,
+          "probability": 0.7288832664489746
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.760000000000002,
+      "end": 12.34,
+      "text": " That's about it there got some got up",
+      "tokens": [
+        50814,
+        663,
+        311,
+        466,
+        309,
+        456,
+        658,
+        512,
+        658,
+        493,
+        50981
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " That's",
+          "start": 8.760000000000002,
+          "end": 9.64,
+          "probability": 0.664290189743042
+        },
+        {
+          "word": " about",
+          "start": 9.64,
+          "end": 9.82,
+          "probability": 0.9941145777702332
+        },
+        {
+          "word": " it",
+          "start": 9.82,
+          "end": 10.12,
+          "probability": 0.9780665636062622
+        },
+        {
+          "word": " there",
+          "start": 10.12,
+          "end": 10.58,
+          "probability": 0.3880687654018402
+        },
+        {
+          "word": " got",
+          "start": 10.58,
+          "end": 11.2,
+          "probability": 0.3040825426578522
+        },
+        {
+          "word": " some",
+          "start": 11.2,
+          "end": 11.56,
+          "probability": 0.9963570237159729
+        },
+        {
+          "word": " got",
+          "start": 11.56,
+          "end": 12.22,
+          "probability": 0.38892579078674316
+        },
+        {
+          "word": " up",
+          "start": 12.22,
+          "end": 12.66,
+          "probability": 0.4815431237220764
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.420000000000002,
+      "end": 16.64,
+      "text": " We'll sailor him out there and one",
+      "tokens": [
+        51048,
+        492,
+        603,
+        15758,
+        284,
+        796,
+        484,
+        456,
+        293,
+        472,
+        51197
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " We'll",
+          "start": 13.420000000000002,
+          "end": 14.3,
+          "probability": 0.7366095781326294
+        },
+        {
+          "word": " sailor",
+          "start": 14.3,
+          "end": 14.74,
+          "probability": 0.9220828413963318
+        },
+        {
+          "word": " him",
+          "start": 14.74,
+          "end": 14.88,
+          "probability": 0.34539133310317993
+        },
+        {
+          "word": " out",
+          "start": 14.88,
+          "end": 15.16,
+          "probability": 0.9946979284286499
+        },
+        {
+          "word": " there",
+          "start": 15.16,
+          "end": 15.4,
+          "probability": 0.9978964328765869
+        },
+        {
+          "word": " and",
+          "start": 15.4,
+          "end": 15.82,
+          "probability": 0.9176521301269531
+        },
+        {
+          "word": " one",
+          "start": 15.82,
+          "end": 16.64,
+          "probability": 0.726097047328949
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.84,
+      "end": 20.66,
+      "text": " Kid and a lake",
+      "tokens": [
+        51256,
+        18978,
+        293,
+        257,
+        11001,
+        51398
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5748921160428029,
+      "compression_ratio": 1.3162393162393162,
+      "no_speech_prob": 0.2325066328048706,
+      "words": [
+        {
+          "word": " Kid",
+          "start": 17.84,
+          "end": 18.34,
+          "probability": 0.622833251953125
+        },
+        {
+          "word": " and",
+          "start": 18.34,
+          "end": 20.36,
+          "probability": 0.41703179478645325
+        },
+        {
+          "word": " a",
+          "start": 20.36,
+          "end": 20.48,
+          "probability": 0.4819081127643585
+        },
+        {
+          "word": " lake",
+          "start": 20.48,
+          "end": 20.66,
+          "probability": 0.533743143081665
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14418_ses-20121022_task-picnic_lang-en_final.wav
+Total Segments: 16
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:04.215     Participant  4.18      s I see a guy flying on the kite.                    EH S IY IH SIL AA S G AY SIL P F L AY IH N AH N DH EH SIL K AY SIL T
+2    00:06.713 → 00:08.130     Participant  1.42      s and see out.                                       EH N EH S IY SIL AW
+3    00:12.974 → 00:15.319     Participant  2.35      s fars staffer                                       F AE S AA SIL S EH AE M IH N D IY SIL
+4    00:17.159 → 00:18.812     Participant  1.65      s I mean, uh, statement.                             AA AH V IY N SIL AA AH TH EY SIL P M IH N NG SIL K S
+5    00:26.609 → 00:27.790     Participant  1.18      s Guys, body.                                        G AY S SIL B OW DX IY V
+6    00:40.159 → 00:41.374     Participant  1.21      s and I see your plaque.                             P IH N AY S IY Y EH AH SIL P L AE SIL K
+7    00:42.589 → 00:46.487     Participant  3.90      s and uh, that's a good jet ski.                     AE N AH HH EH SIL SIL AH SIL P TH AH S SIL K EY SIL IH IH SIL JH EH SIL T S SIL K IY
+8    01:01.118 → 01:06.822     Participant  5.70      s calling, the sail....                              B OW DX IY NG SIL K IH SIL K AE N IH N SIL DH EH SIL S EY L HH AA M B OW W SIL T CH
+9    01:14.466 → 01:16.626     Clinician    2.16      s Not too late for this grey colour lighting         M EH N IY EY SIL AE F HH IH IY S EH AH SIL F HH AH SIL D AA L SIL
+10   01:19.090 → 01:21.216     Clinician    2.13      s that planes to the waters.                         DH AH SIL P L EY N Z S N SIL UW L IH L EH AH W AY DX ER SH
+11   01:35.104 → 01:44.689     Participant  9.59      s I see it in the family, listen to the writer, read AY SH IY IH EH AH SIL P HH AW SIL DH AH SIL T F AE M IH N DX IY HH SIL EH AW L SIL L IH S IH N IH N SIL T UW DH AH ER R AY EY DX ER UH AH SIL R EY Y DX D IY Y UW AY IH N AH S IY IH DX IY IH N AH EH IH N DH EY SH AY EY SIL T
+12   02:04.467 → 02:05.867     Participant  1.40      s and I say Cheers                                   AE N AE S EY SIL T CH T R UW S SIL
+13   02:17.528 → 02:20.380     Clinician    2.85      s and got both hair and a tripod                     N IH SIL K AA SIL P B AA R TH SIL K T EY IH N SIL D EH ER AE EH SIL T R AY V UH AH HH
+14   02:25.122 → 02:29.796     Clinician    4.67      s Endowing moment, perhaps, 14, 14.                  IH EH N D EH OW W IH N M W AA M EH N SIL T SIL N HH AE SIL P HH IH S AH V F UH ER SIL F AA DX IY IH N F AA R DX IH N
+15   02:35.010 → 02:36.310     Clinician    1.30      s older a necklace                                   S OW DX ER AH SIL EY N IH SIL G L AE S
+16   02:38.267 → 02:40.427     Clinician    2.16      s And the man is raiding.                            EH N N DH AE AH DH AA M EH AE EH N SIL IH DX IH EH IH S SIL R EY DX SIL DX IY NG
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:04.215 (4.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a guy flying on the kite.
+  Phonemic Encoding: EH S IY IH SIL AA S G AY SIL P F L AY IH N AH N DH EH SIL K AY SIL T
+
+Segment 2:
+  Timestamp: 00:06.713 - 00:08.130 (1.42s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and see out.
+  Phonemic Encoding: EH N EH S IY SIL AW
+
+Segment 3:
+  Timestamp: 00:12.974 - 00:15.319 (2.35s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: fars staffer
+  Phonemic Encoding: F AE S AA SIL S EH AE M IH N D IY SIL
+
+Segment 4:
+  Timestamp: 00:17.159 - 00:18.812 (1.65s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I mean, uh, statement.
+  Phonemic Encoding: AA AH V IY N SIL AA AH TH EY SIL P M IH N NG SIL K S
+
+Segment 5:
+  Timestamp: 00:26.609 - 00:27.790 (1.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Guys, body.
+  Phonemic Encoding: G AY S SIL B OW DX IY V
+
+Segment 6:
+  Timestamp: 00:40.159 - 00:41.374 (1.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see your plaque.
+  Phonemic Encoding: P IH N AY S IY Y EH AH SIL P L AE SIL K
+
+Segment 7:
+  Timestamp: 00:42.589 - 00:46.487 (3.90s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and uh, that's a good jet ski.
+  Phonemic Encoding: AE N AH HH EH SIL SIL AH SIL P TH AH S SIL K EY SIL IH IH SIL JH EH SIL T S SIL K IY
+
+Segment 8:
+  Timestamp: 01:01.118 - 01:06.822 (5.70s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: calling, the sail....
+  Phonemic Encoding: B OW DX IY NG SIL K IH SIL K AE N IH N SIL DH EH SIL S EY L HH AA M B OW W SIL T CH
+
+Segment 9:
+  Timestamp: 01:14.466 - 01:16.626 (2.16s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Not too late for this grey colour lighting
+  Phonemic Encoding: M EH N IY EY SIL AE F HH IH IY S EH AH SIL F HH AH SIL D AA L SIL
+
+Segment 10:
+  Timestamp: 01:19.090 - 01:21.216 (2.13s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: that planes to the waters.
+  Phonemic Encoding: DH AH SIL P L EY N Z S N SIL UW L IH L EH AH W AY DX ER SH
+
+Segment 11:
+  Timestamp: 01:35.104 - 01:44.689 (9.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see it in the family, listen to the writer, read you, and see it in the shade.
+  Phonemic Encoding: AY SH IY IH EH AH SIL P HH AW SIL DH AH SIL T F AE M IH N DX IY HH SIL EH AW L SIL L IH S IH N IH N SIL T UW DH AH ER R AY EY DX ER UH AH SIL R EY Y DX D IY Y UW AY IH N AH S IY IH DX IY IH N AH EH IH N DH EY SH AY EY SIL T
+
+Segment 12:
+  Timestamp: 02:04.467 - 02:05.867 (1.40s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I say Cheers
+  Phonemic Encoding: AE N AE S EY SIL T CH T R UW S SIL
+
+Segment 13:
+  Timestamp: 02:17.528 - 02:20.380 (2.85s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and got both hair and a tripod
+  Phonemic Encoding: N IH SIL K AA SIL P B AA R TH SIL K T EY IH N SIL D EH ER AE EH SIL T R AY V UH AH HH
+
+Segment 14:
+  Timestamp: 02:25.122 - 02:29.796 (4.67s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Endowing moment, perhaps, 14, 14.
+  Phonemic Encoding: IH EH N D EH OW W IH N M W AA M EH N SIL T SIL N HH AE SIL P HH IH S AH V F UH ER SIL F AA DX IY IH N F AA R DX IH N
+
+Segment 15:
+  Timestamp: 02:35.010 - 02:36.310 (1.30s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: older a necklace
+  Phonemic Encoding: S OW DX ER AH SIL EY N IH SIL G L AE S
+
+Segment 16:
+  Timestamp: 02:38.267 - 02:40.427 (2.16s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: And the man is raiding.
+  Phonemic Encoding: EH N N DH AE AH DH AA M EH AE EH N SIL IH DX IH EH IH S SIL R EY DX SIL DX IY NG

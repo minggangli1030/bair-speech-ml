@@ -1,0 +1,1179 @@
+{
+  "text": " A man is reading a book. She meanwhile drinks a pour. Refresh her. Another man is flying a kite. The man should be well as the the flag is x is excited. The dog is there by the man who is not the one reading flying the kite. Another man is sitting on the dock, fishing or fish. A boy watches from the water. He has several planes on... ...he has several... ...buckets on there.",
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "word": "man",
+      "start": 0.22,
+      "end": 0.5
+    },
+    {
+      "word": "is",
+      "start": 0.5,
+      "end": 1.02
+    },
+    {
+      "word": "reading",
+      "start": 1.02,
+      "end": 1.5
+    },
+    {
+      "word": "a",
+      "start": 1.5,
+      "end": 2.72
+    },
+    {
+      "word": "book.",
+      "start": 2.72,
+      "end": 3.2
+    },
+    {
+      "word": "She",
+      "start": 4.72,
+      "end": 5.28
+    },
+    {
+      "word": "meanwhile",
+      "start": 5.28,
+      "end": 6.12
+    },
+    {
+      "word": "drinks",
+      "start": 6.12,
+      "end": 8.68
+    },
+    {
+      "word": "a",
+      "start": 8.68,
+      "end": 9.0
+    },
+    {
+      "word": "pour.",
+      "start": 9.0,
+      "end": 9.46
+    },
+    {
+      "word": "Refresh",
+      "start": 12.719999999999999,
+      "end": 13.28
+    },
+    {
+      "word": "her.",
+      "start": 13.28,
+      "end": 13.66
+    },
+    {
+      "word": "Another",
+      "start": 15.88,
+      "end": 16.64
+    },
+    {
+      "word": "man",
+      "start": 16.64,
+      "end": 17.22
+    },
+    {
+      "word": "is",
+      "start": 17.22,
+      "end": 18.62
+    },
+    {
+      "word": "flying",
+      "start": 18.62,
+      "end": 19.12
+    },
+    {
+      "word": "a",
+      "start": 19.12,
+      "end": 19.46
+    },
+    {
+      "word": "kite.",
+      "start": 19.46,
+      "end": 19.66
+    },
+    {
+      "word": "The",
+      "start": 22.880000000000003,
+      "end": 23.44
+    },
+    {
+      "word": "man",
+      "start": 23.44,
+      "end": 23.78
+    },
+    {
+      "word": "should",
+      "start": 23.78,
+      "end": 24.24
+    },
+    {
+      "word": "be",
+      "start": 24.24,
+      "end": 24.74
+    },
+    {
+      "word": "well",
+      "start": 24.74,
+      "end": 27.1
+    },
+    {
+      "word": "as",
+      "start": 27.1,
+      "end": 27.9
+    },
+    {
+      "word": "the",
+      "start": 27.9,
+      "end": 28.44
+    },
+    {
+      "word": "the",
+      "start": 32.38,
+      "end": 33.42
+    },
+    {
+      "word": "flag",
+      "start": 33.42,
+      "end": 33.8
+    },
+    {
+      "word": "is",
+      "start": 33.8,
+      "end": 34.31999999999999
+    },
+    {
+      "word": "x",
+      "start": 36.540000000000006,
+      "end": 37.06
+    },
+    {
+      "word": "is",
+      "start": 37.06,
+      "end": 38.1
+    },
+    {
+      "word": "excited.",
+      "start": 40.68,
+      "end": 41.72
+    },
+    {
+      "word": "The",
+      "start": 43.18,
+      "end": 44.22
+    },
+    {
+      "word": "dog",
+      "start": 44.22,
+      "end": 44.64
+    },
+    {
+      "word": "is",
+      "start": 44.64,
+      "end": 45.06
+    },
+    {
+      "word": "there",
+      "start": 45.06,
+      "end": 45.52
+    },
+    {
+      "word": "by",
+      "start": 45.52,
+      "end": 45.92
+    },
+    {
+      "word": "the",
+      "start": 45.92,
+      "end": 46.16
+    },
+    {
+      "word": "man",
+      "start": 46.16,
+      "end": 46.56
+    },
+    {
+      "word": "who",
+      "start": 47.06,
+      "end": 47.58
+    },
+    {
+      "word": "is",
+      "start": 47.58,
+      "end": 47.92
+    },
+    {
+      "word": "not",
+      "start": 47.92,
+      "end": 48.3
+    },
+    {
+      "word": "the",
+      "start": 48.3,
+      "end": 48.86
+    },
+    {
+      "word": "one",
+      "start": 48.86,
+      "end": 49.26
+    },
+    {
+      "word": "reading",
+      "start": 49.26,
+      "end": 50.58
+    },
+    {
+      "word": "flying",
+      "start": 53.099999999999994,
+      "end": 53.62
+    },
+    {
+      "word": "the",
+      "start": 53.62,
+      "end": 53.86
+    },
+    {
+      "word": "kite.",
+      "start": 53.86,
+      "end": 54.08
+    },
+    {
+      "word": "Another",
+      "start": 55.02,
+      "end": 55.38
+    },
+    {
+      "word": "man",
+      "start": 55.38,
+      "end": 55.9
+    },
+    {
+      "word": "is",
+      "start": 55.9,
+      "end": 56.76
+    },
+    {
+      "word": "sitting",
+      "start": 58.94,
+      "end": 60.1
+    },
+    {
+      "word": "on",
+      "start": 60.1,
+      "end": 60.44
+    },
+    {
+      "word": "the",
+      "start": 60.44,
+      "end": 60.66
+    },
+    {
+      "word": "dock,",
+      "start": 60.66,
+      "end": 61.08
+    },
+    {
+      "word": "fishing",
+      "start": 61.62,
+      "end": 64.5
+    },
+    {
+      "word": "or",
+      "start": 64.5,
+      "end": 65.1
+    },
+    {
+      "word": "fish.",
+      "start": 65.1,
+      "end": 65.68
+    },
+    {
+      "word": "A",
+      "start": 69.26,
+      "end": 70.42
+    },
+    {
+      "word": "boy",
+      "start": 70.42,
+      "end": 70.96
+    },
+    {
+      "word": "watches",
+      "start": 70.96,
+      "end": 77.04
+    },
+    {
+      "word": "from",
+      "start": 77.04,
+      "end": 77.4
+    },
+    {
+      "word": "the",
+      "start": 77.4,
+      "end": 77.64
+    },
+    {
+      "word": "water.",
+      "start": 77.64,
+      "end": 78.75999999999999
+    },
+    {
+      "word": "He",
+      "start": 79.74,
+      "end": 80.44
+    },
+    {
+      "word": "has",
+      "start": 80.44,
+      "end": 82.3
+    },
+    {
+      "word": "several",
+      "start": 82.3,
+      "end": 82.86
+    },
+    {
+      "word": "planes",
+      "start": 82.86,
+      "end": 85.02
+    },
+    {
+      "word": "on...",
+      "start": 85.02,
+      "end": 86.98
+    },
+    {
+      "word": "...he",
+      "start": 88.76,
+      "end": 89.54
+    },
+    {
+      "word": "has",
+      "start": 89.54,
+      "end": 89.76
+    },
+    {
+      "word": "several...",
+      "start": 89.76,
+      "end": 91.36
+    },
+    {
+      "word": "...buckets",
+      "start": 95.78,
+      "end": 97.18
+    },
+    {
+      "word": "on",
+      "start": 97.18,
+      "end": 98.52
+    },
+    {
+      "word": "there.",
+      "start": 98.52,
+      "end": 99.0
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.2,
+      "text": " A man is reading a book.",
+      "tokens": [
+        50364,
+        316,
+        587,
+        307,
+        3760,
+        257,
+        1446,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5522287913731166,
+      "compression_ratio": 1.2115384615384615,
+      "no_speech_prob": 0.011078650131821632,
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.7810987830162048
+        },
+        {
+          "word": " man",
+          "start": 0.22,
+          "end": 0.5,
+          "probability": 0.998205304145813
+        },
+        {
+          "word": " is",
+          "start": 0.5,
+          "end": 1.02,
+          "probability": 0.9976286292076111
+        },
+        {
+          "word": " reading",
+          "start": 1.02,
+          "end": 1.5,
+          "probability": 0.9972405433654785
+        },
+        {
+          "word": " a",
+          "start": 1.5,
+          "end": 2.72,
+          "probability": 0.9946176409721375
+        },
+        {
+          "word": " book.",
+          "start": 2.72,
+          "end": 3.2,
+          "probability": 0.9993613362312317
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.88,
+      "end": 9.46,
+      "text": " She meanwhile drinks a pour.",
+      "tokens": [
+        50608,
+        1240,
+        29252,
+        12142,
+        257,
+        2016,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5522287913731166,
+      "compression_ratio": 1.2115384615384615,
+      "no_speech_prob": 0.011078650131821632,
+      "words": [
+        {
+          "word": " She",
+          "start": 4.72,
+          "end": 5.28,
+          "probability": 0.4661664664745331
+        },
+        {
+          "word": " meanwhile",
+          "start": 5.28,
+          "end": 6.12,
+          "probability": 0.7221165299415588
+        },
+        {
+          "word": " drinks",
+          "start": 6.12,
+          "end": 8.68,
+          "probability": 0.9399555325508118
+        },
+        {
+          "word": " a",
+          "start": 8.68,
+          "end": 9.0,
+          "probability": 0.9380379319190979
+        },
+        {
+          "word": " pour.",
+          "start": 9.0,
+          "end": 9.46,
+          "probability": 0.4128687083721161
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 12.8,
+      "end": 13.66,
+      "text": " Refresh her.",
+      "tokens": [
+        51004,
+        16957,
+        3644,
+        720,
+        13,
+        51080
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5522287913731166,
+      "compression_ratio": 1.2115384615384615,
+      "no_speech_prob": 0.011078650131821632,
+      "words": [
+        {
+          "word": " Refresh",
+          "start": 12.719999999999999,
+          "end": 13.28,
+          "probability": 0.8482307195663452
+        },
+        {
+          "word": " her.",
+          "start": 13.28,
+          "end": 13.66,
+          "probability": 0.5367438197135925
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.88,
+      "end": 19.66,
+      "text": " Another man is flying a kite.",
+      "tokens": [
+        51176,
+        3996,
+        587,
+        307,
+        7137,
+        257,
+        38867,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5522287913731166,
+      "compression_ratio": 1.2115384615384615,
+      "no_speech_prob": 0.011078650131821632,
+      "words": [
+        {
+          "word": " Another",
+          "start": 15.88,
+          "end": 16.64,
+          "probability": 0.9542725086212158
+        },
+        {
+          "word": " man",
+          "start": 16.64,
+          "end": 17.22,
+          "probability": 0.9989619255065918
+        },
+        {
+          "word": " is",
+          "start": 17.22,
+          "end": 18.62,
+          "probability": 0.9591416716575623
+        },
+        {
+          "word": " flying",
+          "start": 18.62,
+          "end": 19.12,
+          "probability": 0.9711477160453796
+        },
+        {
+          "word": " a",
+          "start": 19.12,
+          "end": 19.46,
+          "probability": 0.8562434911727905
+        },
+        {
+          "word": " kite.",
+          "start": 19.46,
+          "end": 19.66,
+          "probability": 0.9996833801269531
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 23.2,
+      "end": 28.44,
+      "text": " The man should be well as the",
+      "tokens": [
+        51524,
+        440,
+        587,
+        820,
+        312,
+        731,
+        382,
+        264,
+        51820
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5522287913731166,
+      "compression_ratio": 1.2115384615384615,
+      "no_speech_prob": 0.011078650131821632,
+      "words": [
+        {
+          "word": " The",
+          "start": 22.880000000000003,
+          "end": 23.44,
+          "probability": 0.9721143245697021
+        },
+        {
+          "word": " man",
+          "start": 23.44,
+          "end": 23.78,
+          "probability": 0.988623857498169
+        },
+        {
+          "word": " should",
+          "start": 23.78,
+          "end": 24.24,
+          "probability": 0.9985865354537964
+        },
+        {
+          "word": " be",
+          "start": 24.24,
+          "end": 24.74,
+          "probability": 0.9983348250389099
+        },
+        {
+          "word": " well",
+          "start": 24.74,
+          "end": 27.1,
+          "probability": 0.9340227842330933
+        },
+        {
+          "word": " as",
+          "start": 27.1,
+          "end": 27.9,
+          "probability": 0.9592272043228149
+        },
+        {
+          "word": " the",
+          "start": 27.9,
+          "end": 28.44,
+          "probability": 0.9675159454345703
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3000,
+      "start": 32.38,
+      "end": 33.92,
+      "text": " the flag is",
+      "tokens": [
+        50378,
+        264,
+        7166,
+        307,
+        50560
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7655715453319061,
+      "compression_ratio": 1.2444444444444445,
+      "no_speech_prob": 0.003523912513628602,
+      "words": [
+        {
+          "word": " the",
+          "start": 32.38,
+          "end": 33.42,
+          "probability": 0.1304158866405487
+        },
+        {
+          "word": " flag",
+          "start": 33.42,
+          "end": 33.8,
+          "probability": 0.9529158473014832
+        },
+        {
+          "word": " is",
+          "start": 33.8,
+          "end": 34.31999999999999,
+          "probability": 0.921368420124054
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 3000,
+      "start": 36.56,
+      "end": 38.1,
+      "text": " x is",
+      "tokens": [
+        50692,
+        2031,
+        307,
+        50756
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7655715453319061,
+      "compression_ratio": 1.2444444444444445,
+      "no_speech_prob": 0.003523912513628602,
+      "words": [
+        {
+          "word": " x",
+          "start": 36.540000000000006,
+          "end": 37.06,
+          "probability": 0.1516362726688385
+        },
+        {
+          "word": " is",
+          "start": 37.06,
+          "end": 38.1,
+          "probability": 0.6466590762138367
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 3000,
+      "start": 40.68,
+      "end": 46.56,
+      "text": " excited. The dog is there by the man",
+      "tokens": [
+        50920,
+        2919,
+        13,
+        440,
+        3000,
+        307,
+        456,
+        538,
+        264,
+        587,
+        51188
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7655715453319061,
+      "compression_ratio": 1.2444444444444445,
+      "no_speech_prob": 0.003523912513628602,
+      "words": [
+        {
+          "word": " excited.",
+          "start": 40.68,
+          "end": 41.72,
+          "probability": 0.07415097206830978
+        },
+        {
+          "word": " The",
+          "start": 43.18,
+          "end": 44.22,
+          "probability": 0.6787828207015991
+        },
+        {
+          "word": " dog",
+          "start": 44.22,
+          "end": 44.64,
+          "probability": 0.9894037246704102
+        },
+        {
+          "word": " is",
+          "start": 44.64,
+          "end": 45.06,
+          "probability": 0.9970976114273071
+        },
+        {
+          "word": " there",
+          "start": 45.06,
+          "end": 45.52,
+          "probability": 0.9763630032539368
+        },
+        {
+          "word": " by",
+          "start": 45.52,
+          "end": 45.92,
+          "probability": 0.9907938838005066
+        },
+        {
+          "word": " the",
+          "start": 45.92,
+          "end": 46.16,
+          "probability": 0.990103006362915
+        },
+        {
+          "word": " man",
+          "start": 46.16,
+          "end": 46.56,
+          "probability": 0.9532686471939087
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 3000,
+      "start": 47.36,
+      "end": 50.58,
+      "text": " who is not the one reading",
+      "tokens": [
+        51232,
+        567,
+        307,
+        406,
+        264,
+        472,
+        3760,
+        51388
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7655715453319061,
+      "compression_ratio": 1.2444444444444445,
+      "no_speech_prob": 0.003523912513628602,
+      "words": [
+        {
+          "word": " who",
+          "start": 47.06,
+          "end": 47.58,
+          "probability": 0.8226081728935242
+        },
+        {
+          "word": " is",
+          "start": 47.58,
+          "end": 47.92,
+          "probability": 0.9010255336761475
+        },
+        {
+          "word": " not",
+          "start": 47.92,
+          "end": 48.3,
+          "probability": 0.9907664060592651
+        },
+        {
+          "word": " the",
+          "start": 48.3,
+          "end": 48.86,
+          "probability": 0.992522656917572
+        },
+        {
+          "word": " one",
+          "start": 48.86,
+          "end": 49.26,
+          "probability": 0.9953475594520569
+        },
+        {
+          "word": " reading",
+          "start": 49.26,
+          "end": 50.58,
+          "probability": 0.9200361371040344
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 3000,
+      "start": 53.2,
+      "end": 56.76,
+      "text": " flying the kite. Another man is",
+      "tokens": [
+        51524,
+        7137,
+        264,
+        38867,
+        13,
+        3996,
+        587,
+        307,
+        51688
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7655715453319061,
+      "compression_ratio": 1.2444444444444445,
+      "no_speech_prob": 0.003523912513628602,
+      "words": [
+        {
+          "word": " flying",
+          "start": 53.099999999999994,
+          "end": 53.62,
+          "probability": 0.20739613473415375
+        },
+        {
+          "word": " the",
+          "start": 53.62,
+          "end": 53.86,
+          "probability": 0.9892990589141846
+        },
+        {
+          "word": " kite.",
+          "start": 53.86,
+          "end": 54.08,
+          "probability": 0.9846431016921997
+        },
+        {
+          "word": " Another",
+          "start": 55.02,
+          "end": 55.38,
+          "probability": 0.8778297901153564
+        },
+        {
+          "word": " man",
+          "start": 55.38,
+          "end": 55.9,
+          "probability": 0.9965872764587402
+        },
+        {
+          "word": " is",
+          "start": 55.9,
+          "end": 56.76,
+          "probability": 0.9905955791473389
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5676,
+      "start": 58.94,
+      "end": 65.68,
+      "text": " sitting on the dock, fishing or fish.",
+      "tokens": [
+        50364,
+        3798,
+        322,
+        264,
+        20929,
+        11,
+        10180,
+        420,
+        3506,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6494037021290172,
+      "compression_ratio": 1.046875,
+      "no_speech_prob": 0.1376260668039322,
+      "words": [
+        {
+          "word": " sitting",
+          "start": 58.94,
+          "end": 60.1,
+          "probability": 0.2705249488353729
+        },
+        {
+          "word": " on",
+          "start": 60.1,
+          "end": 60.44,
+          "probability": 0.9958814382553101
+        },
+        {
+          "word": " the",
+          "start": 60.44,
+          "end": 60.66,
+          "probability": 0.9912598729133606
+        },
+        {
+          "word": " dock,",
+          "start": 60.66,
+          "end": 61.08,
+          "probability": 0.20160050690174103
+        },
+        {
+          "word": " fishing",
+          "start": 61.62,
+          "end": 64.5,
+          "probability": 0.9638975858688354
+        },
+        {
+          "word": " or",
+          "start": 64.5,
+          "end": 65.1,
+          "probability": 0.4873679280281067
+        },
+        {
+          "word": " fish.",
+          "start": 65.1,
+          "end": 65.68,
+          "probability": 0.9648926854133606
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5676,
+      "start": 69.26,
+      "end": 78.75999999999999,
+      "text": " A boy watches from the water.",
+      "tokens": [
+        50864,
+        316,
+        3237,
+        17062,
+        490,
+        264,
+        1281,
+        13,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6494037021290172,
+      "compression_ratio": 1.046875,
+      "no_speech_prob": 0.1376260668039322,
+      "words": [
+        {
+          "word": " A",
+          "start": 69.26,
+          "end": 70.42,
+          "probability": 0.9199860692024231
+        },
+        {
+          "word": " boy",
+          "start": 70.42,
+          "end": 70.96,
+          "probability": 0.9859829545021057
+        },
+        {
+          "word": " watches",
+          "start": 70.96,
+          "end": 77.04,
+          "probability": 0.9341992735862732
+        },
+        {
+          "word": " from",
+          "start": 77.04,
+          "end": 77.4,
+          "probability": 0.9866145253181458
+        },
+        {
+          "word": " the",
+          "start": 77.4,
+          "end": 77.64,
+          "probability": 0.99866783618927
+        },
+        {
+          "word": " water.",
+          "start": 77.64,
+          "end": 78.75999999999999,
+          "probability": 0.9979754090309143
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 7876,
+      "start": 79.76,
+      "end": 86.98,
+      "text": " He has several planes on...",
+      "tokens": [
+        50414,
+        634,
+        575,
+        2940,
+        14952,
+        322,
+        485,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4187369918823242,
+      "compression_ratio": 1.2105263157894737,
+      "no_speech_prob": 0.24794088304042816,
+      "words": [
+        {
+          "word": " He",
+          "start": 79.74,
+          "end": 80.44,
+          "probability": 0.45098307728767395
+        },
+        {
+          "word": " has",
+          "start": 80.44,
+          "end": 82.3,
+          "probability": 0.7879505157470703
+        },
+        {
+          "word": " several",
+          "start": 82.3,
+          "end": 82.86,
+          "probability": 0.9925712943077087
+        },
+        {
+          "word": " planes",
+          "start": 82.86,
+          "end": 85.02,
+          "probability": 0.6830007433891296
+        },
+        {
+          "word": " on...",
+          "start": 85.02,
+          "end": 86.98,
+          "probability": 0.6416672766208649
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 7876,
+      "start": 88.76,
+      "end": 91.36,
+      "text": " ...he has several...",
+      "tokens": [
+        50864,
+        1097,
+        675,
+        575,
+        2940,
+        485,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4187369918823242,
+      "compression_ratio": 1.2105263157894737,
+      "no_speech_prob": 0.24794088304042816,
+      "words": [
+        {
+          "word": " ...he",
+          "start": 88.76,
+          "end": 89.54,
+          "probability": 0.42087990045547485
+        },
+        {
+          "word": " has",
+          "start": 89.54,
+          "end": 89.76,
+          "probability": 0.9871755242347717
+        },
+        {
+          "word": " several...",
+          "start": 89.76,
+          "end": 91.36,
+          "probability": 0.7706371545791626
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7876,
+      "start": 95.78,
+      "end": 99.0,
+      "text": " ...buckets on there.",
+      "tokens": [
+        51214,
+        1097,
+        65,
+        1134,
+        1385,
+        322,
+        456,
+        13,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4187369918823242,
+      "compression_ratio": 1.2105263157894737,
+      "no_speech_prob": 0.24794088304042816,
+      "words": [
+        {
+          "word": " ...buckets",
+          "start": 95.78,
+          "end": 97.18,
+          "probability": 0.7947381287813187
+        },
+        {
+          "word": " on",
+          "start": 97.18,
+          "end": 98.52,
+          "probability": 0.8455423712730408
+        },
+        {
+          "word": " there.",
+          "start": 98.52,
+          "end": 99.0,
+          "probability": 0.9531784653663635
+        }
+      ]
+    }
+  ]
+}

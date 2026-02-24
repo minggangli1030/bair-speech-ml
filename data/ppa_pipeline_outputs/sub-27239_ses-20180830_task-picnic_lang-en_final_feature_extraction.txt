@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-27239_ses-20180830_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.537 → 00:04.823     Clinician    4.29      s Oh, I see. Well, theoretically, this is...         AA AY S IY W L SIL SIL TH DH IH ER R EH AE DX IH SIL K R EY SIL DH IH S IH S
+2    00:08.839 → 00:10.476     Clinician    1.64      s This is... here now.                               DH IH S IH Z SIL HH IH N AW AA
+3    00:15.944 → 00:19.116     Clinician    3.17      s of incentence, yeah? Well, yeah, see.              AA AH TH SIL IH N SIL IH N S EH N SIL T IH N SIL S IH S IY AE HH ER SIL R AA Y AE S IY EY SIL
+4    00:26.220 → 00:31.182     Participant  4.96      s Jackas, these are different people, but basically  EH AE SIL K IH S DH IY Z ER SIL D IH F R ER N SIL P IY SIL P L SIL B W AH SIL B EY S SIL P L EY DH IH SIL T UW DH AH Z S SIL P IY SIL P L ER S IH DX IY NG SIL D AW M N
+5    00:33.882 → 00:34.945     Participant  1.06      s for man and a woman.                               S AH M AE N IH N AH W AH M IH N SIL
+6    00:36.750 → 00:47.196     Participant  10.45     s Okay, it's never just sitting there, drinking coff K HH EY SIL SIL T IH N EH R DX IH S T IH DX IY IH NG N EH AY SIL IH SIL T R IH NG SIL IH NG SIL K AA F IY IH W EH DX EH V ER IH N DH EH N SIL T ER IH N Z AW SIL DH AH IH SIL DH IH S SIL K AY HH Y IH EH ER HH IY Z S SIL Y IY S SIL Y IY Z SIL W UH SIL M R SIL DH IY Z S SIL K EH N AH F EY S IH N DH IY AH DH ER W EY AA N AH SIL W UH F V SIL G OW IH N AA N SIL HH EH AH
+7    00:47.837 → 01:06.180     Participant  18.34     s And then this is basically a kite. It goes up abou EH N DH EH IH NG SIL DH EH SIL DH IH S IH Z SIL B EY SH S SIL K W IY EH AH SIL K AY SIL T P SIL IH SIL G OW Z AH SIL P AH SIL B AA SIL T W AA AH N IY SIL S AH M F IY SIL T SIL EH N IY SIL G OW Z S IH EH IH SIL P IH N IY Y IH N AW SIL EH N HH ER N R AH N SIL HH IY SIL Y IH Z AE DX EH AH SIL P IH DX IY SIL M UW V IY NG EH IH SIL B AE SIL K IH N F AA R IH TH SIL IH DX T EH SIL HH EH N DH EH AE N SIL HH AA M SIL DH IH S SIL W AH N IH ER V HH IH ER DH IH S IH ZH SIL K AA L SIL HH AA R IY AY AE IH N DH IH S IH Z DH EY SIL S EY EH L SIL B OW
+8    01:08.948 → 01:13.724     Participant  4.78      s That's a sailboat. Uh-huh. And this is a car. Uh-h AE SIL T S AH S EY L SIL B OW SIL EH AE HH AE IH N DH IH S IH Z AH SIL K AA R ER L HH AE M B EY S IH SIL K R EY IH SIL K AA R ER
+9    01:17.200 → 01:20.592     Participant  3.39      s Not a sample. That's the sale, though. This is a c N AA DX IH S EH AH M B OW L SIL EH AE HH IH SIL DH IH TH SIL P IH SIL P DH EH SIL S SIL T DH IH S EY EH L SIL DH L OW SIL IH S IH Z IH SIL K AA R ER HH Y EH AH
+10   01:23.680 → 01:25.215     Participant  1.54      s Oh and this is a flag.                             AH M SIL B OW IH N IH S DH AH F L AE SIL K
+11   01:27.561 → 01:29.535     Participant  1.97      s I can no wind and um...                            AH F AH IH N DH AH W IH N SIL D T AE N SIL D AE AA N M
+12   01:31.949 → 01:35.543     Participant  3.59      s Yeah, and I think this one is probably, they're ju Y AE HH SIL AE DX AH TH IH NG SIL D IH S F SIL W AA AY N IH Z S SIL P R AA SIL V AH SIL B L IY SIL DH EH ER SIL JH IH S IH DX IY NG N DH EH ER
+13   01:36.758 → 01:45.449     Participant  8.69      s They're just sitting there and trying to imagine h DH ER SIL JH IH S IH DX IH NG DH EH ER HH SIL HH ER AE N SIL T R AY N SIL D ER IH M AE SIL JH IH N SIL HH AW L SIL AH L AA AY IH SIL T EY SIL K S SIL T ER W SIL W IY L IH N R IH L IH N AY F IH SH L IH L IH UW SIL
+14   01:47.001 → 01:50.106     Participant  3.10      s No, but I'm just a tank to reel in a fish. So yeah IH SIL P IH SIL N AH L P AA N IH Z IH SIL T IH EY SIL NG SIL T IH ER R IY L IH N AH F IH EH SH S AH HH AE SIL K W EH S SIL CH IH N NG
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.537 - 00:04.823 (4.29s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Oh, I see. Well, theoretically, this is...
+  Phonemic Encoding: AA AY S IY W L SIL SIL TH DH IH ER R EH AE DX IH SIL K R EY SIL DH IH S IH S
+
+Segment 2:
+  Timestamp: 00:08.839 - 00:10.476 (1.64s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: This is... here now.
+  Phonemic Encoding: DH IH S IH Z SIL HH IH N AW AA
+
+Segment 3:
+  Timestamp: 00:15.944 - 00:19.116 (3.17s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: of incentence, yeah? Well, yeah, see.
+  Phonemic Encoding: AA AH TH SIL IH N SIL IH N S EH N SIL T IH N SIL S IH S IY AE HH ER SIL R AA Y AE S IY EY SIL
+
+Segment 4:
+  Timestamp: 00:26.220 - 00:31.182 (4.96s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Jackas, these are different people, but basically the two of those people are sitting down.
+  Phonemic Encoding: EH AE SIL K IH S DH IY Z ER SIL D IH F R ER N SIL P IY SIL P L SIL B W AH SIL B EY S SIL P L EY DH IH SIL T UW DH AH Z S SIL P IY SIL P L ER S IH DX IY NG SIL D AW M N
+
+Segment 5:
+  Timestamp: 00:33.882 - 00:34.945 (1.06s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: for man and a woman.
+  Phonemic Encoding: S AH M AE N IH N AH W AH M IH N SIL
+
+Segment 6:
+  Timestamp: 00:36.750 - 00:47.196 (10.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Okay, it's never just sitting there, drinking coffee, whatever. And then turns out that this guy here, he's kind of facing the other way on. What's going on? Uh-huh.
+  Phonemic Encoding: K HH EY SIL SIL T IH N EH R DX IH S T IH DX IY IH NG N EH AY SIL IH SIL T R IH NG SIL IH NG SIL K AA F IY IH W EH DX EH V ER IH N DH EH N SIL T ER IH N Z AW SIL DH AH IH SIL DH IH S SIL K AY HH Y IH EH ER HH IY Z S SIL Y IY S SIL Y IY Z SIL W UH SIL M R SIL DH IY Z S SIL K EH N AH F EY S IH N DH IY AH DH ER W EY AA N AH SIL W UH F V SIL G OW IH N AA N SIL HH EH AH
+
+Segment 7:
+  Timestamp: 00:47.837 - 01:06.180 (18.34s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And then this is basically a kite. It goes up about 20 some feet and he goes up and he, you know, he runs, he gives that up and he moving it back and forth. Okay. And then this one over here, this is called, oh yeah, and this is a sailboat.
+  Phonemic Encoding: EH N DH EH IH NG SIL DH EH SIL DH IH S IH Z SIL B EY SH S SIL K W IY EH AH SIL K AY SIL T P SIL IH SIL G OW Z AH SIL P AH SIL B AA SIL T W AA AH N IY SIL S AH M F IY SIL T SIL EH N IY SIL G OW Z S IH EH IH SIL P IH N IY Y IH N AW SIL EH N HH ER N R AH N SIL HH IY SIL Y IH Z AE DX EH AH SIL P IH DX IY SIL M UW V IY NG EH IH SIL B AE SIL K IH N F AA R IH TH SIL IH DX T EH SIL HH EH N DH EH AE N SIL HH AA M SIL DH IH S SIL W AH N IH ER V HH IH ER DH IH S IH ZH SIL K AA L SIL HH AA R IY AY AE IH N DH IH S IH Z DH EY SIL S EY EH L SIL B OW
+
+Segment 8:
+  Timestamp: 01:08.948 - 01:13.724 (4.78s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: That's a sailboat. Uh-huh. And this is a car. Uh-huh. Basically a car.
+  Phonemic Encoding: AE SIL T S AH S EY L SIL B OW SIL EH AE HH AE IH N DH IH S IH Z AH SIL K AA R ER L HH AE M B EY S IH SIL K R EY IH SIL K AA R ER
+
+Segment 9:
+  Timestamp: 01:17.200 - 01:20.592 (3.39s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Not a sample. That's the sale, though. This is a car. Yep.
+  Phonemic Encoding: N AA DX IH S EH AH M B OW L SIL EH AE HH IH SIL DH IH TH SIL P IH SIL P DH EH SIL S SIL T DH IH S EY EH L SIL DH L OW SIL IH S IH Z IH SIL K AA R ER HH Y EH AH
+
+Segment 10:
+  Timestamp: 01:23.680 - 01:25.215 (1.54s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Oh and this is a flag.
+  Phonemic Encoding: AH M SIL B OW IH N IH S DH AH F L AE SIL K
+
+Segment 11:
+  Timestamp: 01:27.561 - 01:29.535 (1.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I can no wind and um...
+  Phonemic Encoding: AH F AH IH N DH AH W IH N SIL D T AE N SIL D AE AA N M
+
+Segment 12:
+  Timestamp: 01:31.949 - 01:35.543 (3.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Yeah, and I think this one is probably, they're just sitting there.
+  Phonemic Encoding: Y AE HH SIL AE DX AH TH IH NG SIL D IH S F SIL W AA AY N IH Z S SIL P R AA SIL V AH SIL B L IY SIL DH EH ER SIL JH IH S IH DX IY NG N DH EH ER
+
+Segment 13:
+  Timestamp: 01:36.758 - 01:45.449 (8.69s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: They're just sitting there and trying to imagine how a lot it takes to wheel in real and fish.
+  Phonemic Encoding: DH ER SIL JH IH S IH DX IH NG DH EH ER HH SIL HH ER AE N SIL T R AY N SIL D ER IH M AE SIL JH IH N SIL HH AW L SIL AH L AA AY IH SIL T EY SIL K S SIL T ER W SIL W IY L IH N R IH L IH N AY F IH SH L IH L IH UW SIL
+
+Segment 14:
+  Timestamp: 01:47.001 - 01:50.106 (3.10s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: No, but I'm just a tank to reel in a fish. So yeah, I have a question.
+  Phonemic Encoding: IH SIL P IH SIL N AH L P AA N IH Z IH SIL T IH EY SIL NG SIL T IH ER R IY L IH N AH F IH EH SH S AH HH AE SIL K W EH S SIL CH IH N NG

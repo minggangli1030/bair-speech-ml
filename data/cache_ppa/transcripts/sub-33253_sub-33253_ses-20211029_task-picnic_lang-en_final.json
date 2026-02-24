@@ -1,0 +1,865 @@
+{
+  "text": " A kite flying, a flying kite, a sailing boat. People are people are happy to picnic and end or a treat. And a kite is flying. I think a, a, when sock is flying. There is a person with a fishing. There, there is a person drinking, well, I drink in a soda. That, that's, that's how I'm gonna pick.",
+  "words": [
+    {
+      "word": "A",
+      "start": 2.1799999999999997,
+      "end": 3.44
+    },
+    {
+      "word": "kite",
+      "start": 3.44,
+      "end": 3.82
+    },
+    {
+      "word": "flying,",
+      "start": 3.82,
+      "end": 4.7
+    },
+    {
+      "word": "a",
+      "start": 4.86,
+      "end": 5.14
+    },
+    {
+      "word": "flying",
+      "start": 5.14,
+      "end": 5.44
+    },
+    {
+      "word": "kite,",
+      "start": 5.44,
+      "end": 5.82
+    },
+    {
+      "word": "a",
+      "start": 7.08,
+      "end": 8.44
+    },
+    {
+      "word": "sailing",
+      "start": 8.44,
+      "end": 10.16
+    },
+    {
+      "word": "boat.",
+      "start": 10.16,
+      "end": 10.52
+    },
+    {
+      "word": "People",
+      "start": 22.419999999999998,
+      "end": 23.3
+    },
+    {
+      "word": "are",
+      "start": 23.3,
+      "end": 23.74
+    },
+    {
+      "word": "people",
+      "start": 23.74,
+      "end": 27.12
+    },
+    {
+      "word": "are",
+      "start": 27.12,
+      "end": 27.36
+    },
+    {
+      "word": "happy",
+      "start": 27.36,
+      "end": 27.56
+    },
+    {
+      "word": "to",
+      "start": 27.56,
+      "end": 27.66
+    },
+    {
+      "word": "picnic",
+      "start": 27.66,
+      "end": 28.04
+    },
+    {
+      "word": "and",
+      "start": 28.04,
+      "end": 33.48
+    },
+    {
+      "word": "end",
+      "start": 33.48,
+      "end": 34.18
+    },
+    {
+      "word": "or",
+      "start": 34.18,
+      "end": 34.38
+    },
+    {
+      "word": "a",
+      "start": 34.38,
+      "end": 34.64
+    },
+    {
+      "word": "treat.",
+      "start": 34.64,
+      "end": 36.0
+    },
+    {
+      "word": "And",
+      "start": 44.68,
+      "end": 45.96
+    },
+    {
+      "word": "a",
+      "start": 45.96,
+      "end": 46.48
+    },
+    {
+      "word": "kite",
+      "start": 46.48,
+      "end": 48.92
+    },
+    {
+      "word": "is",
+      "start": 48.92,
+      "end": 49.22
+    },
+    {
+      "word": "flying.",
+      "start": 49.22,
+      "end": 49.58
+    },
+    {
+      "word": "I",
+      "start": 57.98,
+      "end": 59.22
+    },
+    {
+      "word": "think",
+      "start": 59.22,
+      "end": 60.46
+    },
+    {
+      "word": "a,",
+      "start": 60.46,
+      "end": 61.34
+    },
+    {
+      "word": "a,",
+      "start": 65.62,
+      "end": 66.24
+    },
+    {
+      "word": "when",
+      "start": 66.36,
+      "end": 66.66
+    },
+    {
+      "word": "sock",
+      "start": 66.66,
+      "end": 66.98
+    },
+    {
+      "word": "is",
+      "start": 66.98,
+      "end": 67.44
+    },
+    {
+      "word": "flying.",
+      "start": 67.44,
+      "end": 68.04
+    },
+    {
+      "word": "There",
+      "start": 72.77999999999999,
+      "end": 74.17999999999999
+    },
+    {
+      "word": "is",
+      "start": 74.17999999999999,
+      "end": 75.58
+    },
+    {
+      "word": "a",
+      "start": 75.58,
+      "end": 75.8
+    },
+    {
+      "word": "person",
+      "start": 75.8,
+      "end": 76.68
+    },
+    {
+      "word": "with",
+      "start": 76.68,
+      "end": 77.14
+    },
+    {
+      "word": "a",
+      "start": 77.14,
+      "end": 77.38
+    },
+    {
+      "word": "fishing.",
+      "start": 77.38,
+      "end": 77.9
+    },
+    {
+      "word": "There,",
+      "start": 90.19999999999999,
+      "end": 90.75999999999999
+    },
+    {
+      "word": "there",
+      "start": 90.75999999999999,
+      "end": 91.32
+    },
+    {
+      "word": "is",
+      "start": 91.32,
+      "end": 91.54
+    },
+    {
+      "word": "a",
+      "start": 91.54,
+      "end": 91.64
+    },
+    {
+      "word": "person",
+      "start": 91.64,
+      "end": 91.98
+    },
+    {
+      "word": "drinking,",
+      "start": 91.98,
+      "end": 92.44
+    },
+    {
+      "word": "well,",
+      "start": 92.76,
+      "end": 93.24
+    },
+    {
+      "word": "I",
+      "start": 93.54,
+      "end": 93.58
+    },
+    {
+      "word": "drink",
+      "start": 93.58,
+      "end": 93.84
+    },
+    {
+      "word": "in",
+      "start": 93.84,
+      "end": 94.08
+    },
+    {
+      "word": "a",
+      "start": 94.08,
+      "end": 94.2
+    },
+    {
+      "word": "soda.",
+      "start": 94.2,
+      "end": 94.46
+    },
+    {
+      "word": "That,",
+      "start": 94.46,
+      "end": 94.8
+    },
+    {
+      "word": "that's,",
+      "start": 94.82,
+      "end": 96.38
+    },
+    {
+      "word": "that's",
+      "start": 96.44,
+      "end": 102.32
+    },
+    {
+      "word": "how",
+      "start": 102.32,
+      "end": 105.14
+    },
+    {
+      "word": "I'm",
+      "start": 105.14,
+      "end": 105.24
+    },
+    {
+      "word": "gonna",
+      "start": 105.24,
+      "end": 105.32
+    },
+    {
+      "word": "pick.",
+      "start": 105.32,
+      "end": 105.54
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2.1799999999999997,
+      "end": 10.52,
+      "text": " A kite flying, a flying kite, a sailing boat.",
+      "tokens": [
+        50364,
+        316,
+        38867,
+        7137,
+        11,
+        257,
+        7137,
+        38867,
+        11,
+        257,
+        27452,
+        6582,
+        13,
+        51532
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5188471674919128,
+      "compression_ratio": 1.125,
+      "no_speech_prob": 0.1582476943731308,
+      "words": [
+        {
+          "word": " A",
+          "start": 2.1799999999999997,
+          "end": 3.44,
+          "probability": 0.25964581966400146
+        },
+        {
+          "word": " kite",
+          "start": 3.44,
+          "end": 3.82,
+          "probability": 0.6638830900192261
+        },
+        {
+          "word": " flying,",
+          "start": 3.82,
+          "end": 4.7,
+          "probability": 0.8194855451583862
+        },
+        {
+          "word": " a",
+          "start": 4.86,
+          "end": 5.14,
+          "probability": 0.9631577730178833
+        },
+        {
+          "word": " flying",
+          "start": 5.14,
+          "end": 5.44,
+          "probability": 0.9918450713157654
+        },
+        {
+          "word": " kite,",
+          "start": 5.44,
+          "end": 5.82,
+          "probability": 0.9989989399909973
+        },
+        {
+          "word": " a",
+          "start": 7.08,
+          "end": 8.44,
+          "probability": 0.9564700722694397
+        },
+        {
+          "word": " sailing",
+          "start": 8.44,
+          "end": 10.16,
+          "probability": 0.7254679799079895
+        },
+        {
+          "word": " boat.",
+          "start": 10.16,
+          "end": 10.52,
+          "probability": 0.9107034802436829
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 1052,
+      "start": 22.419999999999998,
+      "end": 36.0,
+      "text": " People are people are happy to picnic and end or a treat.",
+      "tokens": [
+        50364,
+        3432,
+        366,
+        561,
+        366,
+        2055,
+        281,
+        32137,
+        293,
+        917,
+        420,
+        257,
+        2387,
+        13,
+        51638
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8305364847183228,
+      "compression_ratio": 1.0363636363636364,
+      "no_speech_prob": 0.19840379059314728,
+      "words": [
+        {
+          "word": " People",
+          "start": 22.419999999999998,
+          "end": 23.3,
+          "probability": 0.3865734338760376
+        },
+        {
+          "word": " are",
+          "start": 23.3,
+          "end": 23.74,
+          "probability": 0.9293065071105957
+        },
+        {
+          "word": " people",
+          "start": 23.74,
+          "end": 27.12,
+          "probability": 0.3192741870880127
+        },
+        {
+          "word": " are",
+          "start": 27.12,
+          "end": 27.36,
+          "probability": 0.899098813533783
+        },
+        {
+          "word": " happy",
+          "start": 27.36,
+          "end": 27.56,
+          "probability": 0.385372132062912
+        },
+        {
+          "word": " to",
+          "start": 27.56,
+          "end": 27.66,
+          "probability": 0.7495455741882324
+        },
+        {
+          "word": " picnic",
+          "start": 27.66,
+          "end": 28.04,
+          "probability": 0.8493894338607788
+        },
+        {
+          "word": " and",
+          "start": 28.04,
+          "end": 33.48,
+          "probability": 0.5077015161514282
+        },
+        {
+          "word": " end",
+          "start": 33.48,
+          "end": 34.18,
+          "probability": 0.28254541754722595
+        },
+        {
+          "word": " or",
+          "start": 34.18,
+          "end": 34.38,
+          "probability": 0.31205347180366516
+        },
+        {
+          "word": " a",
+          "start": 34.38,
+          "end": 34.64,
+          "probability": 0.6449627876281738
+        },
+        {
+          "word": " treat.",
+          "start": 34.64,
+          "end": 36.0,
+          "probability": 0.7625028491020203
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 4052,
+      "start": 44.68,
+      "end": 49.58,
+      "text": " And a kite is flying.",
+      "tokens": [
+        50364,
+        400,
+        257,
+        38867,
+        307,
+        7137,
+        13,
+        51332
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6693910121917724,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 0.13688348233699799,
+      "words": [
+        {
+          "word": " And",
+          "start": 44.68,
+          "end": 45.96,
+          "probability": 0.6183054447174072
+        },
+        {
+          "word": " a",
+          "start": 45.96,
+          "end": 46.48,
+          "probability": 0.8828086853027344
+        },
+        {
+          "word": " kite",
+          "start": 46.48,
+          "end": 48.92,
+          "probability": 0.8694079518318176
+        },
+        {
+          "word": " is",
+          "start": 48.92,
+          "end": 49.22,
+          "probability": 0.9619160294532776
+        },
+        {
+          "word": " flying.",
+          "start": 49.22,
+          "end": 49.58,
+          "probability": 0.9849580526351929
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 4958,
+      "start": 57.98,
+      "end": 68.04,
+      "text": " I think a, a, when sock is flying.",
+      "tokens": [
+        50364,
+        286,
+        519,
+        257,
+        11,
+        257,
+        11,
+        562,
+        35302,
+        307,
+        7137,
+        13,
+        51552
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7935139973958333,
+      "compression_ratio": 0.8717948717948718,
+      "no_speech_prob": 0.3706541359424591,
+      "words": [
+        {
+          "word": " I",
+          "start": 57.98,
+          "end": 59.22,
+          "probability": 0.6680518388748169
+        },
+        {
+          "word": " think",
+          "start": 59.22,
+          "end": 60.46,
+          "probability": 0.9455479383468628
+        },
+        {
+          "word": " a,",
+          "start": 60.46,
+          "end": 61.34,
+          "probability": 0.31222015619277954
+        },
+        {
+          "word": " a,",
+          "start": 65.62,
+          "end": 66.24,
+          "probability": 0.46308085322380066
+        },
+        {
+          "word": " when",
+          "start": 66.36,
+          "end": 66.66,
+          "probability": 0.685104250907898
+        },
+        {
+          "word": " sock",
+          "start": 66.66,
+          "end": 66.98,
+          "probability": 0.44664424657821655
+        },
+        {
+          "word": " is",
+          "start": 66.98,
+          "end": 67.44,
+          "probability": 0.9617679119110107
+        },
+        {
+          "word": " flying.",
+          "start": 67.44,
+          "end": 68.04,
+          "probability": 0.051479216665029526
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 6804,
+      "start": 72.77999999999999,
+      "end": 77.9,
+      "text": " There is a person with a fishing.",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        954,
+        365,
+        257,
+        10180,
+        13,
+        51484
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6324559052785238,
+      "compression_ratio": 0.8461538461538461,
+      "no_speech_prob": 0.36842262744903564,
+      "words": [
+        {
+          "word": " There",
+          "start": 72.77999999999999,
+          "end": 74.17999999999999,
+          "probability": 0.5295661687850952
+        },
+        {
+          "word": " is",
+          "start": 74.17999999999999,
+          "end": 75.58,
+          "probability": 0.8740741610527039
+        },
+        {
+          "word": " a",
+          "start": 75.58,
+          "end": 75.8,
+          "probability": 0.9785487055778503
+        },
+        {
+          "word": " person",
+          "start": 75.8,
+          "end": 76.68,
+          "probability": 0.9948167204856873
+        },
+        {
+          "word": " with",
+          "start": 76.68,
+          "end": 77.14,
+          "probability": 0.9756225943565369
+        },
+        {
+          "word": " a",
+          "start": 77.14,
+          "end": 77.38,
+          "probability": 0.46911391615867615
+        },
+        {
+          "word": " fishing.",
+          "start": 77.38,
+          "end": 77.9,
+          "probability": 0.7254011034965515
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 7790,
+      "start": 90.19999999999999,
+      "end": 94.46,
+      "text": " There, there is a person drinking, well, I drink in a soda.",
+      "tokens": [
+        50364,
+        821,
+        11,
+        456,
+        307,
+        257,
+        954,
+        7583,
+        11,
+        731,
+        11,
+        286,
+        2822,
+        294,
+        257,
+        17192,
+        13,
+        51256
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6203488349914551,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.40721791982650757,
+      "words": [
+        {
+          "word": " There,",
+          "start": 90.19999999999999,
+          "end": 90.75999999999999,
+          "probability": 0.26824241876602173
+        },
+        {
+          "word": " there",
+          "start": 90.75999999999999,
+          "end": 91.32,
+          "probability": 0.9676494002342224
+        },
+        {
+          "word": " is",
+          "start": 91.32,
+          "end": 91.54,
+          "probability": 0.8103766441345215
+        },
+        {
+          "word": " a",
+          "start": 91.54,
+          "end": 91.64,
+          "probability": 0.9647181034088135
+        },
+        {
+          "word": " person",
+          "start": 91.64,
+          "end": 91.98,
+          "probability": 0.9970621466636658
+        },
+        {
+          "word": " drinking,",
+          "start": 91.98,
+          "end": 92.44,
+          "probability": 0.9861700534820557
+        },
+        {
+          "word": " well,",
+          "start": 92.76,
+          "end": 93.24,
+          "probability": 0.6018731594085693
+        },
+        {
+          "word": " I",
+          "start": 93.54,
+          "end": 93.58,
+          "probability": 0.501350462436676
+        },
+        {
+          "word": " drink",
+          "start": 93.58,
+          "end": 93.84,
+          "probability": 0.5768669247627258
+        },
+        {
+          "word": " in",
+          "start": 93.84,
+          "end": 94.08,
+          "probability": 0.6446470618247986
+        },
+        {
+          "word": " a",
+          "start": 94.08,
+          "end": 94.2,
+          "probability": 0.7695541381835938
+        },
+        {
+          "word": " soda.",
+          "start": 94.2,
+          "end": 94.46,
+          "probability": 0.981289803981781
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 9446,
+      "start": 94.46,
+      "end": 105.54,
+      "text": " That, that's, that's how I'm gonna pick.",
+      "tokens": [
+        50364,
+        663,
+        11,
+        300,
+        311,
+        11,
+        300,
+        311,
+        577,
+        286,
+        478,
+        799,
+        1888,
+        13,
+        51072
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9091712832450867,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.7037415504455566,
+      "words": [
+        {
+          "word": " That,",
+          "start": 94.46,
+          "end": 94.8,
+          "probability": 0.059102803468704224
+        },
+        {
+          "word": " that's,",
+          "start": 94.82,
+          "end": 96.38,
+          "probability": 0.5322825014591217
+        },
+        {
+          "word": " that's",
+          "start": 96.44,
+          "end": 102.32,
+          "probability": 0.5946214199066162
+        },
+        {
+          "word": " how",
+          "start": 102.32,
+          "end": 105.14,
+          "probability": 0.40664222836494446
+        },
+        {
+          "word": " I'm",
+          "start": 105.14,
+          "end": 105.24,
+          "probability": 0.7220954895019531
+        },
+        {
+          "word": " gonna",
+          "start": 105.24,
+          "end": 105.32,
+          "probability": 0.7374597191810608
+        },
+        {
+          "word": " pick.",
+          "start": 105.32,
+          "end": 105.54,
+          "probability": 0.8893241882324219
+        }
+      ]
+    }
+  ]
+}

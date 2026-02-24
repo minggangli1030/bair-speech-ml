@@ -1,0 +1,34 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-6872_ses-20080721_task-picnic_lang-en_final.wav
+Total Segments: 2
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:04.097 → 00:05.599     Participant  1.50      s Love boat.                                         R AA R SIL P SIL CH
+2    00:24.837 → 00:26.187     Participant  1.35      s The curse tells...                                 SIL DH EH Z SIL T S OW OW
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:04.097 - 00:05.599 (1.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Love boat.
+  Phonemic Encoding: R AA R SIL P SIL CH
+
+Segment 2:
+  Timestamp: 00:24.837 - 00:26.187 (1.35s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The curse tells...
+  Phonemic Encoding: SIL DH EH Z SIL T S OW OW

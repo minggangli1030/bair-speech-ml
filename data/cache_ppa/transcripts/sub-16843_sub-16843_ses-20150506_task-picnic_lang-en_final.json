@@ -1,0 +1,873 @@
+{
+  "text": " Is there a pick-and-back? A pick-and-back? Is boy flying at kite? Lone? Have that beach? They have a pair? The couple with a pick-and-back? A final house? A final bath? A house? The cell phone is coming to get in? What? They're mixing into the radio?",
+  "words": [
+    {
+      "word": "Is",
+      "start": 5.04,
+      "end": 6.2
+    },
+    {
+      "word": "there",
+      "start": 6.2,
+      "end": 6.46
+    },
+    {
+      "word": "a",
+      "start": 6.46,
+      "end": 7.56
+    },
+    {
+      "word": "pick",
+      "start": 7.56,
+      "end": 7.8
+    },
+    {
+      "word": "-and",
+      "start": 7.8,
+      "end": 7.96
+    },
+    {
+      "word": "-back?",
+      "start": 7.96,
+      "end": 8.2
+    },
+    {
+      "word": "A",
+      "start": 15.98,
+      "end": 17.14
+    },
+    {
+      "word": "pick",
+      "start": 17.14,
+      "end": 18.3
+    },
+    {
+      "word": "-and",
+      "start": 18.3,
+      "end": 18.52
+    },
+    {
+      "word": "-back?",
+      "start": 18.52,
+      "end": 18.86
+    },
+    {
+      "word": "Is",
+      "start": 19.86,
+      "end": 20.62
+    },
+    {
+      "word": "boy",
+      "start": 20.62,
+      "end": 21.24
+    },
+    {
+      "word": "flying",
+      "start": 21.24,
+      "end": 22.3
+    },
+    {
+      "word": "at",
+      "start": 22.3,
+      "end": 22.72
+    },
+    {
+      "word": "kite?",
+      "start": 22.72,
+      "end": 23.08
+    },
+    {
+      "word": "Lone?",
+      "start": 25.76,
+      "end": 27.16
+    },
+    {
+      "word": "Have",
+      "start": 33.9,
+      "end": 35.3
+    },
+    {
+      "word": "that",
+      "start": 35.3,
+      "end": 35.64
+    },
+    {
+      "word": "beach?",
+      "start": 35.64,
+      "end": 36.42
+    },
+    {
+      "word": "They",
+      "start": 43.800000000000004,
+      "end": 45.2
+    },
+    {
+      "word": "have",
+      "start": 45.2,
+      "end": 46.6
+    },
+    {
+      "word": "a",
+      "start": 46.6,
+      "end": 46.78
+    },
+    {
+      "word": "pair?",
+      "start": 46.78,
+      "end": 47.1
+    },
+    {
+      "word": "The",
+      "start": 67.9,
+      "end": 69.2
+    },
+    {
+      "word": "couple",
+      "start": 69.2,
+      "end": 69.58
+    },
+    {
+      "word": "with",
+      "start": 69.58,
+      "end": 70.26
+    },
+    {
+      "word": "a",
+      "start": 70.26,
+      "end": 71.56
+    },
+    {
+      "word": "pick",
+      "start": 71.56,
+      "end": 71.7
+    },
+    {
+      "word": "-and",
+      "start": 71.7,
+      "end": 71.86
+    },
+    {
+      "word": "-back?",
+      "start": 71.86,
+      "end": 72.16
+    },
+    {
+      "word": "A",
+      "start": 74.36,
+      "end": 75.66
+    },
+    {
+      "word": "final",
+      "start": 75.66,
+      "end": 76.28
+    },
+    {
+      "word": "house?",
+      "start": 76.28,
+      "end": 77.32
+    },
+    {
+      "word": "A",
+      "start": 78.48,
+      "end": 78.58
+    },
+    {
+      "word": "final",
+      "start": 78.58,
+      "end": 79.08
+    },
+    {
+      "word": "bath?",
+      "start": 79.08,
+      "end": 79.62
+    },
+    {
+      "word": "A",
+      "start": 102.6,
+      "end": 104.0
+    },
+    {
+      "word": "house?",
+      "start": 104.0,
+      "end": 105.4
+    },
+    {
+      "word": "The",
+      "start": 105.75999999999999,
+      "end": 106.44
+    },
+    {
+      "word": "cell",
+      "start": 106.44,
+      "end": 107.86
+    },
+    {
+      "word": "phone",
+      "start": 107.86,
+      "end": 108.36
+    },
+    {
+      "word": "is",
+      "start": 108.36,
+      "end": 108.9
+    },
+    {
+      "word": "coming",
+      "start": 108.9,
+      "end": 109.38
+    },
+    {
+      "word": "to",
+      "start": 109.38,
+      "end": 109.76
+    },
+    {
+      "word": "get",
+      "start": 109.76,
+      "end": 110.44
+    },
+    {
+      "word": "in?",
+      "start": 110.44,
+      "end": 111.34
+    },
+    {
+      "word": "What?",
+      "start": 112.2,
+      "end": 112.76
+    },
+    {
+      "word": "They're",
+      "start": 128.14,
+      "end": 129.5
+    },
+    {
+      "word": "mixing",
+      "start": 129.5,
+      "end": 130.0
+    },
+    {
+      "word": "into",
+      "start": 130.0,
+      "end": 130.72
+    },
+    {
+      "word": "the",
+      "start": 130.72,
+      "end": 130.94
+    },
+    {
+      "word": "radio?",
+      "start": 130.94,
+      "end": 131.36
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5.04,
+      "end": 8.2,
+      "text": " Is there a pick-and-back?",
+      "tokens": [
+        50364,
+        1119,
+        456,
+        257,
+        1888,
+        12,
+        474,
+        12,
+        3207,
+        30,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8118621652776544,
+      "compression_ratio": 1.135135135135135,
+      "no_speech_prob": 0.18297609686851501,
+      "words": [
+        {
+          "word": " Is",
+          "start": 5.04,
+          "end": 6.2,
+          "probability": 0.39428094029426575
+        },
+        {
+          "word": " there",
+          "start": 6.2,
+          "end": 6.46,
+          "probability": 0.9593042135238647
+        },
+        {
+          "word": " a",
+          "start": 6.46,
+          "end": 7.56,
+          "probability": 0.7665155529975891
+        },
+        {
+          "word": " pick",
+          "start": 7.56,
+          "end": 7.8,
+          "probability": 0.3226903975009918
+        },
+        {
+          "word": "-and",
+          "start": 7.8,
+          "end": 7.96,
+          "probability": 0.5128500759601593
+        },
+        {
+          "word": "-back?",
+          "start": 7.96,
+          "end": 8.2,
+          "probability": 0.5601284429430962
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 15.98,
+      "end": 18.86,
+      "text": " A pick-and-back?",
+      "tokens": [
+        50864,
+        316,
+        1888,
+        12,
+        474,
+        12,
+        3207,
+        30,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8118621652776544,
+      "compression_ratio": 1.135135135135135,
+      "no_speech_prob": 0.18297609686851501,
+      "words": [
+        {
+          "word": " A",
+          "start": 15.98,
+          "end": 17.14,
+          "probability": 0.4114806652069092
+        },
+        {
+          "word": " pick",
+          "start": 17.14,
+          "end": 18.3,
+          "probability": 0.7526722550392151
+        },
+        {
+          "word": "-and",
+          "start": 18.3,
+          "end": 18.52,
+          "probability": 0.9921832978725433
+        },
+        {
+          "word": "-back?",
+          "start": 18.52,
+          "end": 18.86,
+          "probability": 0.9718516170978546
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1886,
+      "start": 19.86,
+      "end": 23.08,
+      "text": " Is boy flying at kite?",
+      "tokens": [
+        50414,
+        1119,
+        3237,
+        7137,
+        412,
+        38867,
+        30,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.58663086664109,
+      "compression_ratio": 0.9,
+      "no_speech_prob": 0.11091656982898712,
+      "words": [
+        {
+          "word": " Is",
+          "start": 19.86,
+          "end": 20.62,
+          "probability": 0.028400348499417305
+        },
+        {
+          "word": " boy",
+          "start": 20.62,
+          "end": 21.24,
+          "probability": 0.30628061294555664
+        },
+        {
+          "word": " flying",
+          "start": 21.24,
+          "end": 22.3,
+          "probability": 0.9872658252716064
+        },
+        {
+          "word": " at",
+          "start": 22.3,
+          "end": 22.72,
+          "probability": 0.5272273421287537
+        },
+        {
+          "word": " kite?",
+          "start": 22.72,
+          "end": 23.08,
+          "probability": 0.11837533116340637
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1886,
+      "start": 25.76,
+      "end": 27.16,
+      "text": " Lone?",
+      "tokens": [
+        50714,
+        441,
+        546,
+        30,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.58663086664109,
+      "compression_ratio": 0.9,
+      "no_speech_prob": 0.11091656982898712,
+      "words": [
+        {
+          "word": " Lone?",
+          "start": 25.76,
+          "end": 27.16,
+          "probability": 0.6285995692014694
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1886,
+      "start": 33.9,
+      "end": 36.42,
+      "text": " Have that beach?",
+      "tokens": [
+        51114,
+        3560,
+        300,
+        7534,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.58663086664109,
+      "compression_ratio": 0.9,
+      "no_speech_prob": 0.11091656982898712,
+      "words": [
+        {
+          "word": " Have",
+          "start": 33.9,
+          "end": 35.3,
+          "probability": 0.4420922100543976
+        },
+        {
+          "word": " that",
+          "start": 35.3,
+          "end": 35.64,
+          "probability": 0.6626068353652954
+        },
+        {
+          "word": " beach?",
+          "start": 35.64,
+          "end": 36.42,
+          "probability": 0.6075315475463867
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3642,
+      "start": 43.800000000000004,
+      "end": 47.1,
+      "text": " They have a pair?",
+      "tokens": [
+        50364,
+        814,
+        362,
+        257,
+        6119,
+        30,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4162299633026123,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 0.05486002564430237,
+      "words": [
+        {
+          "word": " They",
+          "start": 43.800000000000004,
+          "end": 45.2,
+          "probability": 0.6467993855476379
+        },
+        {
+          "word": " have",
+          "start": 45.2,
+          "end": 46.6,
+          "probability": 0.9927164912223816
+        },
+        {
+          "word": " a",
+          "start": 46.6,
+          "end": 46.78,
+          "probability": 0.7807446122169495
+        },
+        {
+          "word": " pair?",
+          "start": 46.78,
+          "end": 47.1,
+          "probability": 0.6376702785491943
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 6642,
+      "start": 67.9,
+      "end": 72.16,
+      "text": " The couple with a pick-and-back?",
+      "tokens": [
+        50414,
+        440,
+        1916,
+        365,
+        257,
+        1888,
+        12,
+        474,
+        12,
+        3207,
+        30,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5836252432603103,
+      "compression_ratio": 1.0166666666666666,
+      "no_speech_prob": 0.06255578249692917,
+      "words": [
+        {
+          "word": " The",
+          "start": 67.9,
+          "end": 69.2,
+          "probability": 0.13676773011684418
+        },
+        {
+          "word": " couple",
+          "start": 69.2,
+          "end": 69.58,
+          "probability": 0.9399891495704651
+        },
+        {
+          "word": " with",
+          "start": 69.58,
+          "end": 70.26,
+          "probability": 0.8577603697776794
+        },
+        {
+          "word": " a",
+          "start": 70.26,
+          "end": 71.56,
+          "probability": 0.041325394064188004
+        },
+        {
+          "word": " pick",
+          "start": 71.56,
+          "end": 71.7,
+          "probability": 0.004572378937155008
+        },
+        {
+          "word": "-and",
+          "start": 71.7,
+          "end": 71.86,
+          "probability": 0.08709498541429639
+        },
+        {
+          "word": "-back?",
+          "start": 71.86,
+          "end": 72.16,
+          "probability": 0.5123252375051379
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 6642,
+      "start": 74.36,
+      "end": 77.32,
+      "text": " A final house?",
+      "tokens": [
+        50764,
+        316,
+        2572,
+        1782,
+        30,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5836252432603103,
+      "compression_ratio": 1.0166666666666666,
+      "no_speech_prob": 0.06255578249692917,
+      "words": [
+        {
+          "word": " A",
+          "start": 74.36,
+          "end": 75.66,
+          "probability": 0.7469519376754761
+        },
+        {
+          "word": " final",
+          "start": 75.66,
+          "end": 76.28,
+          "probability": 0.22295688092708588
+        },
+        {
+          "word": " house?",
+          "start": 76.28,
+          "end": 77.32,
+          "probability": 0.214633971452713
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 6642,
+      "start": 78.48,
+      "end": 79.62,
+      "text": " A final bath?",
+      "tokens": [
+        50914,
+        316,
+        2572,
+        6079,
+        30,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5836252432603103,
+      "compression_ratio": 1.0166666666666666,
+      "no_speech_prob": 0.06255578249692917,
+      "words": [
+        {
+          "word": " A",
+          "start": 78.48,
+          "end": 78.58,
+          "probability": 0.9510682225227356
+        },
+        {
+          "word": " final",
+          "start": 78.58,
+          "end": 79.08,
+          "probability": 0.8061927556991577
+        },
+        {
+          "word": " bath?",
+          "start": 79.08,
+          "end": 79.62,
+          "probability": 0.7733561396598816
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 7962,
+      "start": 102.6,
+      "end": 105.4,
+      "text": " A house?",
+      "tokens": [
+        50364,
+        316,
+        1782,
+        30,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.496445894241333,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 0.026433495804667473,
+      "words": [
+        {
+          "word": " A",
+          "start": 102.6,
+          "end": 104.0,
+          "probability": 0.02688724361360073
+        },
+        {
+          "word": " house?",
+          "start": 104.0,
+          "end": 105.4,
+          "probability": 0.0002680415054783225
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 10540,
+      "start": 106.4,
+      "end": 111.34,
+      "text": " The cell phone is coming to get in?",
+      "tokens": [
+        50414,
+        440,
+        2815,
+        2593,
+        307,
+        1348,
+        281,
+        483,
+        294,
+        30,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5925616073608398,
+      "compression_ratio": 0.972972972972973,
+      "no_speech_prob": 0.07079233229160309,
+      "words": [
+        {
+          "word": " The",
+          "start": 105.75999999999999,
+          "end": 106.44,
+          "probability": 0.6621439456939697
+        },
+        {
+          "word": " cell",
+          "start": 106.44,
+          "end": 107.86,
+          "probability": 0.7253665328025818
+        },
+        {
+          "word": " phone",
+          "start": 107.86,
+          "end": 108.36,
+          "probability": 0.708423912525177
+        },
+        {
+          "word": " is",
+          "start": 108.36,
+          "end": 108.9,
+          "probability": 0.9454578757286072
+        },
+        {
+          "word": " coming",
+          "start": 108.9,
+          "end": 109.38,
+          "probability": 0.12956389784812927
+        },
+        {
+          "word": " to",
+          "start": 109.38,
+          "end": 109.76,
+          "probability": 0.6736996173858643
+        },
+        {
+          "word": " get",
+          "start": 109.76,
+          "end": 110.44,
+          "probability": 0.0894838348031044
+        },
+        {
+          "word": " in?",
+          "start": 110.44,
+          "end": 111.34,
+          "probability": 0.4573711156845093
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 10540,
+      "start": 112.2,
+      "end": 112.76,
+      "text": " What?",
+      "tokens": [
+        50714,
+        708,
+        30,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5925616073608398,
+      "compression_ratio": 0.972972972972973,
+      "no_speech_prob": 0.07079233229160309,
+      "words": [
+        {
+          "word": " What?",
+          "start": 112.2,
+          "end": 112.76,
+          "probability": 0.33764055371284485
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 10540,
+      "start": 128.14,
+      "end": 131.36,
+      "text": " They're mixing into the radio?",
+      "tokens": [
+        51514,
+        814,
+        434,
+        11983,
+        666,
+        264,
+        6477,
+        30,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5925616073608398,
+      "compression_ratio": 0.972972972972973,
+      "no_speech_prob": 0.07079233229160309,
+      "words": [
+        {
+          "word": " They're",
+          "start": 128.14,
+          "end": 129.5,
+          "probability": 0.4240910951048136
+        },
+        {
+          "word": " mixing",
+          "start": 129.5,
+          "end": 130.0,
+          "probability": 0.12744343280792236
+        },
+        {
+          "word": " into",
+          "start": 130.0,
+          "end": 130.72,
+          "probability": 0.6131885647773743
+        },
+        {
+          "word": " the",
+          "start": 130.72,
+          "end": 130.94,
+          "probability": 0.9751490950584412
+        },
+        {
+          "word": " radio?",
+          "start": 130.94,
+          "end": 131.36,
+          "probability": 0.9283466339111328
+        }
+      ]
+    }
+  ]
+}

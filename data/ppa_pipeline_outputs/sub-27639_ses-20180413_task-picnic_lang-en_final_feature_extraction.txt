@@ -1,0 +1,174 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-27639_ses-20180413_task-picnic_lang-en_final.wav
+Total Segments: 22
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.583 → 00:03.051     Participant  1.47      s couple are sitting.                                K AH SIL P L ER S IH DX IY NG IH
+2    00:04.722 → 00:31.064     Participant  26.34     s outside on a cowl of some kind and it looks like t AA AW SIL S AY SIL D HH SIL AA N IH SIL EY SIL K AA SIL K HH K HH AW L AH L S AH M SIL K AY N SIL D IH N DH EH IH L UH SIL S L AY SIL DH EH ER Y IY DX IY NG SIL F UW DX D IH SIL AE N SH IY Z S AY AH SIL AH DH AH W AH M IH N IH SIL IH S SIL AA SIL P AA R IH IY NG SIL AH N SIL D R IH IY NG SIL K AE N SIL D T AA M AA AH M AE N IH SIL IH EH SIL S IH IH NG W IH TH DH IH Z L EY SIL K S SIL K R AA S IH N HH IY Z R IY DX IH NG IH AA AH SIL B UH SIL K HH IH N D HH IY S SIL T EY SIL K IH N AA F HH IH SH UW S AY SIL TH AE AY AE SIL K SIL AE N DH ER S AH M Y UW Z IH SIL K AA M
+3    00:33.240 → 00:44.800     Participant  11.56     s outdoor box. And there's a car behind them and a h AW SIL D AA R ER B AA SIL K S IH N DH IH Z AH SIL K AA SIL AA R SIL B AH HH AY N DH IH N EH N AH HH AW S SIL B AH HH AY N DH AH M SIL AE N IH SIL DH EH ER SIL Y IH S SIL AA M SIL AH M AE N SIL F L AY NG SIL M
+4    00:47.466 → 00:48.647     Participant  1.18      s Flying the...                                      L AY N NG N SIL DH IY SIL
+5    00:49.761 → 00:50.858     Participant  1.10      s and help in the air.                               IH NG N AH SIL P IH DH IY EH ER SIL
+6    00:52.613 → 01:09.589     Participant  16.98     s and there's a dog and there's water out there and  AE N DH ER S AH SIL D AA SIL G SIL AE N SIL D SIL DH ER Z SIL W AA DX ER SIL AA M AW SIL DH EH R IH N S AH M W AH N IH SIL IH S AA M CH T R AY NG N SIL T IH SIL K AE SIL CH SH SIL F IH EH SH SIL P R AA SIL B AH SIL B L IY SIL SIL AA M AH SIL TH SIL S IH DX IY NG AH SIL AA N AH IH SIL EY SIL SIL AA W UH IH SIL D UW F
+7    01:11.361 → 01:15.867     Participant  4.51      s wooden floor sticking into the water. Nice sunboar W UH SIL N SIL F L AA R ER S SIL T IH SIL K IY NG IH N SIL T UW DH AH W AA DX ER N SIL ER S AH N SIL B W
+8    01:18.094 → 01:21.233     Participant  3.14      s And there is a um                                  AE N D SIL DH EH R ER SIL IH Z S SIL EY M
+9    01:22.752 → 01:25.705     Participant  2.95      s In the water, there is a                           IH N DH AH W AA DX ER SIL DH EH ER SIL IH S SIL EY
+10   01:27.966 → 01:29.080     Participant  1.11      s o myself?                                          W EH IH S SH SIL P AH W EH S
+11   01:32.657 → 01:34.446     Participant  1.79      s This is so much worse than I...                    DH IH S IH S AH M AH N SIL CH SIL W ER S SIL T AH N AY SIL
+12   01:39.593 → 01:46.275     Clinician    6.68      s the air blows through though it's material that he DH IH SIL EH R ER SIL B L OW S SIL T TH R UW DH AH OW SIL EH SIL TH IH SIL S SIL M N IH SIL T CH IH ER R IY OW L L SIL DH AE SIL HH AH L SIL P S SIL M UW SIL DH IY SIL AA M
+13   01:52.030 → 02:04.467     Participant  12.44     s way that they're sitting in the water without bein IH W EY SIL DH IH SIL SIL SIL DH EH ER S IH DX IH IY NG IH N DH AH M SIL IH N DH AH W AA DX ER W AH TH HH AW SIL B IY NG W AE L UH SIL K L AY SIL K IH SIL T UW SIL P IY SIL P L SIL SIL T AA M AE N DH EY SIL K IH N M UW SIL DH AE SIL T S UW IH
+14   02:08.044 → 02:09.225     Participant  1.18      s their correction.                                  DH EH R SIL K ER R AE EH SIL K SH IH N
+15   02:11.487 → 02:18.726     Participant  7.24      s There is a post with a flag blowing and there's a  DH EH R ER IH Z AH SIL P SIL P OW S SIL T W AH IH TH SIL DH AH SIL F L AE NG HH SIL SIL B L OW IH IY NG SIL AE N DH ER S Z IH SIL T CH T R IY NG W IH TH L AA SIL S AH OW F
+16   02:19.469 → 02:25.341     Participant  5.87      s Greery, uh, at end, car next to the house.         G R IY ER R IY AH SIL IH AE N SIL D SIL K AA R ER N EH SIL K S SIL T UW DH AH HH AW S S
+17   02:29.627 → 02:37.221     Participant  7.59      s The dog seems to be moving away. The person with.. DH AH IH SIL D AA SIL K S IY NG N S SIL T IH SIL B IY SIL M UW V IY NG AH W SIL W EY SIL DH IY M SIL SIL SIL P R ER S IH N SIL W IH EH AH
+18   02:39.077 → 02:45.068     Participant  5.99      s the flag up in the enough flag, but then floating  DH IH F L AE SIL S SIL T AH SIL AH SIL P AH N DH IH N AA SIL K F L AE SIL B AH SIL DH AH SIL SIL DH IH N F S L OW DX IY NG N AH SIL TH P IH N DH IY EH ER AH S W ER EY NG SIL
+19   02:45.169 → 02:50.012     Participant  4.84      s Plunk they like blue jeans though it's fun, I can' TH L AA M N SIL P EY IH L AY SIL B L UW SIL JH IY N S DH OW IH SIL T S SIL T D AY SIL EH IH AH SIL K AE N SIL T EH L SIL DH IH DX IH SIL S SIL P L OW AH IH SIL M AY SIL B IY W EY SIL K HH IY N S
+20   02:54.079 → 03:01.167     Participant  7.09      s they are dressed for outside things. The woman sit DH EY IH ER SIL D R EH S SIL T F ER SIL AW SIL S AY SIL D DH EH IH NG Z SIL DH AH W AH M IH N S IH DX IH IY NG SIL D AW N AH SIL AA N L DH EY IY
+21   03:05.267 → 03:12.642     Participant  7.37      s the material that they're sitting on outside and s DH AH F M DH IH SIL T CH IH ER L SIL DH AH TH DH EH ER S IH DX IY NG HH AA N AW N SIL T S AY AY AY D SIL AY AE EH N CH SH IY S SIL P AA R IH NG L IH SIL K W L UH IH DX IH SIL TH DH UW UH OW AH SIL G L AE S
+22   03:14.886 → 03:27.964     Participant  13.08     s just long hair he has the man that is sitting near SH EH Z S SIL L AA NG HH EH ER HH IY HH AE S AA DH AH SIL P R UH SIL DH AH DH AH M AE N DH EH SIL IH S IH DX IH NG N IH ER HH SIL HH ER SIL HH AE EH Z SIL AY SIL G L AE S AH Z S SIL AA AW L W IH SIL CH S HH AH L SIL P IH NG HH IH EH M SIL SIL W IH TH HH IH S B UH SIL K
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.583 - 00:03.051 (1.47s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: couple are sitting.
+  Phonemic Encoding: K AH SIL P L ER S IH DX IY NG IH
+
+Segment 2:
+  Timestamp: 00:04.722 - 00:31.064 (26.34s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: outside on a cowl of some kind and it looks like they're eating food and she's the woman is pouring a drink and a man is sitting with his legs crossed and he's reading a book and he's taken off his shoes I think and there's music
+  Phonemic Encoding: AA AW SIL S AY SIL D HH SIL AA N IH SIL EY SIL K AA SIL K HH K HH AW L AH L S AH M SIL K AY N SIL D IH N DH EH IH L UH SIL S L AY SIL DH EH ER Y IY DX IY NG SIL F UW DX D IH SIL AE N SH IY Z S AY AH SIL AH DH AH W AH M IH N IH SIL IH S SIL AA SIL P AA R IH IY NG SIL AH N SIL D R IH IY NG SIL K AE N SIL D T AA M AA AH M AE N IH SIL IH EH SIL S IH IH NG W IH TH DH IH Z L EY SIL K S SIL K R AA S IH N HH IY Z R IY DX IH NG IH AA AH SIL B UH SIL K HH IH N D HH IY S SIL T EY SIL K IH N AA F HH IH SH UW S AY SIL TH AE AY AE SIL K SIL AE N DH ER S AH M Y UW Z IH SIL K AA M
+
+Segment 3:
+  Timestamp: 00:33.240 - 00:44.800 (11.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: outdoor box. And there's a car behind them and a house behind them. And there is a man applying
+  Phonemic Encoding: AW SIL D AA R ER B AA SIL K S IH N DH IH Z AH SIL K AA SIL AA R SIL B AH HH AY N DH IH N EH N AH HH AW S SIL B AH HH AY N DH AH M SIL AE N IH SIL DH EH ER SIL Y IH S SIL AA M SIL AH M AE N SIL F L AY NG SIL M
+
+Segment 4:
+  Timestamp: 00:47.466 - 00:48.647 (1.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Flying the...
+  Phonemic Encoding: L AY N NG N SIL DH IY SIL
+
+Segment 5:
+  Timestamp: 00:49.761 - 00:50.858 (1.10s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and help in the air.
+  Phonemic Encoding: IH NG N AH SIL P IH DH IY EH ER SIL
+
+Segment 6:
+  Timestamp: 00:52.613 - 01:09.589 (16.98s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and there's a dog and there's water out there and someone is trying to catch fish probably sitting on a wooded
+  Phonemic Encoding: AE N DH ER S AH SIL D AA SIL G SIL AE N SIL D SIL DH ER Z SIL W AA DX ER SIL AA M AW SIL DH EH R IH N S AH M W AH N IH SIL IH S AA M CH T R AY NG N SIL T IH SIL K AE SIL CH SH SIL F IH EH SH SIL P R AA SIL B AH SIL B L IY SIL SIL AA M AH SIL TH SIL S IH DX IY NG AH SIL AA N AH IH SIL EY SIL SIL AA W UH IH SIL D UW F
+
+Segment 7:
+  Timestamp: 01:11.361 - 01:15.867 (4.51s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: wooden floor sticking into the water. Nice sunboard.
+  Phonemic Encoding: W UH SIL N SIL F L AA R ER S SIL T IH SIL K IY NG IH N SIL T UW DH AH W AA DX ER N SIL ER S AH N SIL B W
+
+Segment 8:
+  Timestamp: 01:18.094 - 01:21.233 (3.14s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there is a um
+  Phonemic Encoding: AE N D SIL DH EH R ER SIL IH Z S SIL EY M
+
+Segment 9:
+  Timestamp: 01:22.752 - 01:25.705 (2.95s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: In the water, there is a
+  Phonemic Encoding: IH N DH AH W AA DX ER SIL DH EH ER SIL IH S SIL EY
+
+Segment 10:
+  Timestamp: 01:27.966 - 01:29.080 (1.11s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o myself?
+  Phonemic Encoding: W EH IH S SH SIL P AH W EH S
+
+Segment 11:
+  Timestamp: 01:32.657 - 01:34.446 (1.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: This is so much worse than I...
+  Phonemic Encoding: DH IH S IH S AH M AH N SIL CH SIL W ER S SIL T AH N AY SIL
+
+Segment 12:
+  Timestamp: 01:39.593 - 01:46.275 (6.68s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: the air blows through though it's material that helps move the
+  Phonemic Encoding: DH IH SIL EH R ER SIL B L OW S SIL T TH R UW DH AH OW SIL EH SIL TH IH SIL S SIL M N IH SIL T CH IH ER R IY OW L L SIL DH AE SIL HH AH L SIL P S SIL M UW SIL DH IY SIL AA M
+
+Segment 13:
+  Timestamp: 01:52.030 - 02:04.467 (12.44s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: way that they're sitting in the water without being wet. Ah, look like it to people. And they can move that to...
+  Phonemic Encoding: IH W EY SIL DH IH SIL SIL SIL DH EH ER S IH DX IH IY NG IH N DH AH M SIL IH N DH AH W AA DX ER W AH TH HH AW SIL B IY NG W AE L UH SIL K L AY SIL K IH SIL T UW SIL P IY SIL P L SIL SIL T AA M AE N DH EY SIL K IH N M UW SIL DH AE SIL T S UW IH
+
+Segment 14:
+  Timestamp: 02:08.044 - 02:09.225 (1.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: their correction.
+  Phonemic Encoding: DH EH R SIL K ER R AE EH SIL K SH IH N
+
+Segment 15:
+  Timestamp: 02:11.487 - 02:18.726 (7.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There is a post with a flag blowing and there's a tree with lots of...
+  Phonemic Encoding: DH EH R ER IH Z AH SIL P SIL P OW S SIL T W AH IH TH SIL DH AH SIL F L AE NG HH SIL SIL B L OW IH IY NG SIL AE N DH ER S Z IH SIL T CH T R IY NG W IH TH L AA SIL S AH OW F
+
+Segment 16:
+  Timestamp: 02:19.469 - 02:25.341 (5.87s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Greery, uh, at end, car next to the house.
+  Phonemic Encoding: G R IY ER R IY AH SIL IH AE N SIL D SIL K AA R ER N EH SIL K S SIL T UW DH AH HH AW S S
+
+Segment 17:
+  Timestamp: 02:29.627 - 02:37.221 (7.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The dog seems to be moving away. The person with...
+  Phonemic Encoding: DH AH IH SIL D AA SIL K S IY NG N S SIL T IH SIL B IY SIL M UW V IY NG AH W SIL W EY SIL DH IY M SIL SIL SIL P R ER S IH N SIL W IH EH AH
+
+Segment 18:
+  Timestamp: 02:39.077 - 02:45.068 (5.99s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: the flag up in the enough flag, but then floating up in the air is worrying.
+  Phonemic Encoding: DH IH F L AE SIL S SIL T AH SIL AH SIL P AH N DH IH N AA SIL K F L AE SIL B AH SIL DH AH SIL SIL DH IH N F S L OW DX IY NG N AH SIL TH P IH N DH IY EH ER AH S W ER EY NG SIL
+
+Segment 19:
+  Timestamp: 02:45.169 - 02:50.012 (4.84s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Plunk they like blue jeans though it's fun, I can't tell that it's blue, it might be weight jeans.
+  Phonemic Encoding: TH L AA M N SIL P EY IH L AY SIL B L UW SIL JH IY N S DH OW IH SIL T S SIL T D AY SIL EH IH AH SIL K AE N SIL T EH L SIL DH IH DX IH SIL S SIL P L OW AH IH SIL M AY SIL B IY W EY SIL K HH IY N S
+
+Segment 20:
+  Timestamp: 02:54.079 - 03:01.167 (7.09s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: they are dressed for outside things. The woman sitting down on the...
+  Phonemic Encoding: DH EY IH ER SIL D R EH S SIL T F ER SIL AW SIL S AY SIL D DH EH IH NG Z SIL DH AH W AH M IH N S IH DX IH IY NG SIL D AW N AH SIL AA N L DH EY IY
+
+Segment 21:
+  Timestamp: 03:05.267 - 03:12.642 (7.37s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: the material that they're sitting on outside and she's pouring liquid into a glass.
+  Phonemic Encoding: DH AH F M DH IH SIL T CH IH ER L SIL DH AH TH DH EH ER S IH DX IY NG HH AA N AW N SIL T S AY AY AY D SIL AY AE EH N CH SH IY S SIL P AA R IH NG L IH SIL K W L UH IH DX IH SIL TH DH UW UH OW AH SIL G L AE S
+
+Segment 22:
+  Timestamp: 03:14.886 - 03:27.964 (13.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: just long hair he has the man that is sitting near her has eyeglasses which is helping him with his book.
+  Phonemic Encoding: SH EH Z S SIL L AA NG HH EH ER HH IY HH AE S AA DH AH SIL P R UH SIL DH AH DH AH M AE N DH EH SIL IH S IH DX IH NG N IH ER HH SIL HH ER SIL HH AE EH Z SIL AY SIL G L AE S AH Z S SIL AA AW L W IH SIL CH S HH AH L SIL P IH NG HH IH EH M SIL SIL W IH TH HH IH S B UH SIL K

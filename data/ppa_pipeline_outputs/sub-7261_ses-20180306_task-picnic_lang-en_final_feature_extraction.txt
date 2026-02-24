@@ -37,7 +37,7 @@ COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
 21   01:25.553 → 01:28.185     Participant  2.63      s on the blanket which they're sitting               AH AH SIL HH AA N DH AH SIL B L AY AE EY SIL K IH SIL N HH IH M SIL K HH AA W IH SIL CH S DH EH ER S IH DX IY IH NG
 22   01:29.552 → 01:34.817     Participant  5.27      s There is by the house a car parked in the driveway DH EH R ER IH S AH SIL B AY DH AH HH AW OW SH S IH HH EY AH V SIL K AA R ER HH HH AH SIL SIL SIL P AA R SIL T IH N DH IH SIL D R AY SIL B W EY SIL CH
 23   01:36.201 → 01:37.247     Participant  1.05      s and                                                EH N
-24   01:38.564 → 01:39.795     Participant  1.23      s The zumba herausloраз podemos Vikram 커피            DH AH SIL S AH SIL B AW R DX IH
+24   01:38.564 → 01:39.795     Participant  1.23      s 1987                                               DH AH SIL S AH SIL B AW R DX IH
 
 ====================================================================================================
 DETAILED SEGMENT VIEW
@@ -184,5 +184,5 @@ Segment 23:
 Segment 24:
   Timestamp: 01:38.564 - 01:39.795 (1.23s)
   Speaker: Participant (SPEAKER_00)
-  ASR Transcription: The zumba herausloраз podemos Vikram 커피
+  ASR Transcription: 1987
   Phonemic Encoding: DH AH SIL S AH SIL B AW R DX IH

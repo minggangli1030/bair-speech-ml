@@ -1,0 +1,947 @@
+{
+  "text": " I see a family having a vacation. There's a dog and some people waving at them from their boat. There's a flag on the other side of where the two adults are. What else? I think it's about it. I can see a tree, a partial part of a tree. You see a lot of trees in the background. A small tree closer to the house.",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "see",
+      "start": 0.16,
+      "end": 0.84
+    },
+    {
+      "word": "a",
+      "start": 0.84,
+      "end": 1.5
+    },
+    {
+      "word": "family",
+      "start": 1.5,
+      "end": 2.08
+    },
+    {
+      "word": "having",
+      "start": 2.08,
+      "end": 3.28
+    },
+    {
+      "word": "a",
+      "start": 3.28,
+      "end": 4.02
+    },
+    {
+      "word": "vacation.",
+      "start": 4.02,
+      "end": 5.24
+    },
+    {
+      "word": "There's",
+      "start": 7.0,
+      "end": 8.24
+    },
+    {
+      "word": "a",
+      "start": 8.24,
+      "end": 8.34
+    },
+    {
+      "word": "dog",
+      "start": 8.34,
+      "end": 8.7
+    },
+    {
+      "word": "and",
+      "start": 8.7,
+      "end": 10.16
+    },
+    {
+      "word": "some",
+      "start": 10.16,
+      "end": 11.86
+    },
+    {
+      "word": "people",
+      "start": 11.86,
+      "end": 12.16
+    },
+    {
+      "word": "waving",
+      "start": 12.16,
+      "end": 14.1
+    },
+    {
+      "word": "at",
+      "start": 14.1,
+      "end": 14.44
+    },
+    {
+      "word": "them",
+      "start": 14.44,
+      "end": 14.74
+    },
+    {
+      "word": "from",
+      "start": 14.74,
+      "end": 15.22
+    },
+    {
+      "word": "their",
+      "start": 15.22,
+      "end": 15.64
+    },
+    {
+      "word": "boat.",
+      "start": 15.64,
+      "end": 16.54
+    },
+    {
+      "word": "There's",
+      "start": 19.64,
+      "end": 20.88
+    },
+    {
+      "word": "a",
+      "start": 20.88,
+      "end": 21.88
+    },
+    {
+      "word": "flag",
+      "start": 21.88,
+      "end": 22.26
+    },
+    {
+      "word": "on",
+      "start": 22.26,
+      "end": 23.4
+    },
+    {
+      "word": "the",
+      "start": 23.4,
+      "end": 24.02
+    },
+    {
+      "word": "other",
+      "start": 24.02,
+      "end": 24.18
+    },
+    {
+      "word": "side",
+      "start": 24.18,
+      "end": 24.4
+    },
+    {
+      "word": "of",
+      "start": 24.4,
+      "end": 24.7
+    },
+    {
+      "word": "where",
+      "start": 24.7,
+      "end": 25.02
+    },
+    {
+      "word": "the",
+      "start": 25.02,
+      "end": 25.56
+    },
+    {
+      "word": "two",
+      "start": 25.56,
+      "end": 25.94
+    },
+    {
+      "word": "adults",
+      "start": 25.94,
+      "end": 26.74
+    },
+    {
+      "word": "are.",
+      "start": 26.74,
+      "end": 27.08
+    },
+    {
+      "word": "What",
+      "start": 30.02,
+      "end": 30.54
+    },
+    {
+      "word": "else?",
+      "start": 30.54,
+      "end": 31.06
+    },
+    {
+      "word": "I",
+      "start": 33.540000000000006,
+      "end": 34.06
+    },
+    {
+      "word": "think",
+      "start": 34.06,
+      "end": 34.58
+    },
+    {
+      "word": "it's",
+      "start": 34.58,
+      "end": 34.86
+    },
+    {
+      "word": "about",
+      "start": 34.86,
+      "end": 35.06
+    },
+    {
+      "word": "it.",
+      "start": 35.06,
+      "end": 35.3
+    },
+    {
+      "word": "I",
+      "start": 39.540000000000006,
+      "end": 40.06
+    },
+    {
+      "word": "can",
+      "start": 40.06,
+      "end": 40.58
+    },
+    {
+      "word": "see",
+      "start": 40.58,
+      "end": 40.82
+    },
+    {
+      "word": "a",
+      "start": 40.82,
+      "end": 40.98
+    },
+    {
+      "word": "tree,",
+      "start": 40.98,
+      "end": 41.24
+    },
+    {
+      "word": "a",
+      "start": 41.92,
+      "end": 41.92
+    },
+    {
+      "word": "partial",
+      "start": 41.92,
+      "end": 42.4
+    },
+    {
+      "word": "part",
+      "start": 42.4,
+      "end": 42.58
+    },
+    {
+      "word": "of",
+      "start": 42.58,
+      "end": 42.72
+    },
+    {
+      "word": "a",
+      "start": 42.72,
+      "end": 42.8
+    },
+    {
+      "word": "tree.",
+      "start": 42.8,
+      "end": 43.06
+    },
+    {
+      "word": "You",
+      "start": 43.3,
+      "end": 43.36
+    },
+    {
+      "word": "see",
+      "start": 43.36,
+      "end": 43.54
+    },
+    {
+      "word": "a",
+      "start": 43.54,
+      "end": 43.88
+    },
+    {
+      "word": "lot",
+      "start": 43.88,
+      "end": 44.1
+    },
+    {
+      "word": "of",
+      "start": 44.1,
+      "end": 44.24
+    },
+    {
+      "word": "trees",
+      "start": 44.24,
+      "end": 44.46
+    },
+    {
+      "word": "in",
+      "start": 44.46,
+      "end": 44.7
+    },
+    {
+      "word": "the",
+      "start": 44.7,
+      "end": 44.82
+    },
+    {
+      "word": "background.",
+      "start": 44.82,
+      "end": 45.28
+    },
+    {
+      "word": "A",
+      "start": 45.28,
+      "end": 47.6
+    },
+    {
+      "word": "small",
+      "start": 47.6,
+      "end": 51.54
+    },
+    {
+      "word": "tree",
+      "start": 51.54,
+      "end": 52.02
+    },
+    {
+      "word": "closer",
+      "start": 52.02,
+      "end": 54.76
+    },
+    {
+      "word": "to",
+      "start": 54.76,
+      "end": 55.1
+    },
+    {
+      "word": "the",
+      "start": 55.1,
+      "end": 55.28
+    },
+    {
+      "word": "house.",
+      "start": 55.28,
+      "end": 55.6
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.24,
+      "text": " I see a family having a vacation.",
+      "tokens": [
+        50364,
+        286,
+        536,
+        257,
+        1605,
+        1419,
+        257,
+        12830,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28281398349338105,
+      "compression_ratio": 1.3652173913043477,
+      "no_speech_prob": 0.02257828786969185,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.8296137452125549
+        },
+        {
+          "word": " see",
+          "start": 0.16,
+          "end": 0.84,
+          "probability": 0.9667463302612305
+        },
+        {
+          "word": " a",
+          "start": 0.84,
+          "end": 1.5,
+          "probability": 0.9787759184837341
+        },
+        {
+          "word": " family",
+          "start": 1.5,
+          "end": 2.08,
+          "probability": 0.9921254515647888
+        },
+        {
+          "word": " having",
+          "start": 2.08,
+          "end": 3.28,
+          "probability": 0.915585994720459
+        },
+        {
+          "word": " a",
+          "start": 3.28,
+          "end": 4.02,
+          "probability": 0.9503445625305176
+        },
+        {
+          "word": " vacation.",
+          "start": 4.02,
+          "end": 5.24,
+          "probability": 0.9826415181159973
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.0,
+      "end": 16.54,
+      "text": " There's a dog and some people waving at them from their boat.",
+      "tokens": [
+        50714,
+        821,
+        311,
+        257,
+        3000,
+        293,
+        512,
+        561,
+        35347,
+        412,
+        552,
+        490,
+        641,
+        6582,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28281398349338105,
+      "compression_ratio": 1.3652173913043477,
+      "no_speech_prob": 0.02257828786969185,
+      "words": [
+        {
+          "word": " There's",
+          "start": 7.0,
+          "end": 8.24,
+          "probability": 0.8340301215648651
+        },
+        {
+          "word": " a",
+          "start": 8.24,
+          "end": 8.34,
+          "probability": 0.9960010647773743
+        },
+        {
+          "word": " dog",
+          "start": 8.34,
+          "end": 8.7,
+          "probability": 0.9974415302276611
+        },
+        {
+          "word": " and",
+          "start": 8.7,
+          "end": 10.16,
+          "probability": 0.7829986214637756
+        },
+        {
+          "word": " some",
+          "start": 10.16,
+          "end": 11.86,
+          "probability": 0.9721910953521729
+        },
+        {
+          "word": " people",
+          "start": 11.86,
+          "end": 12.16,
+          "probability": 0.9975249171257019
+        },
+        {
+          "word": " waving",
+          "start": 12.16,
+          "end": 14.1,
+          "probability": 0.8594775199890137
+        },
+        {
+          "word": " at",
+          "start": 14.1,
+          "end": 14.44,
+          "probability": 0.9894381761550903
+        },
+        {
+          "word": " them",
+          "start": 14.44,
+          "end": 14.74,
+          "probability": 0.9939945340156555
+        },
+        {
+          "word": " from",
+          "start": 14.74,
+          "end": 15.22,
+          "probability": 0.98897784948349
+        },
+        {
+          "word": " their",
+          "start": 15.22,
+          "end": 15.64,
+          "probability": 0.9466608762741089
+        },
+        {
+          "word": " boat.",
+          "start": 15.64,
+          "end": 16.54,
+          "probability": 0.9465234875679016
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 19.64,
+      "end": 27.08,
+      "text": " There's a flag on the other side of where the two adults are.",
+      "tokens": [
+        51264,
+        821,
+        311,
+        257,
+        7166,
+        322,
+        264,
+        661,
+        1252,
+        295,
+        689,
+        264,
+        732,
+        8865,
+        366,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28281398349338105,
+      "compression_ratio": 1.3652173913043477,
+      "no_speech_prob": 0.02257828786969185,
+      "words": [
+        {
+          "word": " There's",
+          "start": 19.64,
+          "end": 20.88,
+          "probability": 0.8271432220935822
+        },
+        {
+          "word": " a",
+          "start": 20.88,
+          "end": 21.88,
+          "probability": 0.7756729125976562
+        },
+        {
+          "word": " flag",
+          "start": 21.88,
+          "end": 22.26,
+          "probability": 0.9752042889595032
+        },
+        {
+          "word": " on",
+          "start": 22.26,
+          "end": 23.4,
+          "probability": 0.566234827041626
+        },
+        {
+          "word": " the",
+          "start": 23.4,
+          "end": 24.02,
+          "probability": 0.9904453754425049
+        },
+        {
+          "word": " other",
+          "start": 24.02,
+          "end": 24.18,
+          "probability": 0.9871343970298767
+        },
+        {
+          "word": " side",
+          "start": 24.18,
+          "end": 24.4,
+          "probability": 0.9990761280059814
+        },
+        {
+          "word": " of",
+          "start": 24.4,
+          "end": 24.7,
+          "probability": 0.9099538326263428
+        },
+        {
+          "word": " where",
+          "start": 24.7,
+          "end": 25.02,
+          "probability": 0.865217387676239
+        },
+        {
+          "word": " the",
+          "start": 25.02,
+          "end": 25.56,
+          "probability": 0.9798870086669922
+        },
+        {
+          "word": " two",
+          "start": 25.56,
+          "end": 25.94,
+          "probability": 0.9954447746276855
+        },
+        {
+          "word": " adults",
+          "start": 25.94,
+          "end": 26.74,
+          "probability": 0.9986110925674438
+        },
+        {
+          "word": " are.",
+          "start": 26.74,
+          "end": 27.08,
+          "probability": 0.9996259212493896
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2708,
+      "start": 30.02,
+      "end": 31.06,
+      "text": " What else?",
+      "tokens": [
+        50364,
+        708,
+        1646,
+        30,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2850474424140398,
+      "compression_ratio": 1.2395833333333333,
+      "no_speech_prob": 0.20800532400608063,
+      "words": [
+        {
+          "word": " What",
+          "start": 30.02,
+          "end": 30.54,
+          "probability": 0.06585799157619476
+        },
+        {
+          "word": " else?",
+          "start": 30.54,
+          "end": 31.06,
+          "probability": 0.9755354523658752
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2708,
+      "start": 33.540000000000006,
+      "end": 35.3,
+      "text": " I think it's about it.",
+      "tokens": [
+        50714,
+        286,
+        519,
+        309,
+        311,
+        466,
+        309,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2850474424140398,
+      "compression_ratio": 1.2395833333333333,
+      "no_speech_prob": 0.20800532400608063,
+      "words": [
+        {
+          "word": " I",
+          "start": 33.540000000000006,
+          "end": 34.06,
+          "probability": 0.13564318418502808
+        },
+        {
+          "word": " think",
+          "start": 34.06,
+          "end": 34.58,
+          "probability": 0.7983434200286865
+        },
+        {
+          "word": " it's",
+          "start": 34.58,
+          "end": 34.86,
+          "probability": 0.8855800628662109
+        },
+        {
+          "word": " about",
+          "start": 34.86,
+          "end": 35.06,
+          "probability": 0.8703057169914246
+        },
+        {
+          "word": " it.",
+          "start": 35.06,
+          "end": 35.3,
+          "probability": 0.8929007649421692
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2708,
+      "start": 39.540000000000006,
+      "end": 43.06,
+      "text": " I can see a tree, a partial part of a tree.",
+      "tokens": [
+        50964,
+        286,
+        393,
+        536,
+        257,
+        4230,
+        11,
+        257,
+        14641,
+        644,
+        295,
+        257,
+        4230,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2850474424140398,
+      "compression_ratio": 1.2395833333333333,
+      "no_speech_prob": 0.20800532400608063,
+      "words": [
+        {
+          "word": " I",
+          "start": 39.540000000000006,
+          "end": 40.06,
+          "probability": 0.8410249948501587
+        },
+        {
+          "word": " can",
+          "start": 40.06,
+          "end": 40.58,
+          "probability": 0.9838880896568298
+        },
+        {
+          "word": " see",
+          "start": 40.58,
+          "end": 40.82,
+          "probability": 0.9968351721763611
+        },
+        {
+          "word": " a",
+          "start": 40.82,
+          "end": 40.98,
+          "probability": 0.9948221445083618
+        },
+        {
+          "word": " tree,",
+          "start": 40.98,
+          "end": 41.24,
+          "probability": 0.9576367735862732
+        },
+        {
+          "word": " a",
+          "start": 41.92,
+          "end": 41.92,
+          "probability": 0.8059698343276978
+        },
+        {
+          "word": " partial",
+          "start": 41.92,
+          "end": 42.4,
+          "probability": 0.7379410266876221
+        },
+        {
+          "word": " part",
+          "start": 42.4,
+          "end": 42.58,
+          "probability": 0.9988621473312378
+        },
+        {
+          "word": " of",
+          "start": 42.58,
+          "end": 42.72,
+          "probability": 0.9987872242927551
+        },
+        {
+          "word": " a",
+          "start": 42.72,
+          "end": 42.8,
+          "probability": 0.8589039444923401
+        },
+        {
+          "word": " tree.",
+          "start": 42.8,
+          "end": 43.06,
+          "probability": 0.999079704284668
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2708,
+      "start": 43.3,
+      "end": 45.28,
+      "text": " You see a lot of trees in the background.",
+      "tokens": [
+        51164,
+        509,
+        536,
+        257,
+        688,
+        295,
+        5852,
+        294,
+        264,
+        3678,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2850474424140398,
+      "compression_ratio": 1.2395833333333333,
+      "no_speech_prob": 0.20800532400608063,
+      "words": [
+        {
+          "word": " You",
+          "start": 43.3,
+          "end": 43.36,
+          "probability": 0.7183007597923279
+        },
+        {
+          "word": " see",
+          "start": 43.36,
+          "end": 43.54,
+          "probability": 0.9675114750862122
+        },
+        {
+          "word": " a",
+          "start": 43.54,
+          "end": 43.88,
+          "probability": 0.9156915545463562
+        },
+        {
+          "word": " lot",
+          "start": 43.88,
+          "end": 44.1,
+          "probability": 0.9983123540878296
+        },
+        {
+          "word": " of",
+          "start": 44.1,
+          "end": 44.24,
+          "probability": 0.9941674470901489
+        },
+        {
+          "word": " trees",
+          "start": 44.24,
+          "end": 44.46,
+          "probability": 0.9868926405906677
+        },
+        {
+          "word": " in",
+          "start": 44.46,
+          "end": 44.7,
+          "probability": 0.9778752326965332
+        },
+        {
+          "word": " the",
+          "start": 44.7,
+          "end": 44.82,
+          "probability": 0.9983111619949341
+        },
+        {
+          "word": " background.",
+          "start": 44.82,
+          "end": 45.28,
+          "probability": 0.7539567351341248
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4528,
+      "start": 45.28,
+      "end": 55.6,
+      "text": " A small tree closer to the house.",
+      "tokens": [
+        50364,
+        316,
+        1359,
+        4230,
+        4966,
+        281,
+        264,
+        1782,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4863467649980025,
+      "compression_ratio": 0.8048780487804879,
+      "no_speech_prob": 0.2686733901500702,
+      "words": [
+        {
+          "word": " A",
+          "start": 45.28,
+          "end": 47.6,
+          "probability": 0.0313430093228817
+        },
+        {
+          "word": " small",
+          "start": 47.6,
+          "end": 51.54,
+          "probability": 0.5542872548103333
+        },
+        {
+          "word": " tree",
+          "start": 51.54,
+          "end": 52.02,
+          "probability": 0.32644256949424744
+        },
+        {
+          "word": " closer",
+          "start": 52.02,
+          "end": 54.76,
+          "probability": 0.40974628925323486
+        },
+        {
+          "word": " to",
+          "start": 54.76,
+          "end": 55.1,
+          "probability": 0.9930073022842407
+        },
+        {
+          "word": " the",
+          "start": 55.1,
+          "end": 55.28,
+          "probability": 0.9855663776397705
+        },
+        {
+          "word": " house.",
+          "start": 55.28,
+          "end": 55.6,
+          "probability": 0.9918204545974731
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-16320_ses-20160223_task-picnic_lang-en_final.wav
+Total Segments: 33
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.680 → 00:10.830     Clinician    8.15      s Wow, there's a sailboat out here out of water. The L AW L IH Z N AH S EY L SIL B OW SIL HH AW SH HH IH ER AA AH W AA DX ER AH S AH M SIL P IY SIL P L IH N IH SIL N IH AH IH S AH AA L F IH S AH
+2    00:11.134 → 00:16.686     Clinician    5.55      s It's up and it looks like a nice place.            SIL T AH SIL P Y IH AE ER N SIL D EH AE AH F HH EH DH UH SIL K S L AA AY SIL K IH N AY S SIL P L EY S
+3    00:19.960 → 00:25.714     Participant  5.75      s o that's number one, and maybe on this number two, S AH V DH EH SIL S SIL N AH M B ER W AA AY N AH IH N EY DX V IY AA N EH S SIL N AH M SIL B R ER SIL T UW IH TH F TH DH AH SIL
+4    00:29.427 → 00:30.760     Participant  1.33      s NO Real kali                                       N EH R W IY SIL K AA L IY SIL T DH IY SIL
+5    00:34.388 → 00:39.045     Participant  4.66      s Maybe this gentleman down here is going to throw u EY V IY DX IH S SIL T CH EH IH L M IH N SIL D AW N HH IH ER S SIL K G AH HH W AA N AH S SIL R AA OY AH SIL T AW N HH IY Z EY S SIL UH UW AH
+6    00:40.969 → 00:44.749     Participant  3.78      s gets down there and then they'll come and pick the K IH SIL S T D AW N DH EH ER N SIL DH IH N EH L SIL K AH M IH N SIL P IH SIL K AH M AH SIL P DH AH N EH AW L AE V SIL M AA R F AY AA N D
+7    00:46.335 → 00:49.761     Participant  3.43      s you gotta slide up here and on. but it doesn't hav IY SIL G AE DX AH S L AY AH SIL P Y IH ER N AA IH DH AH DX IH SIL T AH Z IH N HH AE M IH EY N EY SIL
+8    00:52.680 → 00:56.460     Participant  3.78      s of what's on the fly. It looks to me like I saw a  AH V W AH SIL S AA R N DH AH F L AY M AY SIL IH L UH SIL K S SIL T IH M IY L AY SIL K IH S AA L W AY TH
+9    00:58.266 → 00:59.684     Participant  1.42      s at the team one I'm on.                            HH AE EH SIL DH IH SIL T IY AH N AY M AH OW M
+10   01:02.333 → 01:06.872     Participant  4.54      s Being another school, I have that I have a motto o B IY N AH V EH SIL T S L SIL SIL DH AY HH AE V V DH IH DX SIL HH AE V OW SIL AY SIL HH AE V AH M AA OW DX OW AA AH N AH SIL P TH IH ER M IH SH S
+11   01:07.227 → 01:17.082     Participant  9.86      s It looks to me like this, just a boat that he's ro IH IH Y L UH SIL K S SIL T IH M EY OW L AY SIL DH IH S Z S SIL T AH S SIL T AH SIL B OW TH DH IH DX IY Z R OW L EY IH N IH N EY M EY SIL B IY W AH N AH IH K AE SIL CH IH S F IH SH ER AH M N AA SIL K W AY SIL CH SH ER M B IH N SIL HH IH JH CH AH S SIL T SIL M W AH N IH S AY SIL K AH SIL K AY AE
+12   01:17.959 → 01:25.097     Participant  7.14      s Yeah, no, they'll think post-tie acts and those ki IY IH EH IH N AE N DH OW SIL TH IH NG IH SIL P AH S SIL T AY AE SIL K S N M UW S SIL K AY N IH AH TH AE IH NG S SIL K IH SIL K AH M SIL T UW Y IH AH AY DX AH HH AH L W AH SIL T SIL SIL UW SIL W EH ER IH Z IH S
+13   01:28.354 → 01:31.847     Participant  3.49      s Is that air in the U.S? Or is that a size undernea N Z EH AE DX EY IH EH ER IH N IY Y UW L AE S SIL ER IH AA AA N IH S SIL T AA AY S AH N SIL
+14   01:34.244 → 01:35.914     Participant  1.67      s But that one I'm not sure.                         B W AH HH AE AW L W AH N AY M AA SIL SH ER
+15   01:37.990 → 01:44.706     Participant  6.72      s But he put you all up, I'm sure. This dog is reall B IH EY HH EY EY IH SIL D EH AW M IH N SIL T HH IY SIL SIL B W UH IH SIL CH SH EH AA L AA AH SIL P AH M SH ER DH IH Z S Z SIL SIL D AA NG G IH HH SIL IH Z R IH L IY
+16   01:44.723 → 02:00.771     Participant  16.05     s Having fun all four downs you down his tail is dow HH AE M IY IH N SIL F AA N SIL AA L F AA R SIL D AW N Z IY SIL D T EY HH N IH Z SIL T EY L IH Z SIL D AW N AE AY AE N HH IY S SIL G B IH SIL T EH L IY S SIL M AY L AY N SIL TH N EH SIL K S SIL T UW HH IH S K AY TH SIL K AY IH SIL AA HH Y IY IH AE IH N D AH SIL DH Y IY SIL P R AA L IH HH AE AW L W L HH EY SIL P IH DX IH G IH SIL TH DH AH AH M HH AW SIL AW
+17   02:02.627 → 02:09.411     Participant  6.78      s way. It's not that. Okay, now you get a husband an W EY S AH M AW OW SIL K EY N IH AW AY Y IH SIL G EH AE AY AH HH AW AH Z SIL B IH N IH N AH W AY F IH L UH SIL K S F SIL L AY SIL G K SIL DH EH ER AY AE EH M N M
+18   02:10.879 → 02:12.027     Participant  1.15      s And blanket.                                       N SIL P B L AY AE NG SIL K IH D
+19   02:16.161 → 02:23.451     Participant  7.29      s he's got something on her hand and she's dry and s SH IY IH S DH AA SIL S AH M SIL P TH IH N AA N ER HH AE AE N IH N SH IY Z SIL D R AY AE IH N S AH SIL L UH UW IH SIL IH N SIL D UW DX ER SIL CH EH ER SIL CH EY N JH IH N IH
+20   02:24.464 → 02:26.235     Participant  1.77      s again there                                        Y EH N SIL D EH AH
+21   02:26.387 → 02:35.804     Participant  9.42      s Who think they're probably gonna have fun? They go W L HH TH IH ER SIL T IH EH R SIL P R AA L IH NG EH AH IH N B AA N EY SIL DH G AE AY DX IH V TH IY SIL K CH EH ER F L AA M IH IY HH SIL S AE N OW N SIL T TH IH NG SIL K DH EH S AH SIL B EH S IH NG D DX IH SIL D UW AH IH N DH AH W AA R DX L
+22   02:37.440 → 02:41.052     Participant  3.61      s And yeah, the man.                                 Y AE N N N D EH AH UH M AE N SIL
+23   02:42.115 → 02:50.924     Participant  8.81      s He's a little better with his book, and I hope his IY Z AH L UH DX L S SIL D EH DX ER W AH IH TH IH Z SIL B UH SIL K AH HH SIL AH N AY HH OW L SIL P IH Z SIL B AA SIL K IH S AH M SIL P K Y IH N AH SIL B IH DX AA Y W AH ER SIL DH AH SIL JH AY AE EH N SIL S SIL W IH S AH M SIL K EY IH NG L AY TH AE AH
+24   02:50.974 → 02:52.695     Participant  1.72      s and they met up.                                   IH EH AE N EY M L AE EH V AH HH AH
+25   03:00.137 → 03:09.250     Participant  9.11      s Bad to carry it, bad. A basket to carry, or not wh DH EH SIL D IH SIL K EH R IH UW N SIL B EH AE AH SIL B AE S SIL K IH SIL T IH SIL K EH R IY AW N L AH SIL Y IH HH AE V IH EH N IH N SIL T IH Y IY SIL N S SIL T EY AH L AY V AH N AA M AE N SIL T S F SIL T D AH F SH DH UW SIL T UW AH AH
+26   03:10.920 → 03:21.315     Participant  10.40     s No clue what it is, but that food could be good so N OW L SIL K L UW W AH SIL TH IH N IH IH EH S SIL P B AH IH SIL T IH F UW SIL K IH SIL B IY SIL G UH SIL S AH M N SIL T AA R M SIL Z IH N AH DX AH L AH SIL Y IY SH IY Z SIL K W AA R AH R AY SIL N D IH AE AW S SIL S OW SIL HH IH F TH SIL L IH F S IH SIL K IY SIL T DH IH EH S F R UW L IH L W AY AW
+27   03:21.349 → 03:24.150     Participant  2.80      s It's going to detigre and they're going to have mo N S SIL K DH AH N IH SIL B IY SIL B EY SIL G ER IH N DH EH ER R EH DX HH AE M AA R SIL AA N M L AY SIL DH
+28   03:24.927 → 03:26.513     Participant  1.59      s We are looking in this T也是 regularly               UW Z OW M ER S TH EY SIL P R AA V AH SIL B L AY EY SIL
+29   03:28.200 → 03:29.213     Participant  1.01      s K-Man 11.                                          T EY M IH EH N AH L IH F SIL
+30   03:29.399 → 03:31.373     Participant  1.97      s They didn't come in large, but there's a...        DH EY DX IH N SIL K AH M IH EH N L AY SIL CH S SIL B IH SIL T EH ER Z IH AH
+31   03:32.335 → 03:39.591     Participant  7.26      s car, you know, suspect it's probably out of it. Ju K AA ER IH N AY SIL SIL S IH S SIL P EH SIL T IH SIL S SIL P R AA SIL B L AW AA AH CH UW IY S L SIL AE EH V AH SIL K AA DX ER
+32   03:41.279 → 03:48.569     Clinician    7.29      s and then this pushes back here and here, but those EH EH AE N SIL SIL N IH N IH S P W UH SH IH Z SIL B AE SIL K SIL SIL IH ER IH N Y IY IH EH ER SIL B AH SIL T DH OW Z SIL M AA P R ER SIL CH SIL TH T AE EY NG SIL K
+33   03:48.889 → 03:50.037     Clinician    1.15      s and that's the end of the                          AA N AE S IY IH N AH L M AY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.680 - 00:10.830 (8.15s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Wow, there's a sailboat out here out of water. There's some people in it and it's off this earth.
+  Phonemic Encoding: L AW L IH Z N AH S EY L SIL B OW SIL HH AW SH HH IH ER AA AH W AA DX ER AH S AH M SIL P IY SIL P L IH N IH SIL N IH AH IH S AH AA L F IH S AH
+
+Segment 2:
+  Timestamp: 00:11.134 - 00:16.686 (5.55s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's up and it looks like a nice place.
+  Phonemic Encoding: SIL T AH SIL P Y IH AE ER N SIL D EH AE AH F HH EH DH UH SIL K S L AA AY SIL K IH N AY S SIL P L EY S
+
+Segment 3:
+  Timestamp: 00:19.960 - 00:25.714 (5.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o that's number one, and maybe on this number two, with the...
+  Phonemic Encoding: S AH V DH EH SIL S SIL N AH M B ER W AA AY N AH IH N EY DX V IY AA N EH S SIL N AH M SIL B R ER SIL T UW IH TH F TH DH AH SIL
+
+Segment 4:
+  Timestamp: 00:29.427 - 00:30.760 (1.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: NO Real kali
+  Phonemic Encoding: N EH R W IY SIL K AA L IY SIL T DH IY SIL
+
+Segment 5:
+  Timestamp: 00:34.388 - 00:39.045 (4.66s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Maybe this gentleman down here is going to throw up down his face over.
+  Phonemic Encoding: EY V IY DX IH S SIL T CH EH IH L M IH N SIL D AW N HH IH ER S SIL K G AH HH W AA N AH S SIL R AA OY AH SIL T AW N HH IY Z EY S SIL UH UW AH
+
+Segment 6:
+  Timestamp: 00:40.969 - 00:44.749 (3.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: gets down there and then they'll come and pick them up and now have more fun.
+  Phonemic Encoding: K IH SIL S T D AW N DH EH ER N SIL DH IH N EH L SIL K AH M IH N SIL P IH SIL K AH M AH SIL P DH AH N EH AW L AE V SIL M AA R F AY AA N D
+
+Segment 7:
+  Timestamp: 00:46.335 - 00:49.761 (3.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: you gotta slide up here and on. but it doesn't have any
+  Phonemic Encoding: IY SIL G AE DX AH S L AY AH SIL P Y IH ER N AA IH DH AH DX IH SIL T AH Z IH N HH AE M IH EY N EY SIL
+
+Segment 8:
+  Timestamp: 00:52.680 - 00:56.460 (3.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: of what's on the fly. It looks to me like I saw a white.
+  Phonemic Encoding: AH V W AH SIL S AA R N DH AH F L AY M AY SIL IH L UH SIL K S SIL T IH M IY L AY SIL K IH S AA L W AY TH
+
+Segment 9:
+  Timestamp: 00:58.266 - 00:59.684 (1.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: at the team one I'm on.
+  Phonemic Encoding: HH AE EH SIL DH IH SIL T IY AH N AY M AH OW M
+
+Segment 10:
+  Timestamp: 01:02.333 - 01:06.872 (4.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Being another school, I have that I have a motto on that pyramid.
+  Phonemic Encoding: B IY N AH V EH SIL T S L SIL SIL DH AY HH AE V V DH IH DX SIL HH AE V OW SIL AY SIL HH AE V AH M AA OW DX OW AA AH N AH SIL P TH IH ER M IH SH S
+
+Segment 11:
+  Timestamp: 01:07.227 - 01:17.082 (9.86s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It looks to me like this, just a boat that he's rowing and he may be going to catch his fish here. I'm not quite sure, but it's just one that's like a kayak.
+  Phonemic Encoding: IH IH Y L UH SIL K S SIL T IH M EY OW L AY SIL DH IH S Z S SIL T AH S SIL T AH SIL B OW TH DH IH DX IY Z R OW L EY IH N IH N EY M EY SIL B IY W AH N AH IH K AE SIL CH IH S F IH SH ER AH M N AA SIL K W AY SIL CH SH ER M B IH N SIL HH IH JH CH AH S SIL T SIL M W AH N IH S AY SIL K AH SIL K AY AE
+
+Segment 12:
+  Timestamp: 01:17.959 - 01:25.097 (7.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yeah, no, they'll think post-tie acts and those kind of things get come to you. I don't know. What, where is this?
+  Phonemic Encoding: IY IH EH IH N AE N DH OW SIL TH IH NG IH SIL P AH S SIL T AY AE SIL K S N M UW S SIL K AY N IH AH TH AE IH NG S SIL K IH SIL K AH M SIL T UW Y IH AH AY DX AH HH AH L W AH SIL T SIL SIL UW SIL W EH ER IH Z IH S
+
+Segment 13:
+  Timestamp: 01:28.354 - 01:31.847 (3.49s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Is that air in the U.S? Or is that a size underneath?
+  Phonemic Encoding: N Z EH AE DX EY IH EH ER IH N IY Y UW L AE S SIL ER IH AA AA N IH S SIL T AA AY S AH N SIL
+
+Segment 14:
+  Timestamp: 01:34.244 - 01:35.914 (1.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: But that one I'm not sure.
+  Phonemic Encoding: B W AH HH AE AW L W AH N AY M AA SIL SH ER
+
+Segment 15:
+  Timestamp: 01:37.990 - 01:44.706 (6.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: But he put you all up, I'm sure. This dog is really...
+  Phonemic Encoding: B IH EY HH EY EY IH SIL D EH AW M IH N SIL T HH IY SIL SIL B W UH IH SIL CH SH EH AA L AA AH SIL P AH M SH ER DH IH Z S Z SIL SIL D AA NG G IH HH SIL IH Z R IH L IY
+
+Segment 16:
+  Timestamp: 01:44.723 - 02:00.771 (16.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Having fun all four downs you down his tail is down and he's Tell you smiling next to his Kai Kai And you probably can't wait to get them out
+  Phonemic Encoding: HH AE M IY IH N SIL F AA N SIL AA L F AA R SIL D AW N Z IY SIL D T EY HH N IH Z SIL T EY L IH Z SIL D AW N AE AY AE N HH IY S SIL G B IH SIL T EH L IY S SIL M AY L AY N SIL TH N EH SIL K S SIL T UW HH IH S K AY TH SIL K AY IH SIL AA HH Y IY IH AE IH N D AH SIL DH Y IY SIL P R AA L IH HH AE AW L W L HH EY SIL P IH DX IH G IH SIL TH DH AH AH M HH AW SIL AW
+
+Segment 17:
+  Timestamp: 02:02.627 - 02:09.411 (6.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: way. It's not that. Okay, now you get a husband and a wife it looks like. There I am.
+  Phonemic Encoding: W EY S AH M AW OW SIL K EY N IH AW AY Y IH SIL G EH AE AY AH HH AW AH Z SIL B IH N IH N AH W AY F IH L UH SIL K S F SIL L AY SIL G K SIL DH EH ER AY AE EH M N M
+
+Segment 18:
+  Timestamp: 02:10.879 - 02:12.027 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And blanket.
+  Phonemic Encoding: N SIL P B L AY AE NG SIL K IH D
+
+Segment 19:
+  Timestamp: 02:16.161 - 02:23.451 (7.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: he's got something on her hand and she's dry and something in the fridge changing it.
+  Phonemic Encoding: SH IY IH S DH AA SIL S AH M SIL P TH IH N AA N ER HH AE AE N IH N SH IY Z SIL D R AY AE IH N S AH SIL L UH UW IH SIL IH N SIL D UW DX ER SIL CH EH ER SIL CH EY N JH IH N IH
+
+Segment 20:
+  Timestamp: 02:24.464 - 02:26.235 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: again there
+  Phonemic Encoding: Y EH N SIL D EH AH
+
+Segment 21:
+  Timestamp: 02:26.387 - 02:35.804 (9.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Who think they're probably gonna have fun? They gotta be careful of everything. I don't think that's the best thing to do in the world.
+  Phonemic Encoding: W L HH TH IH ER SIL T IH EH R SIL P R AA L IH NG EH AH IH N B AA N EY SIL DH G AE AY DX IH V TH IY SIL K CH EH ER F L AA M IH IY HH SIL S AE N OW N SIL T TH IH NG SIL K DH EH S AH SIL B EH S IH NG D DX IH SIL D UW AH IH N DH AH W AA R DX L
+
+Segment 22:
+  Timestamp: 02:37.440 - 02:41.052 (3.61s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And yeah, the man.
+  Phonemic Encoding: Y AE N N N D EH AH UH M AE N SIL
+
+Segment 23:
+  Timestamp: 02:42.115 - 02:50.924 (8.81s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He's a little better with his book, and I hope his book is something that you're the Giants with something like that.
+  Phonemic Encoding: IY Z AH L UH DX L S SIL D EH DX ER W AH IH TH IH Z SIL B UH SIL K AH HH SIL AH N AY HH OW L SIL P IH Z SIL B AA SIL K IH S AH M SIL P K Y IH N AH SIL B IH DX AA Y W AH ER SIL DH AH SIL JH AY AE EH N SIL S SIL W IH S AH M SIL K EY IH NG L AY TH AE AH
+
+Segment 24:
+  Timestamp: 02:50.974 - 02:52.695 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and they met up.
+  Phonemic Encoding: IH EH AE N EY M L AE EH V AH HH AH
+
+Segment 25:
+  Timestamp: 03:00.137 - 03:09.250 (9.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Bad to carry it, bad. A basket to carry, or not what you have in it to eat and stay alive and all that stuff. Bunch of that.
+  Phonemic Encoding: DH EH SIL D IH SIL K EH R IH UW N SIL B EH AE AH SIL B AE S SIL K IH SIL T IH SIL K EH R IY AW N L AH SIL Y IH HH AE V IH EH N IH N SIL T IH Y IY SIL N S SIL T EY AH L AY V AH N AA M AE N SIL T S F SIL T D AH F SH DH UW SIL T UW AH AH
+
+Segment 26:
+  Timestamp: 03:10.920 - 03:21.315 (10.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: No clue what it is, but that food could be good sometimes, and I don't know, she's quarreling right now. So, if they keep this for a little while.
+  Phonemic Encoding: N OW L SIL K L UW W AH SIL TH IH N IH IH EH S SIL P B AH IH SIL T IH F UW SIL K IH SIL B IY SIL G UH SIL S AH M N SIL T AA R M SIL Z IH N AH DX AH L AH SIL Y IY SH IY Z SIL K W AA R AH R AY SIL N D IH AE AW S SIL S OW SIL HH IH F TH SIL L IH F S IH SIL K IY SIL T DH IH EH S F R UW L IH L W AY AW
+
+Segment 27:
+  Timestamp: 03:21.349 - 03:24.150 (2.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's going to detigre and they're going to have more unlike that.
+  Phonemic Encoding: N S SIL K DH AH N IH SIL B IY SIL B EY SIL G ER IH N DH EH ER R EH DX HH AE M AA R SIL AA N M L AY SIL DH
+
+Segment 28:
+  Timestamp: 03:24.927 - 03:26.513 (1.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: We are looking in this T也是 regularly
+  Phonemic Encoding: UW Z OW M ER S TH EY SIL P R AA V AH SIL B L AY EY SIL
+
+Segment 29:
+  Timestamp: 03:28.200 - 03:29.213 (1.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: K-Man 11.
+  Phonemic Encoding: T EY M IH EH N AH L IH F SIL
+
+Segment 30:
+  Timestamp: 03:29.399 - 03:31.373 (1.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They didn't come in large, but there's a...
+  Phonemic Encoding: DH EY DX IH N SIL K AH M IH EH N L AY SIL CH S SIL B IH SIL T EH ER Z IH AH
+
+Segment 31:
+  Timestamp: 03:32.335 - 03:39.591 (7.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: car, you know, suspect it's probably out of it. Julie, so now the car.
+  Phonemic Encoding: K AA ER IH N AY SIL SIL S IH S SIL P EH SIL T IH SIL S SIL P R AA SIL B L AW AA AH CH UW IY S L SIL AE EH V AH SIL K AA DX ER
+
+Segment 32:
+  Timestamp: 03:41.279 - 03:48.569 (7.29s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and then this pushes back here and here, but those are not what you think.
+  Phonemic Encoding: EH EH AE N SIL SIL N IH N IH S P W UH SH IH Z SIL B AE SIL K SIL SIL IH ER IH N Y IY IH EH ER SIL B AH SIL T DH OW Z SIL M AA P R ER SIL CH SIL TH T AE EY NG SIL K
+
+Segment 33:
+  Timestamp: 03:48.889 - 03:50.037 (1.15s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and that's the end of the
+  Phonemic Encoding: AA N AE S IY IH N AH L M AY

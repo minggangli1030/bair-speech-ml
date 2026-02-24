@@ -1,0 +1,502 @@
+{
+  "text": " I'll practice pictures nearly like boys are playing, I'm throwing and my my arm raised. life is women they are single wolf and a for sure of grief and other boy is unlawed. What No",
+  "words": [
+    {
+      "word": "I'll",
+      "start": 0.0,
+      "end": 1.62
+    },
+    {
+      "word": "practice",
+      "start": 1.62,
+      "end": 2.02
+    },
+    {
+      "word": "pictures",
+      "start": 2.02,
+      "end": 4.44
+    },
+    {
+      "word": "nearly",
+      "start": 4.44,
+      "end": 5.56
+    },
+    {
+      "word": "like",
+      "start": 5.56,
+      "end": 8.02
+    },
+    {
+      "word": "boys",
+      "start": 8.02,
+      "end": 10.76
+    },
+    {
+      "word": "are",
+      "start": 10.76,
+      "end": 12.18
+    },
+    {
+      "word": "playing,",
+      "start": 12.18,
+      "end": 12.74
+    },
+    {
+      "word": "I'm",
+      "start": 12.74,
+      "end": 14.22
+    },
+    {
+      "word": "throwing",
+      "start": 14.22,
+      "end": 14.5
+    },
+    {
+      "word": "and",
+      "start": 14.5,
+      "end": 18.56
+    },
+    {
+      "word": "my",
+      "start": 18.56,
+      "end": 20.62
+    },
+    {
+      "word": "my",
+      "start": 20.62,
+      "end": 23.02
+    },
+    {
+      "word": "arm",
+      "start": 23.44,
+      "end": 24.14
+    },
+    {
+      "word": "raised.",
+      "start": 24.14,
+      "end": 24.42
+    },
+    {
+      "word": "life",
+      "start": 25.98,
+      "end": 26.42
+    },
+    {
+      "word": "is",
+      "start": 26.42,
+      "end": 26.86
+    },
+    {
+      "word": "women",
+      "start": 26.86,
+      "end": 30.42
+    },
+    {
+      "word": "they",
+      "start": 30.42,
+      "end": 36.76
+    },
+    {
+      "word": "are",
+      "start": 36.76,
+      "end": 38.54
+    },
+    {
+      "word": "single",
+      "start": 38.54,
+      "end": 39.94
+    },
+    {
+      "word": "wolf",
+      "start": 39.94,
+      "end": 40.32
+    },
+    {
+      "word": "and",
+      "start": 40.32,
+      "end": 41.22
+    },
+    {
+      "word": "a",
+      "start": 41.22,
+      "end": 44.34
+    },
+    {
+      "word": "for",
+      "start": 44.34,
+      "end": 47.36
+    },
+    {
+      "word": "sure",
+      "start": 47.36,
+      "end": 48.22
+    },
+    {
+      "word": "of",
+      "start": 48.22,
+      "end": 49.64
+    },
+    {
+      "word": "grief",
+      "start": 49.64,
+      "end": 50.44
+    },
+    {
+      "word": "and",
+      "start": 50.44,
+      "end": 52.72
+    },
+    {
+      "word": "other",
+      "start": 52.72,
+      "end": 54.16
+    },
+    {
+      "word": "boy",
+      "start": 54.16,
+      "end": 55.64
+    },
+    {
+      "word": "is",
+      "start": 55.64,
+      "end": 56.74
+    },
+    {
+      "word": "unlawed.",
+      "start": 56.74,
+      "end": 59.22
+    },
+    {
+      "word": "What",
+      "start": 75.39999999999999,
+      "end": 76.8
+    },
+    {
+      "word": "No",
+      "start": 76.8,
+      "end": 78.2
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 23.02,
+      "text": " I'll practice pictures nearly like boys are playing, I'm throwing and my my",
+      "tokens": [
+        50364,
+        286,
+        603,
+        3124,
+        5242,
+        6217,
+        411,
+        6347,
+        366,
+        2433,
+        11,
+        286,
+        478,
+        10238,
+        293,
+        452,
+        452,
+        51512
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9917060852050781,
+      "compression_ratio": 0.9868421052631579,
+      "no_speech_prob": 0.3002101182937622,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 0.0,
+          "end": 1.62,
+          "probability": 0.2020496502518654
+        },
+        {
+          "word": " practice",
+          "start": 1.62,
+          "end": 2.02,
+          "probability": 0.3885386884212494
+        },
+        {
+          "word": " pictures",
+          "start": 2.02,
+          "end": 4.44,
+          "probability": 0.22041472792625427
+        },
+        {
+          "word": " nearly",
+          "start": 4.44,
+          "end": 5.56,
+          "probability": 0.355763703584671
+        },
+        {
+          "word": " like",
+          "start": 5.56,
+          "end": 8.02,
+          "probability": 0.31554359197616577
+        },
+        {
+          "word": " boys",
+          "start": 8.02,
+          "end": 10.76,
+          "probability": 0.11015284806489944
+        },
+        {
+          "word": " are",
+          "start": 10.76,
+          "end": 12.18,
+          "probability": 0.19323834776878357
+        },
+        {
+          "word": " playing,",
+          "start": 12.18,
+          "end": 12.74,
+          "probability": 0.11224787682294846
+        },
+        {
+          "word": " I'm",
+          "start": 12.74,
+          "end": 14.22,
+          "probability": 0.8110436201095581
+        },
+        {
+          "word": " throwing",
+          "start": 14.22,
+          "end": 14.5,
+          "probability": 0.7483116388320923
+        },
+        {
+          "word": " and",
+          "start": 14.5,
+          "end": 18.56,
+          "probability": 0.6007276177406311
+        },
+        {
+          "word": " my",
+          "start": 18.56,
+          "end": 20.62,
+          "probability": 0.5470501184463501
+        },
+        {
+          "word": " my",
+          "start": 20.62,
+          "end": 23.02,
+          "probability": 0.6689133048057556
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 2302,
+      "start": 23.74,
+      "end": 38.54,
+      "text": " arm raised. life is women they are",
+      "tokens": [
+        50400,
+        3726,
+        6005,
+        13,
+        993,
+        307,
+        2266,
+        436,
+        366,
+        51140
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.976109186808268,
+      "compression_ratio": 0.8095238095238095,
+      "no_speech_prob": 0.26624420285224915,
+      "words": [
+        {
+          "word": " arm",
+          "start": 23.44,
+          "end": 24.14,
+          "probability": 7.4076783675991464e-06
+        },
+        {
+          "word": " raised.",
+          "start": 24.14,
+          "end": 24.42,
+          "probability": 0.004171094857156277
+        },
+        {
+          "word": " life",
+          "start": 25.98,
+          "end": 26.42,
+          "probability": 0.02030426450073719
+        },
+        {
+          "word": " is",
+          "start": 26.42,
+          "end": 26.86,
+          "probability": 0.9230347275733948
+        },
+        {
+          "word": " women",
+          "start": 26.86,
+          "end": 30.42,
+          "probability": 0.0002150860382243991
+        },
+        {
+          "word": " they",
+          "start": 30.42,
+          "end": 36.76,
+          "probability": 0.011347713880240917
+        },
+        {
+          "word": " are",
+          "start": 36.76,
+          "end": 38.54,
+          "probability": 0.24213550984859467
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 3854,
+      "start": 38.54,
+      "end": 59.22,
+      "text": " single wolf and a for sure of grief and other boy is unlawed.",
+      "tokens": [
+        50364,
+        2167,
+        19216,
+        293,
+        257,
+        337,
+        988,
+        295,
+        18998,
+        293,
+        661,
+        3237,
+        307,
+        517,
+        5901,
+        292,
+        13,
+        51384
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9341337304366263,
+      "compression_ratio": 0.9838709677419355,
+      "no_speech_prob": 0.26067712903022766,
+      "words": [
+        {
+          "word": " single",
+          "start": 38.54,
+          "end": 39.94,
+          "probability": 0.17940695583820343
+        },
+        {
+          "word": " wolf",
+          "start": 39.94,
+          "end": 40.32,
+          "probability": 0.12698403000831604
+        },
+        {
+          "word": " and",
+          "start": 40.32,
+          "end": 41.22,
+          "probability": 0.6189906001091003
+        },
+        {
+          "word": " a",
+          "start": 41.22,
+          "end": 44.34,
+          "probability": 0.20854215323925018
+        },
+        {
+          "word": " for",
+          "start": 44.34,
+          "end": 47.36,
+          "probability": 0.12203902751207352
+        },
+        {
+          "word": " sure",
+          "start": 47.36,
+          "end": 48.22,
+          "probability": 0.9605993032455444
+        },
+        {
+          "word": " of",
+          "start": 48.22,
+          "end": 49.64,
+          "probability": 0.5087770819664001
+        },
+        {
+          "word": " grief",
+          "start": 49.64,
+          "end": 50.44,
+          "probability": 0.15558357536792755
+        },
+        {
+          "word": " and",
+          "start": 50.44,
+          "end": 52.72,
+          "probability": 0.8827231526374817
+        },
+        {
+          "word": " other",
+          "start": 52.72,
+          "end": 54.16,
+          "probability": 0.9639549851417542
+        },
+        {
+          "word": " boy",
+          "start": 54.16,
+          "end": 55.64,
+          "probability": 0.961183488368988
+        },
+        {
+          "word": " is",
+          "start": 55.64,
+          "end": 56.74,
+          "probability": 0.9708313345909119
+        },
+        {
+          "word": " unlawed.",
+          "start": 56.74,
+          "end": 59.22,
+          "probability": 0.4918205589056015
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 6854,
+      "start": 75.39999999999999,
+      "end": 78.2,
+      "text": " What No",
+      "tokens": [
+        50410,
+        708,
+        883,
+        50849
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.1988168716430665,
+      "compression_ratio": 0.4666666666666667,
+      "no_speech_prob": 0.4935063421726227,
+      "words": [
+        {
+          "word": " What",
+          "start": 75.39999999999999,
+          "end": 76.8,
+          "probability": 0.5628037452697754
+        },
+        {
+          "word": " No",
+          "start": 76.8,
+          "end": 78.2,
+          "probability": 0.0514911450445652
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33656_ses-20220602_task-picnic_lang-en_final.wav
+Total Segments: 7
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.300 → 00:01.364     Participant  1.06      s I see.                                             HH AY S IY IY SIL
+2    00:01.735 → 00:04.030     Participant  2.29      s Hey, group of people.                              HH EY IY IY G R UH SIL P AH SIL P IY SIL P L
+3    00:04.975 → 00:34.034     Participant  29.06     s And what it looks like to be working some couple o EY AE EH N W W UH IH SIL T IH IH N SIL P L UH SIL K S L AY SIL K SIL T IH ER SIL B W AA R ER SH K IY NG SIL S AH M SIL K AH SIL P L AH V AH N IH NG M SIL HH AA R ER SIL P IH AH L AE SIL B AY DH EY Y AE HH AW S SIL HH EH AH DH ER S SIL HH AA ER AW L SIL CH JH IH S SIL W IH SIL K SIL B W IH SIL G L IH NG AH ER R AW N HH L UH SIL K IH IY NG EH AE SIL DH D AW SIL HH Y IY AW OW SIL TH EH NG S SIL SIL T EH DX ER SIL P HH IH AW OW SIL B Y IY AA AH N M AE SIL HH IH N DH AH F L AE NG IH AH SIL K AA R ER S SIL DH EH ER HH SIL HH EH IH SIL HH EH AH S AH M AA R ER AH IH S SIL HH AH OW F AH SIL S AH M IH M SIL SIL D AE SIL K R AW N SIL D T S SIL T AH F DH EH ER SIL T UW S OW
+4    00:34.034 → 00:37.172     Clinician    3.14      s game.                                              OW K HH M IY N SIL P P W EH DX EH L S SIL SIL P HH EY IH IH AH M SIL
+5    00:38.337 → 00:42.859     Clinician    4.52      s omebody likes to play in the water too, way over i HH S AH M SIL B AH EY IY L AY EH SIL S T AH SIL P L EY N DH AH W AA DX ER SIL CH UW SIL W EY OW R ER IH N DH AH SIL K AA R DX ER D AE R SIL T S OW M SIL
+6    00:44.682 → 00:47.449     Clinician    2.77      s I think that should be enough.                     N AY SIL T IH N SIL D IH EY SIL SH IH SIL N SIL B IY IH IH N AH F F TH F
+7    00:47.888 → 00:49.710     Clinician    1.82      s If not, we'll find out.                            IH S N AA P W L SIL P F AY N AW SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.300 - 00:01.364 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see.
+  Phonemic Encoding: HH AY S IY IY SIL
+
+Segment 2:
+  Timestamp: 00:01.735 - 00:04.030 (2.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Hey, group of people.
+  Phonemic Encoding: HH EY IY IY G R UH SIL P AH SIL P IY SIL P L
+
+Segment 3:
+  Timestamp: 00:04.975 - 00:34.034 (29.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And what it looks like to be working some couple of them are either a house and others are out just wiggling around looking at things that are beyond that. And the flagged of course there and some more of some background stuff there too.
+  Phonemic Encoding: EY AE EH N W W UH IH SIL T IH IH N SIL P L UH SIL K S L AY SIL K SIL T IH ER SIL B W AA R ER SH K IY NG SIL S AH M SIL K AH SIL P L AH V AH N IH NG M SIL HH AA R ER SIL P IH AH L AE SIL B AY DH EY Y AE HH AW S SIL HH EH AH DH ER S SIL HH AA ER AW L SIL CH JH IH S SIL W IH SIL K SIL B W IH SIL G L IH NG AH ER R AW N HH L UH SIL K IH IY NG EH AE SIL DH D AW SIL HH Y IY AW OW SIL TH EH NG S SIL SIL T EH DX ER SIL P HH IH AW OW SIL B Y IY AA AH N M AE SIL HH IH N DH AH F L AE NG IH AH SIL K AA R ER S SIL DH EH ER HH SIL HH EH IH SIL HH EH AH S AH M AA R ER AH IH S SIL HH AH OW F AH SIL S AH M IH M SIL SIL D AE SIL K R AW N SIL D T S SIL T AH F DH EH ER SIL T UW S OW
+
+Segment 4:
+  Timestamp: 00:34.034 - 00:37.172 (3.14s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: game.
+  Phonemic Encoding: OW K HH M IY N SIL P P W EH DX EH L S SIL SIL P HH EY IH IH AH M SIL
+
+Segment 5:
+  Timestamp: 00:38.337 - 00:42.859 (4.52s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: omebody likes to play in the water too, way over in the quarter of that. So...
+  Phonemic Encoding: HH S AH M SIL B AH EY IY L AY EH SIL S T AH SIL P L EY N DH AH W AA DX ER SIL CH UW SIL W EY OW R ER IH N DH AH SIL K AA R DX ER D AE R SIL T S OW M SIL
+
+Segment 6:
+  Timestamp: 00:44.682 - 00:47.449 (2.77s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I think that should be enough.
+  Phonemic Encoding: N AY SIL T IH N SIL D IH EY SIL SH IH SIL N SIL B IY IH IH N AH F F TH F
+
+Segment 7:
+  Timestamp: 00:47.888 - 00:49.710 (1.82s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: If not, we'll find out.
+  Phonemic Encoding: IH S N AA P W L SIL P F AY N AW SIL

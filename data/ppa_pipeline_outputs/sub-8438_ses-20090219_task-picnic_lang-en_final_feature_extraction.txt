@@ -1,0 +1,146 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-8438_ses-20090219_task-picnic_lang-en_final.wav
+Total Segments: 18
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.752 → 00:09.480     Participant  7.73      s I see a car, a tree, I don't know what tree.       HH AY IH Z S IY SIL AH L SIL K AA R ER UH AH SIL T R IY SIL SIL M AY EY IH SIL DH IH OW N OW L SIL W AH SIL T R IY
+2    00:18.745 → 00:36.784     Participant  18.04     s there I see forest and how it's weekend, how it's  DH ER AY S IY AH SIL F AA R IH N S SIL T AE N DH EH AH M HH AW IH S S SIL HH EH OW M W IY SIL K EH N SIL T SIL HH AW IH S SIL W EH ER AH N M DH IH EH DH AH K AA R ER IH S SIL P AA SIL K SIL T SIL IH N N SIL F R AA OW N SIL T AW AA L TH DH EH AH SIL K ER AA N S
+3    00:38.455 → 00:43.028     Participant  4.57      s I see flat.                                        AY S IY AH M F L AE SIL T
+4    00:43.163 → 00:45.154     Participant  1.99      s and kite.                                          HH EH N SIL D EH AH SIL SIL SIL K AY SIL T S
+5    00:47.905 → 00:49.592     Participant  1.69      s William blow-up                                    B R IH N SIL CH SH EH AH L AH L
+6    00:54.638 → 01:03.143     Participant  8.51      s young person, young boy, tries to keep up.         Y OW NG NG N P R OW S N AH SIL Y AH NG SIL SIL B OY SIL T AH R AY Z S SIL T UW SIL SIL K IY IH SIL P AA AH F
+7    01:04.763 → 01:06.619     Participant  1.86      s and                                                HH EH IH N SIL D EH SIL D AA SIL
+8    01:07.767 → 01:10.112     Participant  2.35      s and saloon.                                        HH EH N SIL D EH SIL S EY L M
+9    01:18.769 → 01:25.452     Participant  6.68      s with two purple on there and the                   HH AW L W IH S S SIL T UW L SIL P UW SIL P L AA N DH EH ER SIL HH AE N N SIL TH EH
+10   01:25.502 → 01:27.797     Participant  2.29      s adon says                                          S EY N AH M SIL S EH Z S
+11   01:29.029 → 01:34.952     Participant  5.92      s 430, 470, and...                                   F AA AA R ER M TH SIL D IY F AA R ER SIL S EH M IH N SIL D IY HH AE N
+12   01:36.876 → 01:56.367     Participant  19.49     s a small boy playing in the sand. He actually picks L SIL S SIL M OW AA L M B OY NG EH AH SIL P L EY IY NG IH N DH EH SIL S EH N HH IY SIL AE SIL CH IH L IY SIL SIL P IH SIL K S AH SIL P S AE N SIL T AE N NG N SIL D T R AY Z S SIL T UW SIL SIL SIL P L EY W IH TH DH L
+13   01:58.864 → 02:04.787     Participant  5.92      s with the little shogun and the basket.             W IH TH EH DH L IH DX AA L M AH M SH OW SIL G M M AE N M SIL DH IH DX AH L B AE S SIL K IH
+14   02:06.458 → 02:24.717     Participant  18.26     s And in front there is a couple that tries to enjoy AE EH N SIL D EH AH AH L SIL HH IH N N F R AA N SIL T SIL DH IH EH R IH Z S IH OW AH SIL K AH AA SIL P L N DH EH SIL SIL T T R AY Z S SIL T UW SIL IH N SIL CH OY SIL L AY HH IY S SIL R IY SIL D IY NG HH AH SH IY S P AA R IH IY IH NG SIL
+15   02:26.843 → 02:34.960     Clinician    8.12      s I don't know whether it's red or white wine.       AY N D OW NG N OW L SIL W EH DH EH IH N SIL S R EH N SIL SIL AA ER SIL HH W AY SIL T W AY N IH SIL K IH F IH SIL T IH DX IH SIL ER SIL EH
+16   02:37.137 → 02:40.967     Clinician    3.83      s and they are listening to...                       HH EH N M SIL DH EY AA R ER L IH S N IH IY NG SIL T UW
+17   02:40.967 → 02:50.704     Participant  9.74      s music because the antenna is up and the bass kid i M Y IH UW Z IY SIL B IH IY IH SIL K AH S SIL DH IH EH SIL AH N SIL T EH N AH SIL IH EH S AH M SIL P EH N SIL TH DH EH EH SIL B AE Z SIL K IH IH N SIL T IH S
+18   02:51.734 → 02:53.370     Participant  1.64      s health, open.                                      HH AE EH SIL OW L SIL P IH N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.752 - 00:09.480 (7.73s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a car, a tree, I don't know what tree.
+  Phonemic Encoding: HH AY IH Z S IY SIL AH L SIL K AA R ER UH AH SIL T R IY SIL SIL M AY EY IH SIL DH IH OW N OW L SIL W AH SIL T R IY
+
+Segment 2:
+  Timestamp: 00:18.745 - 00:36.784 (18.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: there I see forest and how it's weekend, how it's where the car is parked in front of the garage.
+  Phonemic Encoding: DH ER AY S IY AH SIL F AA R IH N S SIL T AE N DH EH AH M HH AW IH S S SIL HH EH OW M W IY SIL K EH N SIL T SIL HH AW IH S SIL W EH ER AH N M DH IH EH DH AH K AA R ER IH S SIL P AA SIL K SIL T SIL IH N N SIL F R AA OW N SIL T AW AA L TH DH EH AH SIL K ER AA N S
+
+Segment 3:
+  Timestamp: 00:38.455 - 00:43.028 (4.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see flat.
+  Phonemic Encoding: AY S IY AH M F L AE SIL T
+
+Segment 4:
+  Timestamp: 00:43.163 - 00:45.154 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and kite.
+  Phonemic Encoding: HH EH N SIL D EH AH SIL SIL SIL K AY SIL T S
+
+Segment 5:
+  Timestamp: 00:47.905 - 00:49.592 (1.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: William blow-up
+  Phonemic Encoding: B R IH N SIL CH SH EH AH L AH L
+
+Segment 6:
+  Timestamp: 00:54.638 - 01:03.143 (8.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: young person, young boy, tries to keep up.
+  Phonemic Encoding: Y OW NG NG N P R OW S N AH SIL Y AH NG SIL SIL B OY SIL T AH R AY Z S SIL T UW SIL SIL K IY IH SIL P AA AH F
+
+Segment 7:
+  Timestamp: 01:04.763 - 01:06.619 (1.86s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and
+  Phonemic Encoding: HH EH IH N SIL D EH SIL D AA SIL
+
+Segment 8:
+  Timestamp: 01:07.767 - 01:10.112 (2.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and saloon.
+  Phonemic Encoding: HH EH N SIL D EH SIL S EY L M
+
+Segment 9:
+  Timestamp: 01:18.769 - 01:25.452 (6.68s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with two purple on there and the
+  Phonemic Encoding: HH AW L W IH S S SIL T UW L SIL P UW SIL P L AA N DH EH ER SIL HH AE N N SIL TH EH
+
+Segment 10:
+  Timestamp: 01:25.502 - 01:27.797 (2.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: adon says
+  Phonemic Encoding: S EY N AH M SIL S EH Z S
+
+Segment 11:
+  Timestamp: 01:29.029 - 01:34.952 (5.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: 430, 470, and...
+  Phonemic Encoding: F AA AA R ER M TH SIL D IY F AA R ER SIL S EH M IH N SIL D IY HH AE N
+
+Segment 12:
+  Timestamp: 01:36.876 - 01:56.367 (19.49s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a small boy playing in the sand. He actually picks up sand and tries to play with the
+  Phonemic Encoding: L SIL S SIL M OW AA L M B OY NG EH AH SIL P L EY IY NG IH N DH EH SIL S EH N HH IY SIL AE SIL CH IH L IY SIL SIL P IH SIL K S AH SIL P S AE N SIL T AE N NG N SIL D T R AY Z S SIL T UW SIL SIL SIL P L EY W IH TH DH L
+
+Segment 13:
+  Timestamp: 01:58.864 - 02:04.787 (5.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with the little shogun and the basket.
+  Phonemic Encoding: W IH TH EH DH L IH DX AA L M AH M SH OW SIL G M M AE N M SIL DH IH DX AH L B AE S SIL K IH
+
+Segment 14:
+  Timestamp: 02:06.458 - 02:24.717 (18.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And in front there is a couple that tries to enjoy life. He is reading. She is pouring...
+  Phonemic Encoding: AE EH N SIL D EH AH AH L SIL HH IH N N F R AA N SIL T SIL DH IH EH R IH Z S IH OW AH SIL K AH AA SIL P L N DH EH SIL SIL T T R AY Z S SIL T UW SIL IH N SIL CH OY SIL L AY HH IY S SIL R IY SIL D IY NG HH AH SH IY S P AA R IH IY IH NG SIL
+
+Segment 15:
+  Timestamp: 02:26.843 - 02:34.960 (8.12s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I don't know whether it's red or white wine.
+  Phonemic Encoding: AY N D OW NG N OW L SIL W EH DH EH IH N SIL S R EH N SIL SIL AA ER SIL HH W AY SIL T W AY N IH SIL K IH F IH SIL T IH DX IH SIL ER SIL EH
+
+Segment 16:
+  Timestamp: 02:37.137 - 02:40.967 (3.83s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and they are listening to...
+  Phonemic Encoding: HH EH N M SIL DH EY AA R ER L IH S N IH IY NG SIL T UW
+
+Segment 17:
+  Timestamp: 02:40.967 - 02:50.704 (9.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: music because the antenna is up and the bass kid is...
+  Phonemic Encoding: M Y IH UW Z IY SIL B IH IY IH SIL K AH S SIL DH IH EH SIL AH N SIL T EH N AH SIL IH EH S AH M SIL P EH N SIL TH DH EH EH SIL B AE Z SIL K IH IH N SIL T IH S
+
+Segment 18:
+  Timestamp: 02:51.734 - 02:53.370 (1.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: health, open.
+  Phonemic Encoding: HH AE EH SIL OW L SIL P IH N

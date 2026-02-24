@@ -1,0 +1,132 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33405_ses-20211124_task-picnic_lang-en_final.wav
+Total Segments: 16
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.959 → 00:02.595     Participant  1.64      s I see uh                                           AY S S IY AH AH SIL
+2    00:07.439 → 00:11.607     Participant  4.17      s and pick the king on the flanket.                  IH N SIL P IH SIL D IY EY SIL K IY NG SIL AA N DH AH AH SIL P B L AE NG SIL K IH SIL T
+3    00:12.585 → 00:14.847     Participant  2.26      s I see a flag.                                      AY S EY IY AE AH V S SIL F L EY SIL G
+4    00:15.640 → 00:23.622     Participant  7.98      s flowing in the breeze. I see a boy flying a kite.  F L OW IH IY NG ER IH N DH AH SIL P B R IY S AY S IY AW B W OY EY IY F AY NG EH SIL K AY SIL T
+5    00:24.854 → 00:25.900     Participant  1.05      s I see.                                             AY EY S IY
+6    00:30.254 → 00:38.168     Clinician    7.91      s think about So, if there, Lytt, I see              AH AH SIL B OW SIL T S AH Y UW AH SIL L IY NG AH AH M L AH SIL L EY AY S IY Y AE AH
+7    00:39.704 → 00:45.036     Clinician    5.33      s man fishing off of air. I see.                     M EY AE IH N DH AH SIL IH SIL F IH SH IH IY NG SIL AA F AH SIL P HH IH ER HH AY S IY
+8    00:46.572 → 00:48.023     Participant  1.45      s Child.                                             SIL CH AY L SIL D Z S
+9    00:48.107 → 00:50.537     Participant  2.43      s playing in the sand.                               P L EY NG EH N DH AH OW S EY AE N SIL D SIL
+10   00:51.719 → 00:53.507     Participant  1.79      s I see a dog.                                       AY EY S EY AE AH SIL SIL D AA SIL G
+11   00:55.684 → 00:59.447     Participant  3.76      s with the boy flying a kite.                        W AH IH S AH SIL B OY EY F L AY NG AH SIL K AY SIL T
+12   01:04.375 → 01:13.521     Participant  9.15      s people are sitting on a blanket under a tree befor P HH IY SIL P L AA R ER S IH DX IY NG AA AA N AH SIL B L AE NG SIL K EH SIL HH AA AH N SIL D ER EH DH AH SIL T R IY SIL B IY HH F SIL F AA R ER AA AY
+13   01:14.382 → 01:17.149     Participant  2.77      s house with the car.                                HH AW S SIL S W EH TH S DH EH AH SIL K AA R ER
+14   01:17.385 → 01:20.170     Participant  2.78      s Part in the drive away.                            P AA R SIL T CH IH N DH AH SIL T D R AY F W EY
+15   01:23.393 → 01:33.012     Participant  9.62      s the man is reading a book and they're listening to DH AH M AE N AE EH AH IH Z SIL W R IY N SIL D IY NG G AH SIL B UH SIL K AE EH N DH EH R ER L IH S SIL N IY NG G SIL T UW V SIL DH TH DH EH OW R EY SIL D IY Y OW
+16   01:39.745 → 01:42.968     Participant  3.22      s I think that's all.                                AY S IH NG SIL K SIL K IH UW DH AE SIL S SIL K HH AA L
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.959 - 00:02.595 (1.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see uh
+  Phonemic Encoding: AY S S IY AH AH SIL
+
+Segment 2:
+  Timestamp: 00:07.439 - 00:11.607 (4.17s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and pick the king on the flanket.
+  Phonemic Encoding: IH N SIL P IH SIL D IY EY SIL K IY NG SIL AA N DH AH AH SIL P B L AE NG SIL K IH SIL T
+
+Segment 3:
+  Timestamp: 00:12.585 - 00:14.847 (2.26s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a flag.
+  Phonemic Encoding: AY S EY IY AE AH V S SIL F L EY SIL G
+
+Segment 4:
+  Timestamp: 00:15.640 - 00:23.622 (7.98s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: flowing in the breeze. I see a boy flying a kite.
+  Phonemic Encoding: F L OW IH IY NG ER IH N DH AH SIL P B R IY S AY S IY AW B W OY EY IY F AY NG EH SIL K AY SIL T
+
+Segment 5:
+  Timestamp: 00:24.854 - 00:25.900 (1.05s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see.
+  Phonemic Encoding: AY EY S IY
+
+Segment 6:
+  Timestamp: 00:30.254 - 00:38.168 (7.91s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: think about So, if there, Lytt, I see
+  Phonemic Encoding: AH AH SIL B OW SIL T S AH Y UW AH SIL L IY NG AH AH M L AH SIL L EY AY S IY Y AE AH
+
+Segment 7:
+  Timestamp: 00:39.704 - 00:45.036 (5.33s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: man fishing off of air. I see.
+  Phonemic Encoding: M EY AE IH N DH AH SIL IH SIL F IH SH IH IY NG SIL AA F AH SIL P HH IH ER HH AY S IY
+
+Segment 8:
+  Timestamp: 00:46.572 - 00:48.023 (1.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Child.
+  Phonemic Encoding: SIL CH AY L SIL D Z S
+
+Segment 9:
+  Timestamp: 00:48.107 - 00:50.537 (2.43s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: playing in the sand.
+  Phonemic Encoding: P L EY NG EH N DH AH OW S EY AE N SIL D SIL
+
+Segment 10:
+  Timestamp: 00:51.719 - 00:53.507 (1.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a dog.
+  Phonemic Encoding: AY EY S EY AE AH SIL SIL D AA SIL G
+
+Segment 11:
+  Timestamp: 00:55.684 - 00:59.447 (3.76s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: with the boy flying a kite.
+  Phonemic Encoding: W AH IH S AH SIL B OY EY F L AY NG AH SIL K AY SIL T
+
+Segment 12:
+  Timestamp: 01:04.375 - 01:13.521 (9.15s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: people are sitting on a blanket under a tree before...
+  Phonemic Encoding: P HH IY SIL P L AA R ER S IH DX IY NG AA AA N AH SIL B L AE NG SIL K EH SIL HH AA AH N SIL D ER EH DH AH SIL T R IY SIL B IY HH F SIL F AA R ER AA AY
+
+Segment 13:
+  Timestamp: 01:14.382 - 01:17.149 (2.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: house with the car.
+  Phonemic Encoding: HH AW S SIL S W EH TH S DH EH AH SIL K AA R ER
+
+Segment 14:
+  Timestamp: 01:17.385 - 01:20.170 (2.78s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Part in the drive away.
+  Phonemic Encoding: P AA R SIL T CH IH N DH AH SIL T D R AY F W EY
+
+Segment 15:
+  Timestamp: 01:23.393 - 01:33.012 (9.62s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: the man is reading a book and they're listening to the radio.
+  Phonemic Encoding: DH AH M AE N AE EH AH IH Z SIL W R IY N SIL D IY NG G AH SIL B UH SIL K AE EH N DH EH R ER L IH S SIL N IY NG G SIL T UW V SIL DH TH DH EH OW R EY SIL D IY Y OW
+
+Segment 16:
+  Timestamp: 01:39.745 - 01:42.968 (3.22s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I think that's all.
+  Phonemic Encoding: AY S IH NG SIL K SIL K IH UW DH AE SIL S SIL K HH AA L

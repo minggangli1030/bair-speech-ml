@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-5044_ses-20060620_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.477 → 00:05.700     Participant  3.22      s And then there's a little kid getting in the late. IH N DH IH N DH EH R Z AH L OW L SIL K IH SIL G IH DX IH NG IH N DH AH L EY SIL T
+2    00:07.067 → 00:10.155     Participant  3.09      s and there's two people on the boat.                AH N DH EH ER S SIL SIL T UW SIL P B IY SIL P B L AA N DH AH SIL SIL B OW SIL T
+3    00:11.657 → 00:18.154     Participant  6.50      s And that's and then the guy that's playing that th EY AE N DH AH SIL T S SIL P R AA SIL IH N DH IH N DH AH IH SIL G AY DH IH SIL T S SIL SIL SIL P S L EY NG N DH AE SIL TH IH NG IH AH M SIL DH TH DH EH ER AW R AH OW W ER IY IH SIL K AA L SIL DH AE
+4    00:19.403 → 00:24.955     Participant  5.55      s And then there's a mom and dad sitting there and s AH N DH EH N DH EH ER Z AH M AA M IH N SIL D AE SIL T S IH N IY NG N DH EH ER IH N SIL SH IH Z S SIL K IH DX IH IY NG IH SIL D JH R AE NG SIL K IH N HH IY Z R IY DX IY NG AH M SIL SIL SIL B UH SIL K
+5    00:26.625 → 00:33.207     Participant  6.58      s There's a tree, a big tree, and there's a house wi DH EH R Z AH SIL T CH R IY B IH NG SIL T R IY AE EH N DH EH ER Z S SIL AH HH AW S SIL W IH TH AH SIL SIL K AA R N SIL V R AH N DH AH
+6    00:36.632 → 00:38.877     Participant  2.24      s There's the um, that thing.                        IH DH EH ER Z S SIL DH IY IY IY AH M Z S SIL DH AE SIL T TH IH NG
+7    00:44.766 → 00:48.495     Clinician    3.73      s And so when there's a guy on...                    AE HH AE AE N ER S SIL OW N DH ER R Z IH SIL G AY NG SIL SIL AA N
+8    00:51.854 → 00:53.760     Participant  1.91      s He's sitting on the thing.                         IH S IH DX IH IY NG AA N ER SIL B AH AE AH P DH IH NG
+9    01:07.379 → 01:08.830     Participant  1.45      s Is that safe for 17?                               AH Z EH SIL S EY SIL P F AA R S EH V IH N SIL D IY NG
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.477 - 00:05.700 (3.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then there's a little kid getting in the late.
+  Phonemic Encoding: IH N DH IH N DH EH R Z AH L OW L SIL K IH SIL G IH DX IH NG IH N DH AH L EY SIL T
+
+Segment 2:
+  Timestamp: 00:07.067 - 00:10.155 (3.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's two people on the boat.
+  Phonemic Encoding: AH N DH EH ER S SIL SIL T UW SIL P B IY SIL P B L AA N DH AH SIL SIL B OW SIL T
+
+Segment 3:
+  Timestamp: 00:11.657 - 00:18.154 (6.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And that's and then the guy that's playing that thing up there. I don't know where you call that.
+  Phonemic Encoding: EY AE N DH AH SIL T S SIL P R AA SIL IH N DH IH N DH AH IH SIL G AY DH IH SIL T S SIL SIL SIL P S L EY NG N DH AE SIL TH IH NG IH AH M SIL DH TH DH EH ER AW R AH OW W ER IY IH SIL K AA L SIL DH AE
+
+Segment 4:
+  Timestamp: 00:19.403 - 00:24.955 (5.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then there's a mom and dad sitting there and she's getting a drink and he's reading a book.
+  Phonemic Encoding: AH N DH EH N DH EH ER Z AH M AA M IH N SIL D AE SIL T S IH N IY NG N DH EH ER IH N SIL SH IH Z S SIL K IH DX IH IY NG IH SIL D JH R AE NG SIL K IH N HH IY Z R IY DX IY NG AH M SIL SIL SIL B UH SIL K
+
+Segment 5:
+  Timestamp: 00:26.625 - 00:33.207 (6.58s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a tree, a big tree, and there's a house with a car and a...
+  Phonemic Encoding: DH EH R Z AH SIL T CH R IY B IH NG SIL T R IY AE EH N DH EH ER Z S SIL AH HH AW S SIL W IH TH AH SIL SIL K AA R N SIL V R AH N DH AH
+
+Segment 6:
+  Timestamp: 00:36.632 - 00:38.877 (2.24s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's the um, that thing.
+  Phonemic Encoding: IH DH EH ER Z S SIL DH IY IY IY AH M Z S SIL DH AE SIL T TH IH NG
+
+Segment 7:
+  Timestamp: 00:44.766 - 00:48.495 (3.73s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: And so when there's a guy on...
+  Phonemic Encoding: AE HH AE AE N ER S SIL OW N DH ER R Z IH SIL G AY NG SIL SIL AA N
+
+Segment 8:
+  Timestamp: 00:51.854 - 00:53.760 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He's sitting on the thing.
+  Phonemic Encoding: IH S IH DX IH IY NG AA N ER SIL B AH AE AH P DH IH NG
+
+Segment 9:
+  Timestamp: 01:07.379 - 01:08.830 (1.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Is that safe for 17?
+  Phonemic Encoding: AH Z EH SIL S EY SIL P F AA R S EH V IH N SIL D IY NG

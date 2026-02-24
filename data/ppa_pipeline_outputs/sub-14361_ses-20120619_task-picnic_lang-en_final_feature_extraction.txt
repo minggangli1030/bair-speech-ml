@@ -1,0 +1,139 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14361_ses-20120619_task-picnic_lang-en_final.wav
+Total Segments: 17
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.279     Participant  1.25      s Any kid?                                           IH IY SIL K T EH EY
+2    00:02.865 → 00:28.583     Participant  25.72     s Well, it looks like this is some place along the c W EH L SIL DH IH SIL L UH SIL K SH L AY SIL D DH IH S IH Z S TH SIL HH ER DH AH SIL T S AH M SIL P L EY S AH L AA NG N DH AH SIL K OW S SIL T P SIL W EH ER DH EY HH AE SIL SIL AH SIL B OW SIL T S SIL N S SIL T AH F SIL HH ER ER ER M SIL HH EY AE ER N SIL S IH DX IY NG AW IH N DH AH L AA N SIL P SIL P K AA ER M N SIL B P IH SIL HH EH V IH NG N SIL P L AH N SIL CH SH SIL K ER SIL R IY DX IH IY NG IH SIL B UH SIL K S SIL K HH ER M NG IH SIL HH IH SIL T S SIL N Y IH EH R AH HH AW S SH ER M AH IH SIL K AY HH AE EH Z AH HH
+3    00:35.957 → 00:43.973     Participant  8.02      s I had a kite. I had to be there. There's a dock. D AH AE AH SIL K AY SIL T AA ER M B AY AE SIL D AH S SIL B IY SIL ER N SIL P R ER IH SIL D DH IH S SIL DH AH N SIL D AA SIL K SIL D AA SIL S HH ER M SIL K IH SIL D S Z SIL P L EY NG IH N DH AH W AA DX ER
+4    00:48.040 → 00:51.330     Participant  3.29      s trees, English trees there, running.               T R IY Z S SIL SIL NG N SH SIL T R IY EY S DH EH ER N ER ER N IY N IH
+5    00:53.744 → 00:56.832     Participant  3.09      s It's probably not the home in the couldn't be.     IH SIL S SIL P R AA SIL Y IH N AH SIL S SIL T IY SIL SIL P R AA L IY N AA SIL DH ER HH OW M IH N SIL B P IH SIL K IH N SIL B EH SIL
+6    00:58.384 → 01:02.940     Participant  4.56      s Maybe it is, but I would say probably not their ho HH EY V IY IH DX IH F SIL P IH IH M W IH SIL S EY SIL P AA L IH N AA SIL DH EH ER HH OW M SIL P AA L DH IY IH AH SIL T S EH SIL K IH N HH OW L M ER S AH M N SIL P TH IH NG
+7    01:08.189 → 01:09.944     Participant  1.76      s Okay.                                              AH M SIL K EY SIL SIL AA ER M
+8    01:12.323 → 01:17.082     Participant  4.76      s in terms of what's going on, you know, they listen IH SIL T ER M SIL Z AH W AH SIL S SIL K AA R N AA N Y IH N AH N SIL SIL DH EY IH L IH S N D IH R EY DX IY OW HH AA ER M
+9    01:18.685 → 01:23.967     Participant  5.28      s just having a nice afternoon on a good day.        HH IH S SIL SIL P N AH L HH AE V IH NG IH N SIL AH N AY S SIL HH AE F SIL T IH N UW N AA N ER AH SIL K AH N AH F S SIL G L UH AH N SIL D
+10   01:25.469 → 01:32.185     Clinician    6.72      s and the dogs, plain with dogs, and sea shores, and HH ER N DH IH N D AA SIL K S SIL P L EY N W AH SIL D AA SIL K S AH ER N SIL P S IY SH AA R ER S HH AE ER M
+11   01:36.977 → 01:44.065     Clinician    7.09      s and play there's sort of a mountain herself or pol N SIL P L EH EY SIL HH EH ER S S AA R V AH M AW N ER S AH SIL P ER SIL SIL P K L IY SH SIL L AA SIL T S AH SIL T R IY Z S F P F AA R DH ER AH L AA N NG SIL B AH DX AH IH N AH SIL CH IH W ER DH AE DX IH S
+12   01:45.870 → 01:53.025     Clinician    7.16      s come, yeah, the trees have been there a long time  K L N M N HH Y IH EH AW OW L SIL SIL DH AH SIL T R IY S AE EH M SIL B EH N DH EH ER AH L AA NG SIL T P AY M N TH UW SIL L AA R ER SIL JH
+13   01:53.025 → 01:54.426     Participant  1.40      s Crowey.                                            K R ER AW L IY SIL
+14   01:57.008 → 01:59.725     Participant  2.72      s wouldn't, wouldn't, who what kind of trade is, tho W IH N W UH IH N SIL HH OW W AH SIL K AY N D IH SIL T R IY IH DX IH S SIL T AH AA L
+15   02:06.154 → 02:12.263     Participant  6.11      s and to get kids to play in the sand, that there an EH ER M SIL SIL T IH SIL SIL IY AH SIL K IH SIL S SIL DH IH SIL P L EY IH N DH IH AH S IH N DH AH S EY AE N SIL D T DH AE SIL DH EH ER N DH EH ER S SIL F P IH SH IH NG OW W R ER DH EH R ER SIL
+16   02:13.849 → 02:19.182     Participant  5.33      s and there's, you know, to windy because heights st IH N AE EH AE ER N SIL D AH ER M DH EH IH Z SIL HH IY IH N AH SIL T S W IH N SIL D IY SIL P B IH SIL K AH EH S SIL T K AY SIL S SIL S SIL T IH EH L AH SIL DH EH ER
+17   02:20.802 → 02:24.312     Participant  3.51      s And the post also was moving.                      HH AE EH N N DH AH SIL P OW S SIL T AA L S AH OW W AH Z S M M UW M IY NG SIL K
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.279 (1.25s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Any kid?
+  Phonemic Encoding: IH IY SIL K T EH EY
+
+Segment 2:
+  Timestamp: 00:02.865 - 00:28.583 (25.72s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Well, it looks like this is some place along the coast where they have boats and stuff. Um, and sitting out in the lawn, having lunch or reading books. Um, it's in your house. Um, a guy has a...
+  Phonemic Encoding: W EH L SIL DH IH SIL L UH SIL K SH L AY SIL D DH IH S IH Z S TH SIL HH ER DH AH SIL T S AH M SIL P L EY S AH L AA NG N DH AH SIL K OW S SIL T P SIL W EH ER DH EY HH AE SIL SIL AH SIL B OW SIL T S SIL N S SIL T AH F SIL HH ER ER ER M SIL HH EY AE ER N SIL S IH DX IY NG AW IH N DH AH L AA N SIL P SIL P K AA ER M N SIL B P IH SIL HH EH V IH NG N SIL P L AH N SIL CH SH SIL K ER SIL R IY DX IH IY NG IH SIL B UH SIL K S SIL K HH ER M NG IH SIL HH IH SIL T S SIL N Y IH EH R AH HH AW S SH ER M AH IH SIL K AY HH AE EH Z AH HH
+
+Segment 3:
+  Timestamp: 00:35.957 - 00:43.973 (8.02s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I had a kite. I had to be there. There's a dock. Dogs. Kids playing in the water.
+  Phonemic Encoding: AH AE AH SIL K AY SIL T AA ER M B AY AE SIL D AH S SIL B IY SIL ER N SIL P R ER IH SIL D DH IH S SIL DH AH N SIL D AA SIL K SIL D AA SIL S HH ER M SIL K IH SIL D S Z SIL P L EY NG IH N DH AH W AA DX ER
+
+Segment 4:
+  Timestamp: 00:48.040 - 00:51.330 (3.29s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: trees, English trees there, running.
+  Phonemic Encoding: T R IY Z S SIL SIL NG N SH SIL T R IY EY S DH EH ER N ER ER N IY N IH
+
+Segment 5:
+  Timestamp: 00:53.744 - 00:56.832 (3.09s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: It's probably not the home in the couldn't be.
+  Phonemic Encoding: IH SIL S SIL P R AA SIL Y IH N AH SIL S SIL T IY SIL SIL P R AA L IY N AA SIL DH ER HH OW M IH N SIL B P IH SIL K IH N SIL B EH SIL
+
+Segment 6:
+  Timestamp: 00:58.384 - 01:02.940 (4.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Maybe it is, but I would say probably not their home, probably that's second home or something.
+  Phonemic Encoding: HH EY V IY IH DX IH F SIL P IH IH M W IH SIL S EY SIL P AA L IH N AA SIL DH EH ER HH OW M SIL P AA L DH IY IH AH SIL T S EH SIL K IH N HH OW L M ER S AH M N SIL P TH IH NG
+
+Segment 7:
+  Timestamp: 01:08.189 - 01:09.944 (1.76s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Okay.
+  Phonemic Encoding: AH M SIL K EY SIL SIL AA ER M
+
+Segment 8:
+  Timestamp: 01:12.323 - 01:17.082 (4.76s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in terms of what's going on, you know, they listen to radio, or...
+  Phonemic Encoding: IH SIL T ER M SIL Z AH W AH SIL S SIL K AA R N AA N Y IH N AH N SIL SIL DH EY IH L IH S N D IH R EY DX IY OW HH AA ER M
+
+Segment 9:
+  Timestamp: 01:18.685 - 01:23.967 (5.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: just having a nice afternoon on a good day.
+  Phonemic Encoding: HH IH S SIL SIL P N AH L HH AE V IH NG IH N SIL AH N AY S SIL HH AE F SIL T IH N UW N AA N ER AH SIL K AH N AH F S SIL G L UH AH N SIL D
+
+Segment 10:
+  Timestamp: 01:25.469 - 01:32.185 (6.72s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and the dogs, plain with dogs, and sea shores, and...
+  Phonemic Encoding: HH ER N DH IH N D AA SIL K S SIL P L EY N W AH SIL D AA SIL K S AH ER N SIL P S IY SH AA R ER S HH AE ER M
+
+Segment 11:
+  Timestamp: 01:36.977 - 01:44.065 (7.09s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and play there's sort of a mountain herself or police lots of trees farther along, but I'm not sure where that is.
+  Phonemic Encoding: N SIL P L EH EY SIL HH EH ER S S AA R V AH M AW N ER S AH SIL P ER SIL SIL P K L IY SH SIL L AA SIL T S AH SIL T R IY Z S F P F AA R DH ER AH L AA N NG SIL B AH DX AH IH N AH SIL CH IH W ER DH AE DX IH S
+
+Segment 12:
+  Timestamp: 01:45.870 - 01:53.025 (7.16s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: come, yeah, the trees have been there a long time through large.
+  Phonemic Encoding: K L N M N HH Y IH EH AW OW L SIL SIL DH AH SIL T R IY S AE EH M SIL B EH N DH EH ER AH L AA NG SIL T P AY M N TH UW SIL L AA R ER SIL JH
+
+Segment 13:
+  Timestamp: 01:53.025 - 01:54.426 (1.40s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Crowey.
+  Phonemic Encoding: K R ER AW L IY SIL
+
+Segment 14:
+  Timestamp: 01:57.008 - 01:59.725 (2.72s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: wouldn't, wouldn't, who what kind of trade is, though.
+  Phonemic Encoding: W IH N W UH IH N SIL HH OW W AH SIL K AY N D IH SIL T R IY IH DX IH S SIL T AH AA L
+
+Segment 15:
+  Timestamp: 02:06.154 - 02:12.263 (6.11s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and to get kids to play in the sand, that there and there's fishing over there.
+  Phonemic Encoding: EH ER M SIL SIL T IH SIL SIL IY AH SIL K IH SIL S SIL DH IH SIL P L EY IH N DH IH AH S IH N DH AH S EY AE N SIL D T DH AE SIL DH EH ER N DH EH ER S SIL F P IH SH IH NG OW W R ER DH EH R ER SIL
+
+Segment 16:
+  Timestamp: 02:13.849 - 02:19.182 (5.33s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and there's, you know, to windy because heights still up there.
+  Phonemic Encoding: IH N AE EH AE ER N SIL D AH ER M DH EH IH Z SIL HH IY IH N AH SIL T S W IH N SIL D IY SIL P B IH SIL K AH EH S SIL T K AY SIL S SIL S SIL T IH EH L AH SIL DH EH ER
+
+Segment 17:
+  Timestamp: 02:20.802 - 02:24.312 (3.51s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And the post also was moving.
+  Phonemic Encoding: HH AE EH N N DH AH SIL P OW S SIL T AA L S AH OW W AH Z S M M UW M IY NG SIL K

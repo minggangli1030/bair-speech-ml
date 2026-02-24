@@ -1,0 +1,1554 @@
+{
+  "text": " People are having picnic and there's a guy flying a kite and there's a sailboat out in the water. With a person on it, two people on it maybe and there's a kid playing in the sand and there's a dog running with a boy flying the kite. The people have a picnic basket and the guy's reading a book and the girl's pouring us so to can. She has a radio and there's a house in the car in the driveway. There's trees in the background and there's a tree up there that offers shade to the people and there's a flag flying in the wind. And there's a tree in front of the window.",
+  "words": [
+    {
+      "word": "People",
+      "start": 0.0,
+      "end": 0.98
+    },
+    {
+      "word": "are",
+      "start": 0.98,
+      "end": 1.3
+    },
+    {
+      "word": "having",
+      "start": 1.3,
+      "end": 1.7
+    },
+    {
+      "word": "picnic",
+      "start": 1.7,
+      "end": 2.14
+    },
+    {
+      "word": "and",
+      "start": 2.14,
+      "end": 2.94
+    },
+    {
+      "word": "there's",
+      "start": 2.94,
+      "end": 3.28
+    },
+    {
+      "word": "a",
+      "start": 3.28,
+      "end": 3.38
+    },
+    {
+      "word": "guy",
+      "start": 3.38,
+      "end": 3.6
+    },
+    {
+      "word": "flying",
+      "start": 3.6,
+      "end": 4.2
+    },
+    {
+      "word": "a",
+      "start": 4.2,
+      "end": 4.4
+    },
+    {
+      "word": "kite",
+      "start": 4.4,
+      "end": 4.78
+    },
+    {
+      "word": "and",
+      "start": 4.78,
+      "end": 5.6
+    },
+    {
+      "word": "there's",
+      "start": 5.6,
+      "end": 5.9
+    },
+    {
+      "word": "a",
+      "start": 5.9,
+      "end": 6.0
+    },
+    {
+      "word": "sailboat",
+      "start": 6.0,
+      "end": 6.48
+    },
+    {
+      "word": "out",
+      "start": 6.48,
+      "end": 6.82
+    },
+    {
+      "word": "in",
+      "start": 6.82,
+      "end": 7.1
+    },
+    {
+      "word": "the",
+      "start": 7.1,
+      "end": 7.1
+    },
+    {
+      "word": "water.",
+      "start": 7.1,
+      "end": 7.52
+    },
+    {
+      "word": "With",
+      "start": 9.68,
+      "end": 10.46
+    },
+    {
+      "word": "a",
+      "start": 10.46,
+      "end": 10.96
+    },
+    {
+      "word": "person",
+      "start": 10.96,
+      "end": 11.8
+    },
+    {
+      "word": "on",
+      "start": 11.8,
+      "end": 12.1
+    },
+    {
+      "word": "it,",
+      "start": 12.1,
+      "end": 12.42
+    },
+    {
+      "word": "two",
+      "start": 12.9,
+      "end": 13.24
+    },
+    {
+      "word": "people",
+      "start": 13.24,
+      "end": 13.56
+    },
+    {
+      "word": "on",
+      "start": 13.56,
+      "end": 13.84
+    },
+    {
+      "word": "it",
+      "start": 13.84,
+      "end": 14.06
+    },
+    {
+      "word": "maybe",
+      "start": 14.06,
+      "end": 14.46
+    },
+    {
+      "word": "and",
+      "start": 14.46,
+      "end": 15.98
+    },
+    {
+      "word": "there's",
+      "start": 15.98,
+      "end": 16.4
+    },
+    {
+      "word": "a",
+      "start": 16.4,
+      "end": 16.52
+    },
+    {
+      "word": "kid",
+      "start": 16.52,
+      "end": 16.74
+    },
+    {
+      "word": "playing",
+      "start": 16.74,
+      "end": 17.26
+    },
+    {
+      "word": "in",
+      "start": 17.26,
+      "end": 17.48
+    },
+    {
+      "word": "the",
+      "start": 17.48,
+      "end": 17.64
+    },
+    {
+      "word": "sand",
+      "start": 17.64,
+      "end": 18.04
+    },
+    {
+      "word": "and",
+      "start": 18.04,
+      "end": 18.8
+    },
+    {
+      "word": "there's",
+      "start": 18.8,
+      "end": 19.1
+    },
+    {
+      "word": "a",
+      "start": 19.1,
+      "end": 19.2
+    },
+    {
+      "word": "dog",
+      "start": 19.2,
+      "end": 19.5
+    },
+    {
+      "word": "running",
+      "start": 19.5,
+      "end": 19.9
+    },
+    {
+      "word": "with",
+      "start": 19.9,
+      "end": 21.36
+    },
+    {
+      "word": "a",
+      "start": 21.36,
+      "end": 21.9
+    },
+    {
+      "word": "boy",
+      "start": 21.9,
+      "end": 22.16
+    },
+    {
+      "word": "flying",
+      "start": 22.16,
+      "end": 22.64
+    },
+    {
+      "word": "the",
+      "start": 22.64,
+      "end": 22.8
+    },
+    {
+      "word": "kite.",
+      "start": 22.8,
+      "end": 23.26
+    },
+    {
+      "word": "The",
+      "start": 27.020000000000003,
+      "end": 27.66
+    },
+    {
+      "word": "people",
+      "start": 27.66,
+      "end": 27.98
+    },
+    {
+      "word": "have",
+      "start": 27.98,
+      "end": 28.28
+    },
+    {
+      "word": "a",
+      "start": 28.28,
+      "end": 28.48
+    },
+    {
+      "word": "picnic",
+      "start": 28.48,
+      "end": 28.76
+    },
+    {
+      "word": "basket",
+      "start": 28.76,
+      "end": 29.58
+    },
+    {
+      "word": "and",
+      "start": 29.58,
+      "end": 30.8
+    },
+    {
+      "word": "the",
+      "start": 30.8,
+      "end": 31.04
+    },
+    {
+      "word": "guy's",
+      "start": 31.04,
+      "end": 31.64
+    },
+    {
+      "word": "reading",
+      "start": 31.64,
+      "end": 31.9
+    },
+    {
+      "word": "a",
+      "start": 31.9,
+      "end": 32.12
+    },
+    {
+      "word": "book",
+      "start": 32.12,
+      "end": 32.54
+    },
+    {
+      "word": "and",
+      "start": 32.54,
+      "end": 33.66
+    },
+    {
+      "word": "the",
+      "start": 33.66,
+      "end": 33.78
+    },
+    {
+      "word": "girl's",
+      "start": 33.78,
+      "end": 34.32
+    },
+    {
+      "word": "pouring",
+      "start": 34.32,
+      "end": 34.72
+    },
+    {
+      "word": "us",
+      "start": 34.72,
+      "end": 35.04
+    },
+    {
+      "word": "so",
+      "start": 35.04,
+      "end": 35.32
+    },
+    {
+      "word": "to",
+      "start": 35.32,
+      "end": 35.44
+    },
+    {
+      "word": "can.",
+      "start": 35.44,
+      "end": 35.82
+    },
+    {
+      "word": "She",
+      "start": 38.6,
+      "end": 39.24
+    },
+    {
+      "word": "has",
+      "start": 39.24,
+      "end": 39.54
+    },
+    {
+      "word": "a",
+      "start": 39.54,
+      "end": 39.66
+    },
+    {
+      "word": "radio",
+      "start": 39.66,
+      "end": 40.08
+    },
+    {
+      "word": "and",
+      "start": 40.08,
+      "end": 42.02
+    },
+    {
+      "word": "there's",
+      "start": 42.02,
+      "end": 42.34
+    },
+    {
+      "word": "a",
+      "start": 42.34,
+      "end": 42.48
+    },
+    {
+      "word": "house",
+      "start": 42.48,
+      "end": 42.78
+    },
+    {
+      "word": "in",
+      "start": 42.78,
+      "end": 43.16
+    },
+    {
+      "word": "the",
+      "start": 43.16,
+      "end": 43.48
+    },
+    {
+      "word": "car",
+      "start": 43.48,
+      "end": 44.02
+    },
+    {
+      "word": "in",
+      "start": 44.02,
+      "end": 44.34
+    },
+    {
+      "word": "the",
+      "start": 44.34,
+      "end": 44.46
+    },
+    {
+      "word": "driveway.",
+      "start": 44.46,
+      "end": 45.02
+    },
+    {
+      "word": "There's",
+      "start": 47.52,
+      "end": 48.16
+    },
+    {
+      "word": "trees",
+      "start": 48.16,
+      "end": 48.38
+    },
+    {
+      "word": "in",
+      "start": 48.38,
+      "end": 48.62
+    },
+    {
+      "word": "the",
+      "start": 48.62,
+      "end": 48.74
+    },
+    {
+      "word": "background",
+      "start": 48.74,
+      "end": 49.26
+    },
+    {
+      "word": "and",
+      "start": 49.26,
+      "end": 50.44
+    },
+    {
+      "word": "there's",
+      "start": 50.44,
+      "end": 52.26
+    },
+    {
+      "word": "a",
+      "start": 52.26,
+      "end": 52.36
+    },
+    {
+      "word": "tree",
+      "start": 52.36,
+      "end": 52.62
+    },
+    {
+      "word": "up",
+      "start": 52.62,
+      "end": 52.9
+    },
+    {
+      "word": "there",
+      "start": 52.9,
+      "end": 53.16
+    },
+    {
+      "word": "that",
+      "start": 54.34,
+      "end": 55.06
+    },
+    {
+      "word": "offers",
+      "start": 55.06,
+      "end": 55.74
+    },
+    {
+      "word": "shade",
+      "start": 55.74,
+      "end": 56.18
+    },
+    {
+      "word": "to",
+      "start": 56.18,
+      "end": 57.28
+    },
+    {
+      "word": "the",
+      "start": 57.28,
+      "end": 57.46
+    },
+    {
+      "word": "people",
+      "start": 57.46,
+      "end": 57.78
+    },
+    {
+      "word": "and",
+      "start": 57.78,
+      "end": 58.4
+    },
+    {
+      "word": "there's",
+      "start": 58.4,
+      "end": 58.7
+    },
+    {
+      "word": "a",
+      "start": 58.7,
+      "end": 58.8
+    },
+    {
+      "word": "flag",
+      "start": 58.8,
+      "end": 59.16
+    },
+    {
+      "word": "flying",
+      "start": 59.16,
+      "end": 59.82
+    },
+    {
+      "word": "in",
+      "start": 59.82,
+      "end": 59.98
+    },
+    {
+      "word": "the",
+      "start": 59.98,
+      "end": 60.18
+    },
+    {
+      "word": "wind.",
+      "start": 60.18,
+      "end": 60.58
+    },
+    {
+      "word": "And",
+      "start": 66.16,
+      "end": 66.88
+    },
+    {
+      "word": "there's",
+      "start": 66.88,
+      "end": 67.6
+    },
+    {
+      "word": "a",
+      "start": 67.6,
+      "end": 67.72
+    },
+    {
+      "word": "tree",
+      "start": 67.72,
+      "end": 68.0
+    },
+    {
+      "word": "in",
+      "start": 68.0,
+      "end": 68.16
+    },
+    {
+      "word": "front",
+      "start": 68.16,
+      "end": 68.38
+    },
+    {
+      "word": "of",
+      "start": 68.38,
+      "end": 68.68
+    },
+    {
+      "word": "the",
+      "start": 68.68,
+      "end": 68.72
+    },
+    {
+      "word": "window.",
+      "start": 68.72,
+      "end": 69.08
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": " People are having picnic and there's a guy flying a kite and there's a sailboat",
+      "tokens": [
+        50364,
+        3432,
+        366,
+        1419,
+        32137,
+        293,
+        456,
+        311,
+        257,
+        2146,
+        7137,
+        257,
+        38867,
+        293,
+        456,
+        311,
+        257,
+        15758,
+        31883,
+        50690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30357825756073,
+      "compression_ratio": 1.6642857142857144,
+      "no_speech_prob": 0.24095231294631958,
+      "words": [
+        {
+          "word": " People",
+          "start": 0.0,
+          "end": 0.98,
+          "probability": 0.41389989852905273
+        },
+        {
+          "word": " are",
+          "start": 0.98,
+          "end": 1.3,
+          "probability": 0.9938714504241943
+        },
+        {
+          "word": " having",
+          "start": 1.3,
+          "end": 1.7,
+          "probability": 0.9958410859107971
+        },
+        {
+          "word": " picnic",
+          "start": 1.7,
+          "end": 2.14,
+          "probability": 0.660743236541748
+        },
+        {
+          "word": " and",
+          "start": 2.14,
+          "end": 2.94,
+          "probability": 0.6297320127487183
+        },
+        {
+          "word": " there's",
+          "start": 2.94,
+          "end": 3.28,
+          "probability": 0.9768218100070953
+        },
+        {
+          "word": " a",
+          "start": 3.28,
+          "end": 3.38,
+          "probability": 0.994642972946167
+        },
+        {
+          "word": " guy",
+          "start": 3.38,
+          "end": 3.6,
+          "probability": 0.9982649683952332
+        },
+        {
+          "word": " flying",
+          "start": 3.6,
+          "end": 4.2,
+          "probability": 0.9918463826179504
+        },
+        {
+          "word": " a",
+          "start": 4.2,
+          "end": 4.4,
+          "probability": 0.9576341509819031
+        },
+        {
+          "word": " kite",
+          "start": 4.4,
+          "end": 4.78,
+          "probability": 0.9975048899650574
+        },
+        {
+          "word": " and",
+          "start": 4.78,
+          "end": 5.6,
+          "probability": 0.7284460663795471
+        },
+        {
+          "word": " there's",
+          "start": 5.6,
+          "end": 5.9,
+          "probability": 0.9938772022724152
+        },
+        {
+          "word": " a",
+          "start": 5.9,
+          "end": 6.0,
+          "probability": 0.9887433052062988
+        },
+        {
+          "word": " sailboat",
+          "start": 6.0,
+          "end": 6.48,
+          "probability": 0.933563232421875
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.48,
+      "end": 16.74,
+      "text": " out in the water. With a person on it, two people on it maybe and there's a kid",
+      "tokens": [
+        50690,
+        484,
+        294,
+        264,
+        1281,
+        13,
+        2022,
+        257,
+        954,
+        322,
+        309,
+        11,
+        732,
+        561,
+        322,
+        309,
+        1310,
+        293,
+        456,
+        311,
+        257,
+        1636,
+        51204
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30357825756073,
+      "compression_ratio": 1.6642857142857144,
+      "no_speech_prob": 0.24095231294631958,
+      "words": [
+        {
+          "word": " out",
+          "start": 6.48,
+          "end": 6.82,
+          "probability": 0.4638267755508423
+        },
+        {
+          "word": " in",
+          "start": 6.82,
+          "end": 7.1,
+          "probability": 0.9438270926475525
+        },
+        {
+          "word": " the",
+          "start": 7.1,
+          "end": 7.1,
+          "probability": 0.958220899105072
+        },
+        {
+          "word": " water.",
+          "start": 7.1,
+          "end": 7.52,
+          "probability": 0.9971178770065308
+        },
+        {
+          "word": " With",
+          "start": 9.68,
+          "end": 10.46,
+          "probability": 0.8025262355804443
+        },
+        {
+          "word": " a",
+          "start": 10.46,
+          "end": 10.96,
+          "probability": 0.769250750541687
+        },
+        {
+          "word": " person",
+          "start": 10.96,
+          "end": 11.8,
+          "probability": 0.9926496148109436
+        },
+        {
+          "word": " on",
+          "start": 11.8,
+          "end": 12.1,
+          "probability": 0.9946545362472534
+        },
+        {
+          "word": " it,",
+          "start": 12.1,
+          "end": 12.42,
+          "probability": 0.9983164072036743
+        },
+        {
+          "word": " two",
+          "start": 12.9,
+          "end": 13.24,
+          "probability": 0.9684939980506897
+        },
+        {
+          "word": " people",
+          "start": 13.24,
+          "end": 13.56,
+          "probability": 0.9987917542457581
+        },
+        {
+          "word": " on",
+          "start": 13.56,
+          "end": 13.84,
+          "probability": 0.9964309930801392
+        },
+        {
+          "word": " it",
+          "start": 13.84,
+          "end": 14.06,
+          "probability": 0.9991722106933594
+        },
+        {
+          "word": " maybe",
+          "start": 14.06,
+          "end": 14.46,
+          "probability": 0.5877735018730164
+        },
+        {
+          "word": " and",
+          "start": 14.46,
+          "end": 15.98,
+          "probability": 0.2811564803123474
+        },
+        {
+          "word": " there's",
+          "start": 15.98,
+          "end": 16.4,
+          "probability": 0.9927987158298492
+        },
+        {
+          "word": " a",
+          "start": 16.4,
+          "end": 16.52,
+          "probability": 0.9939063191413879
+        },
+        {
+          "word": " kid",
+          "start": 16.52,
+          "end": 16.74,
+          "probability": 0.9965376853942871
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 16.74,
+      "end": 23.26,
+      "text": " playing in the sand and there's a dog running with a boy flying the kite.",
+      "tokens": [
+        51204,
+        2433,
+        294,
+        264,
+        4932,
+        293,
+        456,
+        311,
+        257,
+        3000,
+        2614,
+        365,
+        257,
+        3237,
+        7137,
+        264,
+        38867,
+        13,
+        51618
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30357825756073,
+      "compression_ratio": 1.6642857142857144,
+      "no_speech_prob": 0.24095231294631958,
+      "words": [
+        {
+          "word": " playing",
+          "start": 16.74,
+          "end": 17.26,
+          "probability": 0.9951757192611694
+        },
+        {
+          "word": " in",
+          "start": 17.26,
+          "end": 17.48,
+          "probability": 0.9956144094467163
+        },
+        {
+          "word": " the",
+          "start": 17.48,
+          "end": 17.64,
+          "probability": 0.9954219460487366
+        },
+        {
+          "word": " sand",
+          "start": 17.64,
+          "end": 18.04,
+          "probability": 0.9973955154418945
+        },
+        {
+          "word": " and",
+          "start": 18.04,
+          "end": 18.8,
+          "probability": 0.9207422137260437
+        },
+        {
+          "word": " there's",
+          "start": 18.8,
+          "end": 19.1,
+          "probability": 0.9963029026985168
+        },
+        {
+          "word": " a",
+          "start": 19.1,
+          "end": 19.2,
+          "probability": 0.9909548163414001
+        },
+        {
+          "word": " dog",
+          "start": 19.2,
+          "end": 19.5,
+          "probability": 0.997719943523407
+        },
+        {
+          "word": " running",
+          "start": 19.5,
+          "end": 19.9,
+          "probability": 0.9291976690292358
+        },
+        {
+          "word": " with",
+          "start": 19.9,
+          "end": 21.36,
+          "probability": 0.2939252257347107
+        },
+        {
+          "word": " a",
+          "start": 21.36,
+          "end": 21.9,
+          "probability": 0.6573665142059326
+        },
+        {
+          "word": " boy",
+          "start": 21.9,
+          "end": 22.16,
+          "probability": 0.9668712615966797
+        },
+        {
+          "word": " flying",
+          "start": 22.16,
+          "end": 22.64,
+          "probability": 0.9984538555145264
+        },
+        {
+          "word": " the",
+          "start": 22.64,
+          "end": 22.8,
+          "probability": 0.7743428349494934
+        },
+        {
+          "word": " kite.",
+          "start": 22.8,
+          "end": 23.26,
+          "probability": 0.9998047947883606
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2326,
+      "start": 27.020000000000003,
+      "end": 34.32,
+      "text": " The people have a picnic basket and the guy's reading a book and the girl's",
+      "tokens": [
+        50364,
+        440,
+        561,
+        362,
+        257,
+        32137,
+        8390,
+        293,
+        264,
+        2146,
+        311,
+        3760,
+        257,
+        1446,
+        293,
+        264,
+        2013,
+        311,
+        50908
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22561794916788738,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.02672959305346012,
+      "words": [
+        {
+          "word": " The",
+          "start": 27.020000000000003,
+          "end": 27.66,
+          "probability": 0.43765679001808167
+        },
+        {
+          "word": " people",
+          "start": 27.66,
+          "end": 27.98,
+          "probability": 0.9535595178604126
+        },
+        {
+          "word": " have",
+          "start": 27.98,
+          "end": 28.28,
+          "probability": 0.9831587076187134
+        },
+        {
+          "word": " a",
+          "start": 28.28,
+          "end": 28.48,
+          "probability": 0.9925845265388489
+        },
+        {
+          "word": " picnic",
+          "start": 28.48,
+          "end": 28.76,
+          "probability": 0.40305760502815247
+        },
+        {
+          "word": " basket",
+          "start": 28.76,
+          "end": 29.58,
+          "probability": 0.992067813873291
+        },
+        {
+          "word": " and",
+          "start": 29.58,
+          "end": 30.8,
+          "probability": 0.7006800770759583
+        },
+        {
+          "word": " the",
+          "start": 30.8,
+          "end": 31.04,
+          "probability": 0.974149763584137
+        },
+        {
+          "word": " guy's",
+          "start": 31.04,
+          "end": 31.64,
+          "probability": 0.4950740188360214
+        },
+        {
+          "word": " reading",
+          "start": 31.64,
+          "end": 31.9,
+          "probability": 0.9583391547203064
+        },
+        {
+          "word": " a",
+          "start": 31.9,
+          "end": 32.12,
+          "probability": 0.9830812811851501
+        },
+        {
+          "word": " book",
+          "start": 32.12,
+          "end": 32.54,
+          "probability": 0.9986988306045532
+        },
+        {
+          "word": " and",
+          "start": 32.54,
+          "end": 33.66,
+          "probability": 0.7375317811965942
+        },
+        {
+          "word": " the",
+          "start": 33.66,
+          "end": 33.78,
+          "probability": 0.9828564524650574
+        },
+        {
+          "word": " girl's",
+          "start": 33.78,
+          "end": 34.32,
+          "probability": 0.6545978486537933
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2326,
+      "start": 34.32,
+      "end": 44.46,
+      "text": " pouring us so to can. She has a radio and there's a house in the car in the",
+      "tokens": [
+        50908,
+        20450,
+        505,
+        370,
+        281,
+        393,
+        13,
+        1240,
+        575,
+        257,
+        6477,
+        293,
+        456,
+        311,
+        257,
+        1782,
+        294,
+        264,
+        1032,
+        294,
+        264,
+        51425
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22561794916788738,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.02672959305346012,
+      "words": [
+        {
+          "word": " pouring",
+          "start": 34.32,
+          "end": 34.72,
+          "probability": 0.954091489315033
+        },
+        {
+          "word": " us",
+          "start": 34.72,
+          "end": 35.04,
+          "probability": 0.6208429932594299
+        },
+        {
+          "word": " so",
+          "start": 35.04,
+          "end": 35.32,
+          "probability": 0.42172256112098694
+        },
+        {
+          "word": " to",
+          "start": 35.32,
+          "end": 35.44,
+          "probability": 0.27833715081214905
+        },
+        {
+          "word": " can.",
+          "start": 35.44,
+          "end": 35.82,
+          "probability": 0.9069708585739136
+        },
+        {
+          "word": " She",
+          "start": 38.6,
+          "end": 39.24,
+          "probability": 0.981408953666687
+        },
+        {
+          "word": " has",
+          "start": 39.24,
+          "end": 39.54,
+          "probability": 0.9881094098091125
+        },
+        {
+          "word": " a",
+          "start": 39.54,
+          "end": 39.66,
+          "probability": 0.9728623628616333
+        },
+        {
+          "word": " radio",
+          "start": 39.66,
+          "end": 40.08,
+          "probability": 0.9950876832008362
+        },
+        {
+          "word": " and",
+          "start": 40.08,
+          "end": 42.02,
+          "probability": 0.7892172336578369
+        },
+        {
+          "word": " there's",
+          "start": 42.02,
+          "end": 42.34,
+          "probability": 0.9788623154163361
+        },
+        {
+          "word": " a",
+          "start": 42.34,
+          "end": 42.48,
+          "probability": 0.9962512850761414
+        },
+        {
+          "word": " house",
+          "start": 42.48,
+          "end": 42.78,
+          "probability": 0.997836172580719
+        },
+        {
+          "word": " in",
+          "start": 42.78,
+          "end": 43.16,
+          "probability": 0.9726481437683105
+        },
+        {
+          "word": " the",
+          "start": 43.16,
+          "end": 43.48,
+          "probability": 0.9782322645187378
+        },
+        {
+          "word": " car",
+          "start": 43.48,
+          "end": 44.02,
+          "probability": 0.986389696598053
+        },
+        {
+          "word": " in",
+          "start": 44.02,
+          "end": 44.34,
+          "probability": 0.876738429069519
+        },
+        {
+          "word": " the",
+          "start": 44.34,
+          "end": 44.46,
+          "probability": 0.9923126101493835
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2326,
+      "start": 44.46,
+      "end": 53.16,
+      "text": " driveway. There's trees in the background and there's a tree up there",
+      "tokens": [
+        51425,
+        38276,
+        13,
+        821,
+        311,
+        5852,
+        294,
+        264,
+        3678,
+        293,
+        456,
+        311,
+        257,
+        4230,
+        493,
+        456,
+        51858
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22561794916788738,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.02672959305346012,
+      "words": [
+        {
+          "word": " driveway.",
+          "start": 44.46,
+          "end": 45.02,
+          "probability": 0.9957970380783081
+        },
+        {
+          "word": " There's",
+          "start": 47.52,
+          "end": 48.16,
+          "probability": 0.9880929887294769
+        },
+        {
+          "word": " trees",
+          "start": 48.16,
+          "end": 48.38,
+          "probability": 0.9905343055725098
+        },
+        {
+          "word": " in",
+          "start": 48.38,
+          "end": 48.62,
+          "probability": 0.574509859085083
+        },
+        {
+          "word": " the",
+          "start": 48.62,
+          "end": 48.74,
+          "probability": 0.9985733032226562
+        },
+        {
+          "word": " background",
+          "start": 48.74,
+          "end": 49.26,
+          "probability": 0.9845579266548157
+        },
+        {
+          "word": " and",
+          "start": 49.26,
+          "end": 50.44,
+          "probability": 0.8420302867889404
+        },
+        {
+          "word": " there's",
+          "start": 50.44,
+          "end": 52.26,
+          "probability": 0.9918183982372284
+        },
+        {
+          "word": " a",
+          "start": 52.26,
+          "end": 52.36,
+          "probability": 0.9987384676933289
+        },
+        {
+          "word": " tree",
+          "start": 52.36,
+          "end": 52.62,
+          "probability": 0.998543381690979
+        },
+        {
+          "word": " up",
+          "start": 52.62,
+          "end": 52.9,
+          "probability": 0.9024484753608704
+        },
+        {
+          "word": " there",
+          "start": 52.9,
+          "end": 53.16,
+          "probability": 0.9992002844810486
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 5316,
+      "start": 54.34,
+      "end": 60.58,
+      "text": " that offers shade to the people and there's a flag flying in the wind.",
+      "tokens": [
+        50412,
+        300,
+        7736,
+        11466,
+        281,
+        264,
+        561,
+        293,
+        456,
+        311,
+        257,
+        7166,
+        7137,
+        294,
+        264,
+        2468,
+        13,
+        50826
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5237661600112915,
+      "compression_ratio": 1.2988505747126438,
+      "no_speech_prob": 0.00262842932716012,
+      "words": [
+        {
+          "word": " that",
+          "start": 54.34,
+          "end": 55.06,
+          "probability": 0.1826218217611313
+        },
+        {
+          "word": " offers",
+          "start": 55.06,
+          "end": 55.74,
+          "probability": 0.013615496456623077
+        },
+        {
+          "word": " shade",
+          "start": 55.74,
+          "end": 56.18,
+          "probability": 0.9856626391410828
+        },
+        {
+          "word": " to",
+          "start": 56.18,
+          "end": 57.28,
+          "probability": 0.9798392057418823
+        },
+        {
+          "word": " the",
+          "start": 57.28,
+          "end": 57.46,
+          "probability": 0.9991689920425415
+        },
+        {
+          "word": " people",
+          "start": 57.46,
+          "end": 57.78,
+          "probability": 0.4540867209434509
+        },
+        {
+          "word": " and",
+          "start": 57.78,
+          "end": 58.4,
+          "probability": 0.5748868584632874
+        },
+        {
+          "word": " there's",
+          "start": 58.4,
+          "end": 58.7,
+          "probability": 0.9610329568386078
+        },
+        {
+          "word": " a",
+          "start": 58.7,
+          "end": 58.8,
+          "probability": 0.9108209609985352
+        },
+        {
+          "word": " flag",
+          "start": 58.8,
+          "end": 59.16,
+          "probability": 0.9742878675460815
+        },
+        {
+          "word": " flying",
+          "start": 59.16,
+          "end": 59.82,
+          "probability": 0.9961766004562378
+        },
+        {
+          "word": " in",
+          "start": 59.82,
+          "end": 59.98,
+          "probability": 0.9571784138679504
+        },
+        {
+          "word": " the",
+          "start": 59.98,
+          "end": 60.18,
+          "probability": 0.998828113079071
+        },
+        {
+          "word": " wind.",
+          "start": 60.18,
+          "end": 60.58,
+          "probability": 0.991926372051239
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5316,
+      "start": 66.16,
+      "end": 69.08,
+      "text": " And there's a tree in front of the window.",
+      "tokens": [
+        51024,
+        400,
+        456,
+        311,
+        257,
+        4230,
+        294,
+        1868,
+        295,
+        264,
+        4910,
+        13,
+        51250
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5237661600112915,
+      "compression_ratio": 1.2988505747126438,
+      "no_speech_prob": 0.00262842932716012,
+      "words": [
+        {
+          "word": " And",
+          "start": 66.16,
+          "end": 66.88,
+          "probability": 0.763594388961792
+        },
+        {
+          "word": " there's",
+          "start": 66.88,
+          "end": 67.6,
+          "probability": 0.9809755682945251
+        },
+        {
+          "word": " a",
+          "start": 67.6,
+          "end": 67.72,
+          "probability": 0.9890406727790833
+        },
+        {
+          "word": " tree",
+          "start": 67.72,
+          "end": 68.0,
+          "probability": 0.7313803434371948
+        },
+        {
+          "word": " in",
+          "start": 68.0,
+          "end": 68.16,
+          "probability": 0.3871442675590515
+        },
+        {
+          "word": " front",
+          "start": 68.16,
+          "end": 68.38,
+          "probability": 0.6854092478752136
+        },
+        {
+          "word": " of",
+          "start": 68.38,
+          "end": 68.68,
+          "probability": 0.9867907166481018
+        },
+        {
+          "word": " the",
+          "start": 68.68,
+          "end": 68.72,
+          "probability": 0.9982812404632568
+        },
+        {
+          "word": " window.",
+          "start": 68.72,
+          "end": 69.08,
+          "probability": 0.9924755692481995
+        }
+      ]
+    }
+  ]
+}

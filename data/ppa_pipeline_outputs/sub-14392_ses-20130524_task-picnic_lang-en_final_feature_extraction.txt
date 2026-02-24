@@ -1,0 +1,132 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14392_ses-20130524_task-picnic_lang-en_final.wav
+Total Segments: 16
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:12.467     Participant  12.44     s This is a wonderful picture. First of all, it's su DH IH Z AH W AH N IH AH F AH L SIL P IH SH ER F ER S AH SIL W AA L SIL S AH M V ER SIL IH AE N IH Z IH AH V SIL B IH SIL IH DH ER Z S SIL SIL IH N SIL W AA DX ER SIL K HH IH EH M SIL B D L AE N SIL D SIL IH N IH Z AH SIL P IH SIL N IH SIL IH N IH Z AH SIL D AA SIL IY SIL HH AY SIL G AA AW DX AH SIL D AA SIL Y IY M
+2    00:14.256 → 00:16.568     Participant  2.31      s That's why I guess it's a teeny bit windy.         DH AH F L AE SIL IH S IH SIL S AH L SIL T IY N IY SIL B IH EH W IH N SIL D IY NG SIL
+3    00:18.053 → 00:23.284     Participant  5.23      s It's a nice sour house it looks like.              IH SIL S IH N DH AY EY S AH M SIL S AH AW R ER HH AW OW S IH SIL B UH SIL K S L AY SIL K IH
+4    00:24.212 → 00:26.018     Participant  1.81      s and there's children it looks like.                IH N DH IH Z S SIL CH IH OW L DX ER IH N IH SIL L UH SIL K S L AY
+5    00:28.127 → 00:33.139     Participant  5.01      s It looks like wine that the lady is about to make  EH L UH SIL K S SIL L AY SIL W AY N DH AH SIL P IH S SIL L EY DX IY S AH M B AH OW SIL T AH HH AH M R EH R N IH S SIL K AA F IY IH N Z AH M SIL B IH
+6    00:33.966 → 00:37.425     Participant  3.46      s and this guy's reading a book which is what the sh AE DH IH S SIL K AY AE Z R IY DX IH NG AH SIL B UH SIL K W IH SIL CH IH S W IH SIL TH DH AH IH SH UW Z AA F
+7    00:38.185 → 00:42.285     Participant  4.10      s And how can you read a book and they got a they've AE N W SIL HH AE AW SIL K IH NG N Y ER R EY DX IH SIL B UH SIL K IH DH EY SIL G EH AE DX AH HH SIL DH EH V AA L S AH IH SIL AA DX AH R EY DX IY AH L EH ER DH EH SIL S SIL K AE N DX IH
+8    00:42.657 → 00:44.699     Participant  2.04      s I don't understand that.                           AH SIL AW OW SIL AH DH ER S SIL T AE N SIL B DH AW N
+9    00:45.272 → 00:46.352     Participant  1.08      s because I can't read them.                         K IH Z AY SIL K EH AE N R IY SIL DH N
+10   00:48.107 → 00:49.390     Participant  1.28      s I can't read and have a...                         IH SIL K EH R IY SIL DX IH N HH AE V AH
+11   00:55.060 → 01:06.180     Participant  11.12     s There's a, oh, it's just, I guess it's a spoon or  DH IH Z IH F AH SIL EH OW AH IH SIL S IH S SIL EH IH IH SIL G IH EH S AH S AH S SIL P UW N D AH SIL ER ER IH SH AH SIL V L SIL N IH Z IH SH EH AE AH V L AH DX DH AH SIL TH IH NG AY SIL K OW EH SIL F IH ER AH OW W IH SIL TH DH IH S SIL K IH DX DH IH Z SIL D EH UH IY IH N DH AH W AA DX ER HH IH Z S HH OW L IY L AH L AH S AH L SIL N L N AH DX ER R AH W AH DX IH DX IH
+12   01:08.357 → 01:12.340     Participant  3.98      s and there's some people out sailing and there's pl IH N DH IH S AH M SIL P IY SIL P L AW S EY L IH NG SIL IH N DH IH S SIL P F L AY IH NG AH K AY SIL
+13   01:20.895 → 01:28.185     Clinician    7.29      s The unlike the trees and the background which they DH AH SIL AH M L AY SIL T DH AH SIL T R IY Z IH N AH M B AE SIL K R AW M N W IH SIL CH DH EY SIL T CH SIL K Y IY SIL P TH DH ER NG N UW DH IH SIL K Y IY SIL P SIL T ER SH SIL S SIL L EY SIL D L IY V Z AA SIL L UH SIL K L IH SIL P AY N SIL T R IY S
+14   01:32.910 → 01:38.142     Participant  5.23      s I'm having a little problem with the ages of these AH M EH R IH AH L L SIL P R AA V NG W IH TH SIL TH IH AH L SIL DH IH SIL IH W W SIL P AH V DH IH SIL EY DH IH SIL EY SIL JH IH Z AH V SIL DH IY S SIL T UW SIL V B ER SH S AH IH Z DH IH S SIL W AH N SIL T
+15   01:38.665 → 01:48.672     Participant  10.01     s But it looks like a kid, it looks like a kid, and  M B EH SIL AH M B IH DX EH IH SIL EH AE SIL EY IY SIL IH SIL D L UH SIL TH L AY EH SIL K IH SIL K Y IH EH SIL D IH SIL P OW S T AH L UH SIL K L AY SIL K IH SIL K IH DX IH SIL IH N DH IH S SIL W IH N IH S SIL T UW SIL K IH EH N EY Z AH SIL P AH V IH IY DX AA SIL IH N IH N S AH M V IH DX IY S SIL S IH DX IY IH NG AA DX AH SIL K IH SIL W EY SIL IH N DH AH SIL B AE SIL K R AW N S AH M IH S IH DX IH NG SIL P
+16   01:49.971 → 01:51.861     Participant  1.89      s By the way,                                        B AY IH AH IH R IH S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:12.467 (12.44s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is a wonderful picture. First of all, it's summer. And there's a there's water and land. And there's a picnic. And there's a doggy. I got a doggy.
+  Phonemic Encoding: DH IH Z AH W AH N IH AH F AH L SIL P IH SH ER F ER S AH SIL W AA L SIL S AH M V ER SIL IH AE N IH Z IH AH V SIL B IH SIL IH DH ER Z S SIL SIL IH N SIL W AA DX ER SIL K HH IH EH M SIL B D L AE N SIL D SIL IH N IH Z AH SIL P IH SIL N IH SIL IH N IH Z AH SIL D AA SIL IY SIL HH AY SIL G AA AW DX AH SIL D AA SIL Y IY M
+
+Segment 2:
+  Timestamp: 00:14.256 - 00:16.568 (2.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: That's why I guess it's a teeny bit windy.
+  Phonemic Encoding: DH AH F L AE SIL IH S IH SIL S AH L SIL T IY N IY SIL B IH EH W IH N SIL D IY NG SIL
+
+Segment 3:
+  Timestamp: 00:18.053 - 00:23.284 (5.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's a nice sour house it looks like.
+  Phonemic Encoding: IH SIL S IH N DH AY EY S AH M SIL S AH AW R ER HH AW OW S IH SIL B UH SIL K S L AY SIL K IH
+
+Segment 4:
+  Timestamp: 00:24.212 - 00:26.018 (1.81s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's children it looks like.
+  Phonemic Encoding: IH N DH IH Z S SIL CH IH OW L DX ER IH N IH SIL L UH SIL K S L AY
+
+Segment 5:
+  Timestamp: 00:28.127 - 00:33.139 (5.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It looks like wine that the lady is about to make its coffee and some of it.
+  Phonemic Encoding: EH L UH SIL K S SIL L AY SIL W AY N DH AH SIL P IH S SIL L EY DX IY S AH M B AH OW SIL T AH HH AH M R EH R N IH S SIL K AA F IY IH N Z AH M SIL B IH
+
+Segment 6:
+  Timestamp: 00:33.966 - 00:37.425 (3.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and this guy's reading a book which is what the shoes are.
+  Phonemic Encoding: AE DH IH S SIL K AY AE Z R IY DX IH NG AH SIL B UH SIL K W IH SIL CH IH S W IH SIL TH DH AH IH SH UW Z AA F
+
+Segment 7:
+  Timestamp: 00:38.185 - 00:42.285 (4.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And how can you read a book and they got a they've also got a radio there that's kind of
+  Phonemic Encoding: AE N W SIL HH AE AW SIL K IH NG N Y ER R EY DX IH SIL B UH SIL K IH DH EY SIL G EH AE DX AH HH SIL DH EH V AA L S AH IH SIL AA DX AH R EY DX IY AH L EH ER DH EH SIL S SIL K AE N DX IH
+
+Segment 8:
+  Timestamp: 00:42.657 - 00:44.699 (2.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't understand that.
+  Phonemic Encoding: AH SIL AW OW SIL AH DH ER S SIL T AE N SIL B DH AW N
+
+Segment 9:
+  Timestamp: 00:45.272 - 00:46.352 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: because I can't read them.
+  Phonemic Encoding: K IH Z AY SIL K EH AE N R IY SIL DH N
+
+Segment 10:
+  Timestamp: 00:48.107 - 00:49.390 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can't read and have a...
+  Phonemic Encoding: IH SIL K EH R IY SIL DX IH N HH AE V AH
+
+Segment 11:
+  Timestamp: 00:55.060 - 01:06.180 (11.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a, oh, it's just, I guess it's a spoon or a shovel. There's a shovel and I think, I can't figure out what this kid is doing in the water. It's holding a lot of something, I don't know what it is.
+  Phonemic Encoding: DH IH Z IH F AH SIL EH OW AH IH SIL S IH S SIL EH IH IH SIL G IH EH S AH S AH S SIL P UW N D AH SIL ER ER IH SH AH SIL V L SIL N IH Z IH SH EH AE AH V L AH DX DH AH SIL TH IH NG AY SIL K OW EH SIL F IH ER AH OW W IH SIL TH DH IH S SIL K IH DX DH IH Z SIL D EH UH IY IH N DH AH W AA DX ER HH IH Z S HH OW L IY L AH L AH S AH L SIL N L N AH DX ER R AH W AH DX IH DX IH
+
+Segment 12:
+  Timestamp: 01:08.357 - 01:12.340 (3.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's some people out sailing and there's playing a kite.
+  Phonemic Encoding: IH N DH IH S AH M SIL P IY SIL P L AW S EY L IH NG SIL IH N DH IH S SIL P F L AY IH NG AH K AY SIL
+
+Segment 13:
+  Timestamp: 01:20.895 - 01:28.185 (7.29s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: The unlike the trees and the background which they keep doing, they keep cus... Late leaves are. Look like pine trees.
+  Phonemic Encoding: DH AH SIL AH M L AY SIL T DH AH SIL T R IY Z IH N AH M B AE SIL K R AW M N W IH SIL CH DH EY SIL T CH SIL K Y IY SIL P TH DH ER NG N UW DH IH SIL K Y IY SIL P SIL T ER SH SIL S SIL L EY SIL D L IY V Z AA SIL L UH SIL K L IH SIL P AY N SIL T R IY S
+
+Segment 14:
+  Timestamp: 01:32.910 - 01:38.142 (5.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm having a little problem with the ages of these two verses this one.
+  Phonemic Encoding: AH M EH R IH AH L L SIL P R AA V NG W IH TH SIL TH IH AH L SIL DH IH SIL IH W W SIL P AH V DH IH SIL EY DH IH SIL EY SIL JH IH Z AH V SIL DH IY S SIL T UW SIL V B ER SH S AH IH Z DH IH S SIL W AH N SIL T
+
+Segment 15:
+  Timestamp: 01:38.665 - 01:48.672 (10.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: But it looks like a kid, it looks like a kid, and this one is stooped. And there's a puppy dog, and then somebody's sitting on a, in the background, somebody's sitting.
+  Phonemic Encoding: M B EH SIL AH M B IH DX EH IH SIL EH AE SIL EY IY SIL IH SIL D L UH SIL TH L AY EH SIL K IH SIL K Y IH EH SIL D IH SIL P OW S T AH L UH SIL K L AY SIL K IH SIL K IH DX IH SIL IH N DH IH S SIL W IH N IH S SIL T UW SIL K IH EH N EY Z AH SIL P AH V IH IY DX AA SIL IH N IH N S AH M V IH DX IY S SIL S IH DX IY IH NG AA DX AH SIL K IH SIL W EY SIL IH N DH AH SIL B AE SIL K R AW N S AH M IH S IH DX IH NG SIL P
+
+Segment 16:
+  Timestamp: 01:49.971 - 01:51.861 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: By the way,
+  Phonemic Encoding: B AY IH AH IH R IH S

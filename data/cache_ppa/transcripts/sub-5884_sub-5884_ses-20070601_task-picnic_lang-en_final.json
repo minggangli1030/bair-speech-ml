@@ -1,0 +1,823 @@
+{
+  "text": " It's a happy family. Another vacation. I could, uh, it was having a time with the, uh, the dog and, uh, flying the kite. And, uh, Hubby is trying to catch up on a current novel. And, uh, wifey is pouring out, uh, coffee probably to go on with her. But, Ciao.",
+  "words": [
+    {
+      "word": "It's",
+      "start": 1.0199999999999987,
+      "end": 1.62
+    },
+    {
+      "word": "a",
+      "start": 1.62,
+      "end": 1.74
+    },
+    {
+      "word": "happy",
+      "start": 1.74,
+      "end": 2.02
+    },
+    {
+      "word": "family.",
+      "start": 2.02,
+      "end": 2.62
+    },
+    {
+      "word": "Another",
+      "start": 3.38,
+      "end": 3.98
+    },
+    {
+      "word": "vacation.",
+      "start": 3.98,
+      "end": 4.52
+    },
+    {
+      "word": "I",
+      "start": 9.8,
+      "end": 10.4
+    },
+    {
+      "word": "could,",
+      "start": 10.4,
+      "end": 10.6
+    },
+    {
+      "word": "uh,",
+      "start": 10.9,
+      "end": 11.12
+    },
+    {
+      "word": "it",
+      "start": 11.26,
+      "end": 11.34
+    },
+    {
+      "word": "was",
+      "start": 11.34,
+      "end": 11.44
+    },
+    {
+      "word": "having",
+      "start": 11.44,
+      "end": 11.64
+    },
+    {
+      "word": "a",
+      "start": 11.64,
+      "end": 11.8
+    },
+    {
+      "word": "time",
+      "start": 11.8,
+      "end": 12.06
+    },
+    {
+      "word": "with",
+      "start": 12.06,
+      "end": 12.32
+    },
+    {
+      "word": "the,",
+      "start": 12.32,
+      "end": 12.64
+    },
+    {
+      "word": "uh,",
+      "start": 12.64,
+      "end": 13.06
+    },
+    {
+      "word": "the",
+      "start": 13.46,
+      "end": 14.12
+    },
+    {
+      "word": "dog",
+      "start": 14.12,
+      "end": 14.38
+    },
+    {
+      "word": "and,",
+      "start": 14.38,
+      "end": 14.9
+    },
+    {
+      "word": "uh,",
+      "start": 14.96,
+      "end": 15.08
+    },
+    {
+      "word": "flying",
+      "start": 15.36,
+      "end": 15.62
+    },
+    {
+      "word": "the",
+      "start": 15.62,
+      "end": 15.82
+    },
+    {
+      "word": "kite.",
+      "start": 15.82,
+      "end": 16.14
+    },
+    {
+      "word": "And,",
+      "start": 17.02,
+      "end": 17.02
+    },
+    {
+      "word": "uh,",
+      "start": 17.06,
+      "end": 17.36
+    },
+    {
+      "word": "Hubby",
+      "start": 19.24,
+      "end": 19.84
+    },
+    {
+      "word": "is",
+      "start": 19.84,
+      "end": 20.18
+    },
+    {
+      "word": "trying",
+      "start": 20.18,
+      "end": 20.4
+    },
+    {
+      "word": "to",
+      "start": 20.4,
+      "end": 20.56
+    },
+    {
+      "word": "catch",
+      "start": 20.56,
+      "end": 20.78
+    },
+    {
+      "word": "up",
+      "start": 20.78,
+      "end": 20.98
+    },
+    {
+      "word": "on",
+      "start": 20.98,
+      "end": 21.12
+    },
+    {
+      "word": "a",
+      "start": 21.12,
+      "end": 21.3
+    },
+    {
+      "word": "current",
+      "start": 21.3,
+      "end": 22.2
+    },
+    {
+      "word": "novel.",
+      "start": 22.2,
+      "end": 22.72
+    },
+    {
+      "word": "And,",
+      "start": 23.48,
+      "end": 23.96
+    },
+    {
+      "word": "uh,",
+      "start": 23.96,
+      "end": 24.42
+    },
+    {
+      "word": "wifey",
+      "start": 24.5,
+      "end": 24.94
+    },
+    {
+      "word": "is",
+      "start": 24.94,
+      "end": 25.1
+    },
+    {
+      "word": "pouring",
+      "start": 25.1,
+      "end": 25.4
+    },
+    {
+      "word": "out,",
+      "start": 25.4,
+      "end": 25.76
+    },
+    {
+      "word": "uh,",
+      "start": 25.76,
+      "end": 26.16
+    },
+    {
+      "word": "coffee",
+      "start": 26.16,
+      "end": 26.96
+    },
+    {
+      "word": "probably",
+      "start": 26.96,
+      "end": 27.56
+    },
+    {
+      "word": "to",
+      "start": 27.56,
+      "end": 28.04
+    },
+    {
+      "word": "go",
+      "start": 28.04,
+      "end": 28.26
+    },
+    {
+      "word": "on",
+      "start": 28.26,
+      "end": 28.48
+    },
+    {
+      "word": "with",
+      "start": 28.48,
+      "end": 28.64
+    },
+    {
+      "word": "her.",
+      "start": 28.64,
+      "end": 28.98
+    },
+    {
+      "word": "But,",
+      "start": 30.94,
+      "end": 31.46
+    },
+    {
+      "word": "Ciao.",
+      "start": 31.94,
+      "end": 33.2
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.0199999999999987,
+      "end": 2.62,
+      "text": " It's a happy family.",
+      "tokens": [
+        50364,
+        467,
+        311,
+        257,
+        2055,
+        1605,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " It's",
+          "start": 1.0199999999999987,
+          "end": 1.62,
+          "probability": 0.8078790307044983
+        },
+        {
+          "word": " a",
+          "start": 1.62,
+          "end": 1.74,
+          "probability": 0.9879229664802551
+        },
+        {
+          "word": " happy",
+          "start": 1.74,
+          "end": 2.02,
+          "probability": 0.879909336566925
+        },
+        {
+          "word": " family.",
+          "start": 2.02,
+          "end": 2.62,
+          "probability": 0.9953125715255737
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.38,
+      "end": 4.52,
+      "text": " Another vacation.",
+      "tokens": [
+        50514,
+        3996,
+        12830,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " Another",
+          "start": 3.38,
+          "end": 3.98,
+          "probability": 0.15795859694480896
+        },
+        {
+          "word": " vacation.",
+          "start": 3.98,
+          "end": 4.52,
+          "probability": 0.9964697360992432
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.8,
+      "end": 13.06,
+      "text": " I could, uh, it was having a time with the, uh,",
+      "tokens": [
+        50864,
+        286,
+        727,
+        11,
+        2232,
+        11,
+        309,
+        390,
+        1419,
+        257,
+        565,
+        365,
+        264,
+        11,
+        2232,
+        11,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " I",
+          "start": 9.8,
+          "end": 10.4,
+          "probability": 0.5187689065933228
+        },
+        {
+          "word": " could,",
+          "start": 10.4,
+          "end": 10.6,
+          "probability": 0.800987720489502
+        },
+        {
+          "word": " uh,",
+          "start": 10.9,
+          "end": 11.12,
+          "probability": 0.5061865448951721
+        },
+        {
+          "word": " it",
+          "start": 11.26,
+          "end": 11.34,
+          "probability": 0.4312528371810913
+        },
+        {
+          "word": " was",
+          "start": 11.34,
+          "end": 11.44,
+          "probability": 0.6932889819145203
+        },
+        {
+          "word": " having",
+          "start": 11.44,
+          "end": 11.64,
+          "probability": 0.9649260640144348
+        },
+        {
+          "word": " a",
+          "start": 11.64,
+          "end": 11.8,
+          "probability": 0.49138832092285156
+        },
+        {
+          "word": " time",
+          "start": 11.8,
+          "end": 12.06,
+          "probability": 0.992062509059906
+        },
+        {
+          "word": " with",
+          "start": 12.06,
+          "end": 12.32,
+          "probability": 0.9904952049255371
+        },
+        {
+          "word": " the,",
+          "start": 12.32,
+          "end": 12.64,
+          "probability": 0.9139463305473328
+        },
+        {
+          "word": " uh,",
+          "start": 12.64,
+          "end": 13.06,
+          "probability": 0.3538243770599365
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.46,
+      "end": 16.14,
+      "text": " the dog and, uh, flying the kite.",
+      "tokens": [
+        51014,
+        264,
+        3000,
+        293,
+        11,
+        2232,
+        11,
+        7137,
+        264,
+        38867,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " the",
+          "start": 13.46,
+          "end": 14.12,
+          "probability": 0.6232424378395081
+        },
+        {
+          "word": " dog",
+          "start": 14.12,
+          "end": 14.38,
+          "probability": 0.9256124496459961
+        },
+        {
+          "word": " and,",
+          "start": 14.38,
+          "end": 14.9,
+          "probability": 0.7269279956817627
+        },
+        {
+          "word": " uh,",
+          "start": 14.96,
+          "end": 15.08,
+          "probability": 0.8172165751457214
+        },
+        {
+          "word": " flying",
+          "start": 15.36,
+          "end": 15.62,
+          "probability": 0.9698222875595093
+        },
+        {
+          "word": " the",
+          "start": 15.62,
+          "end": 15.82,
+          "probability": 0.5118511915206909
+        },
+        {
+          "word": " kite.",
+          "start": 15.82,
+          "end": 16.14,
+          "probability": 0.9993860721588135
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.02,
+      "end": 17.36,
+      "text": " And, uh,",
+      "tokens": [
+        51164,
+        400,
+        11,
+        2232,
+        11,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " And,",
+          "start": 17.02,
+          "end": 17.02,
+          "probability": 0.9261510968208313
+        },
+        {
+          "word": " uh,",
+          "start": 17.06,
+          "end": 17.36,
+          "probability": 0.9854523539543152
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.24,
+      "end": 22.72,
+      "text": " Hubby is trying to catch up on a current novel.",
+      "tokens": [
+        51314,
+        389,
+        35654,
+        307,
+        1382,
+        281,
+        3745,
+        493,
+        322,
+        257,
+        2190,
+        7613,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " Hubby",
+          "start": 19.24,
+          "end": 19.84,
+          "probability": 0.17825739458203316
+        },
+        {
+          "word": " is",
+          "start": 19.84,
+          "end": 20.18,
+          "probability": 0.9823761582374573
+        },
+        {
+          "word": " trying",
+          "start": 20.18,
+          "end": 20.4,
+          "probability": 0.9959512948989868
+        },
+        {
+          "word": " to",
+          "start": 20.4,
+          "end": 20.56,
+          "probability": 0.9990957975387573
+        },
+        {
+          "word": " catch",
+          "start": 20.56,
+          "end": 20.78,
+          "probability": 0.9551864862442017
+        },
+        {
+          "word": " up",
+          "start": 20.78,
+          "end": 20.98,
+          "probability": 0.9599940776824951
+        },
+        {
+          "word": " on",
+          "start": 20.98,
+          "end": 21.12,
+          "probability": 0.987287163734436
+        },
+        {
+          "word": " a",
+          "start": 21.12,
+          "end": 21.3,
+          "probability": 0.639824390411377
+        },
+        {
+          "word": " current",
+          "start": 21.3,
+          "end": 22.2,
+          "probability": 0.9101706743240356
+        },
+        {
+          "word": " novel.",
+          "start": 22.2,
+          "end": 22.72,
+          "probability": 0.9782792925834656
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.48,
+      "end": 26.16,
+      "text": " And, uh, wifey is pouring out, uh,",
+      "tokens": [
+        51514,
+        400,
+        11,
+        2232,
+        11,
+        3836,
+        88,
+        307,
+        20450,
+        484,
+        11,
+        2232,
+        11,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4157691857753656,
+      "compression_ratio": 1.4722222222222223,
+      "no_speech_prob": 0.5421766042709351,
+      "words": [
+        {
+          "word": " And,",
+          "start": 23.48,
+          "end": 23.96,
+          "probability": 0.9774527549743652
+        },
+        {
+          "word": " uh,",
+          "start": 23.96,
+          "end": 24.42,
+          "probability": 0.9659605622291565
+        },
+        {
+          "word": " wifey",
+          "start": 24.5,
+          "end": 24.94,
+          "probability": 0.6629931330680847
+        },
+        {
+          "word": " is",
+          "start": 24.94,
+          "end": 25.1,
+          "probability": 0.9503504037857056
+        },
+        {
+          "word": " pouring",
+          "start": 25.1,
+          "end": 25.4,
+          "probability": 0.5296669602394104
+        },
+        {
+          "word": " out,",
+          "start": 25.4,
+          "end": 25.76,
+          "probability": 0.9989423155784607
+        },
+        {
+          "word": " uh,",
+          "start": 25.76,
+          "end": 26.16,
+          "probability": 0.9857053756713867
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2616,
+      "start": 26.16,
+      "end": 28.98,
+      "text": " coffee probably to go on with her.",
+      "tokens": [
+        50364,
+        4982,
+        1391,
+        281,
+        352,
+        322,
+        365,
+        720,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746760016993472,
+      "compression_ratio": 0.8490566037735849,
+      "no_speech_prob": 0.021338922902941704,
+      "words": [
+        {
+          "word": " coffee",
+          "start": 26.16,
+          "end": 26.96,
+          "probability": 0.01640373095870018
+        },
+        {
+          "word": " probably",
+          "start": 26.96,
+          "end": 27.56,
+          "probability": 0.5886629819869995
+        },
+        {
+          "word": " to",
+          "start": 27.56,
+          "end": 28.04,
+          "probability": 0.7882756590843201
+        },
+        {
+          "word": " go",
+          "start": 28.04,
+          "end": 28.26,
+          "probability": 0.9925869107246399
+        },
+        {
+          "word": " on",
+          "start": 28.26,
+          "end": 28.48,
+          "probability": 0.9877346158027649
+        },
+        {
+          "word": " with",
+          "start": 28.48,
+          "end": 28.64,
+          "probability": 0.9946432113647461
+        },
+        {
+          "word": " her.",
+          "start": 28.64,
+          "end": 28.98,
+          "probability": 0.7721397876739502
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2616,
+      "start": 31.16,
+      "end": 31.46,
+      "text": " But,",
+      "tokens": [
+        50614,
+        583,
+        11,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746760016993472,
+      "compression_ratio": 0.8490566037735849,
+      "no_speech_prob": 0.021338922902941704,
+      "words": [
+        {
+          "word": " But,",
+          "start": 30.94,
+          "end": 31.46,
+          "probability": 0.6722037196159363
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2616,
+      "start": 31.94,
+      "end": 33.2,
+      "text": " Ciao.",
+      "tokens": [
+        50664,
+        28473,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746760016993472,
+      "compression_ratio": 0.8490566037735849,
+      "no_speech_prob": 0.021338922902941704,
+      "words": [
+        {
+          "word": " Ciao.",
+          "start": 31.94,
+          "end": 33.2,
+          "probability": 0.3580915629863739
+        }
+      ]
+    }
+  ]
+}

@@ -22,10 +22,10 @@ COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
 6    00:13.733 → 00:15.032     Participant  1.30      s with a corn front of it.                           W AH Z IH SIL K AA R ER N F R EH DX IH V DH IH
 7    00:15.842 → 00:23.571     Participant  7.73      s There's a man and a woman picnicking in front of t AY AA M N DH EH Z AH M AE N ER ER AH M W AH M IH N SIL P HH IH SIL N IH SIL K IY NG SIL IH N SIL P F R AH EH AH N SIL T SIL AH V DH AH HH AW S DH EH R IH Z EY SIL SIL B OY EY F L AY NG IH SIL K AY SIL T SIL IH N IH N SIL D AA G
 8    00:24.010 → 00:25.984     Participant  1.97      s uh, mind the kite over the...                      AH SIL P L AY NG N HH IH SIL K S T AY SIL OW SIL P ER SIL Z IY
-9    00:26.862 → 00:28.330     Participant  1.47      s uh, Lake, I assume.                                AA L L EY SIL K SIL AY S IH AH M
+9    00:26.862 → 00:28.330     Participant  1.47      s ğı.                                                AA L L EY SIL K SIL AY S IH AH M
 10   00:28.684 → 00:30.135     Participant  1.45      s There's another child.                             DH IH Z AH N AH DH ER SIL CH AY L SIL Z
 11   00:30.254 → 00:39.484     Participant  9.23      s at the water's edge, perhaps, playing, and there's EH AE SIL DH AH W AA DX ER S SIL EH SIL JH CH SIL P ER HH AE M SIL P S SIL P L EY IY NG SIL IH N DH EH Z AH F SIL F IH SH ER SIL P R ER S IH N K OW AE N SIL T L W EH DH ER IH SIL S M AE N ER ER W AH M IH N SIL SIL F IH SH IY NG SIL AA F SIL DH AH SIL M N
-12   00:41.594 → 00:42.792     Participant  1.20      s merse cardi t                                      N IH S AH SIL F L AE EY SIL G
+12   00:41.594 → 00:42.792     Participant  1.20      s There's a flag.                                    N IH S AH SIL F L AE EY SIL G
 13   00:43.264 → 00:45.795     Participant  2.53      s pull in a flag next to the leg.                    HH OW L SIL IH N AH F L AE EY SIL G SIL N EH SIL K S SIL T UW DH AH L EY SIL
 14   00:48.614 → 00:50.875     Clinician    2.26      s The woman is pouring.                              DH AH AH W AH M IH N HH IH SIL IH Z S SIL P F AA R IH NG
 15   00:51.634 → 00:58.047     Clinician    6.41      s omething into a glass who is sitting on the blanke S AH M TH IH NG IH N SIL T UW AH SIL G L AE S SIL K HH HH UW IH S AH SIL M CH SH IY S IH DX IH IY NG AA N DH AH TH SIL SIL B L AE EY NG SIL K IH IH AE EH N DH AH M AE N IH SIL IH S
@@ -93,7 +93,7 @@ Segment 8:
 Segment 9:
   Timestamp: 00:26.862 - 00:28.330 (1.47s)
   Speaker: Participant (SPEAKER_00)
-  ASR Transcription: uh, Lake, I assume.
+  ASR Transcription: ğı.
   Phonemic Encoding: AA L L EY SIL K SIL AY S IH AH M
 
 Segment 10:
@@ -111,7 +111,7 @@ Segment 11:
 Segment 12:
   Timestamp: 00:41.594 - 00:42.792 (1.20s)
   Speaker: Participant (SPEAKER_00)
-  ASR Transcription: merse cardi t
+  ASR Transcription: There's a flag.
   Phonemic Encoding: N IH S AH SIL F L AE EY SIL G
 
 Segment 13:

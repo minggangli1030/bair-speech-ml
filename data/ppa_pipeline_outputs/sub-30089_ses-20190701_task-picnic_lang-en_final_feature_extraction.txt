@@ -1,0 +1,132 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-30089_ses-20190701_task-picnic_lang-en_final.wav
+Total Segments: 16
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:03.169     Clinician    3.14      s A man is reading a book.                           AH M AE N IH IH Z S R IY DX IY M N AH SIL B OW L
+2    00:04.874 → 00:06.679     Clinician    1.81      s ¡Chinä n結果 chí fish broth kilo...                  SH IY M IY N W AY L
+3    00:08.164 → 00:09.632     Clinician    1.47      s drinks a pour.                                     JH R EY NG SIL S SIL AH SIL T P HH AA R ER
+4    00:16.298 → 00:19.757     Participant  3.46      s Another man is flying kite.                        AA N AH TH DH ER M AE N M IH S SIL F L AY N AH SIL K AY
+5    00:23.250 → 00:24.938     Participant  1.69      s The man should be.                                 DH AH M AE N SIL CH SH UH SIL B IY
+6    00:26.744 → 00:28.583     Participant  1.84      s Well, as the...                                    W EH L AH SIL AE S SIL DH IY
+7    00:33.291 → 00:34.759     Participant  1.47      s The flag is...                                     DH AH F L AE SIL IH S
+8    00:36.599 → 00:39.366     Participant  2.77      s x is, um,                                          IH EH SIL K S IH Z S AA M
+9    00:44.074 → 00:50.841     Participant  6.77      s The dog is there by the man who is not the one rea DH IH SIL D AA L NG G IH S EH ER SIL B AY V DH AH N AE N HH DH IH UW W IH SIL S SIL N AA SIL SIL DH AH W AH N R IY DX SIL DX IY NG
+10   00:53.237 → 00:56.882     Participant  3.65      s flying the kite. Another man is...                 F L AY N M DH IH SIL K AY EY SIL AA AH N AH DH ER M AE N Y IH S
+11   00:59.734 → 01:01.169     Participant  1.43      s it in on the door.                                 S IH DX IY IH N AA N DH IH SIL D AA SIL
+12   01:16.575 → 01:18.195     Participant  1.62      s Watches from the water.                            W AA SIL CH IH Z F R AH M N DH AH W AA DX ER
+13   01:20.187 → 01:23.123     Participant  2.94      s He has several                                     IY SIL N SIL S EH V SIL V R AA L SIL Y IY HH AE S EH SIL P R L SIL
+14   01:24.422 → 01:26.262     Participant  1.84      s Plains on                                          T S L EY N SIL S SIL AA N
+15   01:29.350 → 01:30.700     Participant  1.35      s He has several.                                    IY HH AE EH S EH V SIL R OW L SIL
+16   01:36.555 → 01:39.154     Participant  2.60      s fuck it. On there.                                 F AH AA SIL K IH EH SIL T S AA N DH EH ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:03.169 (3.14s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: A man is reading a book.
+  Phonemic Encoding: AH M AE N IH IH Z S R IY DX IY M N AH SIL B OW L
+
+Segment 2:
+  Timestamp: 00:04.874 - 00:06.679 (1.81s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: ¡Chinä n結果 chí fish broth kilo...
+  Phonemic Encoding: SH IY M IY N W AY L
+
+Segment 3:
+  Timestamp: 00:08.164 - 00:09.632 (1.47s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: drinks a pour.
+  Phonemic Encoding: JH R EY NG SIL S SIL AH SIL T P HH AA R ER
+
+Segment 4:
+  Timestamp: 00:16.298 - 00:19.757 (3.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Another man is flying kite.
+  Phonemic Encoding: AA N AH TH DH ER M AE N M IH S SIL F L AY N AH SIL K AY
+
+Segment 5:
+  Timestamp: 00:23.250 - 00:24.938 (1.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The man should be.
+  Phonemic Encoding: DH AH M AE N SIL CH SH UH SIL B IY
+
+Segment 6:
+  Timestamp: 00:26.744 - 00:28.583 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, as the...
+  Phonemic Encoding: W EH L AH SIL AE S SIL DH IY
+
+Segment 7:
+  Timestamp: 00:33.291 - 00:34.759 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The flag is...
+  Phonemic Encoding: DH AH F L AE SIL IH S
+
+Segment 8:
+  Timestamp: 00:36.599 - 00:39.366 (2.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: x is, um,
+  Phonemic Encoding: IH EH SIL K S IH Z S AA M
+
+Segment 9:
+  Timestamp: 00:44.074 - 00:50.841 (6.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The dog is there by the man who is not the one reading.
+  Phonemic Encoding: DH IH SIL D AA L NG G IH S EH ER SIL B AY V DH AH N AE N HH DH IH UW W IH SIL S SIL N AA SIL SIL DH AH W AH N R IY DX SIL DX IY NG
+
+Segment 10:
+  Timestamp: 00:53.237 - 00:56.882 (3.65s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flying the kite. Another man is...
+  Phonemic Encoding: F L AY N M DH IH SIL K AY EY SIL AA AH N AH DH ER M AE N Y IH S
+
+Segment 11:
+  Timestamp: 00:59.734 - 01:01.169 (1.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: it in on the door.
+  Phonemic Encoding: S IH DX IY IH N AA N DH IH SIL D AA SIL
+
+Segment 12:
+  Timestamp: 01:16.575 - 01:18.195 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Watches from the water.
+  Phonemic Encoding: W AA SIL CH IH Z F R AH M N DH AH W AA DX ER
+
+Segment 13:
+  Timestamp: 01:20.187 - 01:23.123 (2.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He has several
+  Phonemic Encoding: IY SIL N SIL S EH V SIL V R AA L SIL Y IY HH AE S EH SIL P R L SIL
+
+Segment 14:
+  Timestamp: 01:24.422 - 01:26.262 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Plains on
+  Phonemic Encoding: T S L EY N SIL S SIL AA N
+
+Segment 15:
+  Timestamp: 01:29.350 - 01:30.700 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He has several.
+  Phonemic Encoding: IY HH AE EH S EH V SIL R OW L SIL
+
+Segment 16:
+  Timestamp: 01:36.555 - 01:39.154 (2.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: fuck it. On there.
+  Phonemic Encoding: F AH AA SIL K IH EH SIL T S AA N DH EH ER

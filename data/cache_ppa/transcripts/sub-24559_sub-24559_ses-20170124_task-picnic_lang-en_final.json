@@ -1,0 +1,502 @@
+{
+  "text": " That that's cookbook is radio a radio a dogcam. Pouring lemonade. Pouring lemonade. Shooza. Slipers on. She's having a drink. There's a car. And a dog.",
+  "words": [
+    {
+      "word": "That",
+      "start": 0.0,
+      "end": 1.58
+    },
+    {
+      "word": "that's",
+      "start": 1.58,
+      "end": 2.3
+    },
+    {
+      "word": "cookbook",
+      "start": 2.3,
+      "end": 2.92
+    },
+    {
+      "word": "is",
+      "start": 2.92,
+      "end": 7.2
+    },
+    {
+      "word": "radio",
+      "start": 7.2,
+      "end": 7.72
+    },
+    {
+      "word": "a",
+      "start": 7.72,
+      "end": 8.84
+    },
+    {
+      "word": "radio",
+      "start": 8.84,
+      "end": 10.6
+    },
+    {
+      "word": "a",
+      "start": 10.6,
+      "end": 11.48
+    },
+    {
+      "word": "dog",
+      "start": 11.48,
+      "end": 13.48
+    },
+    {
+      "word": "cam.",
+      "start": 13.48,
+      "end": 14.18
+    },
+    {
+      "word": "Pouring",
+      "start": 25.66,
+      "end": 27.06
+    },
+    {
+      "word": "lemonade.",
+      "start": 27.06,
+      "end": 27.42
+    },
+    {
+      "word": "Pouring",
+      "start": 29.28,
+      "end": 30.68
+    },
+    {
+      "word": "lemonade.",
+      "start": 30.68,
+      "end": 31.1
+    },
+    {
+      "word": "Shooza.",
+      "start": 32.940000000000005,
+      "end": 34.34
+    },
+    {
+      "word": "Slipers",
+      "start": 44.18,
+      "end": 45.58
+    },
+    {
+      "word": "on.",
+      "start": 45.58,
+      "end": 46.04
+    },
+    {
+      "word": "She's",
+      "start": 54.760000000000005,
+      "end": 55.92
+    },
+    {
+      "word": "having",
+      "start": 55.92,
+      "end": 56.16
+    },
+    {
+      "word": "a",
+      "start": 56.16,
+      "end": 56.4
+    },
+    {
+      "word": "drink.",
+      "start": 56.4,
+      "end": 56.98
+    },
+    {
+      "word": "There's",
+      "start": 67.8,
+      "end": 69.2
+    },
+    {
+      "word": "a",
+      "start": 69.2,
+      "end": 69.32
+    },
+    {
+      "word": "car.",
+      "start": 69.32,
+      "end": 69.64
+    },
+    {
+      "word": "And",
+      "start": 73.25999999999999,
+      "end": 74.66
+    },
+    {
+      "word": "a",
+      "start": 74.66,
+      "end": 74.82
+    },
+    {
+      "word": "dog.",
+      "start": 74.82,
+      "end": 75.38
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 13.48,
+      "text": " That that's cookbook is radio a radio a dog",
+      "tokens": [
+        50364,
+        663,
+        300,
+        311,
+        2543,
+        2939,
+        307,
+        6477,
+        257,
+        6477,
+        257,
+        3000,
+        51132
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9337000528971354,
+      "compression_ratio": 1.075,
+      "no_speech_prob": 0.14319808781147003,
+      "words": [
+        {
+          "word": " That",
+          "start": 0.0,
+          "end": 1.58,
+          "probability": 0.6543421149253845
+        },
+        {
+          "word": " that's",
+          "start": 1.58,
+          "end": 2.3,
+          "probability": 0.22438759356737137
+        },
+        {
+          "word": " cookbook",
+          "start": 2.3,
+          "end": 2.92,
+          "probability": 0.8186264932155609
+        },
+        {
+          "word": " is",
+          "start": 2.92,
+          "end": 7.2,
+          "probability": 0.5034258961677551
+        },
+        {
+          "word": " radio",
+          "start": 7.2,
+          "end": 7.72,
+          "probability": 0.8938275575637817
+        },
+        {
+          "word": " a",
+          "start": 7.72,
+          "end": 8.84,
+          "probability": 0.38511815667152405
+        },
+        {
+          "word": " radio",
+          "start": 8.84,
+          "end": 10.6,
+          "probability": 0.949013888835907
+        },
+        {
+          "word": " a",
+          "start": 10.6,
+          "end": 11.48,
+          "probability": 0.9137192368507385
+        },
+        {
+          "word": " dog",
+          "start": 11.48,
+          "end": 13.48,
+          "probability": 0.45650148391723633
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 1348,
+      "start": 13.48,
+      "end": 14.18,
+      "text": "cam.",
+      "tokens": [
+        50364,
+        14177,
+        13,
+        51101
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.78304386138916,
+      "compression_ratio": 0.3333333333333333,
+      "no_speech_prob": 0.3516180217266083,
+      "words": [
+        {
+          "word": "cam.",
+          "start": 13.48,
+          "end": 14.18,
+          "probability": 2.5454116325818177e-07
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1418,
+      "start": 25.66,
+      "end": 27.42,
+      "text": " Pouring lemonade.",
+      "tokens": [
+        50364,
+        8732,
+        278,
+        44374,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9088281631469727,
+      "compression_ratio": 1.1944444444444444,
+      "no_speech_prob": 0.5745285749435425,
+      "words": [
+        {
+          "word": " Pouring",
+          "start": 25.66,
+          "end": 27.06,
+          "probability": 0.43093809485435486
+        },
+        {
+          "word": " lemonade.",
+          "start": 27.06,
+          "end": 27.42,
+          "probability": 0.9824443459510803
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1418,
+      "start": 29.28,
+      "end": 31.1,
+      "text": " Pouring lemonade.",
+      "tokens": [
+        50714,
+        8732,
+        278,
+        44374,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9088281631469727,
+      "compression_ratio": 1.1944444444444444,
+      "no_speech_prob": 0.5745285749435425,
+      "words": [
+        {
+          "word": " Pouring",
+          "start": 29.28,
+          "end": 30.68,
+          "probability": 0.9677144885063171
+        },
+        {
+          "word": " lemonade.",
+          "start": 30.68,
+          "end": 31.1,
+          "probability": 0.9991018772125244
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1418,
+      "start": 32.940000000000005,
+      "end": 34.34,
+      "text": " Shooza.",
+      "tokens": [
+        50864,
+        1160,
+        1986,
+        2394,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9088281631469727,
+      "compression_ratio": 1.1944444444444444,
+      "no_speech_prob": 0.5745285749435425,
+      "words": [
+        {
+          "word": " Shooza.",
+          "start": 32.940000000000005,
+          "end": 34.34,
+          "probability": 0.39031335711479187
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3434,
+      "start": 44.18,
+      "end": 46.04,
+      "text": " Slipers on.",
+      "tokens": [
+        50364,
+        6187,
+        647,
+        433,
+        322,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6306767993503146,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 0.11586970835924149,
+      "words": [
+        {
+          "word": " Slipers",
+          "start": 44.18,
+          "end": 45.58,
+          "probability": 0.4487668052315712
+        },
+        {
+          "word": " on.",
+          "start": 45.58,
+          "end": 46.04,
+          "probability": 0.9878530502319336
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4604,
+      "start": 54.760000000000005,
+      "end": 56.98,
+      "text": " She's having a drink.",
+      "tokens": [
+        50364,
+        1240,
+        311,
+        1419,
+        257,
+        2822,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4919728755950928,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 0.1394447237253189,
+      "words": [
+        {
+          "word": " She's",
+          "start": 54.760000000000005,
+          "end": 55.92,
+          "probability": 0.8134416043758392
+        },
+        {
+          "word": " having",
+          "start": 55.92,
+          "end": 56.16,
+          "probability": 0.989658772945404
+        },
+        {
+          "word": " a",
+          "start": 56.16,
+          "end": 56.4,
+          "probability": 0.9952062964439392
+        },
+        {
+          "word": " drink.",
+          "start": 56.4,
+          "end": 56.98,
+          "probability": 0.9805378317832947
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5698,
+      "start": 67.8,
+      "end": 69.64,
+      "text": " There's a car.",
+      "tokens": [
+        50364,
+        821,
+        311,
+        257,
+        1032,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.46422942479451496,
+      "compression_ratio": 0.6363636363636364,
+      "no_speech_prob": 0.3663197159767151,
+      "words": [
+        {
+          "word": " There's",
+          "start": 67.8,
+          "end": 69.2,
+          "probability": 0.829840898513794
+        },
+        {
+          "word": " a",
+          "start": 69.2,
+          "end": 69.32,
+          "probability": 0.9969633221626282
+        },
+        {
+          "word": " car.",
+          "start": 69.32,
+          "end": 69.64,
+          "probability": 0.9918670058250427
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 6964,
+      "start": 73.25999999999999,
+      "end": 75.38,
+      "text": " And a dog.",
+      "tokens": [
+        50364,
+        400,
+        257,
+        3000,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.275808470589774,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 0.3679060637950897,
+      "words": [
+        {
+          "word": " And",
+          "start": 73.25999999999999,
+          "end": 74.66,
+          "probability": 0.5243014097213745
+        },
+        {
+          "word": " a",
+          "start": 74.66,
+          "end": 74.82,
+          "probability": 0.9068466424942017
+        },
+        {
+          "word": " dog.",
+          "start": 74.82,
+          "end": 75.38,
+          "probability": 0.9269183278083801
+        }
+      ]
+    }
+  ]
+}

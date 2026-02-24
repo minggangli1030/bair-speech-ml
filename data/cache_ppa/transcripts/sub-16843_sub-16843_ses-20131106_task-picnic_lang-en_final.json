@@ -1,0 +1,460 @@
+{
+  "text": " They're having a picnic in front of their house and they have a kite flying by the lake and they have a dog and a sailboat I guess and it's pretty picturesque. Nice.",
+  "words": [
+    {
+      "word": "They're",
+      "start": 3.999999999999999,
+      "end": 5.2
+    },
+    {
+      "word": "having",
+      "start": 5.2,
+      "end": 5.58
+    },
+    {
+      "word": "a",
+      "start": 5.58,
+      "end": 5.84
+    },
+    {
+      "word": "picnic",
+      "start": 5.84,
+      "end": 6.4
+    },
+    {
+      "word": "in",
+      "start": 6.4,
+      "end": 8.46
+    },
+    {
+      "word": "front",
+      "start": 8.46,
+      "end": 8.78
+    },
+    {
+      "word": "of",
+      "start": 8.78,
+      "end": 9.02
+    },
+    {
+      "word": "their",
+      "start": 9.02,
+      "end": 9.28
+    },
+    {
+      "word": "house",
+      "start": 9.28,
+      "end": 9.92
+    },
+    {
+      "word": "and",
+      "start": 9.92,
+      "end": 11.46
+    },
+    {
+      "word": "they",
+      "start": 11.46,
+      "end": 12.02
+    },
+    {
+      "word": "have",
+      "start": 12.02,
+      "end": 13.7
+    },
+    {
+      "word": "a",
+      "start": 13.7,
+      "end": 14.26
+    },
+    {
+      "word": "kite",
+      "start": 14.26,
+      "end": 14.98
+    },
+    {
+      "word": "flying",
+      "start": 14.98,
+      "end": 16.08
+    },
+    {
+      "word": "by",
+      "start": 16.08,
+      "end": 18.1
+    },
+    {
+      "word": "the",
+      "start": 18.1,
+      "end": 20.7
+    },
+    {
+      "word": "lake",
+      "start": 20.7,
+      "end": 21.14
+    },
+    {
+      "word": "and",
+      "start": 22.14,
+      "end": 22.9
+    },
+    {
+      "word": "they",
+      "start": 22.9,
+      "end": 23.1
+    },
+    {
+      "word": "have",
+      "start": 23.1,
+      "end": 23.3
+    },
+    {
+      "word": "a",
+      "start": 23.3,
+      "end": 23.5
+    },
+    {
+      "word": "dog",
+      "start": 23.5,
+      "end": 24.04
+    },
+    {
+      "word": "and",
+      "start": 24.04,
+      "end": 27.2
+    },
+    {
+      "word": "a",
+      "start": 27.2,
+      "end": 27.36
+    },
+    {
+      "word": "sailboat",
+      "start": 27.36,
+      "end": 28.02
+    },
+    {
+      "word": "I",
+      "start": 28.02,
+      "end": 29.06
+    },
+    {
+      "word": "guess",
+      "start": 29.06,
+      "end": 29.56
+    },
+    {
+      "word": "and",
+      "start": 29.56,
+      "end": 31.7
+    },
+    {
+      "word": "it's",
+      "start": 31.7,
+      "end": 34.78
+    },
+    {
+      "word": "pretty",
+      "start": 34.78,
+      "end": 35.46
+    },
+    {
+      "word": "picturesque.",
+      "start": 35.46,
+      "end": 37.28
+    },
+    {
+      "word": "Nice.",
+      "start": 39.019999999999996,
+      "end": 39.72
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3.999999999999999,
+      "end": 21.14,
+      "text": " They're having a picnic in front of their house and they have a kite flying by the lake",
+      "tokens": [
+        50364,
+        814,
+        434,
+        1419,
+        257,
+        32137,
+        294,
+        1868,
+        295,
+        641,
+        1782,
+        293,
+        436,
+        362,
+        257,
+        38867,
+        7137,
+        538,
+        264,
+        11001,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26656418261320697,
+      "compression_ratio": 1.12987012987013,
+      "no_speech_prob": 0.11228737235069275,
+      "words": [
+        {
+          "word": " They're",
+          "start": 3.999999999999999,
+          "end": 5.2,
+          "probability": 0.9061499536037445
+        },
+        {
+          "word": " having",
+          "start": 5.2,
+          "end": 5.58,
+          "probability": 0.9979022741317749
+        },
+        {
+          "word": " a",
+          "start": 5.58,
+          "end": 5.84,
+          "probability": 0.9983680844306946
+        },
+        {
+          "word": " picnic",
+          "start": 5.84,
+          "end": 6.4,
+          "probability": 0.8940467238426208
+        },
+        {
+          "word": " in",
+          "start": 6.4,
+          "end": 8.46,
+          "probability": 0.9198400378227234
+        },
+        {
+          "word": " front",
+          "start": 8.46,
+          "end": 8.78,
+          "probability": 0.9161215424537659
+        },
+        {
+          "word": " of",
+          "start": 8.78,
+          "end": 9.02,
+          "probability": 0.9994589686393738
+        },
+        {
+          "word": " their",
+          "start": 9.02,
+          "end": 9.28,
+          "probability": 0.9985482096672058
+        },
+        {
+          "word": " house",
+          "start": 9.28,
+          "end": 9.92,
+          "probability": 0.9990600943565369
+        },
+        {
+          "word": " and",
+          "start": 9.92,
+          "end": 11.46,
+          "probability": 0.49771901965141296
+        },
+        {
+          "word": " they",
+          "start": 11.46,
+          "end": 12.02,
+          "probability": 0.9905627965927124
+        },
+        {
+          "word": " have",
+          "start": 12.02,
+          "end": 13.7,
+          "probability": 0.9727916121482849
+        },
+        {
+          "word": " a",
+          "start": 13.7,
+          "end": 14.26,
+          "probability": 0.988132655620575
+        },
+        {
+          "word": " kite",
+          "start": 14.26,
+          "end": 14.98,
+          "probability": 0.9907494187355042
+        },
+        {
+          "word": " flying",
+          "start": 14.98,
+          "end": 16.08,
+          "probability": 0.9906003475189209
+        },
+        {
+          "word": " by",
+          "start": 16.08,
+          "end": 18.1,
+          "probability": 0.7741527557373047
+        },
+        {
+          "word": " the",
+          "start": 18.1,
+          "end": 20.7,
+          "probability": 0.9942250847816467
+        },
+        {
+          "word": " lake",
+          "start": 20.7,
+          "end": 21.14,
+          "probability": 0.9950447082519531
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 2114,
+      "start": 22.14,
+      "end": 37.28,
+      "text": " and they have a dog and a sailboat I guess and it's pretty picturesque.",
+      "tokens": [
+        50414,
+        293,
+        436,
+        362,
+        257,
+        3000,
+        293,
+        257,
+        15758,
+        31883,
+        286,
+        2041,
+        293,
+        309,
+        311,
+        1238,
+        5242,
+        1077,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4535159683227539,
+      "compression_ratio": 1.013157894736842,
+      "no_speech_prob": 0.1041015237569809,
+      "words": [
+        {
+          "word": " and",
+          "start": 22.14,
+          "end": 22.9,
+          "probability": 0.19851014018058777
+        },
+        {
+          "word": " they",
+          "start": 22.9,
+          "end": 23.1,
+          "probability": 0.9202705025672913
+        },
+        {
+          "word": " have",
+          "start": 23.1,
+          "end": 23.3,
+          "probability": 0.9931550621986389
+        },
+        {
+          "word": " a",
+          "start": 23.3,
+          "end": 23.5,
+          "probability": 0.9840325713157654
+        },
+        {
+          "word": " dog",
+          "start": 23.5,
+          "end": 24.04,
+          "probability": 0.9930445551872253
+        },
+        {
+          "word": " and",
+          "start": 24.04,
+          "end": 27.2,
+          "probability": 0.5531315207481384
+        },
+        {
+          "word": " a",
+          "start": 27.2,
+          "end": 27.36,
+          "probability": 0.9931831955909729
+        },
+        {
+          "word": " sailboat",
+          "start": 27.36,
+          "end": 28.02,
+          "probability": 0.9342185854911804
+        },
+        {
+          "word": " I",
+          "start": 28.02,
+          "end": 29.06,
+          "probability": 0.5384260416030884
+        },
+        {
+          "word": " guess",
+          "start": 29.06,
+          "end": 29.56,
+          "probability": 0.9992254972457886
+        },
+        {
+          "word": " and",
+          "start": 29.56,
+          "end": 31.7,
+          "probability": 0.5702983736991882
+        },
+        {
+          "word": " it's",
+          "start": 31.7,
+          "end": 34.78,
+          "probability": 0.8329119086265564
+        },
+        {
+          "word": " pretty",
+          "start": 34.78,
+          "end": 35.46,
+          "probability": 0.9942442774772644
+        },
+        {
+          "word": " picturesque.",
+          "start": 35.46,
+          "end": 37.28,
+          "probability": 0.9162610173225403
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2114,
+      "start": 39.14,
+      "end": 39.72,
+      "text": " Nice.",
+      "tokens": [
+        51264,
+        5490,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4535159683227539,
+      "compression_ratio": 1.013157894736842,
+      "no_speech_prob": 0.1041015237569809,
+      "words": [
+        {
+          "word": " Nice.",
+          "start": 39.019999999999996,
+          "end": 39.72,
+          "probability": 0.8387395739555359
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "text": " Man, flop of the client. tied dog with them. They picked it back to the back. They picked it back. It's a fast-paced car. They got a driveway. The boat. It's a poor, something. Reading a book. Dogs. Dog. Cuff fishing. Trays.",
+  "words": [
+    {
+      "word": "Man,",
+      "start": 0.5799999999999997,
+      "end": 0.86
+    },
+    {
+      "word": "flop",
+      "start": 0.98,
+      "end": 1.1
+    },
+    {
+      "word": "of",
+      "start": 1.1,
+      "end": 1.2
+    },
+    {
+      "word": "the",
+      "start": 1.2,
+      "end": 1.34
+    },
+    {
+      "word": "client.",
+      "start": 1.34,
+      "end": 1.56
+    },
+    {
+      "word": "tied",
+      "start": 1.56,
+      "end": 2.04
+    },
+    {
+      "word": "dog",
+      "start": 2.04,
+      "end": 4.72
+    },
+    {
+      "word": "with",
+      "start": 4.72,
+      "end": 4.94
+    },
+    {
+      "word": "them.",
+      "start": 4.94,
+      "end": 5.5600000000000005
+    },
+    {
+      "word": "They",
+      "start": 8.620000000000003,
+      "end": 9.180000000000001
+    },
+    {
+      "word": "picked",
+      "start": 9.180000000000001,
+      "end": 9.74
+    },
+    {
+      "word": "it",
+      "start": 9.74,
+      "end": 9.94
+    },
+    {
+      "word": "back",
+      "start": 9.94,
+      "end": 12.0
+    },
+    {
+      "word": "to",
+      "start": 12.0,
+      "end": 12.26
+    },
+    {
+      "word": "the",
+      "start": 12.26,
+      "end": 12.54
+    },
+    {
+      "word": "back.",
+      "start": 12.54,
+      "end": 12.82
+    },
+    {
+      "word": "They",
+      "start": 12.82,
+      "end": 12.82
+    },
+    {
+      "word": "picked",
+      "start": 12.82,
+      "end": 12.82
+    },
+    {
+      "word": "it",
+      "start": 12.82,
+      "end": 12.96
+    },
+    {
+      "word": "back.",
+      "start": 12.96,
+      "end": 13.14
+    },
+    {
+      "word": "It's",
+      "start": 13.32,
+      "end": 13.6
+    },
+    {
+      "word": "a",
+      "start": 13.6,
+      "end": 13.6
+    },
+    {
+      "word": "fast",
+      "start": 13.6,
+      "end": 13.76
+    },
+    {
+      "word": "-paced",
+      "start": 13.76,
+      "end": 14.02
+    },
+    {
+      "word": "car.",
+      "start": 14.02,
+      "end": 15.9
+    },
+    {
+      "word": "They",
+      "start": 16.1,
+      "end": 16.2
+    },
+    {
+      "word": "got",
+      "start": 16.2,
+      "end": 16.32
+    },
+    {
+      "word": "a",
+      "start": 16.32,
+      "end": 16.48
+    },
+    {
+      "word": "driveway.",
+      "start": 16.48,
+      "end": 16.84
+    },
+    {
+      "word": "The",
+      "start": 17.88,
+      "end": 17.9
+    },
+    {
+      "word": "boat.",
+      "start": 17.9,
+      "end": 18.24
+    },
+    {
+      "word": "It's",
+      "start": 22.64,
+      "end": 23.2
+    },
+    {
+      "word": "a",
+      "start": 23.2,
+      "end": 23.32
+    },
+    {
+      "word": "poor,",
+      "start": 23.32,
+      "end": 23.48
+    },
+    {
+      "word": "something.",
+      "start": 23.58,
+      "end": 24.0
+    },
+    {
+      "word": "Reading",
+      "start": 25.12,
+      "end": 25.58
+    },
+    {
+      "word": "a",
+      "start": 25.58,
+      "end": 25.68
+    },
+    {
+      "word": "book.",
+      "start": 25.68,
+      "end": 25.98
+    },
+    {
+      "word": "Dogs.",
+      "start": 25.98,
+      "end": 26.68
+    },
+    {
+      "word": "Dog.",
+      "start": 29.94,
+      "end": 30.64
+    },
+    {
+      "word": "Cuff",
+      "start": 33.48,
+      "end": 34.18
+    },
+    {
+      "word": "fishing.",
+      "start": 34.18,
+      "end": 34.58
+    },
+    {
+      "word": "Trays.",
+      "start": 38.26,
+      "end": 39.48
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.5799999999999997,
+      "end": 1.2,
+      "text": " Man, flop of",
+      "tokens": [
+        50364,
+        2458,
+        11,
+        25343,
+        295,
+        51513
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.734119415283203,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 0.40317514538764954,
+      "words": [
+        {
+          "word": " Man,",
+          "start": 0.5799999999999997,
+          "end": 0.86,
+          "probability": 0.23465771973133087
+        },
+        {
+          "word": " flop",
+          "start": 0.98,
+          "end": 1.1,
+          "probability": 0.005656800698488951
+        },
+        {
+          "word": " of",
+          "start": 1.1,
+          "end": 1.2,
+          "probability": 0.0022797503042966127
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.2,
+      "end": 1.56,
+      "text": " the client.",
+      "tokens": [
+        51513,
+        264,
+        6423,
+        13,
+        51732
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -3.734119415283203,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 0.40317514538764954,
+      "words": [
+        {
+          "word": " the",
+          "start": 1.2,
+          "end": 1.34,
+          "probability": 0.20977570116519928
+        },
+        {
+          "word": " client.",
+          "start": 1.34,
+          "end": 1.56,
+          "probability": 0.00011177758278790861
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 156,
+      "start": 1.56,
+      "end": 5.5600000000000005,
+      "text": " tied dog with them.",
+      "tokens": [
+        50364,
+        9601,
+        3000,
+        365,
+        552,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " tied",
+          "start": 1.56,
+          "end": 2.04,
+          "probability": 0.07832285761833191
+        },
+        {
+          "word": " dog",
+          "start": 2.04,
+          "end": 4.72,
+          "probability": 0.4827026128768921
+        },
+        {
+          "word": " with",
+          "start": 4.72,
+          "end": 4.94,
+          "probability": 0.4518485367298126
+        },
+        {
+          "word": " them.",
+          "start": 4.94,
+          "end": 5.5600000000000005,
+          "probability": 0.5956404209136963
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 156,
+      "start": 8.620000000000003,
+      "end": 12.82,
+      "text": " They picked it back to the back.",
+      "tokens": [
+        50714,
+        814,
+        6183,
+        309,
+        646,
+        281,
+        264,
+        646,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " They",
+          "start": 8.620000000000003,
+          "end": 9.180000000000001,
+          "probability": 0.08533312380313873
+        },
+        {
+          "word": " picked",
+          "start": 9.180000000000001,
+          "end": 9.74,
+          "probability": 0.11432202905416489
+        },
+        {
+          "word": " it",
+          "start": 9.74,
+          "end": 9.94,
+          "probability": 0.649086594581604
+        },
+        {
+          "word": " back",
+          "start": 9.94,
+          "end": 12.0,
+          "probability": 0.44544094800949097
+        },
+        {
+          "word": " to",
+          "start": 12.0,
+          "end": 12.26,
+          "probability": 0.2380446493625641
+        },
+        {
+          "word": " the",
+          "start": 12.26,
+          "end": 12.54,
+          "probability": 0.6006428599357605
+        },
+        {
+          "word": " back.",
+          "start": 12.54,
+          "end": 12.82,
+          "probability": 0.23166653513908386
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 156,
+      "start": 12.82,
+      "end": 13.14,
+      "text": " They picked it back.",
+      "tokens": [
+        50914,
+        814,
+        6183,
+        309,
+        646,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " They",
+          "start": 12.82,
+          "end": 12.82,
+          "probability": 0.04437975212931633
+        },
+        {
+          "word": " picked",
+          "start": 12.82,
+          "end": 12.82,
+          "probability": 0.2676076591014862
+        },
+        {
+          "word": " it",
+          "start": 12.82,
+          "end": 12.96,
+          "probability": 0.8717402219772339
+        },
+        {
+          "word": " back.",
+          "start": 12.96,
+          "end": 13.14,
+          "probability": 0.9681300520896912
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 156,
+      "start": 13.32,
+      "end": 15.9,
+      "text": " It's a fast-paced car.",
+      "tokens": [
+        50964,
+        467,
+        311,
+        257,
+        2370,
+        12,
+        47038,
+        1032,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " It's",
+          "start": 13.32,
+          "end": 13.6,
+          "probability": 0.4231693893671036
+        },
+        {
+          "word": " a",
+          "start": 13.6,
+          "end": 13.6,
+          "probability": 0.30169907212257385
+        },
+        {
+          "word": " fast",
+          "start": 13.6,
+          "end": 13.76,
+          "probability": 0.09042694419622421
+        },
+        {
+          "word": "-paced",
+          "start": 13.76,
+          "end": 14.02,
+          "probability": 0.4688274934887886
+        },
+        {
+          "word": " car.",
+          "start": 14.02,
+          "end": 15.9,
+          "probability": 0.9878267645835876
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 156,
+      "start": 16.1,
+      "end": 16.84,
+      "text": " They got a driveway.",
+      "tokens": [
+        51064,
+        814,
+        658,
+        257,
+        38276,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " They",
+          "start": 16.1,
+          "end": 16.2,
+          "probability": 0.3515598475933075
+        },
+        {
+          "word": " got",
+          "start": 16.2,
+          "end": 16.32,
+          "probability": 0.5981639623641968
+        },
+        {
+          "word": " a",
+          "start": 16.32,
+          "end": 16.48,
+          "probability": 0.46399468183517456
+        },
+        {
+          "word": " driveway.",
+          "start": 16.48,
+          "end": 16.84,
+          "probability": 0.9542116522789001
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 156,
+      "start": 17.88,
+      "end": 18.24,
+      "text": " The boat.",
+      "tokens": [
+        51164,
+        440,
+        6582,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " The",
+          "start": 17.88,
+          "end": 17.9,
+          "probability": 0.6301999092102051
+        },
+        {
+          "word": " boat.",
+          "start": 17.9,
+          "end": 18.24,
+          "probability": 0.9955862760543823
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 156,
+      "start": 22.64,
+      "end": 24.0,
+      "text": " It's a poor, something.",
+      "tokens": [
+        51414,
+        467,
+        311,
+        257,
+        4716,
+        11,
+        746,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " It's",
+          "start": 22.64,
+          "end": 23.2,
+          "probability": 0.8488664031028748
+        },
+        {
+          "word": " a",
+          "start": 23.2,
+          "end": 23.32,
+          "probability": 0.5114145278930664
+        },
+        {
+          "word": " poor,",
+          "start": 23.32,
+          "end": 23.48,
+          "probability": 0.34284719824790955
+        },
+        {
+          "word": " something.",
+          "start": 23.58,
+          "end": 24.0,
+          "probability": 0.6975744962692261
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 156,
+      "start": 25.12,
+      "end": 25.98,
+      "text": " Reading a book.",
+      "tokens": [
+        51514,
+        29766,
+        257,
+        1446,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7380845206124442,
+      "compression_ratio": 1.4396551724137931,
+      "no_speech_prob": 0.38118886947631836,
+      "words": [
+        {
+          "word": " Reading",
+          "start": 25.12,
+          "end": 25.58,
+          "probability": 0.5486310124397278
+        },
+        {
+          "word": " a",
+          "start": 25.58,
+          "end": 25.68,
+          "probability": 0.8811670541763306
+        },
+        {
+          "word": " book.",
+          "start": 25.68,
+          "end": 25.98,
+          "probability": 0.9991200566291809
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2598,
+      "start": 25.98,
+      "end": 26.68,
+      "text": " Dogs.",
+      "tokens": [
+        50364,
+        35504,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5077966213226318,
+      "compression_ratio": 0.8378378378378378,
+      "no_speech_prob": 0.07043690979480743,
+      "words": [
+        {
+          "word": " Dogs.",
+          "start": 25.98,
+          "end": 26.68,
+          "probability": 0.0009584635845385492
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2598,
+      "start": 29.98,
+      "end": 30.64,
+      "text": " Dog.",
+      "tokens": [
+        50564,
+        13472,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5077966213226318,
+      "compression_ratio": 0.8378378378378378,
+      "no_speech_prob": 0.07043690979480743,
+      "words": [
+        {
+          "word": " Dog.",
+          "start": 29.94,
+          "end": 30.64,
+          "probability": 0.2944808900356293
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2598,
+      "start": 33.980000000000004,
+      "end": 34.58,
+      "text": " Cuff fishing.",
+      "tokens": [
+        50764,
+        383,
+        1245,
+        10180,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5077966213226318,
+      "compression_ratio": 0.8378378378378378,
+      "no_speech_prob": 0.07043690979480743,
+      "words": [
+        {
+          "word": " Cuff",
+          "start": 33.48,
+          "end": 34.18,
+          "probability": 0.3441724441945553
+        },
+        {
+          "word": " fishing.",
+          "start": 34.18,
+          "end": 34.58,
+          "probability": 0.7921810746192932
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 2598,
+      "start": 38.26,
+      "end": 39.48,
+      "text": " Trays.",
+      "tokens": [
+        50964,
+        1765,
+        3772,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5077966213226318,
+      "compression_ratio": 0.8378378378378378,
+      "no_speech_prob": 0.07043690979480743,
+      "words": [
+        {
+          "word": " Trays.",
+          "start": 38.26,
+          "end": 39.48,
+          "probability": 0.7944597005844116
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+{
+  "text": " They have a sail, dust in their sailboat, and surfers, and fishing, and a flag. And a dog, and something that was dealt up, and it has two people with stuff on their legs. Not stuff on their legs, radios, and beer kindness. And a boy, and a car, others, and then I'm fine. And a tree, and something that was done by a car, and a trailer. Or no, something that was done by something else.",
+  "words": [
+    {
+      "word": "They",
+      "start": 5.459999999999998,
+      "end": 6.72
+    },
+    {
+      "word": "have",
+      "start": 6.72,
+      "end": 7.28
+    },
+    {
+      "word": "a",
+      "start": 7.28,
+      "end": 7.74
+    },
+    {
+      "word": "sail,",
+      "start": 7.74,
+      "end": 8.6
+    },
+    {
+      "word": "dust",
+      "start": 8.94,
+      "end": 10.44
+    },
+    {
+      "word": "in",
+      "start": 10.44,
+      "end": 10.94
+    },
+    {
+      "word": "their",
+      "start": 10.94,
+      "end": 11.32
+    },
+    {
+      "word": "sailboat,",
+      "start": 11.32,
+      "end": 12.82
+    },
+    {
+      "word": "and",
+      "start": 13.5,
+      "end": 14.36
+    },
+    {
+      "word": "surfers,",
+      "start": 14.36,
+      "end": 17.2
+    },
+    {
+      "word": "and",
+      "start": 17.26,
+      "end": 17.54
+    },
+    {
+      "word": "fishing,",
+      "start": 17.54,
+      "end": 22.62
+    },
+    {
+      "word": "and",
+      "start": 24.9,
+      "end": 25.72
+    },
+    {
+      "word": "a",
+      "start": 25.72,
+      "end": 26.2
+    },
+    {
+      "word": "flag.",
+      "start": 26.2,
+      "end": 26.78
+    },
+    {
+      "word": "And",
+      "start": 28.98,
+      "end": 30.12
+    },
+    {
+      "word": "a",
+      "start": 30.12,
+      "end": 30.38
+    },
+    {
+      "word": "dog,",
+      "start": 30.38,
+      "end": 30.66
+    },
+    {
+      "word": "and",
+      "start": 30.96,
+      "end": 33.56
+    },
+    {
+      "word": "something",
+      "start": 33.56,
+      "end": 35.16
+    },
+    {
+      "word": "that",
+      "start": 35.16,
+      "end": 35.52
+    },
+    {
+      "word": "was",
+      "start": 35.52,
+      "end": 36.02
+    },
+    {
+      "word": "dealt",
+      "start": 36.02,
+      "end": 39.88
+    },
+    {
+      "word": "up,",
+      "start": 39.88,
+      "end": 40.4
+    },
+    {
+      "word": "and",
+      "start": 41.66,
+      "end": 42.02
+    },
+    {
+      "word": "it",
+      "start": 42.02,
+      "end": 42.38
+    },
+    {
+      "word": "has",
+      "start": 42.38,
+      "end": 42.8
+    },
+    {
+      "word": "two",
+      "start": 42.8,
+      "end": 43.6
+    },
+    {
+      "word": "people",
+      "start": 43.6,
+      "end": 44.64
+    },
+    {
+      "word": "with",
+      "start": 44.64,
+      "end": 45.28
+    },
+    {
+      "word": "stuff",
+      "start": 45.28,
+      "end": 47.58
+    },
+    {
+      "word": "on",
+      "start": 47.58,
+      "end": 48.48
+    },
+    {
+      "word": "their",
+      "start": 48.48,
+      "end": 48.66
+    },
+    {
+      "word": "legs.",
+      "start": 48.66,
+      "end": 49.28
+    },
+    {
+      "word": "Not",
+      "start": 51.14,
+      "end": 52.54
+    },
+    {
+      "word": "stuff",
+      "start": 52.54,
+      "end": 52.92
+    },
+    {
+      "word": "on",
+      "start": 52.92,
+      "end": 53.08
+    },
+    {
+      "word": "their",
+      "start": 53.08,
+      "end": 53.24
+    },
+    {
+      "word": "legs,",
+      "start": 53.24,
+      "end": 53.64
+    },
+    {
+      "word": "radios,",
+      "start": 54.68,
+      "end": 55.64
+    },
+    {
+      "word": "and",
+      "start": 56.7,
+      "end": 62.36
+    },
+    {
+      "word": "beer",
+      "start": 62.36,
+      "end": 63.22
+    },
+    {
+      "word": "kindness.",
+      "start": 63.22,
+      "end": 64.24
+    },
+    {
+      "word": "And",
+      "start": 65.74000000000001,
+      "end": 66.5
+    },
+    {
+      "word": "a",
+      "start": 66.5,
+      "end": 66.64
+    },
+    {
+      "word": "boy,",
+      "start": 66.64,
+      "end": 72.6
+    },
+    {
+      "word": "and",
+      "start": 73.08,
+      "end": 76.62
+    },
+    {
+      "word": "a",
+      "start": 76.62,
+      "end": 76.8
+    },
+    {
+      "word": "car,",
+      "start": 76.8,
+      "end": 78.62
+    },
+    {
+      "word": "others,",
+      "start": 79.92,
+      "end": 83.4
+    },
+    {
+      "word": "and",
+      "start": 83.54,
+      "end": 83.6
+    },
+    {
+      "word": "then",
+      "start": 83.6,
+      "end": 83.72
+    },
+    {
+      "word": "I'm",
+      "start": 83.72,
+      "end": 83.98
+    },
+    {
+      "word": "fine.",
+      "start": 83.98,
+      "end": 84.22
+    },
+    {
+      "word": "And",
+      "start": 86.97999999999999,
+      "end": 87.86
+    },
+    {
+      "word": "a",
+      "start": 87.86,
+      "end": 87.98
+    },
+    {
+      "word": "tree,",
+      "start": 87.98,
+      "end": 88.28
+    },
+    {
+      "word": "and",
+      "start": 88.66,
+      "end": 90.96
+    },
+    {
+      "word": "something",
+      "start": 90.96,
+      "end": 94.3
+    },
+    {
+      "word": "that",
+      "start": 94.3,
+      "end": 94.58
+    },
+    {
+      "word": "was",
+      "start": 94.58,
+      "end": 94.92
+    },
+    {
+      "word": "done",
+      "start": 94.92,
+      "end": 98.0
+    },
+    {
+      "word": "by",
+      "start": 98.0,
+      "end": 98.48
+    },
+    {
+      "word": "a",
+      "start": 98.48,
+      "end": 98.92
+    },
+    {
+      "word": "car,",
+      "start": 98.92,
+      "end": 110.02
+    },
+    {
+      "word": "and",
+      "start": 111.12,
+      "end": 111.56
+    },
+    {
+      "word": "a",
+      "start": 111.56,
+      "end": 111.88
+    },
+    {
+      "word": "trailer.",
+      "start": 111.88,
+      "end": 112.68
+    },
+    {
+      "word": "Or",
+      "start": 112.68,
+      "end": 113.16
+    },
+    {
+      "word": "no,",
+      "start": 113.16,
+      "end": 113.36
+    },
+    {
+      "word": "something",
+      "start": 113.66,
+      "end": 114.06
+    },
+    {
+      "word": "that",
+      "start": 114.06,
+      "end": 114.4
+    },
+    {
+      "word": "was",
+      "start": 114.4,
+      "end": 114.76
+    },
+    {
+      "word": "done",
+      "start": 114.76,
+      "end": 115.28
+    },
+    {
+      "word": "by",
+      "start": 115.28,
+      "end": 115.64
+    },
+    {
+      "word": "something",
+      "start": 115.64,
+      "end": 116.7
+    },
+    {
+      "word": "else.",
+      "start": 116.7,
+      "end": 117.0
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5.459999999999998,
+      "end": 26.78,
+      "text": " They have a sail, dust in their sailboat, and surfers, and fishing, and a flag.",
+      "tokens": [
+        50364,
+        814,
+        362,
+        257,
+        15758,
+        11,
+        8634,
+        294,
+        641,
+        15758,
+        31883,
+        11,
+        293,
+        9684,
+        433,
+        11,
+        293,
+        10180,
+        11,
+        293,
+        257,
+        7166,
+        13,
+        51860
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5507356937115009,
+      "compression_ratio": 1.1126760563380282,
+      "no_speech_prob": 0.21576140820980072,
+      "words": [
+        {
+          "word": " They",
+          "start": 5.459999999999998,
+          "end": 6.72,
+          "probability": 0.5664135217666626
+        },
+        {
+          "word": " have",
+          "start": 6.72,
+          "end": 7.28,
+          "probability": 0.988922119140625
+        },
+        {
+          "word": " a",
+          "start": 7.28,
+          "end": 7.74,
+          "probability": 0.6030646562576294
+        },
+        {
+          "word": " sail,",
+          "start": 7.74,
+          "end": 8.6,
+          "probability": 0.37849369645118713
+        },
+        {
+          "word": " dust",
+          "start": 8.94,
+          "end": 10.44,
+          "probability": 0.24344883859157562
+        },
+        {
+          "word": " in",
+          "start": 10.44,
+          "end": 10.94,
+          "probability": 0.8851726651191711
+        },
+        {
+          "word": " their",
+          "start": 10.94,
+          "end": 11.32,
+          "probability": 0.6101441979408264
+        },
+        {
+          "word": " sailboat,",
+          "start": 11.32,
+          "end": 12.82,
+          "probability": 0.9554153680801392
+        },
+        {
+          "word": " and",
+          "start": 13.5,
+          "end": 14.36,
+          "probability": 0.9746465086936951
+        },
+        {
+          "word": " surfers,",
+          "start": 14.36,
+          "end": 17.2,
+          "probability": 0.6920234262943268
+        },
+        {
+          "word": " and",
+          "start": 17.26,
+          "end": 17.54,
+          "probability": 0.6744444370269775
+        },
+        {
+          "word": " fishing,",
+          "start": 17.54,
+          "end": 22.62,
+          "probability": 0.8693747520446777
+        },
+        {
+          "word": " and",
+          "start": 24.9,
+          "end": 25.72,
+          "probability": 0.9693883657455444
+        },
+        {
+          "word": " a",
+          "start": 25.72,
+          "end": 26.2,
+          "probability": 0.93803870677948
+        },
+        {
+          "word": " flag.",
+          "start": 26.2,
+          "end": 26.78,
+          "probability": 0.9714316725730896
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 2678,
+      "start": 28.98,
+      "end": 49.28,
+      "text": " And a dog, and something that was dealt up, and it has two people with stuff on their legs.",
+      "tokens": [
+        50364,
+        400,
+        257,
+        3000,
+        11,
+        293,
+        746,
+        300,
+        390,
+        15991,
+        493,
+        11,
+        293,
+        309,
+        575,
+        732,
+        561,
+        365,
+        1507,
+        322,
+        641,
+        5668,
+        13,
+        51612
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4575980626619779,
+      "compression_ratio": 1.123456790123457,
+      "no_speech_prob": 0.42224517464637756,
+      "words": [
+        {
+          "word": " And",
+          "start": 28.98,
+          "end": 30.12,
+          "probability": 0.24691151082515717
+        },
+        {
+          "word": " a",
+          "start": 30.12,
+          "end": 30.38,
+          "probability": 0.8955655694007874
+        },
+        {
+          "word": " dog,",
+          "start": 30.38,
+          "end": 30.66,
+          "probability": 0.9918738007545471
+        },
+        {
+          "word": " and",
+          "start": 30.96,
+          "end": 33.56,
+          "probability": 0.9553639888763428
+        },
+        {
+          "word": " something",
+          "start": 33.56,
+          "end": 35.16,
+          "probability": 0.5166934728622437
+        },
+        {
+          "word": " that",
+          "start": 35.16,
+          "end": 35.52,
+          "probability": 0.9890073537826538
+        },
+        {
+          "word": " was",
+          "start": 35.52,
+          "end": 36.02,
+          "probability": 0.9539505243301392
+        },
+        {
+          "word": " dealt",
+          "start": 36.02,
+          "end": 39.88,
+          "probability": 0.24729755520820618
+        },
+        {
+          "word": " up,",
+          "start": 39.88,
+          "end": 40.4,
+          "probability": 0.9859322309494019
+        },
+        {
+          "word": " and",
+          "start": 41.66,
+          "end": 42.02,
+          "probability": 0.9808884263038635
+        },
+        {
+          "word": " it",
+          "start": 42.02,
+          "end": 42.38,
+          "probability": 0.5647338628768921
+        },
+        {
+          "word": " has",
+          "start": 42.38,
+          "end": 42.8,
+          "probability": 0.5145528316497803
+        },
+        {
+          "word": " two",
+          "start": 42.8,
+          "end": 43.6,
+          "probability": 0.9762260317802429
+        },
+        {
+          "word": " people",
+          "start": 43.6,
+          "end": 44.64,
+          "probability": 0.9973887801170349
+        },
+        {
+          "word": " with",
+          "start": 44.64,
+          "end": 45.28,
+          "probability": 0.987808346748352
+        },
+        {
+          "word": " stuff",
+          "start": 45.28,
+          "end": 47.58,
+          "probability": 0.7446369528770447
+        },
+        {
+          "word": " on",
+          "start": 47.58,
+          "end": 48.48,
+          "probability": 0.9911049008369446
+        },
+        {
+          "word": " their",
+          "start": 48.48,
+          "end": 48.66,
+          "probability": 0.9974875450134277
+        },
+        {
+          "word": " legs.",
+          "start": 48.66,
+          "end": 49.28,
+          "probability": 0.9946432113647461
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 4928,
+      "start": 51.14,
+      "end": 64.24,
+      "text": " Not stuff on their legs, radios, and beer kindness.",
+      "tokens": [
+        50364,
+        1726,
+        1507,
+        322,
+        641,
+        5668,
+        11,
+        2843,
+        2717,
+        11,
+        293,
+        8795,
+        18171,
+        13,
+        51612
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4483545527738683,
+      "compression_ratio": 0.8947368421052632,
+      "no_speech_prob": 0.48250114917755127,
+      "words": [
+        {
+          "word": " Not",
+          "start": 51.14,
+          "end": 52.54,
+          "probability": 0.40234649181365967
+        },
+        {
+          "word": " stuff",
+          "start": 52.54,
+          "end": 52.92,
+          "probability": 0.9067873358726501
+        },
+        {
+          "word": " on",
+          "start": 52.92,
+          "end": 53.08,
+          "probability": 0.9944300055503845
+        },
+        {
+          "word": " their",
+          "start": 53.08,
+          "end": 53.24,
+          "probability": 0.9757669568061829
+        },
+        {
+          "word": " legs,",
+          "start": 53.24,
+          "end": 53.64,
+          "probability": 0.991651713848114
+        },
+        {
+          "word": " radios,",
+          "start": 54.68,
+          "end": 55.64,
+          "probability": 0.8438645601272583
+        },
+        {
+          "word": " and",
+          "start": 56.7,
+          "end": 62.36,
+          "probability": 0.8673638701438904
+        },
+        {
+          "word": " beer",
+          "start": 62.36,
+          "end": 63.22,
+          "probability": 0.8950425982475281
+        },
+        {
+          "word": " kindness.",
+          "start": 63.22,
+          "end": 64.24,
+          "probability": 0.34565770626068115
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 6424,
+      "start": 65.74000000000001,
+      "end": 84.22,
+      "text": " And a boy, and a car, others, and then I'm fine.",
+      "tokens": [
+        50364,
+        400,
+        257,
+        3237,
+        11,
+        293,
+        257,
+        1032,
+        11,
+        2357,
+        11,
+        293,
+        550,
+        286,
+        478,
+        2489,
+        13,
+        51512
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5058581352233886,
+      "compression_ratio": 1.0212765957446808,
+      "no_speech_prob": 0.5828207731246948,
+      "words": [
+        {
+          "word": " And",
+          "start": 65.74000000000001,
+          "end": 66.5,
+          "probability": 0.14937737584114075
+        },
+        {
+          "word": " a",
+          "start": 66.5,
+          "end": 66.64,
+          "probability": 0.5718211531639099
+        },
+        {
+          "word": " boy,",
+          "start": 66.64,
+          "end": 72.6,
+          "probability": 0.028766147792339325
+        },
+        {
+          "word": " and",
+          "start": 73.08,
+          "end": 76.62,
+          "probability": 0.7120760679244995
+        },
+        {
+          "word": " a",
+          "start": 76.62,
+          "end": 76.8,
+          "probability": 0.963326096534729
+        },
+        {
+          "word": " car,",
+          "start": 76.8,
+          "end": 78.62,
+          "probability": 0.9849050641059875
+        },
+        {
+          "word": " others,",
+          "start": 79.92,
+          "end": 83.4,
+          "probability": 0.3843756318092346
+        },
+        {
+          "word": " and",
+          "start": 83.54,
+          "end": 83.6,
+          "probability": 0.9589861035346985
+        },
+        {
+          "word": " then",
+          "start": 83.6,
+          "end": 83.72,
+          "probability": 0.9544590711593628
+        },
+        {
+          "word": " I'm",
+          "start": 83.72,
+          "end": 83.98,
+          "probability": 0.7765654623508453
+        },
+        {
+          "word": " fine.",
+          "start": 83.98,
+          "end": 84.22,
+          "probability": 0.9642305374145508
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 8422,
+      "start": 86.97999999999999,
+      "end": 112.68,
+      "text": " And a tree, and something that was done by a car, and a trailer.",
+      "tokens": [
+        50364,
+        400,
+        257,
+        4230,
+        11,
+        293,
+        746,
+        300,
+        390,
+        1096,
+        538,
+        257,
+        1032,
+        11,
+        293,
+        257,
+        11724,
+        13,
+        51812
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26018228985014413,
+      "compression_ratio": 1.0158730158730158,
+      "no_speech_prob": 0.6872714757919312,
+      "words": [
+        {
+          "word": " And",
+          "start": 86.97999999999999,
+          "end": 87.86,
+          "probability": 0.12242740392684937
+        },
+        {
+          "word": " a",
+          "start": 87.86,
+          "end": 87.98,
+          "probability": 0.7507458925247192
+        },
+        {
+          "word": " tree,",
+          "start": 87.98,
+          "end": 88.28,
+          "probability": 0.75416100025177
+        },
+        {
+          "word": " and",
+          "start": 88.66,
+          "end": 90.96,
+          "probability": 0.6555832028388977
+        },
+        {
+          "word": " something",
+          "start": 90.96,
+          "end": 94.3,
+          "probability": 0.26548677682876587
+        },
+        {
+          "word": " that",
+          "start": 94.3,
+          "end": 94.58,
+          "probability": 0.9748417735099792
+        },
+        {
+          "word": " was",
+          "start": 94.58,
+          "end": 94.92,
+          "probability": 0.989605188369751
+        },
+        {
+          "word": " done",
+          "start": 94.92,
+          "end": 98.0,
+          "probability": 0.8479022979736328
+        },
+        {
+          "word": " by",
+          "start": 98.0,
+          "end": 98.48,
+          "probability": 0.9830878376960754
+        },
+        {
+          "word": " a",
+          "start": 98.48,
+          "end": 98.92,
+          "probability": 0.5739332437515259
+        },
+        {
+          "word": " car,",
+          "start": 98.92,
+          "end": 110.02,
+          "probability": 0.8726432919502258
+        },
+        {
+          "word": " and",
+          "start": 111.12,
+          "end": 111.56,
+          "probability": 0.9649769067764282
+        },
+        {
+          "word": " a",
+          "start": 111.56,
+          "end": 111.88,
+          "probability": 0.9883991479873657
+        },
+        {
+          "word": " trailer.",
+          "start": 111.88,
+          "end": 112.68,
+          "probability": 0.9889678359031677
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 11268,
+      "start": 112.68,
+      "end": 117.0,
+      "text": " Or no, something that was done by something else.",
+      "tokens": [
+        50364,
+        1610,
+        572,
+        11,
+        746,
+        300,
+        390,
+        1096,
+        538,
+        746,
+        1646,
+        13,
+        51812
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3111508914402553,
+      "compression_ratio": 1.0208333333333333,
+      "no_speech_prob": 0.10250063985586166,
+      "words": [
+        {
+          "word": " Or",
+          "start": 112.68,
+          "end": 113.16,
+          "probability": 0.14720375835895538
+        },
+        {
+          "word": " no,",
+          "start": 113.16,
+          "end": 113.36,
+          "probability": 0.6089271306991577
+        },
+        {
+          "word": " something",
+          "start": 113.66,
+          "end": 114.06,
+          "probability": 0.9820306301116943
+        },
+        {
+          "word": " that",
+          "start": 114.06,
+          "end": 114.4,
+          "probability": 0.3063294291496277
+        },
+        {
+          "word": " was",
+          "start": 114.4,
+          "end": 114.76,
+          "probability": 0.9917134046554565
+        },
+        {
+          "word": " done",
+          "start": 114.76,
+          "end": 115.28,
+          "probability": 0.9981523156166077
+        },
+        {
+          "word": " by",
+          "start": 115.28,
+          "end": 115.64,
+          "probability": 0.9812309145927429
+        },
+        {
+          "word": " something",
+          "start": 115.64,
+          "end": 116.7,
+          "probability": 0.8854165077209473
+        },
+        {
+          "word": " else.",
+          "start": 116.7,
+          "end": 117.0,
+          "probability": 0.9994574189186096
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1423 @@
+{
+  "text": " I see a couple having a picnic and the man is reading a book and the woman is pouring some liquid into a cup and she has a radio. A second man is flying a kite and over the ocean over the water anyway. Beside a dog and there is a sailboat in the water. There is a house with a car part in front of it and a flagpole with a flag on it but we can't see what the flag is. It is by the water but not in the water. There is a man with or something, somebody fishing in the off the pier in the water.",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.0,
+      "end": 0.88
+    },
+    {
+      "word": "see",
+      "start": 0.88,
+      "end": 1.28
+    },
+    {
+      "word": "a",
+      "start": 1.28,
+      "end": 2.14
+    },
+    {
+      "word": "couple",
+      "start": 2.14,
+      "end": 4.22
+    },
+    {
+      "word": "having",
+      "start": 4.22,
+      "end": 5.8
+    },
+    {
+      "word": "a",
+      "start": 5.8,
+      "end": 5.98
+    },
+    {
+      "word": "picnic",
+      "start": 5.98,
+      "end": 6.38
+    },
+    {
+      "word": "and",
+      "start": 6.38,
+      "end": 7.5
+    },
+    {
+      "word": "the",
+      "start": 7.5,
+      "end": 7.82
+    },
+    {
+      "word": "man",
+      "start": 7.82,
+      "end": 9.32
+    },
+    {
+      "word": "is",
+      "start": 9.32,
+      "end": 10.24
+    },
+    {
+      "word": "reading",
+      "start": 10.24,
+      "end": 10.88
+    },
+    {
+      "word": "a",
+      "start": 10.88,
+      "end": 11.08
+    },
+    {
+      "word": "book",
+      "start": 11.08,
+      "end": 11.36
+    },
+    {
+      "word": "and",
+      "start": 11.36,
+      "end": 11.94
+    },
+    {
+      "word": "the",
+      "start": 11.94,
+      "end": 12.2
+    },
+    {
+      "word": "woman",
+      "start": 12.2,
+      "end": 12.56
+    },
+    {
+      "word": "is",
+      "start": 12.56,
+      "end": 13.52
+    },
+    {
+      "word": "pouring",
+      "start": 13.52,
+      "end": 15.44
+    },
+    {
+      "word": "some",
+      "start": 15.44,
+      "end": 16.92
+    },
+    {
+      "word": "liquid",
+      "start": 16.92,
+      "end": 17.46
+    },
+    {
+      "word": "into",
+      "start": 17.46,
+      "end": 18.44
+    },
+    {
+      "word": "a",
+      "start": 18.44,
+      "end": 18.82
+    },
+    {
+      "word": "cup",
+      "start": 18.82,
+      "end": 19.04
+    },
+    {
+      "word": "and",
+      "start": 19.04,
+      "end": 21.02
+    },
+    {
+      "word": "she",
+      "start": 21.02,
+      "end": 21.34
+    },
+    {
+      "word": "has",
+      "start": 21.34,
+      "end": 21.9
+    },
+    {
+      "word": "a",
+      "start": 21.9,
+      "end": 22.66
+    },
+    {
+      "word": "radio.",
+      "start": 22.66,
+      "end": 24.36
+    },
+    {
+      "word": "A",
+      "start": 27.34,
+      "end": 27.4
+    },
+    {
+      "word": "second",
+      "start": 27.4,
+      "end": 28.74
+    },
+    {
+      "word": "man",
+      "start": 28.74,
+      "end": 29.16
+    },
+    {
+      "word": "is",
+      "start": 29.16,
+      "end": 30.6
+    },
+    {
+      "word": "flying",
+      "start": 30.6,
+      "end": 31.76
+    },
+    {
+      "word": "a",
+      "start": 31.76,
+      "end": 32.14
+    },
+    {
+      "word": "kite",
+      "start": 32.14,
+      "end": 32.5
+    },
+    {
+      "word": "and",
+      "start": 32.5,
+      "end": 34.22
+    },
+    {
+      "word": "over",
+      "start": 34.22,
+      "end": 35.9
+    },
+    {
+      "word": "the",
+      "start": 35.9,
+      "end": 36.16
+    },
+    {
+      "word": "ocean",
+      "start": 36.16,
+      "end": 36.78
+    },
+    {
+      "word": "over",
+      "start": 36.78,
+      "end": 37.48
+    },
+    {
+      "word": "the",
+      "start": 37.48,
+      "end": 37.64
+    },
+    {
+      "word": "water",
+      "start": 37.64,
+      "end": 38.02
+    },
+    {
+      "word": "anyway.",
+      "start": 38.02,
+      "end": 39.5
+    },
+    {
+      "word": "Beside",
+      "start": 40.7,
+      "end": 42.06
+    },
+    {
+      "word": "a",
+      "start": 42.06,
+      "end": 42.28
+    },
+    {
+      "word": "dog",
+      "start": 42.28,
+      "end": 42.64
+    },
+    {
+      "word": "and",
+      "start": 42.64,
+      "end": 43.72
+    },
+    {
+      "word": "there",
+      "start": 43.72,
+      "end": 45.96
+    },
+    {
+      "word": "is",
+      "start": 45.96,
+      "end": 46.28
+    },
+    {
+      "word": "a",
+      "start": 46.28,
+      "end": 46.48
+    },
+    {
+      "word": "sailboat",
+      "start": 46.48,
+      "end": 47.16
+    },
+    {
+      "word": "in",
+      "start": 47.16,
+      "end": 48.76
+    },
+    {
+      "word": "the",
+      "start": 48.76,
+      "end": 49.46
+    },
+    {
+      "word": "water.",
+      "start": 49.46,
+      "end": 51.6
+    },
+    {
+      "word": "There",
+      "start": 54.48,
+      "end": 55.84
+    },
+    {
+      "word": "is",
+      "start": 55.84,
+      "end": 56.28
+    },
+    {
+      "word": "a",
+      "start": 56.28,
+      "end": 56.6
+    },
+    {
+      "word": "house",
+      "start": 56.6,
+      "end": 57.28
+    },
+    {
+      "word": "with",
+      "start": 57.28,
+      "end": 59.26
+    },
+    {
+      "word": "a",
+      "start": 59.26,
+      "end": 59.5
+    },
+    {
+      "word": "car",
+      "start": 59.5,
+      "end": 59.98
+    },
+    {
+      "word": "part",
+      "start": 59.98,
+      "end": 61.08
+    },
+    {
+      "word": "in",
+      "start": 63.6,
+      "end": 64.64
+    },
+    {
+      "word": "front",
+      "start": 64.64,
+      "end": 64.92
+    },
+    {
+      "word": "of",
+      "start": 64.92,
+      "end": 65.16
+    },
+    {
+      "word": "it",
+      "start": 65.16,
+      "end": 65.54
+    },
+    {
+      "word": "and",
+      "start": 65.54,
+      "end": 67.3
+    },
+    {
+      "word": "a",
+      "start": 67.3,
+      "end": 68.18
+    },
+    {
+      "word": "flagpole",
+      "start": 68.18,
+      "end": 70.82
+    },
+    {
+      "word": "with",
+      "start": 70.82,
+      "end": 71.5
+    },
+    {
+      "word": "a",
+      "start": 71.5,
+      "end": 71.8
+    },
+    {
+      "word": "flag",
+      "start": 71.8,
+      "end": 73.5
+    },
+    {
+      "word": "on",
+      "start": 73.5,
+      "end": 74.08
+    },
+    {
+      "word": "it",
+      "start": 74.08,
+      "end": 74.44
+    },
+    {
+      "word": "but",
+      "start": 74.44,
+      "end": 74.78
+    },
+    {
+      "word": "we",
+      "start": 74.78,
+      "end": 75.36
+    },
+    {
+      "word": "can't",
+      "start": 75.36,
+      "end": 76.06
+    },
+    {
+      "word": "see",
+      "start": 76.06,
+      "end": 76.5
+    },
+    {
+      "word": "what",
+      "start": 76.5,
+      "end": 77.06
+    },
+    {
+      "word": "the",
+      "start": 77.06,
+      "end": 77.32
+    },
+    {
+      "word": "flag",
+      "start": 77.32,
+      "end": 77.68
+    },
+    {
+      "word": "is.",
+      "start": 77.68,
+      "end": 79.64
+    },
+    {
+      "word": "It",
+      "start": 81.36,
+      "end": 82.4
+    },
+    {
+      "word": "is",
+      "start": 82.4,
+      "end": 85.78
+    },
+    {
+      "word": "by",
+      "start": 85.78,
+      "end": 86.3
+    },
+    {
+      "word": "the",
+      "start": 86.3,
+      "end": 86.76
+    },
+    {
+      "word": "water",
+      "start": 86.76,
+      "end": 87.28
+    },
+    {
+      "word": "but",
+      "start": 87.28,
+      "end": 88.86
+    },
+    {
+      "word": "not",
+      "start": 88.86,
+      "end": 89.2
+    },
+    {
+      "word": "in",
+      "start": 89.2,
+      "end": 89.5
+    },
+    {
+      "word": "the",
+      "start": 89.5,
+      "end": 89.68
+    },
+    {
+      "word": "water.",
+      "start": 89.68,
+      "end": 90.1
+    },
+    {
+      "word": "There",
+      "start": 90.1,
+      "end": 91.46
+    },
+    {
+      "word": "is",
+      "start": 91.46,
+      "end": 91.8
+    },
+    {
+      "word": "a",
+      "start": 91.8,
+      "end": 92.0
+    },
+    {
+      "word": "man",
+      "start": 92.0,
+      "end": 92.5
+    },
+    {
+      "word": "with",
+      "start": 92.5,
+      "end": 94.34
+    },
+    {
+      "word": "or",
+      "start": 94.34,
+      "end": 95.44
+    },
+    {
+      "word": "something,",
+      "start": 95.44,
+      "end": 96.28
+    },
+    {
+      "word": "somebody",
+      "start": 96.68,
+      "end": 97.52
+    },
+    {
+      "word": "fishing",
+      "start": 97.52,
+      "end": 100.38
+    },
+    {
+      "word": "in",
+      "start": 100.38,
+      "end": 102.08
+    },
+    {
+      "word": "the",
+      "start": 102.08,
+      "end": 105.16
+    },
+    {
+      "word": "off",
+      "start": 105.16,
+      "end": 107.62
+    },
+    {
+      "word": "the",
+      "start": 107.62,
+      "end": 108.14
+    },
+    {
+      "word": "pier",
+      "start": 108.14,
+      "end": 108.86
+    },
+    {
+      "word": "in",
+      "start": 108.86,
+      "end": 110.22
+    },
+    {
+      "word": "the",
+      "start": 110.22,
+      "end": 110.52
+    },
+    {
+      "word": "water.",
+      "start": 110.52,
+      "end": 111.94
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 15.44,
+      "text": " I see a couple having a picnic and the man is reading a book and the woman is pouring",
+      "tokens": [
+        50364,
+        286,
+        536,
+        257,
+        1916,
+        1419,
+        257,
+        32137,
+        293,
+        264,
+        587,
+        307,
+        3760,
+        257,
+        1446,
+        293,
+        264,
+        3059,
+        307,
+        20450,
+        51192
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18140025760816492,
+      "compression_ratio": 1.2142857142857142,
+      "no_speech_prob": 0.16383977234363556,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.8860255479812622
+        },
+        {
+          "word": " see",
+          "start": 0.88,
+          "end": 1.28,
+          "probability": 0.9930518865585327
+        },
+        {
+          "word": " a",
+          "start": 1.28,
+          "end": 2.14,
+          "probability": 0.9809675812721252
+        },
+        {
+          "word": " couple",
+          "start": 2.14,
+          "end": 4.22,
+          "probability": 0.9623814225196838
+        },
+        {
+          "word": " having",
+          "start": 4.22,
+          "end": 5.8,
+          "probability": 0.7985158562660217
+        },
+        {
+          "word": " a",
+          "start": 5.8,
+          "end": 5.98,
+          "probability": 0.9944332242012024
+        },
+        {
+          "word": " picnic",
+          "start": 5.98,
+          "end": 6.38,
+          "probability": 0.95062655210495
+        },
+        {
+          "word": " and",
+          "start": 6.38,
+          "end": 7.5,
+          "probability": 0.6394668221473694
+        },
+        {
+          "word": " the",
+          "start": 7.5,
+          "end": 7.82,
+          "probability": 0.9770633578300476
+        },
+        {
+          "word": " man",
+          "start": 7.82,
+          "end": 9.32,
+          "probability": 0.9591020941734314
+        },
+        {
+          "word": " is",
+          "start": 9.32,
+          "end": 10.24,
+          "probability": 0.9931551814079285
+        },
+        {
+          "word": " reading",
+          "start": 10.24,
+          "end": 10.88,
+          "probability": 0.9979762434959412
+        },
+        {
+          "word": " a",
+          "start": 10.88,
+          "end": 11.08,
+          "probability": 0.9966579675674438
+        },
+        {
+          "word": " book",
+          "start": 11.08,
+          "end": 11.36,
+          "probability": 0.999553382396698
+        },
+        {
+          "word": " and",
+          "start": 11.36,
+          "end": 11.94,
+          "probability": 0.881782054901123
+        },
+        {
+          "word": " the",
+          "start": 11.94,
+          "end": 12.2,
+          "probability": 0.9972785115242004
+        },
+        {
+          "word": " woman",
+          "start": 12.2,
+          "end": 12.56,
+          "probability": 0.9963202476501465
+        },
+        {
+          "word": " is",
+          "start": 12.56,
+          "end": 13.52,
+          "probability": 0.9972161054611206
+        },
+        {
+          "word": " pouring",
+          "start": 13.52,
+          "end": 15.44,
+          "probability": 0.9684699773788452
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 1544,
+      "start": 15.44,
+      "end": 36.16,
+      "text": " some liquid into a cup and she has a radio. A second man is flying a kite and over the",
+      "tokens": [
+        50364,
+        512,
+        6553,
+        666,
+        257,
+        4414,
+        293,
+        750,
+        575,
+        257,
+        6477,
+        13,
+        316,
+        1150,
+        587,
+        307,
+        7137,
+        257,
+        38867,
+        293,
+        670,
+        264,
+        51398
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30372339248657226,
+      "compression_ratio": 1.0886075949367089,
+      "no_speech_prob": 0.2272634655237198,
+      "words": [
+        {
+          "word": " some",
+          "start": 15.44,
+          "end": 16.92,
+          "probability": 0.1642811894416809
+        },
+        {
+          "word": " liquid",
+          "start": 16.92,
+          "end": 17.46,
+          "probability": 0.9970760345458984
+        },
+        {
+          "word": " into",
+          "start": 17.46,
+          "end": 18.44,
+          "probability": 0.9444053769111633
+        },
+        {
+          "word": " a",
+          "start": 18.44,
+          "end": 18.82,
+          "probability": 0.9898685216903687
+        },
+        {
+          "word": " cup",
+          "start": 18.82,
+          "end": 19.04,
+          "probability": 0.9977766871452332
+        },
+        {
+          "word": " and",
+          "start": 19.04,
+          "end": 21.02,
+          "probability": 0.4719894528388977
+        },
+        {
+          "word": " she",
+          "start": 21.02,
+          "end": 21.34,
+          "probability": 0.9958589673042297
+        },
+        {
+          "word": " has",
+          "start": 21.34,
+          "end": 21.9,
+          "probability": 0.9987794756889343
+        },
+        {
+          "word": " a",
+          "start": 21.9,
+          "end": 22.66,
+          "probability": 0.9926787614822388
+        },
+        {
+          "word": " radio.",
+          "start": 22.66,
+          "end": 24.36,
+          "probability": 0.9801002144813538
+        },
+        {
+          "word": " A",
+          "start": 27.34,
+          "end": 27.4,
+          "probability": 0.9519816637039185
+        },
+        {
+          "word": " second",
+          "start": 27.4,
+          "end": 28.74,
+          "probability": 0.6856592297554016
+        },
+        {
+          "word": " man",
+          "start": 28.74,
+          "end": 29.16,
+          "probability": 0.9903228282928467
+        },
+        {
+          "word": " is",
+          "start": 29.16,
+          "end": 30.6,
+          "probability": 0.9833434820175171
+        },
+        {
+          "word": " flying",
+          "start": 30.6,
+          "end": 31.76,
+          "probability": 0.6840021014213562
+        },
+        {
+          "word": " a",
+          "start": 31.76,
+          "end": 32.14,
+          "probability": 0.9934260845184326
+        },
+        {
+          "word": " kite",
+          "start": 32.14,
+          "end": 32.5,
+          "probability": 0.9992491602897644
+        },
+        {
+          "word": " and",
+          "start": 32.5,
+          "end": 34.22,
+          "probability": 0.693347156047821
+        },
+        {
+          "word": " over",
+          "start": 34.22,
+          "end": 35.9,
+          "probability": 0.946733832359314
+        },
+        {
+          "word": " the",
+          "start": 35.9,
+          "end": 36.16,
+          "probability": 0.9907969236373901
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 3616,
+      "start": 36.16,
+      "end": 61.08,
+      "text": " ocean over the water anyway. Beside a dog and there is a sailboat in the water. There is a house with a car part",
+      "tokens": [
+        50364,
+        7810,
+        670,
+        264,
+        1281,
+        4033,
+        13,
+        8190,
+        482,
+        257,
+        3000,
+        293,
+        456,
+        307,
+        257,
+        15758,
+        31883,
+        294,
+        264,
+        1281,
+        13,
+        821,
+        307,
+        257,
+        1782,
+        365,
+        257,
+        1032,
+        644,
+        51602
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4522097408771515,
+      "compression_ratio": 1.2727272727272727,
+      "no_speech_prob": 0.5481979250907898,
+      "words": [
+        {
+          "word": " ocean",
+          "start": 36.16,
+          "end": 36.78,
+          "probability": 0.013729536905884743
+        },
+        {
+          "word": " over",
+          "start": 36.78,
+          "end": 37.48,
+          "probability": 0.4086933434009552
+        },
+        {
+          "word": " the",
+          "start": 37.48,
+          "end": 37.64,
+          "probability": 0.9900668859481812
+        },
+        {
+          "word": " water",
+          "start": 37.64,
+          "end": 38.02,
+          "probability": 0.9844309687614441
+        },
+        {
+          "word": " anyway.",
+          "start": 38.02,
+          "end": 39.5,
+          "probability": 0.3920389413833618
+        },
+        {
+          "word": " Beside",
+          "start": 40.7,
+          "end": 42.06,
+          "probability": 0.8318673670291901
+        },
+        {
+          "word": " a",
+          "start": 42.06,
+          "end": 42.28,
+          "probability": 0.6461515426635742
+        },
+        {
+          "word": " dog",
+          "start": 42.28,
+          "end": 42.64,
+          "probability": 0.9951832890510559
+        },
+        {
+          "word": " and",
+          "start": 42.64,
+          "end": 43.72,
+          "probability": 0.5043671727180481
+        },
+        {
+          "word": " there",
+          "start": 43.72,
+          "end": 45.96,
+          "probability": 0.8771834373474121
+        },
+        {
+          "word": " is",
+          "start": 45.96,
+          "end": 46.28,
+          "probability": 0.9921461939811707
+        },
+        {
+          "word": " a",
+          "start": 46.28,
+          "end": 46.48,
+          "probability": 0.9803022146224976
+        },
+        {
+          "word": " sailboat",
+          "start": 46.48,
+          "end": 47.16,
+          "probability": 0.9261490404605865
+        },
+        {
+          "word": " in",
+          "start": 47.16,
+          "end": 48.76,
+          "probability": 0.8718196749687195
+        },
+        {
+          "word": " the",
+          "start": 48.76,
+          "end": 49.46,
+          "probability": 0.9964445233345032
+        },
+        {
+          "word": " water.",
+          "start": 49.46,
+          "end": 51.6,
+          "probability": 0.9957492351531982
+        },
+        {
+          "word": " There",
+          "start": 54.48,
+          "end": 55.84,
+          "probability": 0.9282416701316833
+        },
+        {
+          "word": " is",
+          "start": 55.84,
+          "end": 56.28,
+          "probability": 0.9910328984260559
+        },
+        {
+          "word": " a",
+          "start": 56.28,
+          "end": 56.6,
+          "probability": 0.9898311495780945
+        },
+        {
+          "word": " house",
+          "start": 56.6,
+          "end": 57.28,
+          "probability": 0.9971358776092529
+        },
+        {
+          "word": " with",
+          "start": 57.28,
+          "end": 59.26,
+          "probability": 0.9666764140129089
+        },
+        {
+          "word": " a",
+          "start": 59.26,
+          "end": 59.5,
+          "probability": 0.9666551351547241
+        },
+        {
+          "word": " car",
+          "start": 59.5,
+          "end": 59.98,
+          "probability": 0.8717405200004578
+        },
+        {
+          "word": " part",
+          "start": 59.98,
+          "end": 61.08,
+          "probability": 0.26273465156555176
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 6108,
+      "start": 63.6,
+      "end": 90.1,
+      "text": " in front of it and a flagpole with a flag on it but we can't see what the flag is. It is by the water but not in the water.",
+      "tokens": [
+        50364,
+        294,
+        1868,
+        295,
+        309,
+        293,
+        257,
+        7166,
+        48518,
+        365,
+        257,
+        7166,
+        322,
+        309,
+        457,
+        321,
+        393,
+        380,
+        536,
+        437,
+        264,
+        7166,
+        307,
+        13,
+        467,
+        307,
+        538,
+        264,
+        1281,
+        457,
+        406,
+        294,
+        264,
+        1281,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2793859180651213,
+      "compression_ratio": 1.3516483516483517,
+      "no_speech_prob": 0.34022027254104614,
+      "words": [
+        {
+          "word": " in",
+          "start": 63.6,
+          "end": 64.64,
+          "probability": 0.15336407721042633
+        },
+        {
+          "word": " front",
+          "start": 64.64,
+          "end": 64.92,
+          "probability": 0.9673091173171997
+        },
+        {
+          "word": " of",
+          "start": 64.92,
+          "end": 65.16,
+          "probability": 0.9976406097412109
+        },
+        {
+          "word": " it",
+          "start": 65.16,
+          "end": 65.54,
+          "probability": 0.9928404092788696
+        },
+        {
+          "word": " and",
+          "start": 65.54,
+          "end": 67.3,
+          "probability": 0.5276132225990295
+        },
+        {
+          "word": " a",
+          "start": 67.3,
+          "end": 68.18,
+          "probability": 0.9346203207969666
+        },
+        {
+          "word": " flagpole",
+          "start": 68.18,
+          "end": 70.82,
+          "probability": 0.6988232135772705
+        },
+        {
+          "word": " with",
+          "start": 70.82,
+          "end": 71.5,
+          "probability": 0.9620413184165955
+        },
+        {
+          "word": " a",
+          "start": 71.5,
+          "end": 71.8,
+          "probability": 0.9923370480537415
+        },
+        {
+          "word": " flag",
+          "start": 71.8,
+          "end": 73.5,
+          "probability": 0.9091819524765015
+        },
+        {
+          "word": " on",
+          "start": 73.5,
+          "end": 74.08,
+          "probability": 0.9928261041641235
+        },
+        {
+          "word": " it",
+          "start": 74.08,
+          "end": 74.44,
+          "probability": 0.9981465339660645
+        },
+        {
+          "word": " but",
+          "start": 74.44,
+          "end": 74.78,
+          "probability": 0.4985761046409607
+        },
+        {
+          "word": " we",
+          "start": 74.78,
+          "end": 75.36,
+          "probability": 0.9896016716957092
+        },
+        {
+          "word": " can't",
+          "start": 75.36,
+          "end": 76.06,
+          "probability": 0.9919209480285645
+        },
+        {
+          "word": " see",
+          "start": 76.06,
+          "end": 76.5,
+          "probability": 0.9982858300209045
+        },
+        {
+          "word": " what",
+          "start": 76.5,
+          "end": 77.06,
+          "probability": 0.9930335283279419
+        },
+        {
+          "word": " the",
+          "start": 77.06,
+          "end": 77.32,
+          "probability": 0.9963573813438416
+        },
+        {
+          "word": " flag",
+          "start": 77.32,
+          "end": 77.68,
+          "probability": 0.9991598129272461
+        },
+        {
+          "word": " is.",
+          "start": 77.68,
+          "end": 79.64,
+          "probability": 0.9930357336997986
+        },
+        {
+          "word": " It",
+          "start": 81.36,
+          "end": 82.4,
+          "probability": 0.503427267074585
+        },
+        {
+          "word": " is",
+          "start": 82.4,
+          "end": 85.78,
+          "probability": 0.9550279378890991
+        },
+        {
+          "word": " by",
+          "start": 85.78,
+          "end": 86.3,
+          "probability": 0.971800684928894
+        },
+        {
+          "word": " the",
+          "start": 86.3,
+          "end": 86.76,
+          "probability": 0.9965644478797913
+        },
+        {
+          "word": " water",
+          "start": 86.76,
+          "end": 87.28,
+          "probability": 0.9977195858955383
+        },
+        {
+          "word": " but",
+          "start": 87.28,
+          "end": 88.86,
+          "probability": 0.7164961099624634
+        },
+        {
+          "word": " not",
+          "start": 88.86,
+          "end": 89.2,
+          "probability": 0.995694637298584
+        },
+        {
+          "word": " in",
+          "start": 89.2,
+          "end": 89.5,
+          "probability": 0.9962949156761169
+        },
+        {
+          "word": " the",
+          "start": 89.5,
+          "end": 89.68,
+          "probability": 0.9964587092399597
+        },
+        {
+          "word": " water.",
+          "start": 89.68,
+          "end": 90.1,
+          "probability": 0.9989939332008362
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 9010,
+      "start": 90.1,
+      "end": 111.94,
+      "text": " There is a man with or something, somebody fishing in the off the pier in the water.",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        587,
+        365,
+        420,
+        746,
+        11,
+        2618,
+        10180,
+        294,
+        264,
+        766,
+        264,
+        9766,
+        294,
+        264,
+        1281,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3854935272880223,
+      "compression_ratio": 1.135135135135135,
+      "no_speech_prob": 0.10165706276893616,
+      "words": [
+        {
+          "word": " There",
+          "start": 90.1,
+          "end": 91.46,
+          "probability": 0.5392669439315796
+        },
+        {
+          "word": " is",
+          "start": 91.46,
+          "end": 91.8,
+          "probability": 0.9532629251480103
+        },
+        {
+          "word": " a",
+          "start": 91.8,
+          "end": 92.0,
+          "probability": 0.9890443086624146
+        },
+        {
+          "word": " man",
+          "start": 92.0,
+          "end": 92.5,
+          "probability": 0.9907985925674438
+        },
+        {
+          "word": " with",
+          "start": 92.5,
+          "end": 94.34,
+          "probability": 0.5522128343582153
+        },
+        {
+          "word": " or",
+          "start": 94.34,
+          "end": 95.44,
+          "probability": 0.6213064789772034
+        },
+        {
+          "word": " something,",
+          "start": 95.44,
+          "end": 96.28,
+          "probability": 0.9078154563903809
+        },
+        {
+          "word": " somebody",
+          "start": 96.68,
+          "end": 97.52,
+          "probability": 0.9093917012214661
+        },
+        {
+          "word": " fishing",
+          "start": 97.52,
+          "end": 100.38,
+          "probability": 0.6709513068199158
+        },
+        {
+          "word": " in",
+          "start": 100.38,
+          "end": 102.08,
+          "probability": 0.9613924622535706
+        },
+        {
+          "word": " the",
+          "start": 102.08,
+          "end": 105.16,
+          "probability": 0.9747838973999023
+        },
+        {
+          "word": " off",
+          "start": 105.16,
+          "end": 107.62,
+          "probability": 0.40367862582206726
+        },
+        {
+          "word": " the",
+          "start": 107.62,
+          "end": 108.14,
+          "probability": 0.9637869596481323
+        },
+        {
+          "word": " pier",
+          "start": 108.14,
+          "end": 108.86,
+          "probability": 0.6445622444152832
+        },
+        {
+          "word": " in",
+          "start": 108.86,
+          "end": 110.22,
+          "probability": 0.8880137801170349
+        },
+        {
+          "word": " the",
+          "start": 110.22,
+          "end": 110.52,
+          "probability": 0.6526002883911133
+        },
+        {
+          "word": " water.",
+          "start": 110.52,
+          "end": 111.94,
+          "probability": 0.9776290059089661
+        }
+      ]
+    }
+  ]
+}

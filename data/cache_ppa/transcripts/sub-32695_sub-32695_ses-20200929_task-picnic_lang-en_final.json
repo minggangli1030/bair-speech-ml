@@ -1,0 +1,1033 @@
+{
+  "text": " I'm a man and woman. I can pick neck now. I watch man and flag now. I, I tune. I, I mailed. Bold. Hun. I have watched, watched the woman and man. I have a dog. No, I have watched the woman ran now. Swimming in, in, in boy now and swimming in. So I, I pre, I have a tree. I have, how sounds.",
+  "words": [
+    {
+      "word": "I'm",
+      "start": 3.0400000000000005,
+      "end": 4.44
+    },
+    {
+      "word": "a",
+      "start": 4.44,
+      "end": 4.6
+    },
+    {
+      "word": "man",
+      "start": 4.6,
+      "end": 6.0
+    },
+    {
+      "word": "and",
+      "start": 6.0,
+      "end": 6.16
+    },
+    {
+      "word": "woman.",
+      "start": 6.16,
+      "end": 6.98
+    },
+    {
+      "word": "I",
+      "start": 9.64,
+      "end": 10.34
+    },
+    {
+      "word": "can",
+      "start": 10.34,
+      "end": 10.58
+    },
+    {
+      "word": "pick",
+      "start": 10.58,
+      "end": 11.32
+    },
+    {
+      "word": "neck",
+      "start": 11.32,
+      "end": 11.54
+    },
+    {
+      "word": "now.",
+      "start": 11.54,
+      "end": 12.14
+    },
+    {
+      "word": "I",
+      "start": 14.24,
+      "end": 14.58
+    },
+    {
+      "word": "watch",
+      "start": 14.58,
+      "end": 17.9
+    },
+    {
+      "word": "man",
+      "start": 17.9,
+      "end": 19.18
+    },
+    {
+      "word": "and",
+      "start": 19.18,
+      "end": 19.54
+    },
+    {
+      "word": "flag",
+      "start": 19.54,
+      "end": 20.6
+    },
+    {
+      "word": "now.",
+      "start": 20.6,
+      "end": 21.28
+    },
+    {
+      "word": "I,",
+      "start": 24.120000000000005,
+      "end": 25.520000000000003
+    },
+    {
+      "word": "I",
+      "start": 25.520000000000003,
+      "end": 26.92
+    },
+    {
+      "word": "tune.",
+      "start": 26.92,
+      "end": 27.3
+    },
+    {
+      "word": "I,",
+      "start": 29.0,
+      "end": 29.36
+    },
+    {
+      "word": "I",
+      "start": 29.54,
+      "end": 31.02
+    },
+    {
+      "word": "mailed.",
+      "start": 31.02,
+      "end": 33.0
+    },
+    {
+      "word": "Bold.",
+      "start": 34.26,
+      "end": 35.66
+    },
+    {
+      "word": "Hun.",
+      "start": 37.24,
+      "end": 37.54
+    },
+    {
+      "word": "I",
+      "start": 40.559999999999995,
+      "end": 41.26
+    },
+    {
+      "word": "have",
+      "start": 41.26,
+      "end": 42.54
+    },
+    {
+      "word": "watched,",
+      "start": 42.54,
+      "end": 43.58
+    },
+    {
+      "word": "watched",
+      "start": 43.92,
+      "end": 45.42
+    },
+    {
+      "word": "the",
+      "start": 45.42,
+      "end": 45.84
+    },
+    {
+      "word": "woman",
+      "start": 45.84,
+      "end": 46.18
+    },
+    {
+      "word": "and",
+      "start": 46.18,
+      "end": 46.5
+    },
+    {
+      "word": "man.",
+      "start": 46.5,
+      "end": 46.84
+    },
+    {
+      "word": "I",
+      "start": 46.84,
+      "end": 47.94
+    },
+    {
+      "word": "have",
+      "start": 47.94,
+      "end": 51.32
+    },
+    {
+      "word": "a",
+      "start": 51.32,
+      "end": 51.58
+    },
+    {
+      "word": "dog.",
+      "start": 51.58,
+      "end": 52.04
+    },
+    {
+      "word": "No,",
+      "start": 55.78,
+      "end": 57.18
+    },
+    {
+      "word": "I",
+      "start": 57.38,
+      "end": 57.66
+    },
+    {
+      "word": "have",
+      "start": 57.66,
+      "end": 59.4
+    },
+    {
+      "word": "watched",
+      "start": 59.4,
+      "end": 60.06
+    },
+    {
+      "word": "the",
+      "start": 60.06,
+      "end": 60.46
+    },
+    {
+      "word": "woman",
+      "start": 60.46,
+      "end": 61.42
+    },
+    {
+      "word": "ran",
+      "start": 61.42,
+      "end": 62.74
+    },
+    {
+      "word": "now.",
+      "start": 62.74,
+      "end": 63.62
+    },
+    {
+      "word": "Swimming",
+      "start": 67.4,
+      "end": 68.42
+    },
+    {
+      "word": "in,",
+      "start": 68.42,
+      "end": 68.86
+    },
+    {
+      "word": "in,",
+      "start": 69.2,
+      "end": 69.48
+    },
+    {
+      "word": "in",
+      "start": 69.48,
+      "end": 69.78
+    },
+    {
+      "word": "boy",
+      "start": 69.78,
+      "end": 70.44
+    },
+    {
+      "word": "now",
+      "start": 70.44,
+      "end": 71.0
+    },
+    {
+      "word": "and",
+      "start": 71.0,
+      "end": 71.28
+    },
+    {
+      "word": "swimming",
+      "start": 71.28,
+      "end": 72.1
+    },
+    {
+      "word": "in.",
+      "start": 72.1,
+      "end": 72.68
+    },
+    {
+      "word": "So",
+      "start": 73.22,
+      "end": 73.4
+    },
+    {
+      "word": "I,",
+      "start": 73.4,
+      "end": 74.56
+    },
+    {
+      "word": "I",
+      "start": 74.94,
+      "end": 76.72
+    },
+    {
+      "word": "pre,",
+      "start": 76.72,
+      "end": 77.86
+    },
+    {
+      "word": "I",
+      "start": 78.34,
+      "end": 79.1
+    },
+    {
+      "word": "have",
+      "start": 79.1,
+      "end": 79.5
+    },
+    {
+      "word": "a",
+      "start": 79.5,
+      "end": 79.64
+    },
+    {
+      "word": "tree.",
+      "start": 79.64,
+      "end": 80.06
+    },
+    {
+      "word": "I",
+      "start": 83.52000000000001,
+      "end": 84.9
+    },
+    {
+      "word": "have,",
+      "start": 84.9,
+      "end": 85.28
+    },
+    {
+      "word": "how",
+      "start": 85.72,
+      "end": 87.06
+    },
+    {
+      "word": "sounds.",
+      "start": 87.06,
+      "end": 87.86
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3.0400000000000005,
+      "end": 6.98,
+      "text": " I'm a man and woman.",
+      "tokens": [
+        50364,
+        286,
+        478,
+        257,
+        587,
+        293,
+        3059,
+        13,
+        50876
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8183319909232003,
+      "compression_ratio": 1.1551724137931034,
+      "no_speech_prob": 0.45801010727882385,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 3.0400000000000005,
+          "end": 4.44,
+          "probability": 0.28321899473667145
+        },
+        {
+          "word": " a",
+          "start": 4.44,
+          "end": 4.6,
+          "probability": 0.26217350363731384
+        },
+        {
+          "word": " man",
+          "start": 4.6,
+          "end": 6.0,
+          "probability": 0.8660771250724792
+        },
+        {
+          "word": " and",
+          "start": 6.0,
+          "end": 6.16,
+          "probability": 0.7843209505081177
+        },
+        {
+          "word": " woman.",
+          "start": 6.16,
+          "end": 6.98,
+          "probability": 0.8277639746665955
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 10.24,
+      "end": 12.14,
+      "text": " I can pick neck now.",
+      "tokens": [
+        50876,
+        286,
+        393,
+        1888,
+        6189,
+        586,
+        13,
+        51084
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8183319909232003,
+      "compression_ratio": 1.1551724137931034,
+      "no_speech_prob": 0.45801010727882385,
+      "words": [
+        {
+          "word": " I",
+          "start": 9.64,
+          "end": 10.34,
+          "probability": 0.5147152543067932
+        },
+        {
+          "word": " can",
+          "start": 10.34,
+          "end": 10.58,
+          "probability": 0.6000811457633972
+        },
+        {
+          "word": " pick",
+          "start": 10.58,
+          "end": 11.32,
+          "probability": 0.4385722279548645
+        },
+        {
+          "word": " neck",
+          "start": 11.32,
+          "end": 11.54,
+          "probability": 0.4646112024784088
+        },
+        {
+          "word": " now.",
+          "start": 11.54,
+          "end": 12.14,
+          "probability": 0.9794792532920837
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 14.24,
+      "end": 21.28,
+      "text": " I watch man and flag now.",
+      "tokens": [
+        51084,
+        286,
+        1159,
+        587,
+        293,
+        7166,
+        586,
+        13,
+        51610
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8183319909232003,
+      "compression_ratio": 1.1551724137931034,
+      "no_speech_prob": 0.45801010727882385,
+      "words": [
+        {
+          "word": " I",
+          "start": 14.24,
+          "end": 14.58,
+          "probability": 0.9694091081619263
+        },
+        {
+          "word": " watch",
+          "start": 14.58,
+          "end": 17.9,
+          "probability": 0.40689536929130554
+        },
+        {
+          "word": " man",
+          "start": 17.9,
+          "end": 19.18,
+          "probability": 0.6847699880599976
+        },
+        {
+          "word": " and",
+          "start": 19.18,
+          "end": 19.54,
+          "probability": 0.8729501962661743
+        },
+        {
+          "word": " flag",
+          "start": 19.54,
+          "end": 20.6,
+          "probability": 0.9803596138954163
+        },
+        {
+          "word": " now.",
+          "start": 20.6,
+          "end": 21.28,
+          "probability": 0.9929343461990356
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2128,
+      "start": 24.120000000000005,
+      "end": 27.3,
+      "text": " I, I tune.",
+      "tokens": [
+        50364,
+        286,
+        11,
+        286,
+        10864,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7133826178473395,
+      "compression_ratio": 1.0694444444444444,
+      "no_speech_prob": 0.03402062505483627,
+      "words": [
+        {
+          "word": " I,",
+          "start": 24.120000000000005,
+          "end": 25.520000000000003,
+          "probability": 0.6519879102706909
+        },
+        {
+          "word": " I",
+          "start": 25.520000000000003,
+          "end": 26.92,
+          "probability": 0.9427573680877686
+        },
+        {
+          "word": " tune.",
+          "start": 26.92,
+          "end": 27.3,
+          "probability": 0.18260100483894348
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2128,
+      "start": 29.0,
+      "end": 33.0,
+      "text": " I, I mailed.",
+      "tokens": [
+        50764,
+        286,
+        11,
+        286,
+        463,
+        7292,
+        13,
+        51024
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7133826178473395,
+      "compression_ratio": 1.0694444444444444,
+      "no_speech_prob": 0.03402062505483627,
+      "words": [
+        {
+          "word": " I,",
+          "start": 29.0,
+          "end": 29.36,
+          "probability": 0.9899305105209351
+        },
+        {
+          "word": " I",
+          "start": 29.54,
+          "end": 31.02,
+          "probability": 0.9946892261505127
+        },
+        {
+          "word": " mailed.",
+          "start": 31.02,
+          "end": 33.0,
+          "probability": 0.7456951439380646
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2128,
+      "start": 34.26,
+      "end": 35.66,
+      "text": " Bold.",
+      "tokens": [
+        51024,
+        48954,
+        13,
+        51174
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7133826178473395,
+      "compression_ratio": 1.0694444444444444,
+      "no_speech_prob": 0.03402062505483627,
+      "words": [
+        {
+          "word": " Bold.",
+          "start": 34.26,
+          "end": 35.66,
+          "probability": 0.06417281925678253
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2128,
+      "start": 37.24,
+      "end": 37.54,
+      "text": " Hun.",
+      "tokens": [
+        51174,
+        11648,
+        13,
+        51350
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7133826178473395,
+      "compression_ratio": 1.0694444444444444,
+      "no_speech_prob": 0.03402062505483627,
+      "words": [
+        {
+          "word": " Hun.",
+          "start": 37.24,
+          "end": 37.54,
+          "probability": 0.22863103449344635
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2128,
+      "start": 41.0,
+      "end": 46.84,
+      "text": " I have watched, watched the woman and man.",
+      "tokens": [
+        51350,
+        286,
+        362,
+        6337,
+        11,
+        6337,
+        264,
+        3059,
+        293,
+        587,
+        13,
+        51840
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7133826178473395,
+      "compression_ratio": 1.0694444444444444,
+      "no_speech_prob": 0.03402062505483627,
+      "words": [
+        {
+          "word": " I",
+          "start": 40.559999999999995,
+          "end": 41.26,
+          "probability": 0.9827628135681152
+        },
+        {
+          "word": " have",
+          "start": 41.26,
+          "end": 42.54,
+          "probability": 0.29125168919563293
+        },
+        {
+          "word": " watched,",
+          "start": 42.54,
+          "end": 43.58,
+          "probability": 0.9310970306396484
+        },
+        {
+          "word": " watched",
+          "start": 43.92,
+          "end": 45.42,
+          "probability": 0.9648775458335876
+        },
+        {
+          "word": " the",
+          "start": 45.42,
+          "end": 45.84,
+          "probability": 0.8692193031311035
+        },
+        {
+          "word": " woman",
+          "start": 45.84,
+          "end": 46.18,
+          "probability": 0.9268282055854797
+        },
+        {
+          "word": " and",
+          "start": 46.18,
+          "end": 46.5,
+          "probability": 0.8921876549720764
+        },
+        {
+          "word": " man.",
+          "start": 46.5,
+          "end": 46.84,
+          "probability": 0.976161539554596
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4684,
+      "start": 46.84,
+      "end": 52.04,
+      "text": " I have a dog.",
+      "tokens": [
+        50364,
+        286,
+        362,
+        257,
+        3000,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6858271190098354,
+      "compression_ratio": 0.9807692307692307,
+      "no_speech_prob": 0.007041337434202433,
+      "words": [
+        {
+          "word": " I",
+          "start": 46.84,
+          "end": 47.94,
+          "probability": 0.34051579236984253
+        },
+        {
+          "word": " have",
+          "start": 47.94,
+          "end": 51.32,
+          "probability": 0.9272606372833252
+        },
+        {
+          "word": " a",
+          "start": 51.32,
+          "end": 51.58,
+          "probability": 0.9901581406593323
+        },
+        {
+          "word": " dog.",
+          "start": 51.58,
+          "end": 52.04,
+          "probability": 0.9866523146629333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 4684,
+      "start": 55.78,
+      "end": 63.62,
+      "text": " No, I have watched the woman ran now.",
+      "tokens": [
+        50714,
+        883,
+        11,
+        286,
+        362,
+        6337,
+        264,
+        3059,
+        5872,
+        586,
+        13,
+        51276
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6858271190098354,
+      "compression_ratio": 0.9807692307692307,
+      "no_speech_prob": 0.007041337434202433,
+      "words": [
+        {
+          "word": " No,",
+          "start": 55.78,
+          "end": 57.18,
+          "probability": 0.862520158290863
+        },
+        {
+          "word": " I",
+          "start": 57.38,
+          "end": 57.66,
+          "probability": 0.19380630552768707
+        },
+        {
+          "word": " have",
+          "start": 57.66,
+          "end": 59.4,
+          "probability": 0.4990040957927704
+        },
+        {
+          "word": " watched",
+          "start": 59.4,
+          "end": 60.06,
+          "probability": 0.6424677968025208
+        },
+        {
+          "word": " the",
+          "start": 60.06,
+          "end": 60.46,
+          "probability": 0.009166162461042404
+        },
+        {
+          "word": " woman",
+          "start": 60.46,
+          "end": 61.42,
+          "probability": 0.9661254286766052
+        },
+        {
+          "word": " ran",
+          "start": 61.42,
+          "end": 62.74,
+          "probability": 0.6257355213165283
+        },
+        {
+          "word": " now.",
+          "start": 62.74,
+          "end": 63.62,
+          "probability": 0.5881021618843079
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 6362,
+      "start": 67.4,
+      "end": 72.68,
+      "text": " Swimming in, in, in boy now and swimming in.",
+      "tokens": [
+        50364,
+        3926,
+        40471,
+        294,
+        11,
+        294,
+        11,
+        294,
+        3237,
+        586,
+        293,
+        11989,
+        294,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5978776295979817,
+      "compression_ratio": 1.125,
+      "no_speech_prob": 0.02895701490342617,
+      "words": [
+        {
+          "word": " Swimming",
+          "start": 67.4,
+          "end": 68.42,
+          "probability": 0.4452856183052063
+        },
+        {
+          "word": " in,",
+          "start": 68.42,
+          "end": 68.86,
+          "probability": 0.9050679802894592
+        },
+        {
+          "word": " in,",
+          "start": 69.2,
+          "end": 69.48,
+          "probability": 0.7111003994941711
+        },
+        {
+          "word": " in",
+          "start": 69.48,
+          "end": 69.78,
+          "probability": 0.9486654996871948
+        },
+        {
+          "word": " boy",
+          "start": 69.78,
+          "end": 70.44,
+          "probability": 0.5453066825866699
+        },
+        {
+          "word": " now",
+          "start": 70.44,
+          "end": 71.0,
+          "probability": 0.7400010228157043
+        },
+        {
+          "word": " and",
+          "start": 71.0,
+          "end": 71.28,
+          "probability": 0.4042791426181793
+        },
+        {
+          "word": " swimming",
+          "start": 71.28,
+          "end": 72.1,
+          "probability": 0.6631624698638916
+        },
+        {
+          "word": " in.",
+          "start": 72.1,
+          "end": 72.68,
+          "probability": 0.7865037322044373
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 6362,
+      "start": 73.22,
+      "end": 80.06,
+      "text": " So I, I pre, I have a tree.",
+      "tokens": [
+        50864,
+        407,
+        286,
+        11,
+        286,
+        659,
+        11,
+        286,
+        362,
+        257,
+        4230,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5978776295979817,
+      "compression_ratio": 1.125,
+      "no_speech_prob": 0.02895701490342617,
+      "words": [
+        {
+          "word": " So",
+          "start": 73.22,
+          "end": 73.4,
+          "probability": 0.900208592414856
+        },
+        {
+          "word": " I,",
+          "start": 73.4,
+          "end": 74.56,
+          "probability": 0.8037076592445374
+        },
+        {
+          "word": " I",
+          "start": 74.94,
+          "end": 76.72,
+          "probability": 0.9899395108222961
+        },
+        {
+          "word": " pre,",
+          "start": 76.72,
+          "end": 77.86,
+          "probability": 0.519083559513092
+        },
+        {
+          "word": " I",
+          "start": 78.34,
+          "end": 79.1,
+          "probability": 0.9568542242050171
+        },
+        {
+          "word": " have",
+          "start": 79.1,
+          "end": 79.5,
+          "probability": 0.9144280552864075
+        },
+        {
+          "word": " a",
+          "start": 79.5,
+          "end": 79.64,
+          "probability": 0.9930938482284546
+        },
+        {
+          "word": " tree.",
+          "start": 79.64,
+          "end": 80.06,
+          "probability": 0.9937716126441956
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 8006,
+      "start": 83.52000000000001,
+      "end": 87.86,
+      "text": " I have, how sounds.",
+      "tokens": [
+        50364,
+        286,
+        362,
+        11,
+        577,
+        3263,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.796450138092041,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 0.22339360415935516,
+      "words": [
+        {
+          "word": " I",
+          "start": 83.52000000000001,
+          "end": 84.9,
+          "probability": 0.5843853950500488
+        },
+        {
+          "word": " have,",
+          "start": 84.9,
+          "end": 85.28,
+          "probability": 0.7450363636016846
+        },
+        {
+          "word": " how",
+          "start": 85.72,
+          "end": 87.06,
+          "probability": 0.6933852434158325
+        },
+        {
+          "word": " sounds.",
+          "start": 87.06,
+          "end": 87.86,
+          "probability": 0.22545798122882843
+        }
+      ]
+    }
+  ]
+}

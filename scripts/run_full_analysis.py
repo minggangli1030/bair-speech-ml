@@ -4,13 +4,16 @@ Full Phonetic-Semantic Dissociation Analysis for PPA.
 
 This script:
 1. Runs Whisper ASR on all audio files (if not already cached)
-2. Computes S_sem (semantic adequacy) for all samples
+2. Computes S_sem (composite semantic adequacy) = alpha*scene_graph + (1-alpha)*layer2_adequacy
+   - scene_graph: spatiosemantic graph completeness vs gold picnic scene
+   - layer2_adequacy: 1 - mean(anomia, empty_speech, semantic_paraphasias)
 3. Computes S_ph (phonological adequacy) for samples with SylWav outputs
 4. Computes Δ = S_ph - S_sem where both are available
 5. Runs statistical validation
 
 Usage:
     python scripts/run_full_analysis.py --manifest data/manifest_ppa_full.csv
+    python scripts/run_full_analysis.py --s-sem-alpha 0.4  # default: 0.4 (p(delta) < 0.05; ablation in run_ablation_alpha_sweep.py)
 """
 
 from __future__ import annotations
@@ -27,8 +30,12 @@ import pandas as pd
 # Add project root for imports
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import re
+
 from src.features.phoneme_adequacy import compute_s_ph, parse_pipeline_output
 from src.features.graph_semantic import compute_s_sem
+from src.features.layer1 import compute_layer1_features
+from src.features.layer2 import LAYER2_NAMES, compute_layer2_features
 from src.features.dissociation import (
     compute_dissociation,
     cliffs_delta,
@@ -38,6 +45,99 @@ from src.features.dissociation import (
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
+
+# Layer 2 constructs that indicate semantic impairment (higher = worse semantic adequacy)
+LAYER2_SEMANTIC_IMPAIRMENT = ["anomia", "empty_speech", "semantic_paraphasias"]
+
+
+def _parse_timestamp(s: str) -> float:
+    """Parse 'MM:SS.mmm' to seconds."""
+    parts = s.strip().split(":")
+    if len(parts) != 2:
+        return 0.0
+    try:
+        mins = float(parts[0])
+        secs = float(parts[1])
+        return mins * 60 + secs
+    except ValueError:
+        return 0.0
+
+
+def _build_transcript_dict_from_segments(parsed: dict) -> dict:
+    """
+    Build transcript dict with word-level timestamps from pipeline segments.
+    Returns {text, words: [{word, start, end}]} for compute_layer1_features.
+    """
+    segments = parsed.get("segments", [])
+    words_list = []
+    full_text_parts = []
+
+    for seg in segments:
+        if "Participant" not in seg.get("speaker", ""):
+            continue
+        try:
+            start_sec = _parse_timestamp(seg.get("start", "0:0.0"))
+            end_sec = _parse_timestamp(seg.get("end", "0:0.0"))
+        except Exception:
+            start_sec, end_sec = 0.0, 0.0
+        transcript = (seg.get("transcript") or "").strip()
+        # Remove leading "s " artifact from ASR
+        if transcript.lower().startswith("s ") and len(transcript) > 2:
+            transcript = transcript[2:].strip()
+        if not transcript:
+            continue
+        tok = re.findall(r"[a-zA-Z]+", transcript)
+        if not tok:
+            continue
+        full_text_parts.extend(tok)
+        dur = max(end_sec - start_sec, 0.001)
+        step = dur / len(tok)
+        for i, w in enumerate(tok):
+            ws = start_sec + i * step
+            we = start_sec + (i + 1) * step
+            words_list.append({"word": w, "start": ws, "end": we})
+
+    text = " ".join(full_text_parts)
+    return {"text": text, "words": words_list}
+
+
+def _compute_composite_s_sem(
+    transcript_dict: dict,
+    s_sem_graph: float,
+    alpha: float = 0.6,
+    gold_graph_path: Path | None = None,
+) -> tuple[float, dict]:
+    """
+    Composite S_sem = alpha * scene_graph + (1-alpha) * layer2_semantic_adequacy.
+    Layer2 semantic adequacy = 1 - mean(anomia, empty_speech, semantic_paraphasias).
+    """
+    details = {"s_sem_graph": s_sem_graph, "s_sem_layer2_adequacy": float("nan")}
+
+    try:
+        l1 = compute_layer1_features(
+            transcript_dict,
+            phonetic_data=None,
+            expected_entities=None,
+            use_semantic_distance=False,
+        )
+        _, l2_scores = compute_layer2_features(l1)
+        vals = []
+        for name in LAYER2_SEMANTIC_IMPAIRMENT:
+            if name in l2_scores and not np.isnan(l2_scores[name]):
+                vals.append(l2_scores[name])
+        if vals:
+            # L2 scores: higher = more impairment. So adequacy = 1 - mean(impairment)
+            layer2_impairment = float(np.mean(vals))
+            layer2_adequacy = 1.0 - layer2_impairment
+            details["s_sem_layer2_adequacy"] = layer2_adequacy
+            if np.isnan(s_sem_graph):
+                return layer2_adequacy, details
+            composite = alpha * s_sem_graph + (1 - alpha) * layer2_adequacy
+            details["s_sem_composite_alpha"] = alpha
+            return float(composite), details
+    except Exception as e:
+        logger.debug("Layer 2 computation failed: %s", e)
+    return s_sem_graph, details
 
 
 def run_whisper_asr(audio_path: Path) -> dict:
@@ -106,6 +206,9 @@ def main():
     parser.add_argument("--stats-output", type=Path, default=Path("outputs/ppa_stats.json"))
     parser.add_argument("--skip-asr", action="store_true", help="Skip ASR, only use pipeline outputs")
     parser.add_argument("--max-samples", type=int, default=None, help="Limit samples for testing")
+    parser.add_argument("--s-sem-alpha", type=float, default=0.4,
+                        help="Composite S_sem = alpha*scene_graph + (1-alpha)*layer2_adequacy (default 0.6)")
+    parser.add_argument("--gold-graph", type=Path, default=None, help="Path to gold scene graph JSON")
     args = parser.parse_args()
     
     df = pd.read_csv(args.manifest)
@@ -152,6 +255,7 @@ def main():
         s_ph_details = {}
         s_sem_details = {}
         
+        parsed = None
         # Check for pipeline output (has ASR and optionally SylWav phonemes)
         if pipeline_path is not None and pipeline_path.exists():
             parsed = parse_pipeline_output(pipeline_path)
@@ -167,14 +271,32 @@ def main():
             asr_result = load_or_run_asr(audio_path, args.cache_dir, subject_id)
             transcript = asr_result.get("text", "")
         
-        # Compute S_sem if we have transcript
+        # Compute S_sem (composite: scene graph + Layer 2) if we have transcript
         if transcript:
-            transcript_dict = {
-                "text": transcript,
-                "words": [{"word": w, "start": i*0.5, "end": i*0.5+0.3} 
-                         for i, w in enumerate(transcript.split())],
-            }
-            s_sem, s_sem_details = compute_s_sem(transcript_dict)
+            # Build transcript_dict: use segments for Layer 1/2 when available
+            if parsed and parsed.get("segments"):
+                transcript_dict = _build_transcript_dict_from_segments(parsed)
+                if not transcript_dict.get("words"):
+                    transcript_dict = {
+                        "text": transcript,
+                        "words": [{"word": w, "start": i*0.5, "end": i*0.5+0.3}
+                                 for i, w in enumerate(transcript.split())],
+                    }
+            else:
+                transcript_dict = {
+                    "text": transcript,
+                    "words": [{"word": w, "start": i*0.5, "end": i*0.5+0.3}
+                             for i, w in enumerate(transcript.split())],
+                }
+            s_sem_graph, s_sem_details = compute_s_sem(
+                transcript_dict, gold_graph_path=args.gold_graph
+            )
+            s_sem, s_sem_details = _compute_composite_s_sem(
+                transcript_dict,
+                s_sem_graph,
+                alpha=args.s_sem_alpha,
+                gold_graph_path=args.gold_graph,
+            )
         
         # Compute dissociation
         delta = s_ph - s_sem if not (np.isnan(s_ph) or np.isnan(s_sem)) else float("nan")
@@ -189,6 +311,8 @@ def main():
             "transcript_len": len(transcript.split()) if transcript else 0,
             "s_ph": s_ph,
             "s_sem": s_sem,
+            "s_sem_graph": s_sem_details.get("s_sem_graph", float("nan")),
+            "s_sem_layer2_adequacy": s_sem_details.get("s_sem_layer2_adequacy", float("nan")),
             "delta": delta,
             "phoneme_error_rate": s_ph_details.get("phoneme_error_rate", float("nan")),
             "silence_ratio": s_ph_details.get("silence_ratio", float("nan")),

@@ -1,0 +1,236 @@
+{
+  "text": " Uh... Each basis? Um... Who not? No. Can't do it.",
+  "words": [
+    {
+      "word": "Uh...",
+      "start": 3.7399999999999998,
+      "end": 5.14
+    },
+    {
+      "word": "Each",
+      "start": 12.9,
+      "end": 13.6
+    },
+    {
+      "word": "basis?",
+      "start": 13.6,
+      "end": 14.02
+    },
+    {
+      "word": "Um...",
+      "start": 18.96,
+      "end": 20.36
+    },
+    {
+      "word": "Who",
+      "start": 20.36,
+      "end": 20.76
+    },
+    {
+      "word": "not?",
+      "start": 20.76,
+      "end": 20.88
+    },
+    {
+      "word": "No.",
+      "start": 24.78,
+      "end": 26.18
+    },
+    {
+      "word": "Can't",
+      "start": 27.46,
+      "end": 27.82
+    },
+    {
+      "word": "do",
+      "start": 27.82,
+      "end": 28.0
+    },
+    {
+      "word": "it.",
+      "start": 28.0,
+      "end": 28.14
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3.7399999999999998,
+      "end": 5.14,
+      "text": " Uh...",
+      "tokens": [
+        50364,
+        4019,
+        485,
+        50464
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.8241085211435953,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.363563597202301,
+      "words": [
+        {
+          "word": " Uh...",
+          "start": 3.7399999999999998,
+          "end": 5.14,
+          "probability": 0.16911101341247559
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 13.0,
+      "end": 14.02,
+      "text": " Each basis?",
+      "tokens": [
+        51014,
+        6947,
+        5143,
+        30,
+        51114
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.8241085211435953,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.363563597202301,
+      "words": [
+        {
+          "word": " Each",
+          "start": 12.9,
+          "end": 13.6,
+          "probability": 0.3530024588108063
+        },
+        {
+          "word": " basis?",
+          "start": 13.6,
+          "end": 14.02,
+          "probability": 0.3441327214241028
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 18.96,
+      "end": 20.36,
+      "text": " Um...",
+      "tokens": [
+        51114,
+        3301,
+        485,
+        51214
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.8241085211435953,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.363563597202301,
+      "words": [
+        {
+          "word": " Um...",
+          "start": 18.96,
+          "end": 20.36,
+          "probability": 0.6529702842235565
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 20.36,
+      "end": 20.88,
+      "text": " Who not?",
+      "tokens": [
+        51364,
+        2102,
+        406,
+        30,
+        51464
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.8241085211435953,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.363563597202301,
+      "words": [
+        {
+          "word": " Who",
+          "start": 20.36,
+          "end": 20.76,
+          "probability": 0.06360940635204315
+        },
+        {
+          "word": " not?",
+          "start": 20.76,
+          "end": 20.88,
+          "probability": 0.17045462131500244
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 24.78,
+      "end": 26.18,
+      "text": " No.",
+      "tokens": [
+        51614,
+        883,
+        13,
+        51714
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.8241085211435953,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.363563597202301,
+      "words": [
+        {
+          "word": " No.",
+          "start": 24.78,
+          "end": 26.18,
+          "probability": 0.9510411620140076
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2618,
+      "start": 27.46,
+      "end": 28.14,
+      "text": " Can't do it.",
+      "tokens": [
+        50414,
+        1664,
+        380,
+        360,
+        309,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23391757905483246,
+      "compression_ratio": 0.6,
+      "no_speech_prob": 0.0934228003025055,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 27.46,
+          "end": 27.82,
+          "probability": 0.3843955621123314
+        },
+        {
+          "word": " do",
+          "start": 27.82,
+          "end": 28.0,
+          "probability": 0.9857327938079834
+        },
+        {
+          "word": " it.",
+          "start": 28.0,
+          "end": 28.14,
+          "probability": 0.9722620844841003
+        }
+      ]
+    }
+  ]
+}

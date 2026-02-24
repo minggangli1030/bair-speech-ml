@@ -1,0 +1,97 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-32695_ses-20200929_task-picnic_lang-en_final.wav
+Total Segments: 11
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:05.549 → 00:07.135     Clinician    1.59      s A man at warmen.                                   EH M AE N IH W AH M IH N SIL D
+2    00:11.050 → 00:12.164     Clinician    1.11      s Take that now.                                     IH SIL M N EH AE EH SIL N AW
+3    00:17.361 → 00:18.424     Clinician    1.06      s I watch.                                           AY SIL W AA R SIL CH
+4    00:18.846 → 00:21.276     Clinician    2.43      s Man, Hen, flag now.                                M AE N HH EH N F S L AE SIL N AW
+5    00:41.003 → 00:43.770     Participant  2.77      s I F watch.                                         AY AE S W AA SIL CH
+6    00:44.985 → 00:46.977     Participant  1.99      s Watch the woman and man.                           W AA SIL CH S SIL S AH SIL W UH AH M IH N HH AE N M AE AH SIL
+7    00:50.790 → 00:52.140     Participant  1.35      s I have a dog.                                      AY HH AE V F V AH SIL D AA SIL K
+8    00:58.958 → 01:01.793     Participant  2.84      s I have watched this woman.                         AY EH V EH W AA SIL CH SH S IH S W UH M IH N
+9    01:07.868 → 01:14.820     Participant  6.95      s wimming in, in boy now, and swimming in so I...    S SIL W IH M IH N IY IH N S SIL IH N SIL IH N HH M SIL B OY IY SIL N AW SIL IH N SIL TH SIL S W EY N IY IY NG IH N S S AH AY SIL
+10   01:16.508 → 01:20.204     Participant  3.70      s I pre-my favoured tree.                            AY P R IY B AY F AE V F AH IH SIL T R IY
+11   01:26.819 → 01:28.034     Participant  1.22      s His house down                                     HH AW L S SIL EH AW S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:05.549 - 00:07.135 (1.59s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: A man at warmen.
+  Phonemic Encoding: EH M AE N IH W AH M IH N SIL D
+
+Segment 2:
+  Timestamp: 00:11.050 - 00:12.164 (1.11s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Take that now.
+  Phonemic Encoding: IH SIL M N EH AE EH SIL N AW
+
+Segment 3:
+  Timestamp: 00:17.361 - 00:18.424 (1.06s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I watch.
+  Phonemic Encoding: AY SIL W AA R SIL CH
+
+Segment 4:
+  Timestamp: 00:18.846 - 00:21.276 (2.43s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Man, Hen, flag now.
+  Phonemic Encoding: M AE N HH EH N F S L AE SIL N AW
+
+Segment 5:
+  Timestamp: 00:41.003 - 00:43.770 (2.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I F watch.
+  Phonemic Encoding: AY AE S W AA SIL CH
+
+Segment 6:
+  Timestamp: 00:44.985 - 00:46.977 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Watch the woman and man.
+  Phonemic Encoding: W AA SIL CH S SIL S AH SIL W UH AH M IH N HH AE N M AE AH SIL
+
+Segment 7:
+  Timestamp: 00:50.790 - 00:52.140 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have a dog.
+  Phonemic Encoding: AY HH AE V F V AH SIL D AA SIL K
+
+Segment 8:
+  Timestamp: 00:58.958 - 01:01.793 (2.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have watched this woman.
+  Phonemic Encoding: AY EH V EH W AA SIL CH SH S IH S W UH M IH N
+
+Segment 9:
+  Timestamp: 01:07.868 - 01:14.820 (6.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: wimming in, in boy now, and swimming in so I...
+  Phonemic Encoding: S SIL W IH M IH N IY IH N S SIL IH N SIL IH N HH M SIL B OY IY SIL N AW SIL IH N SIL TH SIL S W EY N IY IY NG IH N S S AH AY SIL
+
+Segment 10:
+  Timestamp: 01:16.508 - 01:20.204 (3.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I pre-my favoured tree.
+  Phonemic Encoding: AY P R IY B AY F AE V F AH IH SIL T R IY
+
+Segment 11:
+  Timestamp: 01:26.819 - 01:28.034 (1.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: His house down
+  Phonemic Encoding: HH AW L S SIL EH AW S

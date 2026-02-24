@@ -1,0 +1,1204 @@
+{
+  "text": " I know there's a dog there. And then there's 1, 2, 3, 4, 5, 6. Oh, there's almost seven people right there because there's 1, 2, 3, 4, 5. And I think there's two right there. 1, 2, 3, 4, 5, 6. I think there's six of them right here. And there's a dog right there. I don't think there's a cat. How many cats do you have? Do you don't have any cats? I have four cats. A tree? Yeah.",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "know",
+      "start": 0.5,
+      "end": 0.58
+    },
+    {
+      "word": "there's",
+      "start": 0.58,
+      "end": 0.8
+    },
+    {
+      "word": "a",
+      "start": 0.8,
+      "end": 0.9
+    },
+    {
+      "word": "dog",
+      "start": 0.9,
+      "end": 1.12
+    },
+    {
+      "word": "there.",
+      "start": 1.12,
+      "end": 1.42
+    },
+    {
+      "word": "And",
+      "start": 4.66,
+      "end": 5.14
+    },
+    {
+      "word": "then",
+      "start": 5.14,
+      "end": 5.32
+    },
+    {
+      "word": "there's",
+      "start": 5.32,
+      "end": 6.32
+    },
+    {
+      "word": "1,",
+      "start": 6.88,
+      "end": 7.2
+    },
+    {
+      "word": "2,",
+      "start": 7.58,
+      "end": 7.74
+    },
+    {
+      "word": "3,",
+      "start": 8.1,
+      "end": 8.46
+    },
+    {
+      "word": "4,",
+      "start": 9.06,
+      "end": 9.24
+    },
+    {
+      "word": "5,",
+      "start": 9.96,
+      "end": 9.96
+    },
+    {
+      "word": "6.",
+      "start": 10.58,
+      "end": 10.68
+    },
+    {
+      "word": "Oh,",
+      "start": 11.64,
+      "end": 11.74
+    },
+    {
+      "word": "there's",
+      "start": 11.78,
+      "end": 11.98
+    },
+    {
+      "word": "almost",
+      "start": 11.98,
+      "end": 12.14
+    },
+    {
+      "word": "seven",
+      "start": 12.14,
+      "end": 12.56
+    },
+    {
+      "word": "people",
+      "start": 12.56,
+      "end": 12.94
+    },
+    {
+      "word": "right",
+      "start": 12.94,
+      "end": 13.18
+    },
+    {
+      "word": "there",
+      "start": 13.18,
+      "end": 13.38
+    },
+    {
+      "word": "because",
+      "start": 13.38,
+      "end": 13.58
+    },
+    {
+      "word": "there's",
+      "start": 13.58,
+      "end": 13.8
+    },
+    {
+      "word": "1,",
+      "start": 13.8,
+      "end": 14.06
+    },
+    {
+      "word": "2,",
+      "start": 14.3,
+      "end": 14.46
+    },
+    {
+      "word": "3,",
+      "start": 14.72,
+      "end": 15.0
+    },
+    {
+      "word": "4,",
+      "start": 15.34,
+      "end": 16.38
+    },
+    {
+      "word": "5.",
+      "start": 17.0,
+      "end": 17.32
+    },
+    {
+      "word": "And",
+      "start": 17.88,
+      "end": 18.02
+    },
+    {
+      "word": "I",
+      "start": 18.02,
+      "end": 18.22
+    },
+    {
+      "word": "think",
+      "start": 18.22,
+      "end": 18.38
+    },
+    {
+      "word": "there's",
+      "start": 18.38,
+      "end": 18.62
+    },
+    {
+      "word": "two",
+      "start": 18.62,
+      "end": 18.8
+    },
+    {
+      "word": "right",
+      "start": 18.8,
+      "end": 19.0
+    },
+    {
+      "word": "there.",
+      "start": 19.0,
+      "end": 19.24
+    },
+    {
+      "word": "1,",
+      "start": 19.82,
+      "end": 20.02
+    },
+    {
+      "word": "2,",
+      "start": 20.28,
+      "end": 20.44
+    },
+    {
+      "word": "3,",
+      "start": 20.94,
+      "end": 22.1
+    },
+    {
+      "word": "4,",
+      "start": 22.5,
+      "end": 24.26
+    },
+    {
+      "word": "5,",
+      "start": 24.6,
+      "end": 24.74
+    },
+    {
+      "word": "6.",
+      "start": 24.98,
+      "end": 25.1
+    },
+    {
+      "word": "I",
+      "start": 25.28,
+      "end": 25.36
+    },
+    {
+      "word": "think",
+      "start": 25.36,
+      "end": 25.5
+    },
+    {
+      "word": "there's",
+      "start": 25.5,
+      "end": 25.78
+    },
+    {
+      "word": "six",
+      "start": 25.78,
+      "end": 25.96
+    },
+    {
+      "word": "of",
+      "start": 25.96,
+      "end": 26.1
+    },
+    {
+      "word": "them",
+      "start": 26.1,
+      "end": 26.18
+    },
+    {
+      "word": "right",
+      "start": 26.18,
+      "end": 26.42
+    },
+    {
+      "word": "here.",
+      "start": 26.42,
+      "end": 26.68
+    },
+    {
+      "word": "And",
+      "start": 30.94,
+      "end": 31.36
+    },
+    {
+      "word": "there's",
+      "start": 31.36,
+      "end": 31.54
+    },
+    {
+      "word": "a",
+      "start": 31.54,
+      "end": 31.64
+    },
+    {
+      "word": "dog",
+      "start": 31.64,
+      "end": 31.84
+    },
+    {
+      "word": "right",
+      "start": 31.84,
+      "end": 32.08
+    },
+    {
+      "word": "there.",
+      "start": 32.08,
+      "end": 32.38
+    },
+    {
+      "word": "I",
+      "start": 34.66,
+      "end": 35.08
+    },
+    {
+      "word": "don't",
+      "start": 35.08,
+      "end": 35.16
+    },
+    {
+      "word": "think",
+      "start": 35.16,
+      "end": 35.34
+    },
+    {
+      "word": "there's",
+      "start": 35.34,
+      "end": 35.6
+    },
+    {
+      "word": "a",
+      "start": 35.6,
+      "end": 35.76
+    },
+    {
+      "word": "cat.",
+      "start": 35.76,
+      "end": 35.96
+    },
+    {
+      "word": "How",
+      "start": 37.12,
+      "end": 37.54
+    },
+    {
+      "word": "many",
+      "start": 37.54,
+      "end": 37.66
+    },
+    {
+      "word": "cats",
+      "start": 37.66,
+      "end": 37.9
+    },
+    {
+      "word": "do",
+      "start": 37.9,
+      "end": 38.16
+    },
+    {
+      "word": "you",
+      "start": 38.16,
+      "end": 38.26
+    },
+    {
+      "word": "have?",
+      "start": 38.26,
+      "end": 38.42
+    },
+    {
+      "word": "Do",
+      "start": 39.0,
+      "end": 39.16
+    },
+    {
+      "word": "you",
+      "start": 39.16,
+      "end": 39.24
+    },
+    {
+      "word": "don't",
+      "start": 39.24,
+      "end": 39.3
+    },
+    {
+      "word": "have",
+      "start": 39.3,
+      "end": 39.48
+    },
+    {
+      "word": "any",
+      "start": 39.48,
+      "end": 39.62
+    },
+    {
+      "word": "cats?",
+      "start": 39.62,
+      "end": 39.84
+    },
+    {
+      "word": "I",
+      "start": 40.04,
+      "end": 40.12
+    },
+    {
+      "word": "have",
+      "start": 40.12,
+      "end": 40.22
+    },
+    {
+      "word": "four",
+      "start": 40.22,
+      "end": 40.44
+    },
+    {
+      "word": "cats.",
+      "start": 40.44,
+      "end": 40.8
+    },
+    {
+      "word": "A",
+      "start": 42.96,
+      "end": 43.38
+    },
+    {
+      "word": "tree?",
+      "start": 43.38,
+      "end": 43.64
+    },
+    {
+      "word": "Yeah.",
+      "start": 44.4,
+      "end": 44.52
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.42,
+      "text": " I know there's a dog there.",
+      "tokens": [
+        50364,
+        286,
+        458,
+        456,
+        311,
+        257,
+        3000,
+        456,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8568578362464905
+        },
+        {
+          "word": " know",
+          "start": 0.5,
+          "end": 0.58,
+          "probability": 0.9947842955589294
+        },
+        {
+          "word": " there's",
+          "start": 0.58,
+          "end": 0.8,
+          "probability": 0.9820597767829895
+        },
+        {
+          "word": " a",
+          "start": 0.8,
+          "end": 0.9,
+          "probability": 0.9770646095275879
+        },
+        {
+          "word": " dog",
+          "start": 0.9,
+          "end": 1.12,
+          "probability": 0.912988007068634
+        },
+        {
+          "word": " there.",
+          "start": 1.12,
+          "end": 1.42,
+          "probability": 0.865696907043457
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.66,
+      "end": 6.32,
+      "text": " And then there's",
+      "tokens": [
+        50608,
+        400,
+        550,
+        456,
+        311,
+        50708
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " And",
+          "start": 4.66,
+          "end": 5.14,
+          "probability": 0.9700937271118164
+        },
+        {
+          "word": " then",
+          "start": 5.14,
+          "end": 5.32,
+          "probability": 0.9916660189628601
+        },
+        {
+          "word": " there's",
+          "start": 5.32,
+          "end": 6.32,
+          "probability": 0.9639178514480591
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.88,
+      "end": 10.68,
+      "text": " 1, 2, 3, 4, 5, 6.",
+      "tokens": [
+        50708,
+        502,
+        11,
+        568,
+        11,
+        805,
+        11,
+        1017,
+        11,
+        1025,
+        11,
+        1386,
+        13,
+        50908
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " 1,",
+          "start": 6.88,
+          "end": 7.2,
+          "probability": 0.3432852327823639
+        },
+        {
+          "word": " 2,",
+          "start": 7.58,
+          "end": 7.74,
+          "probability": 0.8758138418197632
+        },
+        {
+          "word": " 3,",
+          "start": 8.1,
+          "end": 8.46,
+          "probability": 0.9934386610984802
+        },
+        {
+          "word": " 4,",
+          "start": 9.06,
+          "end": 9.24,
+          "probability": 0.9984423518180847
+        },
+        {
+          "word": " 5,",
+          "start": 9.96,
+          "end": 9.96,
+          "probability": 0.9951640367507935
+        },
+        {
+          "word": " 6.",
+          "start": 10.58,
+          "end": 10.68,
+          "probability": 0.9976231455802917
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.64,
+      "end": 17.32,
+      "text": " Oh, there's almost seven people right there because there's 1, 2, 3, 4, 5.",
+      "tokens": [
+        50936,
+        876,
+        11,
+        456,
+        311,
+        1920,
+        3407,
+        561,
+        558,
+        456,
+        570,
+        456,
+        311,
+        502,
+        11,
+        568,
+        11,
+        805,
+        11,
+        1017,
+        11,
+        1025,
+        13,
+        51248
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 11.64,
+          "end": 11.74,
+          "probability": 0.7958390712738037
+        },
+        {
+          "word": " there's",
+          "start": 11.78,
+          "end": 11.98,
+          "probability": 0.9849431812763214
+        },
+        {
+          "word": " almost",
+          "start": 11.98,
+          "end": 12.14,
+          "probability": 0.9947956204414368
+        },
+        {
+          "word": " seven",
+          "start": 12.14,
+          "end": 12.56,
+          "probability": 0.8108006119728088
+        },
+        {
+          "word": " people",
+          "start": 12.56,
+          "end": 12.94,
+          "probability": 0.9991806149482727
+        },
+        {
+          "word": " right",
+          "start": 12.94,
+          "end": 13.18,
+          "probability": 0.9439732432365417
+        },
+        {
+          "word": " there",
+          "start": 13.18,
+          "end": 13.38,
+          "probability": 0.9966664910316467
+        },
+        {
+          "word": " because",
+          "start": 13.38,
+          "end": 13.58,
+          "probability": 0.41622206568717957
+        },
+        {
+          "word": " there's",
+          "start": 13.58,
+          "end": 13.8,
+          "probability": 0.9912000596523285
+        },
+        {
+          "word": " 1,",
+          "start": 13.8,
+          "end": 14.06,
+          "probability": 0.8181955814361572
+        },
+        {
+          "word": " 2,",
+          "start": 14.3,
+          "end": 14.46,
+          "probability": 0.9924246072769165
+        },
+        {
+          "word": " 3,",
+          "start": 14.72,
+          "end": 15.0,
+          "probability": 0.9978612065315247
+        },
+        {
+          "word": " 4,",
+          "start": 15.34,
+          "end": 16.38,
+          "probability": 0.9991330504417419
+        },
+        {
+          "word": " 5.",
+          "start": 17.0,
+          "end": 17.32,
+          "probability": 0.9958134293556213
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.88,
+      "end": 19.24,
+      "text": " And I think there's two right there.",
+      "tokens": [
+        51248,
+        400,
+        286,
+        519,
+        456,
+        311,
+        732,
+        558,
+        456,
+        13,
+        51348
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " And",
+          "start": 17.88,
+          "end": 18.02,
+          "probability": 0.9920358061790466
+        },
+        {
+          "word": " I",
+          "start": 18.02,
+          "end": 18.22,
+          "probability": 0.9787369966506958
+        },
+        {
+          "word": " think",
+          "start": 18.22,
+          "end": 18.38,
+          "probability": 0.9995075464248657
+        },
+        {
+          "word": " there's",
+          "start": 18.38,
+          "end": 18.62,
+          "probability": 0.9973750114440918
+        },
+        {
+          "word": " two",
+          "start": 18.62,
+          "end": 18.8,
+          "probability": 0.961331307888031
+        },
+        {
+          "word": " right",
+          "start": 18.8,
+          "end": 19.0,
+          "probability": 0.9986311793327332
+        },
+        {
+          "word": " there.",
+          "start": 19.0,
+          "end": 19.24,
+          "probability": 0.9983042478561401
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.82,
+      "end": 26.68,
+      "text": " 1, 2, 3, 4, 5, 6. I think there's six of them right here.",
+      "tokens": [
+        51348,
+        502,
+        11,
+        568,
+        11,
+        805,
+        11,
+        1017,
+        11,
+        1025,
+        11,
+        1386,
+        13,
+        286,
+        519,
+        456,
+        311,
+        2309,
+        295,
+        552,
+        558,
+        510,
+        13,
+        51696
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3271248923407661,
+      "compression_ratio": 1.8125,
+      "no_speech_prob": 0.1309218853712082,
+      "words": [
+        {
+          "word": " 1,",
+          "start": 19.82,
+          "end": 20.02,
+          "probability": 0.9064630270004272
+        },
+        {
+          "word": " 2,",
+          "start": 20.28,
+          "end": 20.44,
+          "probability": 0.9936060905456543
+        },
+        {
+          "word": " 3,",
+          "start": 20.94,
+          "end": 22.1,
+          "probability": 0.9976595640182495
+        },
+        {
+          "word": " 4,",
+          "start": 22.5,
+          "end": 24.26,
+          "probability": 0.998417854309082
+        },
+        {
+          "word": " 5,",
+          "start": 24.6,
+          "end": 24.74,
+          "probability": 0.996687114238739
+        },
+        {
+          "word": " 6.",
+          "start": 24.98,
+          "end": 25.1,
+          "probability": 0.9982895255088806
+        },
+        {
+          "word": " I",
+          "start": 25.28,
+          "end": 25.36,
+          "probability": 0.9984847903251648
+        },
+        {
+          "word": " think",
+          "start": 25.36,
+          "end": 25.5,
+          "probability": 0.9992080330848694
+        },
+        {
+          "word": " there's",
+          "start": 25.5,
+          "end": 25.78,
+          "probability": 0.958930492401123
+        },
+        {
+          "word": " six",
+          "start": 25.78,
+          "end": 25.96,
+          "probability": 0.9638068675994873
+        },
+        {
+          "word": " of",
+          "start": 25.96,
+          "end": 26.1,
+          "probability": 0.9670937657356262
+        },
+        {
+          "word": " them",
+          "start": 26.1,
+          "end": 26.18,
+          "probability": 0.9699153900146484
+        },
+        {
+          "word": " right",
+          "start": 26.18,
+          "end": 26.42,
+          "probability": 0.9638665914535522
+        },
+        {
+          "word": " here.",
+          "start": 26.42,
+          "end": 26.68,
+          "probability": 0.9969406127929688
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 3000,
+      "start": 30.94,
+      "end": 32.38,
+      "text": " And there's a dog right there.",
+      "tokens": [
+        50412,
+        400,
+        456,
+        311,
+        257,
+        3000,
+        558,
+        456,
+        13,
+        50480
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23314105339770047,
+      "compression_ratio": 1.3904761904761904,
+      "no_speech_prob": 0.0033703106455504894,
+      "words": [
+        {
+          "word": " And",
+          "start": 30.94,
+          "end": 31.36,
+          "probability": 0.6566655039787292
+        },
+        {
+          "word": " there's",
+          "start": 31.36,
+          "end": 31.54,
+          "probability": 0.9859245121479034
+        },
+        {
+          "word": " a",
+          "start": 31.54,
+          "end": 31.64,
+          "probability": 0.9376396536827087
+        },
+        {
+          "word": " dog",
+          "start": 31.64,
+          "end": 31.84,
+          "probability": 0.9972164630889893
+        },
+        {
+          "word": " right",
+          "start": 31.84,
+          "end": 32.08,
+          "probability": 0.9963687658309937
+        },
+        {
+          "word": " there.",
+          "start": 32.08,
+          "end": 32.38,
+          "probability": 0.9980216026306152
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 3000,
+      "start": 34.66,
+      "end": 35.96,
+      "text": " I don't think there's a cat.",
+      "tokens": [
+        50604,
+        286,
+        500,
+        380,
+        519,
+        456,
+        311,
+        257,
+        3857,
+        13,
+        50660
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23314105339770047,
+      "compression_ratio": 1.3904761904761904,
+      "no_speech_prob": 0.0033703106455504894,
+      "words": [
+        {
+          "word": " I",
+          "start": 34.66,
+          "end": 35.08,
+          "probability": 0.9808642268180847
+        },
+        {
+          "word": " don't",
+          "start": 35.08,
+          "end": 35.16,
+          "probability": 0.946241170167923
+        },
+        {
+          "word": " think",
+          "start": 35.16,
+          "end": 35.34,
+          "probability": 0.9979289770126343
+        },
+        {
+          "word": " there's",
+          "start": 35.34,
+          "end": 35.6,
+          "probability": 0.9905920922756195
+        },
+        {
+          "word": " a",
+          "start": 35.6,
+          "end": 35.76,
+          "probability": 0.9682682156562805
+        },
+        {
+          "word": " cat.",
+          "start": 35.76,
+          "end": 35.96,
+          "probability": 0.9917787909507751
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 3000,
+      "start": 37.12,
+      "end": 38.42,
+      "text": " How many cats do you have?",
+      "tokens": [
+        50728,
+        1012,
+        867,
+        11111,
+        360,
+        291,
+        362,
+        30,
+        50808
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23314105339770047,
+      "compression_ratio": 1.3904761904761904,
+      "no_speech_prob": 0.0033703106455504894,
+      "words": [
+        {
+          "word": " How",
+          "start": 37.12,
+          "end": 37.54,
+          "probability": 0.9737622141838074
+        },
+        {
+          "word": " many",
+          "start": 37.54,
+          "end": 37.66,
+          "probability": 0.9994105100631714
+        },
+        {
+          "word": " cats",
+          "start": 37.66,
+          "end": 37.9,
+          "probability": 0.9943798184394836
+        },
+        {
+          "word": " do",
+          "start": 37.9,
+          "end": 38.16,
+          "probability": 0.9966267347335815
+        },
+        {
+          "word": " you",
+          "start": 38.16,
+          "end": 38.26,
+          "probability": 0.9958221912384033
+        },
+        {
+          "word": " have?",
+          "start": 38.26,
+          "end": 38.42,
+          "probability": 0.9987439513206482
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 3000,
+      "start": 39.0,
+      "end": 40.8,
+      "text": " Do you don't have any cats? I have four cats.",
+      "tokens": [
+        50808,
+        1144,
+        291,
+        500,
+        380,
+        362,
+        604,
+        11111,
+        30,
+        286,
+        362,
+        1451,
+        11111,
+        13,
+        50904
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23314105339770047,
+      "compression_ratio": 1.3904761904761904,
+      "no_speech_prob": 0.0033703106455504894,
+      "words": [
+        {
+          "word": " Do",
+          "start": 39.0,
+          "end": 39.16,
+          "probability": 0.9713662266731262
+        },
+        {
+          "word": " you",
+          "start": 39.16,
+          "end": 39.24,
+          "probability": 0.9976091384887695
+        },
+        {
+          "word": " don't",
+          "start": 39.24,
+          "end": 39.3,
+          "probability": 0.8434082567691803
+        },
+        {
+          "word": " have",
+          "start": 39.3,
+          "end": 39.48,
+          "probability": 0.9972476363182068
+        },
+        {
+          "word": " any",
+          "start": 39.48,
+          "end": 39.62,
+          "probability": 0.9886476397514343
+        },
+        {
+          "word": " cats?",
+          "start": 39.62,
+          "end": 39.84,
+          "probability": 0.990263819694519
+        },
+        {
+          "word": " I",
+          "start": 40.04,
+          "end": 40.12,
+          "probability": 0.9973776340484619
+        },
+        {
+          "word": " have",
+          "start": 40.12,
+          "end": 40.22,
+          "probability": 0.9989442229270935
+        },
+        {
+          "word": " four",
+          "start": 40.22,
+          "end": 40.44,
+          "probability": 0.9021708965301514
+        },
+        {
+          "word": " cats.",
+          "start": 40.44,
+          "end": 40.8,
+          "probability": 0.997370719909668
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 42.96,
+      "end": 44.52,
+      "text": " A tree? Yeah.",
+      "tokens": [
+        51020,
+        316,
+        4230,
+        30,
+        865,
+        13,
+        51444
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23314105339770047,
+      "compression_ratio": 1.3904761904761904,
+      "no_speech_prob": 0.0033703106455504894,
+      "words": [
+        {
+          "word": " A",
+          "start": 42.96,
+          "end": 43.38,
+          "probability": 0.4515243470668793
+        },
+        {
+          "word": " tree?",
+          "start": 43.38,
+          "end": 43.64,
+          "probability": 0.9954615235328674
+        },
+        {
+          "word": " Yeah.",
+          "start": 44.4,
+          "end": 44.52,
+          "probability": 0.9229227304458618
+        }
+      ]
+    }
+  ]
+}

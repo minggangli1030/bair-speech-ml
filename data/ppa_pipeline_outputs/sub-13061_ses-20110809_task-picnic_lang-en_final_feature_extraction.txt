@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-13061_ses-20110809_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.140 → 00:03.473     Participant  1.33      s from Catty.                                        SIL K T AE DX IH N IY
+2    00:06.291 → 00:19.268     Participant  12.98     s They're down at the, there's a group of people hav DH EH ER SIL D AW N IH AH SIL AE SIL T DH AH DH AH SIL DH AH IH SIL SIL DH ER Z AH SIL G R UW SIL P AH V SIL P IY SIL P L SIL HH AE V IH N SIL EY TH IH SIL N IH SIL K AA N DH EH ER R S IH DX IH N SIL AA N DH AH SIL G R AE S SIL AA SIL D AW N IH SIL DH AH SH AA R ER
+3    00:20.264 → 00:24.027     Participant  3.76      s and it looks like they're having a really nice tim AE N SIL D IH SIL IH L UH SIL K S L AY SIL DH EH ER HH AE V IY N SIL IH R IH L IY N AY S SIL T AY N M
+4    00:27.047 → 00:33.730     Participant  6.68      s One gentleman is reading, another one's being a li W AH N SIL JH EH N L M AH N IH S R IY DX IY N SIL N AH DH ER W AH IH N S SIL SIL B IY IH N L UH DX L M AA R SIL AE AE SIL T IH V W IH TH DH AH W IH TH SIL EY SIL K HH AY SIL T
+5    00:35.012 → 00:36.919     Participant  1.91      s My favorite would be the boat.                     M AY F EY V ER SIL W IH SIL B IY DH AH SIL B OW SIL T S
+6    00:38.067 → 00:44.834     Participant  6.77      s And there are some children down there happily hav AA N SIL AE N DH EH R AA R S AH M SIL CH IH L SIL D ER N SIL D AW N DH EH ER HH HH AE SIL P L IY HH AE V IY IH N IH SIL G UH SIL T AY M AH N DH IY V IH N DH AH SIL D AA SIL G S IY NG S SIL T UW SIL B IY HH AE V IH N IH SIL G UH SIL T AY N
+7    00:46.116 → 00:49.424     Participant  3.31      s I'm not sure about this, it sort of seems like the M AY N ER SIL CH ER ER SIL B AW SIL DH IH EH S IH SIL T S AA R DX IH V S IY M Z S SIL L AY SIL K DH EY
+8    00:50.048 → 00:53.069     Participant  3.02      s Lymph there, though it's a pretty small.           L IH N TH DH EH ER DH OW IH SIL S AH SIL P ER DX IY S SIL M AA L SIL
+9    00:59.430 → 01:03.025     Participant  3.59      s I don't know, sitting in their frat yard or someth AY DX AH ER N OW SIL S IH DX IY NG N IH N DH EH ER F SIL F R AY SIL Y AA R IH DX ER S AH M SIL P TH IH NG IH SIL IH SIL S IY M S AA
+10   01:04.932 → 01:06.265     Clinician    1.33      s and it works that way.                             AH DH AH N SIL T W ER SIL K S SIL D DH AE AW SIL W EY
+11   01:06.957 → 01:10.045     Clinician    3.09      s I mean, look at their sitting on a                 AH M AY M IH N DH EH ER SIL L UH SIL K IH SIL T ER DH EH ER R S IH DX IY N IH SIL AA N AH
+12   01:10.281 → 01:12.914     Clinician    2.63      s on a blanket or something.                         AA N IH SIL EY AH M SIL B L AE NG SIL K IH DX ER S AH M SIL TH IH NG SIL
+13   01:13.622 → 01:20.254     Clinician    6.63      s It's as big as the house. So that's sort of odd to HH IH SIL T S EH Z S SIL B IH SIL G IH S SIL DH AH HH AW S SIL S S L DH AE SIL S IY NG S ER DX IH V AA SIL T IH M IY SIL B AH IH HH IH SIL L UH SIL K S F AH N AH SIL IH N DH EH ER HH AE V IH N IH SIL G UH SIL T AY M
+14   01:21.689 → 01:23.714     Clinician    2.03      s and I would like to be there too.                  IH AE N D AH SIL HH AY W UH SIL D L AY SIL T UW SIL B IY DH EH ER SIL T UW
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.140 - 00:03.473 (1.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: from Catty.
+  Phonemic Encoding: SIL K T AE DX IH N IY
+
+Segment 2:
+  Timestamp: 00:06.291 - 00:19.268 (12.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They're down at the, there's a group of people having a picnic on, they're sitting on the grass down at the shore.
+  Phonemic Encoding: DH EH ER SIL D AW N IH AH SIL AE SIL T DH AH DH AH SIL DH AH IH SIL SIL DH ER Z AH SIL G R UW SIL P AH V SIL P IY SIL P L SIL HH AE V IH N SIL EY TH IH SIL N IH SIL K AA N DH EH ER R S IH DX IH N SIL AA N DH AH SIL G R AE S SIL AA SIL D AW N IH SIL DH AH SH AA R ER
+
+Segment 3:
+  Timestamp: 00:20.264 - 00:24.027 (3.76s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and it looks like they're having a really nice time.
+  Phonemic Encoding: AE N SIL D IH SIL IH L UH SIL K S L AY SIL DH EH ER HH AE V IY N SIL IH R IH L IY N AY S SIL T AY N M
+
+Segment 4:
+  Timestamp: 00:27.047 - 00:33.730 (6.68s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: One gentleman is reading, another one's being a little more active with a kite.
+  Phonemic Encoding: W AH N SIL JH EH N L M AH N IH S R IY DX IY N SIL N AH DH ER W AH IH N S SIL SIL B IY IH N L UH DX L M AA R SIL AE AE SIL T IH V W IH TH DH AH W IH TH SIL EY SIL K HH AY SIL T
+
+Segment 5:
+  Timestamp: 00:35.012 - 00:36.919 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: My favorite would be the boat.
+  Phonemic Encoding: M AY F EY V ER SIL W IH SIL B IY DH AH SIL B OW SIL T S
+
+Segment 6:
+  Timestamp: 00:38.067 - 00:44.834 (6.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there are some children down there happily having a good time, and even the dog seems to be having a good time.
+  Phonemic Encoding: AA N SIL AE N DH EH R AA R S AH M SIL CH IH L SIL D ER N SIL D AW N DH EH ER HH HH AE SIL P L IY HH AE V IY IH N IH SIL G UH SIL T AY M AH N DH IY V IH N DH AH SIL D AA SIL G S IY NG S SIL T UW SIL B IY HH AE V IH N IH SIL G UH SIL T AY N
+
+Segment 7:
+  Timestamp: 00:46.116 - 00:49.424 (3.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm not sure about this, it sort of seems like they...
+  Phonemic Encoding: M AY N ER SIL CH ER ER SIL B AW SIL DH IH EH S IH SIL T S AA R DX IH V S IY M Z S SIL L AY SIL K DH EY
+
+Segment 8:
+  Timestamp: 00:50.048 - 00:53.069 (3.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Lymph there, though it's a pretty small.
+  Phonemic Encoding: L IH N TH DH EH ER DH OW IH SIL S AH SIL P ER DX IY S SIL M AA L SIL
+
+Segment 9:
+  Timestamp: 00:59.430 - 01:03.025 (3.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't know, sitting in their frat yard or something, it seems sort of...
+  Phonemic Encoding: AY DX AH ER N OW SIL S IH DX IY NG N IH N DH EH ER F SIL F R AY SIL Y AA R IH DX ER S AH M SIL P TH IH NG IH SIL IH SIL S IY M S AA
+
+Segment 10:
+  Timestamp: 01:04.932 - 01:06.265 (1.33s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and it works that way.
+  Phonemic Encoding: AH DH AH N SIL T W ER SIL K S SIL D DH AE AW SIL W EY
+
+Segment 11:
+  Timestamp: 01:06.957 - 01:10.045 (3.09s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I mean, look at their sitting on a
+  Phonemic Encoding: AH M AY M IH N DH EH ER SIL L UH SIL K IH SIL T ER DH EH ER R S IH DX IY N IH SIL AA N AH
+
+Segment 12:
+  Timestamp: 01:10.281 - 01:12.914 (2.63s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: on a blanket or something.
+  Phonemic Encoding: AA N IH SIL EY AH M SIL B L AE NG SIL K IH DX ER S AH M SIL TH IH NG SIL
+
+Segment 13:
+  Timestamp: 01:13.622 - 01:20.254 (6.63s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's as big as the house. So that's sort of odd to me, but it looks fun and there haven't a good time.
+  Phonemic Encoding: HH IH SIL T S EH Z S SIL B IH SIL G IH S SIL DH AH HH AW S SIL S S L DH AE SIL S IY NG S ER DX IH V AA SIL T IH M IY SIL B AH IH HH IH SIL L UH SIL K S F AH N AH SIL IH N DH EH ER HH AE V IH N IH SIL G UH SIL T AY M
+
+Segment 14:
+  Timestamp: 01:21.689 - 01:23.714 (2.03s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and I would like to be there too.
+  Phonemic Encoding: IH AE N D AH SIL HH AY W UH SIL D L AY SIL T UW SIL B IY DH EH ER SIL T UW

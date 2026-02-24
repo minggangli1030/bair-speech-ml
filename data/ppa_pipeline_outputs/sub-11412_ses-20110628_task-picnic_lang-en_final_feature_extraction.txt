@@ -1,0 +1,111 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-11412_ses-20110628_task-picnic_lang-en_final.wav
+Total Segments: 13
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.520 → 00:04.469     Participant  3.95      s occupy them to the edges in their tumies. When the DH AH UH SIL K TH Z EH SIL K IH DH EH HH AE V IH N IH N SIL P EH SIL G SIL D IH SIL SIL AE EH SIL G IH SIL AH SIL B AH EH NG SIL SIL B AH S
+2    00:09.210 → 00:10.949     Participant  1.74      s bush veio��                                        B AY S SH SIL B L AY IY SIL K AA AY
+3    00:15.555 → 00:19.251     Participant  3.70      s once in a sub, but mind you, Bayou.                W AA AH N S IH N IH S AH SIL B IH SIL V B AH R SIL M AY N ZH UW SIL B EY Y UW
+4    00:24.162 → 00:26.575     Participant  2.41      s The one is punk.                                   DH IH W AY N IH Z S SIL P AA N NG SIL K
+5    00:37.004 → 00:38.033     Participant  1.03      s Does it like?                                      DH EH AH Z IH F SIL P L AY EY SIL G IH AH
+6    00:45.863 → 00:47.618     Participant  1.76      s This is Shared Tree.                               DH EH SH IH SH EH EY SIL CH SIL T R UW IY
+7    00:53.507 → 00:57.203     Participant  3.70      s Is this what you want me to do? Does it carve?     IH Z IH Z AH SIL B AY Y IY IH M W AA AH N SIL M IY SIL D IH SIL D IH UW N DH EH Z IH SIL K AA R ER
+8    01:22.127 → 01:26.245     Participant  4.12      s blank it anyways you can cut that head.            B R L AE NG SIL K IH SIL D SIL EH N IH W AY DX IH UW SIL D SIL AH SIL P AA R SIL B AH SIL SIL B AH SIL M B EH DX IH SIL Y IH EH SIL D IH HH
+9    01:45.972 → 01:48.115     Participant  2.14      s This is Sun Pocket.                                D EH S IH S AE N SIL B AA SIL K IH SIL
+10   01:59.185 → 02:01.429     Participant  2.24      s then lighting as it was charged.                   L EH N AH SIL N L AY EY DX IY AE Z IH N IH SH CH AA R CH
+11   02:07.032 → 02:09.698     Participant  2.67      s as a Perdi Maj chicken.                            EH Z IH SIL P AH DX SIL IY SIL SIL M EH SIL M DH AE SH IH SIL K IH DX
+12   02:17.106 → 02:19.570     Clinician    2.46      s now that I am wounded.                             M EH DX ER EH ER SIL SIL AA AY N SIL B UH AH B L AY S SH IH
+13   02:31.973 → 02:34.656     Participant  2.68      s You don't want to show in work?                    IH SIL D OW SIL B W AH N AH SIL S L AY IH M N SIL SIL B AA R ER SIL T
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.520 - 00:04.469 (3.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: occupy them to the edges in their tumies. When the rigging starts I will gently arrest you and take off my ear when it catches your eyes. It doesn't matter which way it is from when it is correct, fortunately. I'm going to do it Military Ministericky, oppressing Kitech, wrecked Kitech altogether, originally a
+  Phonemic Encoding: DH AH UH SIL K TH Z EH SIL K IH DH EH HH AE V IH N IH N SIL P EH SIL G SIL D IH SIL SIL AE EH SIL G IH SIL AH SIL B AH EH NG SIL SIL B AH S
+
+Segment 2:
+  Timestamp: 00:09.210 - 00:10.949 (1.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: bush veio��
+  Phonemic Encoding: B AY S SH SIL B L AY IY SIL K AA AY
+
+Segment 3:
+  Timestamp: 00:15.555 - 00:19.251 (3.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: once in a sub, but mind you, Bayou.
+  Phonemic Encoding: W AA AH N S IH N IH S AH SIL B IH SIL V B AH R SIL M AY N ZH UW SIL B EY Y UW
+
+Segment 4:
+  Timestamp: 00:24.162 - 00:26.575 (2.41s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The one is punk.
+  Phonemic Encoding: DH IH W AY N IH Z S SIL P AA N NG SIL K
+
+Segment 5:
+  Timestamp: 00:37.004 - 00:38.033 (1.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Does it like?
+  Phonemic Encoding: DH EH AH Z IH F SIL P L AY EY SIL G IH AH
+
+Segment 6:
+  Timestamp: 00:45.863 - 00:47.618 (1.76s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is Shared Tree.
+  Phonemic Encoding: DH EH SH IH SH EH EY SIL CH SIL T R UW IY
+
+Segment 7:
+  Timestamp: 00:53.507 - 00:57.203 (3.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Is this what you want me to do? Does it carve?
+  Phonemic Encoding: IH Z IH Z AH SIL B AY Y IY IH M W AA AH N SIL M IY SIL D IH SIL D IH UW N DH EH Z IH SIL K AA R ER
+
+Segment 8:
+  Timestamp: 01:22.127 - 01:26.245 (4.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: blank it anyways you can cut that head.
+  Phonemic Encoding: B R L AE NG SIL K IH SIL D SIL EH N IH W AY DX IH UW SIL D SIL AH SIL P AA R SIL B AH SIL SIL B AH SIL M B EH DX IH SIL Y IH EH SIL D IH HH
+
+Segment 9:
+  Timestamp: 01:45.972 - 01:48.115 (2.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is Sun Pocket.
+  Phonemic Encoding: D EH S IH S AE N SIL B AA SIL K IH SIL
+
+Segment 10:
+  Timestamp: 01:59.185 - 02:01.429 (2.24s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: then lighting as it was charged.
+  Phonemic Encoding: L EH N AH SIL N L AY EY DX IY AE Z IH N IH SH CH AA R CH
+
+Segment 11:
+  Timestamp: 02:07.032 - 02:09.698 (2.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: as a Perdi Maj chicken.
+  Phonemic Encoding: EH Z IH SIL P AH DX SIL IY SIL SIL M EH SIL M DH AE SH IH SIL K IH DX
+
+Segment 12:
+  Timestamp: 02:17.106 - 02:19.570 (2.46s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: now that I am wounded.
+  Phonemic Encoding: M EH DX ER EH ER SIL SIL AA AY N SIL B UH AH B L AY S SH IH
+
+Segment 13:
+  Timestamp: 02:31.973 - 02:34.656 (2.68s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You don't want to show in work?
+  Phonemic Encoding: IH SIL D OW SIL B W AH N AH SIL S L AY IH M N SIL SIL B AA R ER SIL T

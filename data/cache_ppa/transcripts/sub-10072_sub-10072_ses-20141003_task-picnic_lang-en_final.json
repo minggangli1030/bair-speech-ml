@@ -1,0 +1,1673 @@
+{
+  "text": " The man out of a man was flying a kite. The two people are sailing in the sailboat. A person has fishing in the dock. A boy, a boy was playing in the lake. The man, and woman, having a picnic. The man, his reading book, the woman was pouring wine. The flag was flying. The car is in the car porch. The car was in the carport. The hamper was open. The pictures have a radio. The flag was flying. The dog was watching the action. The big tree was shading the picnicers. The car was shaking. The car was shaking. The car was shaking. The car was shaking.",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.74
+    },
+    {
+      "word": "man",
+      "start": 0.74,
+      "end": 1.48
+    },
+    {
+      "word": "out",
+      "start": 1.48,
+      "end": 2.18
+    },
+    {
+      "word": "of",
+      "start": 2.18,
+      "end": 3.78
+    },
+    {
+      "word": "a",
+      "start": 3.78,
+      "end": 4.08
+    },
+    {
+      "word": "man",
+      "start": 4.08,
+      "end": 6.12
+    },
+    {
+      "word": "was",
+      "start": 6.12,
+      "end": 6.86
+    },
+    {
+      "word": "flying",
+      "start": 6.86,
+      "end": 7.94
+    },
+    {
+      "word": "a",
+      "start": 7.94,
+      "end": 8.44
+    },
+    {
+      "word": "kite.",
+      "start": 8.44,
+      "end": 10.0
+    },
+    {
+      "word": "The",
+      "start": 10.22,
+      "end": 10.96
+    },
+    {
+      "word": "two",
+      "start": 10.96,
+      "end": 13.4
+    },
+    {
+      "word": "people",
+      "start": 13.4,
+      "end": 14.24
+    },
+    {
+      "word": "are",
+      "start": 14.24,
+      "end": 15.16
+    },
+    {
+      "word": "sailing",
+      "start": 15.16,
+      "end": 19.22
+    },
+    {
+      "word": "in",
+      "start": 19.22,
+      "end": 19.6
+    },
+    {
+      "word": "the",
+      "start": 19.6,
+      "end": 20.06
+    },
+    {
+      "word": "sailboat.",
+      "start": 20.06,
+      "end": 21.3
+    },
+    {
+      "word": "A",
+      "start": 21.3,
+      "end": 22.9
+    },
+    {
+      "word": "person",
+      "start": 22.9,
+      "end": 23.92
+    },
+    {
+      "word": "has",
+      "start": 23.92,
+      "end": 25.22
+    },
+    {
+      "word": "fishing",
+      "start": 25.22,
+      "end": 26.24
+    },
+    {
+      "word": "in",
+      "start": 26.24,
+      "end": 26.7
+    },
+    {
+      "word": "the",
+      "start": 26.7,
+      "end": 27.26
+    },
+    {
+      "word": "dock.",
+      "start": 27.26,
+      "end": 29.9
+    },
+    {
+      "word": "A",
+      "start": 31.7,
+      "end": 31.76
+    },
+    {
+      "word": "boy,",
+      "start": 31.76,
+      "end": 33.56
+    },
+    {
+      "word": "a",
+      "start": 33.78,
+      "end": 33.92
+    },
+    {
+      "word": "boy",
+      "start": 33.92,
+      "end": 38.34
+    },
+    {
+      "word": "was",
+      "start": 38.34,
+      "end": 39.0
+    },
+    {
+      "word": "playing",
+      "start": 39.0,
+      "end": 39.56
+    },
+    {
+      "word": "in",
+      "start": 39.56,
+      "end": 39.96
+    },
+    {
+      "word": "the",
+      "start": 39.96,
+      "end": 40.2
+    },
+    {
+      "word": "lake.",
+      "start": 40.2,
+      "end": 40.66
+    },
+    {
+      "word": "The",
+      "start": 40.66,
+      "end": 42.54
+    },
+    {
+      "word": "man,",
+      "start": 42.54,
+      "end": 43.82
+    },
+    {
+      "word": "and",
+      "start": 44.28,
+      "end": 46.56
+    },
+    {
+      "word": "woman,",
+      "start": 46.56,
+      "end": 47.76
+    },
+    {
+      "word": "having",
+      "start": 48.38,
+      "end": 49.86
+    },
+    {
+      "word": "a",
+      "start": 49.86,
+      "end": 50.74
+    },
+    {
+      "word": "picnic.",
+      "start": 50.74,
+      "end": 51.38
+    },
+    {
+      "word": "The",
+      "start": 53.440000000000005,
+      "end": 54.84
+    },
+    {
+      "word": "man,",
+      "start": 54.84,
+      "end": 55.4
+    },
+    {
+      "word": "his",
+      "start": 56.66,
+      "end": 57.78
+    },
+    {
+      "word": "reading",
+      "start": 57.78,
+      "end": 59.8
+    },
+    {
+      "word": "book,",
+      "start": 59.8,
+      "end": 60.5
+    },
+    {
+      "word": "the",
+      "start": 62.0,
+      "end": 62.46
+    },
+    {
+      "word": "woman",
+      "start": 62.46,
+      "end": 62.96
+    },
+    {
+      "word": "was",
+      "start": 62.96,
+      "end": 63.8
+    },
+    {
+      "word": "pouring",
+      "start": 63.8,
+      "end": 64.42
+    },
+    {
+      "word": "wine.",
+      "start": 64.42,
+      "end": 65.22
+    },
+    {
+      "word": "The",
+      "start": 66.72,
+      "end": 68.1
+    },
+    {
+      "word": "flag",
+      "start": 68.1,
+      "end": 68.66
+    },
+    {
+      "word": "was",
+      "start": 68.66,
+      "end": 69.28
+    },
+    {
+      "word": "flying.",
+      "start": 69.28,
+      "end": 69.86
+    },
+    {
+      "word": "The",
+      "start": 71.62,
+      "end": 71.86
+    },
+    {
+      "word": "car",
+      "start": 71.86,
+      "end": 73.76
+    },
+    {
+      "word": "is",
+      "start": 73.76,
+      "end": 74.16
+    },
+    {
+      "word": "in",
+      "start": 74.16,
+      "end": 75.18
+    },
+    {
+      "word": "the",
+      "start": 75.18,
+      "end": 75.98
+    },
+    {
+      "word": "car",
+      "start": 75.98,
+      "end": 76.4
+    },
+    {
+      "word": "porch.",
+      "start": 76.4,
+      "end": 76.98
+    },
+    {
+      "word": "The",
+      "start": 79.72000000000001,
+      "end": 81.10000000000001
+    },
+    {
+      "word": "car",
+      "start": 81.10000000000001,
+      "end": 82.48
+    },
+    {
+      "word": "was",
+      "start": 82.48,
+      "end": 83.34
+    },
+    {
+      "word": "in",
+      "start": 83.34,
+      "end": 84.12
+    },
+    {
+      "word": "the",
+      "start": 84.12,
+      "end": 84.5
+    },
+    {
+      "word": "carport.",
+      "start": 84.5,
+      "end": 85.14
+    },
+    {
+      "word": "The",
+      "start": 86.6,
+      "end": 88.0
+    },
+    {
+      "word": "hamper",
+      "start": 88.0,
+      "end": 88.94
+    },
+    {
+      "word": "was",
+      "start": 88.94,
+      "end": 89.6
+    },
+    {
+      "word": "open.",
+      "start": 89.6,
+      "end": 93.46
+    },
+    {
+      "word": "The",
+      "start": 95.12,
+      "end": 96.14
+    },
+    {
+      "word": "pictures",
+      "start": 96.14,
+      "end": 98.2
+    },
+    {
+      "word": "have",
+      "start": 98.2,
+      "end": 99.16
+    },
+    {
+      "word": "a",
+      "start": 99.16,
+      "end": 100.52
+    },
+    {
+      "word": "radio.",
+      "start": 100.52,
+      "end": 101.16
+    },
+    {
+      "word": "The",
+      "start": 102.6,
+      "end": 102.66
+    },
+    {
+      "word": "flag",
+      "start": 102.66,
+      "end": 103.28
+    },
+    {
+      "word": "was",
+      "start": 103.28,
+      "end": 104.42
+    },
+    {
+      "word": "flying.",
+      "start": 104.42,
+      "end": 105.14
+    },
+    {
+      "word": "The",
+      "start": 105.14,
+      "end": 107.6
+    },
+    {
+      "word": "dog",
+      "start": 107.6,
+      "end": 107.82
+    },
+    {
+      "word": "was",
+      "start": 107.82,
+      "end": 111.6
+    },
+    {
+      "word": "watching",
+      "start": 111.6,
+      "end": 112.34
+    },
+    {
+      "word": "the",
+      "start": 112.34,
+      "end": 112.98
+    },
+    {
+      "word": "action.",
+      "start": 112.98,
+      "end": 114.92
+    },
+    {
+      "word": "The",
+      "start": 119.05999999999999,
+      "end": 120.46
+    },
+    {
+      "word": "big",
+      "start": 120.46,
+      "end": 121.7
+    },
+    {
+      "word": "tree",
+      "start": 121.7,
+      "end": 122.32
+    },
+    {
+      "word": "was",
+      "start": 122.32,
+      "end": 122.92
+    },
+    {
+      "word": "shading",
+      "start": 122.92,
+      "end": 124.14
+    },
+    {
+      "word": "the",
+      "start": 124.14,
+      "end": 124.56
+    },
+    {
+      "word": "picnicers.",
+      "start": 124.56,
+      "end": 125.7
+    },
+    {
+      "word": "The",
+      "start": 126.16,
+      "end": 126.42
+    },
+    {
+      "word": "car",
+      "start": 126.42,
+      "end": 126.42
+    },
+    {
+      "word": "was",
+      "start": 126.42,
+      "end": 126.6
+    },
+    {
+      "word": "shaking.",
+      "start": 126.6,
+      "end": 126.6
+    },
+    {
+      "word": "The",
+      "start": 126.6,
+      "end": 126.6
+    },
+    {
+      "word": "car",
+      "start": 126.6,
+      "end": 126.6
+    },
+    {
+      "word": "was",
+      "start": 126.6,
+      "end": 126.64
+    },
+    {
+      "word": "shaking.",
+      "start": 126.64,
+      "end": 126.64
+    },
+    {
+      "word": "The",
+      "start": 126.64,
+      "end": 126.66
+    },
+    {
+      "word": "car",
+      "start": 126.66,
+      "end": 126.66
+    },
+    {
+      "word": "was",
+      "start": 126.66,
+      "end": 126.66
+    },
+    {
+      "word": "shaking.",
+      "start": 126.66,
+      "end": 126.66
+    },
+    {
+      "word": "The",
+      "start": 126.66,
+      "end": 126.72
+    },
+    {
+      "word": "car",
+      "start": 126.72,
+      "end": 126.72
+    },
+    {
+      "word": "was",
+      "start": 126.72,
+      "end": 126.72
+    },
+    {
+      "word": "shaking.",
+      "start": 126.72,
+      "end": 126.72
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 10.0,
+      "text": " The man out of a man was flying a kite.",
+      "tokens": [
+        50364,
+        440,
+        587,
+        484,
+        295,
+        257,
+        587,
+        390,
+        7137,
+        257,
+        38867,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5965314088044343,
+      "compression_ratio": 1.1066666666666667,
+      "no_speech_prob": 0.1265876442193985,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.29225265979766846
+        },
+        {
+          "word": " man",
+          "start": 0.74,
+          "end": 1.48,
+          "probability": 0.6013409495353699
+        },
+        {
+          "word": " out",
+          "start": 1.48,
+          "end": 2.18,
+          "probability": 0.5666702389717102
+        },
+        {
+          "word": " of",
+          "start": 2.18,
+          "end": 3.78,
+          "probability": 0.34185531735420227
+        },
+        {
+          "word": " a",
+          "start": 3.78,
+          "end": 4.08,
+          "probability": 0.11136315017938614
+        },
+        {
+          "word": " man",
+          "start": 4.08,
+          "end": 6.12,
+          "probability": 0.09212817251682281
+        },
+        {
+          "word": " was",
+          "start": 6.12,
+          "end": 6.86,
+          "probability": 0.4457259476184845
+        },
+        {
+          "word": " flying",
+          "start": 6.86,
+          "end": 7.94,
+          "probability": 0.44071102142333984
+        },
+        {
+          "word": " a",
+          "start": 7.94,
+          "end": 8.44,
+          "probability": 0.7319607138633728
+        },
+        {
+          "word": " kite.",
+          "start": 8.44,
+          "end": 10.0,
+          "probability": 0.9993768334388733
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 10.22,
+      "end": 21.3,
+      "text": " The two people are sailing in the sailboat.",
+      "tokens": [
+        50914,
+        440,
+        732,
+        561,
+        366,
+        27452,
+        294,
+        264,
+        15758,
+        31883,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5965314088044343,
+      "compression_ratio": 1.1066666666666667,
+      "no_speech_prob": 0.1265876442193985,
+      "words": [
+        {
+          "word": " The",
+          "start": 10.22,
+          "end": 10.96,
+          "probability": 0.6363837122917175
+        },
+        {
+          "word": " two",
+          "start": 10.96,
+          "end": 13.4,
+          "probability": 0.9426872134208679
+        },
+        {
+          "word": " people",
+          "start": 13.4,
+          "end": 14.24,
+          "probability": 0.9896615743637085
+        },
+        {
+          "word": " are",
+          "start": 14.24,
+          "end": 15.16,
+          "probability": 0.3220498561859131
+        },
+        {
+          "word": " sailing",
+          "start": 15.16,
+          "end": 19.22,
+          "probability": 0.9869229197502136
+        },
+        {
+          "word": " in",
+          "start": 19.22,
+          "end": 19.6,
+          "probability": 0.9731014966964722
+        },
+        {
+          "word": " the",
+          "start": 19.6,
+          "end": 20.06,
+          "probability": 0.9763066172599792
+        },
+        {
+          "word": " sailboat.",
+          "start": 20.06,
+          "end": 21.3,
+          "probability": 0.9769589006900787
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2130,
+      "start": 21.3,
+      "end": 29.9,
+      "text": " A person has fishing in the dock.",
+      "tokens": [
+        50364,
+        316,
+        954,
+        575,
+        10180,
+        294,
+        264,
+        20929,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3918611145019531,
+      "compression_ratio": 1.0757575757575757,
+      "no_speech_prob": 0.13947807252407074,
+      "words": [
+        {
+          "word": " A",
+          "start": 21.3,
+          "end": 22.9,
+          "probability": 0.041396480053663254
+        },
+        {
+          "word": " person",
+          "start": 22.9,
+          "end": 23.92,
+          "probability": 0.2607545852661133
+        },
+        {
+          "word": " has",
+          "start": 23.92,
+          "end": 25.22,
+          "probability": 0.6813649535179138
+        },
+        {
+          "word": " fishing",
+          "start": 25.22,
+          "end": 26.24,
+          "probability": 0.8665156364440918
+        },
+        {
+          "word": " in",
+          "start": 26.24,
+          "end": 26.7,
+          "probability": 0.9657374620437622
+        },
+        {
+          "word": " the",
+          "start": 26.7,
+          "end": 27.26,
+          "probability": 0.9195576906204224
+        },
+        {
+          "word": " dock.",
+          "start": 27.26,
+          "end": 29.9,
+          "probability": 0.5047649145126343
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2130,
+      "start": 31.7,
+      "end": 40.66,
+      "text": " A boy, a boy was playing in the lake.",
+      "tokens": [
+        50964,
+        316,
+        3237,
+        11,
+        257,
+        3237,
+        390,
+        2433,
+        294,
+        264,
+        11001,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3918611145019531,
+      "compression_ratio": 1.0757575757575757,
+      "no_speech_prob": 0.13947807252407074,
+      "words": [
+        {
+          "word": " A",
+          "start": 31.7,
+          "end": 31.76,
+          "probability": 0.5768393278121948
+        },
+        {
+          "word": " boy,",
+          "start": 31.76,
+          "end": 33.56,
+          "probability": 0.965852677822113
+        },
+        {
+          "word": " a",
+          "start": 33.78,
+          "end": 33.92,
+          "probability": 0.48521968722343445
+        },
+        {
+          "word": " boy",
+          "start": 33.92,
+          "end": 38.34,
+          "probability": 0.9800874590873718
+        },
+        {
+          "word": " was",
+          "start": 38.34,
+          "end": 39.0,
+          "probability": 0.8280218839645386
+        },
+        {
+          "word": " playing",
+          "start": 39.0,
+          "end": 39.56,
+          "probability": 0.9875105619430542
+        },
+        {
+          "word": " in",
+          "start": 39.56,
+          "end": 39.96,
+          "probability": 0.9137040376663208
+        },
+        {
+          "word": " the",
+          "start": 39.96,
+          "end": 40.2,
+          "probability": 0.46520280838012695
+        },
+        {
+          "word": " lake.",
+          "start": 40.2,
+          "end": 40.66,
+          "probability": 0.9473633766174316
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 4066,
+      "start": 40.66,
+      "end": 51.38,
+      "text": " The man, and woman, having a picnic.",
+      "tokens": [
+        50364,
+        440,
+        587,
+        11,
+        293,
+        3059,
+        11,
+        1419,
+        257,
+        32137,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.44398304511760844,
+      "compression_ratio": 1.1518987341772151,
+      "no_speech_prob": 0.11553145945072174,
+      "words": [
+        {
+          "word": " The",
+          "start": 40.66,
+          "end": 42.54,
+          "probability": 0.2597399950027466
+        },
+        {
+          "word": " man,",
+          "start": 42.54,
+          "end": 43.82,
+          "probability": 0.8612831830978394
+        },
+        {
+          "word": " and",
+          "start": 44.28,
+          "end": 46.56,
+          "probability": 0.38678470253944397
+        },
+        {
+          "word": " woman,",
+          "start": 46.56,
+          "end": 47.76,
+          "probability": 0.6976908445358276
+        },
+        {
+          "word": " having",
+          "start": 48.38,
+          "end": 49.86,
+          "probability": 0.8116101622581482
+        },
+        {
+          "word": " a",
+          "start": 49.86,
+          "end": 50.74,
+          "probability": 0.6492024660110474
+        },
+        {
+          "word": " picnic.",
+          "start": 50.74,
+          "end": 51.38,
+          "probability": 0.9707018136978149
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 4066,
+      "start": 53.440000000000005,
+      "end": 65.22,
+      "text": " The man, his reading book, the woman was pouring wine.",
+      "tokens": [
+        50964,
+        440,
+        587,
+        11,
+        702,
+        3760,
+        1446,
+        11,
+        264,
+        3059,
+        390,
+        20450,
+        7209,
+        13,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.44398304511760844,
+      "compression_ratio": 1.1518987341772151,
+      "no_speech_prob": 0.11553145945072174,
+      "words": [
+        {
+          "word": " The",
+          "start": 53.440000000000005,
+          "end": 54.84,
+          "probability": 0.9346802830696106
+        },
+        {
+          "word": " man,",
+          "start": 54.84,
+          "end": 55.4,
+          "probability": 0.9975551962852478
+        },
+        {
+          "word": " his",
+          "start": 56.66,
+          "end": 57.78,
+          "probability": 0.4098055958747864
+        },
+        {
+          "word": " reading",
+          "start": 57.78,
+          "end": 59.8,
+          "probability": 0.7683247923851013
+        },
+        {
+          "word": " book,",
+          "start": 59.8,
+          "end": 60.5,
+          "probability": 0.9460967779159546
+        },
+        {
+          "word": " the",
+          "start": 62.0,
+          "end": 62.46,
+          "probability": 0.2433757185935974
+        },
+        {
+          "word": " woman",
+          "start": 62.46,
+          "end": 62.96,
+          "probability": 0.9939799308776855
+        },
+        {
+          "word": " was",
+          "start": 62.96,
+          "end": 63.8,
+          "probability": 0.9033157229423523
+        },
+        {
+          "word": " pouring",
+          "start": 63.8,
+          "end": 64.42,
+          "probability": 0.7219955325126648
+        },
+        {
+          "word": " wine.",
+          "start": 64.42,
+          "end": 65.22,
+          "probability": 0.9729717373847961
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 6522,
+      "start": 66.72,
+      "end": 69.86,
+      "text": " The flag was flying.",
+      "tokens": [
+        50364,
+        440,
+        7166,
+        390,
+        7137,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2699066523847909,
+      "compression_ratio": 1.3275862068965518,
+      "no_speech_prob": 0.08601456880569458,
+      "words": [
+        {
+          "word": " The",
+          "start": 66.72,
+          "end": 68.1,
+          "probability": 0.5328230857849121
+        },
+        {
+          "word": " flag",
+          "start": 68.1,
+          "end": 68.66,
+          "probability": 0.9817461967468262
+        },
+        {
+          "word": " was",
+          "start": 68.66,
+          "end": 69.28,
+          "probability": 0.9942644238471985
+        },
+        {
+          "word": " flying.",
+          "start": 69.28,
+          "end": 69.86,
+          "probability": 0.9936851859092712
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 6522,
+      "start": 71.62,
+      "end": 76.98,
+      "text": " The car is in the car porch.",
+      "tokens": [
+        50664,
+        440,
+        1032,
+        307,
+        294,
+        264,
+        1032,
+        35513,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2699066523847909,
+      "compression_ratio": 1.3275862068965518,
+      "no_speech_prob": 0.08601456880569458,
+      "words": [
+        {
+          "word": " The",
+          "start": 71.62,
+          "end": 71.86,
+          "probability": 0.9167488813400269
+        },
+        {
+          "word": " car",
+          "start": 71.86,
+          "end": 73.76,
+          "probability": 0.9757016897201538
+        },
+        {
+          "word": " is",
+          "start": 73.76,
+          "end": 74.16,
+          "probability": 0.7202291488647461
+        },
+        {
+          "word": " in",
+          "start": 74.16,
+          "end": 75.18,
+          "probability": 0.9876002073287964
+        },
+        {
+          "word": " the",
+          "start": 75.18,
+          "end": 75.98,
+          "probability": 0.996889054775238
+        },
+        {
+          "word": " car",
+          "start": 75.98,
+          "end": 76.4,
+          "probability": 0.9183582067489624
+        },
+        {
+          "word": " porch.",
+          "start": 76.4,
+          "end": 76.98,
+          "probability": 0.5149941444396973
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 6522,
+      "start": 79.72000000000001,
+      "end": 85.14,
+      "text": " The car was in the carport.",
+      "tokens": [
+        51064,
+        440,
+        1032,
+        390,
+        294,
+        264,
+        1032,
+        2707,
+        13,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2699066523847909,
+      "compression_ratio": 1.3275862068965518,
+      "no_speech_prob": 0.08601456880569458,
+      "words": [
+        {
+          "word": " The",
+          "start": 79.72000000000001,
+          "end": 81.10000000000001,
+          "probability": 0.6847544312477112
+        },
+        {
+          "word": " car",
+          "start": 81.10000000000001,
+          "end": 82.48,
+          "probability": 0.9768316149711609
+        },
+        {
+          "word": " was",
+          "start": 82.48,
+          "end": 83.34,
+          "probability": 0.9449852705001831
+        },
+        {
+          "word": " in",
+          "start": 83.34,
+          "end": 84.12,
+          "probability": 0.9485639333724976
+        },
+        {
+          "word": " the",
+          "start": 84.12,
+          "end": 84.5,
+          "probability": 0.9854137897491455
+        },
+        {
+          "word": " carport.",
+          "start": 84.5,
+          "end": 85.14,
+          "probability": 0.6309166997671127
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 8514,
+      "start": 86.6,
+      "end": 93.46,
+      "text": " The hamper was open.",
+      "tokens": [
+        50364,
+        440,
+        7852,
+        610,
+        390,
+        1269,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2950000762939453,
+      "compression_ratio": 1.0303030303030303,
+      "no_speech_prob": 0.06832744926214218,
+      "words": [
+        {
+          "word": " The",
+          "start": 86.6,
+          "end": 88.0,
+          "probability": 0.6014569401741028
+        },
+        {
+          "word": " hamper",
+          "start": 88.0,
+          "end": 88.94,
+          "probability": 0.7172392457723618
+        },
+        {
+          "word": " was",
+          "start": 88.94,
+          "end": 89.6,
+          "probability": 0.9037818908691406
+        },
+        {
+          "word": " open.",
+          "start": 89.6,
+          "end": 93.46,
+          "probability": 0.0794541984796524
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 8514,
+      "start": 95.12,
+      "end": 101.16,
+      "text": " The pictures have a radio.",
+      "tokens": [
+        50864,
+        440,
+        5242,
+        362,
+        257,
+        6477,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2950000762939453,
+      "compression_ratio": 1.0303030303030303,
+      "no_speech_prob": 0.06832744926214218,
+      "words": [
+        {
+          "word": " The",
+          "start": 95.12,
+          "end": 96.14,
+          "probability": 0.7798786759376526
+        },
+        {
+          "word": " pictures",
+          "start": 96.14,
+          "end": 98.2,
+          "probability": 0.21366196870803833
+        },
+        {
+          "word": " have",
+          "start": 98.2,
+          "end": 99.16,
+          "probability": 0.9623643755912781
+        },
+        {
+          "word": " a",
+          "start": 99.16,
+          "end": 100.52,
+          "probability": 0.9590676426887512
+        },
+        {
+          "word": " radio.",
+          "start": 100.52,
+          "end": 101.16,
+          "probability": 0.9927555918693542
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 8514,
+      "start": 102.6,
+      "end": 105.14,
+      "text": " The flag was flying.",
+      "tokens": [
+        51214,
+        440,
+        7166,
+        390,
+        7137,
+        13,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2950000762939453,
+      "compression_ratio": 1.0303030303030303,
+      "no_speech_prob": 0.06832744926214218,
+      "words": [
+        {
+          "word": " The",
+          "start": 102.6,
+          "end": 102.66,
+          "probability": 0.9574251770973206
+        },
+        {
+          "word": " flag",
+          "start": 102.66,
+          "end": 103.28,
+          "probability": 0.9001219272613525
+        },
+        {
+          "word": " was",
+          "start": 103.28,
+          "end": 104.42,
+          "probability": 0.9776690602302551
+        },
+        {
+          "word": " flying.",
+          "start": 104.42,
+          "end": 105.14,
+          "probability": 0.9961609840393066
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 10514,
+      "start": 105.14,
+      "end": 114.92,
+      "text": " The dog was watching the action.",
+      "tokens": [
+        50364,
+        440,
+        3000,
+        390,
+        1976,
+        264,
+        3069,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23609935153614392,
+      "compression_ratio": 0.8648648648648649,
+      "no_speech_prob": 0.019546084105968475,
+      "words": [
+        {
+          "word": " The",
+          "start": 105.14,
+          "end": 107.6,
+          "probability": 0.19221389293670654
+        },
+        {
+          "word": " dog",
+          "start": 107.6,
+          "end": 107.82,
+          "probability": 0.8516125679016113
+        },
+        {
+          "word": " was",
+          "start": 107.82,
+          "end": 111.6,
+          "probability": 0.8080131411552429
+        },
+        {
+          "word": " watching",
+          "start": 111.6,
+          "end": 112.34,
+          "probability": 0.9516155123710632
+        },
+        {
+          "word": " the",
+          "start": 112.34,
+          "end": 112.98,
+          "probability": 0.8932695984840393
+        },
+        {
+          "word": " action.",
+          "start": 112.98,
+          "end": 114.92,
+          "probability": 0.9411889314651489
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 11492,
+      "start": 119.05999999999999,
+      "end": 125.7,
+      "text": " The big tree was shading the picnicers.",
+      "tokens": [
+        50364,
+        440,
+        955,
+        4230,
+        390,
+        30556,
+        264,
+        32137,
+        433,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.42020137493426984,
+      "compression_ratio": 0.8863636363636364,
+      "no_speech_prob": 0.5853304862976074,
+      "words": [
+        {
+          "word": " The",
+          "start": 119.05999999999999,
+          "end": 120.46,
+          "probability": 0.06825625151395798
+        },
+        {
+          "word": " big",
+          "start": 120.46,
+          "end": 121.7,
+          "probability": 0.6960853338241577
+        },
+        {
+          "word": " tree",
+          "start": 121.7,
+          "end": 122.32,
+          "probability": 0.9965169429779053
+        },
+        {
+          "word": " was",
+          "start": 122.32,
+          "end": 122.92,
+          "probability": 0.9683800935745239
+        },
+        {
+          "word": " shading",
+          "start": 122.92,
+          "end": 124.14,
+          "probability": 0.9015452265739441
+        },
+        {
+          "word": " the",
+          "start": 124.14,
+          "end": 124.56,
+          "probability": 0.9772375226020813
+        },
+        {
+          "word": " picnicers.",
+          "start": 124.56,
+          "end": 125.7,
+          "probability": 0.382662758231163
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 12570,
+      "start": 126.16,
+      "end": 126.6,
+      "text": " The car was shaking.",
+      "tokens": [
+        50364,
+        440,
+        1032,
+        390,
+        15415,
+        13,
+        50864
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.9932738542556763,
+      "compression_ratio": 1.28125,
+      "no_speech_prob": 0.785321056842804,
+      "words": [
+        {
+          "word": " The",
+          "start": 126.16,
+          "end": 126.42,
+          "probability": 0.0009441666770726442
+        },
+        {
+          "word": " car",
+          "start": 126.42,
+          "end": 126.42,
+          "probability": 0.002438340103253722
+        },
+        {
+          "word": " was",
+          "start": 126.42,
+          "end": 126.6,
+          "probability": 0.05757474899291992
+        },
+        {
+          "word": " shaking.",
+          "start": 126.6,
+          "end": 126.6,
+          "probability": 0.002659526653587818
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 12570,
+      "start": 126.6,
+      "end": 126.64,
+      "text": " The car was shaking.",
+      "tokens": [
+        50864,
+        440,
+        1032,
+        390,
+        15415,
+        13,
+        51314
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.9932738542556763,
+      "compression_ratio": 1.28125,
+      "no_speech_prob": 0.785321056842804,
+      "words": [
+        {
+          "word": " The",
+          "start": 126.6,
+          "end": 126.6,
+          "probability": 0.15312756597995758
+        },
+        {
+          "word": " car",
+          "start": 126.6,
+          "end": 126.6,
+          "probability": 0.4789034426212311
+        },
+        {
+          "word": " was",
+          "start": 126.6,
+          "end": 126.64,
+          "probability": 0.5539456605911255
+        },
+        {
+          "word": " shaking.",
+          "start": 126.64,
+          "end": 126.64,
+          "probability": 0.652658224105835
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 12664,
+      "start": 126.64,
+      "end": 126.66,
+      "text": " The car was shaking.",
+      "tokens": [
+        50364,
+        440,
+        1032,
+        390,
+        15415,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4226896546103738,
+      "compression_ratio": 1.9375,
+      "no_speech_prob": 0.7996469736099243,
+      "words": [
+        {
+          "word": " The",
+          "start": 126.64,
+          "end": 126.66,
+          "probability": 0.009498457424342632
+        },
+        {
+          "word": " car",
+          "start": 126.66,
+          "end": 126.66,
+          "probability": 0.0015486032934859395
+        },
+        {
+          "word": " was",
+          "start": 126.66,
+          "end": 126.66,
+          "probability": 0.08057409524917603
+        },
+        {
+          "word": " shaking.",
+          "start": 126.66,
+          "end": 126.66,
+          "probability": 0.0008056994993239641
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 12664,
+      "start": 126.66,
+      "end": 126.72,
+      "text": " The car was shaking.",
+      "tokens": [
+        50864,
+        440,
+        1032,
+        390,
+        15415,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4226896546103738,
+      "compression_ratio": 1.9375,
+      "no_speech_prob": 0.7996469736099243,
+      "words": [
+        {
+          "word": " The",
+          "start": 126.66,
+          "end": 126.72,
+          "probability": 0.18668232858181
+        },
+        {
+          "word": " car",
+          "start": 126.72,
+          "end": 126.72,
+          "probability": 0.48311540484428406
+        },
+        {
+          "word": " was",
+          "start": 126.72,
+          "end": 126.72,
+          "probability": 0.5696406364440918
+        },
+        {
+          "word": " shaking.",
+          "start": 126.72,
+          "end": 126.72,
+          "probability": 0.4898361265659332
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 12664,
+      "start": 126.72,
+      "end": 126.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4226896546103738,
+      "compression_ratio": 1.9375,
+      "no_speech_prob": 0.7996469736099243,
+      "words": []
+    }
+  ]
+}

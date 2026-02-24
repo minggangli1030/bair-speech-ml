@@ -1,0 +1,784 @@
+{
+  "text": " three house or man woman I guess the desk the man I guess is probably to catch fish or something in the water is it dog in here there is a ship in here I guess that's about it and the flag in here well there is a there is a house and there is something desk in here",
+  "words": [
+    {
+      "word": "three",
+      "start": 0.0,
+      "end": 1.1
+    },
+    {
+      "word": "house",
+      "start": 1.1,
+      "end": 2.44
+    },
+    {
+      "word": "or",
+      "start": 2.44,
+      "end": 3.38
+    },
+    {
+      "word": "man",
+      "start": 3.38,
+      "end": 4.38
+    },
+    {
+      "word": "woman",
+      "start": 4.38,
+      "end": 5.44
+    },
+    {
+      "word": "I",
+      "start": 5.44,
+      "end": 7.0
+    },
+    {
+      "word": "guess",
+      "start": 7.0,
+      "end": 7.18
+    },
+    {
+      "word": "the",
+      "start": 7.18,
+      "end": 7.48
+    },
+    {
+      "word": "desk",
+      "start": 7.48,
+      "end": 8.02
+    },
+    {
+      "word": "the",
+      "start": 8.02,
+      "end": 9.3
+    },
+    {
+      "word": "man",
+      "start": 9.3,
+      "end": 9.68
+    },
+    {
+      "word": "I",
+      "start": 9.68,
+      "end": 10.22
+    },
+    {
+      "word": "guess",
+      "start": 10.22,
+      "end": 10.42
+    },
+    {
+      "word": "is",
+      "start": 10.42,
+      "end": 10.86
+    },
+    {
+      "word": "probably",
+      "start": 10.86,
+      "end": 11.18
+    },
+    {
+      "word": "to",
+      "start": 11.18,
+      "end": 11.36
+    },
+    {
+      "word": "catch",
+      "start": 11.36,
+      "end": 11.58
+    },
+    {
+      "word": "fish",
+      "start": 11.58,
+      "end": 11.94
+    },
+    {
+      "word": "or",
+      "start": 11.94,
+      "end": 12.14
+    },
+    {
+      "word": "something",
+      "start": 12.14,
+      "end": 12.58
+    },
+    {
+      "word": "in",
+      "start": 12.58,
+      "end": 13.24
+    },
+    {
+      "word": "the",
+      "start": 13.24,
+      "end": 13.26
+    },
+    {
+      "word": "water",
+      "start": 13.26,
+      "end": 13.6
+    },
+    {
+      "word": "is",
+      "start": 13.6,
+      "end": 14.46
+    },
+    {
+      "word": "it",
+      "start": 14.46,
+      "end": 14.6
+    },
+    {
+      "word": "dog",
+      "start": 14.6,
+      "end": 14.86
+    },
+    {
+      "word": "in",
+      "start": 14.86,
+      "end": 15.12
+    },
+    {
+      "word": "here",
+      "start": 15.12,
+      "end": 15.54
+    },
+    {
+      "word": "there",
+      "start": 15.54,
+      "end": 16.58
+    },
+    {
+      "word": "is",
+      "start": 16.58,
+      "end": 16.76
+    },
+    {
+      "word": "a",
+      "start": 16.76,
+      "end": 16.88
+    },
+    {
+      "word": "ship",
+      "start": 16.88,
+      "end": 17.16
+    },
+    {
+      "word": "in",
+      "start": 17.16,
+      "end": 17.4
+    },
+    {
+      "word": "here",
+      "start": 17.4,
+      "end": 18.74
+    },
+    {
+      "word": "I",
+      "start": 22.419999999999998,
+      "end": 22.9
+    },
+    {
+      "word": "guess",
+      "start": 22.9,
+      "end": 23.02
+    },
+    {
+      "word": "that's",
+      "start": 23.02,
+      "end": 23.28
+    },
+    {
+      "word": "about",
+      "start": 23.28,
+      "end": 23.5
+    },
+    {
+      "word": "it",
+      "start": 23.5,
+      "end": 23.64
+    },
+    {
+      "word": "and",
+      "start": 23.64,
+      "end": 23.78
+    },
+    {
+      "word": "the",
+      "start": 23.78,
+      "end": 23.9
+    },
+    {
+      "word": "flag",
+      "start": 23.9,
+      "end": 24.2
+    },
+    {
+      "word": "in",
+      "start": 24.2,
+      "end": 24.44
+    },
+    {
+      "word": "here",
+      "start": 24.44,
+      "end": 24.96
+    },
+    {
+      "word": "well",
+      "start": 31.24,
+      "end": 31.72
+    },
+    {
+      "word": "there",
+      "start": 31.72,
+      "end": 32.0
+    },
+    {
+      "word": "is",
+      "start": 32.0,
+      "end": 32.18
+    },
+    {
+      "word": "a",
+      "start": 32.18,
+      "end": 32.3
+    },
+    {
+      "word": "there",
+      "start": 32.3,
+      "end": 32.44
+    },
+    {
+      "word": "is",
+      "start": 32.44,
+      "end": 33.0
+    },
+    {
+      "word": "a",
+      "start": 33.0,
+      "end": 33.2
+    },
+    {
+      "word": "house",
+      "start": 33.2,
+      "end": 33.8
+    },
+    {
+      "word": "and",
+      "start": 33.8,
+      "end": 34.12
+    },
+    {
+      "word": "there",
+      "start": 34.12,
+      "end": 34.26
+    },
+    {
+      "word": "is",
+      "start": 34.26,
+      "end": 34.4
+    },
+    {
+      "word": "something",
+      "start": 34.4,
+      "end": 34.72
+    },
+    {
+      "word": "desk",
+      "start": 34.72,
+      "end": 35.06
+    },
+    {
+      "word": "in",
+      "start": 35.06,
+      "end": 35.26
+    },
+    {
+      "word": "here",
+      "start": 35.26,
+      "end": 35.52
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 11.94,
+      "text": " three house or man woman I guess the desk the man I guess is probably to catch fish",
+      "tokens": [
+        50364,
+        1045,
+        1782,
+        420,
+        587,
+        3059,
+        286,
+        2041,
+        264,
+        10026,
+        264,
+        587,
+        286,
+        2041,
+        307,
+        1391,
+        281,
+        3745,
+        3506,
+        50962
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.43469891548156736,
+      "compression_ratio": 1.4660194174757282,
+      "no_speech_prob": 0.22142726182937622,
+      "words": [
+        {
+          "word": " three",
+          "start": 0.0,
+          "end": 1.1,
+          "probability": 0.20693081617355347
+        },
+        {
+          "word": " house",
+          "start": 1.1,
+          "end": 2.44,
+          "probability": 0.3757022023200989
+        },
+        {
+          "word": " or",
+          "start": 2.44,
+          "end": 3.38,
+          "probability": 0.5162884593009949
+        },
+        {
+          "word": " man",
+          "start": 3.38,
+          "end": 4.38,
+          "probability": 0.747902512550354
+        },
+        {
+          "word": " woman",
+          "start": 4.38,
+          "end": 5.44,
+          "probability": 0.7693920731544495
+        },
+        {
+          "word": " I",
+          "start": 5.44,
+          "end": 7.0,
+          "probability": 0.5870197415351868
+        },
+        {
+          "word": " guess",
+          "start": 7.0,
+          "end": 7.18,
+          "probability": 0.9292334914207458
+        },
+        {
+          "word": " the",
+          "start": 7.18,
+          "end": 7.48,
+          "probability": 0.9310910701751709
+        },
+        {
+          "word": " desk",
+          "start": 7.48,
+          "end": 8.02,
+          "probability": 0.9557160139083862
+        },
+        {
+          "word": " the",
+          "start": 8.02,
+          "end": 9.3,
+          "probability": 0.4277816414833069
+        },
+        {
+          "word": " man",
+          "start": 9.3,
+          "end": 9.68,
+          "probability": 0.98777174949646
+        },
+        {
+          "word": " I",
+          "start": 9.68,
+          "end": 10.22,
+          "probability": 0.7956427335739136
+        },
+        {
+          "word": " guess",
+          "start": 10.22,
+          "end": 10.42,
+          "probability": 0.9975969195365906
+        },
+        {
+          "word": " is",
+          "start": 10.42,
+          "end": 10.86,
+          "probability": 0.46808457374572754
+        },
+        {
+          "word": " probably",
+          "start": 10.86,
+          "end": 11.18,
+          "probability": 0.9121240377426147
+        },
+        {
+          "word": " to",
+          "start": 11.18,
+          "end": 11.36,
+          "probability": 0.634611189365387
+        },
+        {
+          "word": " catch",
+          "start": 11.36,
+          "end": 11.58,
+          "probability": 0.9970408082008362
+        },
+        {
+          "word": " fish",
+          "start": 11.58,
+          "end": 11.94,
+          "probability": 0.9838256239891052
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.94,
+      "end": 18.74,
+      "text": " or something in the water is it dog in here there is a ship in here",
+      "tokens": [
+        50962,
+        420,
+        746,
+        294,
+        264,
+        1281,
+        307,
+        309,
+        3000,
+        294,
+        510,
+        456,
+        307,
+        257,
+        5374,
+        294,
+        510,
+        51343
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.43469891548156736,
+      "compression_ratio": 1.4660194174757282,
+      "no_speech_prob": 0.22142726182937622,
+      "words": [
+        {
+          "word": " or",
+          "start": 11.94,
+          "end": 12.14,
+          "probability": 0.9955956339836121
+        },
+        {
+          "word": " something",
+          "start": 12.14,
+          "end": 12.58,
+          "probability": 0.9988501071929932
+        },
+        {
+          "word": " in",
+          "start": 12.58,
+          "end": 13.24,
+          "probability": 0.6720201969146729
+        },
+        {
+          "word": " the",
+          "start": 13.24,
+          "end": 13.26,
+          "probability": 0.9975760579109192
+        },
+        {
+          "word": " water",
+          "start": 13.26,
+          "end": 13.6,
+          "probability": 0.9948375821113586
+        },
+        {
+          "word": " is",
+          "start": 13.6,
+          "end": 14.46,
+          "probability": 0.627289891242981
+        },
+        {
+          "word": " it",
+          "start": 14.46,
+          "end": 14.6,
+          "probability": 0.6578327417373657
+        },
+        {
+          "word": " dog",
+          "start": 14.6,
+          "end": 14.86,
+          "probability": 0.578101634979248
+        },
+        {
+          "word": " in",
+          "start": 14.86,
+          "end": 15.12,
+          "probability": 0.9873005747795105
+        },
+        {
+          "word": " here",
+          "start": 15.12,
+          "end": 15.54,
+          "probability": 0.9982221722602844
+        },
+        {
+          "word": " there",
+          "start": 15.54,
+          "end": 16.58,
+          "probability": 0.8416603207588196
+        },
+        {
+          "word": " is",
+          "start": 16.58,
+          "end": 16.76,
+          "probability": 0.9897682070732117
+        },
+        {
+          "word": " a",
+          "start": 16.76,
+          "end": 16.88,
+          "probability": 0.9666572213172913
+        },
+        {
+          "word": " ship",
+          "start": 16.88,
+          "end": 17.16,
+          "probability": 0.9027109742164612
+        },
+        {
+          "word": " in",
+          "start": 17.16,
+          "end": 17.4,
+          "probability": 0.9145983457565308
+        },
+        {
+          "word": " here",
+          "start": 17.4,
+          "end": 18.74,
+          "probability": 0.9969214200973511
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1874,
+      "start": 22.419999999999998,
+      "end": 24.96,
+      "text": " I guess that's about it and the flag in here",
+      "tokens": [
+        50364,
+        286,
+        2041,
+        300,
+        311,
+        466,
+        309,
+        293,
+        264,
+        7166,
+        294,
+        510,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5470678267940399,
+      "compression_ratio": 1.3614457831325302,
+      "no_speech_prob": 0.019748078659176826,
+      "words": [
+        {
+          "word": " I",
+          "start": 22.419999999999998,
+          "end": 22.9,
+          "probability": 0.20965880155563354
+        },
+        {
+          "word": " guess",
+          "start": 22.9,
+          "end": 23.02,
+          "probability": 0.9879192113876343
+        },
+        {
+          "word": " that's",
+          "start": 23.02,
+          "end": 23.28,
+          "probability": 0.9399491250514984
+        },
+        {
+          "word": " about",
+          "start": 23.28,
+          "end": 23.5,
+          "probability": 0.9055129885673523
+        },
+        {
+          "word": " it",
+          "start": 23.5,
+          "end": 23.64,
+          "probability": 0.7072718739509583
+        },
+        {
+          "word": " and",
+          "start": 23.64,
+          "end": 23.78,
+          "probability": 0.27480801939964294
+        },
+        {
+          "word": " the",
+          "start": 23.78,
+          "end": 23.9,
+          "probability": 0.1727917194366455
+        },
+        {
+          "word": " flag",
+          "start": 23.9,
+          "end": 24.2,
+          "probability": 0.9750036597251892
+        },
+        {
+          "word": " in",
+          "start": 24.2,
+          "end": 24.44,
+          "probability": 0.8975489139556885
+        },
+        {
+          "word": " here",
+          "start": 24.44,
+          "end": 24.96,
+          "probability": 0.9942994117736816
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1874,
+      "start": 31.24,
+      "end": 35.52,
+      "text": " well there is a there is a house and there is something desk in here",
+      "tokens": [
+        50964,
+        731,
+        456,
+        307,
+        257,
+        456,
+        307,
+        257,
+        1782,
+        293,
+        456,
+        307,
+        746,
+        10026,
+        294,
+        510,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5470678267940399,
+      "compression_ratio": 1.3614457831325302,
+      "no_speech_prob": 0.019748078659176826,
+      "words": [
+        {
+          "word": " well",
+          "start": 31.24,
+          "end": 31.72,
+          "probability": 0.041341785341501236
+        },
+        {
+          "word": " there",
+          "start": 31.72,
+          "end": 32.0,
+          "probability": 0.7641485929489136
+        },
+        {
+          "word": " is",
+          "start": 32.0,
+          "end": 32.18,
+          "probability": 0.6714707612991333
+        },
+        {
+          "word": " a",
+          "start": 32.18,
+          "end": 32.3,
+          "probability": 0.5235298275947571
+        },
+        {
+          "word": " there",
+          "start": 32.3,
+          "end": 32.44,
+          "probability": 0.7165677547454834
+        },
+        {
+          "word": " is",
+          "start": 32.44,
+          "end": 33.0,
+          "probability": 0.9625290036201477
+        },
+        {
+          "word": " a",
+          "start": 33.0,
+          "end": 33.2,
+          "probability": 0.7606362104415894
+        },
+        {
+          "word": " house",
+          "start": 33.2,
+          "end": 33.8,
+          "probability": 0.7532447576522827
+        },
+        {
+          "word": " and",
+          "start": 33.8,
+          "end": 34.12,
+          "probability": 0.8691101670265198
+        },
+        {
+          "word": " there",
+          "start": 34.12,
+          "end": 34.26,
+          "probability": 0.9877574443817139
+        },
+        {
+          "word": " is",
+          "start": 34.26,
+          "end": 34.4,
+          "probability": 0.9767391681671143
+        },
+        {
+          "word": " something",
+          "start": 34.4,
+          "end": 34.72,
+          "probability": 0.9547480344772339
+        },
+        {
+          "word": " desk",
+          "start": 34.72,
+          "end": 35.06,
+          "probability": 0.27765998244285583
+        },
+        {
+          "word": " in",
+          "start": 35.06,
+          "end": 35.26,
+          "probability": 0.9391000866889954
+        },
+        {
+          "word": " here",
+          "start": 35.26,
+          "end": 35.52,
+          "probability": 0.9304033517837524
+        }
+      ]
+    }
+  ]
+}

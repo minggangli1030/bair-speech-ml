@@ -1,0 +1,1225 @@
+{
+  "text": " It's a beautiful summer day and it's windy, but not too much wind. And the family is having a picnic and she's pouring coffee and he's reading a book. And the teenager was flying a kite and the dog was flying a kite. Warned. The dog is nearby the teenager and the the the we're newly met. The child is building a sand castle and on the pier is a person fishing and the sale the usual board designs have two people and they're wavy. And",
+  "words": [
+    {
+      "word": "It's",
+      "start": 1.320000000000002,
+      "end": 2.12
+    },
+    {
+      "word": "a",
+      "start": 2.12,
+      "end": 2.22
+    },
+    {
+      "word": "beautiful",
+      "start": 2.22,
+      "end": 2.52
+    },
+    {
+      "word": "summer",
+      "start": 2.52,
+      "end": 3.04
+    },
+    {
+      "word": "day",
+      "start": 3.04,
+      "end": 3.3
+    },
+    {
+      "word": "and",
+      "start": 3.3,
+      "end": 4.02
+    },
+    {
+      "word": "it's",
+      "start": 4.02,
+      "end": 4.36
+    },
+    {
+      "word": "windy,",
+      "start": 4.36,
+      "end": 4.68
+    },
+    {
+      "word": "but",
+      "start": 5.0,
+      "end": 6.26
+    },
+    {
+      "word": "not",
+      "start": 6.26,
+      "end": 7.3
+    },
+    {
+      "word": "too",
+      "start": 7.3,
+      "end": 7.6
+    },
+    {
+      "word": "much",
+      "start": 7.6,
+      "end": 7.86
+    },
+    {
+      "word": "wind.",
+      "start": 7.86,
+      "end": 8.26
+    },
+    {
+      "word": "And",
+      "start": 9.700000000000006,
+      "end": 10.500000000000004
+    },
+    {
+      "word": "the",
+      "start": 10.500000000000004,
+      "end": 11.3
+    },
+    {
+      "word": "family",
+      "start": 11.3,
+      "end": 12.72
+    },
+    {
+      "word": "is",
+      "start": 12.72,
+      "end": 13.02
+    },
+    {
+      "word": "having",
+      "start": 13.02,
+      "end": 13.3
+    },
+    {
+      "word": "a",
+      "start": 13.3,
+      "end": 13.48
+    },
+    {
+      "word": "picnic",
+      "start": 13.48,
+      "end": 13.88
+    },
+    {
+      "word": "and",
+      "start": 13.88,
+      "end": 14.82
+    },
+    {
+      "word": "she's",
+      "start": 14.82,
+      "end": 18.96
+    },
+    {
+      "word": "pouring",
+      "start": 18.96,
+      "end": 19.26
+    },
+    {
+      "word": "coffee",
+      "start": 19.26,
+      "end": 19.86
+    },
+    {
+      "word": "and",
+      "start": 19.86,
+      "end": 20.4
+    },
+    {
+      "word": "he's",
+      "start": 20.4,
+      "end": 20.8
+    },
+    {
+      "word": "reading",
+      "start": 20.8,
+      "end": 21.08
+    },
+    {
+      "word": "a",
+      "start": 21.08,
+      "end": 21.34
+    },
+    {
+      "word": "book.",
+      "start": 21.34,
+      "end": 21.56
+    },
+    {
+      "word": "And",
+      "start": 21.56,
+      "end": 22.52
+    },
+    {
+      "word": "the",
+      "start": 22.52,
+      "end": 23.02
+    },
+    {
+      "word": "teenager",
+      "start": 23.02,
+      "end": 26.94
+    },
+    {
+      "word": "was",
+      "start": 26.94,
+      "end": 27.64
+    },
+    {
+      "word": "flying",
+      "start": 27.64,
+      "end": 28.02
+    },
+    {
+      "word": "a",
+      "start": 28.02,
+      "end": 28.32
+    },
+    {
+      "word": "kite",
+      "start": 28.32,
+      "end": 28.44
+    },
+    {
+      "word": "and",
+      "start": 28.44,
+      "end": 29.06
+    },
+    {
+      "word": "the",
+      "start": 29.06,
+      "end": 29.5
+    },
+    {
+      "word": "dog",
+      "start": 29.5,
+      "end": 29.76
+    },
+    {
+      "word": "was",
+      "start": 29.76,
+      "end": 30.04
+    },
+    {
+      "word": "flying",
+      "start": 30.04,
+      "end": 30.34
+    },
+    {
+      "word": "a",
+      "start": 30.34,
+      "end": 30.54
+    },
+    {
+      "word": "kite.",
+      "start": 30.54,
+      "end": 30.96
+    },
+    {
+      "word": "Warned.",
+      "start": 31.44,
+      "end": 32.2
+    },
+    {
+      "word": "The",
+      "start": 33.089999999999996,
+      "end": 33.58
+    },
+    {
+      "word": "dog",
+      "start": 33.58,
+      "end": 33.98
+    },
+    {
+      "word": "is",
+      "start": 33.98,
+      "end": 34.4
+    },
+    {
+      "word": "nearby",
+      "start": 34.4,
+      "end": 35.16
+    },
+    {
+      "word": "the",
+      "start": 35.16,
+      "end": 35.64
+    },
+    {
+      "word": "teenager",
+      "start": 35.64,
+      "end": 36.14
+    },
+    {
+      "word": "and",
+      "start": 36.14,
+      "end": 37.48
+    },
+    {
+      "word": "the",
+      "start": 37.48,
+      "end": 41.04
+    },
+    {
+      "word": "the",
+      "start": 43.120000000000005,
+      "end": 44.1
+    },
+    {
+      "word": "the",
+      "start": 44.1,
+      "end": 44.1
+    },
+    {
+      "word": "we're",
+      "start": 44.1,
+      "end": 44.26
+    },
+    {
+      "word": "newly",
+      "start": 44.26,
+      "end": 44.44
+    },
+    {
+      "word": "met.",
+      "start": 44.44,
+      "end": 44.7
+    },
+    {
+      "word": "The",
+      "start": 47.39,
+      "end": 48.02
+    },
+    {
+      "word": "child",
+      "start": 48.02,
+      "end": 48.86
+    },
+    {
+      "word": "is",
+      "start": 48.86,
+      "end": 49.46
+    },
+    {
+      "word": "building",
+      "start": 49.46,
+      "end": 51.76
+    },
+    {
+      "word": "a",
+      "start": 51.76,
+      "end": 52.06
+    },
+    {
+      "word": "sand",
+      "start": 52.06,
+      "end": 52.24
+    },
+    {
+      "word": "castle",
+      "start": 52.24,
+      "end": 52.82
+    },
+    {
+      "word": "and",
+      "start": 52.82,
+      "end": 54.26
+    },
+    {
+      "word": "on",
+      "start": 54.26,
+      "end": 56.04
+    },
+    {
+      "word": "the",
+      "start": 56.04,
+      "end": 56.2
+    },
+    {
+      "word": "pier",
+      "start": 56.2,
+      "end": 56.5
+    },
+    {
+      "word": "is",
+      "start": 56.5,
+      "end": 58.0
+    },
+    {
+      "word": "a",
+      "start": 58.0,
+      "end": 58.24
+    },
+    {
+      "word": "person",
+      "start": 58.24,
+      "end": 58.74
+    },
+    {
+      "word": "fishing",
+      "start": 58.74,
+      "end": 59.78
+    },
+    {
+      "word": "and",
+      "start": 59.78,
+      "end": 61.16
+    },
+    {
+      "word": "the",
+      "start": 61.16,
+      "end": 63.3
+    },
+    {
+      "word": "sale",
+      "start": 63.3,
+      "end": 63.98
+    },
+    {
+      "word": "the",
+      "start": 63.98,
+      "end": 63.98
+    },
+    {
+      "word": "usual",
+      "start": 63.98,
+      "end": 64.06
+    },
+    {
+      "word": "board",
+      "start": 64.06,
+      "end": 65.72
+    },
+    {
+      "word": "designs",
+      "start": 65.72,
+      "end": 67.06
+    },
+    {
+      "word": "have",
+      "start": 67.06,
+      "end": 67.06
+    },
+    {
+      "word": "two",
+      "start": 67.06,
+      "end": 67.46
+    },
+    {
+      "word": "people",
+      "start": 67.46,
+      "end": 67.88
+    },
+    {
+      "word": "and",
+      "start": 67.88,
+      "end": 68.9
+    },
+    {
+      "word": "they're",
+      "start": 68.9,
+      "end": 69.22
+    },
+    {
+      "word": "wavy.",
+      "start": 69.22,
+      "end": 69.64
+    },
+    {
+      "word": "And",
+      "start": 71.89,
+      "end": 72.4
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.320000000000002,
+      "end": 8.26,
+      "text": " It's a beautiful summer day and it's windy, but not too much wind.",
+      "tokens": [
+        50364,
+        467,
+        311,
+        257,
+        2238,
+        4266,
+        786,
+        293,
+        309,
+        311,
+        30330,
+        11,
+        457,
+        406,
+        886,
+        709,
+        2468,
+        13,
+        50856
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2680979456220354,
+      "compression_ratio": 1.3043478260869565,
+      "no_speech_prob": 0.24982748925685883,
+      "words": [
+        {
+          "word": " It's",
+          "start": 1.320000000000002,
+          "end": 2.12,
+          "probability": 0.6489729583263397
+        },
+        {
+          "word": " a",
+          "start": 2.12,
+          "end": 2.22,
+          "probability": 0.952264666557312
+        },
+        {
+          "word": " beautiful",
+          "start": 2.22,
+          "end": 2.52,
+          "probability": 0.9949114918708801
+        },
+        {
+          "word": " summer",
+          "start": 2.52,
+          "end": 3.04,
+          "probability": 0.9843859076499939
+        },
+        {
+          "word": " day",
+          "start": 3.04,
+          "end": 3.3,
+          "probability": 0.9515781998634338
+        },
+        {
+          "word": " and",
+          "start": 3.3,
+          "end": 4.02,
+          "probability": 0.6423413753509521
+        },
+        {
+          "word": " it's",
+          "start": 4.02,
+          "end": 4.36,
+          "probability": 0.9882936477661133
+        },
+        {
+          "word": " windy,",
+          "start": 4.36,
+          "end": 4.68,
+          "probability": 0.9748101830482483
+        },
+        {
+          "word": " but",
+          "start": 5.0,
+          "end": 6.26,
+          "probability": 0.9132497310638428
+        },
+        {
+          "word": " not",
+          "start": 6.26,
+          "end": 7.3,
+          "probability": 0.9972622394561768
+        },
+        {
+          "word": " too",
+          "start": 7.3,
+          "end": 7.6,
+          "probability": 0.9910043478012085
+        },
+        {
+          "word": " much",
+          "start": 7.6,
+          "end": 7.86,
+          "probability": 0.999661922454834
+        },
+        {
+          "word": " wind.",
+          "start": 7.86,
+          "end": 8.26,
+          "probability": 0.9952270984649658
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 9.700000000000006,
+      "end": 21.56,
+      "text": " And the family is having a picnic and she's pouring coffee and he's reading a book.",
+      "tokens": [
+        50856,
+        400,
+        264,
+        1605,
+        307,
+        1419,
+        257,
+        32137,
+        293,
+        750,
+        311,
+        20450,
+        4982,
+        293,
+        415,
+        311,
+        3760,
+        257,
+        1446,
+        13,
+        51488
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2680979456220354,
+      "compression_ratio": 1.3043478260869565,
+      "no_speech_prob": 0.24982748925685883,
+      "words": [
+        {
+          "word": " And",
+          "start": 9.700000000000006,
+          "end": 10.500000000000004,
+          "probability": 0.6766836643218994
+        },
+        {
+          "word": " the",
+          "start": 10.500000000000004,
+          "end": 11.3,
+          "probability": 0.7578026056289673
+        },
+        {
+          "word": " family",
+          "start": 11.3,
+          "end": 12.72,
+          "probability": 0.9972211122512817
+        },
+        {
+          "word": " is",
+          "start": 12.72,
+          "end": 13.02,
+          "probability": 0.9977942705154419
+        },
+        {
+          "word": " having",
+          "start": 13.02,
+          "end": 13.3,
+          "probability": 0.9980416297912598
+        },
+        {
+          "word": " a",
+          "start": 13.3,
+          "end": 13.48,
+          "probability": 0.9414056539535522
+        },
+        {
+          "word": " picnic",
+          "start": 13.48,
+          "end": 13.88,
+          "probability": 0.9836621880531311
+        },
+        {
+          "word": " and",
+          "start": 13.88,
+          "end": 14.82,
+          "probability": 0.5363908410072327
+        },
+        {
+          "word": " she's",
+          "start": 14.82,
+          "end": 18.96,
+          "probability": 0.8019543886184692
+        },
+        {
+          "word": " pouring",
+          "start": 18.96,
+          "end": 19.26,
+          "probability": 0.9458560347557068
+        },
+        {
+          "word": " coffee",
+          "start": 19.26,
+          "end": 19.86,
+          "probability": 0.997814416885376
+        },
+        {
+          "word": " and",
+          "start": 19.86,
+          "end": 20.4,
+          "probability": 0.8986552357673645
+        },
+        {
+          "word": " he's",
+          "start": 20.4,
+          "end": 20.8,
+          "probability": 0.9921967387199402
+        },
+        {
+          "word": " reading",
+          "start": 20.8,
+          "end": 21.08,
+          "probability": 0.9985271692276001
+        },
+        {
+          "word": " a",
+          "start": 21.08,
+          "end": 21.34,
+          "probability": 0.9113684296607971
+        },
+        {
+          "word": " book.",
+          "start": 21.34,
+          "end": 21.56,
+          "probability": 0.9985210299491882
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2156,
+      "start": 21.56,
+      "end": 30.96,
+      "text": " And the teenager was flying a kite and the dog was flying a kite.",
+      "tokens": [
+        50384,
+        400,
+        264,
+        21440,
+        390,
+        7137,
+        257,
+        38867,
+        293,
+        264,
+        3000,
+        390,
+        7137,
+        257,
+        38867,
+        13,
+        50836
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6419780926826673,
+      "compression_ratio": 1.518987341772152,
+      "no_speech_prob": 0.2353488653898239,
+      "words": [
+        {
+          "word": " And",
+          "start": 21.56,
+          "end": 22.52,
+          "probability": 0.31699368357658386
+        },
+        {
+          "word": " the",
+          "start": 22.52,
+          "end": 23.02,
+          "probability": 0.9339853525161743
+        },
+        {
+          "word": " teenager",
+          "start": 23.02,
+          "end": 26.94,
+          "probability": 0.5291715264320374
+        },
+        {
+          "word": " was",
+          "start": 26.94,
+          "end": 27.64,
+          "probability": 0.9775481820106506
+        },
+        {
+          "word": " flying",
+          "start": 27.64,
+          "end": 28.02,
+          "probability": 0.9971626400947571
+        },
+        {
+          "word": " a",
+          "start": 28.02,
+          "end": 28.32,
+          "probability": 0.9782584309577942
+        },
+        {
+          "word": " kite",
+          "start": 28.32,
+          "end": 28.44,
+          "probability": 0.999334990978241
+        },
+        {
+          "word": " and",
+          "start": 28.44,
+          "end": 29.06,
+          "probability": 0.4686341881752014
+        },
+        {
+          "word": " the",
+          "start": 29.06,
+          "end": 29.5,
+          "probability": 0.994971752166748
+        },
+        {
+          "word": " dog",
+          "start": 29.5,
+          "end": 29.76,
+          "probability": 0.9978383183479309
+        },
+        {
+          "word": " was",
+          "start": 29.76,
+          "end": 30.04,
+          "probability": 0.9978225231170654
+        },
+        {
+          "word": " flying",
+          "start": 30.04,
+          "end": 30.34,
+          "probability": 0.9961960315704346
+        },
+        {
+          "word": " a",
+          "start": 30.34,
+          "end": 30.54,
+          "probability": 0.9690263271331787
+        },
+        {
+          "word": " kite.",
+          "start": 30.54,
+          "end": 30.96,
+          "probability": 0.9996753931045532
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2156,
+      "start": 31.44,
+      "end": 32.2,
+      "text": " Warned.",
+      "tokens": [
+        50860,
+        343,
+        1083,
+        292,
+        13,
+        50896
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6419780926826673,
+      "compression_ratio": 1.518987341772152,
+      "no_speech_prob": 0.2353488653898239,
+      "words": [
+        {
+          "word": " Warned.",
+          "start": 31.44,
+          "end": 32.2,
+          "probability": 0.35213003555933636
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2156,
+      "start": 33.48,
+      "end": 41.04,
+      "text": " The dog is nearby the teenager and the",
+      "tokens": [
+        50960,
+        440,
+        3000,
+        307,
+        11184,
+        264,
+        21440,
+        293,
+        264,
+        51324
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6419780926826673,
+      "compression_ratio": 1.518987341772152,
+      "no_speech_prob": 0.2353488653898239,
+      "words": [
+        {
+          "word": " The",
+          "start": 33.089999999999996,
+          "end": 33.58,
+          "probability": 0.6908513307571411
+        },
+        {
+          "word": " dog",
+          "start": 33.58,
+          "end": 33.98,
+          "probability": 0.9958187937736511
+        },
+        {
+          "word": " is",
+          "start": 33.98,
+          "end": 34.4,
+          "probability": 0.9970149993896484
+        },
+        {
+          "word": " nearby",
+          "start": 34.4,
+          "end": 35.16,
+          "probability": 0.9851555228233337
+        },
+        {
+          "word": " the",
+          "start": 35.16,
+          "end": 35.64,
+          "probability": 0.8180232048034668
+        },
+        {
+          "word": " teenager",
+          "start": 35.64,
+          "end": 36.14,
+          "probability": 0.8643850684165955
+        },
+        {
+          "word": " and",
+          "start": 36.14,
+          "end": 37.48,
+          "probability": 0.30814433097839355
+        },
+        {
+          "word": " the",
+          "start": 37.48,
+          "end": 41.04,
+          "probability": 0.6644322276115417
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2156,
+      "start": 43.120000000000005,
+      "end": 44.1,
+      "text": " the the",
+      "tokens": [
+        51324,
+        264,
+        264,
+        51672
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6419780926826673,
+      "compression_ratio": 1.518987341772152,
+      "no_speech_prob": 0.2353488653898239,
+      "words": [
+        {
+          "word": " the",
+          "start": 43.120000000000005,
+          "end": 44.1,
+          "probability": 0.09846337139606476
+        },
+        {
+          "word": " the",
+          "start": 44.1,
+          "end": 44.1,
+          "probability": 0.08325199782848358
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4410,
+      "start": 44.1,
+      "end": 44.7,
+      "text": " we're newly met.",
+      "tokens": [
+        50364,
+        321,
+        434,
+        15109,
+        1131,
+        13,
+        50444
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5053869444748451,
+      "compression_ratio": 1.1744186046511629,
+      "no_speech_prob": 0.012218070216476917,
+      "words": [
+        {
+          "word": " we're",
+          "start": 44.1,
+          "end": 44.26,
+          "probability": 0.44253551587462425
+        },
+        {
+          "word": " newly",
+          "start": 44.26,
+          "end": 44.44,
+          "probability": 0.18641415238380432
+        },
+        {
+          "word": " met.",
+          "start": 44.44,
+          "end": 44.7,
+          "probability": 0.36099833250045776
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4410,
+      "start": 47.7,
+      "end": 63.98,
+      "text": " The child is building a sand castle and on the pier is a person fishing and the sale",
+      "tokens": [
+        50544,
+        440,
+        1440,
+        307,
+        2390,
+        257,
+        4932,
+        14114,
+        293,
+        322,
+        264,
+        9766,
+        307,
+        257,
+        954,
+        10180,
+        293,
+        264,
+        8680,
+        51352
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5053869444748451,
+      "compression_ratio": 1.1744186046511629,
+      "no_speech_prob": 0.012218070216476917,
+      "words": [
+        {
+          "word": " The",
+          "start": 47.39,
+          "end": 48.02,
+          "probability": 0.6441330909729004
+        },
+        {
+          "word": " child",
+          "start": 48.02,
+          "end": 48.86,
+          "probability": 0.9675512909889221
+        },
+        {
+          "word": " is",
+          "start": 48.86,
+          "end": 49.46,
+          "probability": 0.9946670532226562
+        },
+        {
+          "word": " building",
+          "start": 49.46,
+          "end": 51.76,
+          "probability": 0.8998044729232788
+        },
+        {
+          "word": " a",
+          "start": 51.76,
+          "end": 52.06,
+          "probability": 0.9341133832931519
+        },
+        {
+          "word": " sand",
+          "start": 52.06,
+          "end": 52.24,
+          "probability": 0.9329655766487122
+        },
+        {
+          "word": " castle",
+          "start": 52.24,
+          "end": 52.82,
+          "probability": 0.9455922842025757
+        },
+        {
+          "word": " and",
+          "start": 52.82,
+          "end": 54.26,
+          "probability": 0.5639618635177612
+        },
+        {
+          "word": " on",
+          "start": 54.26,
+          "end": 56.04,
+          "probability": 0.9401960968971252
+        },
+        {
+          "word": " the",
+          "start": 56.04,
+          "end": 56.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": " pier",
+          "start": 56.2,
+          "end": 56.5,
+          "probability": 0.9648159742355347
+        },
+        {
+          "word": " is",
+          "start": 56.5,
+          "end": 58.0,
+          "probability": 0.9677760004997253
+        },
+        {
+          "word": " a",
+          "start": 58.0,
+          "end": 58.24,
+          "probability": 0.9696903824806213
+        },
+        {
+          "word": " person",
+          "start": 58.24,
+          "end": 58.74,
+          "probability": 0.9900534749031067
+        },
+        {
+          "word": " fishing",
+          "start": 58.74,
+          "end": 59.78,
+          "probability": 0.7900345921516418
+        },
+        {
+          "word": " and",
+          "start": 59.78,
+          "end": 61.16,
+          "probability": 0.8034769892692566
+        },
+        {
+          "word": " the",
+          "start": 61.16,
+          "end": 63.3,
+          "probability": 0.9840212464332581
+        },
+        {
+          "word": " sale",
+          "start": 63.3,
+          "end": 63.98,
+          "probability": 0.042917024344205856
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 6398,
+      "start": 63.98,
+      "end": 69.64,
+      "text": " the usual board designs have two people and they're wavy.",
+      "tokens": [
+        50400,
+        264,
+        7713,
+        3150,
+        11347,
+        362,
+        732,
+        561,
+        293,
+        436,
+        434,
+        261,
+        15498,
+        13,
+        50764
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4839911209909538,
+      "compression_ratio": 0.9242424242424242,
+      "no_speech_prob": 0.17858636379241943,
+      "words": [
+        {
+          "word": " the",
+          "start": 63.98,
+          "end": 63.98,
+          "probability": 0.019371798262000084
+        },
+        {
+          "word": " usual",
+          "start": 63.98,
+          "end": 64.06,
+          "probability": 0.000483434007037431
+        },
+        {
+          "word": " board",
+          "start": 64.06,
+          "end": 65.72,
+          "probability": 0.02014264464378357
+        },
+        {
+          "word": " designs",
+          "start": 65.72,
+          "end": 67.06,
+          "probability": 3.0248506845964584e-06
+        },
+        {
+          "word": " have",
+          "start": 67.06,
+          "end": 67.06,
+          "probability": 0.053197383880615234
+        },
+        {
+          "word": " two",
+          "start": 67.06,
+          "end": 67.46,
+          "probability": 0.7104076743125916
+        },
+        {
+          "word": " people",
+          "start": 67.46,
+          "end": 67.88,
+          "probability": 0.8354195952415466
+        },
+        {
+          "word": " and",
+          "start": 67.88,
+          "end": 68.9,
+          "probability": 0.701958417892456
+        },
+        {
+          "word": " they're",
+          "start": 68.9,
+          "end": 69.22,
+          "probability": 0.5837455242872238
+        },
+        {
+          "word": " wavy.",
+          "start": 69.22,
+          "end": 69.64,
+          "probability": 0.850339949131012
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 6398,
+      "start": 71.97999999999999,
+      "end": 72.4,
+      "text": " And",
+      "tokens": [
+        50764,
+        400,
+        50964
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.4839911209909538,
+      "compression_ratio": 0.9242424242424242,
+      "no_speech_prob": 0.17858636379241943,
+      "words": [
+        {
+          "word": " And",
+          "start": 71.89,
+          "end": 72.4,
+          "probability": 0.3619682192802429
+        }
+      ]
+    }
+  ]
+}

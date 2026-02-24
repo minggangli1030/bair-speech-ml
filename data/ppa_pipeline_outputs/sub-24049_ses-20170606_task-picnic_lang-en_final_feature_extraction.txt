@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24049_ses-20170606_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.583 → 00:03.574     Clinician    1.99      s Well, I see...                                     W R AW L AE EH IH S IY AH AA
+2    00:04.823 → 00:11.016     Clinician    6.19      s 3P colors here who look like they're having a picn S R IY SIL P CH IY SIL CH F L IH HH ZH IH ER HH SIL SIL T HH UH L UH SIL K S L AY SIL T S ER HH AE V IH N AH SIL P T IH SIL K SIL N IH SIL K AA M
+3    00:12.569 → 00:16.905     Participant  4.34      s and the dog is having some fun. Alright.           IH N DH AH SIL D AA R SIL G IH S AH SIL HH AE V IH N S AH M SIL F AA AY N ER AH
+4    00:18.154 → 00:22.238     Participant  4.08      s eems so, very nice scene.                          S EY IH NG S OW L SIL N SIL V ER IY N AY S S EY NG
+5    00:24.820 → 00:36.126     Participant  11.31     s one person's reading a book, another person's pour W AH N SIL P ER S IH N S R ER IH SIL D IY N AH SIL B UH SIL K SIL HH AE HH N N SIL D N AH DX DH ER SIL P R ER SH S N AH S P AA R IH IY IH S AH M N SIL T IH NG AW DX AH V AH SIL AH DX V EH S L SIL IH N AH DX AH W AH N S SIL IH SIL T S L AY IH NG IH SIL K T AY SIL
+6    00:38.657 → 00:41.087     Participant  2.43      s o it seems like a very happy.                      S AH OW S IH EH S IY N SH S AY SIL K AH V ER R HH AE SIL P IY SIL
+7    00:41.965 → 00:44.192     Participant  2.23      s gathering that thing.                              AH SIL N SIL JH AE DH ER IY NG N DH IH SIL P EY
+8    00:45.644 → 00:52.967     Participant  7.32      s that having another person's fishing, and very nic DH IH DX IH SIL DH AH HH AE R V IH NG IH N AH DH AH SIL P ER S N Z S F IH SH IH NG N N IH N IH N B ER IH N AY S SIL AY SIL B IH SH AY R W AH Z EH ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.583 - 00:03.574 (1.99s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Well, I see...
+  Phonemic Encoding: W R AW L AE EH IH S IY AH AA
+
+Segment 2:
+  Timestamp: 00:04.823 - 00:11.016 (6.19s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: 3P colors here who look like they're having a picnic.
+  Phonemic Encoding: S R IY SIL P CH IY SIL CH F L IH HH ZH IH ER HH SIL SIL T HH UH L UH SIL K S L AY SIL T S ER HH AE V IH N AH SIL P T IH SIL K SIL N IH SIL K AA M
+
+Segment 3:
+  Timestamp: 00:12.569 - 00:16.905 (4.34s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the dog is having some fun. Alright.
+  Phonemic Encoding: IH N DH AH SIL D AA R SIL G IH S AH SIL HH AE V IH N S AH M SIL F AA AY N ER AH
+
+Segment 4:
+  Timestamp: 00:18.154 - 00:22.238 (4.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: eems so, very nice scene.
+  Phonemic Encoding: S EY IH NG S OW L SIL N SIL V ER IY N AY S S EY NG
+
+Segment 5:
+  Timestamp: 00:24.820 - 00:36.126 (11.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: one person's reading a book, another person's pouring something out of a vessel, another one's lying a trite.
+  Phonemic Encoding: W AH N SIL P ER S IH N S R ER IH SIL D IY N AH SIL B UH SIL K SIL HH AE HH N N SIL D N AH DX DH ER SIL P R ER SH S N AH S P AA R IH IY IH S AH M N SIL T IH NG AW DX AH V AH SIL AH DX V EH S L SIL IH N AH DX AH W AH N S SIL IH SIL T S L AY IH NG IH SIL K T AY SIL
+
+Segment 6:
+  Timestamp: 00:38.657 - 00:41.087 (2.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o it seems like a very happy.
+  Phonemic Encoding: S AH OW S IH EH S IY N SH S AY SIL K AH V ER R HH AE SIL P IY SIL
+
+Segment 7:
+  Timestamp: 00:41.965 - 00:44.192 (2.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: gathering that thing.
+  Phonemic Encoding: AH SIL N SIL JH AE DH ER IY NG N DH IH SIL P EY
+
+Segment 8:
+  Timestamp: 00:45.644 - 00:52.967 (7.32s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that having another person's fishing, and very nice, I wish I was there.
+  Phonemic Encoding: DH IH DX IH SIL DH AH HH AE R V IH NG IH N AH DH AH SIL P ER S N Z S F IH SH IH NG N N IH N IH N B ER IH N AY S SIL AY SIL B IH SH AY R W AH Z EH ER

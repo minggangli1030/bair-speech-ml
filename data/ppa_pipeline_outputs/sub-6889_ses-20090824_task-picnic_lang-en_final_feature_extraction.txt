@@ -1,0 +1,62 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-6889_ses-20090824_task-picnic_lang-en_final.wav
+Total Segments: 6
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.604 → 00:01.819     Participant  1.22      s Thank you, Overalls!                               P HH AY SIL K IH N M N OW L Z
+2    00:04.857 → 00:08.198     Participant  3.34      s Thank you very much!                               M AY AH F AA N ER AH SIL K AY SIL CH
+3    00:09.025 → 00:10.442     Participant  1.42      s Bye Bye                                            F AY P B IH L
+4    00:18.036 → 00:19.319     Participant  1.28      s how all                                            S EH SIL B AA AA
+5    00:29.089 → 00:30.186     Clinician    1.10      s Where can this?                                    W AY EH SIL K IH N EH S
+6    00:32.228 → 00:36.042     Clinician    3.81      s Cherry哈哈                                           CH R IY IY SIL K UW M N F L AH AE IH N SIL HH AW L S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.604 - 00:01.819 (1.22s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Thank you, Overalls!
+  Phonemic Encoding: P HH AY SIL K IH N M N OW L Z
+
+Segment 2:
+  Timestamp: 00:04.857 - 00:08.198 (3.34s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Thank you very much!
+  Phonemic Encoding: M AY AH F AA N ER AH SIL K AY SIL CH
+
+Segment 3:
+  Timestamp: 00:09.025 - 00:10.442 (1.42s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Bye Bye
+  Phonemic Encoding: F AY P B IH L
+
+Segment 4:
+  Timestamp: 00:18.036 - 00:19.319 (1.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: how all
+  Phonemic Encoding: S EH SIL B AA AA
+
+Segment 5:
+  Timestamp: 00:29.089 - 00:30.186 (1.10s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Where can this?
+  Phonemic Encoding: W AY EH SIL K IH N EH S
+
+Segment 6:
+  Timestamp: 00:32.228 - 00:36.042 (3.81s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Cherry哈哈
+  Phonemic Encoding: CH R IY IY SIL K UW M N F L AH AE IH N SIL HH AW L S

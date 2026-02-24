@@ -1,0 +1,891 @@
+{
+  "text": " I see a tree and a house, a car, two people with a basket back at and a radio and a flag collar with a flag on it, a boy with his kite in his dog and someone sishinged. When I see a peel and a shovel, a lake and a sailboat and more trees. Just like they're on a lake and they're having the fine time.",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.0,
+      "end": 1.7
+    },
+    {
+      "word": "see",
+      "start": 1.7,
+      "end": 1.92
+    },
+    {
+      "word": "a",
+      "start": 1.92,
+      "end": 2.76
+    },
+    {
+      "word": "tree",
+      "start": 2.76,
+      "end": 3.2
+    },
+    {
+      "word": "and",
+      "start": 3.2,
+      "end": 4.26
+    },
+    {
+      "word": "a",
+      "start": 4.26,
+      "end": 4.82
+    },
+    {
+      "word": "house,",
+      "start": 4.82,
+      "end": 5.28
+    },
+    {
+      "word": "a",
+      "start": 5.38,
+      "end": 6.0
+    },
+    {
+      "word": "car,",
+      "start": 6.0,
+      "end": 6.42
+    },
+    {
+      "word": "two",
+      "start": 7.36,
+      "end": 10.22
+    },
+    {
+      "word": "people",
+      "start": 10.22,
+      "end": 10.7
+    },
+    {
+      "word": "with",
+      "start": 10.7,
+      "end": 11.88
+    },
+    {
+      "word": "a",
+      "start": 11.88,
+      "end": 12.06
+    },
+    {
+      "word": "basket",
+      "start": 12.06,
+      "end": 12.4
+    },
+    {
+      "word": "back",
+      "start": 12.4,
+      "end": 13.32
+    },
+    {
+      "word": "at",
+      "start": 13.32,
+      "end": 13.78
+    },
+    {
+      "word": "and",
+      "start": 13.78,
+      "end": 14.38
+    },
+    {
+      "word": "a",
+      "start": 14.38,
+      "end": 15.62
+    },
+    {
+      "word": "radio",
+      "start": 15.62,
+      "end": 16.28
+    },
+    {
+      "word": "and",
+      "start": 16.28,
+      "end": 17.52
+    },
+    {
+      "word": "a",
+      "start": 17.52,
+      "end": 17.94
+    },
+    {
+      "word": "flag",
+      "start": 17.94,
+      "end": 21.28
+    },
+    {
+      "word": "collar",
+      "start": 21.28,
+      "end": 21.7
+    },
+    {
+      "word": "with",
+      "start": 21.7,
+      "end": 21.92
+    },
+    {
+      "word": "a",
+      "start": 21.92,
+      "end": 22.04
+    },
+    {
+      "word": "flag",
+      "start": 22.04,
+      "end": 22.24
+    },
+    {
+      "word": "on",
+      "start": 22.24,
+      "end": 22.56
+    },
+    {
+      "word": "it,",
+      "start": 22.56,
+      "end": 22.74
+    },
+    {
+      "word": "a",
+      "start": 23.48,
+      "end": 23.88
+    },
+    {
+      "word": "boy",
+      "start": 23.88,
+      "end": 24.16
+    },
+    {
+      "word": "with",
+      "start": 24.16,
+      "end": 24.56
+    },
+    {
+      "word": "his",
+      "start": 24.56,
+      "end": 24.84
+    },
+    {
+      "word": "kite",
+      "start": 24.84,
+      "end": 25.34
+    },
+    {
+      "word": "in",
+      "start": 25.34,
+      "end": 27.48
+    },
+    {
+      "word": "his",
+      "start": 27.48,
+      "end": 27.74
+    },
+    {
+      "word": "dog",
+      "start": 27.74,
+      "end": 28.04
+    },
+    {
+      "word": "and",
+      "start": 28.04,
+      "end": 30.24
+    },
+    {
+      "word": "someone",
+      "start": 30.24,
+      "end": 33.26
+    },
+    {
+      "word": "sishinged.",
+      "start": 33.26,
+      "end": 35.9
+    },
+    {
+      "word": "When",
+      "start": 36.86,
+      "end": 37.58
+    },
+    {
+      "word": "I",
+      "start": 37.58,
+      "end": 37.66
+    },
+    {
+      "word": "see",
+      "start": 37.66,
+      "end": 37.92
+    },
+    {
+      "word": "a",
+      "start": 37.92,
+      "end": 38.4
+    },
+    {
+      "word": "peel",
+      "start": 38.4,
+      "end": 39.3
+    },
+    {
+      "word": "and",
+      "start": 39.3,
+      "end": 39.68
+    },
+    {
+      "word": "a",
+      "start": 39.68,
+      "end": 40.02
+    },
+    {
+      "word": "shovel,",
+      "start": 40.02,
+      "end": 41.44
+    },
+    {
+      "word": "a",
+      "start": 41.76,
+      "end": 43.08
+    },
+    {
+      "word": "lake",
+      "start": 43.08,
+      "end": 43.6
+    },
+    {
+      "word": "and",
+      "start": 43.6,
+      "end": 44.62
+    },
+    {
+      "word": "a",
+      "start": 44.62,
+      "end": 45.04
+    },
+    {
+      "word": "sailboat",
+      "start": 45.04,
+      "end": 48.5
+    },
+    {
+      "word": "and",
+      "start": 48.5,
+      "end": 50.4
+    },
+    {
+      "word": "more",
+      "start": 50.4,
+      "end": 52.52
+    },
+    {
+      "word": "trees.",
+      "start": 52.52,
+      "end": 53.0
+    },
+    {
+      "word": "Just",
+      "start": 56.1,
+      "end": 57.3
+    },
+    {
+      "word": "like",
+      "start": 57.3,
+      "end": 57.46
+    },
+    {
+      "word": "they're",
+      "start": 57.46,
+      "end": 57.8
+    },
+    {
+      "word": "on",
+      "start": 57.8,
+      "end": 58.06
+    },
+    {
+      "word": "a",
+      "start": 58.06,
+      "end": 58.66
+    },
+    {
+      "word": "lake",
+      "start": 60.13999999999999,
+      "end": 60.879999999999995
+    },
+    {
+      "word": "and",
+      "start": 60.879999999999995,
+      "end": 61.62
+    },
+    {
+      "word": "they're",
+      "start": 61.62,
+      "end": 62.18
+    },
+    {
+      "word": "having",
+      "start": 62.18,
+      "end": 62.38
+    },
+    {
+      "word": "the",
+      "start": 62.38,
+      "end": 62.56
+    },
+    {
+      "word": "fine",
+      "start": 62.56,
+      "end": 62.86
+    },
+    {
+      "word": "time.",
+      "start": 62.86,
+      "end": 63.28
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 21.28,
+      "text": " I see a tree and a house, a car, two people with a basket back at and a radio and a flag",
+      "tokens": [
+        50364,
+        286,
+        536,
+        257,
+        4230,
+        293,
+        257,
+        1782,
+        11,
+        257,
+        1032,
+        11,
+        732,
+        561,
+        365,
+        257,
+        8390,
+        646,
+        412,
+        293,
+        257,
+        6477,
+        293,
+        257,
+        7166,
+        51434
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4522146838051932,
+      "compression_ratio": 1.1578947368421053,
+      "no_speech_prob": 0.3929547965526581,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 1.7,
+          "probability": 0.5647138357162476
+        },
+        {
+          "word": " see",
+          "start": 1.7,
+          "end": 1.92,
+          "probability": 0.602694571018219
+        },
+        {
+          "word": " a",
+          "start": 1.92,
+          "end": 2.76,
+          "probability": 0.7505172491073608
+        },
+        {
+          "word": " tree",
+          "start": 2.76,
+          "end": 3.2,
+          "probability": 0.997014045715332
+        },
+        {
+          "word": " and",
+          "start": 3.2,
+          "end": 4.26,
+          "probability": 0.9015767574310303
+        },
+        {
+          "word": " a",
+          "start": 4.26,
+          "end": 4.82,
+          "probability": 0.9826835989952087
+        },
+        {
+          "word": " house,",
+          "start": 4.82,
+          "end": 5.28,
+          "probability": 0.995591938495636
+        },
+        {
+          "word": " a",
+          "start": 5.38,
+          "end": 6.0,
+          "probability": 0.989286482334137
+        },
+        {
+          "word": " car,",
+          "start": 6.0,
+          "end": 6.42,
+          "probability": 0.9954582452774048
+        },
+        {
+          "word": " two",
+          "start": 7.36,
+          "end": 10.22,
+          "probability": 0.9405609369277954
+        },
+        {
+          "word": " people",
+          "start": 10.22,
+          "end": 10.7,
+          "probability": 0.9979514479637146
+        },
+        {
+          "word": " with",
+          "start": 10.7,
+          "end": 11.88,
+          "probability": 0.9249871969223022
+        },
+        {
+          "word": " a",
+          "start": 11.88,
+          "end": 12.06,
+          "probability": 0.9917113780975342
+        },
+        {
+          "word": " basket",
+          "start": 12.06,
+          "end": 12.4,
+          "probability": 0.20979401469230652
+        },
+        {
+          "word": " back",
+          "start": 12.4,
+          "end": 13.32,
+          "probability": 0.32075071334838867
+        },
+        {
+          "word": " at",
+          "start": 13.32,
+          "end": 13.78,
+          "probability": 0.5225858092308044
+        },
+        {
+          "word": " and",
+          "start": 13.78,
+          "end": 14.38,
+          "probability": 0.4957587420940399
+        },
+        {
+          "word": " a",
+          "start": 14.38,
+          "end": 15.62,
+          "probability": 0.3879181444644928
+        },
+        {
+          "word": " radio",
+          "start": 15.62,
+          "end": 16.28,
+          "probability": 0.9922224879264832
+        },
+        {
+          "word": " and",
+          "start": 16.28,
+          "end": 17.52,
+          "probability": 0.5308533906936646
+        },
+        {
+          "word": " a",
+          "start": 17.52,
+          "end": 17.94,
+          "probability": 0.4690883755683899
+        },
+        {
+          "word": " flag",
+          "start": 17.94,
+          "end": 21.28,
+          "probability": 0.5691165924072266
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 2128,
+      "start": 21.28,
+      "end": 38.4,
+      "text": " collar with a flag on it, a boy with his kite in his dog and someone sishinged. When I see a",
+      "tokens": [
+        50364,
+        20672,
+        365,
+        257,
+        7166,
+        322,
+        309,
+        11,
+        257,
+        3237,
+        365,
+        702,
+        38867,
+        294,
+        702,
+        3000,
+        293,
+        1580,
+        262,
+        3807,
+        292,
+        13,
+        1133,
+        286,
+        536,
+        257,
+        51208
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5236339240238584,
+      "compression_ratio": 1.1219512195121952,
+      "no_speech_prob": 0.33528903126716614,
+      "words": [
+        {
+          "word": " collar",
+          "start": 21.28,
+          "end": 21.7,
+          "probability": 0.0013994470937177539
+        },
+        {
+          "word": " with",
+          "start": 21.7,
+          "end": 21.92,
+          "probability": 0.9146023392677307
+        },
+        {
+          "word": " a",
+          "start": 21.92,
+          "end": 22.04,
+          "probability": 0.9497775435447693
+        },
+        {
+          "word": " flag",
+          "start": 22.04,
+          "end": 22.24,
+          "probability": 0.970508873462677
+        },
+        {
+          "word": " on",
+          "start": 22.24,
+          "end": 22.56,
+          "probability": 0.9709464311599731
+        },
+        {
+          "word": " it,",
+          "start": 22.56,
+          "end": 22.74,
+          "probability": 0.9934594631195068
+        },
+        {
+          "word": " a",
+          "start": 23.48,
+          "end": 23.88,
+          "probability": 0.9389088749885559
+        },
+        {
+          "word": " boy",
+          "start": 23.88,
+          "end": 24.16,
+          "probability": 0.8220717906951904
+        },
+        {
+          "word": " with",
+          "start": 24.16,
+          "end": 24.56,
+          "probability": 0.991863489151001
+        },
+        {
+          "word": " his",
+          "start": 24.56,
+          "end": 24.84,
+          "probability": 0.960412859916687
+        },
+        {
+          "word": " kite",
+          "start": 24.84,
+          "end": 25.34,
+          "probability": 0.8207542896270752
+        },
+        {
+          "word": " in",
+          "start": 25.34,
+          "end": 27.48,
+          "probability": 0.5167398452758789
+        },
+        {
+          "word": " his",
+          "start": 27.48,
+          "end": 27.74,
+          "probability": 0.9904621243476868
+        },
+        {
+          "word": " dog",
+          "start": 27.74,
+          "end": 28.04,
+          "probability": 0.898138165473938
+        },
+        {
+          "word": " and",
+          "start": 28.04,
+          "end": 30.24,
+          "probability": 0.44686952233314514
+        },
+        {
+          "word": " someone",
+          "start": 30.24,
+          "end": 33.26,
+          "probability": 0.5350189805030823
+        },
+        {
+          "word": " sishinged.",
+          "start": 33.26,
+          "end": 35.9,
+          "probability": 0.5169654190540314
+        },
+        {
+          "word": " When",
+          "start": 36.86,
+          "end": 37.58,
+          "probability": 0.25321462750434875
+        },
+        {
+          "word": " I",
+          "start": 37.58,
+          "end": 37.66,
+          "probability": 0.27822738885879517
+        },
+        {
+          "word": " see",
+          "start": 37.66,
+          "end": 37.92,
+          "probability": 0.905505359172821
+        },
+        {
+          "word": " a",
+          "start": 37.92,
+          "end": 38.4,
+          "probability": 0.9485210180282593
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 3840,
+      "start": 38.4,
+      "end": 58.66,
+      "text": " peel and a shovel, a lake and a sailboat and more trees. Just like they're on a",
+      "tokens": [
+        50364,
+        13889,
+        293,
+        257,
+        29789,
+        11,
+        257,
+        11001,
+        293,
+        257,
+        15758,
+        31883,
+        293,
+        544,
+        5852,
+        13,
+        1449,
+        411,
+        436,
+        434,
+        322,
+        257,
+        51382
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6112686157226562,
+      "compression_ratio": 1.0675675675675675,
+      "no_speech_prob": 0.12026845663785934,
+      "words": [
+        {
+          "word": " peel",
+          "start": 38.4,
+          "end": 39.3,
+          "probability": 0.12801697850227356
+        },
+        {
+          "word": " and",
+          "start": 39.3,
+          "end": 39.68,
+          "probability": 0.7959074378013611
+        },
+        {
+          "word": " a",
+          "start": 39.68,
+          "end": 40.02,
+          "probability": 0.04940798133611679
+        },
+        {
+          "word": " shovel,",
+          "start": 40.02,
+          "end": 41.44,
+          "probability": 0.6585854291915894
+        },
+        {
+          "word": " a",
+          "start": 41.76,
+          "end": 43.08,
+          "probability": 0.4790930449962616
+        },
+        {
+          "word": " lake",
+          "start": 43.08,
+          "end": 43.6,
+          "probability": 0.7857921719551086
+        },
+        {
+          "word": " and",
+          "start": 43.6,
+          "end": 44.62,
+          "probability": 0.4402722120285034
+        },
+        {
+          "word": " a",
+          "start": 44.62,
+          "end": 45.04,
+          "probability": 0.9115520715713501
+        },
+        {
+          "word": " sailboat",
+          "start": 45.04,
+          "end": 48.5,
+          "probability": 0.6136299669742584
+        },
+        {
+          "word": " and",
+          "start": 48.5,
+          "end": 50.4,
+          "probability": 0.6157809495925903
+        },
+        {
+          "word": " more",
+          "start": 50.4,
+          "end": 52.52,
+          "probability": 0.25105610489845276
+        },
+        {
+          "word": " trees.",
+          "start": 52.52,
+          "end": 53.0,
+          "probability": 0.9964210987091064
+        },
+        {
+          "word": " Just",
+          "start": 56.1,
+          "end": 57.3,
+          "probability": 0.6459611654281616
+        },
+        {
+          "word": " like",
+          "start": 57.3,
+          "end": 57.46,
+          "probability": 0.9963899254798889
+        },
+        {
+          "word": " they're",
+          "start": 57.46,
+          "end": 57.8,
+          "probability": 0.7593166530132294
+        },
+        {
+          "word": " on",
+          "start": 57.8,
+          "end": 58.06,
+          "probability": 0.961695671081543
+        },
+        {
+          "word": " a",
+          "start": 58.06,
+          "end": 58.66,
+          "probability": 0.7491475939750671
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 5866,
+      "start": 60.13999999999999,
+      "end": 63.28,
+      "text": " lake and they're having the fine time.",
+      "tokens": [
+        50364,
+        11001,
+        293,
+        436,
+        434,
+        1419,
+        264,
+        2489,
+        565,
+        13,
+        50592
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6099304755528768,
+      "compression_ratio": 0.8837209302325582,
+      "no_speech_prob": 0.22810104489326477,
+      "words": [
+        {
+          "word": " lake",
+          "start": 60.13999999999999,
+          "end": 60.879999999999995,
+          "probability": 7.374711685770308e-07
+        },
+        {
+          "word": " and",
+          "start": 60.879999999999995,
+          "end": 61.62,
+          "probability": 0.38467997312545776
+        },
+        {
+          "word": " they're",
+          "start": 61.62,
+          "end": 62.18,
+          "probability": 0.8584555983543396
+        },
+        {
+          "word": " having",
+          "start": 62.18,
+          "end": 62.38,
+          "probability": 0.9782537221908569
+        },
+        {
+          "word": " the",
+          "start": 62.38,
+          "end": 62.56,
+          "probability": 0.8237799406051636
+        },
+        {
+          "word": " fine",
+          "start": 62.56,
+          "end": 62.86,
+          "probability": 0.39708879590034485
+        },
+        {
+          "word": " time.",
+          "start": 62.86,
+          "end": 63.28,
+          "probability": 0.9870861768722534
+        }
+      ]
+    }
+  ]
+}

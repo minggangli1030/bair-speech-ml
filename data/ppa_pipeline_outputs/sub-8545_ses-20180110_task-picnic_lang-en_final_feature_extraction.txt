@@ -42,7 +42,7 @@ COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
 26   01:31.577 → 01:33.923     Participant  2.35      s and it has two people in it.                       AE N SIL D SIL IH DX AE S SIL T CH UW SIL P IY SIL P L IH N EH IH SIL
 27   01:36.100 → 01:39.087     Participant  2.99      s and then close her in in the foreground.           SIL AE N DH EH N SIL K L OW S ER R IH N SIL IH N DH AH F AA R SIL G R AW N D
 28   01:40.859 → 01:46.731     Participant  5.87      s in the ground and in the shore next to the lake th AA AH AH SIL IH N DH IY SIL G R AW N D ER IH N DH IH S UH SIL IH M N DH IY AH SH AA R ER N EH SIL K S T UW AH DH AH L EY SIL K DH EH R IH Z AH SIL B AH SIL K IH SIL L SIL HH AE N AH SIL SIL L IH UH DX L AH M
-29   01:48.030 → 01:49.397     Participant  1.37      s ائ                                                 B AH SIL K IH SIL N AE SIL HH AA M
+29   01:48.030 → 01:49.397     Participant  1.37      s of.                                                B AH SIL K IH SIL N AE SIL HH AA M
 30   01:49.853 → 01:52.840     Participant  2.99      s Now scoop to dig sand with, it looks like.         DH L S SIL K UW SIL P SIL T IH SIL D IH NG SIL G K SIL S AE N SIL D W EH TH SIL IH L UH SIL K S L AY SIL K
 31   01:53.363 → 01:54.848     Participant  1.48      s And in back of that.                               AE N SIL IH N SIL B AE SIL K AH V DH AE SIL S
 32   01:56.839 → 01:59.286     Participant  2.45      s in the water itself, I think, probably.            IH N DH AH W AA DX ER IH SIL S EH L F AY SIL TH IH EY NG SIL EH AH SIL P R AA V AH SIL B L IY
@@ -229,7 +229,7 @@ Segment 28:
 Segment 29:
   Timestamp: 01:48.030 - 01:49.397 (1.37s)
   Speaker: Participant (SPEAKER_01)
-  ASR Transcription: ائ
+  ASR Transcription: of.
   Phonemic Encoding: B AH SIL K IH SIL N AE SIL HH AA M
 
 Segment 30:

@@ -17,11 +17,11 @@ COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
 1    00:00.030 → 00:06.713     Participant  6.68      s a pastoral setting of a picnic in front of someone S EY SIL P HH AE S SIL T R L S EH DX EY NG IH AH W SIL P IH EY SIL K IH SIL K IH N SIL T F R ER N AH IH S AH M IH N SIL S HH OW M W AH S AH M N F L AY NG IH SIL K AY SIL W IH TH SIL TH DH ER SIL D AA R DX IH N DH AH F L AE SIL G IH S SIL W EY DX IH N IH N DX D IH DH AH SIL T R IY SIL K ER AH N SIL AA R K IH N AA ER
 2    00:07.253 → 00:09.683     Participant  2.43      s Nice, one, two better, one better in the house.    DH AY EH AE S SIL W EH IH N SIL T UW SIL B EH DX ER W AH N SIL B AE TH S ER N HH AW S
 3    00:10.645 → 00:11.894     Participant  1.25      s on the bar kit with the radio.                     AA N AH SIL B L AY SIL K IH W AH Z S ER R EY DX IY AH OW
-4    00:18.019 → 00:19.977     Clinician    1.96      s He's laying down on his哥, so careful lot of campho SH IH HH EH V DH IH SIL D EH F IH CH S IY SIL T IY N SIL IH SIL DH IH SIL G IH UW
-5    00:20.685 → 00:22.373     Participant  1.69      s kylight play                                       AA L EY SIL K SIL P OW SIL
+4    00:18.019 → 00:19.977     Clinician    1.96      s He, he he, that how he came. And he...             SH IH HH EH V DH IH SIL D EH F IH CH S IY SIL T IY N SIL IH SIL DH IH SIL G IH UW
+5    00:20.685 → 00:22.373     Participant  1.69      s our leg, returned                                  AA L EY SIL K SIL P OW SIL
 6    00:22.626 → 00:27.233     Participant  4.61      s outmanced. There are as there is a lake up over th AW N M N SIL S SIL DH EH R AA R IH Z S AH SIL DH IH EH R ER IH Z AH L EY SIL K AH SIL P OW SIL N M AW N N SIL P IH SIL SH ER
 7    00:27.604 → 00:29.663     Participant  2.06      s Back on weight, sketch monitoring.                 B DH AY SIL K AH M W EY T S SIL K IH SIL CH SIL M AA R ER N ER R IH IY NG
-8    00:31.401 → 00:33.730     Participant  2.33      s o, I don't go into the fence.                      HH AY AE DX HH EH M SIL B OW AE EH N SIL S SIL AH F TH AE SIL S
+8    00:31.401 → 00:33.730     Participant  2.33      s find Hem, Seo about to miał ins,                   HH AY AE DX HH EH M SIL B OW AE EH N SIL S SIL AH F TH AE SIL S
 9    00:34.422 → 00:36.885     Participant  2.46      s But, saving as its side, the picture is signed.    DH IH SIL T S IH N IY Y EH SIL S IH SIL S AY SIL D T HH DH AH SIL P IH SIL K SH ER IH S AY
 10   00:39.147 → 00:40.176     Participant  1.03      s They had to go ahead to come.                      IH HH AE S SIL K OY AY HH IH N SIL CH IH SIL K AA N
 11   00:41.459 → 00:44.277     Clinician    2.82      s Failure people are content, people are leisure.    HH IH L AY IH SIL P Y IY SIL P L R ER SIL K IH N SIL T EH N SIL T S SIL SIL F IY SIL V P AH L AA ER SIL L IY ZH ER HH
@@ -51,13 +51,13 @@ Segment 3:
 Segment 4:
   Timestamp: 00:18.019 - 00:19.977 (1.96s)
   Speaker: Clinician (SPEAKER_00)
-  ASR Transcription: He's laying down on his哥, so careful lot of camphor.
+  ASR Transcription: He, he he, that how he came. And he...
   Phonemic Encoding: SH IH HH EH V DH IH SIL D EH F IH CH S IY SIL T IY N SIL IH SIL DH IH SIL G IH UW
 
 Segment 5:
   Timestamp: 00:20.685 - 00:22.373 (1.69s)
   Speaker: Participant (SPEAKER_01)
-  ASR Transcription: kylight play
+  ASR Transcription: our leg, returned
   Phonemic Encoding: AA L EY SIL K SIL P OW SIL
 
 Segment 6:
@@ -75,7 +75,7 @@ Segment 7:
 Segment 8:
   Timestamp: 00:31.401 - 00:33.730 (2.33s)
   Speaker: Participant (SPEAKER_01)
-  ASR Transcription: o, I don't go into the fence.
+  ASR Transcription: find Hem, Seo about to miał ins,
   Phonemic Encoding: HH AY AE DX HH EH M SIL B OW AE EH N SIL S SIL AH F TH AE SIL S
 
 Segment 9:

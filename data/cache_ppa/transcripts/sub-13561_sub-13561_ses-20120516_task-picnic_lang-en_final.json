@@ -1,0 +1,572 @@
+{
+  "text": " People are picking in. A guy is flying a kite. A guy is fishing. A guy is waving. A guy is waving. A guy is waving. A guy is waving. A guy is waving.",
+  "words": [
+    {
+      "word": "People",
+      "start": 0.0,
+      "end": 2.76
+    },
+    {
+      "word": "are",
+      "start": 2.76,
+      "end": 3.38
+    },
+    {
+      "word": "picking",
+      "start": 3.38,
+      "end": 4.72
+    },
+    {
+      "word": "in.",
+      "start": 4.72,
+      "end": 6.74
+    },
+    {
+      "word": "A",
+      "start": 8.8,
+      "end": 10.2
+    },
+    {
+      "word": "guy",
+      "start": 10.2,
+      "end": 10.72
+    },
+    {
+      "word": "is",
+      "start": 10.72,
+      "end": 12.94
+    },
+    {
+      "word": "flying",
+      "start": 12.94,
+      "end": 13.66
+    },
+    {
+      "word": "a",
+      "start": 13.66,
+      "end": 14.0
+    },
+    {
+      "word": "kite.",
+      "start": 14.0,
+      "end": 15.02
+    },
+    {
+      "word": "A",
+      "start": 27.26,
+      "end": 28.66
+    },
+    {
+      "word": "guy",
+      "start": 28.66,
+      "end": 30.06
+    },
+    {
+      "word": "is",
+      "start": 30.06,
+      "end": 30.98
+    },
+    {
+      "word": "fishing.",
+      "start": 30.98,
+      "end": 31.98
+    },
+    {
+      "word": "A",
+      "start": 31.98,
+      "end": 33.4
+    },
+    {
+      "word": "guy",
+      "start": 33.4,
+      "end": 45.94
+    },
+    {
+      "word": "is",
+      "start": 45.94,
+      "end": 47.0
+    },
+    {
+      "word": "waving.",
+      "start": 47.0,
+      "end": 53.74
+    },
+    {
+      "word": "A",
+      "start": 60.56,
+      "end": 61.96
+    },
+    {
+      "word": "guy",
+      "start": 61.96,
+      "end": 61.96
+    },
+    {
+      "word": "is",
+      "start": 61.96,
+      "end": 61.96
+    },
+    {
+      "word": "waving.",
+      "start": 61.96,
+      "end": 61.96
+    },
+    {
+      "word": "A",
+      "start": 61.96,
+      "end": 62.58
+    },
+    {
+      "word": "guy",
+      "start": 62.58,
+      "end": 63.84
+    },
+    {
+      "word": "is",
+      "start": 63.84,
+      "end": 65.74
+    },
+    {
+      "word": "waving.",
+      "start": 65.74,
+      "end": 67.22
+    },
+    {
+      "word": "A",
+      "start": 71.65999999999998,
+      "end": 73.05999999999999
+    },
+    {
+      "word": "guy",
+      "start": 73.05999999999999,
+      "end": 74.46
+    },
+    {
+      "word": "is",
+      "start": 74.46,
+      "end": 80.9
+    },
+    {
+      "word": "waving.",
+      "start": 80.9,
+      "end": 84.34
+    },
+    {
+      "word": "A",
+      "start": 84.34,
+      "end": 85.2
+    },
+    {
+      "word": "guy",
+      "start": 85.2,
+      "end": 85.2
+    },
+    {
+      "word": "is",
+      "start": 85.2,
+      "end": 91.9
+    },
+    {
+      "word": "waving.",
+      "start": 91.9,
+      "end": 93.9
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.74,
+      "text": " People are picking in.",
+      "tokens": [
+        50364,
+        3432,
+        366,
+        8867,
+        294,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.677007622188992,
+      "compression_ratio": 0.8846153846153846,
+      "no_speech_prob": 0.4489632844924927,
+      "words": [
+        {
+          "word": " People",
+          "start": 0.0,
+          "end": 2.76,
+          "probability": 0.09910805523395538
+        },
+        {
+          "word": " are",
+          "start": 2.76,
+          "end": 3.38,
+          "probability": 0.9709481000900269
+        },
+        {
+          "word": " picking",
+          "start": 3.38,
+          "end": 4.72,
+          "probability": 0.5539762377738953
+        },
+        {
+          "word": " in.",
+          "start": 4.72,
+          "end": 6.74,
+          "probability": 0.36703962087631226
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 8.8,
+      "end": 15.02,
+      "text": " A guy is flying a kite.",
+      "tokens": [
+        50714,
+        316,
+        2146,
+        307,
+        7137,
+        257,
+        38867,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.677007622188992,
+      "compression_ratio": 0.8846153846153846,
+      "no_speech_prob": 0.4489632844924927,
+      "words": [
+        {
+          "word": " A",
+          "start": 8.8,
+          "end": 10.2,
+          "probability": 0.33280420303344727
+        },
+        {
+          "word": " guy",
+          "start": 10.2,
+          "end": 10.72,
+          "probability": 0.9048078060150146
+        },
+        {
+          "word": " is",
+          "start": 10.72,
+          "end": 12.94,
+          "probability": 0.9294230341911316
+        },
+        {
+          "word": " flying",
+          "start": 12.94,
+          "end": 13.66,
+          "probability": 0.646411120891571
+        },
+        {
+          "word": " a",
+          "start": 13.66,
+          "end": 14.0,
+          "probability": 0.7660996913909912
+        },
+        {
+          "word": " kite.",
+          "start": 14.0,
+          "end": 15.02,
+          "probability": 0.9993696808815002
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1502,
+      "start": 27.26,
+      "end": 31.98,
+      "text": " A guy is fishing.",
+      "tokens": [
+        50364,
+        316,
+        2146,
+        307,
+        10180,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2749697102440728,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 0.2123570591211319,
+      "words": [
+        {
+          "word": " A",
+          "start": 27.26,
+          "end": 28.66,
+          "probability": 0.05032819136977196
+        },
+        {
+          "word": " guy",
+          "start": 28.66,
+          "end": 30.06,
+          "probability": 0.13616450130939484
+        },
+        {
+          "word": " is",
+          "start": 30.06,
+          "end": 30.98,
+          "probability": 0.9804911613464355
+        },
+        {
+          "word": " fishing.",
+          "start": 30.98,
+          "end": 31.98,
+          "probability": 0.7203521728515625
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 3198,
+      "start": 31.98,
+      "end": 53.74,
+      "text": " A guy is waving.",
+      "tokens": [
+        50364,
+        316,
+        2146,
+        307,
+        35347,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4715336509372877,
+      "compression_ratio": 1.7857142857142858,
+      "no_speech_prob": 0.23269839584827423,
+      "words": [
+        {
+          "word": " A",
+          "start": 31.98,
+          "end": 33.4,
+          "probability": 0.005644680000841618
+        },
+        {
+          "word": " guy",
+          "start": 33.4,
+          "end": 45.94,
+          "probability": 0.08443855494260788
+        },
+        {
+          "word": " is",
+          "start": 45.94,
+          "end": 47.0,
+          "probability": 0.9095197319984436
+        },
+        {
+          "word": " waving.",
+          "start": 47.0,
+          "end": 53.74,
+          "probability": 0.4709831178188324
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 3198,
+      "start": 60.56,
+      "end": 61.96,
+      "text": " A guy is waving.",
+      "tokens": [
+        50714,
+        316,
+        2146,
+        307,
+        35347,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4715336509372877,
+      "compression_ratio": 1.7857142857142858,
+      "no_speech_prob": 0.23269839584827423,
+      "words": [
+        {
+          "word": " A",
+          "start": 60.56,
+          "end": 61.96,
+          "probability": 0.28871655464172363
+        },
+        {
+          "word": " guy",
+          "start": 61.96,
+          "end": 61.96,
+          "probability": 0.34423723816871643
+        },
+        {
+          "word": " is",
+          "start": 61.96,
+          "end": 61.96,
+          "probability": 0.25660789012908936
+        },
+        {
+          "word": " waving.",
+          "start": 61.96,
+          "end": 61.96,
+          "probability": 0.9271834492683411
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3198,
+      "start": 61.96,
+      "end": 61.96,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4715336509372877,
+      "compression_ratio": 1.7857142857142858,
+      "no_speech_prob": 0.23269839584827423,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 6196,
+      "start": 61.96,
+      "end": 67.22,
+      "text": " A guy is waving.",
+      "tokens": [
+        50364,
+        316,
+        2146,
+        307,
+        35347,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5084446668624878,
+      "compression_ratio": 1.1785714285714286,
+      "no_speech_prob": 0.3898971676826477,
+      "words": [
+        {
+          "word": " A",
+          "start": 61.96,
+          "end": 62.58,
+          "probability": 0.0010915506863966584
+        },
+        {
+          "word": " guy",
+          "start": 62.58,
+          "end": 63.84,
+          "probability": 0.0036356712225824594
+        },
+        {
+          "word": " is",
+          "start": 63.84,
+          "end": 65.74,
+          "probability": 0.024418463930487633
+        },
+        {
+          "word": " waving.",
+          "start": 65.74,
+          "end": 67.22,
+          "probability": 0.0025794985704123974
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 6196,
+      "start": 71.65999999999998,
+      "end": 84.34,
+      "text": " A guy is waving.",
+      "tokens": [
+        50714,
+        316,
+        2146,
+        307,
+        35347,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5084446668624878,
+      "compression_ratio": 1.1785714285714286,
+      "no_speech_prob": 0.3898971676826477,
+      "words": [
+        {
+          "word": " A",
+          "start": 71.65999999999998,
+          "end": 73.05999999999999,
+          "probability": 0.046868033707141876
+        },
+        {
+          "word": " guy",
+          "start": 73.05999999999999,
+          "end": 74.46,
+          "probability": 0.12607061862945557
+        },
+        {
+          "word": " is",
+          "start": 74.46,
+          "end": 80.9,
+          "probability": 0.24229489266872406
+        },
+        {
+          "word": " waving.",
+          "start": 80.9,
+          "end": 84.34,
+          "probability": 0.70791095495224
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 8434,
+      "start": 84.34,
+      "end": 93.9,
+      "text": " A guy is waving.",
+      "tokens": [
+        50364,
+        316,
+        2146,
+        307,
+        35347,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.47015181183815,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 0.6184688806533813,
+      "words": [
+        {
+          "word": " A",
+          "start": 84.34,
+          "end": 85.2,
+          "probability": 0.0058084349147975445
+        },
+        {
+          "word": " guy",
+          "start": 85.2,
+          "end": 85.2,
+          "probability": 0.00017950341862160712
+        },
+        {
+          "word": " is",
+          "start": 85.2,
+          "end": 91.9,
+          "probability": 0.017694665119051933
+        },
+        {
+          "word": " waving.",
+          "start": 91.9,
+          "end": 93.9,
+          "probability": 7.195634680101648e-05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-32803_ses-20210204_task-picnic_lang-en_final.wav
+Total Segments: 11
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:05.565 → 00:06.713     Participant  1.15      s a boy and a girl                                   AH SIL B OY IH N IH SIL G ER L
+2    00:08.046 → 00:10.459     Participant  2.41      s itting and I think eating.                         S IH SIL T IH EY NG SIL HH AE EH N SIL TH T AY SIL T IH IY NG SIL IY SIL T IY NG SIL
+3    00:10.965 → 00:15.032     Participant  4.07      s they have a place to eat.                          DH EY HH EH SIL DH AH SIL DH EH HH AE V AH SIL P L EY S Y EH N AA L SIL T DH UW SIL Y IY IH
+4    00:16.450 → 00:19.403     Participant  2.95      s another boy goes somewhere                         AH IH N AH DH EH ER R SIL B OY G AA S AH OW M NG W EH AH SIL
+5    00:22.542 → 00:26.085     Participant  3.54      s up there and that is the Gogi.                     AH SIL N DH EH AE AE N SIL DH EH DX IH Z S DH AH SIL G AA L IY EY SIL
+6    00:27.672 → 00:31.300     Participant  3.63      s And then there was, you know,                      AE N SIL SIL DH EH N SIL DH EH R DX W AH S EH AH L UH SIL
+7    00:35.367 → 00:49.035     Participant  13.67     s the water and there was somebody in there in the w DH AH W AA TH ER T SIL DH EH AH V AH AE N SIL SIL DH EH DX W AH S SIL DH EH DX W UH ER S AH M SIL B AY DX IY SIL Y IH N DH OW SIL SIL SIL IH N DH EH AE SIL SIL IH N SIL D DH OW SIL IH N DH AH W AA SIL T DH AH SIL EH N SIL D IH SIL P UW L S SIL R IY SIL AE EH N SIL DH AY SIL IH N SIL DH EH R W AH IH Z DH IH S SIL M AA L SIL HH AW S
+8    00:49.035 → 00:50.622     Clinician    1.59      s with the                                           S W IH SIL DH EH AW L SIL
+9    00:51.989 → 00:56.832     Clinician    4.84      s card and also a tray, a big tray.                  K AA AE N SIL D SIL AA L S OW L SIL AH SIL T R IY SIL AH SIL B IY IH SIL R IY SIL
+10   01:00.983 → 01:06.906     Participant  5.92      s And then there was a flat.                         AE N SIL DH AH AH SIL B EH N SIL B DH EH DX W UH Z EY AW M NG SIL SIL SIL D EH DX IH SIL N EH DX IY IH Z AH F L AY
+11   01:09.674 → 01:12.002     Participant  2.33      s and that's that's what I see.                      EH AE N SIL DH EH S DH EH S SIL W AH DH AY SH S IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:05.565 - 00:06.713 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a boy and a girl
+  Phonemic Encoding: AH SIL B OY IH N IH SIL G ER L
+
+Segment 2:
+  Timestamp: 00:08.046 - 00:10.459 (2.41s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: itting and I think eating.
+  Phonemic Encoding: S IH SIL T IH EY NG SIL HH AE EH N SIL TH T AY SIL T IH IY NG SIL IY SIL T IY NG SIL
+
+Segment 3:
+  Timestamp: 00:10.965 - 00:15.032 (4.07s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: they have a place to eat.
+  Phonemic Encoding: DH EY HH EH SIL DH AH SIL DH EH HH AE V AH SIL P L EY S Y EH N AA L SIL T DH UW SIL Y IY IH
+
+Segment 4:
+  Timestamp: 00:16.450 - 00:19.403 (2.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: another boy goes somewhere
+  Phonemic Encoding: AH IH N AH DH EH ER R SIL B OY G AA S AH OW M NG W EH AH SIL
+
+Segment 5:
+  Timestamp: 00:22.542 - 00:26.085 (3.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: up there and that is the Gogi.
+  Phonemic Encoding: AH SIL N DH EH AE AE N SIL DH EH DX IH Z S DH AH SIL G AA L IY EY SIL
+
+Segment 6:
+  Timestamp: 00:27.672 - 00:31.300 (3.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then there was, you know,
+  Phonemic Encoding: AE N SIL SIL DH EH N SIL DH EH R DX W AH S EH AH L UH SIL
+
+Segment 7:
+  Timestamp: 00:35.367 - 00:49.035 (13.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the water and there was somebody in there in the water. Anticles and I and there was this small house.
+  Phonemic Encoding: DH AH W AA TH ER T SIL DH EH AH V AH AE N SIL SIL DH EH DX W AH S SIL DH EH DX W UH ER S AH M SIL B AY DX IY SIL Y IH N DH OW SIL SIL SIL IH N DH EH AE SIL SIL IH N SIL D DH OW SIL IH N DH AH W AA SIL T DH AH SIL EH N SIL D IH SIL P UW L S SIL R IY SIL AE EH N SIL DH AY SIL IH N SIL DH EH R W AH IH Z DH IH S SIL M AA L SIL HH AW S
+
+Segment 8:
+  Timestamp: 00:49.035 - 00:50.622 (1.59s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: with the
+  Phonemic Encoding: S W IH SIL DH EH AW L SIL
+
+Segment 9:
+  Timestamp: 00:51.989 - 00:56.832 (4.84s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: card and also a tray, a big tray.
+  Phonemic Encoding: K AA AE N SIL D SIL AA L S OW L SIL AH SIL T R IY SIL AH SIL B IY IH SIL R IY SIL
+
+Segment 10:
+  Timestamp: 01:00.983 - 01:06.906 (5.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then there was a flat.
+  Phonemic Encoding: AE N SIL DH AH AH SIL B EH N SIL B DH EH DX W UH Z EY AW M NG SIL SIL SIL D EH DX IH SIL N EH DX IY IH Z AH F L AY
+
+Segment 11:
+  Timestamp: 01:09.674 - 01:12.002 (2.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and that's that's what I see.
+  Phonemic Encoding: EH AE N SIL DH EH S DH EH S SIL W AH DH AY SH S IY

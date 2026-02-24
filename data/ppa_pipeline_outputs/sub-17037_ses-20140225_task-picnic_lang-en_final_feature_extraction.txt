@@ -1,0 +1,48 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17037_ses-20140225_task-picnic_lang-en_final.wav
+Total Segments: 4
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.667 → 00:03.422     Participant  1.76      s having a picnic.                                   HH AE EH AE V B IH NG SIL AH SIL P IH SIL K N IY SIL
+2    00:09.649 → 00:10.999     Participant  1.35      s Lion Husket!                                       B L AY N SIL HH AH V F SIL K AE EY
+3    00:12.569 → 00:13.632     Participant  1.06      s with this dog.                                     W IH SIL DH HH IH S SIL D AA
+4    00:21.765 → 00:24.769     Clinician    3.00      s It looks like a very nice day.                     IH N L UH SIL K S L AY SIL K IH AH V IH EH R ER SIL N N AY S SIL T EY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.667 - 00:03.422 (1.76s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having a picnic.
+  Phonemic Encoding: HH AE EH AE V B IH NG SIL AH SIL P IH SIL K N IY SIL
+
+Segment 2:
+  Timestamp: 00:09.649 - 00:10.999 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Lion Husket!
+  Phonemic Encoding: B L AY N SIL HH AH V F SIL K AE EY
+
+Segment 3:
+  Timestamp: 00:12.569 - 00:13.632 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with this dog.
+  Phonemic Encoding: W IH SIL DH HH IH S SIL D AA
+
+Segment 4:
+  Timestamp: 00:21.765 - 00:24.769 (3.00s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It looks like a very nice day.
+  Phonemic Encoding: IH N L UH SIL K S L AY SIL K IH AH V IH EH R ER SIL N N AY S SIL T EY

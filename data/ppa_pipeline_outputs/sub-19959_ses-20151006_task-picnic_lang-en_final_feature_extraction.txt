@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-19959_ses-20151006_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.300 → 00:01.634     Participant  1.33      s Yeah, that's tough.                                Y EH AW SIL SIL W AA R SIL D AH S SIL T AA F
+2    00:07.810 → 00:09.430     Participant  1.62      s One, one, one, one, one, one, one, one.            AH M SIL B W OW AH N SIL B AA AH N SIL DH AH N SIL B AH N SIL DH D EH IH N SIL DH AH L AH L
+3    00:10.560 → 00:11.826     Participant  1.27      s uncertain                                          B R AH N SIL DH AH N SIL B AA OW N SIL B L NG N SIL DH OW M N
+4    00:13.159 → 00:14.307     Clinician    1.15      s Oh, yeah.                                          AH SIL CH SH SIL Y EH AW
+5    00:23.284 → 00:24.904     Participant  1.62      s Yeah. Yeah.                                        Y EH AE AW Y EH AW AH SIL
+6    00:25.208 → 00:26.558     Participant  1.35      s on the stuff.                                      AA N SIL DH IH AH S SIL T AH AA F
+7    00:27.182 → 00:30.119     Participant  2.94      s                                                    DH B OW L SIL B AA L N SIL D AH N M OW L SIL B AA N W B AH M SIL B L Y AE AW IH N SIL D IY SIL
+8    00:30.405 → 00:35.316     Participant  4.91      s No, no, my, my, my call on the staff. My call on t OW NG SIL AA M TH SIL M AY M AY SIL K AA AA AA AY N SIL DH AH S SIL T AH AA F S SIL B AY SIL K AA AA AY N SIL D AH S T AH AA F S SIL Y UW N SIL B UH UW SIL B NG SIL B
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.300 - 00:01.634 (1.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yeah, that's tough.
+  Phonemic Encoding: Y EH AW SIL SIL W AA R SIL D AH S SIL T AA F
+
+Segment 2:
+  Timestamp: 00:07.810 - 00:09.430 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: One, one, one, one, one, one, one, one.
+  Phonemic Encoding: AH M SIL B W OW AH N SIL B AA AH N SIL DH AH N SIL B AH N SIL DH D EH IH N SIL DH AH L AH L
+
+Segment 3:
+  Timestamp: 00:10.560 - 00:11.826 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: uncertain
+  Phonemic Encoding: B R AH N SIL DH AH N SIL B AA OW N SIL B L NG N SIL DH OW M N
+
+Segment 4:
+  Timestamp: 00:13.159 - 00:14.307 (1.15s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Oh, yeah.
+  Phonemic Encoding: AH SIL CH SH SIL Y EH AW
+
+Segment 5:
+  Timestamp: 00:23.284 - 00:24.904 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yeah. Yeah.
+  Phonemic Encoding: Y EH AE AW Y EH AW AH SIL
+
+Segment 6:
+  Timestamp: 00:25.208 - 00:26.558 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: on the stuff.
+  Phonemic Encoding: AA N SIL DH IH AH S SIL T AH AA F
+
+Segment 7:
+  Timestamp: 00:27.182 - 00:30.119 (2.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: 
+  Phonemic Encoding: DH B OW L SIL B AA L N SIL D AH N M OW L SIL B AA N W B AH M SIL B L Y AE AW IH N SIL D IY SIL
+
+Segment 8:
+  Timestamp: 00:30.405 - 00:35.316 (4.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: No, no, my, my, my call on the staff. My call on the staff. Un-bun-bun-bun-bun.
+  Phonemic Encoding: OW NG SIL AA M TH SIL M AY M AY SIL K AA AA AA AY N SIL DH AH S SIL T AH AA F S SIL B AY SIL K AA AA AY N SIL D AH S T AH AA F S SIL Y UW N SIL B UH UW SIL B NG SIL B

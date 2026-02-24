@@ -1,0 +1,153 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-29205_ses-20211109_task-picnic_lang-en_final.wav
+Total Segments: 19
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.984 → 00:07.101     Participant  4.12      s You better........ Just stayiant....               HH EH N AH P L EY DH IH SIL IH EH NG L N
+2    00:11.725 → 00:14.037     Participant  2.31      s Finally render                                     L EY IH AA R IH N DH IH SIL
+3    00:18.981 → 00:21.023     Participant  2.04      s parkland please                                    P R ER L IH N SIL HH AY SH
+4    00:23.757 → 00:26.794     Participant  3.04      s Raining you, ready hero?                           W R EY N IY Y L W R EH SIL D EY HH Y L
+5    00:27.722 → 00:31.992     Participant  4.27      s Or link over to this.                              AA L EY NG B OW K CH IH DH IH AH IH S SIL SIL P AY N M AH N AY SIL
+6    00:35.434 → 00:40.058     Participant  4.62      s What is better? And in pageStrike                  B OY Z IY IH SIL P HH IH EH IH SIL S L EH IH AE EH N IH EH N DH AH L AY EY HH AE SIL K
+7    00:41.357 → 00:44.310     Participant  2.95      s vote down please                                   B OW SIL T D SIL HH ER N SIL D AW L V IH S
+8    00:45.880 → 00:49.052     Participant  3.17      s for dark is bad                                    UH L SIL W AH IH SIL K F R T AA L SIL IH Z S SIL P B AH
+9    00:52.900 → 00:54.368     Participant  1.47      s Um, you have a                                     D AA OW L SIL IH S
+10   00:59.852 → 01:05.421     Participant  5.57      s Fist your men, doc, and doc, and the Fist your men EH Z SIL CH ER M IH EH N D T AA SIL AH N B D AA SIL SIL SIL K AH M DH AH SIL SIL P IH SIL CH ER M IH N
+11   01:09.741 → 01:12.694     Participant  2.95      s Cellric... Cellric all...                          S EH L SIL SIL OW L S EH L SIL P OW L SIL
+12   01:14.871 → 01:19.073     Participant  4.20      s to be the cell wall.                               T UW SIL P IY Y IH AH B DH AH AH S EH L W AA AH SIL F B OW
+13   01:21.621 → 01:22.684     Participant  1.06      s Boy is...                                          OY SIL IH S
+14   01:24.827 → 01:27.038     Participant  2.21      s Playing.                                           IH EH L AH L IH N IH SIL S SIL T AE DH IH SIL K AE SIL L L
+15   01:28.371 → 01:31.577     Participant  3.21      s level bow, level bow.                              L OW L SIL B AA OW L L AW L SIL L SIL P OW L
+16   01:31.965 → 01:35.594     Participant  3.63      s level-board is...                                  L AE AW L L SIL SIL B OW IH EH S HH IH N IH AH
+17   01:48.739 → 01:56.586     Clinician    7.85      s I'm a boy, a man, a lady, and a lady in the trees. AE AA SIL B OY SIL EH AH SIL SIL M AE N IH SIL K DH L EH DX EY IY Z EH K IH N B EY IY IH N IH Z AH IH N M DH ER P T R IY SH
+18   02:07.538 → 02:11.453     Participant  3.92      s pick in the bed and pick in the act of this.       P EY SIL K IH EH N SIL DH IH SIL P AE DX SIL D IY IH P EY IH SIL IH N ER SIL AE SIL AH L DH IH S
+19   02:24.008 → 02:29.695     Participant  5.69      s Like a gold, wide, gold, tail, gold.               L AY SIL K IH SIL AH SIL B OW L SIL L AY SIL SIL B OW L T S EH L SIL B OW L
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.984 - 00:07.101 (4.12s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: You better........ Just stayiant....
+  Phonemic Encoding: HH EH N AH P L EY DH IH SIL IH EH NG L N
+
+Segment 2:
+  Timestamp: 00:11.725 - 00:14.037 (2.31s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Finally render
+  Phonemic Encoding: L EY IH AA R IH N DH IH SIL
+
+Segment 3:
+  Timestamp: 00:18.981 - 00:21.023 (2.04s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: parkland please
+  Phonemic Encoding: P R ER L IH N SIL HH AY SH
+
+Segment 4:
+  Timestamp: 00:23.757 - 00:26.794 (3.04s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Raining you, ready hero?
+  Phonemic Encoding: W R EY N IY Y L W R EH SIL D EY HH Y L
+
+Segment 5:
+  Timestamp: 00:27.722 - 00:31.992 (4.27s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Or link over to this.
+  Phonemic Encoding: AA L EY NG B OW K CH IH DH IH AH IH S SIL SIL P AY N M AH N AY SIL
+
+Segment 6:
+  Timestamp: 00:35.434 - 00:40.058 (4.62s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: What is better? And in pageStrike
+  Phonemic Encoding: B OY Z IY IH SIL P HH IH EH IH SIL S L EH IH AE EH N IH EH N DH AH L AY EY HH AE SIL K
+
+Segment 7:
+  Timestamp: 00:41.357 - 00:44.310 (2.95s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: vote down please
+  Phonemic Encoding: B OW SIL T D SIL HH ER N SIL D AW L V IH S
+
+Segment 8:
+  Timestamp: 00:45.880 - 00:49.052 (3.17s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: for dark is bad
+  Phonemic Encoding: UH L SIL W AH IH SIL K F R T AA L SIL IH Z S SIL P B AH
+
+Segment 9:
+  Timestamp: 00:52.900 - 00:54.368 (1.47s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Um, you have a
+  Phonemic Encoding: D AA OW L SIL IH S
+
+Segment 10:
+  Timestamp: 00:59.852 - 01:05.421 (5.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Fist your men, doc, and doc, and the Fist your men.
+  Phonemic Encoding: EH Z SIL CH ER M IH EH N D T AA SIL AH N B D AA SIL SIL SIL K AH M DH AH SIL SIL P IH SIL CH ER M IH N
+
+Segment 11:
+  Timestamp: 01:09.741 - 01:12.694 (2.95s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Cellric... Cellric all...
+  Phonemic Encoding: S EH L SIL SIL OW L S EH L SIL P OW L SIL
+
+Segment 12:
+  Timestamp: 01:14.871 - 01:19.073 (4.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: to be the cell wall.
+  Phonemic Encoding: T UW SIL P IY Y IH AH B DH AH AH S EH L W AA AH SIL F B OW
+
+Segment 13:
+  Timestamp: 01:21.621 - 01:22.684 (1.06s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Boy is...
+  Phonemic Encoding: OY SIL IH S
+
+Segment 14:
+  Timestamp: 01:24.827 - 01:27.038 (2.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Playing.
+  Phonemic Encoding: IH EH L AH L IH N IH SIL S SIL T AE DH IH SIL K AE SIL L L
+
+Segment 15:
+  Timestamp: 01:28.371 - 01:31.577 (3.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: level bow, level bow.
+  Phonemic Encoding: L OW L SIL B AA OW L L AW L SIL L SIL P OW L
+
+Segment 16:
+  Timestamp: 01:31.965 - 01:35.594 (3.63s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: level-board is...
+  Phonemic Encoding: L AE AW L L SIL SIL B OW IH EH S HH IH N IH AH
+
+Segment 17:
+  Timestamp: 01:48.739 - 01:56.586 (7.85s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I'm a boy, a man, a lady, and a lady in the trees.
+  Phonemic Encoding: AE AA SIL B OY SIL EH AH SIL SIL M AE N IH SIL K DH L EH DX EY IY Z EH K IH N B EY IY IH N IH Z AH IH N M DH ER P T R IY SH
+
+Segment 18:
+  Timestamp: 02:07.538 - 02:11.453 (3.92s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: pick in the bed and pick in the act of this.
+  Phonemic Encoding: P EY SIL K IH EH N SIL DH IH SIL P AE DX SIL D IY IH P EY IH SIL IH N ER SIL AE SIL AH L DH IH S
+
+Segment 19:
+  Timestamp: 02:24.008 - 02:29.695 (5.69s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Like a gold, wide, gold, tail, gold.
+  Phonemic Encoding: L AY SIL K IH SIL AH SIL B OW L SIL L AY SIL SIL B OW L T S EH L SIL B OW L

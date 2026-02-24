@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17020_ses-20190430_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.482 → 00:02.984     Participant  1.50      s I see uh...                                        AY S S IY AH AH SIL
+2    00:09.717 → 00:12.164     Participant  2.45      s pouring into a cup.                                HH AA R IH IY NG IH N SIL T S SIL T UW UH AH SIL SIL K AA SIL
+3    00:14.121 → 00:16.399     Participant  2.28      s And another man, he's...                           IH N IH N AH DH ER M AE N SIL IY S
+4    00:17.766 → 00:18.998     Participant  1.23      s having up a                                        SH EY V IY NG AH SIL P AH L AH HH
+5    00:21.293 → 00:22.913     Participant  1.62      s Pull that thing up in the air.                     OW L DH EH SIL T DH EH EY NG AH SIL P IH N DH IY Y EH ER HH
+6    00:24.567 → 00:29.764     Participant  5.20      s Then there's of course a dog down there. It looks  N DH IH N DH EH ER Z S Z AH SIL K AA R S AH SIL D AA R SIL D AW N DH EH ER IH N L UH SIL K S AY SIL T DH EH ER S AH SIL P ER SH S AH N AA N AH M SIL B OW SIL
+7    00:31.654 → 00:39.822     Participant  8.17      s While there is one on one boat and one on another  W AA L ER IH S DH ER SH S SIL W AH N AA W AH N SIL B OW SIL N W AA N AA ER N AH DH ER SIL F OW SIL DH IH N IH N AH DH ER SIL P ER SH N Z SIL D AW N IH N SIL T UW DH IH IH SIL IH N SIL D UW AH DH AH W AA DX ER
+8    00:41.239 → 00:46.825     Participant  5.59      s And then it's about all I see other than a car and N IH EH S AH SIL B AW AA DX AA L AY S IY AH DH AH Z IH N AA AH SIL K AA R ER IH N AH SIL T EH SIL IH N UW SIL D IH SIL P IH
+9    00:53.423 → 00:55.330     Clinician    1.91      s in a tree with liquid.                             IH N AH SIL CH T R EY DX IY S R IH SIL P L IH SIL P W IH SIL
+10   00:55.971 → 00:59.464     Clinician    3.49      s That would be about it, or this fly egg over there L AE AW W UH IH SIL B IY IH SIL B AW DX IH EH DX AA L Z SIL F L AY AE SIL G OW V IH DH EH ER SIL T UW SIL
+11   01:18.044 → 01:19.832     Participant  1.79      s Here I see it looks like it.                       EH R ER AY S EY IH V L UH SIL K S L AY SIL K IH UW
+12   01:21.334 → 01:28.692     Participant  7.36      s could be a little no out there, but I don't think  K UH SIL B IY AH L UH DX L S SIL N OW AW SIL DH EH ER SIL IH SIL TH DH EH SIL P EH SIL SIL B AH DX AY DX OW L SIL TH IH SIL K S OW SIL DH IH SIL DH ER SIL JH AH S IH DX IH NG AA AY N S AH M N Z
+13   01:37.804 → 01:41.854     Participant  4.05      s hard to tell what they're actually sitting on.     P AA R SIL D IH SIL T EH AW L W AH SIL DH ER AE EH SIL SH L IY S IH DX IH NG AA R ER N
+14   01:45.212 → 01:47.963     Participant  2.75      s A lake, a erosion, or was further back.            AH L EY SIL K ER R OW SH IH N IH N ER W AA AH S F SIL ER DH AH SIL EH HH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.482 - 00:02.984 (1.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see uh...
+  Phonemic Encoding: AY S S IY AH AH SIL
+
+Segment 2:
+  Timestamp: 00:09.717 - 00:12.164 (2.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: pouring into a cup.
+  Phonemic Encoding: HH AA R IH IY NG IH N SIL T S SIL T UW UH AH SIL SIL K AA SIL
+
+Segment 3:
+  Timestamp: 00:14.121 - 00:16.399 (2.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And another man, he's...
+  Phonemic Encoding: IH N IH N AH DH ER M AE N SIL IY S
+
+Segment 4:
+  Timestamp: 00:17.766 - 00:18.998 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having up a
+  Phonemic Encoding: SH EY V IY NG AH SIL P AH L AH HH
+
+Segment 5:
+  Timestamp: 00:21.293 - 00:22.913 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Pull that thing up in the air.
+  Phonemic Encoding: OW L DH EH SIL T DH EH EY NG AH SIL P IH N DH IY Y EH ER HH
+
+Segment 6:
+  Timestamp: 00:24.567 - 00:29.764 (5.20s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Then there's of course a dog down there. It looks like there's a person on a boat.
+  Phonemic Encoding: N DH IH N DH EH ER Z S Z AH SIL K AA R S AH SIL D AA R SIL D AW N DH EH ER IH N L UH SIL K S AY SIL T DH EH ER S AH SIL P ER SH S AH N AA N AH M SIL B OW SIL
+
+Segment 7:
+  Timestamp: 00:31.654 - 00:39.822 (8.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: While there is one on one boat and one on another boat, then another person's down into the water.
+  Phonemic Encoding: W AA L ER IH S DH ER SH S SIL W AH N AA W AH N SIL B OW SIL N W AA N AA ER N AH DH ER SIL F OW SIL DH IH N IH N AH DH ER SIL P ER SH N Z SIL D AW N IH N SIL T UW DH IH IH SIL IH N SIL D UW AH DH AH W AA DX ER
+
+Segment 8:
+  Timestamp: 00:41.239 - 00:46.825 (5.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then it's about all I see other than a car and a tent and
+  Phonemic Encoding: N IH EH S AH SIL B AW AA DX AA L AY S IY AH DH AH Z IH N AA AH SIL K AA R ER IH N AH SIL T EH SIL IH N UW SIL D IH SIL P IH
+
+Segment 9:
+  Timestamp: 00:53.423 - 00:55.330 (1.91s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: in a tree with liquid.
+  Phonemic Encoding: IH N AH SIL CH T R EY DX IY S R IH SIL P L IH SIL P W IH SIL
+
+Segment 10:
+  Timestamp: 00:55.971 - 00:59.464 (3.49s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: That would be about it, or this fly egg over there too.
+  Phonemic Encoding: L AE AW W UH IH SIL B IY IH SIL B AW DX IH EH DX AA L Z SIL F L AY AE SIL G OW V IH DH EH ER SIL T UW SIL
+
+Segment 11:
+  Timestamp: 01:18.044 - 01:19.832 (1.79s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Here I see it looks like it.
+  Phonemic Encoding: EH R ER AY S EY IH V L UH SIL K S L AY SIL K IH UW
+
+Segment 12:
+  Timestamp: 01:21.334 - 01:28.692 (7.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: could be a little no out there, but I don't think so. They're just sitting on some...
+  Phonemic Encoding: K UH SIL B IY AH L UH DX L S SIL N OW AW SIL DH EH ER SIL IH SIL TH DH EH SIL P EH SIL SIL B AH DX AY DX OW L SIL TH IH SIL K S OW SIL DH IH SIL DH ER SIL JH AH S IH DX IH NG AA AY N S AH M N Z
+
+Segment 13:
+  Timestamp: 01:37.804 - 01:41.854 (4.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hard to tell what they're actually sitting on.
+  Phonemic Encoding: P AA R SIL D IH SIL T EH AW L W AH SIL DH ER AE EH SIL SH L IY S IH DX IH NG AA R ER N
+
+Segment 14:
+  Timestamp: 01:45.212 - 01:47.963 (2.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: A lake, a erosion, or was further back.
+  Phonemic Encoding: AH L EY SIL K ER R OW SH IH N IH N ER W AA AH S F SIL ER DH AH SIL EH HH

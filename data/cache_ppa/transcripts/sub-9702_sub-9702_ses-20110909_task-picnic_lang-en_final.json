@@ -1,0 +1,3316 @@
+{
+  "text": " Sentences. They're a man, walk out, and he's as a book in his life. On his leg, the girl is pouring water or other things is pouring water. She's reading her room. Loosening to a... That's right there. There is a big tree that had big branches and the... ...should have got that far. It is made with wood. I'll go around here. There is a car that... ...looks as looking forward toward the house in... ...there. It's not moving. There is a boy or a man as a... ...wire... ...that gets the height kite to go up into the air. I can see there is a dog under... ...I can't see that. Is that a boat? That is a boat? A kayak? A kayak? The dog is running around and I see a... ...a young boy against the end of the water to the sand. There is a... ...I don't see anybody there but it was in the sand. I see the... ...that... ...I'm more pinnoy. You said it. I can see the dog. Give me a second. But it was a boat and... ...said on. I can't see the name but... ...there is food in there. There is a handle. Flag. There is a family. Pick Nick.",
+  "words": [
+    {
+      "word": "Sentences.",
+      "start": 5.9,
+      "end": 7.24
+    },
+    {
+      "word": "They're",
+      "start": 12.4,
+      "end": 13.74
+    },
+    {
+      "word": "a",
+      "start": 13.74,
+      "end": 13.96
+    },
+    {
+      "word": "man,",
+      "start": 13.96,
+      "end": 14.64
+    },
+    {
+      "word": "walk",
+      "start": 15.66,
+      "end": 16.6
+    },
+    {
+      "word": "out,",
+      "start": 16.6,
+      "end": 17.02
+    },
+    {
+      "word": "and",
+      "start": 18.4,
+      "end": 18.58
+    },
+    {
+      "word": "he's",
+      "start": 18.58,
+      "end": 18.98
+    },
+    {
+      "word": "as",
+      "start": 18.98,
+      "end": 19.36
+    },
+    {
+      "word": "a",
+      "start": 19.36,
+      "end": 19.82
+    },
+    {
+      "word": "book",
+      "start": 19.82,
+      "end": 21.84
+    },
+    {
+      "word": "in",
+      "start": 21.84,
+      "end": 23.26
+    },
+    {
+      "word": "his",
+      "start": 23.26,
+      "end": 23.58
+    },
+    {
+      "word": "life.",
+      "start": 23.58,
+      "end": 24.26
+    },
+    {
+      "word": "On",
+      "start": 26.92,
+      "end": 28.32
+    },
+    {
+      "word": "his",
+      "start": 28.32,
+      "end": 28.7
+    },
+    {
+      "word": "leg,",
+      "start": 28.7,
+      "end": 29.56
+    },
+    {
+      "word": "the",
+      "start": 29.62,
+      "end": 33.12
+    },
+    {
+      "word": "girl",
+      "start": 33.12,
+      "end": 33.76
+    },
+    {
+      "word": "is",
+      "start": 33.76,
+      "end": 34.68
+    },
+    {
+      "word": "pouring",
+      "start": 34.68,
+      "end": 35.7
+    },
+    {
+      "word": "water",
+      "start": 35.7,
+      "end": 37.88
+    },
+    {
+      "word": "or",
+      "start": 37.88,
+      "end": 38.78
+    },
+    {
+      "word": "other",
+      "start": 38.78,
+      "end": 39.96
+    },
+    {
+      "word": "things",
+      "start": 39.96,
+      "end": 40.46
+    },
+    {
+      "word": "is",
+      "start": 40.46,
+      "end": 42.36
+    },
+    {
+      "word": "pouring",
+      "start": 42.36,
+      "end": 44.0
+    },
+    {
+      "word": "water.",
+      "start": 44.0,
+      "end": 44.0
+    },
+    {
+      "word": "She's",
+      "start": 47.74,
+      "end": 49.14
+    },
+    {
+      "word": "reading",
+      "start": 49.14,
+      "end": 49.62
+    },
+    {
+      "word": "her",
+      "start": 49.62,
+      "end": 49.96
+    },
+    {
+      "word": "room.",
+      "start": 49.96,
+      "end": 50.46
+    },
+    {
+      "word": "Loosening",
+      "start": 54.36,
+      "end": 55.08
+    },
+    {
+      "word": "to",
+      "start": 55.08,
+      "end": 55.28
+    },
+    {
+      "word": "a...",
+      "start": 55.28,
+      "end": 59.6
+    },
+    {
+      "word": "That's",
+      "start": 62.38,
+      "end": 63.78
+    },
+    {
+      "word": "right",
+      "start": 63.78,
+      "end": 63.94
+    },
+    {
+      "word": "there.",
+      "start": 63.94,
+      "end": 64.24
+    },
+    {
+      "word": "There",
+      "start": 68.46,
+      "end": 69.86
+    },
+    {
+      "word": "is",
+      "start": 69.86,
+      "end": 71.26
+    },
+    {
+      "word": "a",
+      "start": 71.26,
+      "end": 75.82
+    },
+    {
+      "word": "big",
+      "start": 75.82,
+      "end": 76.1
+    },
+    {
+      "word": "tree",
+      "start": 76.1,
+      "end": 76.66
+    },
+    {
+      "word": "that",
+      "start": 76.66,
+      "end": 78.04
+    },
+    {
+      "word": "had",
+      "start": 78.04,
+      "end": 78.46
+    },
+    {
+      "word": "big",
+      "start": 78.46,
+      "end": 79.0
+    },
+    {
+      "word": "branches",
+      "start": 79.0,
+      "end": 79.7
+    },
+    {
+      "word": "and",
+      "start": 79.7,
+      "end": 81.9
+    },
+    {
+      "word": "the...",
+      "start": 81.9,
+      "end": 84.42
+    },
+    {
+      "word": "...should",
+      "start": 91.56,
+      "end": 92.28
+    },
+    {
+      "word": "have",
+      "start": 92.28,
+      "end": 92.44
+    },
+    {
+      "word": "got",
+      "start": 92.44,
+      "end": 92.62
+    },
+    {
+      "word": "that",
+      "start": 92.62,
+      "end": 92.88
+    },
+    {
+      "word": "far.",
+      "start": 92.88,
+      "end": 93.12
+    },
+    {
+      "word": "It",
+      "start": 95.12,
+      "end": 95.18
+    },
+    {
+      "word": "is",
+      "start": 95.18,
+      "end": 95.82
+    },
+    {
+      "word": "made",
+      "start": 95.82,
+      "end": 96.02
+    },
+    {
+      "word": "with",
+      "start": 96.02,
+      "end": 96.82
+    },
+    {
+      "word": "wood.",
+      "start": 96.82,
+      "end": 98.74
+    },
+    {
+      "word": "I'll",
+      "start": 99.96,
+      "end": 100.3
+    },
+    {
+      "word": "go",
+      "start": 100.3,
+      "end": 100.78
+    },
+    {
+      "word": "around",
+      "start": 100.78,
+      "end": 101.04
+    },
+    {
+      "word": "here.",
+      "start": 101.04,
+      "end": 101.24
+    },
+    {
+      "word": "There",
+      "start": 103.22,
+      "end": 103.94
+    },
+    {
+      "word": "is",
+      "start": 103.94,
+      "end": 104.38
+    },
+    {
+      "word": "a",
+      "start": 104.38,
+      "end": 104.56
+    },
+    {
+      "word": "car",
+      "start": 104.56,
+      "end": 104.94
+    },
+    {
+      "word": "that...",
+      "start": 104.94,
+      "end": 109.42
+    },
+    {
+      "word": "...looks",
+      "start": 109.42,
+      "end": 110.04
+    },
+    {
+      "word": "as",
+      "start": 110.04,
+      "end": 110.4
+    },
+    {
+      "word": "looking",
+      "start": 110.4,
+      "end": 110.88
+    },
+    {
+      "word": "forward",
+      "start": 110.88,
+      "end": 113.64
+    },
+    {
+      "word": "toward",
+      "start": 113.64,
+      "end": 114.14
+    },
+    {
+      "word": "the",
+      "start": 114.14,
+      "end": 114.4
+    },
+    {
+      "word": "house",
+      "start": 114.4,
+      "end": 114.8
+    },
+    {
+      "word": "in...",
+      "start": 114.8,
+      "end": 117.66
+    },
+    {
+      "word": "...there.",
+      "start": 117.66,
+      "end": 118.12
+    },
+    {
+      "word": "It's",
+      "start": 118.72,
+      "end": 119.38
+    },
+    {
+      "word": "not",
+      "start": 119.38,
+      "end": 119.56
+    },
+    {
+      "word": "moving.",
+      "start": 119.56,
+      "end": 120.06
+    },
+    {
+      "word": "There",
+      "start": 126.18,
+      "end": 127.18
+    },
+    {
+      "word": "is",
+      "start": 127.18,
+      "end": 127.34
+    },
+    {
+      "word": "a",
+      "start": 127.34,
+      "end": 127.54
+    },
+    {
+      "word": "boy",
+      "start": 127.54,
+      "end": 128.92
+    },
+    {
+      "word": "or",
+      "start": 128.92,
+      "end": 129.3
+    },
+    {
+      "word": "a",
+      "start": 129.3,
+      "end": 129.5
+    },
+    {
+      "word": "man",
+      "start": 129.5,
+      "end": 129.76
+    },
+    {
+      "word": "as",
+      "start": 129.76,
+      "end": 130.84
+    },
+    {
+      "word": "a...",
+      "start": 130.84,
+      "end": 132.42000000000002
+    },
+    {
+      "word": "...wire...",
+      "start": 138.4,
+      "end": 139.4
+    },
+    {
+      "word": "...that",
+      "start": 139.4,
+      "end": 139.82
+    },
+    {
+      "word": "gets",
+      "start": 139.82,
+      "end": 140.18
+    },
+    {
+      "word": "the",
+      "start": 140.18,
+      "end": 140.68
+    },
+    {
+      "word": "height",
+      "start": 140.68,
+      "end": 142.2
+    },
+    {
+      "word": "kite",
+      "start": 142.2,
+      "end": 142.74
+    },
+    {
+      "word": "to",
+      "start": 142.74,
+      "end": 144.26
+    },
+    {
+      "word": "go",
+      "start": 144.26,
+      "end": 145.98
+    },
+    {
+      "word": "up",
+      "start": 145.98,
+      "end": 146.32
+    },
+    {
+      "word": "into",
+      "start": 146.32,
+      "end": 146.58
+    },
+    {
+      "word": "the",
+      "start": 146.58,
+      "end": 147.56
+    },
+    {
+      "word": "air.",
+      "start": 147.56,
+      "end": 148.08
+    },
+    {
+      "word": "I",
+      "start": 152.36,
+      "end": 153.12
+    },
+    {
+      "word": "can",
+      "start": 153.12,
+      "end": 153.28
+    },
+    {
+      "word": "see",
+      "start": 153.28,
+      "end": 153.54
+    },
+    {
+      "word": "there",
+      "start": 153.54,
+      "end": 154.0
+    },
+    {
+      "word": "is",
+      "start": 154.0,
+      "end": 154.18
+    },
+    {
+      "word": "a",
+      "start": 154.18,
+      "end": 154.58
+    },
+    {
+      "word": "dog",
+      "start": 154.58,
+      "end": 155.8
+    },
+    {
+      "word": "under...",
+      "start": 155.8,
+      "end": 156.8
+    },
+    {
+      "word": "...I",
+      "start": 156.8,
+      "end": 156.92
+    },
+    {
+      "word": "can't",
+      "start": 156.92,
+      "end": 157.1
+    },
+    {
+      "word": "see",
+      "start": 157.1,
+      "end": 157.3
+    },
+    {
+      "word": "that.",
+      "start": 157.3,
+      "end": 157.54
+    },
+    {
+      "word": "Is",
+      "start": 159.04,
+      "end": 159.14
+    },
+    {
+      "word": "that",
+      "start": 159.14,
+      "end": 159.3
+    },
+    {
+      "word": "a",
+      "start": 159.3,
+      "end": 159.48
+    },
+    {
+      "word": "boat?",
+      "start": 159.48,
+      "end": 162.12
+    },
+    {
+      "word": "That",
+      "start": 163.58,
+      "end": 163.66
+    },
+    {
+      "word": "is",
+      "start": 163.66,
+      "end": 163.84
+    },
+    {
+      "word": "a",
+      "start": 163.84,
+      "end": 163.98
+    },
+    {
+      "word": "boat?",
+      "start": 163.98,
+      "end": 164.1
+    },
+    {
+      "word": "A",
+      "start": 164.82,
+      "end": 165.08
+    },
+    {
+      "word": "kayak?",
+      "start": 165.08,
+      "end": 165.26
+    },
+    {
+      "word": "A",
+      "start": 165.26,
+      "end": 165.38
+    },
+    {
+      "word": "kayak?",
+      "start": 165.38,
+      "end": 165.38
+    },
+    {
+      "word": "The",
+      "start": 165.86,
+      "end": 166.18
+    },
+    {
+      "word": "dog",
+      "start": 166.18,
+      "end": 168.38
+    },
+    {
+      "word": "is",
+      "start": 168.38,
+      "end": 168.98
+    },
+    {
+      "word": "running",
+      "start": 168.98,
+      "end": 169.58
+    },
+    {
+      "word": "around",
+      "start": 169.58,
+      "end": 170.88
+    },
+    {
+      "word": "and",
+      "start": 170.88,
+      "end": 171.54
+    },
+    {
+      "word": "I",
+      "start": 171.54,
+      "end": 171.7
+    },
+    {
+      "word": "see",
+      "start": 171.7,
+      "end": 172.02
+    },
+    {
+      "word": "a...",
+      "start": 172.02,
+      "end": 176.54
+    },
+    {
+      "word": "...a",
+      "start": 178.22,
+      "end": 178.82
+    },
+    {
+      "word": "young",
+      "start": 178.82,
+      "end": 179.7
+    },
+    {
+      "word": "boy",
+      "start": 179.7,
+      "end": 180.3
+    },
+    {
+      "word": "against",
+      "start": 180.3,
+      "end": 182.3
+    },
+    {
+      "word": "the",
+      "start": 182.3,
+      "end": 183.8
+    },
+    {
+      "word": "end",
+      "start": 183.8,
+      "end": 184.16
+    },
+    {
+      "word": "of",
+      "start": 184.16,
+      "end": 184.66
+    },
+    {
+      "word": "the",
+      "start": 184.66,
+      "end": 184.94
+    },
+    {
+      "word": "water",
+      "start": 184.94,
+      "end": 185.38
+    },
+    {
+      "word": "to",
+      "start": 185.38,
+      "end": 185.92
+    },
+    {
+      "word": "the",
+      "start": 185.92,
+      "end": 186.24
+    },
+    {
+      "word": "sand.",
+      "start": 186.24,
+      "end": 186.86
+    },
+    {
+      "word": "There",
+      "start": 188.07999999999998,
+      "end": 188.98
+    },
+    {
+      "word": "is",
+      "start": 188.98,
+      "end": 189.18
+    },
+    {
+      "word": "a...",
+      "start": 189.18,
+      "end": 189.86
+    },
+    {
+      "word": "...I",
+      "start": 190.86,
+      "end": 191.14
+    },
+    {
+      "word": "don't",
+      "start": 191.14,
+      "end": 191.26
+    },
+    {
+      "word": "see",
+      "start": 191.26,
+      "end": 191.5
+    },
+    {
+      "word": "anybody",
+      "start": 191.5,
+      "end": 191.84
+    },
+    {
+      "word": "there",
+      "start": 191.84,
+      "end": 192.18
+    },
+    {
+      "word": "but",
+      "start": 192.18,
+      "end": 192.72
+    },
+    {
+      "word": "it",
+      "start": 192.72,
+      "end": 192.72
+    },
+    {
+      "word": "was",
+      "start": 192.72,
+      "end": 193.82
+    },
+    {
+      "word": "in",
+      "start": 193.82,
+      "end": 194.0
+    },
+    {
+      "word": "the",
+      "start": 194.0,
+      "end": 194.1
+    },
+    {
+      "word": "sand.",
+      "start": 194.1,
+      "end": 196.98
+    },
+    {
+      "word": "I",
+      "start": 198.14,
+      "end": 198.5
+    },
+    {
+      "word": "see",
+      "start": 198.5,
+      "end": 205.72
+    },
+    {
+      "word": "the...",
+      "start": 205.72,
+      "end": 206.17
+    },
+    {
+      "word": "...that...",
+      "start": 211.51999999999998,
+      "end": 212.42
+    },
+    {
+      "word": "...I'm",
+      "start": 213.42,
+      "end": 214.6
+    },
+    {
+      "word": "more",
+      "start": 214.6,
+      "end": 214.72
+    },
+    {
+      "word": "pinnoy.",
+      "start": 214.72,
+      "end": 215.08
+    },
+    {
+      "word": "You",
+      "start": 222.32,
+      "end": 223.72
+    },
+    {
+      "word": "said",
+      "start": 223.72,
+      "end": 224.0
+    },
+    {
+      "word": "it.",
+      "start": 224.0,
+      "end": 224.22
+    },
+    {
+      "word": "I",
+      "start": 242.42,
+      "end": 242.42
+    },
+    {
+      "word": "can",
+      "start": 242.42,
+      "end": 242.42
+    },
+    {
+      "word": "see",
+      "start": 242.42,
+      "end": 242.42
+    },
+    {
+      "word": "the",
+      "start": 242.42,
+      "end": 242.5
+    },
+    {
+      "word": "dog.",
+      "start": 242.5,
+      "end": 242.5
+    },
+    {
+      "word": "Give",
+      "start": 255.80000000000004,
+      "end": 257.20000000000005
+    },
+    {
+      "word": "me",
+      "start": 257.20000000000005,
+      "end": 258.6
+    },
+    {
+      "word": "a",
+      "start": 258.6,
+      "end": 258.7
+    },
+    {
+      "word": "second.",
+      "start": 258.7,
+      "end": 258.98
+    },
+    {
+      "word": "But",
+      "start": 269.05999999999995,
+      "end": 269.78
+    },
+    {
+      "word": "it",
+      "start": 269.78,
+      "end": 270.5
+    },
+    {
+      "word": "was",
+      "start": 270.5,
+      "end": 270.66
+    },
+    {
+      "word": "a",
+      "start": 270.66,
+      "end": 270.84
+    },
+    {
+      "word": "boat",
+      "start": 270.84,
+      "end": 271.12
+    },
+    {
+      "word": "and...",
+      "start": 271.12,
+      "end": 271.98
+    },
+    {
+      "word": "...said",
+      "start": 273.14,
+      "end": 273.5
+    },
+    {
+      "word": "on.",
+      "start": 273.5,
+      "end": 273.68
+    },
+    {
+      "word": "I",
+      "start": 292.02,
+      "end": 292.76
+    },
+    {
+      "word": "can't",
+      "start": 292.76,
+      "end": 293.5
+    },
+    {
+      "word": "see",
+      "start": 293.5,
+      "end": 293.62
+    },
+    {
+      "word": "the",
+      "start": 293.62,
+      "end": 293.78
+    },
+    {
+      "word": "name",
+      "start": 293.78,
+      "end": 294.06
+    },
+    {
+      "word": "but...",
+      "start": 294.06,
+      "end": 294.72
+    },
+    {
+      "word": "...there",
+      "start": 294.72,
+      "end": 295.6
+    },
+    {
+      "word": "is",
+      "start": 295.6,
+      "end": 295.7
+    },
+    {
+      "word": "food",
+      "start": 295.7,
+      "end": 296.16
+    },
+    {
+      "word": "in",
+      "start": 296.16,
+      "end": 296.4
+    },
+    {
+      "word": "there.",
+      "start": 296.4,
+      "end": 296.64
+    },
+    {
+      "word": "There",
+      "start": 320.32,
+      "end": 320.36
+    },
+    {
+      "word": "is",
+      "start": 320.36,
+      "end": 320.38
+    },
+    {
+      "word": "a",
+      "start": 320.38,
+      "end": 320.4
+    },
+    {
+      "word": "handle.",
+      "start": 320.4,
+      "end": 321.78
+    },
+    {
+      "word": "Flag.",
+      "start": 322.78,
+      "end": 324.28
+    },
+    {
+      "word": "There",
+      "start": 333.76,
+      "end": 334.56
+    },
+    {
+      "word": "is",
+      "start": 334.56,
+      "end": 334.76
+    },
+    {
+      "word": "a",
+      "start": 334.76,
+      "end": 335.02
+    },
+    {
+      "word": "family.",
+      "start": 335.02,
+      "end": 335.7
+    },
+    {
+      "word": "Pick",
+      "start": 335.7,
+      "end": 336.28
+    },
+    {
+      "word": "Nick.",
+      "start": 336.28,
+      "end": 336.52
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5.9,
+      "end": 7.24,
+      "text": " Sentences.",
+      "tokens": [
+        50364,
+        23652,
+        2667,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8144053706416378,
+      "compression_ratio": 0.9571428571428572,
+      "no_speech_prob": 0.2178487926721573,
+      "words": [
+        {
+          "word": " Sentences.",
+          "start": 5.9,
+          "end": 7.24,
+          "probability": 0.24366839230060577
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 12.4,
+      "end": 24.26,
+      "text": " They're a man, walk out, and he's as a book in his life.",
+      "tokens": [
+        50714,
+        814,
+        434,
+        257,
+        587,
+        11,
+        1792,
+        484,
+        11,
+        293,
+        415,
+        311,
+        382,
+        257,
+        1446,
+        294,
+        702,
+        993,
+        13,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8144053706416378,
+      "compression_ratio": 0.9571428571428572,
+      "no_speech_prob": 0.2178487926721573,
+      "words": [
+        {
+          "word": " They're",
+          "start": 12.4,
+          "end": 13.74,
+          "probability": 0.6035384312272072
+        },
+        {
+          "word": " a",
+          "start": 13.74,
+          "end": 13.96,
+          "probability": 0.9817580580711365
+        },
+        {
+          "word": " man,",
+          "start": 13.96,
+          "end": 14.64,
+          "probability": 0.9907000660896301
+        },
+        {
+          "word": " walk",
+          "start": 15.66,
+          "end": 16.6,
+          "probability": 0.3255521059036255
+        },
+        {
+          "word": " out,",
+          "start": 16.6,
+          "end": 17.02,
+          "probability": 0.9528423547744751
+        },
+        {
+          "word": " and",
+          "start": 18.4,
+          "end": 18.58,
+          "probability": 0.9331393241882324
+        },
+        {
+          "word": " he's",
+          "start": 18.58,
+          "end": 18.98,
+          "probability": 0.796002209186554
+        },
+        {
+          "word": " as",
+          "start": 18.98,
+          "end": 19.36,
+          "probability": 0.6416468620300293
+        },
+        {
+          "word": " a",
+          "start": 19.36,
+          "end": 19.82,
+          "probability": 0.98263019323349
+        },
+        {
+          "word": " book",
+          "start": 19.82,
+          "end": 21.84,
+          "probability": 0.8994473218917847
+        },
+        {
+          "word": " in",
+          "start": 21.84,
+          "end": 23.26,
+          "probability": 0.5062121748924255
+        },
+        {
+          "word": " his",
+          "start": 23.26,
+          "end": 23.58,
+          "probability": 0.4688354730606079
+        },
+        {
+          "word": " life.",
+          "start": 23.58,
+          "end": 24.26,
+          "probability": 0.124336838722229
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2426,
+      "start": 26.92,
+      "end": 42.36,
+      "text": " On his leg, the girl is pouring water or other things is",
+      "tokens": [
+        50364,
+        1282,
+        702,
+        1676,
+        11,
+        264,
+        2013,
+        307,
+        20450,
+        1281,
+        420,
+        661,
+        721,
+        307,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30803787007051353,
+      "compression_ratio": 0.9824561403508771,
+      "no_speech_prob": 0.054796621203422546,
+      "words": [
+        {
+          "word": " On",
+          "start": 26.92,
+          "end": 28.32,
+          "probability": 0.4754548668861389
+        },
+        {
+          "word": " his",
+          "start": 28.32,
+          "end": 28.7,
+          "probability": 0.9776999354362488
+        },
+        {
+          "word": " leg,",
+          "start": 28.7,
+          "end": 29.56,
+          "probability": 0.9852011799812317
+        },
+        {
+          "word": " the",
+          "start": 29.62,
+          "end": 33.12,
+          "probability": 0.72306227684021
+        },
+        {
+          "word": " girl",
+          "start": 33.12,
+          "end": 33.76,
+          "probability": 0.9672777652740479
+        },
+        {
+          "word": " is",
+          "start": 33.76,
+          "end": 34.68,
+          "probability": 0.9882321953773499
+        },
+        {
+          "word": " pouring",
+          "start": 34.68,
+          "end": 35.7,
+          "probability": 0.9942103624343872
+        },
+        {
+          "word": " water",
+          "start": 35.7,
+          "end": 37.88,
+          "probability": 0.9889358878135681
+        },
+        {
+          "word": " or",
+          "start": 37.88,
+          "end": 38.78,
+          "probability": 0.6522336006164551
+        },
+        {
+          "word": " other",
+          "start": 38.78,
+          "end": 39.96,
+          "probability": 0.9906482100486755
+        },
+        {
+          "word": " things",
+          "start": 39.96,
+          "end": 40.46,
+          "probability": 0.9987092018127441
+        },
+        {
+          "word": " is",
+          "start": 40.46,
+          "end": 42.36,
+          "probability": 0.45542001724243164
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 4236,
+      "start": 42.36,
+      "end": 44.0,
+      "text": " pouring water.",
+      "tokens": [
+        50364,
+        20450,
+        1281,
+        13,
+        50714
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.8526857376098633,
+      "compression_ratio": 1.0555555555555556,
+      "no_speech_prob": 0.30208271741867065,
+      "words": [
+        {
+          "word": " pouring",
+          "start": 42.36,
+          "end": 44.0,
+          "probability": 6.681652280349226e-07
+        },
+        {
+          "word": " water.",
+          "start": 44.0,
+          "end": 44.0,
+          "probability": 0.027570530772209167
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 4236,
+      "start": 47.74,
+      "end": 50.46,
+      "text": " She's reading her room.",
+      "tokens": [
+        50714,
+        1240,
+        311,
+        3760,
+        720,
+        1808,
+        13,
+        50964
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.8526857376098633,
+      "compression_ratio": 1.0555555555555556,
+      "no_speech_prob": 0.30208271741867065,
+      "words": [
+        {
+          "word": " She's",
+          "start": 47.74,
+          "end": 49.14,
+          "probability": 0.312821077182889
+        },
+        {
+          "word": " reading",
+          "start": 49.14,
+          "end": 49.62,
+          "probability": 0.28097718954086304
+        },
+        {
+          "word": " her",
+          "start": 49.62,
+          "end": 49.96,
+          "probability": 0.22695428133010864
+        },
+        {
+          "word": " room.",
+          "start": 49.96,
+          "end": 50.46,
+          "probability": 0.3174971044063568
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 4236,
+      "start": 54.36,
+      "end": 59.6,
+      "text": " Loosening to a...",
+      "tokens": [
+        50964,
+        6130,
+        6441,
+        278,
+        281,
+        257,
+        485,
+        51364
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.8526857376098633,
+      "compression_ratio": 1.0555555555555556,
+      "no_speech_prob": 0.30208271741867065,
+      "words": [
+        {
+          "word": " Loosening",
+          "start": 54.36,
+          "end": 55.08,
+          "probability": 0.3314039831360181
+        },
+        {
+          "word": " to",
+          "start": 55.08,
+          "end": 55.28,
+          "probability": 0.8802395462989807
+        },
+        {
+          "word": " a...",
+          "start": 55.28,
+          "end": 59.6,
+          "probability": 0.4807407036423683
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4236,
+      "start": 62.38,
+      "end": 64.24,
+      "text": " That's right there.",
+      "tokens": [
+        51364,
+        663,
+        311,
+        558,
+        456,
+        13,
+        51664
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.8526857376098633,
+      "compression_ratio": 1.0555555555555556,
+      "no_speech_prob": 0.30208271741867065,
+      "words": [
+        {
+          "word": " That's",
+          "start": 62.38,
+          "end": 63.78,
+          "probability": 0.5302977934479713
+        },
+        {
+          "word": " right",
+          "start": 63.78,
+          "end": 63.94,
+          "probability": 0.9902053475379944
+        },
+        {
+          "word": " there.",
+          "start": 63.94,
+          "end": 64.24,
+          "probability": 0.8439777493476868
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 6424,
+      "start": 68.46,
+      "end": 84.42,
+      "text": " There is a big tree that had big branches and the...",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        955,
+        4230,
+        300,
+        632,
+        955,
+        14770,
+        293,
+        264,
+        485,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8371638655662537,
+      "compression_ratio": 0.9629629629629629,
+      "no_speech_prob": 0.28621169924736023,
+      "words": [
+        {
+          "word": " There",
+          "start": 68.46,
+          "end": 69.86,
+          "probability": 0.1569785475730896
+        },
+        {
+          "word": " is",
+          "start": 69.86,
+          "end": 71.26,
+          "probability": 0.5530727505683899
+        },
+        {
+          "word": " a",
+          "start": 71.26,
+          "end": 75.82,
+          "probability": 0.9660165905952454
+        },
+        {
+          "word": " big",
+          "start": 75.82,
+          "end": 76.1,
+          "probability": 0.9507378339767456
+        },
+        {
+          "word": " tree",
+          "start": 76.1,
+          "end": 76.66,
+          "probability": 0.9991083741188049
+        },
+        {
+          "word": " that",
+          "start": 76.66,
+          "end": 78.04,
+          "probability": 0.1602935492992401
+        },
+        {
+          "word": " had",
+          "start": 78.04,
+          "end": 78.46,
+          "probability": 0.481963187456131
+        },
+        {
+          "word": " big",
+          "start": 78.46,
+          "end": 79.0,
+          "probability": 0.9889218807220459
+        },
+        {
+          "word": " branches",
+          "start": 79.0,
+          "end": 79.7,
+          "probability": 0.9946025013923645
+        },
+        {
+          "word": " and",
+          "start": 79.7,
+          "end": 81.9,
+          "probability": 0.6300113797187805
+        },
+        {
+          "word": " the...",
+          "start": 81.9,
+          "end": 84.42,
+          "probability": 0.6209166646003723
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 8442,
+      "start": 91.56,
+      "end": 93.12,
+      "text": " ...should have got that far.",
+      "tokens": [
+        50364,
+        1097,
+        2716,
+        429,
+        362,
+        658,
+        300,
+        1400,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5587766965230306,
+      "compression_ratio": 1.119047619047619,
+      "no_speech_prob": 0.1199222058057785,
+      "words": [
+        {
+          "word": " ...should",
+          "start": 91.56,
+          "end": 92.28,
+          "probability": 0.39497190426724654
+        },
+        {
+          "word": " have",
+          "start": 92.28,
+          "end": 92.44,
+          "probability": 0.6960481405258179
+        },
+        {
+          "word": " got",
+          "start": 92.44,
+          "end": 92.62,
+          "probability": 0.5879818201065063
+        },
+        {
+          "word": " that",
+          "start": 92.62,
+          "end": 92.88,
+          "probability": 0.9873025417327881
+        },
+        {
+          "word": " far.",
+          "start": 92.88,
+          "end": 93.12,
+          "probability": 0.9163243174552917
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 8442,
+      "start": 95.12,
+      "end": 98.74,
+      "text": " It is made with wood.",
+      "tokens": [
+        50864,
+        467,
+        307,
+        1027,
+        365,
+        4576,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5587766965230306,
+      "compression_ratio": 1.119047619047619,
+      "no_speech_prob": 0.1199222058057785,
+      "words": [
+        {
+          "word": " It",
+          "start": 95.12,
+          "end": 95.18,
+          "probability": 0.1633046716451645
+        },
+        {
+          "word": " is",
+          "start": 95.18,
+          "end": 95.82,
+          "probability": 0.5439602136611938
+        },
+        {
+          "word": " made",
+          "start": 95.82,
+          "end": 96.02,
+          "probability": 0.9733161330223083
+        },
+        {
+          "word": " with",
+          "start": 96.02,
+          "end": 96.82,
+          "probability": 0.9771875739097595
+        },
+        {
+          "word": " wood.",
+          "start": 96.82,
+          "end": 98.74,
+          "probability": 0.8749619722366333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 8442,
+      "start": 99.96,
+      "end": 101.24,
+      "text": " I'll go around here.",
+      "tokens": [
+        51114,
+        286,
+        603,
+        352,
+        926,
+        510,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5587766965230306,
+      "compression_ratio": 1.119047619047619,
+      "no_speech_prob": 0.1199222058057785,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 99.96,
+          "end": 100.3,
+          "probability": 0.296585276722908
+        },
+        {
+          "word": " go",
+          "start": 100.3,
+          "end": 100.78,
+          "probability": 0.3060535490512848
+        },
+        {
+          "word": " around",
+          "start": 100.78,
+          "end": 101.04,
+          "probability": 0.9924875497817993
+        },
+        {
+          "word": " here.",
+          "start": 101.04,
+          "end": 101.24,
+          "probability": 0.1438966691493988
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 8442,
+      "start": 103.22,
+      "end": 109.42,
+      "text": " There is a car that...",
+      "tokens": [
+        51314,
+        821,
+        307,
+        257,
+        1032,
+        300,
+        485,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5587766965230306,
+      "compression_ratio": 1.119047619047619,
+      "no_speech_prob": 0.1199222058057785,
+      "words": [
+        {
+          "word": " There",
+          "start": 103.22,
+          "end": 103.94,
+          "probability": 0.8926527500152588
+        },
+        {
+          "word": " is",
+          "start": 103.94,
+          "end": 104.38,
+          "probability": 0.9597740769386292
+        },
+        {
+          "word": " a",
+          "start": 104.38,
+          "end": 104.56,
+          "probability": 0.9909681677818298
+        },
+        {
+          "word": " car",
+          "start": 104.56,
+          "end": 104.94,
+          "probability": 0.9891005158424377
+        },
+        {
+          "word": " that...",
+          "start": 104.94,
+          "end": 109.42,
+          "probability": 0.5491237938404083
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 10942,
+      "start": 109.42,
+      "end": 117.66,
+      "text": " ...looks as looking forward toward the house in...",
+      "tokens": [
+        50364,
+        1097,
+        12747,
+        82,
+        382,
+        1237,
+        2128,
+        7361,
+        264,
+        1782,
+        294,
+        485,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37383018840443005,
+      "compression_ratio": 1.2765957446808511,
+      "no_speech_prob": 0.0803578644990921,
+      "words": [
+        {
+          "word": " ...looks",
+          "start": 109.42,
+          "end": 110.04,
+          "probability": 0.16979665293668708
+        },
+        {
+          "word": " as",
+          "start": 110.04,
+          "end": 110.4,
+          "probability": 0.7667681574821472
+        },
+        {
+          "word": " looking",
+          "start": 110.4,
+          "end": 110.88,
+          "probability": 0.9640170335769653
+        },
+        {
+          "word": " forward",
+          "start": 110.88,
+          "end": 113.64,
+          "probability": 0.5837610960006714
+        },
+        {
+          "word": " toward",
+          "start": 113.64,
+          "end": 114.14,
+          "probability": 0.884645938873291
+        },
+        {
+          "word": " the",
+          "start": 114.14,
+          "end": 114.4,
+          "probability": 0.9965178966522217
+        },
+        {
+          "word": " house",
+          "start": 114.4,
+          "end": 114.8,
+          "probability": 0.9811877608299255
+        },
+        {
+          "word": " in...",
+          "start": 114.8,
+          "end": 117.66,
+          "probability": 0.3490131199359894
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 10942,
+      "start": 117.66,
+      "end": 118.12,
+      "text": " ...there.",
+      "tokens": [
+        50764,
+        1097,
+        15456,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37383018840443005,
+      "compression_ratio": 1.2765957446808511,
+      "no_speech_prob": 0.0803578644990921,
+      "words": [
+        {
+          "word": " ...there.",
+          "start": 117.66,
+          "end": 118.12,
+          "probability": 0.7000057250261307
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 10942,
+      "start": 118.72,
+      "end": 120.06,
+      "text": " It's not moving.",
+      "tokens": [
+        50864,
+        467,
+        311,
+        406,
+        2684,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37383018840443005,
+      "compression_ratio": 1.2765957446808511,
+      "no_speech_prob": 0.0803578644990921,
+      "words": [
+        {
+          "word": " It's",
+          "start": 118.72,
+          "end": 119.38,
+          "probability": 0.6564033776521683
+        },
+        {
+          "word": " not",
+          "start": 119.38,
+          "end": 119.56,
+          "probability": 0.9970478415489197
+        },
+        {
+          "word": " moving.",
+          "start": 119.56,
+          "end": 120.06,
+          "probability": 0.995681643486023
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 10942,
+      "start": 126.18,
+      "end": 132.42000000000002,
+      "text": " There is a boy or a man as a...",
+      "tokens": [
+        51214,
+        821,
+        307,
+        257,
+        3237,
+        420,
+        257,
+        587,
+        382,
+        257,
+        485,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37383018840443005,
+      "compression_ratio": 1.2765957446808511,
+      "no_speech_prob": 0.0803578644990921,
+      "words": [
+        {
+          "word": " There",
+          "start": 126.18,
+          "end": 127.18,
+          "probability": 0.8639007806777954
+        },
+        {
+          "word": " is",
+          "start": 127.18,
+          "end": 127.34,
+          "probability": 0.24624758958816528
+        },
+        {
+          "word": " a",
+          "start": 127.34,
+          "end": 127.54,
+          "probability": 0.9700192213058472
+        },
+        {
+          "word": " boy",
+          "start": 127.54,
+          "end": 128.92,
+          "probability": 0.45025065541267395
+        },
+        {
+          "word": " or",
+          "start": 128.92,
+          "end": 129.3,
+          "probability": 0.9368802905082703
+        },
+        {
+          "word": " a",
+          "start": 129.3,
+          "end": 129.5,
+          "probability": 0.7593035697937012
+        },
+        {
+          "word": " man",
+          "start": 129.5,
+          "end": 129.76,
+          "probability": 0.9968454241752625
+        },
+        {
+          "word": " as",
+          "start": 129.76,
+          "end": 130.84,
+          "probability": 0.3231741786003113
+        },
+        {
+          "word": " a...",
+          "start": 130.84,
+          "end": 132.42000000000002,
+          "probability": 0.8952127695083618
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 10942,
+      "start": 138.4,
+      "end": 139.4,
+      "text": " ...wire...",
+      "tokens": [
+        51514,
+        1097,
+        42689,
+        485,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37383018840443005,
+      "compression_ratio": 1.2765957446808511,
+      "no_speech_prob": 0.0803578644990921,
+      "words": [
+        {
+          "word": " ...wire...",
+          "start": 138.4,
+          "end": 139.4,
+          "probability": 0.4734370907147725
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 13940,
+      "start": 139.4,
+      "end": 148.08,
+      "text": " ...that gets the height kite to go up into the air.",
+      "tokens": [
+        50364,
+        1097,
+        6780,
+        2170,
+        264,
+        6681,
+        38867,
+        281,
+        352,
+        493,
+        666,
+        264,
+        1988,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " ...that",
+          "start": 139.4,
+          "end": 139.82,
+          "probability": 0.16625640483107418
+        },
+        {
+          "word": " gets",
+          "start": 139.82,
+          "end": 140.18,
+          "probability": 0.9353381395339966
+        },
+        {
+          "word": " the",
+          "start": 140.18,
+          "end": 140.68,
+          "probability": 0.9646129608154297
+        },
+        {
+          "word": " height",
+          "start": 140.68,
+          "end": 142.2,
+          "probability": 0.0678066685795784
+        },
+        {
+          "word": " kite",
+          "start": 142.2,
+          "end": 142.74,
+          "probability": 0.38873565196990967
+        },
+        {
+          "word": " to",
+          "start": 142.74,
+          "end": 144.26,
+          "probability": 0.2084551751613617
+        },
+        {
+          "word": " go",
+          "start": 144.26,
+          "end": 145.98,
+          "probability": 0.7959803342819214
+        },
+        {
+          "word": " up",
+          "start": 145.98,
+          "end": 146.32,
+          "probability": 0.9845752716064453
+        },
+        {
+          "word": " into",
+          "start": 146.32,
+          "end": 146.58,
+          "probability": 0.8230658173561096
+        },
+        {
+          "word": " the",
+          "start": 146.58,
+          "end": 147.56,
+          "probability": 0.8814584016799927
+        },
+        {
+          "word": " air.",
+          "start": 147.56,
+          "end": 148.08,
+          "probability": 0.9528411626815796
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 13940,
+      "start": 152.36,
+      "end": 156.8,
+      "text": " I can see there is a dog under...",
+      "tokens": [
+        50964,
+        286,
+        393,
+        536,
+        456,
+        307,
+        257,
+        3000,
+        833,
+        485,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " I",
+          "start": 152.36,
+          "end": 153.12,
+          "probability": 0.1345425546169281
+        },
+        {
+          "word": " can",
+          "start": 153.12,
+          "end": 153.28,
+          "probability": 0.9379789233207703
+        },
+        {
+          "word": " see",
+          "start": 153.28,
+          "end": 153.54,
+          "probability": 0.9690397381782532
+        },
+        {
+          "word": " there",
+          "start": 153.54,
+          "end": 154.0,
+          "probability": 0.4934404492378235
+        },
+        {
+          "word": " is",
+          "start": 154.0,
+          "end": 154.18,
+          "probability": 0.3977445363998413
+        },
+        {
+          "word": " a",
+          "start": 154.18,
+          "end": 154.58,
+          "probability": 0.953175961971283
+        },
+        {
+          "word": " dog",
+          "start": 154.58,
+          "end": 155.8,
+          "probability": 0.8145824670791626
+        },
+        {
+          "word": " under...",
+          "start": 155.8,
+          "end": 156.8,
+          "probability": 0.5800110399723053
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 13940,
+      "start": 156.8,
+      "end": 157.54,
+      "text": " ...I can't see that.",
+      "tokens": [
+        51214,
+        1097,
+        40,
+        393,
+        380,
+        536,
+        300,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " ...I",
+          "start": 156.8,
+          "end": 156.92,
+          "probability": 0.3730514273047447
+        },
+        {
+          "word": " can't",
+          "start": 156.92,
+          "end": 157.1,
+          "probability": 0.9645895957946777
+        },
+        {
+          "word": " see",
+          "start": 157.1,
+          "end": 157.3,
+          "probability": 0.9835297465324402
+        },
+        {
+          "word": " that.",
+          "start": 157.3,
+          "end": 157.54,
+          "probability": 0.8373438715934753
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 13940,
+      "start": 159.04,
+      "end": 162.12,
+      "text": " Is that a boat?",
+      "tokens": [
+        51314,
+        1119,
+        300,
+        257,
+        6582,
+        30,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " Is",
+          "start": 159.04,
+          "end": 159.14,
+          "probability": 0.8642168641090393
+        },
+        {
+          "word": " that",
+          "start": 159.14,
+          "end": 159.3,
+          "probability": 0.9287629127502441
+        },
+        {
+          "word": " a",
+          "start": 159.3,
+          "end": 159.48,
+          "probability": 0.8778002858161926
+        },
+        {
+          "word": " boat?",
+          "start": 159.48,
+          "end": 162.12,
+          "probability": 0.6602216362953186
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 13940,
+      "start": 163.58,
+      "end": 164.1,
+      "text": " That is a boat?",
+      "tokens": [
+        51564,
+        663,
+        307,
+        257,
+        6582,
+        30,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " That",
+          "start": 163.58,
+          "end": 163.66,
+          "probability": 0.40810874104499817
+        },
+        {
+          "word": " is",
+          "start": 163.66,
+          "end": 163.84,
+          "probability": 0.9359592795372009
+        },
+        {
+          "word": " a",
+          "start": 163.84,
+          "end": 163.98,
+          "probability": 0.8801931738853455
+        },
+        {
+          "word": " boat?",
+          "start": 163.98,
+          "end": 164.1,
+          "probability": 0.9691551923751831
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 13940,
+      "start": 164.82,
+      "end": 165.26,
+      "text": " A kayak?",
+      "tokens": [
+        51614,
+        316,
+        22438,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3642799513680594,
+      "compression_ratio": 1.348623853211009,
+      "no_speech_prob": 0.1362907439470291,
+      "words": [
+        {
+          "word": " A",
+          "start": 164.82,
+          "end": 165.08,
+          "probability": 0.2913983166217804
+        },
+        {
+          "word": " kayak?",
+          "start": 165.08,
+          "end": 165.26,
+          "probability": 0.8894156217575073
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 16526,
+      "start": 165.26,
+      "end": 165.38,
+      "text": " A kayak?",
+      "tokens": [
+        50364,
+        316,
+        22438,
+        30,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3875610624040876,
+      "compression_ratio": 1.164835164835165,
+      "no_speech_prob": 0.029939042404294014,
+      "words": [
+        {
+          "word": " A",
+          "start": 165.26,
+          "end": 165.38,
+          "probability": 0.00295349583029747
+        },
+        {
+          "word": " kayak?",
+          "start": 165.38,
+          "end": 165.38,
+          "probability": 4.6714350901311263e-05
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 16526,
+      "start": 165.86,
+      "end": 176.54,
+      "text": " The dog is running around and I see a...",
+      "tokens": [
+        50464,
+        440,
+        3000,
+        307,
+        2614,
+        926,
+        293,
+        286,
+        536,
+        257,
+        485,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3875610624040876,
+      "compression_ratio": 1.164835164835165,
+      "no_speech_prob": 0.029939042404294014,
+      "words": [
+        {
+          "word": " The",
+          "start": 165.86,
+          "end": 166.18,
+          "probability": 0.0035322511103004217
+        },
+        {
+          "word": " dog",
+          "start": 166.18,
+          "end": 168.38,
+          "probability": 0.3614075481891632
+        },
+        {
+          "word": " is",
+          "start": 168.38,
+          "end": 168.98,
+          "probability": 0.8547394871711731
+        },
+        {
+          "word": " running",
+          "start": 168.98,
+          "end": 169.58,
+          "probability": 0.561500072479248
+        },
+        {
+          "word": " around",
+          "start": 169.58,
+          "end": 170.88,
+          "probability": 0.7115781903266907
+        },
+        {
+          "word": " and",
+          "start": 170.88,
+          "end": 171.54,
+          "probability": 0.30335545539855957
+        },
+        {
+          "word": " I",
+          "start": 171.54,
+          "end": 171.7,
+          "probability": 0.8746206164360046
+        },
+        {
+          "word": " see",
+          "start": 171.7,
+          "end": 172.02,
+          "probability": 0.9639655947685242
+        },
+        {
+          "word": " a...",
+          "start": 172.02,
+          "end": 176.54,
+          "probability": 0.6045974045991898
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 16526,
+      "start": 178.26,
+      "end": 186.86,
+      "text": " ...a young boy against the end of the water to the sand.",
+      "tokens": [
+        51014,
+        1097,
+        64,
+        2037,
+        3237,
+        1970,
+        264,
+        917,
+        295,
+        264,
+        1281,
+        281,
+        264,
+        4932,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3875610624040876,
+      "compression_ratio": 1.164835164835165,
+      "no_speech_prob": 0.029939042404294014,
+      "words": [
+        {
+          "word": " ...a",
+          "start": 178.22,
+          "end": 178.82,
+          "probability": 0.08808350935578346
+        },
+        {
+          "word": " young",
+          "start": 178.82,
+          "end": 179.7,
+          "probability": 0.937828004360199
+        },
+        {
+          "word": " boy",
+          "start": 179.7,
+          "end": 180.3,
+          "probability": 0.9872696399688721
+        },
+        {
+          "word": " against",
+          "start": 180.3,
+          "end": 182.3,
+          "probability": 0.4460172653198242
+        },
+        {
+          "word": " the",
+          "start": 182.3,
+          "end": 183.8,
+          "probability": 0.904280424118042
+        },
+        {
+          "word": " end",
+          "start": 183.8,
+          "end": 184.16,
+          "probability": 0.9189192652702332
+        },
+        {
+          "word": " of",
+          "start": 184.16,
+          "end": 184.66,
+          "probability": 0.9854477047920227
+        },
+        {
+          "word": " the",
+          "start": 184.66,
+          "end": 184.94,
+          "probability": 0.9725780487060547
+        },
+        {
+          "word": " water",
+          "start": 184.94,
+          "end": 185.38,
+          "probability": 0.9524642825126648
+        },
+        {
+          "word": " to",
+          "start": 185.38,
+          "end": 185.92,
+          "probability": 0.9029198884963989
+        },
+        {
+          "word": " the",
+          "start": 185.92,
+          "end": 186.24,
+          "probability": 0.9741020202636719
+        },
+        {
+          "word": " sand.",
+          "start": 186.24,
+          "end": 186.86,
+          "probability": 0.9792549014091492
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 18686,
+      "start": 188.07999999999998,
+      "end": 189.86,
+      "text": " There is a...",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        485,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.472026606968471,
+      "compression_ratio": 1.139240506329114,
+      "no_speech_prob": 0.25178512930870056,
+      "words": [
+        {
+          "word": " There",
+          "start": 188.07999999999998,
+          "end": 188.98,
+          "probability": 0.004951239563524723
+        },
+        {
+          "word": " is",
+          "start": 188.98,
+          "end": 189.18,
+          "probability": 0.18484076857566833
+        },
+        {
+          "word": " a...",
+          "start": 189.18,
+          "end": 189.86,
+          "probability": 0.5502728447318077
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 18686,
+      "start": 190.86,
+      "end": 196.98,
+      "text": " ...I don't see anybody there but it was in the sand.",
+      "tokens": [
+        50514,
+        1097,
+        40,
+        500,
+        380,
+        536,
+        4472,
+        456,
+        457,
+        309,
+        390,
+        294,
+        264,
+        4932,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.472026606968471,
+      "compression_ratio": 1.139240506329114,
+      "no_speech_prob": 0.25178512930870056,
+      "words": [
+        {
+          "word": " ...I",
+          "start": 190.86,
+          "end": 191.14,
+          "probability": 0.30031745275482535
+        },
+        {
+          "word": " don't",
+          "start": 191.14,
+          "end": 191.26,
+          "probability": 0.9611503481864929
+        },
+        {
+          "word": " see",
+          "start": 191.26,
+          "end": 191.5,
+          "probability": 0.9770939946174622
+        },
+        {
+          "word": " anybody",
+          "start": 191.5,
+          "end": 191.84,
+          "probability": 0.9760457873344421
+        },
+        {
+          "word": " there",
+          "start": 191.84,
+          "end": 192.18,
+          "probability": 0.41148698329925537
+        },
+        {
+          "word": " but",
+          "start": 192.18,
+          "end": 192.72,
+          "probability": 0.2898809313774109
+        },
+        {
+          "word": " it",
+          "start": 192.72,
+          "end": 192.72,
+          "probability": 0.21796327829360962
+        },
+        {
+          "word": " was",
+          "start": 192.72,
+          "end": 193.82,
+          "probability": 0.3194158673286438
+        },
+        {
+          "word": " in",
+          "start": 193.82,
+          "end": 194.0,
+          "probability": 0.5846516489982605
+        },
+        {
+          "word": " the",
+          "start": 194.0,
+          "end": 194.1,
+          "probability": 0.9241631031036377
+        },
+        {
+          "word": " sand.",
+          "start": 194.1,
+          "end": 196.98,
+          "probability": 0.878562331199646
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 18686,
+      "start": 198.14,
+      "end": 205.86,
+      "text": " I see the...",
+      "tokens": [
+        50864,
+        286,
+        536,
+        264,
+        485,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.472026606968471,
+      "compression_ratio": 1.139240506329114,
+      "no_speech_prob": 0.25178512930870056,
+      "words": [
+        {
+          "word": " I",
+          "start": 198.14,
+          "end": 198.5,
+          "probability": 0.2628268897533417
+        },
+        {
+          "word": " see",
+          "start": 198.5,
+          "end": 205.72,
+          "probability": 0.7319467663764954
+        },
+        {
+          "word": " the...",
+          "start": 205.72,
+          "end": 206.17,
+          "probability": 0.592299073934555
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 18686,
+      "start": 211.51999999999998,
+      "end": 212.42,
+      "text": " ...that...",
+      "tokens": [
+        51314,
+        1097,
+        6780,
+        485,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.472026606968471,
+      "compression_ratio": 1.139240506329114,
+      "no_speech_prob": 0.25178512930870056,
+      "words": [
+        {
+          "word": " ...that...",
+          "start": 211.51999999999998,
+          "end": 212.42,
+          "probability": 0.6302524010340372
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 21242,
+      "start": 213.42,
+      "end": 215.08,
+      "text": " ...I'm more pinnoy.",
+      "tokens": [
+        50414,
+        1097,
+        40,
+        478,
+        544,
+        5447,
+        77,
+        939,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7493726505952722,
+      "compression_ratio": 0.8,
+      "no_speech_prob": 0.007269580848515034,
+      "words": [
+        {
+          "word": " ...I'm",
+          "start": 213.42,
+          "end": 214.6,
+          "probability": 0.40927209487805766
+        },
+        {
+          "word": " more",
+          "start": 214.6,
+          "end": 214.72,
+          "probability": 0.6927227973937988
+        },
+        {
+          "word": " pinnoy.",
+          "start": 214.72,
+          "end": 215.08,
+          "probability": 0.13705700263381004
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 21242,
+      "start": 222.32,
+      "end": 224.22,
+      "text": " You said it.",
+      "tokens": [
+        50864,
+        509,
+        848,
+        309,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7493726505952722,
+      "compression_ratio": 0.8,
+      "no_speech_prob": 0.007269580848515034,
+      "words": [
+        {
+          "word": " You",
+          "start": 222.32,
+          "end": 223.72,
+          "probability": 0.4469410181045532
+        },
+        {
+          "word": " said",
+          "start": 223.72,
+          "end": 224.0,
+          "probability": 0.6966311931610107
+        },
+        {
+          "word": " it.",
+          "start": 224.0,
+          "end": 224.22,
+          "probability": 0.9939138293266296
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 24242,
+      "start": 242.42,
+      "end": 242.42,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.8453398895263672,
+      "compression_ratio": 1.1956521739130435,
+      "no_speech_prob": 0.04155537486076355,
+      "words": []
+    },
+    {
+      "id": 33,
+      "seek": 24242,
+      "start": 242.42,
+      "end": 242.5,
+      "text": " I can see the dog.",
+      "tokens": [
+        50864,
+        286,
+        393,
+        536,
+        264,
+        3000,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8453398895263672,
+      "compression_ratio": 1.1956521739130435,
+      "no_speech_prob": 0.04155537486076355,
+      "words": [
+        {
+          "word": " I",
+          "start": 242.42,
+          "end": 242.42,
+          "probability": 0.13756610453128815
+        },
+        {
+          "word": " can",
+          "start": 242.42,
+          "end": 242.42,
+          "probability": 0.2616353929042816
+        },
+        {
+          "word": " see",
+          "start": 242.42,
+          "end": 242.42,
+          "probability": 0.6300845742225647
+        },
+        {
+          "word": " the",
+          "start": 242.42,
+          "end": 242.5,
+          "probability": 0.46298661828041077
+        },
+        {
+          "word": " dog.",
+          "start": 242.5,
+          "end": 242.5,
+          "probability": 0.8938261270523071
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 24242,
+      "start": 255.80000000000004,
+      "end": 258.98,
+      "text": " Give me a second.",
+      "tokens": [
+        51114,
+        5303,
+        385,
+        257,
+        1150,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8453398895263672,
+      "compression_ratio": 1.1956521739130435,
+      "no_speech_prob": 0.04155537486076355,
+      "words": [
+        {
+          "word": " Give",
+          "start": 255.80000000000004,
+          "end": 257.20000000000005,
+          "probability": 0.005330707877874374
+        },
+        {
+          "word": " me",
+          "start": 257.20000000000005,
+          "end": 258.6,
+          "probability": 0.9566290974617004
+        },
+        {
+          "word": " a",
+          "start": 258.6,
+          "end": 258.7,
+          "probability": 0.9694800972938538
+        },
+        {
+          "word": " second.",
+          "start": 258.7,
+          "end": 258.98,
+          "probability": 0.9828255772590637
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 25898,
+      "start": 269.05999999999995,
+      "end": 271.98,
+      "text": " But it was a boat and...",
+      "tokens": [
+        50364,
+        583,
+        309,
+        390,
+        257,
+        6582,
+        293,
+        485,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5638831456502279,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.15618306398391724,
+      "words": [
+        {
+          "word": " But",
+          "start": 269.05999999999995,
+          "end": 269.78,
+          "probability": 0.24359989166259766
+        },
+        {
+          "word": " it",
+          "start": 269.78,
+          "end": 270.5,
+          "probability": 0.6749516725540161
+        },
+        {
+          "word": " was",
+          "start": 270.5,
+          "end": 270.66,
+          "probability": 0.9542389512062073
+        },
+        {
+          "word": " a",
+          "start": 270.66,
+          "end": 270.84,
+          "probability": 0.6722062826156616
+        },
+        {
+          "word": " boat",
+          "start": 270.84,
+          "end": 271.12,
+          "probability": 0.8835383057594299
+        },
+        {
+          "word": " and...",
+          "start": 271.12,
+          "end": 271.98,
+          "probability": 0.273040727712214
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 25898,
+      "start": 273.14,
+      "end": 273.68,
+      "text": " ...said on.",
+      "tokens": [
+        51014,
+        1097,
+        5790,
+        327,
+        322,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5638831456502279,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.15618306398391724,
+      "words": [
+        {
+          "word": " ...said",
+          "start": 273.14,
+          "end": 273.5,
+          "probability": 0.12760030198842287
+        },
+        {
+          "word": " on.",
+          "start": 273.5,
+          "end": 273.68,
+          "probability": 0.9148646593093872
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 27368,
+      "start": 292.02,
+      "end": 294.72,
+      "text": " I can't see the name but...",
+      "tokens": [
+        50364,
+        286,
+        393,
+        380,
+        536,
+        264,
+        1315,
+        457,
+        485,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36294076556251165,
+      "compression_ratio": 0.9642857142857143,
+      "no_speech_prob": 0.3223200738430023,
+      "words": [
+        {
+          "word": " I",
+          "start": 292.02,
+          "end": 292.76,
+          "probability": 0.3502827286720276
+        },
+        {
+          "word": " can't",
+          "start": 292.76,
+          "end": 293.5,
+          "probability": 0.9100658595561981
+        },
+        {
+          "word": " see",
+          "start": 293.5,
+          "end": 293.62,
+          "probability": 0.3562951385974884
+        },
+        {
+          "word": " the",
+          "start": 293.62,
+          "end": 293.78,
+          "probability": 0.7739213705062866
+        },
+        {
+          "word": " name",
+          "start": 293.78,
+          "end": 294.06,
+          "probability": 0.9948863387107849
+        },
+        {
+          "word": " but...",
+          "start": 294.06,
+          "end": 294.72,
+          "probability": 0.2194761587306857
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 27368,
+      "start": 294.72,
+      "end": 296.64,
+      "text": " ...there is food in there.",
+      "tokens": [
+        51414,
+        1097,
+        15456,
+        307,
+        1755,
+        294,
+        456,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36294076556251165,
+      "compression_ratio": 0.9642857142857143,
+      "no_speech_prob": 0.3223200738430023,
+      "words": [
+        {
+          "word": " ...there",
+          "start": 294.72,
+          "end": 295.6,
+          "probability": 0.21238521998748183
+        },
+        {
+          "word": " is",
+          "start": 295.6,
+          "end": 295.7,
+          "probability": 0.04306185618042946
+        },
+        {
+          "word": " food",
+          "start": 295.7,
+          "end": 296.16,
+          "probability": 0.9616955518722534
+        },
+        {
+          "word": " in",
+          "start": 296.16,
+          "end": 296.4,
+          "probability": 0.9886341094970703
+        },
+        {
+          "word": " there.",
+          "start": 296.4,
+          "end": 296.64,
+          "probability": 0.9916029572486877
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 29664,
+      "start": 320.32,
+      "end": 321.78,
+      "text": " There is a handle.",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        4813,
+        13,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6229115592108833,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.5655902028083801,
+      "words": [
+        {
+          "word": " There",
+          "start": 320.32,
+          "end": 320.36,
+          "probability": 0.017260126769542694
+        },
+        {
+          "word": " is",
+          "start": 320.36,
+          "end": 320.38,
+          "probability": 0.26088064908981323
+        },
+        {
+          "word": " a",
+          "start": 320.38,
+          "end": 320.4,
+          "probability": 0.952273964881897
+        },
+        {
+          "word": " handle.",
+          "start": 320.4,
+          "end": 321.78,
+          "probability": 0.7068632245063782
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 32178,
+      "start": 322.78,
+      "end": 324.28,
+      "text": " Flag.",
+      "tokens": [
+        50414,
+        37461,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6218951543172201,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.22251230478286743,
+      "words": [
+        {
+          "word": " Flag.",
+          "start": 322.78,
+          "end": 324.28,
+          "probability": 0.2561686336994171
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 32428,
+      "start": 333.76,
+      "end": 335.7,
+      "text": " There is a family.",
+      "tokens": [
+        50364,
+        821,
+        307,
+        257,
+        1605,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8038383589850532,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.543677806854248,
+      "words": [
+        {
+          "word": " There",
+          "start": 333.76,
+          "end": 334.56,
+          "probability": 0.3558720052242279
+        },
+        {
+          "word": " is",
+          "start": 334.56,
+          "end": 334.76,
+          "probability": 0.006816846318542957
+        },
+        {
+          "word": " a",
+          "start": 334.76,
+          "end": 335.02,
+          "probability": 0.26692014932632446
+        },
+        {
+          "word": " family.",
+          "start": 335.02,
+          "end": 335.7,
+          "probability": 0.5942104458808899
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 33570,
+      "start": 335.7,
+      "end": 336.52,
+      "text": " Pick Nick.",
+      "tokens": [
+        50364,
+        14129,
+        9449,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7760989665985107,
+      "compression_ratio": 0.625,
+      "no_speech_prob": 0.8230077028274536,
+      "words": [
+        {
+          "word": " Pick",
+          "start": 335.7,
+          "end": 336.28,
+          "probability": 0.08175499737262726
+        },
+        {
+          "word": " Nick.",
+          "start": 336.28,
+          "end": 336.52,
+          "probability": 0.34585580229759216
+        }
+      ]
+    }
+  ]
+}

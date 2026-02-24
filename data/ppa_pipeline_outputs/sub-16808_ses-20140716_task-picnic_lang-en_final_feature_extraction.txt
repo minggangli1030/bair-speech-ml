@@ -1,0 +1,90 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-16808_ses-20140716_task-picnic_lang-en_final.wav
+Total Segments: 10
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.672 → 00:15.876     Participant  15.20     s They're having a picnic. Okay. He's reading. She's AA N DH AH ER HH AE M IH SIL ER SIL DH ER HH AE V IH N AH SIL P IH SIL K SIL N IH SIL SIL AH SIL K EY SIL HH IY Z R IY DX IY N SH IY IH Z SIL G R IH NG SIL K IH N SIL SH IH N M IH SIL K IH DX IH SIL IH SH SIL SIL P AA R SIL P AA R N SIL P AA R N SIL HH AA SIL S AH SIL P S AH L SIL F L TH SIL F L EY AA M M W AA DX ER W EH DX ER R AH W AH Z HH EH N DH AH N IH N
+2    00:16.332 → 00:20.483     Participant  4.15      s I believe it's a family and it looks like a family DH IH Z SIL D L IY SIL IH AH SIL HH AH M B L IY V W IH Z AH SIL F AE AW M IY HH N L UH SIL S L AY SIL K AH SIL F AE AW M IY AA N SIL T EH W AH SIL K AH L DH IH SIL T IH SIL IH
+3    00:21.917 → 00:24.634     Participant  2.72      s Cal Year                                           G L Z L EH SIL K IH SIL M AY M B IH S AH N M SIL SIL IY SIL SIL IY Z AH AA SIL T DH AH OW V AH L
+4    00:26.001 → 00:27.891     Participant  1.89      s Plenty of kite with the dolls there.               DH L AY N IH SIL K AY SIL W AH N DH UH SIL K SIL DH AH N D AA L Z EH ER
+5    00:29.309 → 00:34.979     Participant  5.67      s And there's a good guys at the canoe.              IH M DH EH ER R Z IH NG SIL HH AA M N DH ER N IH SIL N SIL B AH SIL DH AH AW L DH ER Z AH SIL K UH IH SIL D SIL DH IH SIL G AY Z AH N SIL K IH N UW NG AH
+6    00:39.670 → 00:42.319     Clinician    2.65      s Yeah, he's in a, he's in a, he looks like he's in  Y EH EY Z IH N AH SIL IH Z EH N AH SIL P IH L L UH F AH HH Y UW Z IH N AH SIL K N L
+7    00:44.749 → 00:45.914     Clinician    1.16      s Yeah, look like he's like a new.                   EH AH L UH SIL F DH EH HH IH Z DH AH IH SIL K IH N UW OW
+8    00:46.032 → 00:48.462     Participant  2.43      s the guys fishing over here off the pier.           DH IH SIL G EH S F IH SH IH N OW W IH HH IH ER N SIL AH AA HH SIL AA F DH AH SIL P IH ER
+9    00:51.179 → 00:56.849     Participant  5.67      s over there. Oh, no, no, no, no, no, no, no, he sai OW W AH DH ER OW W IH M IH N OW N AA L N OY Z SIL IH N AA N OW OY IH N OW HH IY IH S EH SIL IY IH S SIL T EH N OW SIL OW SIL M B AH DH IY OW SIL HH UH IH N AA HH IH S SIL T EH N IH N AW SIL T DH EH ER
+10   00:57.355 → 00:58.924     Participant  1.57      s Test out a canoe, we not hurt a canoe.             T HH EH Z SIL DH EH DX AH SIL K AH N OW M SIL Y IY IH N DH AA DX ER N AH SIL K N UW
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.672 - 00:15.876 (15.20s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They're having a picnic. Okay. He's reading. She's drinking. She's making it. It's pouring, pouring, pouring, soaked, soaked, full of water or whatever it was. And then...
+  Phonemic Encoding: AA N DH AH ER HH AE M IH SIL ER SIL DH ER HH AE V IH N AH SIL P IH SIL K SIL N IH SIL SIL AH SIL K EY SIL HH IY Z R IY DX IY N SH IY IH Z SIL G R IH NG SIL K IH N SIL SH IH N M IH SIL K IH DX IH SIL IH SH SIL SIL P AA R SIL P AA R N SIL P AA R N SIL HH AA SIL S AH SIL P S AH L SIL F L TH SIL F L EY AA M M W AA DX ER W EH DX ER R AH W AH Z HH EH N DH AH N IH N
+
+Segment 2:
+  Timestamp: 00:16.332 - 00:20.483 (4.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I believe it's a family and it looks like a family out there with good technique.
+  Phonemic Encoding: DH IH Z SIL D L IY SIL IH AH SIL HH AH M B L IY V W IH Z AH SIL F AE AW M IY HH N L UH SIL S L AY SIL K AH SIL F AE AW M IY AA N SIL T EH W AH SIL K AH L DH IH SIL T IH SIL IH
+
+Segment 3:
+  Timestamp: 00:21.917 - 00:24.634 (2.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Cal Year
+  Phonemic Encoding: G L Z L EH SIL K IH SIL M AY M B IH S AH N M SIL SIL IY SIL SIL IY Z AH AA SIL T DH AH OW V AH L
+
+Segment 4:
+  Timestamp: 00:26.001 - 00:27.891 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Plenty of kite with the dolls there.
+  Phonemic Encoding: DH L AY N IH SIL K AY SIL W AH N DH UH SIL K SIL DH AH N D AA L Z EH ER
+
+Segment 5:
+  Timestamp: 00:29.309 - 00:34.979 (5.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a good guys at the canoe.
+  Phonemic Encoding: IH M DH EH ER R Z IH NG SIL HH AA M N DH ER N IH SIL N SIL B AH SIL DH AH AW L DH ER Z AH SIL K UH IH SIL D SIL DH IH SIL G AY Z AH N SIL K IH N UW NG AH
+
+Segment 6:
+  Timestamp: 00:39.670 - 00:42.319 (2.65s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Yeah, he's in a, he's in a, he looks like he's in a crew.
+  Phonemic Encoding: Y EH EY Z IH N AH SIL IH Z EH N AH SIL P IH L L UH F AH HH Y UW Z IH N AH SIL K N L
+
+Segment 7:
+  Timestamp: 00:44.749 - 00:45.914 (1.16s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Yeah, look like he's like a new.
+  Phonemic Encoding: EH AH L UH SIL F DH EH HH IH Z DH AH IH SIL K IH N UW OW
+
+Segment 8:
+  Timestamp: 00:46.032 - 00:48.462 (2.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the guys fishing over here off the pier.
+  Phonemic Encoding: DH IH SIL G EH S F IH SH IH N OW W IH HH IH ER N SIL AH AA HH SIL AA F DH AH SIL P IH ER
+
+Segment 9:
+  Timestamp: 00:51.179 - 00:56.849 (5.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: over there. Oh, no, no, no, no, no, no, no, he said he's standing over the oh no, he's standing out there.
+  Phonemic Encoding: OW W AH DH ER OW W IH M IH N OW N AA L N OY Z SIL IH N AA N OW OY IH N OW HH IY IH S EH SIL IY IH S SIL T EH N OW SIL OW SIL M B AH DH IY OW SIL HH UH IH N AA HH IH S SIL T EH N IH N AW SIL T DH EH ER
+
+Segment 10:
+  Timestamp: 00:57.355 - 00:58.924 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Test out a canoe, we not hurt a canoe.
+  Phonemic Encoding: T HH EH Z SIL DH EH DX AH SIL K AH N OW M SIL Y IY IH N DH AA DX ER N AH SIL K N UW

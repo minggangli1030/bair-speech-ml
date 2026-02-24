@@ -1,0 +1,153 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-14418_ses-20150428_task-picnic_lang-en_final.wav
+Total Segments: 19
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.174 → 00:07.000     Participant  4.83      s They have a... I think in me.                      AH SIL N D EY HH AE AE SIL B SIL AH SIL F TH EY NG SIL K IH N IY
+2    00:22.255 → 00:24.145     Participant  1.89      s flying kite.                                       F L AY IH N AE SIL K AY SIL T CH S
+3    00:29.747 → 00:32.565     Participant  2.82      s And there the shade.                               HH AE N DH EH ER SIL DH AY SH EH AY EY SIL T
+4    00:49.407 → 00:52.191     Clinician    2.78      s dot do.                                            SIL D AA SIL D OW AE AE AE
+5    00:58.688 → 01:02.586     Clinician    3.90      s uh, and DON. Jianghua exposed it to the            AE HH AE N N IH N SIL D AA N SIL Z D OW AH AH AH
+6    01:34.142 → 01:35.745     Participant  1.60      s There same. You...                                 SIL DH ER R IH S EY M EH EY Y UW
+7    01:54.814 → 01:56.586     Participant  1.77      s Delicious trained surgery done.                    K DH EH R ER EH AE EH N SIL S SIL EY L IY NG IH N SIL
+8    02:24.430 → 02:26.100     Participant  1.67      s Okay, yeah. Yeah, bye.                             EH HH AE AH EH N SIL AE
+9    02:27.434 → 02:31.500     Participant  4.07      s uh ahh que's uh                                    EH SIL K IY IH Z SIL AH SIL K S SIL
+10   02:37.710 → 02:39.330     Participant  1.62      s Goose, uh...                                       G EY S SIL AE
+11   02:42.975 → 02:47.498     Participant  4.52      s having fun                                         HH AE V B IY EY IH N HH AE SIL K SIL AH AE AH AH F R AA AY N
+12   02:55.547 → 02:57.285     Clinician    1.74      s important                                          W SIL P AA DX EH IH N AH
+13   03:06.330 → 03:11.967     Clinician    5.64      s Nah. Nah. Nah. Ah, go on then.                     N AE AE AH AE SIL K G N SIL
+14   03:11.967 → 03:13.334     Participant  1.37      s And don't know.                                    N SIL SIL T EH AY N AE EH V EH HH
+15   03:19.257 → 03:21.282     Participant  2.03      s again, plus                                        AE AY SIL K G EH N SIL K SIL AE SIL K G L AH S
+16   03:22.615 → 03:24.285     Participant  1.67      s hhmm,pencil                                        AH AE AA SIL K AA DX SIL P AH HH
+17   03:26.918 → 03:28.403     Participant  1.48      s Ha! Ha! Ha!                                        AH
+18   03:29.517 → 03:32.909     Participant  3.39      s You can go on to soil                              P W IH DX IY IH N AH AY S OW DX ER AH
+19   03:37.752 → 03:39.777     Participant  2.02      s Oh, yeah. They're raiding.                         AA AE EH ER R IY SIL DX IH N IH NG SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.174 - 00:07.000 (4.83s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They have a... I think in me.
+  Phonemic Encoding: AH SIL N D EY HH AE AE SIL B SIL AH SIL F TH EY NG SIL K IH N IY
+
+Segment 2:
+  Timestamp: 00:22.255 - 00:24.145 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flying kite.
+  Phonemic Encoding: F L AY IH N AE SIL K AY SIL T CH S
+
+Segment 3:
+  Timestamp: 00:29.747 - 00:32.565 (2.82s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there the shade.
+  Phonemic Encoding: HH AE N DH EH ER SIL DH AY SH EH AY EY SIL T
+
+Segment 4:
+  Timestamp: 00:49.407 - 00:52.191 (2.78s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: dot do.
+  Phonemic Encoding: SIL D AA SIL D OW AE AE AE
+
+Segment 5:
+  Timestamp: 00:58.688 - 01:02.586 (3.90s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: uh, and DON. Jianghua exposed it to the
+  Phonemic Encoding: AE HH AE N N IH N SIL D AA N SIL Z D OW AH AH AH
+
+Segment 6:
+  Timestamp: 01:34.142 - 01:35.745 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There same. You...
+  Phonemic Encoding: SIL DH ER R IH S EY M EH EY Y UW
+
+Segment 7:
+  Timestamp: 01:54.814 - 01:56.586 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Delicious trained surgery done.
+  Phonemic Encoding: K DH EH R ER EH AE EH N SIL S SIL EY L IY NG IH N SIL
+
+Segment 8:
+  Timestamp: 02:24.430 - 02:26.100 (1.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, yeah. Yeah, bye.
+  Phonemic Encoding: EH HH AE AH EH N SIL AE
+
+Segment 9:
+  Timestamp: 02:27.434 - 02:31.500 (4.07s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: uh ahh que's uh
+  Phonemic Encoding: EH SIL K IY IH Z SIL AH SIL K S SIL
+
+Segment 10:
+  Timestamp: 02:37.710 - 02:39.330 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Goose, uh...
+  Phonemic Encoding: G EY S SIL AE
+
+Segment 11:
+  Timestamp: 02:42.975 - 02:47.498 (4.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having fun
+  Phonemic Encoding: HH AE V B IY EY IH N HH AE SIL K SIL AH AE AH AH F R AA AY N
+
+Segment 12:
+  Timestamp: 02:55.547 - 02:57.285 (1.74s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: important
+  Phonemic Encoding: W SIL P AA DX EH IH N AH
+
+Segment 13:
+  Timestamp: 03:06.330 - 03:11.967 (5.64s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Nah. Nah. Nah. Ah, go on then.
+  Phonemic Encoding: N AE AE AH AE SIL K G N SIL
+
+Segment 14:
+  Timestamp: 03:11.967 - 03:13.334 (1.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And don't know.
+  Phonemic Encoding: N SIL SIL T EH AY N AE EH V EH HH
+
+Segment 15:
+  Timestamp: 03:19.257 - 03:21.282 (2.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: again, plus
+  Phonemic Encoding: AE AY SIL K G EH N SIL K SIL AE SIL K G L AH S
+
+Segment 16:
+  Timestamp: 03:22.615 - 03:24.285 (1.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hhmm,pencil
+  Phonemic Encoding: AH AE AA SIL K AA DX SIL P AH HH
+
+Segment 17:
+  Timestamp: 03:26.918 - 03:28.403 (1.48s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Ha! Ha! Ha!
+  Phonemic Encoding: AH
+
+Segment 18:
+  Timestamp: 03:29.517 - 03:32.909 (3.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You can go on to soil
+  Phonemic Encoding: P W IH DX IY IH N AH AY S OW DX ER AH
+
+Segment 19:
+  Timestamp: 03:37.752 - 03:39.777 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh, yeah. They're raiding.
+  Phonemic Encoding: AA AE EH ER R IY SIL DX IH N IH NG SIL

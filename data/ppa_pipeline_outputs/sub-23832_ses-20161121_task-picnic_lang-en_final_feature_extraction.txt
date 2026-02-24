@@ -1,0 +1,139 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-23832_ses-20161121_task-picnic_lang-en_final.wav
+Total Segments: 17
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.039 → 00:04.907     Participant  2.87      s This looks like a boy and his girlfriend.          DH IH S SIL L UH SIL K S L AY SIL K HH EH AH SIL B OY N IH Z SIL K G R ER L F R IH EH N SIL D
+2    00:08.164 → 00:18.677     Participant  10.51     s picnic lunch. Well, he's reading a novel of some k P IH SIL K SIL D IH SIL K L AH N SIL CH SH SIL W EH L HH IY Z S R IY DX IY NG EY N AA L L V F S AH N HH AY N SIL D DH IH N SIL CH SH IY IH S SIL P HH AA R IH NG SIL SIL K T R IH NG SIL K S Y IH EH N D
+3    00:20.432 → 00:22.896     Participant  2.46      s I'm not quite sure who the other um                AH N AH SIL K W IH SH ER HH UW DH IY EH AH DH ER SIL P AA M
+4    00:24.803 → 00:26.271     Participant  1.47      s the T Face Lair.                                   DH IY Y EH AH M SIL SIL T AY SIL CH S L EH ER
+5    00:28.617 → 00:32.700     Participant  4.08      s in the dog, like NL. Looks like he's pretty happy. IY IH N DH IH SIL D AA SIL G SIL AY EY SIL IH EH N OW L DH UH S L AY SIL K HH IY Z SIL P ER DX IY HH AE SIL P IY
+6    00:33.679 → 00:35.029     Participant  1.35      s There is dear people.                              N DH EH ER Z SIL D IH ER SIL P IY SIL P L
+7    00:40.750 → 00:42.437     Clinician    1.69      s off the pier.                                      AA S SIL T AH SIL P HH IH ER
+8    00:47.550 → 00:52.967     Clinician    5.42      s I'm not sure what it is, but it looks like it migh AH N AH SH ER W AH DX ER SIL IH S SIL P B IH DX IH N L UH SIL K S L AY SIL K IH SIL T S SIL M AY SIL B IY AH SIL B OY EY SIL SIL S SIL K W AA DX IH NG IH N
+9    00:58.334 → 01:02.114     Participant  3.78      s It sounds like the people in the boat are...       IH SIL S AE AW N Z L AY SIL K AE AW M Z SIL DH AH SIL P IY SIL P L AH N DH AH SIL B OW SIL T HH AA R ER
+10   01:08.627 → 01:10.652     Participant  2.02      s you can use that big tree.                         N IH S EH SIL B IH SIL CH T R IY SIL
+11   01:17.014 → 01:19.242     Participant  2.23      s Hey M Schley. Quite!                               EY IY Y IH EH M SIL SIL SIL S SIL L EY SIL F L AE AY SIL K
+12   01:24.355 → 01:26.312     Participant  1.96      s Looks like a nice habit.                           DH UH S UH SIL K IH N AY S SIL HH AE V AH N K HH AY V IY
+13   01:27.848 → 01:36.825     Participant  8.98      s Kevin, close to the bake. Looks like that's it. I  K EY SIL K AE V IH N AH M SIL K L OW Z S SIL T IH DH IH UH SIL D B EY SIL K N L UH SIL K S L AY SIL T DH EH SIL T S IH M SIL DH Z IH SIL T SIL AH Y EH AE DH AH V S SIL SIL G OW NG AH W OY EY D IH IY NG SIL D IH S S IY AH
+14   01:38.867 → 01:44.639     Participant  5.77      s Yeah, it was just going up. It's very nice, small. AE SIL P IH ER Z UW Z SIL K OY NG AH M IH SIL S SIL IH SIL S AH M SIL V ER N AY S SIL S SIL M AA OW L
+15   01:45.921 → 01:49.178     Participant  3.26      s cabin or whatever it is. Unit 7.                   K AE V IH N SIL AA R W AH IH DX EH V R ER IH S HH IH N IH SIL T S AH M
+16   01:51.473 → 01:53.430     Participant  1.96      s It's a lot of fun to agree around the bit.         SIL S SIL L AA DX AH SH S AH N SIL D IH AH HH EH SIL G R IY R AW N DH AH SIL B EY SIL
+17   01:59.354 → 02:02.796     Participant  3.44      s I can't figure out what this is. Pale.             K IH N SIL F IH IY IH ER AW W AH SIL DH IH S IH Z S P EY L SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.039 - 00:04.907 (2.87s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This looks like a boy and his girlfriend.
+  Phonemic Encoding: DH IH S SIL L UH SIL K S L AY SIL K HH EH AH SIL B OY N IH Z SIL K G R ER L F R IH EH N SIL D
+
+Segment 2:
+  Timestamp: 00:08.164 - 00:18.677 (10.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: picnic lunch. Well, he's reading a novel of some kind, and she is pouring drinks and
+  Phonemic Encoding: P IH SIL K SIL D IH SIL K L AH N SIL CH SH SIL W EH L HH IY Z S R IY DX IY NG EY N AA L L V F S AH N HH AY N SIL D DH IH N SIL CH SH IY IH S SIL P HH AA R IH NG SIL SIL K T R IH NG SIL K S Y IH EH N D
+
+Segment 3:
+  Timestamp: 00:20.432 - 00:22.896 (2.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm not quite sure who the other um
+  Phonemic Encoding: AH N AH SIL K W IH SH ER HH UW DH IY EH AH DH ER SIL P AA M
+
+Segment 4:
+  Timestamp: 00:24.803 - 00:26.271 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the T Face Lair.
+  Phonemic Encoding: DH IY Y EH AH M SIL SIL T AY SIL CH S L EH ER
+
+Segment 5:
+  Timestamp: 00:28.617 - 00:32.700 (4.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in the dog, like NL. Looks like he's pretty happy.
+  Phonemic Encoding: IY IH N DH IH SIL D AA SIL G SIL AY EY SIL IH EH N OW L DH UH S L AY SIL K HH IY Z SIL P ER DX IY HH AE SIL P IY
+
+Segment 6:
+  Timestamp: 00:33.679 - 00:35.029 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is dear people.
+  Phonemic Encoding: N DH EH ER Z SIL D IH ER SIL P IY SIL P L
+
+Segment 7:
+  Timestamp: 00:40.750 - 00:42.437 (1.69s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: off the pier.
+  Phonemic Encoding: AA S SIL T AH SIL P HH IH ER
+
+Segment 8:
+  Timestamp: 00:47.550 - 00:52.967 (5.42s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I'm not sure what it is, but it looks like it might be a boy squatting in
+  Phonemic Encoding: AH N AH SH ER W AH DX ER SIL IH S SIL P B IH DX IH N L UH SIL K S L AY SIL K IH SIL T S SIL M AY SIL B IY AH SIL B OY EY SIL SIL S SIL K W AA DX IH NG IH N
+
+Segment 9:
+  Timestamp: 00:58.334 - 01:02.114 (3.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It sounds like the people in the boat are...
+  Phonemic Encoding: IH SIL S AE AW N Z L AY SIL K AE AW M Z SIL DH AH SIL P IY SIL P L AH N DH AH SIL B OW SIL T HH AA R ER
+
+Segment 10:
+  Timestamp: 01:08.627 - 01:10.652 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: you can use that big tree.
+  Phonemic Encoding: N IH S EH SIL B IH SIL CH T R IY SIL
+
+Segment 11:
+  Timestamp: 01:17.014 - 01:19.242 (2.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Hey M Schley. Quite!
+  Phonemic Encoding: EY IY Y IH EH M SIL SIL SIL S SIL L EY SIL F L AE AY SIL K
+
+Segment 12:
+  Timestamp: 01:24.355 - 01:26.312 (1.96s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like a nice habit.
+  Phonemic Encoding: DH UH S UH SIL K IH N AY S SIL HH AE V AH N K HH AY V IY
+
+Segment 13:
+  Timestamp: 01:27.848 - 01:36.825 (8.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Kevin, close to the bake. Looks like that's it. I mean, yeah. Let's go away. This is here.
+  Phonemic Encoding: K EY SIL K AE V IH N AH M SIL K L OW Z S SIL T IH DH IH UH SIL D B EY SIL K N L UH SIL K S L AY SIL T DH EH SIL T S IH M SIL DH Z IH SIL T SIL AH Y EH AE DH AH V S SIL SIL G OW NG AH W OY EY D IH IY NG SIL D IH S S IY AH
+
+Segment 14:
+  Timestamp: 01:38.867 - 01:44.639 (5.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yeah, it was just going up. It's very nice, small.
+  Phonemic Encoding: AE SIL P IH ER Z UW Z SIL K OY NG AH M IH SIL S SIL IH SIL S AH M SIL V ER N AY S SIL S SIL M AA OW L
+
+Segment 15:
+  Timestamp: 01:45.921 - 01:49.178 (3.26s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: cabin or whatever it is. Unit 7.
+  Phonemic Encoding: K AE V IH N SIL AA R W AH IH DX EH V R ER IH S HH IH N IH SIL T S AH M
+
+Segment 16:
+  Timestamp: 01:51.473 - 01:53.430 (1.96s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's a lot of fun to agree around the bit.
+  Phonemic Encoding: SIL S SIL L AA DX AH SH S AH N SIL D IH AH HH EH SIL G R IY R AW N DH AH SIL B EY SIL
+
+Segment 17:
+  Timestamp: 01:59.354 - 02:02.796 (3.44s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can't figure out what this is. Pale.
+  Phonemic Encoding: K IH N SIL F IH IY IH ER AW W AH SIL DH IH S IH Z S P EY L SIL

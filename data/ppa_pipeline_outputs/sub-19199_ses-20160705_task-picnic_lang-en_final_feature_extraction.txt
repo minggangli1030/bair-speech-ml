@@ -1,0 +1,69 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-19199_ses-20160705_task-picnic_lang-en_final.wav
+Total Segments: 7
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.245     Clinician    1.22      s and they're having...                              SIL DH ER HH AE V IH NG SIL
+2    00:03.389 → 00:07.607     Clinician    4.22      s Tell her! I mean.. The Life Falls Fell murders May T ER N SIL D AA SIL AE M B IY IH NG G EH AH SIL T CH SIL T SIL UW CH SH SIL IH SIL K G AH SIL B AH EH SIL T IH DX DH IH HH EY TH SIL T UW V SIL D AH HH SIL T IH SIL IH
+3    00:16.737 → 00:21.529     Participant  4.79      s I would approach the wall like the Mother Freddy.  ER SIL CH SIL T AH SIL DH OW AA N HH AY EY SIL D IH EH IH M EY IY N IY AE DX EH IH SIL P AH N IY S UH L T SIL W EH SIL K IH N SIL DH AH S IH UW IH SIL D UW IH SIL D IH SIL IY SIL P IH M IH T D IY IH SIL
+4    00:45.222 → 00:50.639     Participant  5.42      s Okay, they are going to the...                     AH L SIL CH EY SIL DH EY SIL AA ER G OW IY NG SIL T UW SIL DH AH AH S
+5    00:52.292 → 00:53.794     Participant  1.50      s What is this?                                      AH AH SIL B AH DX IH S SIL T IH S
+6    01:07.868 → 01:10.095     Participant  2.23      s there med conjugate                                DH AH N EY N SIL T IY N SIL SH S SIL EY N L
+7    01:10.365 → 01:14.095     Participant  3.73      s and how to incident                                T AH OW M HH AW SIL T AH SIL T UW N IH N SIL T S SIL T IH N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.245 (1.22s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and they're having...
+  Phonemic Encoding: SIL DH ER HH AE V IH NG SIL
+
+Segment 2:
+  Timestamp: 00:03.389 - 00:07.607 (4.22s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Tell her! I mean.. The Life Falls Fell murders May old To
+  Phonemic Encoding: T ER N SIL D AA SIL AE M B IY IH NG G EH AH SIL T CH SIL T SIL UW CH SH SIL IH SIL K G AH SIL B AH EH SIL T IH DX DH IH HH EY TH SIL T UW V SIL D AH HH SIL T IH SIL IH
+
+Segment 3:
+  Timestamp: 00:16.737 - 00:21.529 (4.79s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I would approach the wall like the Mother Freddy.
+  Phonemic Encoding: ER SIL CH SIL T AH SIL DH OW AA N HH AY EY SIL D IH EH IH M EY IY N IY AE DX EH IH SIL P AH N IY S UH L T SIL W EH SIL K IH N SIL DH AH S IH UW IH SIL D UW IH SIL D IH SIL IY SIL P IH M IH T D IY IH SIL
+
+Segment 4:
+  Timestamp: 00:45.222 - 00:50.639 (5.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, they are going to the...
+  Phonemic Encoding: AH L SIL CH EY SIL DH EY SIL AA ER G OW IY NG SIL T UW SIL DH AH AH S
+
+Segment 5:
+  Timestamp: 00:52.292 - 00:53.794 (1.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: What is this?
+  Phonemic Encoding: AH AH SIL B AH DX IH S SIL T IH S
+
+Segment 6:
+  Timestamp: 01:07.868 - 01:10.095 (2.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: there med conjugate
+  Phonemic Encoding: DH AH N EY N SIL T IY N SIL SH S SIL EY N L
+
+Segment 7:
+  Timestamp: 01:10.365 - 01:14.095 (3.73s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and how to incident
+  Phonemic Encoding: T AH OW M HH AW SIL T AH SIL T UW N IH N SIL T S SIL T IH N

@@ -1,0 +1,860 @@
+{
+  "text": " The man is taking the kite out up and as say sail boat and a woman and a man were having something to eat and the front of a tree and a house there's a radio going on is kayak I don't know looks like a kayak and I don't know fishing and I know there's a lag",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "man",
+      "start": 0.5,
+      "end": 0.8
+    },
+    {
+      "word": "is",
+      "start": 0.8,
+      "end": 1.36
+    },
+    {
+      "word": "taking",
+      "start": 1.36,
+      "end": 2.5
+    },
+    {
+      "word": "the",
+      "start": 2.5,
+      "end": 2.84
+    },
+    {
+      "word": "kite",
+      "start": 2.84,
+      "end": 3.18
+    },
+    {
+      "word": "out",
+      "start": 3.18,
+      "end": 3.66
+    },
+    {
+      "word": "up",
+      "start": 3.66,
+      "end": 4.48
+    },
+    {
+      "word": "and",
+      "start": 4.48,
+      "end": 5.76
+    },
+    {
+      "word": "as",
+      "start": 5.76,
+      "end": 5.98
+    },
+    {
+      "word": "say",
+      "start": 5.98,
+      "end": 6.7
+    },
+    {
+      "word": "sail",
+      "start": 6.7,
+      "end": 8.38
+    },
+    {
+      "word": "boat",
+      "start": 11.76,
+      "end": 12.76
+    },
+    {
+      "word": "and",
+      "start": 12.76,
+      "end": 13.26
+    },
+    {
+      "word": "a",
+      "start": 13.76,
+      "end": 14.16
+    },
+    {
+      "word": "woman",
+      "start": 14.16,
+      "end": 15.22
+    },
+    {
+      "word": "and",
+      "start": 15.22,
+      "end": 15.44
+    },
+    {
+      "word": "a",
+      "start": 15.44,
+      "end": 15.58
+    },
+    {
+      "word": "man",
+      "start": 15.58,
+      "end": 15.92
+    },
+    {
+      "word": "were",
+      "start": 15.92,
+      "end": 16.28
+    },
+    {
+      "word": "having",
+      "start": 16.28,
+      "end": 16.76
+    },
+    {
+      "word": "something",
+      "start": 18.92,
+      "end": 19.42
+    },
+    {
+      "word": "to",
+      "start": 19.42,
+      "end": 19.78
+    },
+    {
+      "word": "eat",
+      "start": 19.78,
+      "end": 20.38
+    },
+    {
+      "word": "and",
+      "start": 20.38,
+      "end": 21.14
+    },
+    {
+      "word": "the",
+      "start": 22.86,
+      "end": 23.36
+    },
+    {
+      "word": "front",
+      "start": 23.36,
+      "end": 23.62
+    },
+    {
+      "word": "of",
+      "start": 23.62,
+      "end": 24.28
+    },
+    {
+      "word": "a",
+      "start": 24.28,
+      "end": 24.44
+    },
+    {
+      "word": "tree",
+      "start": 24.44,
+      "end": 24.84
+    },
+    {
+      "word": "and",
+      "start": 24.84,
+      "end": 25.42
+    },
+    {
+      "word": "a",
+      "start": 25.42,
+      "end": 25.56
+    },
+    {
+      "word": "house",
+      "start": 25.56,
+      "end": 26.2
+    },
+    {
+      "word": "there's",
+      "start": 28.46,
+      "end": 29.86
+    },
+    {
+      "word": "a",
+      "start": 29.86,
+      "end": 30.02
+    },
+    {
+      "word": "radio",
+      "start": 30.02,
+      "end": 30.6
+    },
+    {
+      "word": "going",
+      "start": 30.6,
+      "end": 31.58
+    },
+    {
+      "word": "on",
+      "start": 31.58,
+      "end": 32.28
+    },
+    {
+      "word": "is",
+      "start": 37.080000000000005,
+      "end": 38.480000000000004
+    },
+    {
+      "word": "kayak",
+      "start": 38.480000000000004,
+      "end": 39.88
+    },
+    {
+      "word": "I",
+      "start": 39.88,
+      "end": 41.0
+    },
+    {
+      "word": "don't",
+      "start": 41.0,
+      "end": 41.14
+    },
+    {
+      "word": "know",
+      "start": 41.14,
+      "end": 41.48
+    },
+    {
+      "word": "looks",
+      "start": 41.48,
+      "end": 41.98
+    },
+    {
+      "word": "like",
+      "start": 41.98,
+      "end": 42.16
+    },
+    {
+      "word": "a",
+      "start": 42.16,
+      "end": 42.32
+    },
+    {
+      "word": "kayak",
+      "start": 42.32,
+      "end": 42.78
+    },
+    {
+      "word": "and",
+      "start": 42.78,
+      "end": 44.36
+    },
+    {
+      "word": "I",
+      "start": 44.36,
+      "end": 44.4
+    },
+    {
+      "word": "don't",
+      "start": 44.4,
+      "end": 46.1
+    },
+    {
+      "word": "know",
+      "start": 46.1,
+      "end": 46.1
+    },
+    {
+      "word": "fishing",
+      "start": 46.1,
+      "end": 47.16
+    },
+    {
+      "word": "and",
+      "start": 47.16,
+      "end": 48.16
+    },
+    {
+      "word": "I",
+      "start": 48.16,
+      "end": 48.24
+    },
+    {
+      "word": "know",
+      "start": 48.24,
+      "end": 48.82
+    },
+    {
+      "word": "there's",
+      "start": 50.919999999999995,
+      "end": 51.62
+    },
+    {
+      "word": "a",
+      "start": 51.62,
+      "end": 51.78
+    },
+    {
+      "word": "lag",
+      "start": 51.78,
+      "end": 52.72
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.38,
+      "text": " The man is taking the kite out up and as say sail",
+      "tokens": [
+        50364,
+        440,
+        587,
+        307,
+        1940,
+        264,
+        38867,
+        484,
+        493,
+        293,
+        382,
+        584,
+        15758,
+        50777
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5593993292914496,
+      "compression_ratio": 1.4387755102040816,
+      "no_speech_prob": 0.0595572367310524,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.7042831182479858
+        },
+        {
+          "word": " man",
+          "start": 0.5,
+          "end": 0.8,
+          "probability": 0.9858158826828003
+        },
+        {
+          "word": " is",
+          "start": 0.8,
+          "end": 1.36,
+          "probability": 0.9973938465118408
+        },
+        {
+          "word": " taking",
+          "start": 1.36,
+          "end": 2.5,
+          "probability": 0.6824432611465454
+        },
+        {
+          "word": " the",
+          "start": 2.5,
+          "end": 2.84,
+          "probability": 0.9643831849098206
+        },
+        {
+          "word": " kite",
+          "start": 2.84,
+          "end": 3.18,
+          "probability": 0.9859018325805664
+        },
+        {
+          "word": " out",
+          "start": 3.18,
+          "end": 3.66,
+          "probability": 0.9954598546028137
+        },
+        {
+          "word": " up",
+          "start": 3.66,
+          "end": 4.48,
+          "probability": 0.48915407061576843
+        },
+        {
+          "word": " and",
+          "start": 4.48,
+          "end": 5.76,
+          "probability": 0.6786893606185913
+        },
+        {
+          "word": " as",
+          "start": 5.76,
+          "end": 5.98,
+          "probability": 0.525439977645874
+        },
+        {
+          "word": " say",
+          "start": 5.98,
+          "end": 6.7,
+          "probability": 0.3525824546813965
+        },
+        {
+          "word": " sail",
+          "start": 6.7,
+          "end": 8.38,
+          "probability": 0.6255586743354797
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.76,
+      "end": 13.0,
+      "text": " boat and",
+      "tokens": [
+        50914,
+        6582,
+        293,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5593993292914496,
+      "compression_ratio": 1.4387755102040816,
+      "no_speech_prob": 0.0595572367310524,
+      "words": [
+        {
+          "word": " boat",
+          "start": 11.76,
+          "end": 12.76,
+          "probability": 0.6813883781433105
+        },
+        {
+          "word": " and",
+          "start": 12.76,
+          "end": 13.26,
+          "probability": 0.9200364351272583
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 13.76,
+      "end": 16.76,
+      "text": " a woman and a man were having",
+      "tokens": [
+        51089,
+        257,
+        3059,
+        293,
+        257,
+        587,
+        645,
+        1419,
+        51189
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5593993292914496,
+      "compression_ratio": 1.4387755102040816,
+      "no_speech_prob": 0.0595572367310524,
+      "words": [
+        {
+          "word": " a",
+          "start": 13.76,
+          "end": 14.16,
+          "probability": 0.8104955554008484
+        },
+        {
+          "word": " woman",
+          "start": 14.16,
+          "end": 15.22,
+          "probability": 0.9816492199897766
+        },
+        {
+          "word": " and",
+          "start": 15.22,
+          "end": 15.44,
+          "probability": 0.9052984118461609
+        },
+        {
+          "word": " a",
+          "start": 15.44,
+          "end": 15.58,
+          "probability": 0.978157103061676
+        },
+        {
+          "word": " man",
+          "start": 15.58,
+          "end": 15.92,
+          "probability": 0.9993512034416199
+        },
+        {
+          "word": " were",
+          "start": 15.92,
+          "end": 16.28,
+          "probability": 0.6960771679878235
+        },
+        {
+          "word": " having",
+          "start": 16.28,
+          "end": 16.76,
+          "probability": 0.9986293315887451
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 19.14,
+      "end": 21.14,
+      "text": " something to eat and",
+      "tokens": [
+        51321,
+        746,
+        281,
+        1862,
+        293,
+        51421
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5593993292914496,
+      "compression_ratio": 1.4387755102040816,
+      "no_speech_prob": 0.0595572367310524,
+      "words": [
+        {
+          "word": " something",
+          "start": 18.92,
+          "end": 19.42,
+          "probability": 0.5714815258979797
+        },
+        {
+          "word": " to",
+          "start": 19.42,
+          "end": 19.78,
+          "probability": 0.9948809146881104
+        },
+        {
+          "word": " eat",
+          "start": 19.78,
+          "end": 20.38,
+          "probability": 0.9996414184570312
+        },
+        {
+          "word": " and",
+          "start": 20.38,
+          "end": 21.14,
+          "probability": 0.8951641917228699
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 23.0,
+      "end": 26.2,
+      "text": " the front of a tree and a house",
+      "tokens": [
+        51514,
+        264,
+        1868,
+        295,
+        257,
+        4230,
+        293,
+        257,
+        1782,
+        51656
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5593993292914496,
+      "compression_ratio": 1.4387755102040816,
+      "no_speech_prob": 0.0595572367310524,
+      "words": [
+        {
+          "word": " the",
+          "start": 22.86,
+          "end": 23.36,
+          "probability": 0.2583511471748352
+        },
+        {
+          "word": " front",
+          "start": 23.36,
+          "end": 23.62,
+          "probability": 0.9944467544555664
+        },
+        {
+          "word": " of",
+          "start": 23.62,
+          "end": 24.28,
+          "probability": 0.998126208782196
+        },
+        {
+          "word": " a",
+          "start": 24.28,
+          "end": 24.44,
+          "probability": 0.9714633226394653
+        },
+        {
+          "word": " tree",
+          "start": 24.44,
+          "end": 24.84,
+          "probability": 0.9988971948623657
+        },
+        {
+          "word": " and",
+          "start": 24.84,
+          "end": 25.42,
+          "probability": 0.8464232683181763
+        },
+        {
+          "word": " a",
+          "start": 25.42,
+          "end": 25.56,
+          "probability": 0.9880843758583069
+        },
+        {
+          "word": " house",
+          "start": 25.56,
+          "end": 26.2,
+          "probability": 0.9986114501953125
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2620,
+      "start": 28.46,
+      "end": 31.84,
+      "text": " there's a radio going on",
+      "tokens": [
+        50364,
+        456,
+        311,
+        257,
+        6477,
+        516,
+        322,
+        50646
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7695599606162623,
+      "compression_ratio": 1.369047619047619,
+      "no_speech_prob": 0.022863183170557022,
+      "words": [
+        {
+          "word": " there's",
+          "start": 28.46,
+          "end": 29.86,
+          "probability": 0.5358136370778084
+        },
+        {
+          "word": " a",
+          "start": 29.86,
+          "end": 30.02,
+          "probability": 0.9236024022102356
+        },
+        {
+          "word": " radio",
+          "start": 30.02,
+          "end": 30.6,
+          "probability": 0.9923040270805359
+        },
+        {
+          "word": " going",
+          "start": 30.6,
+          "end": 31.58,
+          "probability": 0.98175448179245
+        },
+        {
+          "word": " on",
+          "start": 31.58,
+          "end": 32.28,
+          "probability": 0.9976305961608887
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2620,
+      "start": 37.080000000000005,
+      "end": 46.1,
+      "text": " is kayak I don't know looks like a kayak and I don't know",
+      "tokens": [
+        50996,
+        307,
+        22438,
+        286,
+        500,
+        380,
+        458,
+        1542,
+        411,
+        257,
+        22438,
+        293,
+        286,
+        500,
+        380,
+        458,
+        51283
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7695599606162623,
+      "compression_ratio": 1.369047619047619,
+      "no_speech_prob": 0.022863183170557022,
+      "words": [
+        {
+          "word": " is",
+          "start": 37.080000000000005,
+          "end": 38.480000000000004,
+          "probability": 0.052512288093566895
+        },
+        {
+          "word": " kayak",
+          "start": 38.480000000000004,
+          "end": 39.88,
+          "probability": 0.34396055340766907
+        },
+        {
+          "word": " I",
+          "start": 39.88,
+          "end": 41.0,
+          "probability": 0.5585712194442749
+        },
+        {
+          "word": " don't",
+          "start": 41.0,
+          "end": 41.14,
+          "probability": 0.9970206916332245
+        },
+        {
+          "word": " know",
+          "start": 41.14,
+          "end": 41.48,
+          "probability": 0.9985993504524231
+        },
+        {
+          "word": " looks",
+          "start": 41.48,
+          "end": 41.98,
+          "probability": 0.7409877181053162
+        },
+        {
+          "word": " like",
+          "start": 41.98,
+          "end": 42.16,
+          "probability": 0.9709975719451904
+        },
+        {
+          "word": " a",
+          "start": 42.16,
+          "end": 42.32,
+          "probability": 0.971799910068512
+        },
+        {
+          "word": " kayak",
+          "start": 42.32,
+          "end": 42.78,
+          "probability": 0.9705196619033813
+        },
+        {
+          "word": " and",
+          "start": 42.78,
+          "end": 44.36,
+          "probability": 0.7872149348258972
+        },
+        {
+          "word": " I",
+          "start": 44.36,
+          "end": 44.4,
+          "probability": 0.8569728136062622
+        },
+        {
+          "word": " don't",
+          "start": 44.4,
+          "end": 46.1,
+          "probability": 0.8988084495067596
+        },
+        {
+          "word": " know",
+          "start": 46.1,
+          "end": 46.1,
+          "probability": 0.9419763088226318
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2620,
+      "start": 46.1,
+      "end": 48.82,
+      "text": " fishing and I know",
+      "tokens": [
+        51383,
+        10180,
+        293,
+        286,
+        458,
+        51473
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7695599606162623,
+      "compression_ratio": 1.369047619047619,
+      "no_speech_prob": 0.022863183170557022,
+      "words": [
+        {
+          "word": " fishing",
+          "start": 46.1,
+          "end": 47.16,
+          "probability": 0.8515450954437256
+        },
+        {
+          "word": " and",
+          "start": 47.16,
+          "end": 48.16,
+          "probability": 0.16570153832435608
+        },
+        {
+          "word": " I",
+          "start": 48.16,
+          "end": 48.24,
+          "probability": 0.5780156254768372
+        },
+        {
+          "word": " know",
+          "start": 48.24,
+          "end": 48.82,
+          "probability": 0.22914403676986694
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2620,
+      "start": 51.019999999999996,
+      "end": 52.72,
+      "text": " there's a lag",
+      "tokens": [
+        51605,
+        456,
+        311,
+        257,
+        8953,
+        51690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7695599606162623,
+      "compression_ratio": 1.369047619047619,
+      "no_speech_prob": 0.022863183170557022,
+      "words": [
+        {
+          "word": " there's",
+          "start": 50.919999999999995,
+          "end": 51.62,
+          "probability": 0.8302164375782013
+        },
+        {
+          "word": " a",
+          "start": 51.62,
+          "end": 51.78,
+          "probability": 0.9495489597320557
+        },
+        {
+          "word": " lag",
+          "start": 51.78,
+          "end": 52.72,
+          "probability": 0.1851453334093094
+        }
+      ]
+    }
+  ]
+}
