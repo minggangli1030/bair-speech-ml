@@ -28,6 +28,8 @@ from src.features.dissociation import cliffs_delta, interpret_cliffs_delta, mann
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--features", type=Path, default=Path("outputs/ppa_dissociation_all.csv"))
+    parser.add_argument("--layer2-fixed", type=Path, default=None,
+                        help="Optional: CSV with s_sem_layer2_adequacy_fixed (from fix_layer2_population_norm.py)")
     parser.add_argument("--output", type=Path, default=Path("outputs/ablation_alpha_sweep.json"))
     parser.add_argument("--alphas", type=str, default="0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0",
                         help="Comma-separated alpha values to sweep")
@@ -37,6 +39,20 @@ def main():
 
     alphas = [float(a.strip()) for a in args.alphas.split(",")]
     df = pd.read_csv(args.features)
+
+    # Merge fixed Layer 2 if provided
+    layer2_col = "s_sem_layer2_adequacy"
+    if args.layer2_fixed and args.layer2_fixed.exists():
+        l2_fixed = pd.read_csv(args.layer2_fixed)
+        df = df.merge(
+            l2_fixed[["subject_id", "session", "s_sem_layer2_adequacy_fixed"]],
+            on=["subject_id", "session"],
+            how="left",
+        )
+        if "s_sem_layer2_adequacy_fixed" in df.columns:
+            df["s_sem_layer2_adequacy"] = df["s_sem_layer2_adequacy_fixed"].fillna(df["s_sem_layer2_adequacy"])
+            layer2_col = "s_sem_layer2_adequacy"
+            print("Using population-normed Layer 2 (s_sem_layer2_adequacy_fixed)")
 
     # Need s_sem_graph, s_sem_layer2_adequacy, s_ph for control + svPPA
     df_binary = df[df["subtype"].isin(["control", "svppa"])].copy()

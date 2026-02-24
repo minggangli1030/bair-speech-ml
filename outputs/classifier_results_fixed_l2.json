@@ -1,0 +1,280 @@
+[
+  {
+    "model": "S_sem_only",
+    "n_samples": 67,
+    "n_features": 1,
+    "feature_names": [
+      "s_sem"
+    ],
+    "accuracy": 0.7014925373134329,
+    "precision": 0.8055555555555556,
+    "recall": 0.6904761904761905,
+    "f1": 0.7435897435897436,
+    "roc_auc": 0.7552380952380953,
+    "confusion_matrix": [
+      [
+        18,
+        7
+      ],
+      [
+        13,
+        29
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.5806451612903226,
+        "recall": 0.72,
+        "f1-score": 0.6428571428571429,
+        "support": 25.0
+      },
+      "svppa": {
+        "precision": 0.8055555555555556,
+        "recall": 0.6904761904761905,
+        "f1-score": 0.7435897435897436,
+        "support": 42.0
+      },
+      "accuracy": 0.7014925373134329,
+      "macro avg": {
+        "precision": 0.6931003584229392,
+        "recall": 0.7052380952380952,
+        "f1-score": 0.6932234432234432,
+        "support": 67.0
+      },
+      "weighted avg": {
+        "precision": 0.721633766650618,
+        "recall": 0.7014925373134329,
+        "f1-score": 0.7060029522716091,
+        "support": 67.0
+      }
+    },
+    "coefficients": {
+      "s_sem": -1.1335987723552416
+    },
+    "top_features": [
+      [
+        "s_sem",
+        -1.1335987723552416
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem",
+    "n_samples": 67,
+    "n_features": 2,
+    "feature_names": [
+      "s_ph",
+      "s_sem"
+    ],
+    "accuracy": 0.8507462686567164,
+    "precision": 0.9,
+    "recall": 0.8571428571428571,
+    "f1": 0.8780487804878049,
+    "roc_auc": 0.9066666666666666,
+    "confusion_matrix": [
+      [
+        21,
+        4
+      ],
+      [
+        6,
+        36
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.7777777777777778,
+        "recall": 0.84,
+        "f1-score": 0.8076923076923077,
+        "support": 25.0
+      },
+      "svppa": {
+        "precision": 0.9,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8780487804878049,
+        "support": 42.0
+      },
+      "accuracy": 0.8507462686567164,
+      "macro avg": {
+        "precision": 0.8388888888888889,
+        "recall": 0.8485714285714285,
+        "f1-score": 0.8428705440900564,
+        "support": 67.0
+      },
+      "weighted avg": {
+        "precision": 0.8543946932006635,
+        "recall": 0.8507462686567164,
+        "f1-score": 0.8517963652656044,
+        "support": 67.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -1.916289445154153,
+      "s_sem": -0.6844458849843127
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -1.916289445154153
+      ],
+      [
+        "s_sem",
+        -0.6844458849843127
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem_Delta",
+    "n_samples": 67,
+    "n_features": 3,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta"
+    ],
+    "accuracy": 0.8507462686567164,
+    "precision": 0.9,
+    "recall": 0.8571428571428571,
+    "f1": 0.8780487804878049,
+    "roc_auc": 0.9057142857142857,
+    "confusion_matrix": [
+      [
+        21,
+        4
+      ],
+      [
+        6,
+        36
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.7777777777777778,
+        "recall": 0.84,
+        "f1-score": 0.8076923076923077,
+        "support": 25.0
+      },
+      "svppa": {
+        "precision": 0.9,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8780487804878049,
+        "support": 42.0
+      },
+      "accuracy": 0.8507462686567164,
+      "macro avg": {
+        "precision": 0.8388888888888889,
+        "recall": 0.8485714285714285,
+        "f1-score": 0.8428705440900564,
+        "support": 67.0
+      },
+      "weighted avg": {
+        "precision": 0.8543946932006635,
+        "recall": 0.8507462686567164,
+        "f1-score": 0.8517963652656044,
+        "support": 67.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -1.7897021667732305,
+      "s_sem": -0.9117379323174964,
+      "delta": -0.22470794670910335
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -1.7897021667732305
+      ],
+      [
+        "s_sem",
+        -0.9117379323174964
+      ],
+      [
+        "delta",
+        -0.22470794670910335
+      ]
+    ]
+  },
+  {
+    "model": "Dissociation_Plus",
+    "n_samples": 67,
+    "n_features": 5,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta",
+      "phoneme_error_rate",
+      "silence_ratio"
+    ],
+    "accuracy": 0.8208955223880597,
+    "precision": 0.8947368421052632,
+    "recall": 0.8095238095238095,
+    "f1": 0.85,
+    "roc_auc": 0.8961904761904762,
+    "confusion_matrix": [
+      [
+        21,
+        4
+      ],
+      [
+        8,
+        34
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.7241379310344828,
+        "recall": 0.84,
+        "f1-score": 0.7777777777777778,
+        "support": 25.0
+      },
+      "svppa": {
+        "precision": 0.8947368421052632,
+        "recall": 0.8095238095238095,
+        "f1-score": 0.85,
+        "support": 42.0
+      },
+      "accuracy": 0.8208955223880597,
+      "macro avg": {
+        "precision": 0.809437386569873,
+        "recall": 0.8247619047619048,
+        "f1-score": 0.8138888888888889,
+        "support": 67.0
+      },
+      "weighted avg": {
+        "precision": 0.8310805320042256,
+        "recall": 0.8208955223880597,
+        "f1-score": 0.8230514096185738,
+        "support": 67.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -1.0883605776832985,
+      "s_sem": -0.6638513355874427,
+      "delta": -0.0013102086522792048,
+      "phoneme_error_rate": 1.088360577683298,
+      "silence_ratio": -0.021258733498208362
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -1.0883605776832985
+      ],
+      [
+        "phoneme_error_rate",
+        1.088360577683298
+      ],
+      [
+        "s_sem",
+        -0.6638513355874427
+      ],
+      [
+        "silence_ratio",
+        -0.021258733498208362
+      ],
+      [
+        "delta",
+        -0.0013102086522792048
+      ]
+    ]
+  }
+]

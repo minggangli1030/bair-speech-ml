@@ -16,7 +16,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report, confusion_matrix
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.preprocessing import StandardScaler
 
@@ -66,12 +66,14 @@ def main():
         "model": "S_sem_only",
         "n_samples": len(df),
         "accuracy": float(accuracy_score(y, y_pred1)),
-        "f1_macro": float(f1_score(y, y_pred1, average="macro")),
-        "f1_weighted": float(f1_score(y, y_pred1, average="weighted")),
+        "precision_macro": float(precision_score(y, y_pred1, average="macro", zero_division=0)),
+        "recall_macro": float(recall_score(y, y_pred1, average="macro", zero_division=0)),
+        "f1_macro": float(f1_score(y, y_pred1, average="macro", zero_division=0)),
+        "f1_weighted": float(f1_score(y, y_pred1, average="weighted", zero_division=0)),
         "confusion_matrix": confusion_matrix(y, y_pred1).tolist(),
     }
     results.append(r1)
-    print(f"\n1. S_sem only (composite): Acc={r1['accuracy']:.3f}, Macro F1={r1['f1_macro']:.3f}")
+    print(f"\n1. S_sem only: Acc={r1['accuracy']:.3f} Prec={r1['precision_macro']:.3f} Rec={r1['recall_macro']:.3f} F1_macro={r1['f1_macro']:.3f}")
     
     # Model 2: S_ph + S_sem (subsample with S_ph)
     df_sph = df[df["s_ph"].notna()].dropna(subset=["s_ph", "s_sem"])
@@ -84,12 +86,14 @@ def main():
             "model": "S_ph_S_sem",
             "n_samples": len(df_sph),
             "accuracy": float(accuracy_score(y2, y_pred2)),
-            "f1_macro": float(f1_score(y2, y_pred2, average="macro")),
-            "f1_weighted": float(f1_score(y2, y_pred2, average="weighted")),
+            "precision_macro": float(precision_score(y2, y_pred2, average="macro", zero_division=0)),
+            "recall_macro": float(recall_score(y2, y_pred2, average="macro", zero_division=0)),
+            "f1_macro": float(f1_score(y2, y_pred2, average="macro", zero_division=0)),
+            "f1_weighted": float(f1_score(y2, y_pred2, average="weighted", zero_division=0)),
             "confusion_matrix": confusion_matrix(y2, y_pred2).tolist(),
         }
         results.append(r2)
-        print(f"2. S_ph + S_sem: Acc={r2['accuracy']:.3f}, Macro F1={r2['f1_macro']:.3f} (n={len(df_sph)})")
+        print(f"2. S_ph + S_sem: Acc={r2['accuracy']:.3f} Prec={r2['precision_macro']:.3f} Rec={r2['recall_macro']:.3f} F1_macro={r2['f1_macro']:.3f} (n={len(df_sph)})")
     
     # Model 3: S_ph + S_sem + Δ (full dissociation)
     df_delta = df[df["delta"].notna()].dropna(subset=["s_ph", "s_sem", "delta"])
@@ -102,12 +106,14 @@ def main():
             "model": "S_ph_S_sem_Delta",
             "n_samples": len(df_delta),
             "accuracy": float(accuracy_score(y3, y_pred3)),
-            "f1_macro": float(f1_score(y3, y_pred3, average="macro")),
-            "f1_weighted": float(f1_score(y3, y_pred3, average="weighted")),
+            "precision_macro": float(precision_score(y3, y_pred3, average="macro", zero_division=0)),
+            "recall_macro": float(recall_score(y3, y_pred3, average="macro", zero_division=0)),
+            "f1_macro": float(f1_score(y3, y_pred3, average="macro", zero_division=0)),
+            "f1_weighted": float(f1_score(y3, y_pred3, average="weighted", zero_division=0)),
             "confusion_matrix": confusion_matrix(y3, y_pred3).tolist(),
         }
         results.append(r3)
-        print(f"3. S_ph + S_sem + Δ: Acc={r3['accuracy']:.3f}, Macro F1={r3['f1_macro']:.3f} (n={len(df_delta)})")
+        print(f"3. S_ph + S_sem + Δ: Acc={r3['accuracy']:.3f} Prec={r3['precision_macro']:.3f} Rec={r3['recall_macro']:.3f} F1_macro={r3['f1_macro']:.3f} (n={len(df_delta)})")
     
     # Model 4: S_sem + components (s_sem_graph, s_sem_layer2_adequacy) if available
     comp_cols = [c for c in ["s_sem_graph", "s_sem_layer2_adequacy"] if c in df.columns]
@@ -120,12 +126,14 @@ def main():
             "model": "S_sem_plus_components",
             "n_samples": len(df),
             "accuracy": float(accuracy_score(y, y_pred4)),
-            "f1_macro": float(f1_score(y, y_pred4, average="macro")),
-            "f1_weighted": float(f1_score(y, y_pred4, average="weighted")),
+            "precision_macro": float(precision_score(y, y_pred4, average="macro", zero_division=0)),
+            "recall_macro": float(recall_score(y, y_pred4, average="macro", zero_division=0)),
+            "f1_macro": float(f1_score(y, y_pred4, average="macro", zero_division=0)),
+            "f1_weighted": float(f1_score(y, y_pred4, average="weighted", zero_division=0)),
             "confusion_matrix": confusion_matrix(y, y_pred4).tolist(),
         }
         results.append(r4)
-        print(f"4. S_sem + components: Acc={r4['accuracy']:.3f}, Macro F1={r4['f1_macro']:.3f}")
+        print(f"4. S_sem + components: Acc={r4['accuracy']:.3f} Prec={r4['precision_macro']:.3f} Rec={r4['recall_macro']:.3f} F1_macro={r4['f1_macro']:.3f}")
     
     best = max(results, key=lambda r: r["accuracy"])
     y_pred_best, y_report = preds[best["model"]]

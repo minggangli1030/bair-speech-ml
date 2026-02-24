@@ -1,0 +1,140 @@
+{
+  "n_control": 25,
+  "n_svppa": 42,
+  "results": [
+    {
+      "alpha": 0.0,
+      "label": "layer2_only",
+      "delta_control_mean": -0.1756088466507592,
+      "delta_svppa_mean": -0.184746640348447,
+      "delta_mean_diff": -0.009137793697687802,
+      "p_value": 0.68300326911205,
+      "cliffs_delta": 0.06095238095238095,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8507462686567164,
+      "classifier_f1": 0.8780487804878049
+    },
+    {
+      "alpha": 0.1,
+      "label": "composite_\u03b1=0.1",
+      "delta_control_mean": -0.13909425954255217,
+      "delta_svppa_mean": -0.14477892338872245,
+      "delta_mean_diff": -0.005684663846170279,
+      "p_value": 0.7409588097639974,
+      "cliffs_delta": 0.049523809523809526,
+      "effect_size": "negligible",
+      "classifier_acc": 0.835820895522388,
+      "classifier_f1": 0.8641975308641975
+    },
+    {
+      "alpha": 0.2,
+      "label": "composite_\u03b1=0.2",
+      "delta_control_mean": -0.10257967243434513,
+      "delta_svppa_mean": -0.10481120642899786,
+      "delta_mean_diff": -0.002231533994652729,
+      "p_value": 0.8104578797912835,
+      "cliffs_delta": 0.03619047619047619,
+      "effect_size": "negligible",
+      "classifier_acc": 0.835820895522388,
+      "classifier_f1": 0.8641975308641975
+    },
+    {
+      "alpha": 0.3,
+      "label": "composite_\u03b1=0.3",
+      "delta_control_mean": -0.06606508532613801,
+      "delta_svppa_mean": -0.06484348946927322,
+      "delta_mean_diff": 0.0012215958568647933,
+      "p_value": 0.8712657468210143,
+      "cliffs_delta": 0.024761904761904763,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8507462686567164,
+      "classifier_f1": 0.875
+    },
+    {
+      "alpha": 0.4,
+      "label": "composite_\u03b1=0.4",
+      "delta_control_mean": -0.029550498217930973,
+      "delta_svppa_mean": -0.02487577250954867,
+      "delta_mean_diff": 0.004674725708382302,
+      "p_value": 0.994828118784909,
+      "cliffs_delta": -0.0019047619047619048,
+      "effect_size": "negligible",
+      "classifier_acc": 0.835820895522388,
+      "classifier_f1": 0.8641975308641975
+    },
+    {
+      "alpha": 0.5,
+      "label": "composite_\u03b1=0.5",
+      "delta_control_mean": 0.006964088890276077,
+      "delta_svppa_mean": 0.015091944450175906,
+      "delta_mean_diff": 0.00812785555989983,
+      "p_value": 0.861067842988896,
+      "cliffs_delta": -0.02666666666666667,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8507462686567164,
+      "classifier_f1": 0.8780487804878049
+    },
+    {
+      "alpha": 0.6,
+      "label": "composite_\u03b1=0.6",
+      "delta_control_mean": 0.043478675998483124,
+      "delta_svppa_mean": 0.05505966140990047,
+      "delta_mean_diff": 0.011580985411417347,
+      "p_value": 0.68300326911205,
+      "cliffs_delta": -0.06095238095238095,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8656716417910447,
+      "classifier_f1": 0.8888888888888888
+    },
+    {
+      "alpha": 0.7,
+      "label": "composite_\u03b1=0.7",
+      "delta_control_mean": 0.07999326310669017,
+      "delta_svppa_mean": 0.09502737836962505,
+      "delta_mean_diff": 0.015034115262934883,
+      "p_value": 0.5816520703553032,
+      "cliffs_delta": -0.08190476190476191,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8805970149253731,
+      "classifier_f1": 0.9
+    },
+    {
+      "alpha": 0.8,
+      "label": "composite_\u03b1=0.8",
+      "delta_control_mean": 0.11650785021489726,
+      "delta_svppa_mean": 0.13499509532934967,
+      "delta_mean_diff": 0.018487245114452405,
+      "p_value": 0.4328485506220322,
+      "cliffs_delta": -0.11619047619047619,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8656716417910447,
+      "classifier_f1": 0.8888888888888888
+    },
+    {
+      "alpha": 0.9,
+      "label": "composite_\u03b1=0.9",
+      "delta_control_mean": 0.1530224373231043,
+      "delta_svppa_mean": 0.17496281228907426,
+      "delta_mean_diff": 0.021940374965969955,
+      "p_value": 0.3675866311770438,
+      "cliffs_delta": -0.13333333333333333,
+      "effect_size": "negligible",
+      "classifier_acc": 0.8507462686567164,
+      "classifier_f1": 0.875
+    },
+    {
+      "alpha": 1.0,
+      "label": "scene_graph_only",
+      "delta_control_mean": 0.18953702443131135,
+      "delta_svppa_mean": 0.2149305292487988,
+      "delta_mean_diff": 0.02539350481748745,
+      "p_value": 0.3341324831651695,
+      "cliffs_delta": -0.14285714285714285,
+      "effect_size": "negligible",
+      "classifier_acc": 0.835820895522388,
+      "classifier_f1": 0.8607594936708861
+    }
+  ],
+  "best_alpha_for_p": null,
+  "best_alpha_for_acc": 0.7
+}

@@ -22,7 +22,15 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, confusion_matrix, classification_report
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    precision_score,
+    recall_score,
+    roc_auc_score,
+    confusion_matrix,
+    classification_report,
+)
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.preprocessing import StandardScaler
 
@@ -86,12 +94,15 @@ def train_and_evaluate(
     
     # Metrics
     acc = accuracy_score(y, y_pred_cv)
-    f1 = f1_score(y, y_pred_cv, average="binary")
+    f1 = f1_score(y, y_pred_cv, average="binary", zero_division=0)
+    prec = precision_score(y, y_pred_cv, average="binary", zero_division=0)
+    rec = recall_score(y, y_pred_cv, average="binary", zero_division=0)
     try:
         roc = roc_auc_score(y, y_prob_cv)
-    except:
+    except Exception:
         roc = float("nan")
     cm = confusion_matrix(y, y_pred_cv)
+    report = classification_report(y, y_pred_cv, target_names=["control", "svppa"], output_dict=True, zero_division=0)
     
     # Coefficients
     coef = clf.coef_.ravel()
@@ -104,9 +115,12 @@ def train_and_evaluate(
         "n_features": len(feature_names),
         "feature_names": feature_names,
         "accuracy": float(acc),
+        "precision": float(prec),
+        "recall": float(rec),
         "f1": float(f1),
         "roc_auc": float(roc),
         "confusion_matrix": cm.tolist(),
+        "classification_report": report,
         "coefficients": coef_dict,
         "top_features": top_features,
     }
@@ -147,7 +161,7 @@ def main():
     X1 = df[feat1].values
     r1 = train_and_evaluate(X1, y, feat1, "S_sem_only", args.cv_folds)
     results.append(r1)
-    print(f"\n1. S_sem only: Acc={r1['accuracy']:.3f}, F1={r1['f1']:.3f}, AUC={r1['roc_auc']:.3f}")
+    print(f"\n1. S_sem only: Acc={r1['accuracy']:.3f} Prec={r1.get('precision',0):.3f} Rec={r1.get('recall',0):.3f} F1={r1['f1']:.3f} AUC={r1['roc_auc']:.3f}")
     
     # Model 2: S_ph + S_sem (only for samples with S_ph, requires both classes)
     df_with_sph = df[df["s_ph"].notna() & (df["s_ph"] > 0)]
@@ -158,7 +172,7 @@ def main():
         y2 = df_with_sph["label"].astype(int).values
         r2 = train_and_evaluate(X2, y2, feat2, "S_ph_S_sem", args.cv_folds)
         results.append(r2)
-        print(f"2. S_ph + S_sem: Acc={r2['accuracy']:.3f}, F1={r2['f1']:.3f}, AUC={r2['roc_auc']:.3f} (n={len(df_with_sph)})")
+        print(f"2. S_ph + S_sem: Acc={r2['accuracy']:.3f} Prec={r2.get('precision',0):.3f} Rec={r2.get('recall',0):.3f} F1={r2['f1']:.3f} AUC={r2['roc_auc']:.3f} (n={len(df_with_sph)})")
     else:
         print(f"2. S_ph + S_sem: Skipped ({len(df_with_sph)} samples, {n_classes_sph} class(es) - need S_ph for controls)")
     
@@ -171,7 +185,7 @@ def main():
         y3 = df_with_delta["label"].astype(int).values
         r3 = train_and_evaluate(X3, y3, feat3, "S_ph_S_sem_Delta", args.cv_folds)
         results.append(r3)
-        print(f"3. S_ph + S_sem + Δ: Acc={r3['accuracy']:.3f}, F1={r3['f1']:.3f}, AUC={r3['roc_auc']:.3f} (n={len(df_with_delta)})")
+        print(f"3. S_ph + S_sem + Δ: Acc={r3['accuracy']:.3f} Prec={r3.get('precision',0):.3f} Rec={r3.get('recall',0):.3f} F1={r3['f1']:.3f} AUC={r3['roc_auc']:.3f} (n={len(df_with_delta)})")
     else:
         print(f"3. S_ph + S_sem + Δ: Skipped ({len(df_with_delta)} samples, {n_classes_delta} class(es) - need Δ for controls)")
     
@@ -184,7 +198,7 @@ def main():
         y4 = df_with_delta["label"].astype(int).values
         r4 = train_and_evaluate(X4, y4, feat4, "Dissociation_Plus", args.cv_folds)
         results.append(r4)
-        print(f"4. Dissociation + extras: Acc={r4['accuracy']:.3f}, F1={r4['f1']:.3f}, AUC={r4['roc_auc']:.3f}")
+        print(f"4. Dissociation + extras: Acc={r4['accuracy']:.3f} Prec={r4.get('precision',0):.3f} Rec={r4.get('recall',0):.3f} F1={r4['f1']:.3f}")
     
     # Model 5: Layer 2 features only (ablation)
     l2_cols = [c for c in df.columns if c.startswith("reduced_") or c in [
@@ -197,7 +211,7 @@ def main():
         X5 = df[feat5].values
         r5 = train_and_evaluate(X5, y, feat5, "Layer2_Only", args.cv_folds)
         results.append(r5)
-        print(f"5. Layer 2 only: Acc={r5['accuracy']:.3f}, F1={r5['f1']:.3f}, AUC={r5['roc_auc']:.3f}")
+        print(f"5. Layer 2 only: Acc={r5['accuracy']:.3f} Prec={r5.get('precision',0):.3f} Rec={r5.get('recall',0):.3f} F1={r5['f1']:.3f}")
         
         # Model 6: Layer 2 + Dissociation (full ablation)
         if len(df_with_delta) >= 10 and n_classes_delta >= 2:
@@ -206,7 +220,7 @@ def main():
             y6 = df_with_delta["label"].astype(int).values
             r6 = train_and_evaluate(X6, y6, feat6, "Layer2_Plus_Dissociation", args.cv_folds)
             results.append(r6)
-            print(f"6. Layer 2 + Dissociation: Acc={r6['accuracy']:.3f}, F1={r6['f1']:.3f}, AUC={r6['roc_auc']:.3f}")
+            print(f"6. Layer 2 + Dissociation: Acc={r6['accuracy']:.3f} Prec={r6.get('precision',0):.3f} Rec={r6.get('recall',0):.3f} F1={r6['f1']:.3f}")
     
     # Statistical comparison: S_sem between groups
     print("\n" + "="*60)
@@ -240,13 +254,15 @@ def main():
     print(f"\nResults saved to {args.output}")
     
     # Summary table
-    print("\n" + "="*60)
-    print("SUMMARY: Classification Results")
-    print("="*60)
-    print(f"{'Model':<30} {'N':>5} {'Acc':>6} {'F1':>6} {'AUC':>6}")
-    print("-"*60)
+    print("\n" + "="*70)
+    print("SUMMARY: Classification Results (control vs svPPA)")
+    print("="*70)
+    print(f"{'Model':<28} {'N':>4} {'Acc':>6} {'Prec':>6} {'Rec':>6} {'F1':>6} {'AUC':>6}")
+    print("-"*70)
     for r in results:
-        print(f"{r['model']:<30} {r['n_samples']:>5} {r['accuracy']:>6.3f} {r['f1']:>6.3f} {r['roc_auc']:>6.3f}")
+        prec = r.get("precision", float("nan"))
+        rec = r.get("recall", float("nan"))
+        print(f"{r['model']:<28} {r['n_samples']:>4} {r['accuracy']:>6.3f} {prec:>6.3f} {rec:>6.3f} {r['f1']:>6.3f} {r['roc_auc']:>6.3f}")
 
 
 if __name__ == "__main__":
