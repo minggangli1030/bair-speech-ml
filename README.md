@@ -121,6 +121,13 @@ semantic-evaluation/
 
 ---
 
+## Baselines and augmentation (for the paper)
+
+- **LLM baseline:** Use as the **weakest** baseline. Same transcript → LLM (e.g. gpt-4o-mini) → subtype. Report ~37% AUC (sv vs nflv) vs pipeline ~73%; no phonology, so it underperforms.
+- **Synthetic augmentation:** Simulated svPPA = degraded semantic channel only (S_ph from real nfv/lv). **With vs without augmentation** comparison is in `outputs/AUGMENTATION_COMPARISON.md`. Result: augmentation does **not** improve real-only performance; main sv vs nflv result stays **real data only**. Frame synthesis as controlled semantic degradation; state explicitly that S_ph in simulated samples is borrowed from real nfv/lv (preserved phonology assumption).
+
+---
+
 ## Feature definitions
 
 - **S_ph:** Phonological adequacy (1 − phoneme error rate), SylWav vs G2P.
@@ -128,6 +135,12 @@ semantic-evaluation/
 - **S_sem:** Composite = α × S_sem_graph + (1−α) × Layer2_semantic_adequacy; Layer2 adequacy = 1 − mean(anomia, empty_speech, semantic_paraphasias).
 - **Δ:** S_ph − S_sem.
 - **Layer 2 (fixed):** Population-normed constructs (agrammatism, reduced_speech_rate, anomia, empty_speech, semantic_paraphasias, etc.).
+
+---
+
+## Methodology (detailed)
+
+A **step-by-step methodology** for every part of the pipeline (parsing, Layer 1/2, S_ph, S_sem, Δ, merge, classifiers, simulated data, LLM baseline, ablations, and statistics) is in **`docs/METHODOLOGY.md`**.
 
 ---
 

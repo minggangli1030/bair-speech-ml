@@ -1,0 +1,280 @@
+[
+  {
+    "model": "S_sem_only",
+    "n_samples": 229,
+    "n_features": 1,
+    "feature_names": [
+      "s_sem"
+    ],
+    "accuracy": 0.4759825327510917,
+    "precision": 0.18032786885245902,
+    "recall": 0.5238095238095238,
+    "f1": 0.2682926829268293,
+    "roc_auc": 0.46078431372549017,
+    "confusion_matrix": [
+      [
+        87,
+        100
+      ],
+      [
+        20,
+        22
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.8130841121495327,
+        "recall": 0.46524064171123,
+        "f1-score": 0.5918367346938775,
+        "support": 187.0
+      },
+      "svppa": {
+        "precision": 0.18032786885245902,
+        "recall": 0.5238095238095238,
+        "f1-score": 0.2682926829268293,
+        "support": 42.0
+      },
+      "accuracy": 0.4759825327510917,
+      "macro avg": {
+        "precision": 0.49670599050099584,
+        "recall": 0.4945250827603769,
+        "f1-score": 0.4300647088103534,
+        "support": 229.0
+      },
+      "weighted avg": {
+        "precision": 0.6970327487500694,
+        "recall": 0.4759825327510917,
+        "f1-score": 0.5324967776012312,
+        "support": 229.0
+      }
+    },
+    "coefficients": {
+      "s_sem": 0.1086353758559881
+    },
+    "top_features": [
+      [
+        "s_sem",
+        0.1086353758559881
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem",
+    "n_samples": 229,
+    "n_features": 2,
+    "feature_names": [
+      "s_ph",
+      "s_sem"
+    ],
+    "accuracy": 0.519650655021834,
+    "precision": 0.19090909090909092,
+    "recall": 0.5,
+    "f1": 0.27631578947368424,
+    "roc_auc": 0.49146931499872676,
+    "confusion_matrix": [
+      [
+        98,
+        89
+      ],
+      [
+        21,
+        21
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.8235294117647058,
+        "recall": 0.5240641711229946,
+        "f1-score": 0.6405228758169934,
+        "support": 187.0
+      },
+      "svppa": {
+        "precision": 0.19090909090909092,
+        "recall": 0.5,
+        "f1-score": 0.27631578947368424,
+        "support": 42.0
+      },
+      "accuracy": 0.519650655021834,
+      "macro avg": {
+        "precision": 0.5072192513368984,
+        "recall": 0.5120320855614973,
+        "f1-score": 0.45841933264533885,
+        "support": 229.0
+      },
+      "weighted avg": {
+        "precision": 0.7075029773719731,
+        "recall": 0.519650655021834,
+        "f1-score": 0.5737250695880896,
+        "support": 229.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -0.20656717210845718,
+      "s_sem": 0.20532541646685254
+    },
+    "top_features": [
+      [
+        "s_ph",
+        -0.20656717210845718
+      ],
+      [
+        "s_sem",
+        0.20532541646685254
+      ]
+    ]
+  },
+  {
+    "model": "S_ph_S_sem_Delta",
+    "n_samples": 229,
+    "n_features": 3,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta"
+    ],
+    "accuracy": 0.519650655021834,
+    "precision": 0.19090909090909092,
+    "recall": 0.5,
+    "f1": 0.27631578947368424,
+    "roc_auc": 0.49312452253628725,
+    "confusion_matrix": [
+      [
+        98,
+        89
+      ],
+      [
+        21,
+        21
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.8235294117647058,
+        "recall": 0.5240641711229946,
+        "f1-score": 0.6405228758169934,
+        "support": 187.0
+      },
+      "svppa": {
+        "precision": 0.19090909090909092,
+        "recall": 0.5,
+        "f1-score": 0.27631578947368424,
+        "support": 42.0
+      },
+      "accuracy": 0.519650655021834,
+      "macro avg": {
+        "precision": 0.5072192513368984,
+        "recall": 0.5120320855614973,
+        "f1-score": 0.45841933264533885,
+        "support": 229.0
+      },
+      "weighted avg": {
+        "precision": 0.7075029773719731,
+        "recall": 0.519650655021834,
+        "f1-score": 0.5737250695880896,
+        "support": 229.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -0.09667947123605254,
+      "s_sem": 0.05075083548949743,
+      "delta": -0.13876342455831855
+    },
+    "top_features": [
+      [
+        "delta",
+        -0.13876342455831855
+      ],
+      [
+        "s_ph",
+        -0.09667947123605254
+      ],
+      [
+        "s_sem",
+        0.05075083548949743
+      ]
+    ]
+  },
+  {
+    "model": "Dissociation_Plus",
+    "n_samples": 229,
+    "n_features": 5,
+    "feature_names": [
+      "s_ph",
+      "s_sem",
+      "delta",
+      "phoneme_error_rate",
+      "silence_ratio"
+    ],
+    "accuracy": 0.5982532751091703,
+    "precision": 0.22826086956521738,
+    "recall": 0.5,
+    "f1": 0.31343283582089554,
+    "roc_auc": 0.6201935319582378,
+    "confusion_matrix": [
+      [
+        116,
+        71
+      ],
+      [
+        21,
+        21
+      ]
+    ],
+    "classification_report": {
+      "control": {
+        "precision": 0.8467153284671532,
+        "recall": 0.6203208556149733,
+        "f1-score": 0.7160493827160493,
+        "support": 187.0
+      },
+      "svppa": {
+        "precision": 0.22826086956521738,
+        "recall": 0.5,
+        "f1-score": 0.31343283582089554,
+        "support": 42.0
+      },
+      "accuracy": 0.5982532751091703,
+      "macro avg": {
+        "precision": 0.5374880990161853,
+        "recall": 0.5601604278074866,
+        "f1-score": 0.5147411092684724,
+        "support": 229.0
+      },
+      "weighted avg": {
+        "precision": 0.7332869997602479,
+        "recall": 0.5982532751091703,
+        "f1-score": 0.6422070466042745,
+        "support": 229.0
+      }
+    },
+    "coefficients": {
+      "s_ph": -0.07774638406703774,
+      "s_sem": 0.04890773130198921,
+      "delta": -0.12092047125020262,
+      "phoneme_error_rate": 0.07774638406703782,
+      "silence_ratio": -0.5594343957656617
+    },
+    "top_features": [
+      [
+        "silence_ratio",
+        -0.5594343957656617
+      ],
+      [
+        "delta",
+        -0.12092047125020262
+      ],
+      [
+        "phoneme_error_rate",
+        0.07774638406703782
+      ],
+      [
+        "s_ph",
+        -0.07774638406703774
+      ],
+      [
+        "s_sem",
+        0.04890773130198921
+      ]
+    ]
+  }
+]

@@ -126,6 +126,55 @@ def train_and_evaluate(
     }
 
 
+def train_and_evaluate_real_only(
+    df: pd.DataFrame,
+    real_mask: np.ndarray,
+    feat_cols: list[str],
+    model_name: str,
+    cv_folds: int = 5,
+) -> dict:
+    """Train on real_train + all simulated, test on real only. For augmentation comparison."""
+    real_idx = np.where(real_mask)[0]
+    sim_mask = ~real_mask
+    sim_idx = np.where(sim_mask)[0]
+    X = df[feat_cols].values
+    y = df["label"].astype(int).values
+    X = impute_median(X)
+    scaler = StandardScaler()
+    X_sc = scaler.fit_transform(X)
+    clf = LogisticRegression(penalty="l2", C=1.0, class_weight="balanced", max_iter=1000, random_state=42, solver="lbfgs")
+    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
+    y_real = y[real_idx]
+    real_pred = np.full(len(real_idx), -1)
+    real_prob = np.full(len(real_idx), np.nan)
+    for tr, te in cv.split(np.arange(len(real_idx)), y_real):
+        real_train_idx = real_idx[tr]
+        real_test_idx = real_idx[te]
+        train_idx = np.concatenate([real_train_idx, sim_idx])
+        X_tr = X_sc[train_idx]
+        y_tr = y[train_idx]
+        X_te = X_sc[real_test_idx]
+        clf.fit(X_tr, y_tr)
+        real_pred[te] = clf.predict(X_te)
+        real_prob[te] = clf.predict_proba(X_te)[:, 1]
+    acc = accuracy_score(y_real, real_pred)
+    f1 = f1_score(y_real, real_pred, zero_division=0)
+    try:
+        auc = roc_auc_score(y_real, real_prob)
+    except Exception:
+        auc = float("nan")
+    return {"model": model_name, "accuracy": float(acc), "f1": float(f1), "roc_auc": float(auc), "n_real": int(len(real_idx))}
+
+
+def impute_median(X: np.ndarray) -> np.ndarray:
+    X = X.copy()
+    for j in range(X.shape[1]):
+        col = X[:, j]
+        m = np.nanmedian(col)
+        X[np.isnan(X[:, j]), j] = m if not np.isnan(m) else 0.0
+    return X
+
+
 def main():
     parser = argparse.ArgumentParser(description="Train dissociation classifier + ablation")
     parser.add_argument("--features", type=Path, default=Path("outputs/ppa_dissociation_50.csv"),
@@ -287,6 +336,18 @@ def main():
         prec = r.get("precision", float("nan"))
         rec = r.get("recall", float("nan"))
         print(f"{r['model']:<28} {r['n_samples']:>4} {r['accuracy']:>6.3f} {prec:>6.3f} {rec:>6.3f} {r['f1']:>6.3f} {r['roc_auc']:>6.3f}")
+
+    # When using simulated data: report metrics on REAL samples only (train on real+sim, test on real)
+    if args.task == "sv_vs_nflf" and (args.simulated_csv and args.simulated_csv.exists()):
+        df_with_delta_aug = df[df["delta"].notna()]
+        real_mask_delta = (df_with_delta_aug["subtype"] != "simulated_svppa").values
+        if real_mask_delta.sum() >= 10 and df_with_delta_aug["label"].nunique() >= 2:
+            for feat_name, feat_cols in [("S_ph_S_sem_Delta", ["s_ph", "s_sem", "delta"]), ("Dissociation_Plus", ["s_ph", "s_sem", "delta", "phoneme_error_rate", "silence_ratio"])]:
+                feat_cols = [c for c in feat_cols if c in df_with_delta_aug.columns]
+                if len(feat_cols) < 3:
+                    continue
+                r_real = train_and_evaluate_real_only(df_with_delta_aug, real_mask_delta, feat_cols, f"{feat_name}_real_only", args.cv_folds)
+                print(f"\n  Real-only (train+sim, test=real) {feat_name}: n_real={r_real['n_real']} Acc={r_real['accuracy']:.3f} F1={r_real['f1']:.3f} AUC={r_real['roc_auc']:.3f}")
 
 
 if __name__ == "__main__":
