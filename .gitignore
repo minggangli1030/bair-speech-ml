@@ -17,10 +17,11 @@ build/
 *.swp
 *.swo
 
-# Data/cache (optional: remove if you want to track)
-data/cache/
-data/audio/*.wav
-data/audio/*.mp3
+# Private patient data (DO NOT COMMIT)
+data/ppa_pipeline_outputs/
+data/cache_ppa/
+data/picnics-*/
+data/manifest_ppa_full.csv
 
 # OS
 .DS_Store
@@ -28,3 +29,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Intermediate outputs (keep only final results)
+outputs/*.csv

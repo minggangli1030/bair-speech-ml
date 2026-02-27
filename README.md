@@ -1,157 +1,160 @@
-# Automated PPA Classification from Speech: Phonetic, Semantic, and Clinical-Layer Features
+# Automated PPA Subtype Classification via Phonological-Semantic Dissociation
 
-Single pipeline and scripts for the **publishable story**: (1) **control vs svPPA** and (2) **svPPA vs non-semantic PPA (nfv+lv)** using automated S_ph, S_sem (spatiosemantic scene graph + Layer 2), and population-normed clinical Layer 2 features.
-
----
-
-## Main results
-
-| Task | Best model | Accuracy | AUC | p (real data) |
-|------|------------|----------|-----|----------------|
-| **Control vs svPPA** | S_ph + S_sem (+ Δ) | **~85%** | **~0.92** | &lt; 0.001 |
-| **svPPA vs (nfv+lv)** | Full clinical RF (S_ph, S_sem, scene graph, Layer 2, acoustic) | **~82%** | **~0.72** | **&lt; 0.00001** |
-
-- **S_sem** = composite of **spatiosemantic scene graph** (picnic content) and **Layer 2 semantic adequacy** (anomia, empty speech, semantic paraphasias).
-- **S_ph** = phonological adequacy from SylWav vs G2P.
-- **Layer 2** = population-normed (not per-sample z-scored); includes agrammatism, reduced speech rate, anomia, etc.
+Code repository for the Interspeech 2026 submission: automated classification of Primary Progressive Aphasia (PPA) subtypes from connected speech using phonological adequacy (S_ph), semantic adequacy (S_sem), and their dissociation index (Δ).
 
 ---
 
-## Reproducibility: one run order
+## Key Results
+
+| Task | Best Model | Accuracy | AUC | Effect Size |
+|------|------------|----------|-----|-------------|
+| **Control vs svPPA** | S_ph + S_sem | 85.1% | 0.932 | δ = 0.79 (large) |
+| **svPPA vs nfv+lv** | Full_all_L2_graph (RF) | 82.1% | 0.734 | δ = 0.47 (large) |
+
+**Core innovation:** The dissociation index Δ = S_ph − S_sem captures the svPPA-specific pattern of preserved phonology with impaired semantics, grounded in dual-stream theory (Hickok & Poeppel 2007).
+
+---
+
+## Result Files for Paper
 
 **Prerequisites:** Pipeline outputs already generated (diarization + ASR + SylWav) in `data/ppa_pipeline_outputs/`, and manifest `data/manifest_ppa_full.csv`.
 
-```bash
-# From repo root
-cd /path/to/semantic-evaluation
+| File | Contents | Use in Paper |
+|------|----------|--------------|
+| `outputs/classifier_results.json` | Control vs svPPA classifier metrics | Table 1: Binary classification |
+| `outputs/sv_vs_nflf_real_results.json` | svPPA vs (nfv+lv) classifier metrics | Table 2: Subtype discrimination |
+| `outputs/ppa_stats.json` | Statistical comparisons (Mann-Whitney, Cliff's δ) | Effect sizes, p-values |
+| `outputs/population_l1_stats.json` | Population normalization parameters | Methodology (Layer 2) |
 
-# 1. Fix Layer 2 (population normalization)
-python scripts/fix_layer2_population_norm.py \
-  --manifest data/manifest_ppa_full.csv \
-  --pipeline-dir data/ppa_pipeline_outputs \
-  --output outputs/layer2_fixed.csv
+---
 
-# 2. Build feature table (S_ph, S_sem, delta, etc.) and merge fixed Layer 2
-python scripts/run_full_analysis.py \
-  --manifest data/manifest_ppa_full.csv \
-  --pipeline-output-dir data/ppa_pipeline_outputs \
-  --output outputs/ppa_dissociation_all.csv \
-  --stats-output outputs/ppa_stats.json
+## Pipeline Overview
 
-# Merge fixed Layer 2 into features (composite S_sem and delta)
-python -c "
-import pandas as pd
-from pathlib import Path
-df = pd.read_csv('outputs/ppa_dissociation_all.csv')
-l2 = pd.read_csv('outputs/layer2_fixed.csv')
-l2_cols = ['subject_id','session'] + [c for c in l2.columns if c.startswith('l2_') and c != 'l2_sem_impairment']
-if 's_sem_layer2_adequacy_fixed' in l2.columns:
-    l2_cols.append('s_sem_layer2_adequacy_fixed')
-df = df.merge(l2[l2_cols], on=['subject_id','session'], how='left')
-alpha = 0.5
-if 's_sem_layer2_adequacy_fixed' in df.columns:
-    df['s_sem_layer2_adequacy'] = df['s_sem_layer2_adequacy_fixed'].fillna(df.get('s_sem_layer2_adequacy'))
-df['s_sem'] = alpha * df['s_sem_graph'] + (1-alpha) * df['s_sem_layer2_adequacy']
-df['delta'] = df['s_ph'] - df['s_sem']
-df.to_csv('outputs/ppa_dissociation_fixed_l2.csv', index=False)
-print('Saved outputs/ppa_dissociation_fixed_l2.csv')
-"
-
-# 3. Control vs svPPA
-python scripts/train_dissociation_classifier.py \
-  --features outputs/ppa_dissociation_fixed_l2.csv \
-  --task control_vs_svppa \
-  --output outputs/classifier_control_vs_svppa.json
-
-# 4. svPPA vs (nfv+lv) on real data only
-python scripts/train_sv_vs_nflf_real.py \
-  --features outputs/ppa_dissociation_fixed_l2.csv \
-  --layer2-fixed outputs/layer2_fixed.csv \
-  --output outputs/sv_vs_nflf_real_results.json
-
-# 5. (Optional) LLM baseline — requires OPENAI_API_KEY
-# python scripts/run_llm_baseline.py --task binary --output outputs/llm_baseline_predictions.csv
+```
+Audio → Diarization → ASR + SylWav Phonemes
+                          ↓
+              ┌──────────────────────┐
+              │  S_ph (phonological) │ ← SylWav vs G2P edit distance
+              │  S_sem (semantic)    │ ← Scene graph + Layer 2 constructs
+              │  Δ = S_ph − S_sem    │ ← Dissociation index
+              └──────────────────────┘
+                          ↓
+              Classification (LR / RF)
 ```
 
-Or run the master script (does steps 1–4; assumes pipeline outputs and manifest exist):
+---
 
+## Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/semantic-evaluation.git
+cd semantic-evaluation
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
+## Reproducing Results
+
+**Prerequisites:** Pipeline outputs (diarization + ASR + SylWav) in `data/ppa_pipeline_outputs/` and manifest `data/manifest_ppa_full.csv`.
+
+```bash
+# 1. Fix Layer 2 with population normalization
+python scripts/fix_layer2_population_norm.py
+
+# 2. Run full analysis (S_ph, S_sem, Δ)
+python scripts/run_full_analysis.py
+
+# 3. Train classifiers
+python scripts/train_dissociation_classifier.py --task control_vs_svppa
+python scripts/train_sv_vs_nflf_real.py
+```
+
+Or run the master script:
 ```bash
 bash scripts/run_paper_pipeline.sh
 ```
 
 ---
 
-## Project layout (condensed)
+## Project Structure
 
 ```
 semantic-evaluation/
-├── README.md                          # This file
+├── README.md
 ├── requirements.txt
+├── docs/
+│   ├── METHODOLOGY.md           # Pipeline methodology
+│   └── METHODOLOGY_DETAILED.md  # Detailed procedural specification
 ├── data/
-│   ├── manifest_ppa_full.csv          # Sample manifest (subject_id, session, subtype, audio_path)
-│   ├── graph/picnic_gold_star.json   # Gold scene graph for S_sem
-│   └── ppa_pipeline_outputs/         # Pipeline outputs (*_feature_extraction.txt)
+│   └── graph/picnic_gold_star.json  # Gold scene graph (12 content units)
 ├── scripts/
-│   ├── run_paper_pipeline.sh          # One script: Layer 2 fix → features → both classifiers
-│   ├── fix_layer2_population_norm.py  # Population-normed Layer 2 (required)
-│   ├── run_full_analysis.py           # S_ph, S_sem (scene graph + Layer 2), delta
-│   ├── train_dissociation_classifier.py  # Control vs svPPA (and optional sv vs nflv with sim)
-│   ├── train_sv_vs_nflf_real.py      # svPPA vs nfv+lv, real data, full clinical + scene graph
-│   ├── run_llm_baseline.py            # LLM baseline (Phan et al. style)
-│   ├── run_ablation_alpha_sweep.py   # Ablation: alpha sweep (scene graph vs Layer 2 weight)
-│   └── run_ablation_study.py          # Ablation: model variants (S_sem only, +S_ph, +delta, L2, etc.)
-├── src/
-│   ├── features/
-│   │   ├── graph_semantic.py          # Spatiosemantic scene graph → S_sem_graph
-│   │   ├── phoneme_adequacy.py        # S_ph from SylWav vs G2P
-│   │   ├── layer1.py / layer2.py     # Layer 1/2 constructs
-│   │   └── dissociation.py            # Δ and stats
-│   ├── pipeline/runner.py             # Diarization + ASR + phoneme pipeline
-│   └── ...
+│   ├── run_paper_pipeline.sh        # Master script
+│   ├── fix_layer2_population_norm.py
+│   ├── run_full_analysis.py
+│   ├── train_dissociation_classifier.py
+│   ├── train_sv_vs_nflf_real.py
+│   └── run_ablation_*.py            # Ablation studies
+├── src/features/
+│   ├── graph_semantic.py        # S_sem (scene graph + CU scoring)
+│   ├── phoneme_adequacy.py      # S_ph (phoneme error rate)
+│   ├── layer1.py / layer2.py    # Clinical constructs
+│   └── dissociation.py          # Δ computation, statistics
 └── outputs/
-    ├── layer2_fixed.csv               # Population-normed Layer 2
-    ├── population_l1_stats.json       # For reproducibility
-    ├── ppa_dissociation_all.csv       # From run_full_analysis
-    ├── ppa_dissociation_fixed_l2.csv # Main feature table (S_ph, S_sem, delta, L2, …)
-    ├── classifier_control_vs_svppa.json
-    └── sv_vs_nflf_real_results.json   # sv vs nflv results (p, accuracy, AUC)
+    ├── classifier_results.json       # Control vs svPPA
+    ├── sv_vs_nflf_real_results.json  # svPPA vs nfv+lv
+    ├── ppa_stats.json                # Statistical comparisons
+    └── population_l1_stats.json      # L1 population stats
 ```
 
-**Optional (not part of the main story):** `scripts/generate_simulated_svppa.py`, `scripts/train_multiclass_classifier.py`, `scripts/run_full_pipeline.sh` (full diarization + SylWav pipeline). **Ablations:** `scripts/run_ablation_alpha_sweep.py` (alpha sweep for composite S_sem), `scripts/run_ablation_study.py` (model-variant ablations).
+---
+
+## Feature Definitions
+
+| Feature | Formula | Description |
+|---------|---------|-------------|
+| **S_ph** | 1 − PER | Phonological adequacy (SylWav vs G2P) |
+| **S_sem** | 0.5 × S_graph + 0.5 × S_L2 | Composite semantic adequacy |
+| **S_sem_graph** | 0.4 × node_recall + 0.6 × CU_recall | Scene graph completeness (12 CUs) |
+| **S_sem_L2** | 1 − mean(all 10 L2 constructs) | Communication adequacy from Layer 2 |
+| **Δ** | S_ph − S_sem | Dissociation index |
+
+**Layer 2 constructs:** reduced_speech_rate, reduced_length_complexity, agrammatism, paragrammatism, anomia, empty_speech, semantic_paraphasias, phonemic_paraphasias_neologisms, self_correction, overall_communication_impairment
 
 ---
 
-## Baselines and augmentation (for the paper)
+## Statistical Methods
 
-- **LLM baseline:** Use as the **weakest** baseline. Same transcript → LLM (e.g. gpt-4o-mini) → subtype. Report ~37% AUC (sv vs nflv) vs pipeline ~73%; no phonology, so it underperforms.
-- **Synthetic augmentation:** Simulated svPPA = degraded semantic channel only (S_ph from real nfv/lv). **With vs without augmentation** comparison is in `outputs/AUGMENTATION_COMPARISON.md`. Result: augmentation does **not** improve real-only performance; main sv vs nflv result stays **real data only**. Frame synthesis as controlled semantic degradation; state explicitly that S_ph in simulated samples is borrowed from real nfv/lv (preserved phonology assumption).
-
----
-
-## Feature definitions
-
-- **S_ph:** Phonological adequacy (1 − phoneme error rate), SylWav vs G2P.
-- **S_sem_graph:** Spatiosemantic scene graph completeness vs gold picnic graph.
-- **S_sem:** Composite = α × S_sem_graph + (1−α) × Layer2_semantic_adequacy; Layer2 adequacy = 1 − mean(anomia, empty_speech, semantic_paraphasias).
-- **Δ:** S_ph − S_sem.
-- **Layer 2 (fixed):** Population-normed constructs (agrammatism, reduced_speech_rate, anomia, empty_speech, semantic_paraphasias, etc.).
+- **Mann-Whitney U test:** Non-parametric group comparison (scipy.stats.mannwhitneyu, two-sided)
+- **Cliff's delta:** Effect size (|δ| < 0.147 negligible, 0.147–0.33 small, 0.33–0.474 medium, ≥0.474 large)
+- **Cross-validation:** Stratified 5-fold, random_state=42
+- **Classifiers:** Logistic Regression (balanced), Random Forest (n=100, max_depth=6)
 
 ---
 
-## Methodology (detailed)
+## Citation
 
-Detailed methodology documentation:
+If you use this code, please cite:
 
-- **`docs/METHODOLOGY.md`** — Step-by-step methodology for every pipeline component
-- **`docs/METHODOLOGY_DETAILED.md`** — Comprehensive procedural specification including:
-  - Exact variable names and formulas
-  - Statistical test definitions (Mann-Whitney U, Cliff's delta)
-  - What variables are compared at each statistical test
-  - Complete classifier training/evaluation procedures
-  - All output file schemas
+```bibtex
+@inproceedings{author2026ppa,
+  title={Automated PPA Subtype Classification via Phonological-Semantic Dissociation},
+  author={...},
+  booktitle={Proc. Interspeech 2026},
+  year={2026}
+}
+```
+
+---
+
+## License
+
+[To be determined]
 
 ---
 
 ## References
 
-- Phan et al. (2024). Proc. Interspeech 2024. [LLM for content assessment](https://www.isca-archive.org/interspeech_2024/phan24_interspeech.html).
+- Hickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. Nature Reviews Neuroscience.
+- Nicholas, L. E., & Brookshire, R. H. (1993). A system for quantifying the informativeness and efficiency of the connected speech of adults with aphasia. JSLHR.
