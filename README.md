@@ -140,7 +140,15 @@ semantic-evaluation/
 
 ## Methodology (detailed)
 
-A **step-by-step methodology** for every part of the pipeline (parsing, Layer 1/2, S_ph, S_sem, Δ, merge, classifiers, simulated data, LLM baseline, ablations, and statistics) is in **`docs/METHODOLOGY.md`**.
+Detailed methodology documentation:
+
+- **`docs/METHODOLOGY.md`** — Step-by-step methodology for every pipeline component
+- **`docs/METHODOLOGY_DETAILED.md`** — Comprehensive procedural specification including:
+  - Exact variable names and formulas
+  - Statistical test definitions (Mann-Whitney U, Cliff's delta)
+  - What variables are compared at each statistical test
+  - Complete classifier training/evaluation procedures
+  - All output file schemas
 
 ---
 

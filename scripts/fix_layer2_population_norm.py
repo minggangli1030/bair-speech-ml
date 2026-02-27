@@ -23,7 +23,19 @@ from src.features.layer2 import compute_layer2_features, LAYER2_NAMES
 from src.features.phoneme_adequacy import parse_pipeline_output
 from src.features.dissociation import mann_whitney_u, cliffs_delta
 
-LAYER2_SEMANTIC_IMPAIRMENT = ["anomia", "empty_speech", "semantic_paraphasias"]
+# Use ALL 10 Layer 2 constructs for adequacy (not just semantic-specific)
+LAYER2_ALL_CONSTRUCTS = [
+    "reduced_speech_rate",
+    "reduced_length_complexity",
+    "agrammatism",
+    "paragrammatism",
+    "anomia",
+    "empty_speech",
+    "semantic_paraphasias",
+    "phonemic_paraphasias_neologisms",
+    "self_correction",
+    "overall_communication_impairment",
+]
 
 logging.basicConfig(level=logging.WARNING)
 
@@ -140,12 +152,14 @@ def compute_population_normed_layer2(l1_df: pd.DataFrame):
             population_std=pop_std,
         )
 
-        sem_vals = [
-            scores[n] for n in LAYER2_SEMANTIC_IMPAIRMENT
+        # Use ALL 10 Layer 2 constructs for adequacy
+        all_vals = [
+            scores[n] for n in LAYER2_ALL_CONSTRUCTS
             if n in scores and not np.isnan(scores.get(n, np.nan))
         ]
-        sem_impairment = float(np.mean(sem_vals)) if sem_vals else np.nan
-        sem_adequacy = 1.0 - sem_impairment if not np.isnan(sem_impairment) else np.nan
+        all_impairment = float(np.mean(all_vals)) if all_vals else np.nan
+        sem_adequacy = 1.0 - all_impairment if not np.isnan(all_impairment) else np.nan
+        sem_impairment = all_impairment  # renamed for clarity but keep var name for output
 
         results.append({
             "subject_id": row["subject_id"],

@@ -24,7 +24,19 @@ from src.features.layer1 import compute_layer1_features, LAYER1_NAMES
 from src.features.layer2 import compute_layer2_features, LAYER2_NAMES
 from src.features.simulate_svppa import degrade_transcript, transcript_dict_from_text
 
-LAYER2_SEMANTIC_IMPAIRMENT = ["anomia", "empty_speech", "semantic_paraphasias"]
+# Use ALL 10 Layer 2 constructs for adequacy
+LAYER2_ALL_CONSTRUCTS = [
+    "reduced_speech_rate",
+    "reduced_length_complexity",
+    "agrammatism",
+    "paragrammatism",
+    "anomia",
+    "empty_speech",
+    "semantic_paraphasias",
+    "phonemic_paraphasias_neologisms",
+    "self_correction",
+    "overall_communication_impairment",
+]
 
 
 def _parse_timestamp(s: str) -> float:
@@ -153,7 +165,7 @@ def main():
                 population_mean=pop_mean,
                 population_std=pop_std,
             )
-            vals = [l2_scores.get(n, np.nan) for n in LAYER2_SEMANTIC_IMPAIRMENT if n in l2_scores]
+            vals = [l2_scores.get(n, np.nan) for n in LAYER2_ALL_CONSTRUCTS if n in l2_scores]
             layer2_adequacy = float(1.0 - np.nanmean(vals)) if vals else float("nan")
         except Exception:
             layer2_adequacy = float("nan")

@@ -45,7 +45,7 @@ This document specifies the methodology for each component of the PPA classifica
   1. **Load pipeline outputs** for all manifest rows; build transcript dict; compute **Layer 1** for each sample (`compute_layer1_features(..., use_semantic_distance=False)`). Drop samples with no transcript.
   2. **Population stats:** Over the (n × 20) matrix of L1 features, compute `population_mean` and `population_std` per feature (column-wise `nanmean` / `nanstd`). Replace zero std with 1.0.
   3. **Layer 2 per sample:** For each sample, form the 20-dim L1 vector, z-score using **population** mean/std: `zvec = (vec - pop_mean) / pop_std`. Then for each of the 10 Layer 2 constructs, compute a **weighted average of z-scores** over the prescribed L1 indices (see `layer2.py` `DEFAULT_LAYER2_WEIGHTS`), then map to [0,1] with `(tanh(z)+1)/2`.
-  4. **Semantic adequacy (fixed):** `s_sem_layer2_adequacy_fixed = 1 - mean(anomia, empty_speech, semantic_paraphasias)` (Layer 2 construct names); `l2_sem_impairment` = that mean.
+  4. **Communication adequacy (fixed):** `s_sem_layer2_adequacy_fixed = 1 - mean(all 10 L2 constructs)`; uses all constructs for comprehensive impairment assessment.
 - **Outputs:** `outputs/layer2_fixed.csv` (per subject/session: all `l2_*` columns, `s_sem_layer2_adequacy_fixed`, `l2_sem_impairment`); `outputs/population_l1_stats.json` (`feature_names`, `population_mean`, `population_std`, `n_samples`).
 
 **Layer 2 construct definitions (from `layer2.py`):** 10 constructs, each = weighted sum of z-scored L1 features then sigmoid to [0,1]:
@@ -154,7 +154,7 @@ This document specifies the methodology for each component of the PPA classifica
   - **Content replacement:** Regex patterns replace specific words with generic terms (e.g. boy/girl/child→“person”, man/woman→“person”, dog→“thing”, kite/blanket/ball/…→“thing”) with probability **replace_ratio** per pattern.  
   - **Filled pauses:** After each token, insert one of `["um","uh","you know"]` with probability **insert_filler_ratio** (default in script 0.12).  
   - **Random seed:** `seed + hash(subject_id, session)` so reproducible per sample.
-- **Recomputation:** From degraded text, build transcript dict; compute **s_sem_graph** (heuristic graph vs gold); compute **Layer 2** with **population** mean/std from `population_l1_stats.json`; **s_sem_layer2_adequacy** = 1 − mean(anomia, empty_speech, semantic_paraphasias); **s_sem = alpha * s_sem_graph + (1−alpha) * layer2_adequacy**; **S_ph** and (if present) phoneme_error_rate, silence_ratio **copied from original** nfv/lv row; **delta = S_ph − s_sem**.
+- **Recomputation:** From degraded text, build transcript dict; compute **s_sem_graph** (heuristic graph vs gold); compute **Layer 2** with **population** mean/std from `population_l1_stats.json`; **s_sem_layer2_adequacy** = 1 − mean(all 10 L2 constructs); **s_sem = alpha * s_sem_graph + (1−alpha) * layer2_adequacy**; **S_ph** and (if present) phoneme_error_rate, silence_ratio **copied from original** nfv/lv row; **delta = S_ph − s_sem**.
 - **Output:** `outputs/simulated_svppa.csv` (one row per processed nfv/lv sample: subject_id, session, subtype=simulated_svppa, label=1, s_ph, s_sem, s_sem_graph, delta, etc.). **Interpretation:** Simulated samples are **controlled semantic degradation**; S_ph is borrowed from real nfv/lv (preserved-phonology assumption for svPPA).
 
 ---

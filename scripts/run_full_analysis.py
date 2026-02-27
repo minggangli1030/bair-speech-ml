@@ -46,8 +46,19 @@ from src.features.dissociation import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-# Layer 2 constructs that indicate semantic impairment (higher = worse semantic adequacy)
-LAYER2_SEMANTIC_IMPAIRMENT = ["anomia", "empty_speech", "semantic_paraphasias"]
+# Use ALL 10 Layer 2 constructs for adequacy (higher = worse adequacy)
+LAYER2_ALL_CONSTRUCTS = [
+    "reduced_speech_rate",
+    "reduced_length_complexity",
+    "agrammatism",
+    "paragrammatism",
+    "anomia",
+    "empty_speech",
+    "semantic_paraphasias",
+    "phonemic_paraphasias_neologisms",
+    "self_correction",
+    "overall_communication_impairment",
+]
 
 
 def _parse_timestamp(s: str) -> float:
@@ -122,7 +133,7 @@ def _compute_composite_s_sem(
         )
         _, l2_scores = compute_layer2_features(l1)
         vals = []
-        for name in LAYER2_SEMANTIC_IMPAIRMENT:
+        for name in LAYER2_ALL_CONSTRUCTS:
             if name in l2_scores and not np.isnan(l2_scores[name]):
                 vals.append(l2_scores[name])
         if vals:
