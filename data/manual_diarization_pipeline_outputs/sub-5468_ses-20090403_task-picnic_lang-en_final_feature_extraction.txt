@@ -1,0 +1,146 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-5468_ses-20090403_task-picnic_lang-en_final.wav
+Total Segments: 18
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.064 → 00:05.397     Participant  5.33      s Okay, well they are up on the building, you know,  OW SIL K EY SIL W EH L SIL DH EY AA SIL AH SIL AA N DH AH IH P IH L SIL D IH NG SIL IH N AH DH AE SIL T SIL R OW L Y IH N AA L
+2    00:06.713 → 00:07.742     Participant  1.03      s and tell her.                                      EH N SIL T EH AW AH
+3    00:08.130 → 00:10.122     Clinician    1.99      s They got back in the building there, I feel like s DH IH AA SIL B EH DX IH NG SIL D EH L IH NG EY EH SIL B AE EH SIL K IH N AA AH S SIL P IH EY IH S
+4    00:12.265 → 00:13.362     Clinician    1.10      s How it is good to...                               AW L SIL IH SIL EY IH S SIL K IH SIL T IH UW
+5    00:17.429 → 00:21.107     Clinician    3.68      s あach nor, and i guess people being seen happy all  AE SIL P N AA IH N EH EH EY DX IH S SIL P HH IH SIL F L SIL B IY SIL P AY HH AE M IY M OW L SIL B AW L SIL
+6    00:22.744 → 00:25.242     Clinician    2.50      s 위해 gjortiller comum                                IH N Y IY IH ER SIL K AY EH AH AH S UW
+7    00:31.587 → 00:36.464     Participant  4.88      s and they drink here and he reads to her.           IH N SIL DH EY SIL AH SIL D R EY IH NG SIL K SH IY EH SIL IH N HH IY R IY N SIL S SIL T UW HH AH
+8    00:39.434 → 00:41.695     Participant  2.26      s and the sun.                                       AE N SIL T UW AH D EH S AH N N
+9    00:45.728 → 00:47.955     Participant  2.23      s going with his dog.                                K G OW L IH IY NG N W IH SIL TH IH S AE SIL D AA
+10   00:50.976 → 00:53.035     Participant  2.06      s and they put out its                               AE N SIL T AH SIL T SIL DH EY SIL P UH SIL T HH AA SIL P SIL T IH SIL T S
+11   00:54.587 → 00:56.055     Participant  1.47      s What is that called? There.                        AH SIL T IH Z S SIL T DH EH SIL T SIL K AA L M SIL D DH AH
+12   00:58.182 → 01:07.193     Participant  9.01      s Kite this kite yeah, and all these other you know  K AY SIL T CH SIL DH IH S SIL K AY SIL T TH IY AE EH N SIL D AA L SIL B D IY S EH AH M SIL AH SIL DH AH T EH L V AH S SIL B EH M IH NG NG N W AH IH SIL DH EH TH S
+13   01:10.214 → 01:13.504     Participant  3.29      s Or, you know, what is that car? The boat? Boog.    L N IH UW N OW L M W AH DX T IH S SIL DH AE SIL T SIL K AA DH TH AH SIL B OW SIL T CH B OW SIL K
+14   01:21.908 → 01:26.903     Participant  4.99      s and I'll cost their fishing to their getting fish. DH AH N AA L SIL P SIL K AA S SIL DH EH AE F IH SH IY NG DH AH DX DH EH SIL G EH AE SIL K IY IH NG F IH HH
+15   01:31.139 → 01:33.535     Participant  2.40      s What is he doing?                                  L W AH SIL T IH S SIL K AH SIL T IH S HH IY SIL D UW L EY IH N M
+16   01:37.365 → 01:39.137     Participant  1.77      s Does she do it well?                               DH AH S SH IY SIL T D UW L IY SIL W EH L
+17   01:42.580 → 01:43.879     Participant  1.30      s putting down                                       P UH SIL T IH NG N D AW M N
+18   01:45.803 → 01:47.018     Participant  1.22      s This bug                                           DH IH S SIL B AA L SIL K
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.064 - 00:05.397 (5.33s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Okay, well they are up on the building, you know, that rule, you know.
+  Phonemic Encoding: OW SIL K EY SIL W EH L SIL DH EY AA SIL AH SIL AA N DH AH IH P IH L SIL D IH NG SIL IH N AH DH AE SIL T SIL R OW L Y IH N AA L
+
+Segment 2:
+  Timestamp: 00:06.713 - 00:07.742 (1.03s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and tell her.
+  Phonemic Encoding: EH N SIL T EH AW AH
+
+Segment 3:
+  Timestamp: 00:08.130 - 00:10.122 (1.99s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: They got back in the building there, I feel like space.
+  Phonemic Encoding: DH IH AA SIL B EH DX IH NG SIL D EH L IH NG EY EH SIL B AE EH SIL K IH N AA AH S SIL P IH EY IH S
+
+Segment 4:
+  Timestamp: 00:12.265 - 00:13.362 (1.10s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: How it is good to...
+  Phonemic Encoding: AW L SIL IH SIL EY IH S SIL K IH SIL T IH UW
+
+Segment 5:
+  Timestamp: 00:17.429 - 00:21.107 (3.68s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: あach nor, and i guess people being seen happy all of the worldaggi
+  Phonemic Encoding: AE SIL P N AA IH N EH EH EY DX IH S SIL P HH IH SIL F L SIL B IY SIL P AY HH AE M IY M OW L SIL B AW L SIL
+
+Segment 6:
+  Timestamp: 00:22.744 - 00:25.242 (2.50s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: 위해 gjortiller comum
+  Phonemic Encoding: IH N Y IY IH ER SIL K AY EH AH AH S UW
+
+Segment 7:
+  Timestamp: 00:31.587 - 00:36.464 (4.88s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and they drink here and he reads to her.
+  Phonemic Encoding: IH N SIL DH EY SIL AH SIL D R EY IH NG SIL K SH IY EH SIL IH N HH IY R IY N SIL S SIL T UW HH AH
+
+Segment 8:
+  Timestamp: 00:39.434 - 00:41.695 (2.26s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and the sun.
+  Phonemic Encoding: AE N SIL T UW AH D EH S AH N N
+
+Segment 9:
+  Timestamp: 00:45.728 - 00:47.955 (2.23s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: going with his dog.
+  Phonemic Encoding: K G OW L IH IY NG N W IH SIL TH IH S AE SIL D AA
+
+Segment 10:
+  Timestamp: 00:50.976 - 00:53.035 (2.06s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and they put out its
+  Phonemic Encoding: AE N SIL T AH SIL T SIL DH EY SIL P UH SIL T HH AA SIL P SIL T IH SIL T S
+
+Segment 11:
+  Timestamp: 00:54.587 - 00:56.055 (1.47s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: What is that called? There.
+  Phonemic Encoding: AH SIL T IH Z S SIL T DH EH SIL T SIL K AA L M SIL D DH AH
+
+Segment 12:
+  Timestamp: 00:58.182 - 01:07.193 (9.01s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Kite this kite yeah, and all these other you know a swimming with this
+  Phonemic Encoding: K AY SIL T CH SIL DH IH S SIL K AY SIL T TH IY AE EH N SIL D AA L SIL B D IY S EH AH M SIL AH SIL DH AH T EH L V AH S SIL B EH M IH NG NG N W AH IH SIL DH EH TH S
+
+Segment 13:
+  Timestamp: 01:10.214 - 01:13.504 (3.29s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Or, you know, what is that car? The boat? Boog.
+  Phonemic Encoding: L N IH UW N OW L M W AH DX T IH S SIL DH AE SIL T SIL K AA DH TH AH SIL B OW SIL T CH B OW SIL K
+
+Segment 14:
+  Timestamp: 01:21.908 - 01:26.903 (4.99s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I'll cost their fishing to their getting fish.
+  Phonemic Encoding: DH AH N AA L SIL P SIL K AA S SIL DH EH AE F IH SH IY NG DH AH DX DH EH SIL G EH AE SIL K IY IH NG F IH HH
+
+Segment 15:
+  Timestamp: 01:31.139 - 01:33.535 (2.40s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: What is he doing?
+  Phonemic Encoding: L W AH SIL T IH S SIL K AH SIL T IH S HH IY SIL D UW L EY IH N M
+
+Segment 16:
+  Timestamp: 01:37.365 - 01:39.137 (1.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Does she do it well?
+  Phonemic Encoding: DH AH S SH IY SIL T D UW L IY SIL W EH L
+
+Segment 17:
+  Timestamp: 01:42.580 - 01:43.879 (1.30s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: putting down
+  Phonemic Encoding: P UH SIL T IH NG N D AW M N
+
+Segment 18:
+  Timestamp: 01:45.803 - 01:47.018 (1.22s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: This bug
+  Phonemic Encoding: DH IH S SIL B AA L SIL K

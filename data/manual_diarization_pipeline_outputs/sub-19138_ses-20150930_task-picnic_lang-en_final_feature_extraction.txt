@@ -1,0 +1,216 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-19138_ses-20150930_task-picnic_lang-en_final.wav
+Total Segments: 28
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.697 → 00:05.565     Participant  2.87      s A young man is fine a kite.                        EY Y AH NG M AE N SIL HH IH S F L AY NG AH SIL K AY SIL T
+2    00:07.371 → 00:15.927     Participant  8.56      s And there's somebody who's on a sailboat and lake  N SIL N DH ER S AH S SIL AA L S AH M SIL B AH DX IY IH HH UW Z SIL SIL AA N AH S EY L SIL B OW SIL T HH IH M AY L EY SIL K R ER OW AH S IY ER W IH DX EH ER R ER IH DX UW Z
+3    00:19.538 → 00:24.128     Participant  4.59      s that somebody who is fishing off a deck.           HH EH UH SIL HH AA AA SIL S AH M SIL B AH DX IY HH UW SIL IH EH S F IH SH IH N SIL AA F AH SIL D AE SIL
+4    00:26.490 → 00:35.029     Participant  8.54      s omebody I see is crouching on the beach next to th S AH M B AH DX EY IY EH S IY IH Z SIL IH Z S SIL K R AW L SIL CH IH N AA N DH AH SIL B IY SIL CH SH SIL SIL N EH SIL K S SIL T UW DH IY Y IY IH EH AH
+5    00:35.535 → 00:40.379     Participant  4.84      s Laker, see or whatever it is, but I can't see exac B L EY SIL K ER W S IY ER W IH DX EH V ER IH DX EH Z SIL B AH DX AY SIL K AE SIL S S IY IH SIL K S Z AE SIL K IH W AH DX IY IH Z SIL D UW IH NG
+6    00:43.770 → 00:50.385     Participant  6.62      s Dog not only is just kind of running around but it SIL D AA SIL G HH SIL N AA DX AA N AH L IY SH IH S SIL K AY N ER R AH N IY IH ER R AW N SIL B AH SIL D L UH SIL K S L AY SIL K AE N SIL D AA M SIL IH S SIL N EH SIL K S SIL T AH DH AH
+7    00:51.432 → 00:53.119     Participant  1.69      s ços here in Manwatham,                             IH N M EH N W AH S AH M SIL K AY SIL T
+8    00:55.026 → 01:08.897     Participant  13.87     s then there's and this seems to be right on the edg DH EH N DH EH ER S SIL SIL AH SIL AE EH N DH IH S S IY N M S SIL T IH SIL B IY SIL R AY EY DX AA L N DH AH IH SIL T SIL SIL EH SIL JH AH OW V F F AA ER M R EY M SIL B IY SIL P AA R ER SIL AH V S AH M SIL B AH DX IY Z S Y AA R ER SIL B IH SIL K UH AH S DH EH ER IH Z AH HH AW S TH DH EH ER DH AH SIL AA M R AY SIL DH ER N EH SIL SH S SIL T UW DH AE AW W AA DX ER S AA R ER S
+9    01:10.838 → 01:18.584     Participant  7.75      s Another really pretty tree, a leaf tree under whic EH AH DH Z DH ER R OW L IY SIL P R IH DX IY SIL CH T R IY HH SIL M N AH L IY F SIL T R IY AA AH N SIL D ER HH W IH SIL CH SH S SIL D EH ER AA ER AH DH AH SIL
+10   01:20.052 → 01:24.540     Participant  4.49      s A couple, I don't know if that's the man and wife  AH SIL K AH SIL P L F SIL M AY OW N OW V F TH AE AH SIL S SIL T AH M AE N IH EH M W AY F ER
+11   01:26.532 → 01:41.500     Participant  14.97     s A couple of friends are engaged to what I don't kn AW M SIL AA AH SIL K AH SIL P L OW AH F R AE N S ER SIL IH N SIL G EY SIL JH CH SH SIL T ER W AH DX AY DX OW N OW W AH SIL D N HH N SIL D OW W IH DX IH DX UH IH HH SIL W AH SIL DH IH AH SIL K AA L AH SIL B AH SIL N DH IY IH N AH DH ER SIL T IH SIL G EH AH DH EH ER SIL AW OW N S IY SIL R IH NG Z AA N DH AH F IH NG ER S AY SIL K IH EH N SIL S IH IY S AH S SIL T HH ER M B P HH ER IY N D DH M DH IY EY IY SIL M
+12   01:42.732 → 01:45.550     Participant  2.82      s and they are sitting on a...                       AE N SIL DH EY SIL SIL AA R ER R S IH DX IY IH NG SIL AA N EY
+13   01:47.085 → 01:49.127     Participant  2.04      s Blanket it looks like.                             P B L AY AE EY SIL K IH DX AH L UH SIL K S L AY SIL K
+14   01:51.743 → 01:58.982     Participant  7.24      s One of them took his sandals off and he was bare f W AH N AH V AH M SIL T UH SIL K HH IH S AE N D L Z AA F S SIL HH IH N HH IY SIL IH S AA AY N SIL W AH TH SIL M B EH ER F IY SIL T IH N IY Z R IY DX IY NG AH M SIL B UH SIL K
+15   02:00.400 → 02:05.125     Participant  4.73      s with glasses on, and the young lady is pouring som W AH TH SIL K G L AE S AH Z AA M N AE N DH IH IY Y EH AH N NG L EY DX IY IH Z SIL P AA R IH NG S AH M SIL K AY AH N AH IH SIL JH R EY IY NG SIL K
+16   02:07.487 → 02:09.546     Participant  2.06      s from a bottle into a...                            F R AH OW M W AH SIL B AA L AE EH N SIL T UW L ER AH
+17   02:10.862 → 02:12.989     Participant  2.13      s A-on Pacer                                         EY AH AA N SIL K L AE S ER
+18   02:13.410 → 02:15.655     Participant  2.24      s Cope, I can't see exactly what it is.              K OW SIL B AY SIL K AE N SIL T S IY IH SIL K AE F IH W AH DX IH DX EH L Z S
+19   02:17.174 → 02:19.030     Participant  1.86      s And... And...                                      EH N SIL S K M N D
+20   02:19.300 → 02:23.097     Participant  3.80      s and there's a picnic basket between them and...    AH N DH ER Z AH SIL P IH SIL N IH SIL B AE S SIL K IH SIL N M B IH SIL T W OY IY N M DH AH OW M N HH AE N D
+21   02:23.738 → 02:25.949     Participant  2.21      s There's also a little radio.                       ER IH Z AA L S AH OW AH L UH DX L SIL R EY SIL D IY OW L SIL
+22   02:26.995 → 02:28.244     Participant  1.25      s Um, I'm done.                                      AA M B L SIL AE N SIL Z AH HH
+23   02:32.024 → 02:33.509     Participant  1.48      s Blanket or whatever it is.                         P L AY NG SIL K IH DX ER W AH DX EH ER ER IH SIL DX EH Z S
+24   02:37.778 → 02:42.992     Participant  5.21      s And in the car, but at the house, there's a car in EH EH N N SIL IH N N SIL N IH N DH AH SIL K AA R ER SIL K AH DX EH SIL T AH HH AW S SIL T EH ER IH Z AH SIL K AA R IH N M DH AH SIL JH R AA AY V F W EY
+25   02:45.996 → 02:48.173     Participant  2.18      s and I can see two windows there.                   K AH N AY SIL K M N S IY SIL T UW W IH N SIL D OW S DH EH ER
+26   02:54.535 → 02:55.547     Clinician    1.01      s I don't mean to mean...                            AW M IY
+27   02:58.669 → 03:02.399     Clinician    3.73      s I thought I said it when I said there was a flag.  AA F AA L AH IH AH S AH V IH SIL D N AY S EY IH AH DH IH DX ER Z AH F L AE SIL AH F AA L DX IH S EH SIL D ER OW AH Z AH F L AY SIL
+28   03:06.060 → 03:10.549     Clinician    4.49      s I have flagged up on the beach.                    HH AE F S L AE SIL G AH SIL P AA L F SIL AA AY N DH OW AH L SIL AA SIL AA N DH AH SIL B IY SIL CH SIL AW OW N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.697 - 00:05.565 (2.87s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A young man is fine a kite.
+  Phonemic Encoding: EY Y AH NG M AE N SIL HH IH S F L AY NG AH SIL K AY SIL T
+
+Segment 2:
+  Timestamp: 00:07.371 - 00:15.927 (8.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there's somebody who's on a sailboat and lake or sear whatever it is.
+  Phonemic Encoding: N SIL N DH ER S AH S SIL AA L S AH M SIL B AH DX IY IH HH UW Z SIL SIL AA N AH S EY L SIL B OW SIL T HH IH M AY L EY SIL K R ER OW AH S IY ER W IH DX EH ER R ER IH DX UW Z
+
+Segment 3:
+  Timestamp: 00:19.538 - 00:24.128 (4.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: that somebody who is fishing off a deck.
+  Phonemic Encoding: HH EH UH SIL HH AA AA SIL S AH M SIL B AH DX IY HH UW SIL IH EH S F IH SH IH N SIL AA F AH SIL D AE SIL
+
+Segment 4:
+  Timestamp: 00:26.490 - 00:35.029 (8.54s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: omebody I see is crouching on the beach next to the...
+  Phonemic Encoding: S AH M B AH DX EY IY EH S IY IH Z SIL IH Z S SIL K R AW L SIL CH IH N AA N DH AH SIL B IY SIL CH SH SIL SIL N EH SIL K S SIL T UW DH IY Y IY IH EH AH
+
+Segment 5:
+  Timestamp: 00:35.535 - 00:40.379 (4.84s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Laker, see or whatever it is, but I can't see exactly what he's doing.
+  Phonemic Encoding: B L EY SIL K ER W S IY ER W IH DX EH V ER IH DX EH Z SIL B AH DX AY SIL K AE SIL S S IY IH SIL K S Z AE SIL K IH W AH DX IY IH Z SIL D UW IH NG
+
+Segment 6:
+  Timestamp: 00:43.770 - 00:50.385 (6.62s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Dog not only is just kind of running around but it looks like and is next to the
+  Phonemic Encoding: SIL D AA SIL G HH SIL N AA DX AA N AH L IY SH IH S SIL K AY N ER R AH N IY IH ER R AW N SIL B AH SIL D L UH SIL K S L AY SIL K AE N SIL D AA M SIL IH S SIL N EH SIL K S SIL T AH DH AH
+
+Segment 7:
+  Timestamp: 00:51.432 - 00:53.119 (1.69s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: ços here in Manwatham,
+  Phonemic Encoding: IH N M EH N W AH S AH M SIL K AY SIL T
+
+Segment 8:
+  Timestamp: 00:55.026 - 01:08.897 (13.87s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: then there's and this seems to be right on the edge of or maybe part of somebody's yard because there's a house there that I'm right there next to that wire source.
+  Phonemic Encoding: DH EH N DH EH ER S SIL SIL AH SIL AE EH N DH IH S S IY N M S SIL T IH SIL B IY SIL R AY EY DX AA L N DH AH IH SIL T SIL SIL EH SIL JH AH OW V F F AA ER M R EY M SIL B IY SIL P AA R ER SIL AH V S AH M SIL B AH DX IY Z S Y AA R ER SIL B IH SIL K UH AH S DH EH ER IH Z AH HH AW S TH DH EH ER DH AH SIL AA M R AY SIL DH ER N EH SIL SH S SIL T UW DH AE AW W AA DX ER S AA R ER S
+
+Segment 9:
+  Timestamp: 01:10.838 - 01:18.584 (7.75s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Another really pretty tree, a leaf tree under which there are...
+  Phonemic Encoding: EH AH DH Z DH ER R OW L IY SIL P R IH DX IY SIL CH T R IY HH SIL M N AH L IY F SIL T R IY AA AH N SIL D ER HH W IH SIL CH SH S SIL D EH ER AA ER AH DH AH SIL
+
+Segment 10:
+  Timestamp: 01:20.052 - 01:24.540 (4.49s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A couple, I don't know if that's the man and wife for her.
+  Phonemic Encoding: AH SIL K AH SIL P L F SIL M AY OW N OW V F TH AE AH SIL S SIL T AH M AE N IH EH M W AY F ER
+
+Segment 11:
+  Timestamp: 01:26.532 - 01:41.500 (14.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A couple of friends are engaged to what I don't know what to do with it, what to call it, but you know, they're together. I don't see it rings on the finger so I can't see this from sharing. The um
+  Phonemic Encoding: AW M SIL AA AH SIL K AH SIL P L OW AH F R AE N S ER SIL IH N SIL G EY SIL JH CH SH SIL T ER W AH DX AY DX OW N OW W AH SIL D N HH N SIL D OW W IH DX IH DX UH IH HH SIL W AH SIL DH IH AH SIL K AA L AH SIL B AH SIL N DH IY IH N AH DH ER SIL T IH SIL G EH AH DH EH ER SIL AW OW N S IY SIL R IH NG Z AA N DH AH F IH NG ER S AY SIL K IH EH N SIL S IH IY S AH S SIL T HH ER M B P HH ER IY N D DH M DH IY EY IY SIL M
+
+Segment 12:
+  Timestamp: 01:42.732 - 01:45.550 (2.82s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and they are sitting on a...
+  Phonemic Encoding: AE N SIL DH EY SIL SIL AA R ER R S IH DX IY IH NG SIL AA N EY
+
+Segment 13:
+  Timestamp: 01:47.085 - 01:49.127 (2.04s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Blanket it looks like.
+  Phonemic Encoding: P B L AY AE EY SIL K IH DX AH L UH SIL K S L AY SIL K
+
+Segment 14:
+  Timestamp: 01:51.743 - 01:58.982 (7.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: One of them took his sandals off and he was bare feet and he was reading a book.
+  Phonemic Encoding: W AH N AH V AH M SIL T UH SIL K HH IH S AE N D L Z AA F S SIL HH IH N HH IY SIL IH S AA AY N SIL W AH TH SIL M B EH ER F IY SIL T IH N IY Z R IY DX IY NG AH M SIL B UH SIL K
+
+Segment 15:
+  Timestamp: 02:00.400 - 02:05.125 (4.73s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: with glasses on, and the young lady is pouring some kind of drink.
+  Phonemic Encoding: W AH TH SIL K G L AE S AH Z AA M N AE N DH IH IY Y EH AH N NG L EY DX IY IH Z SIL P AA R IH NG S AH M SIL K AY AH N AH IH SIL JH R EY IY NG SIL K
+
+Segment 16:
+  Timestamp: 02:07.487 - 02:09.546 (2.06s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: from a bottle into a...
+  Phonemic Encoding: F R AH OW M W AH SIL B AA L AE EH N SIL T UW L ER AH
+
+Segment 17:
+  Timestamp: 02:10.862 - 02:12.989 (2.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A-on Pacer
+  Phonemic Encoding: EY AH AA N SIL K L AE S ER
+
+Segment 18:
+  Timestamp: 02:13.410 - 02:15.655 (2.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Cope, I can't see exactly what it is.
+  Phonemic Encoding: K OW SIL B AY SIL K AE N SIL T S IY IH SIL K AE F IH W AH DX IH DX EH L Z S
+
+Segment 19:
+  Timestamp: 02:17.174 - 02:19.030 (1.86s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And... And...
+  Phonemic Encoding: EH N SIL S K M N D
+
+Segment 20:
+  Timestamp: 02:19.300 - 02:23.097 (3.80s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and there's a picnic basket between them and...
+  Phonemic Encoding: AH N DH ER Z AH SIL P IH SIL N IH SIL B AE S SIL K IH SIL N M B IH SIL T W OY IY N M DH AH OW M N HH AE N D
+
+Segment 21:
+  Timestamp: 02:23.738 - 02:25.949 (2.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's also a little radio.
+  Phonemic Encoding: ER IH Z AA L S AH OW AH L UH DX L SIL R EY SIL D IY OW L SIL
+
+Segment 22:
+  Timestamp: 02:26.995 - 02:28.244 (1.25s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Um, I'm done.
+  Phonemic Encoding: AA M B L SIL AE N SIL Z AH HH
+
+Segment 23:
+  Timestamp: 02:32.024 - 02:33.509 (1.48s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Blanket or whatever it is.
+  Phonemic Encoding: P L AY NG SIL K IH DX ER W AH DX EH ER ER IH SIL DX EH Z S
+
+Segment 24:
+  Timestamp: 02:37.778 - 02:42.992 (5.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And in the car, but at the house, there's a car in the driveway.
+  Phonemic Encoding: EH EH N N SIL IH N N SIL N IH N DH AH SIL K AA R ER SIL K AH DX EH SIL T AH HH AW S SIL T EH ER IH Z AH SIL K AA R IH N M DH AH SIL JH R AA AY V F W EY
+
+Segment 25:
+  Timestamp: 02:45.996 - 02:48.173 (2.18s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I can see two windows there.
+  Phonemic Encoding: K AH N AY SIL K M N S IY SIL T UW W IH N SIL D OW S DH EH ER
+
+Segment 26:
+  Timestamp: 02:54.535 - 02:55.547 (1.01s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I don't mean to mean...
+  Phonemic Encoding: AW M IY
+
+Segment 27:
+  Timestamp: 02:58.669 - 03:02.399 (3.73s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I thought I said it when I said there was a flag. I thought I said there was a flag.
+  Phonemic Encoding: AA F AA L AH IH AH S AH V IH SIL D N AY S EY IH AH DH IH DX ER Z AH F L AE SIL AH F AA L DX IH S EH SIL D ER OW AH Z AH F L AY SIL
+
+Segment 28:
+  Timestamp: 03:06.060 - 03:10.549 (4.49s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I have flagged up on the beach.
+  Phonemic Encoding: HH AE F S L AE SIL G AH SIL P AA L F SIL AA AY N DH OW AH L SIL AA SIL AA N DH AH SIL B IY SIL CH SIL AW OW N

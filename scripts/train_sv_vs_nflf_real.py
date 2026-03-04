@@ -53,12 +53,13 @@ def run_cv(
     y: np.ndarray,
     clf,
     cv_folds: int = 5,
+    seed: int = 42,
 ) -> tuple[np.ndarray, np.ndarray]:
     """Return oof predictions and probabilities (class 1)."""
     X = impute_median(X)
     scaler = StandardScaler()
     X_sc = scaler.fit_transform(X)
-    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
+    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=seed)
     y_pred = cross_val_predict(clf, X_sc, y, cv=cv)
     y_prob = cross_val_predict(clf, X_sc, y, cv=cv, method="predict_proba")[:, 1]
     return y_pred, y_prob
@@ -70,6 +71,7 @@ def main():
     parser.add_argument("--layer2-fixed", type=Path, default=Path("outputs/layer2_fixed.csv"))
     parser.add_argument("--output", type=Path, default=Path("outputs/sv_vs_nflf_real_results.json"))
     parser.add_argument("--cv-folds", type=int, default=5)
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for CV and classifiers")
     args = parser.parse_args()
 
     df = load_ppa_with_l2(args.features, args.layer2_fixed)
@@ -116,10 +118,10 @@ def main():
         X = df[feat_cols].values
 
         for clf_name, clf in [
-            ("LR", LogisticRegression(class_weight="balanced", max_iter=2000, random_state=42)),
-            ("RF", RandomForestClassifier(n_estimators=100, max_depth=6, class_weight="balanced", random_state=42)),
+            ("LR", LogisticRegression(class_weight="balanced", max_iter=2000, random_state=args.seed)),
+            ("RF", RandomForestClassifier(n_estimators=100, max_depth=6, class_weight="balanced", random_state=args.seed)),
         ]:
-            y_pred, y_prob = run_cv(X, y, clf, args.cv_folds)
+            y_pred, y_prob = run_cv(X, y, clf, args.cv_folds, args.seed)
             acc = accuracy_score(y, y_pred)
             f1 = f1_score(y, y_pred, zero_division=0)
             try:

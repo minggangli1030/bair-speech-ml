@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17020_ses-20160926_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:05.025     Participant  5.00      s The guy is flying a kite. I used to do that down a G AY S F L AY AE IH N IH SIL K AY EY SH IH SIL D UW DH EH SIL D AW N SIL DH AH SIL B IY SIL CH
+2    00:05.262 → 00:13.817     Participant  8.56      s And two people are sitting down, one's reading a b EH N SIL T UW SIL P IY SIL P L AA ER S IH SIL N SIL D AW N W AH N Z R IY SIL N AH SIL B UH SIL K IH N W UW N S SIL P AA R ER ER W AA DX ER AY SIL P EY SIL K ER SIL P AA R IH N S AH M N SIL TH IH N IH N SIL T UW AH SIL B AA V L
+3    00:14.897 → 00:19.875     Participant  4.98      s right in front of a house and there's a car stand  DH AH ER R AY N SIL F R AH N AH V AH HH AW S N ER Z SIL K AA R SH S SIL T AE SIL S IH DX IH UW NG M N EH ER IH HH SIL IH N DH ER Z S SIL D AA SIL G R AY EY SIL DH EH ER
+4    00:21.495 → 00:24.094     Clinician    2.60      s Oh, and there's a boat out there.                  AA L IH N Y ER Z AH SIL B AH OW DX AW SIL DH EH ER HH IH
+5    00:24.145 → 00:26.119     Clinician    1.97      s and somebody else sitting on something.            IH AH N S AH M IH DX IY EH L S IH SIL N AA N S AH M N SIL TH IH N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:05.025 (5.00s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The guy is flying a kite. I used to do that down at the beach.
+  Phonemic Encoding: G AY S F L AY AE IH N IH SIL K AY EY SH IH SIL D UW DH EH SIL D AW N SIL DH AH SIL B IY SIL CH
+
+Segment 2:
+  Timestamp: 00:05.262 - 00:13.817 (8.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And two people are sitting down, one's reading a book, and one's poor water, I think, are pouring something into a bottle.
+  Phonemic Encoding: EH N SIL T UW SIL P IY SIL P L AA ER S IH SIL N SIL D AW N W AH N Z R IY SIL N AH SIL B UH SIL K IH N W UW N S SIL P AA R ER ER W AA DX ER AY SIL P EY SIL K ER SIL P AA R IH N S AH M N SIL TH IH N IH N SIL T UW AH SIL B AA V L
+
+Segment 3:
+  Timestamp: 00:14.897 - 00:19.875 (4.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: right in front of a house and there's a car stand sitting there and there's dog right there.
+  Phonemic Encoding: DH AH ER R AY N SIL F R AH N AH V AH HH AW S N ER Z SIL K AA R SH S SIL T AE SIL S IH DX IH UW NG M N EH ER IH HH SIL IH N DH ER Z S SIL D AA SIL G R AY EY SIL DH EH ER
+
+Segment 4:
+  Timestamp: 00:21.495 - 00:24.094 (2.60s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Oh, and there's a boat out there.
+  Phonemic Encoding: AA L IH N Y ER Z AH SIL B AH OW DX AW SIL DH EH ER HH IH
+
+Segment 5:
+  Timestamp: 00:24.145 - 00:26.119 (1.97s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and somebody else sitting on something.
+  Phonemic Encoding: IH AH N S AH M IH DX IY EH L S IH SIL N AA N S AH M N SIL TH IH N

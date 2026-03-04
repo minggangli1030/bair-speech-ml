@@ -1,0 +1,188 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-26442_ses-20190325_task-picnic_lang-en_final.wav
+Total Segments: 24
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.705 → 00:02.730     Participant  2.03      s I see a                                            AY S IY IY IH EH SIL EY
+2    00:05.447 → 00:06.595     Participant  1.15      s having a peak neck.                                HH AE V IH NG AH SIL P IY IH SIL N EH SIL K
+3    00:08.940 → 00:13.649     Participant  4.71      s Man is reading a book and the woman is...          M AE N IH SIL IH IH S SIL R IY DX IY NG AH SIL B UH SIL K SIL HH AE EH N DH AH W AH M IH N IH SIL IH
+4    00:16.568 → 00:19.200     Participant  2.63      s o liquid into a cup.                               S AH M L EH IH SIL K W IH N SIL D AH IH N SIL T UW ER AH SIL K HH AH SIL P
+5    00:20.736 → 00:23.183     Participant  2.45      s and she has a...                                   AE EH N SH IY HH AE S AH SIL HH EY
+6    00:27.267 → 00:29.444     Participant  2.18      s a third second man.                                AH SIL SIL DH ER ER SIL AY S EH SIL K IH N M AE AH N
+7    00:30.135 → 00:32.768     Participant  2.63      s is playing a kite.                                 Y IH S AH AH SIL F L AY IH NG AH SIL K HH AY SIL T
+8    00:33.882 → 00:39.062     Participant  5.18      s and uh... over the ocean, over the water, anyway.  AE N AH AH AH OW V R ER IH DH IY Y OW SH SIL OW V ER IH DH AH W AA DX ER EH N IY W EY
+9    00:41.509 → 00:43.028     Participant  1.52      s beside a dog.                                      B IY S AY DX IH SIL D AA SIL G
+10   00:45.745 → 00:47.314     Participant  1.57      s There is a shell boat.                             DH IH EH R IH Z AH SH S EH L SIL B OW SIL
+11   00:48.462 → 00:50.217     Participant  1.75      s in the water.                                      IH EH N L IH SIL DH IY W AA DX ER HH
+12   00:55.482 → 00:57.473     Participant  1.99      s There is a house.                                  B EH R ER IH Z AH HH HH AW S
+13   00:59.042 → 01:01.185     Participant  2.14      s with a car part.                                   W IH DH IH SIL K AA R ER SIL P AA R ER SIL T CH
+14   01:03.801 → 01:05.522     Participant  1.72      s Why in front of it?                                AY SIL IH N F R AH N AH V IH SIL T S
+15   01:06.957 → 01:08.475     Participant  1.52      s and a                                              AE N D AH SIL EY
+16   01:09.893 → 01:11.918     Participant  2.02      s flagpole with a                                    L AE SIL NG SIL P OW L SIL W IH SIL Z EY
+17   01:13.133 → 01:18.584     Participant  5.45      s flag on it, but we can't see what the flag is.     L AE NG SIL G AH SIL AA N IH SIL T IH SIL B AH SIL D IH SIL W IY SIL K OW AE AE N SIL T S IY W AH SIL DH AH F L AE NG SIL G IH SIL IH S
+18   01:24.760 → 01:27.527     Participant  2.77      s It is by the water.                                DH IH IH SIL IH DX IH Z SIL B AY SIL DH AH W AA DX ER
+19   01:28.709 → 01:30.210     Participant  1.50      s but not in the water.                              B AH AY EH SIL SIL N AA N DX IH N DH AH W AA DX ER
+20   01:31.409 → 01:32.792     Clinician    1.38      s There is a man.                                    EH ER R ER IH Z AH M EY N
+21   01:33.974 → 01:37.703     Clinician    3.73      s with or something, somebody.                       W IH SIL AH L W L SIL AA R ER S AH M N SIL TH IH NG SIL SIL IH S AH M SIL B AH DX IY
+22   01:41.770 → 01:42.917     Clinician    1.15      s in there.                                          IH N N DH EH
+23   01:47.355 → 01:50.747     Participant  3.39      s all to the pier in low.                            AA SIL F S N DH IY EY SIL P IY ER IH N N L OW
+24   01:50.967 → 01:52.114     Participant  1.15      s Water.                                             W AA DX ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.705 - 00:02.730 (2.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a
+  Phonemic Encoding: AY S IY IY IH EH SIL EY
+
+Segment 2:
+  Timestamp: 00:05.447 - 00:06.595 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having a peak neck.
+  Phonemic Encoding: HH AE V IH NG AH SIL P IY IH SIL N EH SIL K
+
+Segment 3:
+  Timestamp: 00:08.940 - 00:13.649 (4.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Man is reading a book and the woman is...
+  Phonemic Encoding: M AE N IH SIL IH IH S SIL R IY DX IY NG AH SIL B UH SIL K SIL HH AE EH N DH AH W AH M IH N IH SIL IH
+
+Segment 4:
+  Timestamp: 00:16.568 - 00:19.200 (2.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o liquid into a cup.
+  Phonemic Encoding: S AH M L EH IH SIL K W IH N SIL D AH IH N SIL T UW ER AH SIL K HH AH SIL P
+
+Segment 5:
+  Timestamp: 00:20.736 - 00:23.183 (2.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and she has a...
+  Phonemic Encoding: AE EH N SH IY HH AE S AH SIL HH EY
+
+Segment 6:
+  Timestamp: 00:27.267 - 00:29.444 (2.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a third second man.
+  Phonemic Encoding: AH SIL SIL DH ER ER SIL AY S EH SIL K IH N M AE AH N
+
+Segment 7:
+  Timestamp: 00:30.135 - 00:32.768 (2.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is playing a kite.
+  Phonemic Encoding: Y IH S AH AH SIL F L AY IH NG AH SIL K HH AY SIL T
+
+Segment 8:
+  Timestamp: 00:33.882 - 00:39.062 (5.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and uh... over the ocean, over the water, anyway.
+  Phonemic Encoding: AE N AH AH AH OW V R ER IH DH IY Y OW SH SIL OW V ER IH DH AH W AA DX ER EH N IY W EY
+
+Segment 9:
+  Timestamp: 00:41.509 - 00:43.028 (1.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: beside a dog.
+  Phonemic Encoding: B IY S AY DX IH SIL D AA SIL G
+
+Segment 10:
+  Timestamp: 00:45.745 - 00:47.314 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a shell boat.
+  Phonemic Encoding: DH IH EH R IH Z AH SH S EH L SIL B OW SIL
+
+Segment 11:
+  Timestamp: 00:48.462 - 00:50.217 (1.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: in the water.
+  Phonemic Encoding: IH EH N L IH SIL DH IY W AA DX ER HH
+
+Segment 12:
+  Timestamp: 00:55.482 - 00:57.473 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a house.
+  Phonemic Encoding: B EH R ER IH Z AH HH HH AW S
+
+Segment 13:
+  Timestamp: 00:59.042 - 01:01.185 (2.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with a car part.
+  Phonemic Encoding: W IH DH IH SIL K AA R ER SIL P AA R ER SIL T CH
+
+Segment 14:
+  Timestamp: 01:03.801 - 01:05.522 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Why in front of it?
+  Phonemic Encoding: AY SIL IH N F R AH N AH V IH SIL T S
+
+Segment 15:
+  Timestamp: 01:06.957 - 01:08.475 (1.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and a
+  Phonemic Encoding: AE N D AH SIL EY
+
+Segment 16:
+  Timestamp: 01:09.893 - 01:11.918 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flagpole with a
+  Phonemic Encoding: L AE SIL NG SIL P OW L SIL W IH SIL Z EY
+
+Segment 17:
+  Timestamp: 01:13.133 - 01:18.584 (5.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flag on it, but we can't see what the flag is.
+  Phonemic Encoding: L AE NG SIL G AH SIL AA N IH SIL T IH SIL B AH SIL D IH SIL W IY SIL K OW AE AE N SIL T S IY W AH SIL DH AH F L AE NG SIL G IH SIL IH S
+
+Segment 18:
+  Timestamp: 01:24.760 - 01:27.527 (2.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It is by the water.
+  Phonemic Encoding: DH IH IH SIL IH DX IH Z SIL B AY SIL DH AH W AA DX ER
+
+Segment 19:
+  Timestamp: 01:28.709 - 01:30.210 (1.50s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: but not in the water.
+  Phonemic Encoding: B AH AY EH SIL SIL N AA N DX IH N DH AH W AA DX ER
+
+Segment 20:
+  Timestamp: 01:31.409 - 01:32.792 (1.38s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There is a man.
+  Phonemic Encoding: EH ER R ER IH Z AH M EY N
+
+Segment 21:
+  Timestamp: 01:33.974 - 01:37.703 (3.73s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: with or something, somebody.
+  Phonemic Encoding: W IH SIL AH L W L SIL AA R ER S AH M N SIL TH IH NG SIL SIL IH S AH M SIL B AH DX IY
+
+Segment 22:
+  Timestamp: 01:41.770 - 01:42.917 (1.15s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: in there.
+  Phonemic Encoding: IH N N DH EH
+
+Segment 23:
+  Timestamp: 01:47.355 - 01:50.747 (3.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: all to the pier in low.
+  Phonemic Encoding: AA SIL F S N DH IY EY SIL P IY ER IH N N L OW
+
+Segment 24:
+  Timestamp: 01:50.967 - 01:52.114 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Water.
+  Phonemic Encoding: W AA DX ER

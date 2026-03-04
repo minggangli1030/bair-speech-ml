@@ -1,0 +1,167 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-10072_ses-20150918_task-picnic_lang-en_final.wav
+Total Segments: 21
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.110     Participant  1.08      s Bing!)                                             B EY SIL
+2    00:02.545 → 00:06.443     Participant  3.90      s on the end was cut. Sorry.                         AA N SIL DH IH AE N SIL D SIL W AH EH S S SIL K AH SIL D AH SIL S AA AY AH SIL
+3    00:07.776 → 00:10.139     Participant  2.36      s Why?                                               AH W AY SIL AH M
+4    00:16.399 → 00:20.044     Participant  3.64      s Now, now the net.                                  N EH N AW N AW DH EY IY SIL SIL N EY SIL
+5    00:36.210 → 00:39.602     Participant  3.39      s Man is flying a kite.                              AE EH M SIL B M AE N SIL IH Z SIL AH SIL P L AY IH NG SIL AH SIL K AY SIL CH
+6    00:44.969 → 00:47.399     Clinician    2.43      s and is..                                           IH EH N SIL HH IH Z S AA M
+7    00:49.525 → 00:53.760     Clinician    4.24      s exclusive i'm lying                                B W R M IH N SIL IH EH Z S S SIL SIL W AY NG AH SIL
+8    01:11.631 → 01:12.829     Participant  1.20      s The broken                                         DH EY N M SIL W EH W R IH N SIL
+9    01:24.861 → 01:28.320     Clinician    3.46      s The man is reading the book.                       DH IY M AE N SIL D SIL HH IH EH Z S SIL N R IY DX IY NG SIL K SIL B AA L SIL
+10   01:30.227 → 01:33.231     Clinician    3.00      s of sailor and beam.                                L SIL S S SIL S EY L AA L EY SIL IH SIL B IY EY M
+11   01:36.184 → 01:41.415     Clinician    5.23      s Love? Somebody folks uh                            L AH M S SIL S AH M B EH DH IY SIL AH P AH L SIL S AH
+12   01:54.510 → 01:56.215     Clinician    1.70      s Okay. Okay.                                        DH IY OW L SIL
+13   02:03.134 → 02:04.635     Participant  1.50      s kills.                                             IH EH N SIL T EH L S
+14   02:12.904 → 02:16.364     Participant  3.46      s they what they call it                             EY W AY SIL IH Z K HH AA L ER S UH
+15   02:21.966 → 02:23.755     Participant  1.79      s They would.                                        DH B EY SIL W IH
+16   02:26.522 → 02:30.454     Participant  3.93      s is vital and the sun.                              IH EH Z S B AY SIL K IH SIL K SIL AE N D SIL IH N DH EY S AH N
+17   02:36.749 → 02:44.798     Participant  8.05      s uh the couple versus they... kill... can't... coul AH DH EY SIL SIL SIL SIL K AH AA SIL P L SIL ER Z SIL DH EY K UW UH SIL K SIL K EH R SIL G IH N SIL SIL DH AH SIL DH EY IY SIL SIL P IH SIL K IH N
+18   02:46.958 → 02:48.392     Participant  1.43      s Inave end                                          EH M EH
+19   02:52.240 → 02:54.737     Participant  2.50      s we leaving Friday                                  AA L DH IH IY NG SIL SIL F AW AH DH IY SIL
+20   03:03.276 → 03:04.491     Clinician    1.22      s Yeah, it's...                                      Y EH N JH SIL SIL S
+21   03:09.992 → 03:11.039     Participant  1.05      s Then, did I look like a witch...                   IH N IH IH AH L AH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.110 (1.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Bing!)
+  Phonemic Encoding: B EY SIL
+
+Segment 2:
+  Timestamp: 00:02.545 - 00:06.443 (3.90s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: on the end was cut. Sorry.
+  Phonemic Encoding: AA N SIL DH IH AE N SIL D SIL W AH EH S S SIL K AH SIL D AH SIL S AA AY AH SIL
+
+Segment 3:
+  Timestamp: 00:07.776 - 00:10.139 (2.36s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Why?
+  Phonemic Encoding: AH W AY SIL AH M
+
+Segment 4:
+  Timestamp: 00:16.399 - 00:20.044 (3.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Now, now the net.
+  Phonemic Encoding: N EH N AW N AW DH EY IY SIL SIL N EY SIL
+
+Segment 5:
+  Timestamp: 00:36.210 - 00:39.602 (3.39s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Man is flying a kite.
+  Phonemic Encoding: AE EH M SIL B M AE N SIL IH Z SIL AH SIL P L AY IH NG SIL AH SIL K AY SIL CH
+
+Segment 6:
+  Timestamp: 00:44.969 - 00:47.399 (2.43s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and is..
+  Phonemic Encoding: IH EH N SIL HH IH Z S AA M
+
+Segment 7:
+  Timestamp: 00:49.525 - 00:53.760 (4.24s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: exclusive i'm lying
+  Phonemic Encoding: B W R M IH N SIL IH EH Z S S SIL SIL W AY NG AH SIL
+
+Segment 8:
+  Timestamp: 01:11.631 - 01:12.829 (1.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The broken
+  Phonemic Encoding: DH EY N M SIL W EH W R IH N SIL
+
+Segment 9:
+  Timestamp: 01:24.861 - 01:28.320 (3.46s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: The man is reading the book.
+  Phonemic Encoding: DH IY M AE N SIL D SIL HH IH EH Z S SIL N R IY DX IY NG SIL K SIL B AA L SIL
+
+Segment 10:
+  Timestamp: 01:30.227 - 01:33.231 (3.00s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: of sailor and beam.
+  Phonemic Encoding: L SIL S S SIL S EY L AA L EY SIL IH SIL B IY EY M
+
+Segment 11:
+  Timestamp: 01:36.184 - 01:41.415 (5.23s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Love? Somebody folks uh
+  Phonemic Encoding: L AH M S SIL S AH M B EH DH IY SIL AH P AH L SIL S AH
+
+Segment 12:
+  Timestamp: 01:54.510 - 01:56.215 (1.70s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Okay. Okay.
+  Phonemic Encoding: DH IY OW L SIL
+
+Segment 13:
+  Timestamp: 02:03.134 - 02:04.635 (1.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: kills.
+  Phonemic Encoding: IH EH N SIL T EH L S
+
+Segment 14:
+  Timestamp: 02:12.904 - 02:16.364 (3.46s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: they what they call it
+  Phonemic Encoding: EY W AY SIL IH Z K HH AA L ER S UH
+
+Segment 15:
+  Timestamp: 02:21.966 - 02:23.755 (1.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: They would.
+  Phonemic Encoding: DH B EY SIL W IH
+
+Segment 16:
+  Timestamp: 02:26.522 - 02:30.454 (3.93s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: is vital and the sun.
+  Phonemic Encoding: IH EH Z S B AY SIL K IH SIL K SIL AE N D SIL IH N DH EY S AH N
+
+Segment 17:
+  Timestamp: 02:36.749 - 02:44.798 (8.05s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: uh the couple versus they... kill... can't... couldn't...
+  Phonemic Encoding: AH DH EY SIL SIL SIL SIL K AH AA SIL P L SIL ER Z SIL DH EY K UW UH SIL K SIL K EH R SIL G IH N SIL SIL DH AH SIL DH EY IY SIL SIL P IH SIL K IH N
+
+Segment 18:
+  Timestamp: 02:46.958 - 02:48.392 (1.43s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Inave end
+  Phonemic Encoding: EH M EH
+
+Segment 19:
+  Timestamp: 02:52.240 - 02:54.737 (2.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: we leaving Friday
+  Phonemic Encoding: AA L DH IH IY NG SIL SIL F AW AH DH IY SIL
+
+Segment 20:
+  Timestamp: 03:03.276 - 03:04.491 (1.22s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Yeah, it's...
+  Phonemic Encoding: Y EH N JH SIL SIL S
+
+Segment 21:
+  Timestamp: 03:09.992 - 03:11.039 (1.05s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Then, did I look like a witch...
+  Phonemic Encoding: IH N IH IH AH L AH

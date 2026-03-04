@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-21859_ses-20160621_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:34.320     Participant  34.29     s I'm okay, so mom and dad are near the tree and the M SIL OW SIL K EY S EH OW OW AH HH HH AH M SIL M AA M IH N SIL D AE DX ER HH SIL HH IH SIL N AH AH M SIL N IH SIL N IH ER DX IH SIL DH IH DH EH AH SIL AH SIL CH R IY SIL AE N DH AH SIL HH AW S S SIL DH AH HH AW S IH Z R AY EY SIL DH EH ER SIL AE N SIL D SIL AA M SIL AH W IY HH AE V SIL AA M N SIL AH SIL D AA SIL K DH EH SIL T S SIL HH AH SIL DH AH SIL DH IH SIL SIL D IH SIL T D EH ER HH M DH ER SIL B AA R SIL K IY NG SIL IH N M M SIL TH DH EH N SIL AA AH M DH ER S SIL T SIL AH F L AY N NG SIL F DH AH SIL K AY SIL T SIL DH IH SIL T S F L AY NG AH SIL DH EH R ER IH N DH EH N IH SIL DH EH ER Z S SIL W AA DX ER SIL IH IH AE N SIL D IH SIL S SIL AA S OW AH SIL L W UH DX IH Z S DH IH EH S SIL DH IY SIL AA M IH SIL T S AE SH UW SIL T SIL
+2    00:36.362 → 00:53.035     Participant  16.67     s ales and then this is the house and a tree and let S EY L S IH EH N DH EH N SIL AA M B IH S IH Z SIL DH IY HH AE AH SIL HH AW S SIL AE EH AE N SIL T AH SIL T CH T R IY EH N SIL D IH L AH SIL T S IY UW W AH DX AW L S AH M B AE SIL K HH Y IH ER SIL ER AH T JH IH S SIL K AY N SIL D EH AH F SIL AA M SIL IH N OW N OW W AH SIL DH IH S IH S SIL M AY EY SIL K G AH
+3    00:54.925 → 00:56.039     Participant  1.11      s What is this?                                      W AH DX IH Z SIL DH IH S
+4    00:57.709 → 00:59.160     Participant  1.45      s This is Oso, it's around.                          DH IH S IH Z OW S OW IH SIL S AH R AW N SIL D
+5    01:00.595 → 01:04.375     Participant  3.78      s This is, okay, so this is the water and then this  AH SIL DH IH S IH Z SIL AH OW SIL K EY S AH DH IH S IH Z DH AH W AA DX ER IH N IH EH N IH N IH S IH S SIL W EH ER SIL AH
+6    01:04.864 → 01:08.762     Participant  3.90      s Mountains are okay, and then they're having a picn M AW N SIL N S AA R HH SIL K L SIL K EY IH N DH EH N DH ER HH AE V IY EH SIL AH M SIL P IH SIL K SIL N IH SIL
+7    01:16.170 → 01:19.292     Clinician    3.12      s Yeah, so cars, a car there.                        AH Y EH AH SIL S OW SIL K AA R ER S SIL T SIL G AH SIL K AA R DH EH ER
+8    01:23.967 → 01:26.970     Clinician    3.00      s those. They're having a lunch.                     DH OW S SIL T N ER HH AE V IH NG AH AW AH W L AA AH N SIL CH SH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:34.320 (34.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm okay, so mom and dad are near the tree and the house, the house is right there. And we have a dog that's there, they're barking and then there's a kite that's flying up there and then there's water and it's also what is this the it's a shoot.
+  Phonemic Encoding: M SIL OW SIL K EY S EH OW OW AH HH HH AH M SIL M AA M IH N SIL D AE DX ER HH SIL HH IH SIL N AH AH M SIL N IH SIL N IH ER DX IH SIL DH IH DH EH AH SIL AH SIL CH R IY SIL AE N DH AH SIL HH AW S S SIL DH AH HH AW S IH Z R AY EY SIL DH EH ER SIL AE N SIL D SIL AA M SIL AH W IY HH AE V SIL AA M N SIL AH SIL D AA SIL K DH EH SIL T S SIL HH AH SIL DH AH SIL DH IH SIL SIL D IH SIL T D EH ER HH M DH ER SIL B AA R SIL K IY NG SIL IH N M M SIL TH DH EH N SIL AA AH M DH ER S SIL T SIL AH F L AY N NG SIL F DH AH SIL K AY SIL T SIL DH IH SIL T S F L AY NG AH SIL DH EH R ER IH N DH EH N IH SIL DH EH ER Z S SIL W AA DX ER SIL IH IH AE N SIL D IH SIL S SIL AA S OW AH SIL L W UH DX IH Z S DH IH EH S SIL DH IY SIL AA M IH SIL T S AE SH UW SIL T SIL
+
+Segment 2:
+  Timestamp: 00:36.362 - 00:53.035 (16.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ales and then this is the house and a tree and let's see what else. Back here or just kind of, I don't know what this is, make a...
+  Phonemic Encoding: S EY L S IH EH N DH EH N SIL AA M B IH S IH Z SIL DH IY HH AE AH SIL HH AW S SIL AE EH AE N SIL T AH SIL T CH T R IY EH N SIL D IH L AH SIL T S IY UW W AH DX AW L S AH M B AE SIL K HH Y IH ER SIL ER AH T JH IH S SIL K AY N SIL D EH AH F SIL AA M SIL IH N OW N OW W AH SIL DH IH S IH S SIL M AY EY SIL K G AH
+
+Segment 3:
+  Timestamp: 00:54.925 - 00:56.039 (1.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: What is this?
+  Phonemic Encoding: W AH DX IH Z SIL DH IH S
+
+Segment 4:
+  Timestamp: 00:57.709 - 00:59.160 (1.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is Oso, it's around.
+  Phonemic Encoding: DH IH S IH Z OW S OW IH SIL S AH R AW N SIL D
+
+Segment 5:
+  Timestamp: 01:00.595 - 01:04.375 (3.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is, okay, so this is the water and then this is where...
+  Phonemic Encoding: AH SIL DH IH S IH Z SIL AH OW SIL K EY S AH DH IH S IH Z DH AH W AA DX ER IH N IH EH N IH N IH S IH S SIL W EH ER SIL AH
+
+Segment 6:
+  Timestamp: 01:04.864 - 01:08.762 (3.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Mountains are okay, and then they're having a picnic.
+  Phonemic Encoding: M AW N SIL N S AA R HH SIL K L SIL K EY IH N DH EH N DH ER HH AE V IY EH SIL AH M SIL P IH SIL K SIL N IH SIL
+
+Segment 7:
+  Timestamp: 01:16.170 - 01:19.292 (3.12s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Yeah, so cars, a car there.
+  Phonemic Encoding: AH Y EH AH SIL S OW SIL K AA R ER S SIL T SIL G AH SIL K AA R DH EH ER
+
+Segment 8:
+  Timestamp: 01:23.967 - 01:26.970 (3.00s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: those. They're having a lunch.
+  Phonemic Encoding: DH OW S SIL T N ER HH AE V IH NG AH AW AH W L AA AH N SIL CH SH

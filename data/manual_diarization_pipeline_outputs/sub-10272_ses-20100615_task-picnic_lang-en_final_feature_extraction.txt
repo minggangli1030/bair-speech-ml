@@ -1,0 +1,69 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-10272_ses-20100615_task-picnic_lang-en_final.wav
+Total Segments: 7
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:09.582     Participant  9.55      s Oh look, my son has a tape, a kite, and it's runni AH L DH UH SIL M AY S AH N IH S F SIL IH S AH SIL HH EH S AH SIL T HH EY IH SIL P L SIL K AY IH N IH Z S SIL R EH N IH NG SIL K W AY SIL T HH AA M N AY SIL AW SIL AY S S EY EH L SIL B OW L SIL T EH S IY TH R IY SIL P IY SIL P L DH EH ER IH N SIL DH EH R N EH M IH NG SIL G UH IH SIL T AY N
+2    00:15.032 → 00:19.032     Clinician    4.00      s omeone I'm unearthed. Boat to Paul of here.        S AH M W AH N AH DX AH M SIL AA AH N ER SIL SIL B OW SIL T IH AH SIL P AA L AH SIL HH IY IH
+3    00:19.740 → 00:23.976     Clinician    4.24      s pilot holder pops to call a intot                  K AA L AH HH OW DX AH SIL SIL HH AA L SIL S SIL T UW M SIL K AA L EY IH N SIL T UW SIL T
+4    00:23.976 → 00:29.865     Participant  5.89      s to care it out there. Here the picnic looks like p SIL K EH ER R IH DX AW N SIL DH EH R ER SIL AH N AH S SIL HH IH ER DH AH SIL P IH SIL N IH SIL L UH SIL S AY SIL DH AH SIL SIL P IY SIL P L AE V IY NG AH SIL G UH IH SIL T AY HH AE N
+5    00:34.624 → 00:45.188     Participant  10.56     s Mitsuhawa did, I guess. And there's a house and a  IH S AH L AA AH DX IH DX AH Y EH S B EH N DH IH Z S AH HH AE N SIL B ER Z HH AW L S N IH SIL T R IY SIL W UH IH SIL D M IH N EH AH SIL T IH SIL F EH R IH N AY S D L AA R SIL JH CH SH SIL T R IY AE IH SIL L UH SIL S AY SIL K EH DX IH AH SIL P UH SIL K S SIL T L AY SIL M EY V B IY IH N AE EH AA L M IY N M IH SIL S R ER IH DX IH N T R IH S SIL T IY IH N AA TH DH EH DH
+6    00:47.550 → 00:57.675     Participant  10.12     s Palace, it's either rather strong or rather small  HH AW L S T S IY SIL JH R EH AY ER S SIL T R AA NG W AH R AA OW L S SIL F R AE N L IH SIL R EH DH ER S SIL M AA L SIL IH N SIL T S OW SIL SIL SIL P AE SIL K SIL T AH P R AA L UW Z JH IH S SIL T AH S AH M R ER SIL TH IH NG SIL B IH DX IH R IH L IY Z AH N AY S SIL P L EY S IH N IH SIL S AH DX IH SIL T S SH AH SIL S SIL K UH SIL TH IH NG SIL D EH
+7    00:59.414 → 01:11.834     Participant  12.42     s people eating their picnic were freaking Pepsi and P IY SIL P L SIL IY DX IY N DH EH ER SIL P IH SIL N IH SIL K AW L W ER AH R IH SIL K IH N SIL W R IH F R IH IY SIL K IH IY SIL P EH SIL P S IY SIL IH N SIL SIL L AE N SIL D AH R IY DX IY N SIL M AY S SIL B UH SIL K S DH IY SIL SIL B AA S IH DX AH V DH AE EH SIL T HH HH M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:09.582 (9.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh look, my son has a tape, a kite, and it's running quite on my. I sail both, I see three people there, and they're naming good time.
+  Phonemic Encoding: AH L DH UH SIL M AY S AH N IH S F SIL IH S AH SIL HH EH S AH SIL T HH EY IH SIL P L SIL K AY IH N IH Z S SIL R EH N IH NG SIL K W AY SIL T HH AA M N AY SIL AW SIL AY S S EY EH L SIL B OW L SIL T EH S IY TH R IY SIL P IY SIL P L DH EH ER IH N SIL DH EH R N EH M IH NG SIL G UH IH SIL T AY N
+
+Segment 2:
+  Timestamp: 00:15.032 - 00:19.032 (4.00s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: omeone I'm unearthed. Boat to Paul of here.
+  Phonemic Encoding: S AH M W AH N AH DX AH M SIL AA AH N ER SIL SIL B OW SIL T IH AH SIL P AA L AH SIL HH IY IH
+
+Segment 3:
+  Timestamp: 00:19.740 - 00:23.976 (4.24s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: pilot holder pops to call a intot
+  Phonemic Encoding: K AA L AH HH OW DX AH SIL SIL HH AA L SIL S SIL T UW M SIL K AA L EY IH N SIL T UW SIL T
+
+Segment 4:
+  Timestamp: 00:23.976 - 00:29.865 (5.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: to care it out there. Here the picnic looks like people having a good time.
+  Phonemic Encoding: SIL K EH ER R IH DX AW N SIL DH EH R ER SIL AH N AH S SIL HH IH ER DH AH SIL P IH SIL N IH SIL L UH SIL S AY SIL DH AH SIL SIL P IY SIL P L AE V IY NG AH SIL G UH IH SIL T AY HH AE N
+
+Segment 5:
+  Timestamp: 00:34.624 - 00:45.188 (10.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Mitsuhawa did, I guess. And there's a house and a tree. Would it be very nice, large tree, looks like it looks like maybe an almy. That's very interesting.
+  Phonemic Encoding: IH S AH L AA AH DX IH DX AH Y EH S B EH N DH IH Z S AH HH AE N SIL B ER Z HH AW L S N IH SIL T R IY SIL W UH IH SIL D M IH N EH AH SIL T IH SIL F EH R IH N AY S D L AA R SIL JH CH SH SIL T R IY AE IH SIL L UH SIL S AY SIL K EH DX IH AH SIL P UH SIL K S SIL T L AY SIL M EY V B IY IH N AE EH AA L M IY N M IH SIL S R ER IH DX IH N T R IH S SIL T IY IH N AA TH DH EH DH
+
+Segment 6:
+  Timestamp: 00:47.550 - 00:57.675 (10.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Palace, it's either rather strong or rather small and so that probably is just a summer thing but it really is a nice place and it's a good thing to get.
+  Phonemic Encoding: HH AW L S T S IY SIL JH R EH AY ER S SIL T R AA NG W AH R AA OW L S SIL F R AE N L IH SIL R EH DH ER S SIL M AA L SIL IH N SIL T S OW SIL SIL SIL P AE SIL K SIL T AH P R AA L UW Z JH IH S SIL T AH S AH M R ER SIL TH IH NG SIL B IH DX IH R IH L IY Z AH N AY S SIL P L EY S IH N IH SIL S AH DX IH SIL T S SH AH SIL S SIL K UH SIL TH IH NG SIL D EH
+
+Segment 7:
+  Timestamp: 00:59.414 - 01:11.834 (12.42s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: people eating their picnic were freaking Pepsi and reading my books. The faster the land. Come.
+  Phonemic Encoding: P IY SIL P L SIL IY DX IY N DH EH ER SIL P IH SIL N IH SIL K AW L W ER AH R IH SIL K IH N SIL W R IH F R IH IY SIL K IH IY SIL P EH SIL P S IY SIL IH N SIL SIL L AE N SIL D AH R IY DX IY N SIL M AY S SIL B UH SIL K S DH IY SIL SIL B AA S IH DX AH V DH AE EH SIL T HH HH M

@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17037_ses-20160308_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.769     Participant  1.74      s They're i- magnets!                                EH ER SIL SIL AE AY SIL V R IY SIL
+2    00:02.309 → 00:05.430     Participant  3.12      s Hope188 on the platform!                           K IH SIL N N EY EH IH N SIL S L M
+3    00:07.439 → 00:09.430     Participant  1.99      s it'sстрye hot                                      IH Z AH F L AY SIL SIL
+4    00:15.184 → 00:17.209     Participant  2.02      s Come on, yeah, stretch it.                         T AH M AY N IH SH S EH EY SIL JH UW
+5    00:25.613 → 00:27.739     Clinician    2.13      s Like it, it was a dream.                           L AY AE N IY EY IH SIL IH EH V IH SIL Z R AY N
+6    00:40.665 → 00:45.745     Participant  5.08      s o it's trading about learning.                     S AA AE AW SIL IH Z S SIL T R EY SIL IY NG AH SIL B AA AW DH R AE AY N
+7    00:48.225 → 00:52.697     Participant  4.47      s He's drawing a crown. Okay.                        HH IY SIL S L AA AY SIL AH SIL K R AA AW L M K EY
+8    00:55.937 → 00:56.967     Participant  1.03      s Vong                                               EH AH OW SIL F S R AY NG
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.769 (1.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They're i- magnets!
+  Phonemic Encoding: EH ER SIL SIL AE AY SIL V R IY SIL
+
+Segment 2:
+  Timestamp: 00:02.309 - 00:05.430 (3.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Hope188 on the platform!
+  Phonemic Encoding: K IH SIL N N EY EH IH N SIL S L M
+
+Segment 3:
+  Timestamp: 00:07.439 - 00:09.430 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: it'sстрye hot
+  Phonemic Encoding: IH Z AH F L AY SIL SIL
+
+Segment 4:
+  Timestamp: 00:15.184 - 00:17.209 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Come on, yeah, stretch it.
+  Phonemic Encoding: T AH M AY N IH SH S EH EY SIL JH UW
+
+Segment 5:
+  Timestamp: 00:25.613 - 00:27.739 (2.13s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Like it, it was a dream.
+  Phonemic Encoding: L AY AE N IY EY IH SIL IH EH V IH SIL Z R AY N
+
+Segment 6:
+  Timestamp: 00:40.665 - 00:45.745 (5.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o it's trading about learning.
+  Phonemic Encoding: S AA AE AW SIL IH Z S SIL T R EY SIL IY NG AH SIL B AA AW DH R AE AY N
+
+Segment 7:
+  Timestamp: 00:48.225 - 00:52.697 (4.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He's drawing a crown. Okay.
+  Phonemic Encoding: HH IY SIL S L AA AY SIL AH SIL K R AA AW L M K EY
+
+Segment 8:
+  Timestamp: 00:55.937 - 00:56.967 (1.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Vong
+  Phonemic Encoding: EH AH OW SIL F S R AY NG

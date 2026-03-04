@@ -1,0 +1,139 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-10886_ses-20100427_task-picnic_lang-en_final.wav
+Total Segments: 17
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.482 → 00:02.832     Participant  1.35      s There's a flag.                                    DH EH ER Z AH F L AE AY AE NG G
+2    00:03.844 → 00:05.025     Participant  1.18      s It's um...                                         EH S AA M
+3    00:05.633 → 00:07.624     Participant  1.99      s What are young?                                    W AA AH ER SIL N Y EH AH N NG
+4    00:08.535 → 00:12.974     Participant  4.44      s man, I'm trying to fly a kite in the               M AE N N AH N SIL T R AY IH N SIL T UW SIL P F SIL P F L AY IH SIL K AY N IH N DH AH AH
+5    00:16.095 → 00:17.817     Participant  1.72      s This share button.                                 N IH S AH SH IH AH SIL B AA
+6    00:19.082 → 00:23.031     Participant  3.95      s which uh to people on one level Armench.           W AH S AA AH SIL SIL SIL T IH SIL B IY IH SIL B AA AA R W AH N ER W L EH EY IH IH N NG T
+7    00:23.419 → 00:24.719     Participant  1.30      s And, um...                                         AE N SIL D AA M S
+8    00:30.726 → 00:43.315     Participant  12.59     s omeone's fishing off the pierced and puppy elk and S AH M N Z F IH SH NG N AA F SIL T IY Y AW N SIL P IH ER SIL CH SIL S AE N AE SIL P B AH SIL P B IY IH AA NG SIL K AE N K AH SIL P L AA L SIL M AY S SIL P W AA R AA HH SIL N UW N M DH IH N F R ER AH V AH S HH AW S SH
+9    00:44.496 → 00:47.972     Participant  3.48      s and he and Flannin and Sousa of it.                EY IH N NG IY IY N HH AE N F L AE N IH SIL B IH N S AW L S N AH V DH AH
+10   00:48.681 → 00:49.694     Participant  1.01      s It's car.                                          IH N Z S SIL K AA R ER HH
+11   01:11.074 → 01:12.897     Participant  1.82      s hearts permit                                      HH AE SIL S SIL P AE N M AW AA M
+12   01:14.112 → 01:16.002     Participant  1.89      s Park and Fahley House.                             SIL P AA R SIL K SIL N F AA AH DH EY HH AW S S
+13   01:17.284 → 01:19.596     Participant  2.31      s and through in three bit courage.                  EH AE EH N SIL TH ER IH N N SIL TH R IY DH IH SIL K AA R AA AY SIL CH
+14   01:29.654 → 01:32.944     Participant  3.29      s There is a tree in front of the house.             N IH N Z DH AH AA SIL T R EY IY W IH N F R ER AH AH HH AW S
+15   01:36.269 → 01:39.120     Clinician    2.85      s and there's small trees.                           AW M SIL N ER S SIL M AA L SIL T CH T R IY S S
+16   01:39.610 → 01:40.791     Clinician    1.18      s Let him down.                                      L IH N N SIL D AW N
+17   01:45.432 → 01:47.119     Clinician    1.69      s to the way.                                        T UW SIL DH IY Y AW M W EY SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.482 - 00:02.832 (1.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a flag.
+  Phonemic Encoding: DH EH ER Z AH F L AE AY AE NG G
+
+Segment 2:
+  Timestamp: 00:03.844 - 00:05.025 (1.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's um...
+  Phonemic Encoding: EH S AA M
+
+Segment 3:
+  Timestamp: 00:05.633 - 00:07.624 (1.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: What are young?
+  Phonemic Encoding: W AA AH ER SIL N Y EH AH N NG
+
+Segment 4:
+  Timestamp: 00:08.535 - 00:12.974 (4.44s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: man, I'm trying to fly a kite in the
+  Phonemic Encoding: M AE N N AH N SIL T R AY IH N SIL T UW SIL P F SIL P F L AY IH SIL K AY N IH N DH AH AH
+
+Segment 5:
+  Timestamp: 00:16.095 - 00:17.817 (1.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This share button.
+  Phonemic Encoding: N IH S AH SH IH AH SIL B AA
+
+Segment 6:
+  Timestamp: 00:19.082 - 00:23.031 (3.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: which uh to people on one level Armench.
+  Phonemic Encoding: W AH S AA AH SIL SIL SIL T IH SIL B IY IH SIL B AA AA R W AH N ER W L EH EY IH IH N NG T
+
+Segment 7:
+  Timestamp: 00:23.419 - 00:24.719 (1.30s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And, um...
+  Phonemic Encoding: AE N SIL D AA M S
+
+Segment 8:
+  Timestamp: 00:30.726 - 00:43.315 (12.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omeone's fishing off the pierced and puppy elk and a couple of us walking in front of us house.
+  Phonemic Encoding: S AH M N Z F IH SH NG N AA F SIL T IY Y AW N SIL P IH ER SIL CH SIL S AE N AE SIL P B AH SIL P B IY IH AA NG SIL K AE N K AH SIL P L AA L SIL M AY S SIL P W AA R AA HH SIL N UW N M DH IH N F R ER AH V AH S HH AW S SH
+
+Segment 9:
+  Timestamp: 00:44.496 - 00:47.972 (3.48s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and he and Flannin and Sousa of it.
+  Phonemic Encoding: EY IH N NG IY IY N HH AE N F L AE N IH SIL B IH N S AW L S N AH V DH AH
+
+Segment 10:
+  Timestamp: 00:48.681 - 00:49.694 (1.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's car.
+  Phonemic Encoding: IH N Z S SIL K AA R ER HH
+
+Segment 11:
+  Timestamp: 01:11.074 - 01:12.897 (1.82s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hearts permit
+  Phonemic Encoding: HH AE SIL S SIL P AE N M AW AA M
+
+Segment 12:
+  Timestamp: 01:14.112 - 01:16.002 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Park and Fahley House.
+  Phonemic Encoding: SIL P AA R SIL K SIL N F AA AH DH EY HH AW S S
+
+Segment 13:
+  Timestamp: 01:17.284 - 01:19.596 (2.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and through in three bit courage.
+  Phonemic Encoding: EH AE EH N SIL TH ER IH N N SIL TH R IY DH IH SIL K AA R AA AY SIL CH
+
+Segment 14:
+  Timestamp: 01:29.654 - 01:32.944 (3.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a tree in front of the house.
+  Phonemic Encoding: N IH N Z DH AH AA SIL T R EY IY W IH N F R ER AH AH HH AW S
+
+Segment 15:
+  Timestamp: 01:36.269 - 01:39.120 (2.85s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and there's small trees.
+  Phonemic Encoding: AW M SIL N ER S SIL M AA L SIL T CH T R IY S S
+
+Segment 16:
+  Timestamp: 01:39.610 - 01:40.791 (1.18s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Let him down.
+  Phonemic Encoding: L IH N N SIL D AW N
+
+Segment 17:
+  Timestamp: 01:45.432 - 01:47.119 (1.69s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: to the way.
+  Phonemic Encoding: T UW SIL DH IY Y AW M W EY SIL

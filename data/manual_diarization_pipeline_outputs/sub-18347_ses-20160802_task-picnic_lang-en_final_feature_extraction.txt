@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-18347_ses-20160802_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:02.224     Participant  2.19      s It's, um, they're flying.                          IH SIL S AH M N SIL DH ER F L AY N SIL
+2    00:04.452 → 00:09.295     Participant  4.84      s K, T, I see this as I know exactly what it is, and K HH EY SIL SIL T HH EY IY SIL HH IH S IY DH EH S AH Z AY EY N OW AH SIL G IH Z S AE SIL K L IH W AH DX IH DX IH Z S SIL AH N IH SIL K IH S SIL K OW AE N SIL T S EY IH R EY SIL
+3    00:10.628 → 00:11.944     Participant  1.32      s There is.                                          DH EH R ER SIL IY IH IH N S
+4    00:14.712 → 00:15.809     Participant  1.10      s out to the water.                                  AW AA AH SIL T AH N DH AH L W AA DX ER SIL
+5    00:17.429 → 00:20.196     Participant  2.77      s Tilt, find the dog.                                T IY UW IH SIL T S F SIL AY N N DH AH SIL D AA NG SIL K
+6    00:21.816 → 00:25.394     Participant  3.58      s Looks like they're eating gond. This is safe.      W L UH EH SIL K S TH AY SIL K SIL DH EH ER Y IY DX IY NG SIL G L AA AH N SIL D EH IH S IH S EY SIL K
+7    00:38.168 → 00:41.594     Clinician    3.43      s and then this turns something I think. das bau.    IH N S SIL M IH S SIL T IH N S AH M N SIL T IH N EY SIL DH EY D AH SIL P SIL AH
+8    01:04.746 → 01:11.429     Participant  6.68      s Did I... The only one I don't get is so little it' T IH DX IH D TH IH L IY W AH N AY DX D OW SIL SIL SIL G EH DX IH Z S SIL B UW SIL T S OW L IH DX L IH SIL T S AH N ER N IY TH HH IH ER W AH IH SIL CH SIL W AH SIL AA L AH V DH AH M
+9    01:12.390 → 01:20.474     Participant  8.08      s like from here and then across. Okay, so this guy  DH L AY EH SIL K F R ER M HH IH R ER IH N DH IH N AH SIL K R AA S SIL T ER SIL K EY S OW OW AH DH IH S SIL K G AY SIL IH Z SIL ER R IY DX IY N IH N NG SIL CH SH SIL IY S SIL T AE V DH IH TH HH SIL HH IY IH S SIL
+10   01:23.815 → 01:24.861     Participant  1.05      s We're not sure if that...                          N AH N SIL CH IH SIL TH HH AE
+11   01:26.025 → 01:27.173     Participant  1.15      s And...                                             EY EH IH
+12   01:27.578 → 01:30.362     Participant  2.78      s o that girl is...                                  S IH SIL L AE SIL T SIL G EH AE AW L IH IH S SIL T S
+13   01:33.029 → 01:46.394     Participant  13.37     s Typically something thin to there, not exactly. Ma T IH SIL P IY IH SIL K S AH M SIL B DH EY IY HH IH N SIL T IH DH EH ER HH N AA SIL T SIL HH R ER IH SIL K S AE SIL K L IY SIL CH SIL HH EY SIL B IY IH S SIL W EH R ER IH N DH EH ER HH IH SIL DH ER IY Y UW Z IH SIL K S SIL T AH SIL P UH SIL B W ER SIL CH T EH SIL K P IH DX IH P P F IY N D SIL HH AE AW SIL K IH N DH IH S SIL W AH Z S F L IH N IH SIL K AY EY SIL T SIL DH IH UH Z DH AH SIL D AA SIL G
+14   01:48.554 → 01:51.540     Participant  2.99      s How it... so sort of sailing...                    HH AW AH SIL T SIL K AH S ER S EY L IH NG
+15   01:57.885 → 01:59.910     Participant  2.03      s let's again run                                    AH AH IH SIL S F SIL AE EH M SIL L N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:02.224 (2.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's, um, they're flying.
+  Phonemic Encoding: IH SIL S AH M N SIL DH ER F L AY N SIL
+
+Segment 2:
+  Timestamp: 00:04.452 - 00:09.295 (4.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: K, T, I see this as I know exactly what it is, and I just can't say it right.
+  Phonemic Encoding: K HH EY SIL SIL T HH EY IY SIL HH IH S IY DH EH S AH Z AY EY N OW AH SIL G IH Z S AE SIL K L IH W AH DX IH DX IH Z S SIL AH N IH SIL K IH S SIL K OW AE N SIL T S EY IH R EY SIL
+
+Segment 3:
+  Timestamp: 00:10.628 - 00:11.944 (1.32s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is.
+  Phonemic Encoding: DH EH R ER SIL IY IH IH N S
+
+Segment 4:
+  Timestamp: 00:14.712 - 00:15.809 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: out to the water.
+  Phonemic Encoding: AW AA AH SIL T AH N DH AH L W AA DX ER SIL
+
+Segment 5:
+  Timestamp: 00:17.429 - 00:20.196 (2.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Tilt, find the dog.
+  Phonemic Encoding: T IY UW IH SIL T S F SIL AY N N DH AH SIL D AA NG SIL K
+
+Segment 6:
+  Timestamp: 00:21.816 - 00:25.394 (3.58s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like they're eating gond. This is safe.
+  Phonemic Encoding: W L UH EH SIL K S TH AY SIL K SIL DH EH ER Y IY DX IY NG SIL G L AA AH N SIL D EH IH S IH S EY SIL K
+
+Segment 7:
+  Timestamp: 00:38.168 - 00:41.594 (3.43s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and then this turns something I think. das bau.
+  Phonemic Encoding: IH N S SIL M IH S SIL T IH N S AH M N SIL T IH N EY SIL DH EY D AH SIL P SIL AH
+
+Segment 8:
+  Timestamp: 01:04.746 - 01:11.429 (6.68s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Did I... The only one I don't get is so little it's underneath here. Which one? All of them?
+  Phonemic Encoding: T IH DX IH D TH IH L IY W AH N AY DX D OW SIL SIL SIL G EH DX IH Z S SIL B UW SIL T S OW L IH DX L IH SIL T S AH N ER N IY TH HH IH ER W AH IH SIL CH SIL W AH SIL AA L AH V DH AH M
+
+Segment 9:
+  Timestamp: 01:12.390 - 01:20.474 (8.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: like from here and then across. Okay, so this guy is reading. He's added his...
+  Phonemic Encoding: DH L AY EH SIL K F R ER M HH IH R ER IH N DH IH N AH SIL K R AA S SIL T ER SIL K EY S OW OW AH DH IH S SIL K G AY SIL IH Z SIL ER R IY DX IY N IH N NG SIL CH SH SIL IY S SIL T AE V DH IH TH HH SIL HH IY IH S SIL
+
+Segment 10:
+  Timestamp: 01:23.815 - 01:24.861 (1.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: We're not sure if that...
+  Phonemic Encoding: N AH N SIL CH IH SIL TH HH AE
+
+Segment 11:
+  Timestamp: 01:26.025 - 01:27.173 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And...
+  Phonemic Encoding: EY EH IH
+
+Segment 12:
+  Timestamp: 01:27.578 - 01:30.362 (2.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o that girl is...
+  Phonemic Encoding: S IH SIL L AE SIL T SIL G EH AE AW L IH IH S SIL T S
+
+Segment 13:
+  Timestamp: 01:33.029 - 01:46.394 (13.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Typically something thin to there, not exactly. Maybe it's where in their... ...pair up their music stuff. Or type it up. Fiend. How can this one's falling in kite? That was the dog.
+  Phonemic Encoding: T IH SIL P IY IH SIL K S AH M SIL B DH EY IY HH IH N SIL T IH DH EH ER HH N AA SIL T SIL HH R ER IH SIL K S AE SIL K L IY SIL CH SIL HH EY SIL B IY IH S SIL W EH R ER IH N DH EH ER HH IH SIL DH ER IY Y UW Z IH SIL K S SIL T AH SIL P UH SIL B W ER SIL CH T EH SIL K P IH DX IH P P F IY N D SIL HH AE AW SIL K IH N DH IH S SIL W AH Z S F L IH N IH SIL K AY EY SIL T SIL DH IH UH Z DH AH SIL D AA SIL G
+
+Segment 14:
+  Timestamp: 01:48.554 - 01:51.540 (2.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: How it... so sort of sailing...
+  Phonemic Encoding: HH AW AH SIL T SIL K AH S ER S EY L IH NG
+
+Segment 15:
+  Timestamp: 01:57.885 - 01:59.910 (2.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: let's again run
+  Phonemic Encoding: AH AH IH SIL S F SIL AE EH M SIL L N

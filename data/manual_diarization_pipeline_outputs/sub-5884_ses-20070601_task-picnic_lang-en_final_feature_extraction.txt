@@ -1,0 +1,41 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-5884_ses-20070601_task-picnic_lang-en_final.wav
+Total Segments: 3
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.380 → 00:04.030     Clinician    2.65      s It's a happy family.                               IH SIL S AH HH AE F SIL P IY F AE M L EY DH EH ER R
+2    00:10.257 → 00:17.412     Participant  7.16      s good uh it's having time with the dog and then fin AH K HH IH SIL T D EH AH IH Z S HH EH V IH IH N SIL T AY M W AH TH DH IH SIL DH AH AH DH D AA AH SIL G IH EH N SIL DH IH DX AH N SIL F L AY NG N AE SIL K AY EY SIL T S SIL AE N SIL D EH AH
+3    00:19.589 → 00:29.022     Participant  9.43      s Obey is trying to catch up on a current novel. And AH V B IY Y IH S SH R AY N DX IH SIL K EH SH IH AH SIL P AA N AH EH AH SIL AH S SIL T AH SIL K ER IH N SIL N AA L L AE N N SIL D AH W AY F IY Z S SIL P AA R IH IY NG AW SIL T AH SIL SIL K AA F P IY SIL P R AA V AH L SIL B L EY SIL T IH SIL G OW L AA N NG W AH IH TH ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.380 - 00:04.030 (2.65s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's a happy family.
+  Phonemic Encoding: IH SIL S AH HH AE F SIL P IY F AE M L EY DH EH ER R
+
+Segment 2:
+  Timestamp: 00:10.257 - 00:17.412 (7.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: good uh it's having time with the dog and then find that kite and uh
+  Phonemic Encoding: AH K HH IH SIL T D EH AH IH Z S HH EH V IH IH N SIL T AY M W AH TH DH IH SIL DH AH AH DH D AA AH SIL G IH EH N SIL DH IH DX AH N SIL F L AY NG N AE SIL K AY EY SIL T S SIL AE N SIL D EH AH
+
+Segment 3:
+  Timestamp: 00:19.589 - 00:29.022 (9.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Obey is trying to catch up on a current novel. And wifey is pouring out coffee probably to go on with her.
+  Phonemic Encoding: AH V B IY Y IH S SH R AY N DX IH SIL K EH SH IH AH SIL P AA N AH EH AH SIL AH S SIL T AH SIL K ER IH N SIL N AA L L AE N N SIL D AH W AY F IY Z S SIL P AA R IH IY NG AW SIL T AH SIL SIL K AA F P IY SIL P R AA V AH L SIL B L EY SIL T IH SIL G OW L AA N NG W AH IH TH ER

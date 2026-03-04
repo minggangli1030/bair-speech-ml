@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24559_ses-20170124_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.364 → 00:03.017     Participant  1.65      s that there was a cookbook.                         DH EH SIL DH D EH AE N SIL S SIL K UH SIL P UH L SIL K
+2    00:26.676 → 00:27.773     Participant  1.10      s poor lemonade.                                     HH AA R NG L EH M IH N EY SIL D IH SIL
+3    00:45.053 → 00:46.150     Participant  1.10      s lippers on.                                        S SIL L IH SIL P ER Z SIL AA N
+4    00:55.600 → 00:57.000     Participant  1.40      s he's having a drink.                               SH IY S AE V IH NG AH SIL N SIL D R EY IH NG SIL K
+5    01:14.534 → 01:15.630     Clinician    1.10      s and a dog.                                         AE IH N IH SIL SIL D AA NG G
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.364 - 00:03.017 (1.65s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that there was a cookbook.
+  Phonemic Encoding: DH EH SIL DH D EH AE N SIL S SIL K UH SIL P UH L SIL K
+
+Segment 2:
+  Timestamp: 00:26.676 - 00:27.773 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: poor lemonade.
+  Phonemic Encoding: HH AA R NG L EH M IH N EY SIL D IH SIL
+
+Segment 3:
+  Timestamp: 00:45.053 - 00:46.150 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: lippers on.
+  Phonemic Encoding: S SIL L IH SIL P ER Z SIL AA N
+
+Segment 4:
+  Timestamp: 00:55.600 - 00:57.000 (1.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: he's having a drink.
+  Phonemic Encoding: SH IY S AE V IH NG AH SIL N SIL D R EY IH NG SIL K
+
+Segment 5:
+  Timestamp: 01:14.534 - 01:15.630 (1.10s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and a dog.
+  Phonemic Encoding: AE IH N IH SIL SIL D AA NG G

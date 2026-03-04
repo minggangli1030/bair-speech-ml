@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-2266_ses-20030528_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.094 → 00:26.001     Participant  24.91     s Well, I see picnic gurrs and cheese pouring someth HH W EH L AY S IY SIL P SIL SIL P IH SIL K SIL T DX IY SIL K ER S SIL AE IH N SIL CH SH IY S SIL P R AA R ER IH NG SIL S AH M N SIL TH IH IY NG SIL AW DX AH V SIL DH EH AH AW AH SIL TH B ER M AH S SIL AA ER SIL F B AA DX L L SIL AE AE N SIL HH IY S SIL R IY DX IY NG AH SIL B UH SIL K SIL SIL IH N SIL SIL HH EH S HH IH EH S SIL S AE N D L S SIL AA F L DH IY EY IY SIL B AE SIL S IH SIL Y IH SIL SIL IH S SIL P AA R SIL SIL OW SIL P AH IH N SIL IH EH N DH EY SIL SIL HH AE V DH AH SIL P AA R DX IH SIL B L L SIL P R EY DX IY IH OW ER
+2    00:27.030 → 00:28.634     Clinician    1.60      s and the                                            AE AE N DH IY
+3    00:28.920 → 00:30.878     Clinician    1.96      s Young boy is...                                    Y AH N NG N SIL B OY IH S
+4    00:32.093 → 00:35.569     Clinician    3.48      s accompanied by a yellow lamp.                      AH SIL K AH M SIL B P IH SIL T NG SIL B AY IH AA SIL Y IY EH L AH OW L SIL L AE M
+5    00:36.177 → 00:37.324     Participant  1.15      s Take your shoes and a beautiful child to work and  L IH SIL CH W EH S
+6    00:37.729 → 00:42.977     Participant  5.25      s I've had three in the past and he's flying up.     AY N HH AE SIL SIL HH AE SIL TH R IY SIL IH N DH IY SIL P AE S SIL T IH N HH IY S SIL F L AY NG AY AH
+7    00:44.547 → 00:45.846     Participant  1.30      s imple guideline.                                   S IH M SIL P L SIL K AY SIL D
+8    00:46.892 → 00:49.795     Participant  2.90      s There is a flag on a pole.                         N IH R IH S AH AH SIL F P L AE SIL G AA N AA SIL SIL P OW L
+9    00:49.913 → 00:51.820     Participant  1.91      s which is white.                                    W IH SIL CH SH SIL IH S SIL W AY SIL T
+10   00:54.132 → 00:55.819     Participant  1.69      s pattern and                                        P AE DX ER M SIL EY IH N
+11   00:56.427 → 00:59.751     Participant  3.32      s omeone is fishing off a dock.                      S AH M AY N IH IY IH S SIL F P TH IH SH IH NG SIL AA SIL F P AH SIL D AA SIL
+12   01:00.696 → 01:03.464     Participant  2.77      s There is a pale with a shovel.                     DH IH ER S AH AA AH SIL P EY L M SIL B W IH SIL TH AY AH SIL SH EH AH L V L
+13   01:04.695 → 01:10.517     Participant  5.82      s left in the sand in the young boy getting...       L EH SIL T IH N L DH IY SIL S AE N D IH N DH IY IY AA M SIL Y AH NG SIL B W OY SIL G IH EH DX IH NG M
+14   01:12.137 → 01:18.499     Participant  6.36      s bucket of water and there's two people sailing a s B AH SIL K EH SIL D IH SIL AH V SIL B W AA DX ER SIL AE N DH EH ER S SIL T UW SIL SIL P IY SIL P L S EY L IY NG NG SIL S L UW SIL
+15   01:20.727 → 01:22.701     Participant  1.97      s and one is waving.                                 IH EH N M W AH N SIL IH S SIL W EY V IH NG
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.094 - 00:26.001 (24.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, I see picnic gurrs and cheese pouring something out of the thermos or bottle and he's reading a book and has his sandals off. The bats it is part open and they have a portable radio.
+  Phonemic Encoding: HH W EH L AY S IY SIL P SIL SIL P IH SIL K SIL T DX IY SIL K ER S SIL AE IH N SIL CH SH IY S SIL P R AA R ER IH NG SIL S AH M N SIL TH IH IY NG SIL AW DX AH V SIL DH EH AH AW AH SIL TH B ER M AH S SIL AA ER SIL F B AA DX L L SIL AE AE N SIL HH IY S SIL R IY DX IY NG AH SIL B UH SIL K SIL SIL IH N SIL SIL HH EH S HH IH EH S SIL S AE N D L S SIL AA F L DH IY EY IY SIL B AE SIL S IH SIL Y IH SIL SIL IH S SIL P AA R SIL SIL OW SIL P AH IH N SIL IH EH N DH EY SIL SIL HH AE V DH AH SIL P AA R DX IH SIL B L L SIL P R EY DX IY IH OW ER
+
+Segment 2:
+  Timestamp: 00:27.030 - 00:28.634 (1.60s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and the
+  Phonemic Encoding: AE AE N DH IY
+
+Segment 3:
+  Timestamp: 00:28.920 - 00:30.878 (1.96s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Young boy is...
+  Phonemic Encoding: Y AH N NG N SIL B OY IH S
+
+Segment 4:
+  Timestamp: 00:32.093 - 00:35.569 (3.48s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: accompanied by a yellow lamp.
+  Phonemic Encoding: AH SIL K AH M SIL B P IH SIL T NG SIL B AY IH AA SIL Y IY EH L AH OW L SIL L AE M
+
+Segment 5:
+  Timestamp: 00:36.177 - 00:37.324 (1.15s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Take your shoes and a beautiful child to work and oh! Take your manners so you can feel how you feel. Thank you for watching
+  Phonemic Encoding: L IH SIL CH W EH S
+
+Segment 6:
+  Timestamp: 00:37.729 - 00:42.977 (5.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I've had three in the past and he's flying up.
+  Phonemic Encoding: AY N HH AE SIL SIL HH AE SIL TH R IY SIL IH N DH IY SIL P AE S SIL T IH N HH IY S SIL F L AY NG AY AH
+
+Segment 7:
+  Timestamp: 00:44.547 - 00:45.846 (1.30s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: imple guideline.
+  Phonemic Encoding: S IH M SIL P L SIL K AY SIL D
+
+Segment 8:
+  Timestamp: 00:46.892 - 00:49.795 (2.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a flag on a pole.
+  Phonemic Encoding: N IH R IH S AH AH SIL F P L AE SIL G AA N AA SIL SIL P OW L
+
+Segment 9:
+  Timestamp: 00:49.913 - 00:51.820 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: which is white.
+  Phonemic Encoding: W IH SIL CH SH SIL IH S SIL W AY SIL T
+
+Segment 10:
+  Timestamp: 00:54.132 - 00:55.819 (1.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: pattern and
+  Phonemic Encoding: P AE DX ER M SIL EY IH N
+
+Segment 11:
+  Timestamp: 00:56.427 - 00:59.751 (3.32s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omeone is fishing off a dock.
+  Phonemic Encoding: S AH M AY N IH IY IH S SIL F P TH IH SH IH NG SIL AA SIL F P AH SIL D AA SIL
+
+Segment 12:
+  Timestamp: 01:00.696 - 01:03.464 (2.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a pale with a shovel.
+  Phonemic Encoding: DH IH ER S AH AA AH SIL P EY L M SIL B W IH SIL TH AY AH SIL SH EH AH L V L
+
+Segment 13:
+  Timestamp: 01:04.695 - 01:10.517 (5.82s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: left in the sand in the young boy getting...
+  Phonemic Encoding: L EH SIL T IH N L DH IY SIL S AE N D IH N DH IY IY AA M SIL Y AH NG SIL B W OY SIL G IH EH DX IH NG M
+
+Segment 14:
+  Timestamp: 01:12.137 - 01:18.499 (6.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: bucket of water and there's two people sailing a slump.
+  Phonemic Encoding: B AH SIL K EH SIL D IH SIL AH V SIL B W AA DX ER SIL AE N DH EH ER S SIL T UW SIL SIL P IY SIL P L S EY L IY NG NG SIL S L UW SIL
+
+Segment 15:
+  Timestamp: 01:20.727 - 01:22.701 (1.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and one is waving.
+  Phonemic Encoding: IH EH N M W AH N SIL IH S SIL W EY V IH NG

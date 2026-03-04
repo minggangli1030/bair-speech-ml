@@ -1,0 +1,62 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-5884_ses-20081021_task-picnic_lang-en_final.wav
+Total Segments: 6
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.385 → 00:01.819     Participant  1.43      s The family setting up...                           DH AH F AE M L IY S EH AE V IH NG AE AH SIL P
+2    00:03.034 → 00:04.283     Participant  1.25      s Kick making and...                                 P IH SIL M EY SIL S K EH N SIL D AH
+3    00:05.430 → 00:07.641     Participant  2.21      s The kids are flying a kite and the...              IH SIL K IH SIL Z ER F L AY IH N AH SIL K AY DX SIL AE N DH AH
+4    00:09.413 → 00:10.965     Participant  1.55      s That's about it. There.                            EH SIL S AH M V AH N EH SIL DH EH R ER AH SIL
+5    00:10.965 → 00:12.383     Clinician    1.42      s Got some... got up.                                HH EH AE SIL S AH M HH EH DX AH SIL
+6    00:14.037 → 00:16.855     Clinician    2.82      s We'll sailor him out there and one...              OW L S EY L ER IH NG AW SIL TH T EH ER IH EH N SIL D AH W AH N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.385 - 00:01.819 (1.43s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The family setting up...
+  Phonemic Encoding: DH AH F AE M L IY S EH AE V IH NG AE AH SIL P
+
+Segment 2:
+  Timestamp: 00:03.034 - 00:04.283 (1.25s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Kick making and...
+  Phonemic Encoding: P IH SIL M EY SIL S K EH N SIL D AH
+
+Segment 3:
+  Timestamp: 00:05.430 - 00:07.641 (2.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The kids are flying a kite and the...
+  Phonemic Encoding: IH SIL K IH SIL Z ER F L AY IH N AH SIL K AY DX SIL AE N DH AH
+
+Segment 4:
+  Timestamp: 00:09.413 - 00:10.965 (1.55s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: That's about it. There.
+  Phonemic Encoding: EH SIL S AH M V AH N EH SIL DH EH R ER AH SIL
+
+Segment 5:
+  Timestamp: 00:10.965 - 00:12.383 (1.42s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Got some... got up.
+  Phonemic Encoding: HH EH AE SIL S AH M HH EH DX AH SIL
+
+Segment 6:
+  Timestamp: 00:14.037 - 00:16.855 (2.82s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: We'll sailor him out there and one...
+  Phonemic Encoding: OW L S EY L ER IH NG AW SIL TH T EH ER IH EH N SIL D AH W AH N

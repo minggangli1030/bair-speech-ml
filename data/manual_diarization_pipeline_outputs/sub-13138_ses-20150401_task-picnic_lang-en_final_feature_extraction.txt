@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-13138_ses-20150401_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.718 → 00:12.383     Participant  10.67     s Let's see. I see a man and a woman sitting down. T L AH SIL T S IY HH AY SIL AY S IY SIL IH SIL SIL AH M AE N SIL IH N AH W AH M IH N DH HH SIL S IH DX IH NG SIL D AW N DH AH M AE N IH Z SIL R IY DX IH NG DH AH W AH M IH N IH SIL IH S SIL T EY SIL K IH NG S AH M N SIL TH IH NG SIL T IH N SIL N SIL T R IH AE IH NG SIL K IH
+2    00:13.868 → 00:18.728     Participant  4.86      s They may have a factor, I guess, that they can lis DH EY N IY HH AE V AH F AE SIL T ER IH SIL G IH S AH SIL DH EY IH SIL K IH N L IH S AH N T IH S AH M Y UW Z IH SIL K AA N IH S
+3    00:18.745 → 00:31.148     Participant  12.40     s and behind them there is the home in the car and a HH AH SIL SIL HH EH N SIL B IY HH AY N SIL DH EH M SIL DH EY EH R IH Z S DH IH SIL K SIL M HH EY HH SIL HH OW M SIL IH N DH AH SIL K AA R ER SIL HH AE N SIL D SIL AH M SIL B OW SIL K SIL AH SIL B AY SIL K N OW N AA DX AH SIL B AY SIL K SIL S IY
+4    00:32.582 → 00:42.032     Participant  9.45      s This is some having difficulty with this factor is DH IH S AH IH Z S AH M HH AE V IH N SIL D IH SIL F AH SIL K AH L SIL T IY W IH TH DH IH S F AE SIL T ER IH S N SIL K EY AH SIL OW W IH HH IH R ER DH IH Z AH M AE N AH SIL SIL S AE N DX IH NG HH IH ER SIL AH SIL D AA NG SIL B IY S AY DX IH SIL T
+5    00:43.247 → 00:52.984     Participant  9.74      s um, we'll click a small child is over here, there' M M W UH SIL K L IH SIL K IH SIL S SIL M AA L SIL CH AY L SIL DX IH Z OW V IH HH IH ER SIL DH AH IH SIL DH IH Z AH S EY EH L SIL B OW DX D HH IH ER IH N SIL T UW SIL P OW SIL T TH SIL T UW SIL P IY SIL P L AA N SIL B AA R SIL DH SIL DH AH S EY EH L SIL B OW SIL CH T
+6    00:54.199 → 00:56.039     Participant  1.84      s I can't.                                           AA M AY SIL K OW AE EH N SIL K SIL F SIL R
+7    00:56.039 → 00:58.570     Clinician    2.53      s call what that this factor is.                     IH SIL K AA L W AH SIL DH EH AE SIL DH IH S F AE R SIL T ER IH S S
+8    01:00.696 → 01:05.016     Clinician    4.32      s and see I have one of these in front of my house,  AE N D TH S IY AY HH AE V SIL V W AA R DX AH DH IY Z IH N F AA AH N AH M AY HH AW S SH SIL AH SIL B AH DX AY IH SIL K OW AE N SIL
+9    01:06.197 → 01:08.526     Clinician    2.33      s not immediately coming up to what that is.         M DH AA DX AH M IY DX IY IH L IH SIL K AH M IH IY NG AH SIL T AH W AH SIL DH AE DX IH EH S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.718 - 00:12.383 (10.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Let's see. I see a man and a woman sitting down. The man is reading. The woman is taking something to drink.
+  Phonemic Encoding: L AH SIL T S IY HH AY SIL AY S IY SIL IH SIL SIL AH M AE N SIL IH N AH W AH M IH N DH HH SIL S IH DX IH NG SIL D AW N DH AH M AE N IH Z SIL R IY DX IH NG DH AH W AH M IH N IH SIL IH S SIL T EY SIL K IH NG S AH M N SIL TH IH NG SIL T IH N SIL N SIL T R IH AE IH NG SIL K IH
+
+Segment 2:
+  Timestamp: 00:13.868 - 00:18.728 (4.86s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They may have a factor, I guess, that they can listen to some music on this.
+  Phonemic Encoding: DH EY N IY HH AE V AH F AE SIL T ER IH SIL G IH S AH SIL DH EY IH SIL K IH N L IH S AH N T IH S AH M Y UW Z IH SIL K AA N IH S
+
+Segment 3:
+  Timestamp: 00:18.745 - 00:31.148 (12.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and behind them there is the home in the car and a bike. No not a bike, see?
+  Phonemic Encoding: HH AH SIL SIL HH EH N SIL B IY HH AY N SIL DH EH M SIL DH EY EH R IH Z S DH IH SIL K SIL M HH EY HH SIL HH OW M SIL IH N DH AH SIL K AA R ER SIL HH AE N SIL D SIL AH M SIL B OW SIL K SIL AH SIL B AY SIL K N OW N AA DX AH SIL B AY SIL K SIL S IY
+
+Segment 4:
+  Timestamp: 00:32.582 - 00:42.032 (9.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is some having difficulty with this factor is. Okay? Over here there's a man standing here, a dog beside it.
+  Phonemic Encoding: DH IH S AH IH Z S AH M HH AE V IH N SIL D IH SIL F AH SIL K AH L SIL T IY W IH TH DH IH S F AE SIL T ER IH S N SIL K EY AH SIL OW W IH HH IH R ER DH IH Z AH M AE N AH SIL SIL S AE N DX IH NG HH IH ER SIL AH SIL D AA NG SIL B IY S AY DX IH SIL T
+
+Segment 5:
+  Timestamp: 00:43.247 - 00:52.984 (9.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: um, we'll click a small child is over here, there's a sailboat here, and two people onboard the sailboat.
+  Phonemic Encoding: M M W UH SIL K L IH SIL K IH SIL S SIL M AA L SIL CH AY L SIL DX IH Z OW V IH HH IH ER SIL DH AH IH SIL DH IH Z AH S EY EH L SIL B OW DX D HH IH ER IH N SIL T UW SIL P OW SIL T TH SIL T UW SIL P IY SIL P L AA N SIL B AA R SIL DH SIL DH AH S EY EH L SIL B OW SIL CH T
+
+Segment 6:
+  Timestamp: 00:54.199 - 00:56.039 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can't.
+  Phonemic Encoding: AA M AY SIL K OW AE EH N SIL K SIL F SIL R
+
+Segment 7:
+  Timestamp: 00:56.039 - 00:58.570 (2.53s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: call what that this factor is.
+  Phonemic Encoding: IH SIL K AA L W AH SIL DH EH AE SIL DH IH S F AE R SIL T ER IH S S
+
+Segment 8:
+  Timestamp: 01:00.696 - 01:05.016 (4.32s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and see I have one of these in front of my house, but I can't.
+  Phonemic Encoding: AE N D TH S IY AY HH AE V SIL V W AA R DX AH DH IY Z IH N F AA AH N AH M AY HH AW S SH SIL AH SIL B AH DX AY IH SIL K OW AE N SIL
+
+Segment 9:
+  Timestamp: 01:06.197 - 01:08.526 (2.33s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: not immediately coming up to what that is.
+  Phonemic Encoding: M DH AA DX AH M IY DX IY IH L IH SIL K AH M IH IY NG AH SIL T AH W AH SIL DH AE DX IH EH S

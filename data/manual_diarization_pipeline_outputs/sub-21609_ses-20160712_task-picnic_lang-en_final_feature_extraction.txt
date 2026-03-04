@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-21609_ses-20160712_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.604 → 00:05.194     Clinician    4.59      s Well, I see a couple that looks like they're havin W EH L EH S IY F AH SIL K AH SIL P L DH IH Z SIL L UH S SIL L AY SIL K DH ER HH AE AW V IH NG AH SIL P IH SIL N EH SIL K
+2    00:07.725 → 00:10.257     Clinician    2.53      s and don't know if that's their house behind the ea AH IH N OW N OW AH SIL F DH EH AE S DH ER HH AW S SIL B AA HH AY N SIL D AH M UW L ER
+3    00:12.771 → 00:14.965     Clinician    2.19      s live count from some other place.                  L IH V SIL K AH M N SIL P AH M S AH M AH DH ER SIL P L EY S
+4    00:14.965 → 00:18.036     Participant  3.07      s and that fellow is flying a kite.                  AH N DH EH AE SIL F AH EH L S SIL F L AY IH NG AH SIL K AY SIL T
+5    00:20.888 → 00:24.314     Participant  3.43      s And there's a couple out on a boat. Let's say you' M N DH IH S SIL SIL K AH SIL P L AW DX AA DX L AH SIL B OW SIL T DH AH S EY L SIL B OW SIL
+6    00:27.824 → 00:31.620     Participant  3.80      s I can't really make out what the sun is doing down DH AH SIL K CH AE R IY DX IY M EY SIL K AW SIL P W AH SIL DH AH SH S AH L AH Z SIL D UW IH NG N D AW N DH EH ER M B AY DH AH W AA DX ER SIL
+7    00:33.004 → 00:35.029     Participant  2.02      s There is lag flying.                               N DH ER IH S L AE SIL G F AY IH NG
+8    00:39.012 → 00:43.315     Participant  4.30      s And the dog sort of looks like it's looking at peo AH N DH IH N D AA NG G S AA R ER DX AH L UH SIL S SIL L AY SIL K HH IH SIL T S SIL L UH SIL K IH NG IH SIL P IY SIL P L M EY M B IY M W AA AH N S AH N SIL D R AE NG SIL K HH HH EH IH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.604 - 00:05.194 (4.59s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Well, I see a couple that looks like they're having a picnic.
+  Phonemic Encoding: W EH L EH S IY F AH SIL K AH SIL P L DH IH Z SIL L UH S SIL L AY SIL K DH ER HH AE AW V IH NG AH SIL P IH SIL N EH SIL K
+
+Segment 2:
+  Timestamp: 00:07.725 - 00:10.257 (2.53s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and don't know if that's their house behind the earth.
+  Phonemic Encoding: AH IH N OW N OW AH SIL F DH EH AE S DH ER HH AW S SIL B AA HH AY N SIL D AH M UW L ER
+
+Segment 3:
+  Timestamp: 00:12.771 - 00:14.965 (2.19s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: live count from some other place.
+  Phonemic Encoding: L IH V SIL K AH M N SIL P AH M S AH M AH DH ER SIL P L EY S
+
+Segment 4:
+  Timestamp: 00:14.965 - 00:18.036 (3.07s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and that fellow is flying a kite.
+  Phonemic Encoding: AH N DH EH AE SIL F AH EH L S SIL F L AY IH NG AH SIL K AY SIL T
+
+Segment 5:
+  Timestamp: 00:20.888 - 00:24.314 (3.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a couple out on a boat. Let's say you'll vote.
+  Phonemic Encoding: M N DH IH S SIL SIL K AH SIL P L AW DX AA DX L AH SIL B OW SIL T DH AH S EY L SIL B OW SIL
+
+Segment 6:
+  Timestamp: 00:27.824 - 00:31.620 (3.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can't really make out what the sun is doing down there by the water.
+  Phonemic Encoding: DH AH SIL K CH AE R IY DX IY M EY SIL K AW SIL P W AH SIL DH AH SH S AH L AH Z SIL D UW IH NG N D AW N DH EH ER M B AY DH AH W AA DX ER SIL
+
+Segment 7:
+  Timestamp: 00:33.004 - 00:35.029 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is lag flying.
+  Phonemic Encoding: N DH ER IH S L AE SIL G F AY IH NG
+
+Segment 8:
+  Timestamp: 00:39.012 - 00:43.315 (4.30s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And the dog sort of looks like it's looking at people maybe once and drink.
+  Phonemic Encoding: AH N DH IH N D AA NG G S AA R ER DX AH L UH SIL S SIL L AY SIL K HH IH SIL T S SIL L UH SIL K IH NG IH SIL P IY SIL P L M EY M B IY M W AA AH N S AH N SIL D R AE NG SIL K HH HH EH IH

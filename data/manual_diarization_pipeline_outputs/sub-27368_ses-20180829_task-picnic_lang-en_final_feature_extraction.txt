@@ -1,0 +1,188 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-27368_ses-20180829_task-picnic_lang-en_final.wav
+Total Segments: 24
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:02.764     Participant  2.73      s I've seen this picture also.                       EH F SIL S EY IY N DH IH S SIL P IH SIL CH ER SIL AA L S AH OW F
+2    00:04.553 → 00:06.105     Participant  1.55      s o uh                                               S EH SIL HH AH
+3    00:07.034 → 00:11.826     Participant  4.79      s A boy is flying a kite beside a lake.              AH SIL B OY EY SIL IH Z S SIL P L AY N AH SIL K HH AY B IH S AY DX Z D AH L AY EY SIL SIL K
+4    00:13.007 → 00:18.525     Participant  5.52      s And the child is playing in the sand.              AE N DH DH IY SIL AA SIL CH AW L SIL D IH S SIL SIL P L EY N IH N DH IH AH S EY AE N SIL D
+5    00:19.639 → 00:22.660     Participant  3.02      s on the beach of the lake.                          AA N DH AH SIL B IY SIL CH AH V DH AH L AY EY SIL K
+6    00:23.099 → 00:35.890     Participant  12.79     s because it's not a notion because it has trees bes B AH SIL K AH Z IH SIL S SIL N AA DX AH IH N AH OW SH IH N SIL B AH IH SIL K AA Z IH SIL HH AE EH Z S SIL CH T R IY S SIL B IH S AY DX IH AE N SIL SIL P HH IY SIL P B L SIL AA R ER S EY L IY NG N IH SIL IH N DH IH S EH L SIL B OW SIL D IH T UW SIL P IY SIL B L
+7    00:36.936 → 00:38.590     Participant  1.65      s And they are...                                    AE N SIL D EY AA
+8    00:40.480 → 00:44.985     Participant  4.51      s Guy is fishing on the pier.                        SIL G AY IH Z S SIL F TH IH SH IY N SIL AA N SIL D IY AA M SIL P IH ER
+9    00:47.449 → 00:51.415     Participant  3.97      s in a flagpole is by the lake.                      IH N AH F L AY AE AY AE SIL P HH OW L SIL IH Z SIL B AY DH AH L EY SIL SIL K
+10   00:51.465 → 00:56.039     Participant  4.57      s And there is a hells... ...bah... ...side the lake IH N DH EH R ER IH Z AH HH EH AW L S AH SIL B AH AE HH S AY SIL DH AH L EY SIL K IH
+11   00:56.258 → 00:58.384     Participant  2.13      s with a car parked in...                            W IH Z AH IH SIL K HH AA R ER SIL P AA R SIL T IH N
+12   01:01.320 → 01:02.637     Participant  1.32      s in the driveway.                                   IH N DH AH SIL D R AY V W EY
+13   01:04.797 → 01:07.294     Participant  2.50      s and a big tree.                                    AE N AH AY AH SIL B EY SIL T R IY SIL
+14   01:07.379 → 01:09.505     Participant  2.13      s This out in front.                                 IH S AW DX IH N SIL F R SIL
+15   01:09.640 → 01:12.154     Participant  2.51      s And there are pig neckers.                         IH N DH EH ER SIL AA R SIL P EY SIL N EH SIL K G ER S S
+16   01:13.369 → 01:15.023     Participant  1.65      s A boy and a girl.                                  AH SIL B OY IH AH IH SIL G ER L
+17   01:15.884 → 01:18.179     Participant  2.30      s He has his shoes off.                              HH IY HH AE EH S IH SH UW Z AA F F SIL
+18   01:18.752 → 01:22.718     Participant  3.97      s in reading a book with Blyces on.                  IH N R IY DX IY N AH SIL B UH AH SIL K IH W IH Z SIL G L AY S IH Z AA N
+19   01:23.359 → 01:24.574     Participant  1.22      s And um...                                          AE N SIL D AA M
+20   01:26.886 → 01:29.400     Participant  2.51      s The girl is pouring.                               DH IY SIL G ER L SIL IH Z S SIL P AA R EY N
+21   01:29.991 → 01:31.965     Participant  1.97      s but looks to be like                               L AH EH SIL L UH SIL K S SIL T IH AH SIL B EY IY SIL L AY
+22   01:31.965 → 01:32.995     Clinician    1.03      s one.                                               SIL K G W AY N
+23   01:36.404 → 01:43.609     Clinician    7.21      s and they have a boom box on the blanket and the... IH N DH EY HH AE V AH SIL B UW M SIL B AA AY SIL K S SIL AA N IY SIL AH SIL SIL B L AY AE NG SIL K IH EH SIL T IH AE EH N SIL D IY AH
+24   01:45.010 → 01:49.060     Clinician    4.05      s picnic basket is partially out on.                 P IH SIL N IH SIL K SIL B AE S SIL K G IH SIL IH Z S P AA R SH L EY SIL AW L SIL K AH N HH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:02.764 (2.73s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I've seen this picture also.
+  Phonemic Encoding: EH F SIL S EY IY N DH IH S SIL P IH SIL CH ER SIL AA L S AH OW F
+
+Segment 2:
+  Timestamp: 00:04.553 - 00:06.105 (1.55s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o uh
+  Phonemic Encoding: S EH SIL HH AH
+
+Segment 3:
+  Timestamp: 00:07.034 - 00:11.826 (4.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A boy is flying a kite beside a lake.
+  Phonemic Encoding: AH SIL B OY EY SIL IH Z S SIL P L AY N AH SIL K HH AY B IH S AY DX Z D AH L AY EY SIL SIL K
+
+Segment 4:
+  Timestamp: 00:13.007 - 00:18.525 (5.52s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And the child is playing in the sand.
+  Phonemic Encoding: AE N DH DH IY SIL AA SIL CH AW L SIL D IH S SIL SIL P L EY N IH N DH IH AH S EY AE N SIL D
+
+Segment 5:
+  Timestamp: 00:19.639 - 00:22.660 (3.02s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: on the beach of the lake.
+  Phonemic Encoding: AA N DH AH SIL B IY SIL CH AH V DH AH L AY EY SIL K
+
+Segment 6:
+  Timestamp: 00:23.099 - 00:35.890 (12.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: because it's not a notion because it has trees beside it. And people are sailing in the sailboat to people.
+  Phonemic Encoding: B AH SIL K AH Z IH SIL S SIL N AA DX AH IH N AH OW SH IH N SIL B AH IH SIL K AA Z IH SIL HH AE EH Z S SIL CH T R IY S SIL B IH S AY DX IH AE N SIL SIL P HH IY SIL P B L SIL AA R ER S EY L IY NG N IH SIL IH N DH IH S EH L SIL B OW SIL D IH T UW SIL P IY SIL B L
+
+Segment 7:
+  Timestamp: 00:36.936 - 00:38.590 (1.65s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And they are...
+  Phonemic Encoding: AE N SIL D EY AA
+
+Segment 8:
+  Timestamp: 00:40.480 - 00:44.985 (4.51s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Guy is fishing on the pier.
+  Phonemic Encoding: SIL G AY IH Z S SIL F TH IH SH IY N SIL AA N SIL D IY AA M SIL P IH ER
+
+Segment 9:
+  Timestamp: 00:47.449 - 00:51.415 (3.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in a flagpole is by the lake.
+  Phonemic Encoding: IH N AH F L AY AE AY AE SIL P HH OW L SIL IH Z SIL B AY DH AH L EY SIL SIL K
+
+Segment 10:
+  Timestamp: 00:51.465 - 00:56.039 (4.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there is a hells... ...bah... ...side the lake.
+  Phonemic Encoding: IH N DH EH R ER IH Z AH HH EH AW L S AH SIL B AH AE HH S AY SIL DH AH L EY SIL K IH
+
+Segment 11:
+  Timestamp: 00:56.258 - 00:58.384 (2.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: with a car parked in...
+  Phonemic Encoding: W IH Z AH IH SIL K HH AA R ER SIL P AA R SIL T IH N
+
+Segment 12:
+  Timestamp: 01:01.320 - 01:02.637 (1.32s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in the driveway.
+  Phonemic Encoding: IH N DH AH SIL D R AY V W EY
+
+Segment 13:
+  Timestamp: 01:04.797 - 01:07.294 (2.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and a big tree.
+  Phonemic Encoding: AE N AH AY AH SIL B EY SIL T R IY SIL
+
+Segment 14:
+  Timestamp: 01:07.379 - 01:09.505 (2.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: This out in front.
+  Phonemic Encoding: IH S AW DX IH N SIL F R SIL
+
+Segment 15:
+  Timestamp: 01:09.640 - 01:12.154 (2.51s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there are pig neckers.
+  Phonemic Encoding: IH N DH EH ER SIL AA R SIL P EY SIL N EH SIL K G ER S S
+
+Segment 16:
+  Timestamp: 01:13.369 - 01:15.023 (1.65s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A boy and a girl.
+  Phonemic Encoding: AH SIL B OY IH AH IH SIL G ER L
+
+Segment 17:
+  Timestamp: 01:15.884 - 01:18.179 (2.30s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: He has his shoes off.
+  Phonemic Encoding: HH IY HH AE EH S IH SH UW Z AA F F SIL
+
+Segment 18:
+  Timestamp: 01:18.752 - 01:22.718 (3.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in reading a book with Blyces on.
+  Phonemic Encoding: IH N R IY DX IY N AH SIL B UH AH SIL K IH W IH Z SIL G L AY S IH Z AA N
+
+Segment 19:
+  Timestamp: 01:23.359 - 01:24.574 (1.22s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And um...
+  Phonemic Encoding: AE N SIL D AA M
+
+Segment 20:
+  Timestamp: 01:26.886 - 01:29.400 (2.51s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The girl is pouring.
+  Phonemic Encoding: DH IY SIL G ER L SIL IH Z S SIL P AA R EY N
+
+Segment 21:
+  Timestamp: 01:29.991 - 01:31.965 (1.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: but looks to be like
+  Phonemic Encoding: L AH EH SIL L UH SIL K S SIL T IH AH SIL B EY IY SIL L AY
+
+Segment 22:
+  Timestamp: 01:31.965 - 01:32.995 (1.03s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: one.
+  Phonemic Encoding: SIL K G W AY N
+
+Segment 23:
+  Timestamp: 01:36.404 - 01:43.609 (7.21s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and they have a boom box on the blanket and the...
+  Phonemic Encoding: IH N DH EY HH AE V AH SIL B UW M SIL B AA AY SIL K S SIL AA N IY SIL AH SIL SIL B L AY AE NG SIL K IH EH SIL T IH AE EH N SIL D IY AH
+
+Segment 24:
+  Timestamp: 01:45.010 - 01:49.060 (4.05s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: picnic basket is partially out on.
+  Phonemic Encoding: P IH SIL N IH SIL K SIL B AE S SIL K G IH SIL IH Z S P AA R SH L EY SIL AW L SIL K AH N HH

@@ -1,0 +1,111 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-2743_ses-20171117_task-picnic_lang-en_final.wav
+Total Segments: 13
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.621 → 00:04.688     Participant  4.07      s and looks like a family having a picnic.           EH N D L UH SIL K S L AY SIL K AH F AE M AH L IY HH AE V IH IY NG IH SIL P IH SIL M N IH SIL S IH AH
+2    00:04.806 → 00:12.315     Participant  7.51      s on the lawn with a man who's reading a woman who's AA M DH AH L AA N W IH TH AH M AE N HH UW Z R IY DX D IY NG HH AH W AH M IH N HH UW S SIL SIL P AA R IH NG SIL K HH ER S EH L F S AH M AH DH AH SIL T R IH NG SIL K
+3    00:13.159 → 00:17.935     Participant  4.78      s There's another man who's flying a kite. Who has a DH EH R Z S Z AH N AH DH ER M AE N HH UW S F L AY IH NG SIL G IH SIL K AY EY SIL T F F HH UW HH AE EH Z AH SIL D OW AA L SIL G
+4    00:18.205 → 00:20.179     Participant  1.97      s There's some people out sailing.                   N DH EH R S AH M SIL P IY SIL P AH L AW OW SIL S EY L IH NG
+5    00:20.584 → 00:24.212     Participant  3.63      s o this is a picnic by a lake or something like tha S UH DH IH SIL DH IH S AH Z AH SIL P IH SIL K N IH SIL K SIL F AY SIL AH L EY SIL K ER S AH M N SIL T IH NG L AY SIL DH AE
+6    00:24.870 → 00:27.452     Participant  2.58      s on the somebody sitting at the edge of the lake.   AA L M N SIL D IH AH S AH M B AH DX IY S IH DX IY NG IH EH SIL T DH IH SIL EH IH JH AH IH V SIL DH AH L EY SIL K
+7    00:28.026 → 00:31.418     Participant  3.39      s Everybody looks very relaxed and enjoying themselv EH V SIL R IH SIL B AH DX IY L UH SIL K S SIL ER R IY R IH L AE AY SIL S SIL T IH N IH N SIL JH OY IH NG M DH IH M S EH L S
+8    00:31.907 → 00:34.337     Participant  2.43      s There's a house in the background on...            D IH Z AH HH AW OW S AH N DH AH SIL B AE SIL K R AW N SIL D T AH SIL AA L M
+9    00:34.945 → 00:43.197     Participant  8.25      s which might be the house of the couple who were pi W IH SIL CH M AY EY SIL B IY DH AH HH AW S AH V DH IH SIL K AH SIL P L HH UW W ER HH SIL P IH SIL K N EY SIL K IH NG G AA M DH AH F R AH N SIL L OW AA N AA L SIL DH OW DH EY AA R AA L F L IY IH SIL K L OW S SIL T UW SIL AH L EY SIL K W IH ER SIL AH DH ER SIL P IY SIL P L AA R ER
+10   00:43.720 → 00:47.382     Participant  3.66      s There is a dark with somebody fishing of the dark. DH EH R ER Z S SIL EY SIL D AA SIL K SIL W IH S AH M SIL B IH DX IY SIL F IH SH IH IY NG SIL K AH L SIL P F SIL DH AH IH SIL T AA SIL
+11   00:48.107 → 00:50.031     Participant  1.92      s this flight pole with a flight.                    D IH S AH F L AY SIL P OW L W IH DH AH SIL F L AY
+12   00:50.031 → 00:53.170     Clinician    3.14      s that's flying and how long do you want to keep goi DH IH SIL S F L AY IH NG Z SIL IH N HH AW L OW NG SIL D UW W AH N IH SIL K IH SIL K IY SIL K OW N
+13   00:54.064 → 00:59.684     Clinician    5.62      s Okay, we know we have couples who are picnicking o L AE N DX EY DH EH DX AH OW N EH OW W IY IH SIL K AH SIL P L HH UW W ER SIL P IH SIL K N EY SIL K IH NG Y ER S IH DX IY NG EH AH N SIL D ER ER SIL CH T R IY W IH SIL T SIL F R AA SIL V AH L IY SIL G IH V S AH M S M N SH EY IH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.621 - 00:04.688 (4.07s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and looks like a family having a picnic.
+  Phonemic Encoding: EH N D L UH SIL K S L AY SIL K AH F AE M AH L IY HH AE V IH IY NG IH SIL P IH SIL M N IH SIL S IH AH
+
+Segment 2:
+  Timestamp: 00:04.806 - 00:12.315 (7.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: on the lawn with a man who's reading a woman who's pouring herself some of the drink.
+  Phonemic Encoding: AA M DH AH L AA N W IH TH AH M AE N HH UW Z R IY DX D IY NG HH AH W AH M IH N HH UW S SIL SIL P AA R IH NG SIL K HH ER S EH L F S AH M AH DH AH SIL T R IH NG SIL K
+
+Segment 3:
+  Timestamp: 00:13.159 - 00:17.935 (4.78s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's another man who's flying a kite. Who has a dog?
+  Phonemic Encoding: DH EH R Z S Z AH N AH DH ER M AE N HH UW S F L AY IH NG SIL G IH SIL K AY EY SIL T F F HH UW HH AE EH Z AH SIL D OW AA L SIL G
+
+Segment 4:
+  Timestamp: 00:18.205 - 00:20.179 (1.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's some people out sailing.
+  Phonemic Encoding: N DH EH R S AH M SIL P IY SIL P AH L AW OW SIL S EY L IH NG
+
+Segment 5:
+  Timestamp: 00:20.584 - 00:24.212 (3.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o this is a picnic by a lake or something like that.
+  Phonemic Encoding: S UH DH IH SIL DH IH S AH Z AH SIL P IH SIL K N IH SIL K SIL F AY SIL AH L EY SIL K ER S AH M N SIL T IH NG L AY SIL DH AE
+
+Segment 6:
+  Timestamp: 00:24.870 - 00:27.452 (2.58s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: on the somebody sitting at the edge of the lake.
+  Phonemic Encoding: AA L M N SIL D IH AH S AH M B AH DX IY S IH DX IY NG IH EH SIL T DH IH SIL EH IH JH AH IH V SIL DH AH L EY SIL K
+
+Segment 7:
+  Timestamp: 00:28.026 - 00:31.418 (3.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Everybody looks very relaxed and enjoying themselves.
+  Phonemic Encoding: EH V SIL R IH SIL B AH DX IY L UH SIL K S SIL ER R IY R IH L AE AY SIL S SIL T IH N IH N SIL JH OY IH NG M DH IH M S EH L S
+
+Segment 8:
+  Timestamp: 00:31.907 - 00:34.337 (2.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a house in the background on...
+  Phonemic Encoding: D IH Z AH HH AW OW S AH N DH AH SIL B AE SIL K R AW N SIL D T AH SIL AA L M
+
+Segment 9:
+  Timestamp: 00:34.945 - 00:43.197 (8.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: which might be the house of the couple who were picnicking on the front wall, although they are awfully close to a lake where other people are.
+  Phonemic Encoding: W IH SIL CH M AY EY SIL B IY DH AH HH AW S AH V DH IH SIL K AH SIL P L HH UW W ER HH SIL P IH SIL K N EY SIL K IH NG G AA M DH AH F R AH N SIL L OW AA N AA L SIL DH OW DH EY AA R AA L F L IY IH SIL K L OW S SIL T UW SIL AH L EY SIL K W IH ER SIL AH DH ER SIL P IY SIL P L AA R ER
+
+Segment 10:
+  Timestamp: 00:43.720 - 00:47.382 (3.66s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a dark with somebody fishing of the dark.
+  Phonemic Encoding: DH EH R ER Z S SIL EY SIL D AA SIL K SIL W IH S AH M SIL B IH DX IY SIL F IH SH IH IY NG SIL K AH L SIL P F SIL DH AH IH SIL T AA SIL
+
+Segment 11:
+  Timestamp: 00:48.107 - 00:50.031 (1.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: this flight pole with a flight.
+  Phonemic Encoding: D IH S AH F L AY SIL P OW L W IH DH AH SIL F L AY
+
+Segment 12:
+  Timestamp: 00:50.031 - 00:53.170 (3.14s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: that's flying and how long do you want to keep going?
+  Phonemic Encoding: DH IH SIL S F L AY IH NG Z SIL IH N HH AW L OW NG SIL D UW W AH N IH SIL K IH SIL K IY SIL K OW N
+
+Segment 13:
+  Timestamp: 00:54.064 - 00:59.684 (5.62s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Okay, we know we have couples who are picnicking or sitting under a tree which probably gives them some shade.
+  Phonemic Encoding: L AE N DX EY DH EH DX AH OW N EH OW W IY IH SIL K AH SIL P L HH UW W ER SIL P IH SIL K N EY SIL K IH NG Y ER S IH DX IY NG EH AH N SIL D ER ER SIL CH T R IY W IH SIL T SIL F R AA SIL V AH L IY SIL G IH V S AH M S M N SH EY IH

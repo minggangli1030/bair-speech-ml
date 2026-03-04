@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33855_ses-20220428_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.364 → 00:03.372     Clinician    2.01      s I see a cup all on a blanket.                      AY S IY IH SIL K AH AA SIL P L SIL AA N AA ER SIL B L AE EY NG SIL K IH
+2    00:04.502 → 00:07.658     Clinician    3.16      s having what looks like a picnic, they have their.. HH AE V IH NG W AH N SIL L UH SIL K S L AY SIL K AH SIL P IH SIL N IH SIL K DH EY HH AE SIL F SIL DH EH ER
+3    00:08.552 → 00:10.071     Clinician    1.52      s play cut and there.                                B L AE EY SIL K EH SIL P HH AE AH N SIL TH EH ER
+4    00:11.640 → 00:17.159     Clinician    5.52      s and I see that the opion lady is pouring up drinks AE N M AY S IY DH AH SIL K Y AA N L EY DX IY IH Z S SIL P AA R IH NG N AH SIL T R EY SIL K T S AE N DH IH SIL JH AH OW L M EH N SIL IH Z R IY DX IH NG N AH SIL P UH AA UH
+5    00:18.964 → 00:26.946     Participant  7.98      s a kite being flown by another fellow and the dog i EH K AY EY SIL T B IY NG F L OW N SIL B AY IH N AH DH ER SIL F EH L AA SIL AE N SIL DH AH SIL D AA R SIL G IH Z S SIL DH L AE SIL K ER R IH SIL N F R AH N IH ER V HH IH M HH AE V IH NG IH SIL G UH SIL T AY M V
+6    00:29.933 → 00:32.397     Participant  2.46      s and I'm just seeing you there. Good world.         AA N SIL T S IH N EY IH SIL D EH ER V L TH
+7    00:35.249 → 00:44.462     Participant  9.21      s the other gentleman just flying a kite. Somebody i T DH IH EH AH DH ER SIL N DH IY AH DH ER SIL D L OW R V SIL DH AH SIL JH EH N L M IH N D AH Z S SIL T SIL F L AY IH NG ER SIL K AY S AH M B IH DX IY IH Z AW SIL IH N DH AH W AA DX ER SIL W IH TH IH AH S L IH SIL P L UH DX L S EY EH L SIL B OW SIL W AY AW L S AH M B IH DX IY IH Z AA N SH AA R ER
+8    00:47.179 → 00:50.402     Participant  3.22      s bent over perhaps on a rock, close by the water.   B EH N SIL T OW V ER SIL P ER HH AE SIL S AA N ER R AA SIL K SIL K L L OW S SIL B AY DH AH W AA DX ER
+9    00:51.111 → 00:54.182     Participant  3.07      s There's a big giant tree in the background with he DH EH ER Z AH SIL B IH SIL T CH JH AY IH N SIL T CH R IY IH N DH AH SIL B AE SIL K P K R AW N W EH TH AH ER
+10   00:54.891 → 00:56.258     Participant  1.37      s with a car.                                        W IH TH AH SIL K SIL AH SIL K AA R ER
+11   00:57.456 → 00:59.869     Participant  2.41      s and it looks like he's going into the garage.      AE N IH L UH SIL K S AY SIL K IY IH Z SIL G OW IH NG IH N SIL T UW DH IH SIL G ER R AA ER SIL CH
+12   01:05.354 → 01:10.804     Participant  5.45      s And then you can see a little bucket over there, a K AH SIL S EH SIL IH SH S IY IH AH L UH DX AH SIL B AH SIL K IH SIL P HH OW V R IH N EH ER AA L S AA IH N DH AH V AH SIL L OW R ER B R AY DX HH AE N SIL S AY
+13   01:12.509 → 01:16.896     Participant  4.39      s The background looks like it could be a wooded are DH AH SIL B AE SIL K G R AW N SIL L UH SIL K S SIL L AY SIL K IH SIL SIL SIL K UH IH SIL B IY AH OW W UH DX IH SIL D EH R IY AH SIL
+14   01:17.385 → 01:19.275     Participant  1.89      s Around the light.                                  AH ER R AW N SIL D S SIL DH AH L AY EY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.364 - 00:03.372 (2.01s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I see a cup all on a blanket.
+  Phonemic Encoding: AY S IY IH SIL K AH AA SIL P L SIL AA N AA ER SIL B L AE EY NG SIL K IH
+
+Segment 2:
+  Timestamp: 00:04.502 - 00:07.658 (3.16s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: having what looks like a picnic, they have their...
+  Phonemic Encoding: HH AE V IH NG W AH N SIL L UH SIL K S L AY SIL K AH SIL P IH SIL N IH SIL K DH EY HH AE SIL F SIL DH EH ER
+
+Segment 3:
+  Timestamp: 00:08.552 - 00:10.071 (1.52s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: play cut and there.
+  Phonemic Encoding: B L AE EY SIL K EH SIL P HH AE AH N SIL TH EH ER
+
+Segment 4:
+  Timestamp: 00:11.640 - 00:17.159 (5.52s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and I see that the opion lady is pouring up drinks and the gentleman is reading a book.
+  Phonemic Encoding: AE N M AY S IY DH AH SIL K Y AA N L EY DX IY IH Z S SIL P AA R IH NG N AH SIL T R EY SIL K T S AE N DH IH SIL JH AH OW L M EH N SIL IH Z R IY DX IH NG N AH SIL P UH AA UH
+
+Segment 5:
+  Timestamp: 00:18.964 - 00:26.946 (7.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a kite being flown by another fellow and the dog is lakka written front of him having a good time.
+  Phonemic Encoding: EH K AY EY SIL T B IY NG F L OW N SIL B AY IH N AH DH ER SIL F EH L AA SIL AE N SIL DH AH SIL D AA R SIL G IH Z S SIL DH L AE SIL K ER R IH SIL N F R AH N IH ER V HH IH M HH AE V IH NG IH SIL G UH SIL T AY M V
+
+Segment 6:
+  Timestamp: 00:29.933 - 00:32.397 (2.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I'm just seeing you there. Good world.
+  Phonemic Encoding: AA N SIL T S IH N EY IH SIL D EH ER V L TH
+
+Segment 7:
+  Timestamp: 00:35.249 - 00:44.462 (9.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the other gentleman just flying a kite. Somebody is out in the water with a slip little sailboat while somebody is on shore.
+  Phonemic Encoding: T DH IH EH AH DH ER SIL N DH IY AH DH ER SIL D L OW R V SIL DH AH SIL JH EH N L M IH N D AH Z S SIL T SIL F L AY IH NG ER SIL K AY S AH M B IH DX IY IH Z AW SIL IH N DH AH W AA DX ER SIL W IH TH IH AH S L IH SIL P L UH DX L S EY EH L SIL B OW SIL W AY AW L S AH M B IH DX IY IH Z AA N SH AA R ER
+
+Segment 8:
+  Timestamp: 00:47.179 - 00:50.402 (3.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: bent over perhaps on a rock, close by the water.
+  Phonemic Encoding: B EH N SIL T OW V ER SIL P ER HH AE SIL S AA N ER R AA SIL K SIL K L L OW S SIL B AY DH AH W AA DX ER
+
+Segment 9:
+  Timestamp: 00:51.111 - 00:54.182 (3.07s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a big giant tree in the background with her.
+  Phonemic Encoding: DH EH ER Z AH SIL B IH SIL T CH JH AY IH N SIL T CH R IY IH N DH AH SIL B AE SIL K P K R AW N W EH TH AH ER
+
+Segment 10:
+  Timestamp: 00:54.891 - 00:56.258 (1.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with a car.
+  Phonemic Encoding: W IH TH AH SIL K SIL AH SIL K AA R ER
+
+Segment 11:
+  Timestamp: 00:57.456 - 00:59.869 (2.41s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and it looks like he's going into the garage.
+  Phonemic Encoding: AE N IH L UH SIL K S AY SIL K IY IH Z SIL G OW IH NG IH N SIL T UW DH IH SIL G ER R AA ER SIL CH
+
+Segment 12:
+  Timestamp: 01:05.354 - 01:10.804 (5.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then you can see a little bucket over there, also in the lower right hand side.
+  Phonemic Encoding: K AH SIL S EH SIL IH SH S IY IH AH L UH DX AH SIL B AH SIL K IH SIL P HH OW V R IH N EH ER AA L S AA IH N DH AH V AH SIL L OW R ER B R AY DX HH AE N SIL S AY
+
+Segment 13:
+  Timestamp: 01:12.509 - 01:16.896 (4.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The background looks like it could be a wooded area.
+  Phonemic Encoding: DH AH SIL B AE SIL K G R AW N SIL L UH SIL K S SIL L AY SIL K IH SIL SIL SIL K UH IH SIL B IY AH OW W UH DX IH SIL D EH R IY AH SIL
+
+Segment 14:
+  Timestamp: 01:17.385 - 01:19.275 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Around the light.
+  Phonemic Encoding: AH ER R AW N SIL D S SIL DH AH L AY EY

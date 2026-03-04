@@ -1,0 +1,104 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-25696_ses-20180515_task-picnic_lang-en_final.wav
+Total Segments: 12
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.452 → 00:01.549     Participant  1.10      s Well, the house.                                   W EH L SIL T AH HH AW S
+2    00:04.266 → 00:06.240     Participant  1.97      s and keep those sitting on the lawn.                IH N SIL P IY SIL P L DH ER S IH DX IH NG AA N M DH AH L AA N ER
+3    00:07.793 → 00:11.016     Participant  3.22      s doing whatever they're drinking or reading and a g D UW UH IH M W AH DX EH V L DH ER SIL R IH SIL K IH N ER R IY DX IY IH N IH SIL G AY IH N IH AH S AH N SIL
+4    00:11.792 → 00:14.408     Participant  2.62      s out there with a flying a kite over a...           AH SIL DH EH R W AH DH AH SIL F L AY N IH SIL K AY DX OW R ER AH
+5    00:20.027 → 00:23.031     Participant  3.00      s and there's also flag on a pole where.             IH N EH ER Z IH AH N AA L S OW AH SIL F L AE NG SIL SIL AA DX AH SIL P OW L ER
+6    00:24.752 → 00:26.845     Participant  2.09      s Then there is a little kind of stuff there.        P IH N ER Z AH SIL P B AA L SIL K AY N DH AH SH SIL T AH F SIL T ER
+7    00:32.599 → 00:39.636     Clinician    7.04      s which is about tailboat, it's a radio, some kind o SH IH SIL DH IH SIL T S AH SIL B OW SIL SIL SIL T EH L SIL B UH SIL K SIL SIL EH SIL S IH ER HH SIL Y EH AH AH DX AE SIL T S AH R EY DX IY L AH L SIL T S N SIL K AE DX IH V K L AA TH S TH EY NG
+8    00:42.572 → 00:54.824     Participant  12.25     s Well, I know, it looks like this somebody down her L AE AW L AH IH N OW N IH L UH S L AY EH SIL T DH IH S S AH M B UH DX IY SIL D AW N ER SIL B AY DH IH SH AA R L AY IH N S SIL K W AA SIL N AA N DX IY IH Z SIL D L EY SIL G Z EH IH SIL K EH N R IH L IY SIL T EH L W AH SIL D DH AE DX IH Z S SIL B IH DX L UH SIL S L AY SIL K AH SIL B AA DX L ER SH S AH M SIL T AH DX AE N ER N OW W AH SIL T DH AH EH DX IH Z SIL T HH AE DX OW N OW L K AE SIL T R EH L HH IY EH AE
+9    00:59.498 → 01:06.096     Participant  6.60      s got a dog basket. I don't know. I can't tell when  G AH DX IH N D AA SIL B AE S SIL K IH DH EH DX N N OW M SIL AY IH SIL K OW N SIL T EH L W AH N W EY IH L UH SIL Z SIL B AH DX IH M AH S SIL B IY SIL M EY V B IY IH SIL S AH ER AH V M
+10   01:07.007 → 01:09.623     Participant  2.62      s You know, with this stuff growing like this all th IH N AH OW N M W UH AH DH AH S SIL T AH F SIL G OW IH N NG L AY SIL D IH S AA L AH W EY R AW DX IH SIL T AH
+11   01:10.838 → 01:13.082     Participant  2.24      s I'm taking maybe food from a cheese portal.        AH M SIL TH EY SIL K IH N M EY V IY F UW SIL AH M IH SH IH Z S SIL P AA R
+12   01:15.968 → 01:17.436     Participant  1.47      s o maybe that's what it is                          S AH M EY EH SIL B IY DH AE SIL S SIL W UH DX ER DX IH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.452 - 00:01.549 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, the house.
+  Phonemic Encoding: W EH L SIL T AH HH AW S
+
+Segment 2:
+  Timestamp: 00:04.266 - 00:06.240 (1.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and keep those sitting on the lawn.
+  Phonemic Encoding: IH N SIL P IY SIL P L DH ER S IH DX IH NG AA N M DH AH L AA N ER
+
+Segment 3:
+  Timestamp: 00:07.793 - 00:11.016 (3.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: doing whatever they're drinking or reading and a guy in his son.
+  Phonemic Encoding: D UW UH IH M W AH DX EH V L DH ER SIL R IH SIL K IH N ER R IY DX IY IH N IH SIL G AY IH N IH AH S AH N SIL
+
+Segment 4:
+  Timestamp: 00:11.792 - 00:14.408 (2.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: out there with a flying a kite over a...
+  Phonemic Encoding: AH SIL DH EH R W AH DH AH SIL F L AY N IH SIL K AY DX OW R ER AH
+
+Segment 5:
+  Timestamp: 00:20.027 - 00:23.031 (3.00s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's also flag on a pole where.
+  Phonemic Encoding: IH N EH ER Z IH AH N AA L S OW AH SIL F L AE NG SIL SIL AA DX AH SIL P OW L ER
+
+Segment 6:
+  Timestamp: 00:24.752 - 00:26.845 (2.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Then there is a little kind of stuff there.
+  Phonemic Encoding: P IH N ER Z AH SIL P B AA L SIL K AY N DH AH SH SIL T AH F SIL T ER
+
+Segment 7:
+  Timestamp: 00:32.599 - 00:39.636 (7.04s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: which is about tailboat, it's a radio, some kind of cloth thing.
+  Phonemic Encoding: SH IH SIL DH IH SIL T S AH SIL B OW SIL SIL SIL T EH L SIL B UH SIL K SIL SIL EH SIL S IH ER HH SIL Y EH AH AH DX AE SIL T S AH R EY DX IY L AH L SIL T S N SIL K AE DX IH V K L AA TH S TH EY NG
+
+Segment 8:
+  Timestamp: 00:42.572 - 00:54.824 (12.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, I know, it looks like this somebody down here by the shoreline squatting on these legs. I can't really tell what that is, but it looks like a bottle or something. I don't know what that is. I don't know. Cat 12. Yeah.
+  Phonemic Encoding: L AE AW L AH IH N OW N IH L UH S L AY EH SIL T DH IH S S AH M B UH DX IY SIL D AW N ER SIL B AY DH IH SH AA R L AY IH N S SIL K W AA SIL N AA N DX IY IH Z SIL D L EY SIL G Z EH IH SIL K EH N R IH L IY SIL T EH L W AH SIL D DH AE DX IH Z S SIL B IH DX L UH SIL S L AY SIL K AH SIL B AA DX L ER SH S AH M SIL T AH DX AE N ER N OW W AH SIL T DH AH EH DX IH Z SIL T HH AE DX OW N OW L K AE SIL T R EH L HH IY EH AE
+
+Segment 9:
+  Timestamp: 00:59.498 - 01:06.096 (6.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: got a dog basket. I don't know. I can't tell when it looks, but it must be maybe it's...
+  Phonemic Encoding: G AH DX IH N D AA SIL B AE S SIL K IH DH EH DX N N OW M SIL AY IH SIL K OW N SIL T EH L W AH N W EY IH L UH SIL Z SIL B AH DX IH M AH S SIL B IY SIL M EY V B IY IH SIL S AH ER AH V M
+
+Segment 10:
+  Timestamp: 01:07.007 - 01:09.623 (2.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You know, with this stuff growing like this all the way around it.
+  Phonemic Encoding: IH N AH OW N M W UH AH DH AH S SIL T AH F SIL G OW IH N NG L AY SIL D IH S AA L AH W EY R AW DX IH SIL T AH
+
+Segment 11:
+  Timestamp: 01:10.838 - 01:13.082 (2.24s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm taking maybe food from a cheese portal.
+  Phonemic Encoding: AH M SIL TH EY SIL K IH N M EY V IY F UW SIL AH M IH SH IH Z S SIL P AA R
+
+Segment 12:
+  Timestamp: 01:15.968 - 01:17.436 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o maybe that's what it is
+  Phonemic Encoding: S AH M EY EH SIL B IY DH AE SIL S SIL W UH DX ER DX IH

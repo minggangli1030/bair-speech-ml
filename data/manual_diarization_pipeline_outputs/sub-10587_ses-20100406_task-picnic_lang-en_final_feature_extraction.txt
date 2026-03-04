@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-10587_ses-20100406_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:02.393     Participant  2.36      s Okay, so...                                        EY NG S L P M
+2    00:07.084 → 00:10.611     Participant  3.53      s I have sitting at...                               AY HH AH S IH DX IY NG N IH SIL EH AE SIL T M SIL
+3    00:12.299 → 00:15.100     Participant  2.80      s Not on the floor, but I'm sitting sitting.         N AA DX AA M DH AH F S L AA R ER SIL B AH DX AH N S EH DX IY SIL S IH DX IH NG SIL
+4    00:16.298 → 00:25.461     Participant  9.16      s next to the basket and the other person is...      N EH SIL K S SIL T CH UW DH IH V SIL B AE S SIL K EH SIL T CH SIL IH N DH IH EH EH ER SIL AE N HH M DH IY AH DH ER SIL P ER S IH EH N IH SIL Y IH EH S S
+5    00:26.879 → 00:29.039     Participant  2.16      s Maybe in the car.                                  M EY SIL B IY SIL IH N DH AH SIL K HH AA R ER
+6    00:29.241 → 00:35.384     Participant  6.14      s And there is a kite in there.                      AA L AH M SIL AE N DH EH ER SIL IH SIL IH Z AH SIL K HH AY SIL T SIL IH N SIL DH EH ER SIL
+7    00:40.328 → 00:41.627     Participant  1.30      s and there is a                                     HH AE EH N M DH EH R IH S EY IY
+8    00:47.095 → 00:53.069     Participant  5.97      s There's dog so I'm not getting what you're off in  HH N DH IH Z SIL D AA SIL G S AH L M N AE SIL K IH SIL M W EY Y W L F SIL IH AE EH N SIL N IH Z S SIL K AY SIL AA N IH ER Z AH AH
+9    00:54.824 → 00:56.899     Participant  2.08      s There's a staff for a...                           DH IH ER Z AH S SIL T AE F AA R AH
+10   01:04.004 → 01:05.100     Clinician    1.10      s at home.                                           AY AE SIL EH HH OW L M
+11   01:10.500 → 01:16.964     Clinician    6.46      s I don't want to do a soon-to-do. No. And... It's.. AH SIL D AA N SIL D IH DX EH IH S EY SIL D AA V SIL AE N N IH SIL T S S EH L IH SIL T
+12   01:16.964 → 01:18.533     Participant  1.57      s out in the water.                                  S AW DX IH N DH AH W AA DX ER
+13   01:19.900 → 01:22.245     Participant  2.35      s Um, that's Doc's not in water, but uh...           AW AA M M N AH SIL T S SIL D AA SIL S N AW AA N AH W AA DX ER SIL B AH SIL D EH AH
+14   01:28.067 → 01:32.505     Participant  4.44      s about the boat, it's in the water, and...          B AH SIL DH AH SIL B OW SIL T Z S IH N DH M W AA N ER EY AE EH EH AH N SIL D
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:02.393 (2.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, so...
+  Phonemic Encoding: EY NG S L P M
+
+Segment 2:
+  Timestamp: 00:07.084 - 00:10.611 (3.53s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have sitting at...
+  Phonemic Encoding: AY HH AH S IH DX IY NG N IH SIL EH AE SIL T M SIL
+
+Segment 3:
+  Timestamp: 00:12.299 - 00:15.100 (2.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Not on the floor, but I'm sitting sitting.
+  Phonemic Encoding: N AA DX AA M DH AH F S L AA R ER SIL B AH DX AH N S EH DX IY SIL S IH DX IH NG SIL
+
+Segment 4:
+  Timestamp: 00:16.298 - 00:25.461 (9.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: next to the basket and the other person is...
+  Phonemic Encoding: N EH SIL K S SIL T CH UW DH IH V SIL B AE S SIL K EH SIL T CH SIL IH N DH IH EH EH ER SIL AE N HH M DH IY AH DH ER SIL P ER S IH EH N IH SIL Y IH EH S S
+
+Segment 5:
+  Timestamp: 00:26.879 - 00:29.039 (2.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Maybe in the car.
+  Phonemic Encoding: M EY SIL B IY SIL IH N DH AH SIL K HH AA R ER
+
+Segment 6:
+  Timestamp: 00:29.241 - 00:35.384 (6.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there is a kite in there.
+  Phonemic Encoding: AA L AH M SIL AE N DH EH ER SIL IH SIL IH Z AH SIL K HH AY SIL T SIL IH N SIL DH EH ER SIL
+
+Segment 7:
+  Timestamp: 00:40.328 - 00:41.627 (1.30s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there is a
+  Phonemic Encoding: HH AE EH N M DH EH R IH S EY IY
+
+Segment 8:
+  Timestamp: 00:47.095 - 00:53.069 (5.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's dog so I'm not getting what you're off in and there's Kate on user
+  Phonemic Encoding: HH N DH IH Z SIL D AA SIL G S AH L M N AE SIL K IH SIL M W EY Y W L F SIL IH AE EH N SIL N IH Z S SIL K AY SIL AA N IH ER Z AH AH
+
+Segment 9:
+  Timestamp: 00:54.824 - 00:56.899 (2.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a staff for a...
+  Phonemic Encoding: DH IH ER Z AH S SIL T AE F AA R AH
+
+Segment 10:
+  Timestamp: 01:04.004 - 01:05.100 (1.10s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: at home.
+  Phonemic Encoding: AY AE SIL EH HH OW L M
+
+Segment 11:
+  Timestamp: 01:10.500 - 01:16.964 (6.46s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I don't want to do a soon-to-do. No. And... It's... I'm so...
+  Phonemic Encoding: AH SIL D AA N SIL D IH DX EH IH S EY SIL D AA V SIL AE N N IH SIL T S S EH L IH SIL T
+
+Segment 12:
+  Timestamp: 01:16.964 - 01:18.533 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: out in the water.
+  Phonemic Encoding: S AW DX IH N DH AH W AA DX ER
+
+Segment 13:
+  Timestamp: 01:19.900 - 01:22.245 (2.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Um, that's Doc's not in water, but uh...
+  Phonemic Encoding: AW AA M M N AH SIL T S SIL D AA SIL S N AW AA N AH W AA DX ER SIL B AH SIL D EH AH
+
+Segment 14:
+  Timestamp: 01:28.067 - 01:32.505 (4.44s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: about the boat, it's in the water, and...
+  Phonemic Encoding: B AH SIL DH AH SIL B OW SIL T Z S IH N DH M W AA N ER EY AE EH EH AH N SIL D

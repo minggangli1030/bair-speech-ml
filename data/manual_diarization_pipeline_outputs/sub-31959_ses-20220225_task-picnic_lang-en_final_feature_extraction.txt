@@ -1,0 +1,244 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-31959_ses-20220225_task-picnic_lang-en_final.wav
+Total Segments: 32
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.482     Participant  1.45      s that are people.                                   DH EH IH SIL AA R SIL P HH Y IY SIL P B L
+2    00:01.836 → 00:03.642     Participant  1.81      s um sitting down                                    M SIL S IH DX IY NG N SIL D AW N SIL
+3    00:04.688 → 00:07.995     Participant  3.31      s And there's a...                                   EY AE N SIL D SIL AA M SIL IH EH N SIL DH EH ER S SIL EY AH
+4    00:09.194 → 00:11.354     Participant  2.16      s and he has a book.                                 AH SIL IH EH N SIL HH IH EH N HH IY HH AE S AH EH AE HH SIL B AA AH SIL
+5    00:12.349 → 00:13.615     Participant  1.27      s and um                                             AE N SIL D Z SIL AA M SIL
+6    00:13.935 → 00:18.880     Participant  4.94      s The other woman is getting...                      DH AH SIL AH DH ER SIL AH DH AH W AH M IH EH IH N AH IH IH S SIL P SIL K P K UH SIL K IY SIL AE M SIL IH S SIL SIL G IH DX IY NG SIL G SIL AA AA M
+7    00:21.107 → 00:23.672     Participant  2.57      s And there's a...                                   EY AE N SIL D SIL IH EH N DH EH ER R S IH N SIL AH
+8    00:24.752 → 00:27.503     Participant  2.75      s I think that's really weird but it's the same goin DH IY NG SIL K SIL EH IH SIL K HH SIL AH SIL DH AH OW SIL DH AE SIL S R ER L IY W IH EH ER SIL B EH SIL S DH IH S IH SIL K G UH AH
+9    00:28.060 → 00:33.342     Participant  5.28      s But I know it's like, but it's and they have this  B AH IH DX IY SIL AY N OW IH SIL T S SIL T L AY SIL B AH HH EH IH IH EH SIL T S SIL IH EH N DH IH SIL IH EH N DH EY HH AE V DH IH S SIL M AY N SIL AH AA M
+10   00:36.329 → 00:37.915     Participant  1.59      s inside there.                                      DH AH SIL IH SIL IH N S AY SIL DH EH ER SIL
+11   00:38.337 → 00:40.244     Participant  1.91      s and when they want to eat.                         AE N SIL D Z SIL AH SIL IH M W IH N DH EY W AH N IH IY SIL IY SIL T CH
+12   00:41.104 → 00:45.998     Participant  4.89      s And my thing is, why are they doing it?            EY AE N SIL D IH SIL M AH SIL AH SIL AH IH N M AY UW SIL P F SIL TH IH NG IH SIL IH EH Z S SIL SIL W AY ER DH EY SIL T S UW IH IY NG IH SIL
+13   00:46.875 → 00:49.187     Participant  2.31      s back of the door.                                  AA M SIL B AE SIL K IH AH V DH EH AH SIL D OW AA AA R SIL AH SIL EH IH
+14   00:49.508 → 00:51.010     Participant  1.50      s a house.                                           EY HH SIL AH HH AW S
+15   00:51.280 → 00:52.427     Participant  1.15      s and a car.                                         IH N IH SIL K AA ER
+16   00:52.647 → 00:55.110     Participant  2.46      s and a... and a thing tree.                         AE N AH HH SIL HH AE N HH N SIL T S SIL IH F SIL P SIL EY NG SIL T R IY SIL
+17   00:55.448 → 01:02.434     Participant  6.99      s And we come over here. There's a man has a dog.    AE N SIL D SIL M SIL SIL Y IH SIL K AH M OW V SIL R ER IH SIL HH IH EH ER SIL DH EH ER S AH M AE N IH HH AE Z S SIL EY SIL SIL D AA SIL G IH
+18   01:03.075 → 01:07.784     Participant  4.71      s and he's going up the things in the up there.      AE N SIL T HH IY S SIL K G OW IY NG IH SIL AW N SIL DH EH IH SIL TH NG S SIL IH N DH AH SIL AH SIL DH EH ER
+19   01:08.475 → 01:12.492     Participant  4.02      s o I don't have to, I don't, can't say it, but I kn S AY DX D OW SIL HH AE F SIL T IH SIL AY SIL SIL D EH IH SIL D OW SIL K HH SIL K OW AE N SIL S EY IH SIL B AH IH DX AY N OW W EH IH DX IH DX IH EH
+20   01:13.875 → 01:15.749     Participant  1.87      s And this is right here.                            AE N DH IH EH TH S DH IH Z S R AY EY SIL HH IH EH ER
+21   01:18.280 → 01:19.967     Participant  1.69      s And it's like it, it's it.                         AE EH N IH EH SIL T S EH SIL IH SIL T SIL IH SIL T S IH DX
+22   01:23.967 → 01:27.274     Clinician    3.31      s like you can take this to slick thing.             IY SIL L AY SIL K Y UW SIL K IH N SIL T EY IH SIL T EY SIL K SIL DH IH S SIL T AH S SIL DH IH SIL TH EY NG
+23   01:31.088 → 01:32.927     Participant  1.84      s o this is um                                       S SIL DH IH SIL S IH S SIL AE M
+24   01:34.109 → 01:35.138     Participant  1.03      s A-R.                                               EY SIL AA
+25   01:35.273 → 01:39.070     Participant  3.80      s I don't know. I know it's a flight.                AY DX N AA N AW L IH SIL T S SIL AY N OW IH SIL T S IH SIL IH SIL IH SIL T S AH F L AH F L AY EY SIL T S
+26   01:40.622 → 01:49.971     Participant  9.35      s And then there's trees all around and there's a... IH N DH IH N SIL M SIL SIL DH ER R S SIL T R IY S S SIL AA L AH R AW N SIL D SIL AE EH N DH EH ER S SIL EY SIL M AH M EY S SIL SIL
+27   01:49.971 → 01:51.810     Clinician    1.84      s Let me minute it's um                              L EH DH IH M EH N EH SIL T CH SIL IH SIL T S SIL M
+28   01:55.590 → 01:56.670     Clinician    1.08      s It's it's and                                      IH SIL TH S SIL IH SIL S IH N
+29   01:59.910 → 02:05.479     Participant  5.57      s And then there's little guy over here having fun.  EY AE N SIL D AH SIL M SIL DH IH N DH IH EH N DH ER S L UH DX L SIL K AY OW SIL V R ER HH Y IH ER SIL HH AE V IY NG N HH SIL F B AY N AH IH SIL
+30   02:06.104 → 02:07.184     Participant  1.08      s and um                                             IH AE N SIL M N
+31   02:09.765 → 02:11.048     Participant  1.28      s of the yard.                                       AH DH IH IY Y AY AA AY
+32   02:11.672 → 02:20.802     Participant  9.13      s lake and also the southern line is getting fish fi L EY SIL K AE N SIL AA F S OW SIL M DH AH S AH DH ER SIL B AY N IH S SIL IH S SIL SIL G IH DX IY NG SIL K HH IH SIL K IH SIL AH F SIL F IH SH SIL F F B IH SH SIL S EH SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.482 (1.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: that are people.
+  Phonemic Encoding: DH EH IH SIL AA R SIL P HH Y IY SIL P B L
+
+Segment 2:
+  Timestamp: 00:01.836 - 00:03.642 (1.81s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: um sitting down
+  Phonemic Encoding: M SIL S IH DX IY NG N SIL D AW N SIL
+
+Segment 3:
+  Timestamp: 00:04.688 - 00:07.995 (3.31s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: EY AE N SIL D SIL AA M SIL IH EH N SIL DH EH ER S SIL EY AH
+
+Segment 4:
+  Timestamp: 00:09.194 - 00:11.354 (2.16s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and he has a book.
+  Phonemic Encoding: AH SIL IH EH N SIL HH IH EH N HH IY HH AE S AH EH AE HH SIL B AA AH SIL
+
+Segment 5:
+  Timestamp: 00:12.349 - 00:13.615 (1.27s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and um
+  Phonemic Encoding: AE N SIL D Z SIL AA M SIL
+
+Segment 6:
+  Timestamp: 00:13.935 - 00:18.880 (4.94s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The other woman is getting...
+  Phonemic Encoding: DH AH SIL AH DH ER SIL AH DH AH W AH M IH EH IH N AH IH IH S SIL P SIL K P K UH SIL K IY SIL AE M SIL IH S SIL SIL G IH DX IY NG SIL G SIL AA AA M
+
+Segment 7:
+  Timestamp: 00:21.107 - 00:23.672 (2.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: EY AE N SIL D SIL IH EH N DH EH ER R S IH N SIL AH
+
+Segment 8:
+  Timestamp: 00:24.752 - 00:27.503 (2.75s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I think that's really weird but it's the same going on.
+  Phonemic Encoding: DH IY NG SIL K SIL EH IH SIL K HH SIL AH SIL DH AH OW SIL DH AE SIL S R ER L IY W IH EH ER SIL B EH SIL S DH IH S IH SIL K G UH AH
+
+Segment 9:
+  Timestamp: 00:28.060 - 00:33.342 (5.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: But I know it's like, but it's and they have this month.
+  Phonemic Encoding: B AH IH DX IY SIL AY N OW IH SIL T S SIL T L AY SIL B AH HH EH IH IH EH SIL T S SIL IH EH N DH IH SIL IH EH N DH EY HH AE V DH IH S SIL M AY N SIL AH AA M
+
+Segment 10:
+  Timestamp: 00:36.329 - 00:37.915 (1.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: inside there.
+  Phonemic Encoding: DH AH SIL IH SIL IH N S AY SIL DH EH ER SIL
+
+Segment 11:
+  Timestamp: 00:38.337 - 00:40.244 (1.91s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and when they want to eat.
+  Phonemic Encoding: AE N SIL D Z SIL AH SIL IH M W IH N DH EY W AH N IH IY SIL IY SIL T CH
+
+Segment 12:
+  Timestamp: 00:41.104 - 00:45.998 (4.89s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And my thing is, why are they doing it?
+  Phonemic Encoding: EY AE N SIL D IH SIL M AH SIL AH SIL AH IH N M AY UW SIL P F SIL TH IH NG IH SIL IH EH Z S SIL SIL W AY ER DH EY SIL T S UW IH IY NG IH SIL
+
+Segment 13:
+  Timestamp: 00:46.875 - 00:49.187 (2.31s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: back of the door.
+  Phonemic Encoding: AA M SIL B AE SIL K IH AH V DH EH AH SIL D OW AA AA R SIL AH SIL EH IH
+
+Segment 14:
+  Timestamp: 00:49.508 - 00:51.010 (1.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: a house.
+  Phonemic Encoding: EY HH SIL AH HH AW S
+
+Segment 15:
+  Timestamp: 00:51.280 - 00:52.427 (1.15s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and a car.
+  Phonemic Encoding: IH N IH SIL K AA ER
+
+Segment 16:
+  Timestamp: 00:52.647 - 00:55.110 (2.46s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and a... and a thing tree.
+  Phonemic Encoding: AE N AH HH SIL HH AE N HH N SIL T S SIL IH F SIL P SIL EY NG SIL T R IY SIL
+
+Segment 17:
+  Timestamp: 00:55.448 - 01:02.434 (6.99s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And we come over here. There's a man has a dog.
+  Phonemic Encoding: AE N SIL D SIL M SIL SIL Y IH SIL K AH M OW V SIL R ER IH SIL HH IH EH ER SIL DH EH ER S AH M AE N IH HH AE Z S SIL EY SIL SIL D AA SIL G IH
+
+Segment 18:
+  Timestamp: 01:03.075 - 01:07.784 (4.71s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and he's going up the things in the up there.
+  Phonemic Encoding: AE N SIL T HH IY S SIL K G OW IY NG IH SIL AW N SIL DH EH IH SIL TH NG S SIL IH N DH AH SIL AH SIL DH EH ER
+
+Segment 19:
+  Timestamp: 01:08.475 - 01:12.492 (4.02s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o I don't have to, I don't, can't say it, but I know what it is.
+  Phonemic Encoding: S AY DX D OW SIL HH AE F SIL T IH SIL AY SIL SIL D EH IH SIL D OW SIL K HH SIL K OW AE N SIL S EY IH SIL B AH IH DX AY N OW W EH IH DX IH DX IH EH
+
+Segment 20:
+  Timestamp: 01:13.875 - 01:15.749 (1.87s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And this is right here.
+  Phonemic Encoding: AE N DH IH EH TH S DH IH Z S R AY EY SIL HH IH EH ER
+
+Segment 21:
+  Timestamp: 01:18.280 - 01:19.967 (1.69s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And it's like it, it's it.
+  Phonemic Encoding: AE EH N IH EH SIL T S EH SIL IH SIL T SIL IH SIL T S IH DX
+
+Segment 22:
+  Timestamp: 01:23.967 - 01:27.274 (3.31s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: like you can take this to slick thing.
+  Phonemic Encoding: IY SIL L AY SIL K Y UW SIL K IH N SIL T EY IH SIL T EY SIL K SIL DH IH S SIL T AH S SIL DH IH SIL TH EY NG
+
+Segment 23:
+  Timestamp: 01:31.088 - 01:32.927 (1.84s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o this is um
+  Phonemic Encoding: S SIL DH IH SIL S IH S SIL AE M
+
+Segment 24:
+  Timestamp: 01:34.109 - 01:35.138 (1.03s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A-R.
+  Phonemic Encoding: EY SIL AA
+
+Segment 25:
+  Timestamp: 01:35.273 - 01:39.070 (3.80s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I don't know. I know it's a flight.
+  Phonemic Encoding: AY DX N AA N AW L IH SIL T S SIL AY N OW IH SIL T S IH SIL IH SIL IH SIL T S AH F L AH F L AY EY SIL T S
+
+Segment 26:
+  Timestamp: 01:40.622 - 01:49.971 (9.35s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And then there's trees all around and there's a... a...
+  Phonemic Encoding: IH N DH IH N SIL M SIL SIL DH ER R S SIL T R IY S S SIL AA L AH R AW N SIL D SIL AE EH N DH EH ER S SIL EY SIL M AH M EY S SIL SIL
+
+Segment 27:
+  Timestamp: 01:49.971 - 01:51.810 (1.84s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Let me minute it's um
+  Phonemic Encoding: L EH DH IH M EH N EH SIL T CH SIL IH SIL T S SIL M
+
+Segment 28:
+  Timestamp: 01:55.590 - 01:56.670 (1.08s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: It's it's and
+  Phonemic Encoding: IH SIL TH S SIL IH SIL S IH N
+
+Segment 29:
+  Timestamp: 01:59.910 - 02:05.479 (5.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And then there's little guy over here having fun.
+  Phonemic Encoding: EY AE N SIL D AH SIL M SIL DH IH N DH IH EH N DH ER S L UH DX L SIL K AY OW SIL V R ER HH Y IH ER SIL HH AE V IY NG N HH SIL F B AY N AH IH SIL
+
+Segment 30:
+  Timestamp: 02:06.104 - 02:07.184 (1.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and um
+  Phonemic Encoding: IH AE N SIL M N
+
+Segment 31:
+  Timestamp: 02:09.765 - 02:11.048 (1.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: of the yard.
+  Phonemic Encoding: AH DH IH IY Y AY AA AY
+
+Segment 32:
+  Timestamp: 02:11.672 - 02:20.802 (9.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: lake and also the southern line is getting fish fish six.
+  Phonemic Encoding: L EY SIL K AE N SIL AA F S OW SIL M DH AH S AH DH ER SIL B AY N IH S SIL IH S SIL SIL G IH DX IY NG SIL K HH IH SIL K IH SIL AH F SIL F IH SH SIL F F B IH SH SIL S EH SIL

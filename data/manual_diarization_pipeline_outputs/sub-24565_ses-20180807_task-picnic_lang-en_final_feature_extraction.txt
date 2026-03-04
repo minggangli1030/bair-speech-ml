@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24565_ses-20180807_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.199 → 00:02.275     Clinician    2.08      s Well, there's some people having them lovely.      W AW L SIL DH IH S AH N SIL P IY SIL P L HH AE V B IH NG AH M L AH SIL L IY
+2    00:03.237 → 00:06.072     Clinician    2.84      s day away from home and sitting down and relaxing a D EY AH W EY F R M HH AA OW M IH N S IH DX IH IY NG N AW DX AH N SIL B R IH L AE SIL K S IH NG IH N
+3    00:11.522 → 00:12.569     Participant  1.05      s playing in the water.                              L EY IH NG IH N DH AH W AA DX ER IH
+4    00:13.632 → 00:16.686     Participant  3.05      s I was earlier today, I was asked what that is, tha AW AY AW W AH Z ER SIL ER L IY IH ER SIL T IH SIL D EY EH AW W AH Z AE S T W AH IH SIL DH AE DX IH Z S IH SIL CH AH
+5    00:26.069 → 00:33.055     Participant  6.99      s People are just having maybe that their house, may P IY SIL P L ER SIL JH IH S SIL HH AE SIL P IH NG SIL M EY SIL B IY SIL DH EH AE AH SIL T S EH ER AW Z S SIL HH EY V IH SIL DH ER S IH DX IH NG AW S AY DX IH DH EH HH AW S Y AE S AH OW SIL K AE AY EY IH N N N B AH SIL TH DH IH SIL K EH SIL S M AH AY IH SIL P IY SIL P L SIL K AH AA M V IH N SIL B AY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.199 - 00:02.275 (2.08s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Well, there's some people having them lovely.
+  Phonemic Encoding: W AW L SIL DH IH S AH N SIL P IY SIL P L HH AE V B IH NG AH M L AH SIL L IY
+
+Segment 2:
+  Timestamp: 00:03.237 - 00:06.072 (2.84s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: day away from home and sitting down and relaxing and...
+  Phonemic Encoding: D EY AH W EY F R M HH AA OW M IH N S IH DX IH IY NG N AW DX AH N SIL B R IH L AE SIL K S IH NG IH N
+
+Segment 3:
+  Timestamp: 00:11.522 - 00:12.569 (1.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: playing in the water.
+  Phonemic Encoding: L EY IH NG IH N DH AH W AA DX ER IH
+
+Segment 4:
+  Timestamp: 00:13.632 - 00:16.686 (3.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I was earlier today, I was asked what that is, that's a...
+  Phonemic Encoding: AW AY AW W AH Z ER SIL ER L IY IH ER SIL T IH SIL D EY EH AW W AH Z AE S T W AH IH SIL DH AE DX IH Z S IH SIL CH AH
+
+Segment 5:
+  Timestamp: 00:26.069 - 00:33.055 (6.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: People are just having maybe that their house, maybe they're sitting outside of their house, yes, okay? But they've got some other people coming by.
+  Phonemic Encoding: P IY SIL P L ER SIL JH IH S SIL HH AE SIL P IH NG SIL M EY SIL B IY SIL DH EH AE AH SIL T S EH ER AW Z S SIL HH EY V IH SIL DH ER S IH DX IH NG AW S AY DX IH DH EH HH AW S Y AE S AH OW SIL K AE AY EY IH N N N B AH SIL TH DH IH SIL K EH SIL S M AH AY IH SIL P IY SIL P L SIL K AH AA M V IH N SIL B AY

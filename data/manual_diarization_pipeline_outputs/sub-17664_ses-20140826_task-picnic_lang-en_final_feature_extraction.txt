@@ -1,0 +1,139 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17664_ses-20140826_task-picnic_lang-en_final.wav
+Total Segments: 17
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.465 → 00:18.289     Participant  16.82     s o this picture is an outdoor picture. There's a tr S OW DH IH S SIL P IH SIL K SH ER SIL IH Z IH N SIL AW OW SIL D AA R SIL P IH SIL K SH ER DH EY EH ER Z SIL AH SIL T R IY SIL T UW IH DH AH L EH AE SIL P SIL T SIL W IH TH SIL TH R IY SIL B L IH SIL B R AE N SIL CH SH CH IH S SIL B IY NG SH OW N B DH L IH DH AH M B R AE N SIL CH SIL AA M N DH AH R AY SIL T IH SIL IH Z SIL DH AH SIL B IH SIL G IH S T W AH IH N DH IY AH DH ER Z SIL D OW N SIL T HH AE V IH Z M EH N IY L IY V S S
+2    00:22.845 → 00:30.760     Participant  7.91      s in the background there's also picture in the pict IH N DH AH SIL B AE SIL K R AW N SIL D T SIL SIL B DH EH ER Z Z S SIL AH AH M AA L S OW SIL P IH SIL K SH ER SIL AH SIL IH N DH AH SIL P IH SIL SH ER SIL DH EH ER SIL IH SIL IH SIL CH SH CH OW Z SIL M W AA AA R ER
+3    00:30.929 → 00:42.083     Participant  11.15     s trees, but they are not really... They're just...  CH R IY Z SIL B AH SIL DH EY EH ER N AA SIL T SIL SIL R IH L IY IH SIL S SIL IH SIL IH SIL DH EH ER R SIL JH IH S SIL T SIL AH AH M M S IY HH IH ER DH EH ER SIL JH IH IH S T AH M IH N SIL EH SIL CH IH NG G IH SIL AH V DH IH EH M SIL
+4    00:45.660 → 00:51.297     Participant  5.64      s Further to the right, it looks like there's a lake F ER DH ER SH AH DH AH R AY SIL T P IH SIL L UH SIL K S L AY SIL DH EH R ER Z SIL AH L EY SIL K SIL AA R ER SIL AH R IH V ER HH SIL AA R ER AH SIL AH
+5    00:52.900 → 01:00.949     Participant  8.05      s an ocean and there are people, oh wait, yeah. And  IH N SIL OW SH IH N IH EH N DH EH ER SIL AA R SIL P HH Y IY SIL P L SIL SIL L OW W EY Y IH IH N DH EY AA R SIL IH DH EH R ER ER SIL P IY SIL P L SIL IH N IH S EY EH L SIL B OW SIL T UW AH V DH IH EH M SIL AY SIL B L IY V F
+6    01:05.624 → 01:15.428     Participant  9.80      s Also in the picture by the lake there are people o AA L S AH OW IH N DH AH SIL P IH SIL K SH ER B AY DH AH L EY SIL K DH EY EH ER SIL AA R ER AH SIL AH DH EH R ER SIL P IY SIL P L L SIL AH AA ER SIL EY SIL P ER S IH N IH SIL L UH SIL K S SIL L AY SIL K SIL IH N AH
+7    01:17.031 → 01:23.494     Clinician    6.46      s Oh, I just guess bending down playing there. And t AH OW W EH EY SIL JH S SIL T SIL SIL G EH S SIL B EH N D IH NG SIL D AW N SIL P L EY IH NG DH IH EH IH SIL IH EH N DH EH R IH Z AH S ER F SIL B AA R ER SIL D
+8    01:23.494 → 01:27.645     Participant  4.15      s also in the lake with one person fishing.          AA L S OW L IH N DH AH L EY SIL W IH TH SIL W AH N SIL P ER S IH N D HH SIL F IH SH IH NG SIL G
+9    01:33.079 → 01:34.834     Participant  1.75      s There are three.                                   DH EH R ER AA R SIL TH SIL TH R IY W
+10   01:36.471 → 01:44.217     Participant  7.75      s four, five, six, seven, seven people in all in thi F AA W AA AA AA R ER F AY V SIL S IH SIL K S EH V IH SIL SIL S EH V IH N SIL P HH Y IY SIL P L SIL SIL IH N SIL AA L HH SIL IH N DH IH S SIL P IH SIL K SH ER DH EH IH Z SIL W AH N SIL D AA SIL G
+11   01:46.191 → 01:51.962     Participant  5.77      s There's also a person flying a kite and two people DH EH R Z SIL AA L S OW SIL AH SIL P ER S IH N SIL P L AY IH NG G AH IH SIL K AY SIL T IH N SIL T UW SIL P IY SIL P L SIL P IH SIL N IH SIL K IY N W
+12   01:51.962 → 01:53.532     Clinician    1.57      s of them, drinking.                                 AH N IH AH V DH EH M SIL D R IH NG SIL K IY NG
+13   01:54.156 → 01:57.801     Clinician    3.64      s the woman drinking out of a...                     AH SIL N DH AH W M IH N SIL D R IH NG SIL K IY NG N AW DX AH V AH SIL T AH AH L SIL
+14   01:59.607 → 02:05.024     Clinician    5.42      s uh, canteen and the man reading a book.            AH SIL K AE EH N SIL T IY N SIL AE EH N SIL D IH SIL B DH EH AH M AE N SIL SIL R IY DX IY NG AH SIL B UH SIL K
+15   02:07.285 → 02:17.123     Clinician    9.84      s They have things like that you would have for a pi DH EY HH AE AW V SIL F TH IH NG Z SIL L AY SIL K IH HH SIL DH EH SIL Y UW W IH DX HH AE V TH F SIL F AA AA R ER SIL EY SIL P IH SIL K SIL N IH EH IH SIL K IH F L UH SIL P F L AA SIL P T SIL S SIL W R EY DX IY OW L P IH SIL K N IH SIL K SIL B AE S SIL K IH SIL T
+16   02:18.726 → 02:23.012     Clinician    4.29      s There's a house in the back on the right side.     DH IH EH IH Z AH HH AW S SIL S SIL IH N DH AH SIL B AE SIL K AH SIL AA N N D T SIL M DH AH R AY EY SIL T S AA SIL L EH SIL K S AY SIL D
+17   02:24.194 → 02:36.968     Clinician    12.77     s It has two windows, one tall tree in front of it a IH DX HH AE S Z S SIL T UW W IH N SIL D OW S S W AH N SIL T AA L SIL T R IY IH N F R EH AH N IH V IH SIL T SIL AE N D SIL S AH M SIL B UH SH IH Z SIL B IH L OW DH EH ER Z S SIL W AH N SIL K AA R ER AE N SIL D SIL IH SIL L UH SIL K S SIL L AY SIL DH EH R ER Z SIL AH W AH N SIL K AA R ER
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.465 - 00:18.289 (16.82s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o this picture is an outdoor picture. There's a tree to the left with three-blank branches being shown. The branch on the right is the biggest one. The others don't have as many leaves.
+  Phonemic Encoding: S OW DH IH S SIL P IH SIL K SH ER SIL IH Z IH N SIL AW OW SIL D AA R SIL P IH SIL K SH ER DH EY EH ER Z SIL AH SIL T R IY SIL T UW IH DH AH L EH AE SIL P SIL T SIL W IH TH SIL TH R IY SIL B L IH SIL B R AE N SIL CH SH CH IH S SIL B IY NG SH OW N B DH L IH DH AH M B R AE N SIL CH SIL AA M N DH AH R AY SIL T IH SIL IH Z SIL DH AH SIL B IH SIL G IH S T W AH IH N DH IY AH DH ER Z SIL D OW N SIL T HH AE V IH Z M EH N IY L IY V S S
+
+Segment 2:
+  Timestamp: 00:22.845 - 00:30.760 (7.91s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: in the background there's also picture in the picture there it shows more.
+  Phonemic Encoding: IH N DH AH SIL B AE SIL K R AW N SIL D T SIL SIL B DH EH ER Z Z S SIL AH AH M AA L S OW SIL P IH SIL K SH ER SIL AH SIL IH N DH AH SIL P IH SIL SH ER SIL DH EH ER SIL IH SIL IH SIL CH SH CH OW Z SIL M W AA AA R ER
+
+Segment 3:
+  Timestamp: 00:30.929 - 00:42.083 (11.15s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: trees, but they are not really... They're just... See here. They're just... um... an etching of them.
+  Phonemic Encoding: CH R IY Z SIL B AH SIL DH EY EH ER N AA SIL T SIL SIL R IH L IY IH SIL S SIL IH SIL IH SIL DH EH ER R SIL JH IH S SIL T SIL AH AH M M S IY HH IH ER DH EH ER SIL JH IH IH S T AH M IH N SIL EH SIL CH IH NG G IH SIL AH V DH IH EH M SIL
+
+Segment 4:
+  Timestamp: 00:45.660 - 00:51.297 (5.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Further to the right, it looks like there's a lake or a river or a...
+  Phonemic Encoding: F ER DH ER SH AH DH AH R AY SIL T P IH SIL L UH SIL K S L AY SIL DH EH R ER Z SIL AH L EY SIL K SIL AA R ER SIL AH R IH V ER HH SIL AA R ER AH SIL AH
+
+Segment 5:
+  Timestamp: 00:52.900 - 01:00.949 (8.05s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: an ocean and there are people, oh wait, yeah. And they are, there are people in a sailboat, two of them, I believe.
+  Phonemic Encoding: IH N SIL OW SH IH N IH EH N DH EH ER SIL AA R SIL P HH Y IY SIL P L SIL SIL L OW W EY Y IH IH N DH EY AA R SIL IH DH EH R ER ER SIL P IY SIL P L SIL IH N IH S EY EH L SIL B OW SIL T UW AH V DH IH EH M SIL AY SIL B L IY V F
+
+Segment 6:
+  Timestamp: 01:05.624 - 01:15.428 (9.80s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Also in the picture by the lake there are people or a person it looks like in a
+  Phonemic Encoding: AA L S AH OW IH N DH AH SIL P IH SIL K SH ER B AY DH AH L EY SIL K DH EY EH ER SIL AA R ER AH SIL AH DH EH R ER SIL P IY SIL P L L SIL AH AA ER SIL EY SIL P ER S IH N IH SIL L UH SIL K S SIL L AY SIL K SIL IH N AH
+
+Segment 7:
+  Timestamp: 01:17.031 - 01:23.494 (6.46s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Oh, I just guess bending down playing there. And there is a surfboard.
+  Phonemic Encoding: AH OW W EH EY SIL JH S SIL T SIL SIL G EH S SIL B EH N D IH NG SIL D AW N SIL P L EY IH NG DH IH EH IH SIL IH EH N DH EH R IH Z AH S ER F SIL B AA R ER SIL D
+
+Segment 8:
+  Timestamp: 01:23.494 - 01:27.645 (4.15s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: also in the lake with one person fishing.
+  Phonemic Encoding: AA L S OW L IH N DH AH L EY SIL W IH TH SIL W AH N SIL P ER S IH N D HH SIL F IH SH IH NG SIL G
+
+Segment 9:
+  Timestamp: 01:33.079 - 01:34.834 (1.75s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There are three.
+  Phonemic Encoding: DH EH R ER AA R SIL TH SIL TH R IY W
+
+Segment 10:
+  Timestamp: 01:36.471 - 01:44.217 (7.75s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: four, five, six, seven, seven people in all in this picture. There's one dog.
+  Phonemic Encoding: F AA W AA AA AA R ER F AY V SIL S IH SIL K S EH V IH SIL SIL S EH V IH N SIL P HH Y IY SIL P L SIL SIL IH N SIL AA L HH SIL IH N DH IH S SIL P IH SIL K SH ER DH EH IH Z SIL W AH N SIL D AA SIL G
+
+Segment 11:
+  Timestamp: 01:46.191 - 01:51.962 (5.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's also a person flying a kite and two people picnicking.
+  Phonemic Encoding: DH EH R Z SIL AA L S OW SIL AH SIL P ER S IH N SIL P L AY IH NG G AH IH SIL K AY SIL T IH N SIL T UW SIL P IY SIL P L SIL P IH SIL N IH SIL K IY N W
+
+Segment 12:
+  Timestamp: 01:51.962 - 01:53.532 (1.57s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: of them, drinking.
+  Phonemic Encoding: AH N IH AH V DH EH M SIL D R IH NG SIL K IY NG
+
+Segment 13:
+  Timestamp: 01:54.156 - 01:57.801 (3.64s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: the woman drinking out of a...
+  Phonemic Encoding: AH SIL N DH AH W M IH N SIL D R IH NG SIL K IY NG N AW DX AH V AH SIL T AH AH L SIL
+
+Segment 14:
+  Timestamp: 01:59.607 - 02:05.024 (5.42s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: uh, canteen and the man reading a book.
+  Phonemic Encoding: AH SIL K AE EH N SIL T IY N SIL AE EH N SIL D IH SIL B DH EH AH M AE N SIL SIL R IY DX IY NG AH SIL B UH SIL K
+
+Segment 15:
+  Timestamp: 02:07.285 - 02:17.123 (9.84s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: They have things like that you would have for a picnic flip flops, radio picnic basket.
+  Phonemic Encoding: DH EY HH AE AW V SIL F TH IH NG Z SIL L AY SIL K IH HH SIL DH EH SIL Y UW W IH DX HH AE V TH F SIL F AA AA R ER SIL EY SIL P IH SIL K SIL N IH EH IH SIL K IH F L UH SIL P F L AA SIL P T SIL S SIL W R EY DX IY OW L P IH SIL K N IH SIL K SIL B AE S SIL K IH SIL T
+
+Segment 16:
+  Timestamp: 02:18.726 - 02:23.012 (4.29s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: There's a house in the back on the right side.
+  Phonemic Encoding: DH IH EH IH Z AH HH AW S SIL S SIL IH N DH AH SIL B AE SIL K AH SIL AA N N D T SIL M DH AH R AY EY SIL T S AA SIL L EH SIL K S AY SIL D
+
+Segment 17:
+  Timestamp: 02:24.194 - 02:36.968 (12.77s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: It has two windows, one tall tree in front of it and some bushes below. There's one car, and it looks like there's a one car.
+  Phonemic Encoding: IH DX HH AE S Z S SIL T UW W IH N SIL D OW S S W AH N SIL T AA L SIL T R IY IH N F R EH AH N IH V IH SIL T SIL AE N D SIL S AH M SIL B UH SH IH Z SIL B IH L OW DH EH ER Z S SIL W AH N SIL K AA R ER AE N SIL D SIL IH SIL L UH SIL K S SIL L AY SIL DH EH R ER Z SIL AH W AH N SIL K AA R ER

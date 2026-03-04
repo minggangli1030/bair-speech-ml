@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-4703_ses-20071114_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.005 → 00:03.608     Participant  1.60      s ee? Ah.                                            S EY
+2    00:03.760 → 00:08.384     Participant  4.62      s That can keep, keep, hope gone on.                 B EY SIL K IH SIL T JH IY SIL SIL SIL K IH EH SIL SIL HH OW L SIL SIL K G AA R N HH SIL N SIL
+3    00:09.599 → 00:12.062     Participant  2.46      s And that'll hide. BYE.                             N SIL TH DH AE AW DX AH L HH L AY IY JH Z B AY
+4    00:12.113 → 00:13.733     Participant  1.62      s As so bond.                                        HH AE S EH OW SIL P B AA N SIL D
+5    00:14.307 → 00:15.387     Participant  1.08      s Golf thing.                                        G AA L F SIL B EY IH HH
+6    00:18.947 → 00:20.753     Participant  1.81      s Great day, God was.                                P R EY SIL D T EY SIL K AA SIL B OY
+7    00:23.402 → 00:24.651     Participant  1.25      s And they get...                                    AH N SIL DH EY SIL SIL G EH SIL T TH
+8    00:25.410 → 00:27.030     Participant  1.62      s Yes, on the phone.                                 Y IH EH S SIL AH SIL AH F AA L AY
+9    00:30.608 → 00:34.017     Clinician    3.41      s dub lol                                            AW L F L AY SIL K N OW N AA HH AE
+10   00:36.312 → 00:38.100     Clinician    1.79      s I don't know.                                      AY IH SIL SIL SIL D OW W AA R N AA
+11   00:41.391 → 00:47.567     Participant  6.18      s the broadly called because, as he plays in a, as h DH AH AW AH P B AA SIL SIL SIL SIL T IH SIL SIL K G AA SIL HH IH IY IH SIL K IH Z SIL S IH EH SIL P B L AY EY NG IH SIL HH EH EH SIL DH AW AA
+12   00:49.120 → 00:55.431     Participant  6.31      s ︎ Be Apple啊,啊 هذا сэл설 Warth                       B IY Y AH HH AH SIL P B AA L AH AY HH AA N DH DH AH AE AH SIL S EY EH L SIL P V AA W EH SIL T
+13   00:56.427 → 01:02.519     Participant  6.09      s And there a body is pulling in the sound.          IH N DH EH AE AW AA SIL HH AH SIL B SIL B AA SIL D IY EH S SIL SIL P B L EY IH NG IH SIL IH EH N DH SIL DH AE SIL HH AH IH S AW N SIL D
+14   01:03.312 → 01:09.927     Participant  6.62      s y'all have yep o' bric did the grrg broo roo press DH AY SIL K G AA AY SIL HH EH OW SIL P SIL HH OW L SIL P B W R AA AY SIL K AH SIL HH IH SIL D SIL D IH EH SIL SIL DH AE AY SIL K G R AY SIL CH
+15   01:11.429 → 01:12.981     Participant  1.55      s I don't know.                                      AY N SIL D OW N OW IH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.005 - 00:03.608 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ee? Ah.
+  Phonemic Encoding: S EY
+
+Segment 2:
+  Timestamp: 00:03.760 - 00:08.384 (4.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: That can keep, keep, hope gone on.
+  Phonemic Encoding: B EY SIL K IH SIL T JH IY SIL SIL SIL K IH EH SIL SIL HH OW L SIL SIL K G AA R N HH SIL N SIL
+
+Segment 3:
+  Timestamp: 00:09.599 - 00:12.062 (2.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And that'll hide. BYE.
+  Phonemic Encoding: N SIL TH DH AE AW DX AH L HH L AY IY JH Z B AY
+
+Segment 4:
+  Timestamp: 00:12.113 - 00:13.733 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: As so bond.
+  Phonemic Encoding: HH AE S EH OW SIL P B AA N SIL D
+
+Segment 5:
+  Timestamp: 00:14.307 - 00:15.387 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Golf thing.
+  Phonemic Encoding: G AA L F SIL B EY IH HH
+
+Segment 6:
+  Timestamp: 00:18.947 - 00:20.753 (1.81s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Great day, God was.
+  Phonemic Encoding: P R EY SIL D T EY SIL K AA SIL B OY
+
+Segment 7:
+  Timestamp: 00:23.402 - 00:24.651 (1.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And they get...
+  Phonemic Encoding: AH N SIL DH EY SIL SIL G EH SIL T TH
+
+Segment 8:
+  Timestamp: 00:25.410 - 00:27.030 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yes, on the phone.
+  Phonemic Encoding: Y IH EH S SIL AH SIL AH F AA L AY
+
+Segment 9:
+  Timestamp: 00:30.608 - 00:34.017 (3.41s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: dub lol
+  Phonemic Encoding: AW L F L AY SIL K N OW N AA HH AE
+
+Segment 10:
+  Timestamp: 00:36.312 - 00:38.100 (1.79s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I don't know.
+  Phonemic Encoding: AY IH SIL SIL SIL D OW W AA R N AA
+
+Segment 11:
+  Timestamp: 00:41.391 - 00:47.567 (6.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the broadly called because, as he plays in a, as he commented in the video on Quest Rows. That's good!
+  Phonemic Encoding: DH AH AW AH P B AA SIL SIL SIL SIL T IH SIL SIL K G AA SIL HH IH IY IH SIL K IH Z SIL S IH EH SIL P B L AY EY NG IH SIL HH EH EH SIL DH AW AA
+
+Segment 12:
+  Timestamp: 00:49.120 - 00:55.431 (6.31s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ︎ Be Apple啊,啊 هذا сэл설 Warth
+  Phonemic Encoding: B IY Y AH HH AH SIL P B AA L AH AY HH AA N DH DH AH AE AH SIL S EY EH L SIL P V AA W EH SIL T
+
+Segment 13:
+  Timestamp: 00:56.427 - 01:02.519 (6.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there a body is pulling in the sound.
+  Phonemic Encoding: IH N DH EH AE AW AA SIL HH AH SIL B SIL B AA SIL D IY EH S SIL SIL P B L EY IH NG IH SIL IH EH N DH SIL DH AE SIL HH AH IH S AW N SIL D
+
+Segment 14:
+  Timestamp: 01:03.312 - 01:09.927 (6.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: y'all have yep o' bric did the grrg broo roo pressed ab
+  Phonemic Encoding: DH AY SIL K G AA AY SIL HH EH OW SIL P SIL HH OW L SIL P B W R AA AY SIL K AH SIL HH IH SIL D SIL D IH EH SIL SIL DH AE AY SIL K G R AY SIL CH
+
+Segment 15:
+  Timestamp: 01:11.429 - 01:12.981 (1.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't know.
+  Phonemic Encoding: AY N SIL D OW N OW IH

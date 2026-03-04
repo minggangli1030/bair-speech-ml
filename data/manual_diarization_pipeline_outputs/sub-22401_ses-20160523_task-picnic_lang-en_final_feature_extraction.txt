@@ -1,0 +1,104 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-22401_ses-20160523_task-picnic_lang-en_final.wav
+Total Segments: 12
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.043 → 00:06.561     Participant  5.52      s There's a guy flying a kite and there's a dog.     DH IH ER Z AH SIL G AY SIL SIL F P F L AY IY NG SIL AH SIL K AY SIL T IH N ER Z AH SIL D AA SIL G
+2    00:09.582 → 00:16.281     Participant  6.70      s on the lawn and there's a picnic going on with two AA N DH AH L AA N AH SIL IH N DH EH ER S AH SIL P IH SIL K SIL N IH EY IH SIL G OW IH NG AA N D W IH SIL TH DH AH T UW SIL P IY SIL P L
+3    00:17.074 → 00:18.897     Participant  1.82      s and the woman is                                   AE N DH AH SIL W UH AH M EH N IH SIL IH S
+4    00:19.605 → 00:22.643     Participant  3.04      s pouring something out of a thermospodible.         P AA R IY IY NG SIL S AH M N SIL TH IH NG SIL HH AW DX AH V AH SIL TH ER M AH S SIL B AA DX AH L DX L
+5    00:24.398 → 00:27.368     Participant  2.97      s The gentleman is reading a book.                   DH IH AH AH SIL JH EH N L M IH EH N SIL IH S AH SIL R IY DX IY NG AH SIL B UH L
+6    00:30.034 → 00:32.447     Clinician    2.41      s and it looks like there's a radio.                 N AH SIL L UH SIL K S L AY SIL DH EH ER Z AH R EY DX IY Y EH OW L
+7    00:32.970 → 00:34.219     Clinician    1.25      s placed on there.                                   P L EY S SIL T D AA N DH EH ER
+8    00:38.404 → 00:39.670     Clinician    1.27      s And there's a...                                   AE IH AE N DH ER Z AH EY IY Y AH AA AH SIL
+9    00:44.125 → 00:46.268     Clinician    2.14      s Oh, picnic basket there.                           OW P IH SIL N IH SIL B AE S SIL K IH SIL DH EH ER
+10   00:47.905 → 00:52.174     Clinician    4.27      s and looks like there's a yet somebody playing in t M M L UH SIL K S L AY SIL DH EH ER Z EY Y EH AH S AH M IH DX IY SIL SIL P L EY IY NG SIL IH N DH AH W AA DX ER
+11   00:52.174 → 00:54.047     Participant  1.87      s and...                                             AE N N
+12   00:55.549 → 01:01.320     Participant  5.77      s Looks like there's a sailboat with two people on i L UH SIL K S L AY SIL DH EH ER Z AH S EY EH L SIL B OW SIL T SIL SIL W IH TH SIL T UW SIL P IY SIL P L SIL HH AA N IH SIL T HH AW DX AA N DH AH L EY SIL K
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.043 - 00:06.561 (5.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a guy flying a kite and there's a dog.
+  Phonemic Encoding: DH IH ER Z AH SIL G AY SIL SIL F P F L AY IY NG SIL AH SIL K AY SIL T IH N ER Z AH SIL D AA SIL G
+
+Segment 2:
+  Timestamp: 00:09.582 - 00:16.281 (6.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: on the lawn and there's a picnic going on with two people.
+  Phonemic Encoding: AA N DH AH L AA N AH SIL IH N DH EH ER S AH SIL P IH SIL K SIL N IH EY IH SIL G OW IH NG AA N D W IH SIL TH DH AH T UW SIL P IY SIL P L
+
+Segment 3:
+  Timestamp: 00:17.074 - 00:18.897 (1.82s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the woman is
+  Phonemic Encoding: AE N DH AH SIL W UH AH M EH N IH SIL IH S
+
+Segment 4:
+  Timestamp: 00:19.605 - 00:22.643 (3.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: pouring something out of a thermospodible.
+  Phonemic Encoding: P AA R IY IY NG SIL S AH M N SIL TH IH NG SIL HH AW DX AH V AH SIL TH ER M AH S SIL B AA DX AH L DX L
+
+Segment 5:
+  Timestamp: 00:24.398 - 00:27.368 (2.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The gentleman is reading a book.
+  Phonemic Encoding: DH IH AH AH SIL JH EH N L M IH EH N SIL IH S AH SIL R IY DX IY NG AH SIL B UH L
+
+Segment 6:
+  Timestamp: 00:30.034 - 00:32.447 (2.41s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and it looks like there's a radio.
+  Phonemic Encoding: N AH SIL L UH SIL K S L AY SIL DH EH ER Z AH R EY DX IY Y EH OW L
+
+Segment 7:
+  Timestamp: 00:32.970 - 00:34.219 (1.25s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: placed on there.
+  Phonemic Encoding: P L EY S SIL T D AA N DH EH ER
+
+Segment 8:
+  Timestamp: 00:38.404 - 00:39.670 (1.27s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: AE IH AE N DH ER Z AH EY IY Y AH AA AH SIL
+
+Segment 9:
+  Timestamp: 00:44.125 - 00:46.268 (2.14s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Oh, picnic basket there.
+  Phonemic Encoding: OW P IH SIL N IH SIL B AE S SIL K IH SIL DH EH ER
+
+Segment 10:
+  Timestamp: 00:47.905 - 00:52.174 (4.27s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and looks like there's a yet somebody playing in the water.
+  Phonemic Encoding: M M L UH SIL K S L AY SIL DH EH ER Z EY Y EH AH S AH M IH DX IY SIL SIL P L EY IY NG SIL IH N DH AH W AA DX ER
+
+Segment 11:
+  Timestamp: 00:52.174 - 00:54.047 (1.87s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and...
+  Phonemic Encoding: AE N N
+
+Segment 12:
+  Timestamp: 00:55.549 - 01:01.320 (5.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like there's a sailboat with two people on it. How'd on the lake?
+  Phonemic Encoding: L UH SIL K S L AY SIL DH EH ER Z AH S EY EH L SIL B OW SIL T SIL SIL W IH TH SIL T UW SIL P IY SIL P L SIL HH AA N IH SIL T HH AW DX AA N DH AH L EY SIL K

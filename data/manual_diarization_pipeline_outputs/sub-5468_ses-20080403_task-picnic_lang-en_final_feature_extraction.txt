@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-5468_ses-20080403_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:04.080 → 00:06.764     Participant  2.68      s Well, the first thing I see is this.               HH W L SIL F AH S SIL T IH NG AY S IY IH S SIL T IH S
+2    00:07.270 → 00:09.835     Participant  2.56      s You know, and I don't know what the name is this s IH DX AA R N AY SIL D OW N OW L W L SIL T AH N EY M N IH S SIL DH IH S S
+3    00:17.209 → 00:18.677     Participant  1.47      s This is a kite.                                    DH IH S AH IH S IH SIL K HH AY SIL T CH
+4    00:19.707 → 00:23.807     Participant  4.10      s And I think it's maybe a child of these, this pare AE N AY TH IH NG SIL K IH SIL S SIL M EY SIL B IY IH SIL CH AY L TH T AH V F SIL T K IY Z S SIL DH IH S SIL P EH R IH N SIL S
+5    00:24.330 → 00:30.372     Participant  6.04      s Um, father is reading and the mother is putting so AE M SIL P F AA DH EY IH Z SIL R IY SIL D IY NG N AE N SIL B AH M AH SIL DH S SIL P UH SIL T IH NG S AH M SIL F L UW IH SIL T IH N IH SIL T
+6    00:39.839 → 00:41.914     Participant  2.08      s Poach sail from near someone anyone invited to typ AH SIL B OW SIL CH S EY L TH AH L
+7    00:45.036 → 00:52.107     Clinician    7.07      s appearing and I guess they are just drinking.      AH SIL B AH SIL K G ER N SIL DH AE N SIL D EH AH M SIL SIL AY SIL G EH S SIL SIL S DH EY EH N SIL JH IH S SIL T HH AH SIL T R IH NG SIL K IY
+8    00:54.452 → 00:55.752     Clinician    1.30      s are missed.                                        S IH N SIL T IH N M DH IY AE F SIL T IH N D
+9    00:57.254 → 00:58.469     Clinician    1.22      s million drill zombies.                             EH N Y UW IH N SIL P HH AW L SIL B AY N EH N Y IH S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:04.080 - 00:06.764 (2.68s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, the first thing I see is this.
+  Phonemic Encoding: HH W L SIL F AH S SIL T IH NG AY S IY IH S SIL T IH S
+
+Segment 2:
+  Timestamp: 00:07.270 - 00:09.835 (2.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You know, and I don't know what the name is this side.
+  Phonemic Encoding: IH DX AA R N AY SIL D OW N OW L W L SIL T AH N EY M N IH S SIL DH IH S S
+
+Segment 3:
+  Timestamp: 00:17.209 - 00:18.677 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is a kite.
+  Phonemic Encoding: DH IH S AH IH S IH SIL K HH AY SIL T CH
+
+Segment 4:
+  Timestamp: 00:19.707 - 00:23.807 (4.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And I think it's maybe a child of these, this parents.
+  Phonemic Encoding: AE N AY TH IH NG SIL K IH SIL S SIL M EY SIL B IY IH SIL CH AY L TH T AH V F SIL T K IY Z S SIL DH IH S SIL P EH R IH N SIL S
+
+Segment 5:
+  Timestamp: 00:24.330 - 00:30.372 (6.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Um, father is reading and the mother is putting some fluid in it.
+  Phonemic Encoding: AE M SIL P F AA DH EY IH Z SIL R IY SIL D IY NG N AE N SIL B AH M AH SIL DH S SIL P UH SIL T IH NG S AH M SIL F L UW IH SIL T IH N IH SIL T
+
+Segment 6:
+  Timestamp: 00:39.839 - 00:41.914 (2.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Poach sail from near someone anyone invited to type something down.
+  Phonemic Encoding: AH SIL B OW SIL CH S EY L TH AH L
+
+Segment 7:
+  Timestamp: 00:45.036 - 00:52.107 (7.07s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: appearing and I guess they are just drinking.
+  Phonemic Encoding: AH SIL B AH SIL K G ER N SIL DH AE N SIL D EH AH M SIL SIL AY SIL G EH S SIL SIL S DH EY EH N SIL JH IH S SIL T HH AH SIL T R IH NG SIL K IY
+
+Segment 8:
+  Timestamp: 00:54.452 - 00:55.752 (1.30s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: are missed.
+  Phonemic Encoding: S IH N SIL T IH N M DH IY AE F SIL T IH N D
+
+Segment 9:
+  Timestamp: 00:57.254 - 00:58.469 (1.22s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: million drill zombies.
+  Phonemic Encoding: EH N Y UW IH N SIL P HH AW L SIL B AY N EH N Y IH S

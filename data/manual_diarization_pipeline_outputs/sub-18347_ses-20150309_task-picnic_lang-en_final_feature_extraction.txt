@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-18347_ses-20150309_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.431 → 00:03.068     Clinician    1.64      s Okay, inhale                                       AH SIL K EY N SIL S EH L SIL
+2    00:03.405 → 00:06.156     Clinician    2.75      s hate that her rights see                           EY SIL CH IH SIL AH HH ER SIL ER IH SIL IH HH IH S IY
+3    00:11.978 → 00:13.817     Participant  1.84      s It's like they're fishing.                         S K S AY SIL DH ER F IH SH IY N
+4    00:14.475 → 00:17.327     Participant  2.85      s And the time there's the dog flying to...          IH N DH IH SIL D T AY DH ER Z SIL DH AH DX AA SIL IY S F SIL SIL F AY IH NG L SIL K IH HH
+5    00:26.153 → 00:27.267     Participant  1.11      s I said I'd bet toilet.                             AE S IH AY SIL P EH SIL T L IH DX
+6    00:28.971 → 00:32.110     Participant  3.14      s And these two people are having...                 EH IH N DH IY Z S SIL T UW NG SIL P IY SIL P B L SIL AA ER HH HH EH V DX IY N
+7    00:33.072 → 00:36.430     Participant  3.36      s kick wizard, assistant for kickguard frånchair, er K IH SIL K M N IH SIL K DH EY UW SIL T S IH N N R SIL P IY Z EY SIL K
+8    00:37.054 → 00:46.420     Participant  9.37      s and she's just trying to understand how this right IH N CH SH SIL T IY N L IH F SIL DH EY S AH EH N DH IY EH AE HH AW V AH IH S SIL R AY EY SIL D EH SIL K S T UW UH AA L DH AE SIL T S SIL T AH F SIL T M SIL B IH SIL T R IY Z S S SIL L UH IH SIL K S L EY EY SIL K AH SIL P IH SIL K AH DX AH V SIL M EY B IY N AW L SIL T IH N S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.431 - 00:03.068 (1.64s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Okay, inhale
+  Phonemic Encoding: AH SIL K EY N SIL S EH L SIL
+
+Segment 2:
+  Timestamp: 00:03.405 - 00:06.156 (2.75s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: hate that her rights see
+  Phonemic Encoding: EY SIL CH IH SIL AH HH ER SIL ER IH SIL IH HH IH S IY
+
+Segment 3:
+  Timestamp: 00:11.978 - 00:13.817 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's like they're fishing.
+  Phonemic Encoding: S K S AY SIL DH ER F IH SH IY N
+
+Segment 4:
+  Timestamp: 00:14.475 - 00:17.327 (2.85s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And the time there's the dog flying to...
+  Phonemic Encoding: IH N DH IH SIL D T AY DH ER Z SIL DH AH DX AA SIL IY S F SIL SIL F AY IH NG L SIL K IH HH
+
+Segment 5:
+  Timestamp: 00:26.153 - 00:27.267 (1.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I said I'd bet toilet.
+  Phonemic Encoding: AE S IH AY SIL P EH SIL T L IH DX
+
+Segment 6:
+  Timestamp: 00:28.971 - 00:32.110 (3.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And these two people are having...
+  Phonemic Encoding: EH IH N DH IY Z S SIL T UW NG SIL P IY SIL P B L SIL AA ER HH HH EH V DX IY N
+
+Segment 7:
+  Timestamp: 00:33.072 - 00:36.430 (3.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: kick wizard, assistant for kickguard frånchair, eroson, zeer aber denn ba pero stopping
+  Phonemic Encoding: K IH SIL K M N IH SIL K DH EY UW SIL T S IH N N R SIL P IY Z EY SIL K
+
+Segment 8:
+  Timestamp: 00:37.054 - 00:46.420 (9.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and she's just trying to understand how this right next to all that stuff to my stick trees looks like a big kind of maybe mountains
+  Phonemic Encoding: IH N CH SH SIL T IY N L IH F SIL DH EY S AH EH N DH IY EH AE HH AW V AH IH S SIL R AY EY SIL D EH SIL K S T UW UH AA L DH AE SIL T S SIL T AH F SIL T M SIL B IH SIL T R IY Z S S SIL L UH IH SIL K S L EY EY SIL K AH SIL P IH SIL K AH DX AH V SIL M EY B IY N AW L SIL T IH N S

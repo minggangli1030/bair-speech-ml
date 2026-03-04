@@ -1,0 +1,216 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-9702_ses-20110909_task-picnic_lang-en_final.wav
+Total Segments: 28
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:13.362 → 00:14.678     Clinician    1.32      s They're a man.                                     DH EH R EY M AE N
+2    00:16.247 → 00:20.129     Clinician    3.88      s Wakao and he's as a                                W AA SIL EH L HH AE EH N HH IH IY S SIL AE Z EY UW
+3    00:32.920 → 00:36.210     Participant  3.29      s that girl is pouring                               EH IH SIL G K G ER L SIL SIL HH IH Z S SIL P K AA R IH IY N
+4    00:37.409 → 00:42.454     Participant  5.05      s water or other things is                           W AA DX ER HH OW AA R ER AH DH ER DH TH IH NG S HH IH S SIL
+5    00:48.360 → 00:50.385     Participant  2.02      s and she's the radio room.                          AE N SH IY Z S SIL ER R IY IY SIL HH EH ER ER AH M
+6    00:55.026 → 00:56.224     Clinician    1.20      s to a gun.                                          N SIL T UW L EY Y AH M
+7    01:15.377 → 01:20.069     Participant  4.69      s There is a big tree and big branches.              EH R IH Z EY SIL B IH SIL CH T R IY HH AE EH SIL B IH SIL SIL P R AE N SIL T S IH S
+8    01:21.570 → 01:23.140     Participant  1.57      s and the                                            AE N DH EY IY
+9    01:32.067 → 01:33.315     Participant  1.25      s hould have gotten that far.                        SH IH DX AH M SIL G AA SIL DH AE F AA R ER SIL
+10   01:35.054 → 01:41.635     Participant  6.58      s is made with wood. I'm going around your area.     IH Z M EY SIL HH IH Z SIL M EY SIL D SIL W IH TH F S HH W IH TH W UH IH L SIL HH M G AA R AW N SIL JH AW AA N D AH EH
+11   01:43.710 → 01:46.832     Participant  3.12      s There is a car that...                             DH EH ER SIL IH Z EY SIL K AA R ER N DH EH SIL T CH
+12   01:49.499 → 01:51.068     Participant  1.57      s Lucas is looking.                                  DH UH SIL K IH S S SIL HH EH Z L UH SIL K IY NG
+13   01:53.211 → 01:56.046     Participant  2.84      s Forward toward the house. In.                      F AA R W ER SIL T AA R SIL DH IH AH HH AW S AE N
+14   01:57.919 → 02:00.265     Participant  2.35      s They're not moving.                                DH EH ER N SIL N DH EH ER R ER EH AH IH S SIL N AA M UW V IY N
+15   02:06.981 → 02:11.250     Participant  4.27      s There's a boy or a man as a                        N DH EH R Z EY M SIL AH SIL B OY EY ER M AE N SIL IY SIL D IY IY IY SIL HH AE Z EY SIL
+16   02:13.174 → 02:14.254     Participant  1.08      s Why, um...                                         W AY HH SIL HH AH M
+17   02:16.414 → 02:23.890     Participant  7.48      s wire or things that gets the height kite get that. W AY ER AA R ER TH DH EH IH NG S DH IH SIL G IH SIL S DH IY HH AY SIL K AY G IH SIL TH DH AE
+18   02:25.274 → 02:28.277     Participant  3.00      s o it would go up into the air.                     T UH OW L AH OW W UH IH SIL G OW L AH SIL P IH N OW N IY EH SIL EH R ER
+19   02:32.310 → 02:39.938     Participant  7.63      s ee, I can see there's a dog on your, I can't see t S EY IY SIL HH AY EH SIL K IH N S IY SIL HH EH R ER IH Z EY EY D AA SIL G AA N D ER ER HH SIL HH AY SIL K OW N S IY DH AE SIL HH IH Z EH DX AH S EH DX EY EH M
+20   02:47.633 → 02:52.544     Participant  4.91      s and the dog is just running around and I see a...  HH IH EH N DH AH IH SIL D AA SIL G SIL HH IH Z SIL D IH S SIL R AH N IY N R AW N SIL SIL SIL HH AE N AY S IY HH EY
+21   02:58.669 → 03:00.576     Clinician    1.91      s I was a young boy.                                 AW AA L Z IH EH AH AH Y AH NG SIL B OY EY SIL
+22   03:03.647 → 03:07.056     Participant  3.41      s the end of the water to the sand.                  DH IY IH EH N S SIL HH AH V SIL DH AH HH SIL W AA DX ER SIL T UW DH AH EH IH SIL SIL S EY AE N SIL
+23   03:07.562 → 03:09.469     Participant  1.91      s And there's a...                                   HH IY SIL AE N DH EH ER Z AH
+24   03:11.005 → 03:15.477     Participant  4.47      s I don't see anybody that they're doing the sand in EH N OW L SIL S IY N IY SIL B AH DX IY DH IH SIL P AH IH DH EH ER B IH UW W IY N DH AH S EY AE N D IH SIL HH IH N DH AH
+25   03:25.230 → 03:26.462     Clinician    1.23      s I see the M.                                       P AY S IY DH IY Y EH M
+26   04:30.182 → 04:31.836     Clinician    1.65      s but it was about E.                                B AH L EH W OW AH Z AH SIL B OW L SIL IY IY
+27   04:53.099 → 04:58.347     Clinician    5.25      s I can't say the name, but there's food in there. I M AH SIL K IH N S HH IH DH IH N HH EY M B EH SIL T AH M L DH IH S SIL IH Z S F UW DX IH N EH ER HH SIL IH SIL AY HH AE N SIL L EY HH OW L
+28   05:34.409 → 05:36.619     Clinician    2.21      s never being a family picnic.                       N DH EH ER SIL B IY IH N EH IH SIL B AH F HH AE M L IY P IH SIL K M N EH IH SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:13.362 - 00:14.678 (1.32s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: They're a man.
+  Phonemic Encoding: DH EH R EY M AE N
+
+Segment 2:
+  Timestamp: 00:16.247 - 00:20.129 (3.88s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Wakao and he's as a
+  Phonemic Encoding: W AA SIL EH L HH AE EH N HH IH IY S SIL AE Z EY UW
+
+Segment 3:
+  Timestamp: 00:32.920 - 00:36.210 (3.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that girl is pouring
+  Phonemic Encoding: EH IH SIL G K G ER L SIL SIL HH IH Z S SIL P K AA R IH IY N
+
+Segment 4:
+  Timestamp: 00:37.409 - 00:42.454 (5.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: water or other things is
+  Phonemic Encoding: W AA DX ER HH OW AA R ER AH DH ER DH TH IH NG S HH IH S SIL
+
+Segment 5:
+  Timestamp: 00:48.360 - 00:50.385 (2.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and she's the radio room.
+  Phonemic Encoding: AE N SH IY Z S SIL ER R IY IY SIL HH EH ER ER AH M
+
+Segment 6:
+  Timestamp: 00:55.026 - 00:56.224 (1.20s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: to a gun.
+  Phonemic Encoding: N SIL T UW L EY Y AH M
+
+Segment 7:
+  Timestamp: 01:15.377 - 01:20.069 (4.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a big tree and big branches.
+  Phonemic Encoding: EH R IH Z EY SIL B IH SIL CH T R IY HH AE EH SIL B IH SIL SIL P R AE N SIL T S IH S
+
+Segment 8:
+  Timestamp: 01:21.570 - 01:23.140 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the
+  Phonemic Encoding: AE N DH EY IY
+
+Segment 9:
+  Timestamp: 01:32.067 - 01:33.315 (1.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hould have gotten that far.
+  Phonemic Encoding: SH IH DX AH M SIL G AA SIL DH AE F AA R ER SIL
+
+Segment 10:
+  Timestamp: 01:35.054 - 01:41.635 (6.58s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is made with wood. I'm going around your area.
+  Phonemic Encoding: IH Z M EY SIL HH IH Z SIL M EY SIL D SIL W IH TH F S HH W IH TH W UH IH L SIL HH M G AA R AW N SIL JH AW AA N D AH EH
+
+Segment 11:
+  Timestamp: 01:43.710 - 01:46.832 (3.12s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a car that...
+  Phonemic Encoding: DH EH ER SIL IH Z EY SIL K AA R ER N DH EH SIL T CH
+
+Segment 12:
+  Timestamp: 01:49.499 - 01:51.068 (1.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Lucas is looking.
+  Phonemic Encoding: DH UH SIL K IH S S SIL HH EH Z L UH SIL K IY NG
+
+Segment 13:
+  Timestamp: 01:53.211 - 01:56.046 (2.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Forward toward the house. In.
+  Phonemic Encoding: F AA R W ER SIL T AA R SIL DH IH AH HH AW S AE N
+
+Segment 14:
+  Timestamp: 01:57.919 - 02:00.265 (2.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: They're not moving.
+  Phonemic Encoding: DH EH ER N SIL N DH EH ER R ER EH AH IH S SIL N AA M UW V IY N
+
+Segment 15:
+  Timestamp: 02:06.981 - 02:11.250 (4.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a boy or a man as a
+  Phonemic Encoding: N DH EH R Z EY M SIL AH SIL B OY EY ER M AE N SIL IY SIL D IY IY IY SIL HH AE Z EY SIL
+
+Segment 16:
+  Timestamp: 02:13.174 - 02:14.254 (1.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Why, um...
+  Phonemic Encoding: W AY HH SIL HH AH M
+
+Segment 17:
+  Timestamp: 02:16.414 - 02:23.890 (7.48s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: wire or things that gets the height kite get that.
+  Phonemic Encoding: W AY ER AA R ER TH DH EH IH NG S DH IH SIL G IH SIL S DH IY HH AY SIL K AY G IH SIL TH DH AE
+
+Segment 18:
+  Timestamp: 02:25.274 - 02:28.277 (3.00s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o it would go up into the air.
+  Phonemic Encoding: T UH OW L AH OW W UH IH SIL G OW L AH SIL P IH N OW N IY EH SIL EH R ER
+
+Segment 19:
+  Timestamp: 02:32.310 - 02:39.938 (7.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ee, I can see there's a dog on your, I can't see that, is that a, is that a, um,
+  Phonemic Encoding: S EY IY SIL HH AY EH SIL K IH N S IY SIL HH EH R ER IH Z EY EY D AA SIL G AA N D ER ER HH SIL HH AY SIL K OW N S IY DH AE SIL HH IH Z EH DX AH S EH DX EY EH M
+
+Segment 20:
+  Timestamp: 02:47.633 - 02:52.544 (4.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the dog is just running around and I see a...
+  Phonemic Encoding: HH IH EH N DH AH IH SIL D AA SIL G SIL HH IH Z SIL D IH S SIL R AH N IY N R AW N SIL SIL SIL HH AE N AY S IY HH EY
+
+Segment 21:
+  Timestamp: 02:58.669 - 03:00.576 (1.91s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I was a young boy.
+  Phonemic Encoding: AW AA L Z IH EH AH AH Y AH NG SIL B OY EY SIL
+
+Segment 22:
+  Timestamp: 03:03.647 - 03:07.056 (3.41s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: the end of the water to the sand.
+  Phonemic Encoding: DH IY IH EH N S SIL HH AH V SIL DH AH HH SIL W AA DX ER SIL T UW DH AH EH IH SIL SIL S EY AE N SIL
+
+Segment 23:
+  Timestamp: 03:07.562 - 03:09.469 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And there's a...
+  Phonemic Encoding: HH IY SIL AE N DH EH ER Z AH
+
+Segment 24:
+  Timestamp: 03:11.005 - 03:15.477 (4.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't see anybody that they're doing the sand in the...
+  Phonemic Encoding: EH N OW L SIL S IY N IY SIL B AH DX IY DH IH SIL P AH IH DH EH ER B IH UW W IY N DH AH S EY AE N D IH SIL HH IH N DH AH
+
+Segment 25:
+  Timestamp: 03:25.230 - 03:26.462 (1.23s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I see the M.
+  Phonemic Encoding: P AY S IY DH IY Y EH M
+
+Segment 26:
+  Timestamp: 04:30.182 - 04:31.836 (1.65s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: but it was about E.
+  Phonemic Encoding: B AH L EH W OW AH Z AH SIL B OW L SIL IY IY
+
+Segment 27:
+  Timestamp: 04:53.099 - 04:58.347 (5.25s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I can't say the name, but there's food in there. I handle the whole.
+  Phonemic Encoding: M AH SIL K IH N S HH IH DH IH N HH EY M B EH SIL T AH M L DH IH S SIL IH Z S F UW DX IH N EH ER HH SIL IH SIL AY HH AE N SIL L EY HH OW L
+
+Segment 28:
+  Timestamp: 05:34.409 - 05:36.619 (2.21s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: never being a family picnic.
+  Phonemic Encoding: N DH EH ER SIL B IY IH N EH IH SIL B AH F HH AE M L IY P IH SIL K M N EH IH SIL

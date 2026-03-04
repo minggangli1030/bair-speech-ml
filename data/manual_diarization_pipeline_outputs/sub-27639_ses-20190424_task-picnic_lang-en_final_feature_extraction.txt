@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-27639_ses-20190424_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:05.312     Participant  5.28      s o there was a man reading a book sitting on...     OW L DH AH SIL DH EH ER W AH Z S SIL AH M AE N HH SIL R IY DX IY NG AH M SIL B UH SIL K S IH DX IH IY NG SIL AA N AA M
+2    00:05.599 → 01:00.966     Participant  55.37     s ome material on the ground with a bag of probably  SIL S AH M SIL M IH SIL T CH ER L F SIL SIL SIL AA N DH AH SIL G R AW N SIL D T SIL SIL AH W IH EH IH TH SIL TH SIL EY SIL AA AH SIL B AE SIL G SIL AH V SIL P R AA SIL B AH SIL B L IY F TH UW SIL D SIL IH N S AY AY SIL D AH SIL AA F ER SIL S SIL N AE SIL K S SIL AE N SIL DH EY EH R W IH Z S SIL AH W AH M IH N AH SIL AA M SIL SIL W EH ER IH NG SH AA R ER SIL T S SIL AE N SIL D SIL IH S AH SIL M AH S AH SIL B IH N AH HH AA SIL D EY IH N SIL CH SH IY S SIL P AA R IH NG SIL S AH M L IH SIL K W IH N SIL D IH SIL IH N SIL T UW V ER SIL K AH SIL P SIL AY SIL AE EH N DH EH ER SIL IH EH S S SIL AA R M AA SIL AA AA L S OW SIL SIL IH AA SIL AH IH N DH AH SIL P L EY S IH SIL DH EH ER S IH DX IH NG SIL IH EH IH IH Z S SIL S SIL AH AA AH ER R EY DX IY OW AY SIL TH IH NG SIL K G AH V SIL P S AH M SIL K AY N SIL D SIL IH AY SIL DH IH SIL SIL AH W IH SIL DH AH W IH DH EH ER S IH DX IH NG SIL IH Z SIL N IH ER SIL EY SIL HH AW S AA M SIL DH EH DX HH AE Z S S SIL EY SIL K AA R ER SIL SIL SIL OW V R ER DH EH ER IH N DH EH ER SH S AH M N SIL T R IY Z AH R AW N N DH ER Z IH AH SIL B IH SIL T CH T R IY N IH ER SIL B AY SIL DH IH M EY V IH M B IY SIL OW V ER W IH EH ER DH AH M AE N IH N DH AH W AH M EH N SIL AA R ER K HH AE V IH NG DH AH SIL P IH SIL K SIL N EH IH SIL K AA M DH EH R ER Z W AA DX ER N IH ER SIL B AY SIL W IH EH TH
+3    01:03.227 → 01:13.049     Clinician    9.82      s a sail boat and there's I think a younger man.     EY SIL SIL S EY L SIL SIL AH SIL B OW SIL T SIL AE N SIL D SIL AY SIL DH EH R ER S SIL AY SIL AH SIL P R SIL AY SIL TH IH SIL K SIL AH Y AH NG G ER M AE N D AA M
+4    01:13.994 → 01:17.031     Clinician    3.04      s applying a                                         F L AY NG SIL EY F L
+5    01:17.031 → 01:19.022     Participant  1.99      s omething in the air.                               AY N S AH M N SIL TH IH NG IH N DH IY EH ER
+6    01:19.529 → 01:26.009     Participant  6.48      s and I'm having trouble with the word there, blowin N AA AH M SIL HH AE V IH NG SIL T R AH SIL B L W AH SIL DH AH W ER SIL DH EH ER M SIL AH M SIL B L OW IH NG IH N DH AH W IH N SIL D T P SIL SIL IH N DH IH S SIL T CH IH S SIL K L OW S SIL T
+7    01:26.295 → 01:27.494     Participant  1.20      s Okay.                                              AH SIL AH HH OW SIL K EY HH
+8    01:27.949 → 02:10.592     Participant  42.64     s And there is a dog and there is also a wooden plac AA M SIL AE EH N DH ER Z AH SIL D AA SIL G SIL AE EH N DH EH ER SIL IH Z SIL AA S OW SIL AA M N AH SIL AH W UH IH SIL N SIL P L EY S SIL IH N SIL T UW DH AH W AA DX ER W ER S AH M W IH N IH S IH DX IY NG SIL AH AA N EH AE SIL AY SIL AE N D SIL K EH SIL CH IH NG F ER F SIL S AH M SIL F TH IH EH SH SIL AE N AH SIL IH L UH SIL T F L AY SIL K IH N SIL T SIL AH SIL T CH AA AY L D AH Z AA L S OW N IH ER DH AH W AA DX ER SIL AA SIL B AH N AA SIL IH N DH AH W AA DX ER HH SIL AE N SIL B AH SIL M EY SIL B IY SIL P L EY IY NG SIL G SIL W IH TH SIL TH DH AH W IH SIL DH AH W AA DX ER S OW OW SIL AE EH N DH EH ER R Z AH F L AE SIL NG SIL G SIL SIL DH EH ER SIL AA AA M SIL AA N DH AH L EY AE IH N IH ER DH AH W AA DX ER SIL AA M AE N SIL D P SIL AH SIL DH AE SIL S EH ER S OW M EY AY SIL B IY AH SIL AH HH AA L AH SIL D EY IH AH V S AH M SIL K AY N SIL D SIL SIL DH EH DX D EH S DH AH SIL DH ER
+9    02:10.947 → 02:17.022     Participant  6.07      s coming to celebrate and staying at a place nearby  K R AH M IH IY NG SIL T IH AH S EH L AH SIL B R EY DX IH N SIL D S SIL T EY IY NG EH DX AH SIL AH SIL P L EY S SIL N IH ER SIL B AY DH AH W AA DX ER F ER IH N AY S SIL P IH EY SIL K EY SH IH N
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:05.312 (5.28s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: o there was a man reading a book sitting on...
+  Phonemic Encoding: OW L DH AH SIL DH EH ER W AH Z S SIL AH M AE N HH SIL R IY DX IY NG AH M SIL B UH SIL K S IH DX IH IY NG SIL AA N AA M
+
+Segment 2:
+  Timestamp: 00:05.599 - 01:00.966 (55.37s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: ome material on the ground with a bag of probably food inside for snacks and there was a woman wearing shorts and it must have been a hot day and she's pouring some liquid into her cup and there is also, and the place that they're sitting is a radio, I think, of some kind, where they're sitting is near a house that has a car over there, and there are some trees around, and there's a big tree nearby that may even be over where the man and the woman are having the pickback. There's water nearby with
+  Phonemic Encoding: SIL S AH M SIL M IH SIL T CH ER L F SIL SIL SIL AA N DH AH SIL G R AW N SIL D T SIL SIL AH W IH EH IH TH SIL TH SIL EY SIL AA AH SIL B AE SIL G SIL AH V SIL P R AA SIL B AH SIL B L IY F TH UW SIL D SIL IH N S AY AY SIL D AH SIL AA F ER SIL S SIL N AE SIL K S SIL AE N SIL DH EY EH R W IH Z S SIL AH W AH M IH N AH SIL AA M SIL SIL W EH ER IH NG SH AA R ER SIL T S SIL AE N SIL D SIL IH S AH SIL M AH S AH SIL B IH N AH HH AA SIL D EY IH N SIL CH SH IY S SIL P AA R IH NG SIL S AH M L IH SIL K W IH N SIL D IH SIL IH N SIL T UW V ER SIL K AH SIL P SIL AY SIL AE EH N DH EH ER SIL IH EH S S SIL AA R M AA SIL AA AA L S OW SIL SIL IH AA SIL AH IH N DH AH SIL P L EY S IH SIL DH EH ER S IH DX IH NG SIL IH EH IH IH Z S SIL S SIL AH AA AH ER R EY DX IY OW AY SIL TH IH NG SIL K G AH V SIL P S AH M SIL K AY N SIL D SIL IH AY SIL DH IH SIL SIL AH W IH SIL DH AH W IH DH EH ER S IH DX IH NG SIL IH Z SIL N IH ER SIL EY SIL HH AW S AA M SIL DH EH DX HH AE Z S S SIL EY SIL K AA R ER SIL SIL SIL OW V R ER DH EH ER IH N DH EH ER SH S AH M N SIL T R IY Z AH R AW N N DH ER Z IH AH SIL B IH SIL T CH T R IY N IH ER SIL B AY SIL DH IH M EY V IH M B IY SIL OW V ER W IH EH ER DH AH M AE N IH N DH AH W AH M EH N SIL AA R ER K HH AE V IH NG DH AH SIL P IH SIL K SIL N EH IH SIL K AA M DH EH R ER Z W AA DX ER N IH ER SIL B AY SIL W IH EH TH
+
+Segment 3:
+  Timestamp: 01:03.227 - 01:13.049 (9.82s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: a sail boat and there's I think a younger man.
+  Phonemic Encoding: EY SIL SIL S EY L SIL SIL AH SIL B OW SIL T SIL AE N SIL D SIL AY SIL DH EH R ER S SIL AY SIL AH SIL P R SIL AY SIL TH IH SIL K SIL AH Y AH NG G ER M AE N D AA M
+
+Segment 4:
+  Timestamp: 01:13.994 - 01:17.031 (3.04s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: applying a
+  Phonemic Encoding: F L AY NG SIL EY F L
+
+Segment 5:
+  Timestamp: 01:17.031 - 01:19.022 (1.99s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: omething in the air.
+  Phonemic Encoding: AY N S AH M N SIL TH IH NG IH N DH IY EH ER
+
+Segment 6:
+  Timestamp: 01:19.529 - 01:26.009 (6.48s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I'm having trouble with the word there, blowing in the wind, and this just closed.
+  Phonemic Encoding: N AA AH M SIL HH AE V IH NG SIL T R AH SIL B L W AH SIL DH AH W ER SIL DH EH ER M SIL AH M SIL B L OW IH NG IH N DH AH W IH N SIL D T P SIL SIL IH N DH IH S SIL T CH IH S SIL K L OW S SIL T
+
+Segment 7:
+  Timestamp: 01:26.295 - 01:27.494 (1.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Okay.
+  Phonemic Encoding: AH SIL AH HH OW SIL K EY HH
+
+Segment 8:
+  Timestamp: 01:27.949 - 02:10.592 (42.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And there is a dog and there is also a wooden place into the water where someone is sitting on it and catching for some fish. And it looks like a child is also near the water, but not in the water, but maybe claim with the water. So, and there's a flag there on the land near the water. And that's there. So it might be a holiday of some kind that is there.
+  Phonemic Encoding: AA M SIL AE EH N DH ER Z AH SIL D AA SIL G SIL AE EH N DH EH ER SIL IH Z SIL AA S OW SIL AA M N AH SIL AH W UH IH SIL N SIL P L EY S SIL IH N SIL T UW DH AH W AA DX ER W ER S AH M W IH N IH S IH DX IY NG SIL AH AA N EH AE SIL AY SIL AE N D SIL K EH SIL CH IH NG F ER F SIL S AH M SIL F TH IH EH SH SIL AE N AH SIL IH L UH SIL T F L AY SIL K IH N SIL T SIL AH SIL T CH AA AY L D AH Z AA L S OW N IH ER DH AH W AA DX ER SIL AA SIL B AH N AA SIL IH N DH AH W AA DX ER HH SIL AE N SIL B AH SIL M EY SIL B IY SIL P L EY IY NG SIL G SIL W IH TH SIL TH DH AH W IH SIL DH AH W AA DX ER S OW OW SIL AE EH N DH EH ER R Z AH F L AE SIL NG SIL G SIL SIL DH EH ER SIL AA AA M SIL AA N DH AH L EY AE IH N IH ER DH AH W AA DX ER SIL AA M AE N SIL D P SIL AH SIL DH AE SIL S EH ER S OW M EY AY SIL B IY AH SIL AH HH AA L AH SIL D EY IH AH V S AH M SIL K AY N SIL D SIL SIL DH EH DX D EH S DH AH SIL DH ER
+
+Segment 9:
+  Timestamp: 02:10.947 - 02:17.022 (6.07s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: coming to celebrate and staying at a place nearby the water for a nice vacation.
+  Phonemic Encoding: K R AH M IH IY NG SIL T IH AH S EH L AH SIL B R EY DX IH N SIL D S SIL T EY IY NG EH DX AH SIL AH SIL P L EY S SIL N IH ER SIL B AY DH AH W AA DX ER F ER IH N AY S SIL P IH EY SIL K EY SH IH N

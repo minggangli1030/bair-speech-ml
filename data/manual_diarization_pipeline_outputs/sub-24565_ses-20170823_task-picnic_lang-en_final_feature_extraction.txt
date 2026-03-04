@@ -1,0 +1,111 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24565_ses-20170823_task-picnic_lang-en_final.wav
+Total Segments: 13
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.566 → 00:02.595     Participant  1.03      s Well, a couple of...                               M EH AW L AH SIL K AH SIL P L ER
+2    00:03.810 → 00:05.025     Participant  1.22      s a little pelling.                                  L SIL P HH EH R IH NG
+3    00:05.380 → 00:08.535     Participant  3.16      s Food together sitting there in the sun and enjoyin F UW SIL D IH SIL G EH DH ER S IH DX IH IY NG N DH EH R ER IH N DH AH S AA N IH N IH N SIL JH OY NG N DH
+4    00:08.822 → 00:10.054     Participant  1.23      s relaxation                                         R IY IH L AE SIL K S EY SH IH N
+5    00:11.624 → 00:12.788     Participant  1.16      s omebody's flying there.                            S AH M B IH DX IY S L AY N NG N EH ER
+6    00:14.712 → 00:17.513     Participant  2.80      s o people are sailing out there in the water and    S AH SIL P IY SIL P L AA R S EY L IH N AW SIL DH EH ER IH N DH AH L W AA DX ER IH N SIL
+7    00:23.824 → 00:26.119     Participant  2.29      s got a little doggy there and                       AA DX AH L IH DX L SIL D AA SIL G IY SIL D EH ER IH N M F
+8    00:27.503 → 00:29.393     Participant  1.89      s omebody is doing some fishing.                     S AH M SIL B AH IH DX IY IH S SIL T D UW IY S AH ER SIL F IH SH IY IH N
+9    00:36.953 → 00:42.167     Clinician    5.21      s Halas, um, so next to Hoocher and Hal...           HH AH S SIL P HH AH M SH OW SIL N N SIL SH SIL D T AH HH L IY S UW R IH N HH AE AY SIL IH SIL DH IH SIL DH EH SIL DH AE SIL
+10   00:45.390 → 00:47.399     Participant  2.01      s You can ask me and I'm not gonna come up around th L IY SIL K IH N IY AE S SIL M IY IH N AH N AH SIL K AE V SIL M AH SIL K R ER N IH AH SIL B UH DH L AH SIL
+11   00:48.563 → 00:49.930     Participant  1.37      s That's a, um...                                    N N DH UW IH SIL DH AE SIL T S EY SIL M
+12   00:52.107 → 00:53.288     Participant  1.18      s hmm slide Staat                                    S L AY DX IH SIL K AY EY SIL
+13   00:55.229 → 00:59.565     Participant  4.34      s Well, he's reading a book. He's going to Son of La EH L IY IH Z SIL R IY DX IH NG AH SIL B UH SIL K HH IY IH S SIL K EH DX IH S AH N IH AH L AE S AH S AA N SIL W R ER UW HH M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.566 - 00:02.595 (1.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, a couple of...
+  Phonemic Encoding: M EH AW L AH SIL K AH SIL P L ER
+
+Segment 2:
+  Timestamp: 00:03.810 - 00:05.025 (1.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a little pelling.
+  Phonemic Encoding: L SIL P HH EH R IH NG
+
+Segment 3:
+  Timestamp: 00:05.380 - 00:08.535 (3.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Food together sitting there in the sun and enjoying
+  Phonemic Encoding: F UW SIL D IH SIL G EH DH ER S IH DX IH IY NG N DH EH R ER IH N DH AH S AA N IH N IH N SIL JH OY NG N DH
+
+Segment 4:
+  Timestamp: 00:08.822 - 00:10.054 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: relaxation
+  Phonemic Encoding: R IY IH L AE SIL K S EY SH IH N
+
+Segment 5:
+  Timestamp: 00:11.624 - 00:12.788 (1.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody's flying there.
+  Phonemic Encoding: S AH M B IH DX IY S L AY N NG N EH ER
+
+Segment 6:
+  Timestamp: 00:14.712 - 00:17.513 (2.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o people are sailing out there in the water and
+  Phonemic Encoding: S AH SIL P IY SIL P L AA R S EY L IH N AW SIL DH EH ER IH N DH AH L W AA DX ER IH N SIL
+
+Segment 7:
+  Timestamp: 00:23.824 - 00:26.119 (2.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: got a little doggy there and
+  Phonemic Encoding: AA DX AH L IH DX L SIL D AA SIL G IY SIL D EH ER IH N M F
+
+Segment 8:
+  Timestamp: 00:27.503 - 00:29.393 (1.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody is doing some fishing.
+  Phonemic Encoding: S AH M SIL B AH IH DX IY IH S SIL T D UW IY S AH ER SIL F IH SH IY IH N
+
+Segment 9:
+  Timestamp: 00:36.953 - 00:42.167 (5.21s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Halas, um, so next to Hoocher and Hal...
+  Phonemic Encoding: HH AH S SIL P HH AH M SH OW SIL N N SIL SH SIL D T AH HH L IY S UW R IH N HH AE AY SIL IH SIL DH IH SIL DH EH SIL DH AE SIL
+
+Segment 10:
+  Timestamp: 00:45.390 - 00:47.399 (2.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You can ask me and I'm not gonna come up around the border.
+  Phonemic Encoding: L IY SIL K IH N IY AE S SIL M IY IH N AH N AH SIL K AE V SIL M AH SIL K R ER N IH AH SIL B UH DH L AH SIL
+
+Segment 11:
+  Timestamp: 00:48.563 - 00:49.930 (1.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: That's a, um...
+  Phonemic Encoding: N N DH UW IH SIL DH AE SIL T S EY SIL M
+
+Segment 12:
+  Timestamp: 00:52.107 - 00:53.288 (1.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hmm slide Staat
+  Phonemic Encoding: S L AY DX IH SIL K AY EY SIL
+
+Segment 13:
+  Timestamp: 00:55.229 - 00:59.565 (4.34s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, he's reading a book. He's going to Son of Lassazan. M-M-M-M-Hum.
+  Phonemic Encoding: EH L IY IH Z SIL R IY DX IH NG AH SIL B UH SIL K HH IY IH S SIL K EH DX IH S AH N IH AH L AE S AH S AA N SIL W R ER UW HH M

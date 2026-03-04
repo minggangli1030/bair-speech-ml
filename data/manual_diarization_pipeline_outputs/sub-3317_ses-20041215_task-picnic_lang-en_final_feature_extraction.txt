@@ -1,0 +1,104 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-3317_ses-20041215_task-picnic_lang-en_final.wav
+Total Segments: 12
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:07.725 → 00:09.092     Participant  1.37      s a upbeat                                           AA AH SIL K CH IH SIL P EH EY IH SH UW SIL
+2    00:17.175 → 00:18.930     Participant  1.76      s fly out of the kite.                               L AY SIL AH DX AH SIL K AY SIL
+3    00:32.869 → 00:34.135     Participant  1.27      s alve mode.                                         S EY EH L SIL M OW
+4    00:39.147 → 00:40.412     Participant  1.27      s 89                                                 W AY EY IH N M SIL P HH IY DX IH SIL K AE TH AH
+5    00:44.682 → 00:47.044     Participant  2.36      s and a boy is um                                    AE N AH SIL B OY SIL IH S AH N
+6    00:48.850 → 00:50.588     Participant  1.74      s The fire, adding the glass.                        T S EH DX IY NG SIL DH OW SIL B AA AY ER
+7    00:57.777 → 00:59.042     Participant  1.27      s How's that?                                        HH AW S SIL AE SIL SIL N
+8    01:02.282 → 01:05.505     Participant  3.22      s Finally, OK.                                       K AY SIL Y IY SIL TH AA ER IH EH N
+9    01:11.007 → 01:12.036     Clinician    1.03      s I don't even feel it.                              AH SIL DX L SIL Z ER V IH SIL F SH UW IH SIL
+10   01:17.757 → 01:20.811     Participant  3.05      s Looks like a forest.                               N L DH L OW SIL T S SIL L AY SIL K AH F AA R IH S SIL
+11   01:34.395 → 01:36.606     Participant  2.21      s It's very quick....                                DH AH SIL T CH T R L AY Y IH S SIL W AY EY IH F IY
+12   01:47.777 → 01:48.790     Participant  1.01      s It's the Handler .                                 S SIL HH AE N SIL D AH F
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:07.725 - 00:09.092 (1.37s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a upbeat
+  Phonemic Encoding: AA AH SIL K CH IH SIL P EH EY IH SH UW SIL
+
+Segment 2:
+  Timestamp: 00:17.175 - 00:18.930 (1.76s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: fly out of the kite.
+  Phonemic Encoding: L AY SIL AH DX AH SIL K AY SIL
+
+Segment 3:
+  Timestamp: 00:32.869 - 00:34.135 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: alve mode.
+  Phonemic Encoding: S EY EH L SIL M OW
+
+Segment 4:
+  Timestamp: 00:39.147 - 00:40.412 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: 89
+  Phonemic Encoding: W AY EY IH N M SIL P HH IY DX IH SIL K AE TH AH
+
+Segment 5:
+  Timestamp: 00:44.682 - 00:47.044 (2.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and a boy is um
+  Phonemic Encoding: AE N AH SIL B OY SIL IH S AH N
+
+Segment 6:
+  Timestamp: 00:48.850 - 00:50.588 (1.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The fire, adding the glass.
+  Phonemic Encoding: T S EH DX IY NG SIL DH OW SIL B AA AY ER
+
+Segment 7:
+  Timestamp: 00:57.777 - 00:59.042 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: How's that?
+  Phonemic Encoding: HH AW S SIL AE SIL SIL N
+
+Segment 8:
+  Timestamp: 01:02.282 - 01:05.505 (3.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Finally, OK.
+  Phonemic Encoding: K AY SIL Y IY SIL TH AA ER IH EH N
+
+Segment 9:
+  Timestamp: 01:11.007 - 01:12.036 (1.03s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I don't even feel it.
+  Phonemic Encoding: AH SIL DX L SIL Z ER V IH SIL F SH UW IH SIL
+
+Segment 10:
+  Timestamp: 01:17.757 - 01:20.811 (3.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Looks like a forest.
+  Phonemic Encoding: N L DH L OW SIL T S SIL L AY SIL K AH F AA R IH S SIL
+
+Segment 11:
+  Timestamp: 01:34.395 - 01:36.606 (2.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's very quick....
+  Phonemic Encoding: DH AH SIL T CH T R L AY Y IH S SIL W AY EY IH F IY
+
+Segment 12:
+  Timestamp: 01:47.777 - 01:48.790 (1.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's the Handler .
+  Phonemic Encoding: S SIL HH AE N SIL D AH F

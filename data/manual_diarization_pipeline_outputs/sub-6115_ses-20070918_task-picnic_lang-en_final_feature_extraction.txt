@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-6115_ses-20070918_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.486 → 00:12.940     Participant  12.45     s It's a couple having a picnic. The fellow is readi IH SIL T S AH ER SIL K AH SIL P L HH AE V IH IY NG EH SIL P IH SIL N EY SIL K ER UH DH AH SIL F EH AH L OW SIL IH Z S SIL R IY DX IH NG SIL AH SIL B UH SIL DH AH L W AH M IH N EH IH S SIL P F AA R IH NG S AH M W L SIL SIL L IH SIL K W IH SIL T S DH EY HH AE V AH M
+2    00:13.767 → 00:16.939     Participant  3.17      s picnic basket between them.                        P IH SIL N IH EY SIL B AE S SIL K IH SIL B IH SIL T W IY N DH EH M
+3    00:17.277 → 00:28.785     Participant  11.51     s There's a radio and there's sitting on a blanket.  DH EH Z S AH R EY DX IY OW SIL IH N SIL DH EY EH ER S SIL S IH DX IY NG SIL AA N AH SIL B L AE NG SIL K IH SIL DH EH IH Z S AH HH AW S SIL IH N DH AH SIL B AE SIL K G R AW N W AH DH TH DH AH SIL K AA R IH N DH AH SIL G R AA SH AA R IH N DH AH SIL D R AY V W OY EY M SIL N DH EH S AH IH SIL T R IY
+4    00:30.068 → 00:34.422     Participant  4.35      s under which they are sitting. There's a man.       AH N SIL D ER W IH SIL CH SH S SIL DH EY AA R S IH DX IH NG DH EH R Z S AH M AE N SIL
+5    00:35.384 → 00:40.328     Participant  4.94      s flying a kite and there's a dog on the beach. Ther F L AY IH NG IH SIL K AY SIL T D SIL IH N DH EH S AH SIL D AA R SIL G SIL AA N DH AH SIL B IY SIL CH SH SIL DH EH R S AH L EY SIL K IH
+6    00:41.070 → 00:42.134     Participant  1.06      s to the right.                                      T AH DH AH R AY SIL T S
+7    00:43.365 → 00:48.023     Participant  4.66      s with a boy playing in the water.                   W EH S SIL T S AH M AH SIL B OY SIL P L EY NG IH N DH AH W AA DX
+8    00:48.023 → 00:49.339     Clinician    1.32      s and the sailboat.                                  ER SIL IH N IH S EY L SIL B OW SIL
+9    00:50.588 → 01:00.055     Clinician    9.47      s in the middle of the picture there's a flagpole wi AE AH SIL SIL IH N DH AH M IH DX L SIL AH V DH AH SIL P IH SIL CH ER DH EH Z AH F L AE SIL P OW L SIL AH W IH DH SIL DH AH F L AE NG SIL G AE N SIL DH EH Z S ER F AA R S SIL T IH N DH AH SIL B AE SIL K R AW N D
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.486 - 00:12.940 (12.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's a couple having a picnic. The fellow is reading a book. The woman is pouring some liquids. They have a...
+  Phonemic Encoding: IH SIL T S AH ER SIL K AH SIL P L HH AE V IH IY NG EH SIL P IH SIL N EY SIL K ER UH DH AH SIL F EH AH L OW SIL IH Z S SIL R IY DX IH NG SIL AH SIL B UH SIL DH AH L W AH M IH N EH IH S SIL P F AA R IH NG S AH M W L SIL SIL L IH SIL K W IH SIL T S DH EY HH AE V AH M
+
+Segment 2:
+  Timestamp: 00:13.767 - 00:16.939 (3.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: picnic basket between them.
+  Phonemic Encoding: P IH SIL N IH EY SIL B AE S SIL K IH SIL B IH SIL T W IY N DH EH M
+
+Segment 3:
+  Timestamp: 00:17.277 - 00:28.785 (11.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a radio and there's sitting on a blanket. There's a house in the background with a car in the garage or in the driveway. There's a tree.
+  Phonemic Encoding: DH EH Z S AH R EY DX IY OW SIL IH N SIL DH EY EH ER S SIL S IH DX IY NG SIL AA N AH SIL B L AE NG SIL K IH SIL DH EH IH Z S AH HH AW S SIL IH N DH AH SIL B AE SIL K G R AW N W AH DH TH DH AH SIL K AA R IH N DH AH SIL G R AA SH AA R IH N DH AH SIL D R AY V W OY EY M SIL N DH EH S AH IH SIL T R IY
+
+Segment 4:
+  Timestamp: 00:30.068 - 00:34.422 (4.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: under which they are sitting. There's a man.
+  Phonemic Encoding: AH N SIL D ER W IH SIL CH SH S SIL DH EY AA R S IH DX IH NG DH EH R Z S AH M AE N SIL
+
+Segment 5:
+  Timestamp: 00:35.384 - 00:40.328 (4.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flying a kite and there's a dog on the beach. There's a lake.
+  Phonemic Encoding: F L AY IH NG IH SIL K AY SIL T D SIL IH N DH EH S AH SIL D AA R SIL G SIL AA N DH AH SIL B IY SIL CH SH SIL DH EH R S AH L EY SIL K IH
+
+Segment 6:
+  Timestamp: 00:41.070 - 00:42.134 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: to the right.
+  Phonemic Encoding: T AH DH AH R AY SIL T S
+
+Segment 7:
+  Timestamp: 00:43.365 - 00:48.023 (4.66s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with a boy playing in the water.
+  Phonemic Encoding: W EH S SIL T S AH M AH SIL B OY SIL P L EY NG IH N DH AH W AA DX
+
+Segment 8:
+  Timestamp: 00:48.023 - 00:49.339 (1.32s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and the sailboat.
+  Phonemic Encoding: ER SIL IH N IH S EY L SIL B OW SIL
+
+Segment 9:
+  Timestamp: 00:50.588 - 01:00.055 (9.47s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: in the middle of the picture there's a flagpole with a flag and there's a forest in the background.
+  Phonemic Encoding: AE AH SIL SIL IH N DH AH M IH DX L SIL AH V DH AH SIL P IH SIL CH ER DH EH Z AH F L AE SIL P OW L SIL AH W IH DH SIL DH AH F L AE NG SIL G AE N SIL DH EH Z S ER F AA R S SIL T IH N DH AH SIL B AE SIL K R AW N D

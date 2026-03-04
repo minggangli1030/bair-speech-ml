@@ -1,0 +1,195 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-9525_ses-20100304_task-picnic_lang-en_final.wav
+Total Segments: 25
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.621 → 00:15.218     Participant  14.60     s Okay, there's a tree and um, we kind of tree there SIL K EY DH EH ER Z EY SIL CH T R IY SIL SIL HH AE N SIL D AE M N B IY SIL K AY NG N DH IH SIL CH T R IY Z D EH ER IH EH EH S SIL P HH EY B IH EH L SIL D IH NG SIL W UH SIL K S L AY SIL B EY HH OW M SIL P R AA SIL V AH SIL B L IY CH S R AA ER SIL TH DH AE SIL SIL SIL DH ER S SIL N AA N M AH SIL B IY OW L
+2    00:16.028 → 00:20.669     Participant  4.64      s Oh, there's one that looks like it's, you know, I' AA R DH EH IH Z S SIL M W AH N DH AE EH SIL L UH SIL K S SIL L AY NG SIL G IH SIL T S IY AA AY L R IY IH L SIL G OW IH IY NG IH N SIL T HH AA R DX IH SIL G ER AA AY ER SH IY SIL IY
+3    00:21.074 → 00:22.103     Participant  1.03      s and there is                                       AA N DH EH R ER IH S
+4    00:22.947 → 00:39.299     Participant  16.35     s on slag in front of this building and there's smal M SIL N SIL F L EY NG G IH N SIL F AH N SIL T AH V DH IH S SIL P B IH L SIL IY NG HH AE N D EH R S SIL S SIL M AA L SIL CH T R IY Y EH N SIL F R AA AH N DX AH SIL B IH SIL T SIL IH N AH HH OW L M M SIL K R UH UW SIL P AH V SIL CH T R IY S IH N M B AE SIL K R AW N SIL D IH DH EH R ER IH Z S EY G UW SIL P AH V SIL T UW SIL P K IY SIL P L SIL M AE IH SIL N AE N AH
+5    00:40.294 → 00:49.508     Participant  9.21      s We're having a picnic in front of the tree on top  B W AA L IH N SIL W AA R HH EH V IH NG AH SIL P IH SIL N EY SIL K SIL AA IH N SIL F SH AA AH N SIL T AH V SIL DH AH IH SIL CH T R IY SIL AA AH N SIL T HH AA SIL P AH M AH SIL V B L AY AE SIL K IH EH SIL T S AH R IY L UH SIL K S AY EY
+6    00:51.195 → 00:55.296     Participant  4.10      s Gentlemen has taken off his flip flops.            JH IH N L M IH N HH IH S SIL T EY SIL K IH N AA F HH IH Z S F L UH IH SIL P F L AA SIL S S
+7    00:56.865 → 01:02.451     Participant  5.59      s Doesn't have any socks on. Yeah. There's a small r DH AH Z N HH EH M N IY F SIL S AA SIL K S AA N IH Y IH ER SIL SIL SIL DH EH R Z EY SIL TH SIL S SIL M AA L R EY DX IY OW SIL
+8    01:04.155 → 01:31.037     Participant  26.88     s The gentleman has glasses. Looks like he's probabl DH IY Y EY IH JH IH L M AH N HH EH S SIL K L AE S IH AH S SIL UH SIL K S L AY SIL K HH IY IH S SIL P AA R SIL B L AA N D SIL B DH AH IH SIL K UH SIL B IY SIL W AY SIL HH EH ER SIL SIL Z AH SIL B UH SIL K IH N HH IH S HH EH AE N S SIL AE SIL DH AH L EY DX IY IH Z SIL P K AA R IH NG S AH M N SIL T IH NG SIL P F R M AH SIL B AA DX L HH IH N SIL T UW SIL DH AH SIL G L AE S SH IY Z SIL W AA R ER IH NG SIL K SH AA R SIL T S IY NG N IH Z SIL W ER IH NG SIL W M L AA NG IH N SIL S DH EH SIL B OW L TH SIL S IY UW M IY SIL L IY IH T IY SH ER SIL T S SIL SIL M
+9    01:31.358 → 01:32.961     Participant  1.60      s Pierce to be...                                    SIL P IH ER S SIL T IH AH SIL B IY IY SIL
+10   01:34.244 → 01:36.083     Participant  1.84      s a younger...                                       EY Y AH AA NG SIL G ER
+11   01:38.024 → 01:52.637     Participant  14.61     s and person would be at its just that he's a little N P R ER S IH AH N SIL DH IH N SIL B IY SIL SIL EH DX IH SIL T S SIL CH IH S SIL T EH DX HH IY S SIL L R DX L SIL K G OW OY IH NG SIL T AA R DX IH SIL D DH AH W AA DX ER DH EH ER IH Z EY SIL B AA DX IY IH AH M SIL B W AA DX ER SIL T SIL UW IH SIL IY S SIL K AA AE DX AA SIL K AY EY SIL T
+12   01:54.544 → 02:01.514     Participant  6.97      s and he too seems to have a t-shirt, as long pants, AE N HH IY SIL T UW S IY NG S HH EH V IH SIL T IY SH ER SIL T IH Z SIL L AA OW NG SIL P AE N S M ER IH Z AH SIL D AA SIL G W IH TH HH IH M S IY N S SIL T UW AH SIL B IY SIL T ER IY
+13   02:02.813 → 02:04.028     Participant  1.21      s ttlll                                              IH S HH EH
+14   02:04.028 → 02:07.420     Clinician    3.39      s uh... looking at the other people                  D AH L UH SIL K IY NG AE SIL T D IY SIL AH DH ER SIL P IY SIL P L M SIL
+15   02:09.141 → 02:16.650     Clinician    7.51      s There's sand that they're on, or I think it's sand DH EH ER S AE N SIL D SIL DH HH AE SIL T AH DH EH R ER AA N SIL AA R ER SIL TH IH NG SIL K IH SIL T S AE N SIL D M Y UW EH N SIL T AH D AW N NG N SIL AA N DH IY
+16   02:20.110 → 02:23.974     Clinician    3.86      s where the water meets the sand. First.             W EH ER DH EY AH M SIL W AA DX ER M IY SIL S SIL T AH S AE N SIL D JH ER SIL K ER SH S SIL T IH N
+17   02:23.974 → 02:32.327     Participant  8.35      s be a peel and possibly a small show. Looks like if B IY IH SIL K P HH EY L SIL AE N SIL D AH SIL P AA S AH SIL B L IY EY S SIL M AA L SH OW L M L UH SIL K S DH EH ER S AH M B IH DX IY EH L S AW OW DX IH N DH AH W AA DX ER SIL SIL HH M N
+18   02:36.074 → 02:37.862     Participant  1.79      s is banded the waist.                               IH Z S Z SIL B AE N SIL D IH SIL DH AH W EY S SIL T
+19   02:39.077 → 02:44.967     Participant  5.89      s ince he's in the water, I assume that he's on some S IH S IY S SIL IH N DH AH W AA DX ER AY EH IH S UW M N EH DX HH IY Z S SIL HH AA N S AH M SIL T IH NG SIL B AH DX AY EY SIL K OW N SIL R IH L IY SIL T EH L W AH SIL D DH EH DX IH EH S
+20   02:46.823 → 03:04.120     Participant  17.30     s There's a pier that occurs somewhere down the way  ER DH AH SIL P CH IY IH ER SIL DH AE SIL T SIL AH IH SIL K ER S SIL S AH M W EH ER SIL D AW N M SIL DH AH W EY N S AH M IH DX IY IH Z S F IH SH IH NG SIL T AA R SIL D IY SIL IH EH N SIL D AH SIL DH AE SIL T ER IH Z S AH S IH L SIL B OW L SIL T Y UW N DH IH S SIL B AA DX IY IH AH V W AA DX ER
+21   03:06.550 → 03:10.178     Participant  3.63      s through sales, new appears to be two people in it. T UW S EY EH L S IH N AH SIL P IH ER S SIL T AH SIL B IY SIL T UW SIL P IY SIL P L Y IH EH AH N IH SIL T
+22   03:30.107 → 03:35.204     Participant  5.10      s person hide. Odd might be in something I think it' P ER S IH N DH HH DX AY B AA SIL D SIL M AY SIL B B IY SIL HH IH N S AH M SIL T TH IH NG AY TH EY SIL K IH S SIL CH IH S T IH N SIL CH EH AE AW L L
+23   03:38.477 → 03:40.165     Participant  1.69      s and it's heard by the swine.                       IY EH N SIL D IH SIL T OW SIL B AY DH IH AH S SIL W AY AE DX IH N SIL
+24   03:43.979 → 03:45.514     Participant  1.54      s o it's something like...                           S IH SIL S EH AE N SIL T IH M EH SIL K M L IY SIL K IH
+25   03:50.492 → 03:51.657     Participant  1.16      s There's leaves on the tree.                        DH EH S L EY SIL S AH M AH SIL T R IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.621 - 00:15.218 (14.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Okay, there's a tree and um, we kind of tree there is a building looks like a home probably. Try not that there's non-mobile.
+  Phonemic Encoding: SIL K EY DH EH ER Z EY SIL CH T R IY SIL SIL HH AE N SIL D AE M N B IY SIL K AY NG N DH IH SIL CH T R IY Z D EH ER IH EH EH S SIL P HH EY B IH EH L SIL D IH NG SIL W UH SIL K S L AY SIL B EY HH OW M SIL P R AA SIL V AH SIL B L IY CH S R AA ER SIL TH DH AE SIL SIL SIL DH ER S SIL N AA N M AH SIL B IY OW L
+
+Segment 2:
+  Timestamp: 00:16.028 - 00:20.669 (4.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh, there's one that looks like it's, you know, I'll be going in toward a garage. We do.
+  Phonemic Encoding: AA R DH EH IH Z S SIL M W AH N DH AE EH SIL L UH SIL K S SIL L AY NG SIL G IH SIL T S IY AA AY L R IY IH L SIL G OW IH IY NG IH N SIL T HH AA R DX IH SIL G ER AA AY ER SH IY SIL IY
+
+Segment 3:
+  Timestamp: 00:21.074 - 00:22.103 (1.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there is
+  Phonemic Encoding: AA N DH EH R ER IH S
+
+Segment 4:
+  Timestamp: 00:22.947 - 00:39.299 (16.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: on slag in front of this building and there's small tree in front of it and a whole In a group of trees in that ground, there's a group of two people, man, down.
+  Phonemic Encoding: M SIL N SIL F L EY NG G IH N SIL F AH N SIL T AH V DH IH S SIL P B IH L SIL IY NG HH AE N D EH R S SIL S SIL M AA L SIL CH T R IY Y EH N SIL F R AA AH N DX AH SIL B IH SIL T SIL IH N AH HH OW L M M SIL K R UH UW SIL P AH V SIL CH T R IY S IH N M B AE SIL K R AW N SIL D IH DH EH R ER IH Z S EY G UW SIL P AH V SIL T UW SIL P K IY SIL P L SIL M AE IH SIL N AE N AH
+
+Segment 5:
+  Timestamp: 00:40.294 - 00:49.508 (9.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: We're having a picnic in front of the tree on top of the blanket. We look tight.
+  Phonemic Encoding: B W AA L IH N SIL W AA R HH EH V IH NG AH SIL P IH SIL N EY SIL K SIL AA IH N SIL F SH AA AH N SIL T AH V SIL DH AH IH SIL CH T R IY SIL AA AH N SIL T HH AA SIL P AH M AH SIL V B L AY AE SIL K IH EH SIL T S AH R IY L UH SIL K S AY EY
+
+Segment 6:
+  Timestamp: 00:51.195 - 00:55.296 (4.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Gentlemen has taken off his flip flops.
+  Phonemic Encoding: JH IH N L M IH N HH IH S SIL T EY SIL K IH N AA F HH IH Z S F L UH IH SIL P F L AA SIL S S
+
+Segment 7:
+  Timestamp: 00:56.865 - 01:02.451 (5.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Doesn't have any socks on. Yeah. There's a small radio.
+  Phonemic Encoding: DH AH Z N HH EH M N IY F SIL S AA SIL K S AA N IH Y IH ER SIL SIL SIL DH EH R Z EY SIL TH SIL S SIL M AA L R EY DX IY OW SIL
+
+Segment 8:
+  Timestamp: 01:04.155 - 01:31.037 (26.88s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The gentleman has glasses. Looks like he's probably blonde, but could be white hair. He's a book in his hands. The lady is pouring something from a bottle into a glass. She's wearing shorts, he's wearing long pants. They're both semi-gly T-shirts.
+  Phonemic Encoding: DH IY Y EY IH JH IH L M AH N HH EH S SIL K L AE S IH AH S SIL UH SIL K S L AY SIL K HH IY IH S SIL P AA R SIL B L AA N D SIL B DH AH IH SIL K UH SIL B IY SIL W AY SIL HH EH ER SIL SIL Z AH SIL B UH SIL K IH N HH IH S HH EH AE N S SIL AE SIL DH AH L EY DX IY IH Z SIL P K AA R IH NG S AH M N SIL T IH NG SIL P F R M AH SIL B AA DX L HH IH N SIL T UW SIL DH AH SIL G L AE S SH IY Z SIL W AA R ER IH NG SIL K SH AA R SIL T S IY NG N IH Z SIL W ER IH NG SIL W M L AA NG IH N SIL S DH EH SIL B OW L TH SIL S IY UW M IY SIL L IY IH T IY SH ER SIL T S SIL SIL M
+
+Segment 9:
+  Timestamp: 01:31.358 - 01:32.961 (1.60s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Pierce to be...
+  Phonemic Encoding: SIL P IH ER S SIL T IH AH SIL B IY IY SIL
+
+Segment 10:
+  Timestamp: 01:34.244 - 01:36.083 (1.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a younger...
+  Phonemic Encoding: EY Y AH AA NG SIL G ER
+
+Segment 11:
+  Timestamp: 01:38.024 - 01:52.637 (14.61s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and person would be at its just that he's a little going toward the water. There is a body of water. He's got a kite.
+  Phonemic Encoding: N P R ER S IH AH N SIL DH IH N SIL B IY SIL SIL EH DX IH SIL T S SIL CH IH S SIL T EH DX HH IY S SIL L R DX L SIL K G OW OY IH NG SIL T AA R DX IH SIL D DH AH W AA DX ER DH EH ER IH Z EY SIL B AA DX IY IH AH M SIL B W AA DX ER SIL T SIL UW IH SIL IY S SIL K AA AE DX AA SIL K AY EY SIL T
+
+Segment 12:
+  Timestamp: 01:54.544 - 02:01.514 (6.97s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and he too seems to have a t-shirt, as long pants, there's a dog with him, seems to be turning.
+  Phonemic Encoding: AE N HH IY SIL T UW S IY NG S HH EH V IH SIL T IY SH ER SIL T IH Z SIL L AA OW NG SIL P AE N S M ER IH Z AH SIL D AA SIL G W IH TH HH IH M S IY N S SIL T UW AH SIL B IY SIL T ER IY
+
+Segment 13:
+  Timestamp: 02:02.813 - 02:04.028 (1.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ttlll
+  Phonemic Encoding: IH S HH EH
+
+Segment 14:
+  Timestamp: 02:04.028 - 02:07.420 (3.39s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: uh... looking at the other people
+  Phonemic Encoding: D AH L UH SIL K IY NG AE SIL T D IY SIL AH DH ER SIL P IY SIL P L M SIL
+
+Segment 15:
+  Timestamp: 02:09.141 - 02:16.650 (7.51s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's sand that they're on, or I think it's sand. Um, you end up down on the...
+  Phonemic Encoding: DH EH ER S AE N SIL D SIL DH HH AE SIL T AH DH EH R ER AA N SIL AA R ER SIL TH IH NG SIL K IH SIL T S AE N SIL D M Y UW EH N SIL T AH D AW N NG N SIL AA N DH IY
+
+Segment 16:
+  Timestamp: 02:20.110 - 02:23.974 (3.86s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: where the water meets the sand. First.
+  Phonemic Encoding: W EH ER DH EY AH M SIL W AA DX ER M IY SIL S SIL T AH S AE N SIL D JH ER SIL K ER SH S SIL T IH N
+
+Segment 17:
+  Timestamp: 02:23.974 - 02:32.327 (8.35s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: be a peel and possibly a small show. Looks like if somebody else out in the water.
+  Phonemic Encoding: B IY IH SIL K P HH EY L SIL AE N SIL D AH SIL P AA S AH SIL B L IY EY S SIL M AA L SH OW L M L UH SIL K S DH EH ER S AH M B IH DX IY EH L S AW OW DX IH N DH AH W AA DX ER SIL SIL HH M N
+
+Segment 18:
+  Timestamp: 02:36.074 - 02:37.862 (1.79s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is banded the waist.
+  Phonemic Encoding: IH Z S Z SIL B AE N SIL D IH SIL DH AH W EY S SIL T
+
+Segment 19:
+  Timestamp: 02:39.077 - 02:44.967 (5.89s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ince he's in the water, I assume that he's on something, but I can't really tell what that is.
+  Phonemic Encoding: S IH S IY S SIL IH N DH AH W AA DX ER AY EH IH S UW M N EH DX HH IY Z S SIL HH AA N S AH M SIL T IH NG SIL B AH DX AY EY SIL K OW N SIL R IH L IY SIL T EH L W AH SIL D DH EH DX IH EH S
+
+Segment 20:
+  Timestamp: 02:46.823 - 03:04.120 (17.30s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a pier that occurs somewhere down the way somebody is fishing toward the end of that. There's a sailboat in this body of water.
+  Phonemic Encoding: ER DH AH SIL P CH IY IH ER SIL DH AE SIL T SIL AH IH SIL K ER S SIL S AH M W EH ER SIL D AW N M SIL DH AH W EY N S AH M IH DX IY IH Z S F IH SH IH NG SIL T AA R SIL D IY SIL IH EH N SIL D AH SIL DH AE SIL T ER IH Z S AH S IH L SIL B OW L SIL T Y UW N DH IH S SIL B AA DX IY IH AH V W AA DX ER
+
+Segment 21:
+  Timestamp: 03:06.550 - 03:10.178 (3.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: through sales, new appears to be two people in it.
+  Phonemic Encoding: T UW S EY EH L S IH N AH SIL P IH ER S SIL T AH SIL B IY SIL T UW SIL P IY SIL P L Y IH EH AH N IH SIL T
+
+Segment 22:
+  Timestamp: 03:30.107 - 03:35.204 (5.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: person hide. Odd might be in something I think it's just in chill.
+  Phonemic Encoding: P ER S IH N DH HH DX AY B AA SIL D SIL M AY SIL B B IY SIL HH IH N S AH M SIL T TH IH NG AY TH EY SIL K IH S SIL CH IH S T IH N SIL CH EH AE AW L L
+
+Segment 23:
+  Timestamp: 03:38.477 - 03:40.165 (1.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and it's heard by the swine.
+  Phonemic Encoding: IY EH N SIL D IH SIL T OW SIL B AY DH IH AH S SIL W AY AE DX IH N SIL
+
+Segment 24:
+  Timestamp: 03:43.979 - 03:45.514 (1.54s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o it's something like...
+  Phonemic Encoding: S IH SIL S EH AE N SIL T IH M EH SIL K M L IY SIL K IH
+
+Segment 25:
+  Timestamp: 03:50.492 - 03:51.657 (1.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's leaves on the tree.
+  Phonemic Encoding: DH EH S L EY SIL S AH M AH SIL T R IY

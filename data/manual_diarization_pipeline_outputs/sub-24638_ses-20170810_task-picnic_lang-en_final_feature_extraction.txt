@@ -1,0 +1,118 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24638_ses-20170810_task-picnic_lang-en_final.wav
+Total Segments: 14
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.503 → 00:11.674     Participant  11.17     s I have them, let's see. There's a sailboat on the  AE L AH M N N W L IH SIL T S IY DH ER ZH Z AH S EY EH L SIL B OW SIL AA AH N AH AH AH M Y UW L EY SIL K B OY EY EH Z IH AY SIL T DH IH Z DH AH SIL D AA NG SIL AA SH IH
+2    00:13.497 → 00:15.269     Participant  1.77      s There was a doll in there.                         AA M DH ER R Z S AH SIL D AA N SIL DH EH ER
+3    00:18.559 → 00:19.622     Participant  1.06      s ee you in Takaiai.                                 S IY IH SIL T IH SIL K AY AE EH
+4    00:21.715 → 00:23.267     Participant  1.55      s through our canoe and other two.                   F R ER AA ER SIL K IH N D IH SIL W IH M N AH DH AH SIL T UW
+5    00:23.487 → 00:25.259     Participant  1.77      s There's a boy in the water                         AA AH DH ER Z SIL B OY IH N DH IH N W AA DX ER SIL
+6    00:29.022 → 00:39.214     Participant  10.19     s assume mom and dad had to pick me up and ask me if S UW M B AA M IH N SIL D AE V IH SIL T DH AH SIL P IH SIL N IH SIL B AE S SIL T IH SIL N DH AH SIL B OW SIL K IH M IY IY EY Y W L AE F S IH DH IH Z N AH ER R EY Y OW M DH AH IH SH UW IH N S N DH AH Z AH SIL F L AY SIL K R AW M N IH DH AH SIL K R K R IY IH N
+7    00:40.649 → 00:42.285     Participant  1.64      s The car...he...                                    DH AH SIL K AA R ER HH IY SIL
+8    00:44.108 → 00:46.302     Participant  2.19      s Unh聽                                               T IH SIL K IH N IH SIL T S IH SIL T K HH AH N AH AY HH AW L S
+9    00:49.035 → 00:51.398     Clinician    2.36      s worm Fuck it. Plag poor old                        IH N D OW AA N SIL K P AA SIL K IH SIL P L AE AY SIL P OW L
+10   00:56.781 → 01:02.451     Clinician    5.67      s There's a sand, but are sand and pettil. They hand DH ER ZH Z AH S AE N SIL B AA R SIL HH AA ER AH SIL S AE M N SIL P EY L DH EY HH AE N L M OW SH AH V L
+11   01:08.324 → 01:10.754     Participant  2.43      s Car, car, go on.                                   S K AA R ER W AH SIL K AA R SIL G L AA
+12   01:11.040 → 01:13.369     Participant  2.33      s Linkático RE- yang par-le                          DH UW N SIL CH IH S R IY IY IH N SIL T F AA R L IY SIL
+13   01:13.825 → 01:16.373     Participant  2.55      s house but then there's a hedge in front of the lan HH AW L S SIL P AH SIL TH DH IH N UW Z AH HH EH SIL JH IH N F R AH N AH N L AE N SIL T S
+14   01:17.875 → 01:22.802     Participant  4.93      s Restring the backly on, cubimistic tree.           M R ER SH S SIL T R NG N DH AH SIL B AE SIL K L R IH AW M N N SIL D T K AH SIL B IH M EH S SIL P B IH SIL T SIL K R IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.503 - 00:11.674 (11.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have them, let's see. There's a sailboat on the lake. Boy, has it. I'd lose the dawn. I should.
+  Phonemic Encoding: AE L AH M N N W L IH SIL T S IY DH ER ZH Z AH S EY EH L SIL B OW SIL AA AH N AH AH AH M Y UW L EY SIL K B OY EY EH Z IH AY SIL T DH IH Z DH AH SIL D AA NG SIL AA SH IH
+
+Segment 2:
+  Timestamp: 00:13.497 - 00:15.269 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There was a doll in there.
+  Phonemic Encoding: AA M DH ER R Z S AH SIL D AA N SIL DH EH ER
+
+Segment 3:
+  Timestamp: 00:18.559 - 00:19.622 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ee you in Takaiai.
+  Phonemic Encoding: S IY IH SIL T IH SIL K AY AE EH
+
+Segment 4:
+  Timestamp: 00:21.715 - 00:23.267 (1.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: through our canoe and other two.
+  Phonemic Encoding: F R ER AA ER SIL K IH N D IH SIL W IH M N AH DH AH SIL T UW
+
+Segment 5:
+  Timestamp: 00:23.487 - 00:25.259 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a boy in the water
+  Phonemic Encoding: AA AH DH ER Z SIL B OY IH N DH IH N W AA DX ER SIL
+
+Segment 6:
+  Timestamp: 00:29.022 - 00:39.214 (10.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: assume mom and dad had to pick me up and ask me if I could celebrate you and the shoes and there's a flag around the cree
+  Phonemic Encoding: S UW M B AA M IH N SIL D AE V IH SIL T DH AH SIL P IH SIL N IH SIL B AE S SIL T IH SIL N DH AH SIL B OW SIL K IH M IY IY EY Y W L AE F S IH DH IH Z N AH ER R EY Y OW M DH AH IH SH UW IH N S N DH AH Z AH SIL F L AY SIL K R AW M N IH DH AH SIL K R K R IY IH N
+
+Segment 7:
+  Timestamp: 00:40.649 - 00:42.285 (1.64s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The car...he...
+  Phonemic Encoding: DH AH SIL K AA R ER HH IY SIL
+
+Segment 8:
+  Timestamp: 00:44.108 - 00:46.302 (2.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Unh聽
+  Phonemic Encoding: T IH SIL K IH N IH SIL T S IH SIL T K HH AH N AH AY HH AW L S
+
+Segment 9:
+  Timestamp: 00:49.035 - 00:51.398 (2.36s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: worm Fuck it. Plag poor old
+  Phonemic Encoding: IH N D OW AA N SIL K P AA SIL K IH SIL P L AE AY SIL P OW L
+
+Segment 10:
+  Timestamp: 00:56.781 - 01:02.451 (5.67s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's a sand, but are sand and pettil. They handle. Move its shovel.
+  Phonemic Encoding: DH ER ZH Z AH S AE N SIL B AA R SIL HH AA ER AH SIL S AE M N SIL P EY L DH EY HH AE N L M OW SH AH V L
+
+Segment 11:
+  Timestamp: 01:08.324 - 01:10.754 (2.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Car, car, go on.
+  Phonemic Encoding: S K AA R ER W AH SIL K AA R SIL G L AA
+
+Segment 12:
+  Timestamp: 01:11.040 - 01:13.369 (2.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Linkático RE- yang par-le
+  Phonemic Encoding: DH UW N SIL CH IH S R IY IY IH N SIL T F AA R L IY SIL
+
+Segment 13:
+  Timestamp: 01:13.825 - 01:16.373 (2.55s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: house but then there's a hedge in front of the land.
+  Phonemic Encoding: HH AW L S SIL P AH SIL TH DH IH N UW Z AH HH EH SIL JH IH N F R AH N AH N L AE N SIL T S
+
+Segment 14:
+  Timestamp: 01:17.875 - 01:22.802 (4.93s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Restring the backly on, cubimistic tree.
+  Phonemic Encoding: M R ER SH S SIL T R NG N DH AH SIL B AE SIL K L R IH AW M N N SIL D T K AH SIL B IH M EH S SIL P B IH SIL T SIL K R IY

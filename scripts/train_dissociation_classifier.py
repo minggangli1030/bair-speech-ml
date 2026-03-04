@@ -63,6 +63,7 @@ def train_and_evaluate(
     feature_names: list[str],
     model_name: str,
     cv_folds: int = 5,
+    seed: int = 42,
 ) -> dict:
     """Train logistic regression with CV and return metrics."""
     # Impute NaN with median
@@ -80,12 +81,12 @@ def train_and_evaluate(
         C=1.0,
         class_weight="balanced",
         max_iter=1000,
-        random_state=42,
+        random_state=seed,
         solver="lbfgs",
     )
     
     # Cross-validation predictions
-    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
+    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=seed)
     y_pred_cv = cross_val_predict(clf, X_scaled, y, cv=cv)
     y_prob_cv = cross_val_predict(clf, X_scaled, y, cv=cv, method="predict_proba")[:, 1]
     
@@ -132,6 +133,7 @@ def train_and_evaluate_real_only(
     feat_cols: list[str],
     model_name: str,
     cv_folds: int = 5,
+    seed: int = 42,
 ) -> dict:
     """Train on real_train + all simulated, test on real only. For augmentation comparison."""
     real_idx = np.where(real_mask)[0]
@@ -142,8 +144,8 @@ def train_and_evaluate_real_only(
     X = impute_median(X)
     scaler = StandardScaler()
     X_sc = scaler.fit_transform(X)
-    clf = LogisticRegression(penalty="l2", C=1.0, class_weight="balanced", max_iter=1000, random_state=42, solver="lbfgs")
-    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
+    clf = LogisticRegression(penalty="l2", C=1.0, class_weight="balanced", max_iter=1000, random_state=seed, solver="lbfgs")
+    cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=seed)
     y_real = y[real_idx]
     real_pred = np.full(len(real_idx), -1)
     real_prob = np.full(len(real_idx), np.nan)
@@ -190,6 +192,7 @@ def main():
                         help="control_vs_svppa: control(0) vs svPPA(1). sv_vs_nflf: among PPA only, svPPA(1) vs nfv+lv(0)")
     parser.add_argument("--simulated-csv", type=Path, default=None,
                         help="Optional: simulated svPPA samples CSV to merge for sv_vs_nflf (augment svPPA)")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for CV and classifier")
     args = parser.parse_args()
     
     df = load_features(args.features, args.layer2_features)
@@ -228,7 +231,7 @@ def main():
     # Model 1: S_sem only
     feat1 = ["s_sem"]
     X1 = df[feat1].values
-    r1 = train_and_evaluate(X1, y, feat1, "S_sem_only", args.cv_folds)
+    r1 = train_and_evaluate(X1, y, feat1, "S_sem_only", args.cv_folds, args.seed)
     results.append(r1)
     print(f"\n1. S_sem only: Acc={r1['accuracy']:.3f} Prec={r1.get('precision',0):.3f} Rec={r1.get('recall',0):.3f} F1={r1['f1']:.3f} AUC={r1['roc_auc']:.3f}")
     
@@ -239,7 +242,7 @@ def main():
         feat2 = ["s_ph", "s_sem"]
         X2 = df_with_sph[feat2].values
         y2 = df_with_sph["label"].astype(int).values
-        r2 = train_and_evaluate(X2, y2, feat2, "S_ph_S_sem", args.cv_folds)
+        r2 = train_and_evaluate(X2, y2, feat2, "S_ph_S_sem", args.cv_folds, args.seed)
         results.append(r2)
         print(f"2. S_ph + S_sem: Acc={r2['accuracy']:.3f} Prec={r2.get('precision',0):.3f} Rec={r2.get('recall',0):.3f} F1={r2['f1']:.3f} AUC={r2['roc_auc']:.3f} (n={len(df_with_sph)})")
     else:
@@ -252,7 +255,7 @@ def main():
         feat3 = ["s_ph", "s_sem", "delta"]
         X3 = df_with_delta[feat3].values
         y3 = df_with_delta["label"].astype(int).values
-        r3 = train_and_evaluate(X3, y3, feat3, "S_ph_S_sem_Delta", args.cv_folds)
+        r3 = train_and_evaluate(X3, y3, feat3, "S_ph_S_sem_Delta", args.cv_folds, args.seed)
         results.append(r3)
         print(f"3. S_ph + S_sem + Δ: Acc={r3['accuracy']:.3f} Prec={r3.get('precision',0):.3f} Rec={r3.get('recall',0):.3f} F1={r3['f1']:.3f} AUC={r3['roc_auc']:.3f} (n={len(df_with_delta)})")
     else:
@@ -265,7 +268,7 @@ def main():
         feat4 = ["s_ph", "s_sem", "delta"] + available_extra
         X4 = df_with_delta[feat4].values
         y4 = df_with_delta["label"].astype(int).values
-        r4 = train_and_evaluate(X4, y4, feat4, "Dissociation_Plus", args.cv_folds)
+        r4 = train_and_evaluate(X4, y4, feat4, "Dissociation_Plus", args.cv_folds, args.seed)
         results.append(r4)
         print(f"4. Dissociation + extras: Acc={r4['accuracy']:.3f} Prec={r4.get('precision',0):.3f} Rec={r4.get('recall',0):.3f} F1={r4['f1']:.3f}")
     
@@ -278,7 +281,7 @@ def main():
     if l2_cols:
         feat5 = l2_cols
         X5 = df[feat5].values
-        r5 = train_and_evaluate(X5, y, feat5, "Layer2_Only", args.cv_folds)
+        r5 = train_and_evaluate(X5, y, feat5, "Layer2_Only", args.cv_folds, args.seed)
         results.append(r5)
         print(f"5. Layer 2 only: Acc={r5['accuracy']:.3f} Prec={r5.get('precision',0):.3f} Rec={r5.get('recall',0):.3f} F1={r5['f1']:.3f}")
         
@@ -287,7 +290,7 @@ def main():
             feat6 = ["s_ph", "s_sem", "delta"] + l2_cols
             X6 = df_with_delta[feat6].values
             y6 = df_with_delta["label"].astype(int).values
-            r6 = train_and_evaluate(X6, y6, feat6, "Layer2_Plus_Dissociation", args.cv_folds)
+            r6 = train_and_evaluate(X6, y6, feat6, "Layer2_Plus_Dissociation", args.cv_folds, args.seed)
             results.append(r6)
             print(f"6. Layer 2 + Dissociation: Acc={r6['accuracy']:.3f} Prec={r6.get('precision',0):.3f} Rec={r6.get('recall',0):.3f} F1={r6['f1']:.3f}")
     
@@ -346,7 +349,7 @@ def main():
                 feat_cols = [c for c in feat_cols if c in df_with_delta_aug.columns]
                 if len(feat_cols) < 3:
                     continue
-                r_real = train_and_evaluate_real_only(df_with_delta_aug, real_mask_delta, feat_cols, f"{feat_name}_real_only", args.cv_folds)
+                r_real = train_and_evaluate_real_only(df_with_delta_aug, real_mask_delta, feat_cols, f"{feat_name}_real_only", args.cv_folds, args.seed)
                 print(f"\n  Real-only (train+sim, test=real) {feat_name}: n_real={r_real['n_real']} Acc={r_real['accuracy']:.3f} F1={r_real['f1']:.3f} AUC={r_real['roc_auc']:.3f}")
 
 

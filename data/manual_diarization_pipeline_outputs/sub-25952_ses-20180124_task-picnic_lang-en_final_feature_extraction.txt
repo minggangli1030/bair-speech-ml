@@ -1,0 +1,181 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-25952_ses-20180124_task-picnic_lang-en_final.wav
+Total Segments: 23
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:07.523 → 00:09.109     Participant  1.59      s Darren, outs!                                      DH EH ER IH N SIL T SIL HH AW S
+2    00:09.464 → 00:10.628     Participant  1.16      s Alright. I'm doing after..                         AH L AY
+3    00:12.535 → 00:14.897     Participant  2.36      s Wonder Bear Train.                                 W AH N SIL DH EH AE AH B EY ER SIL JH R EY NG
+4    00:20.399 → 00:21.732     Participant  1.33      s Thunder like                                       DH L AH N DH AH L L AY
+5    00:23.436 → 00:26.052     Participant  2.62      s And self mind?                                     SIL S AH AH N S R AW L M AA OY AY N SIL D
+6    00:26.828 → 00:28.448     Participant  1.62      s Yes, darling.                                      DH AE S AE L EY NG
+7    00:30.237 → 00:34.135     Participant  3.90      s And I'm full, I'm pure.                            AE N AH SIL DH AA N AE AH M SIL P AA AA L SIL SIL DH AY N EH AH M IH SIL P EH R ER
+8    00:39.265 → 00:42.437     Participant  3.17      s omebody, yeah, family ain't.                       S AH M B L IY IH EH AE HH SIL F R AE N N EY N
+9    00:46.049 → 00:48.225     Participant  2.18      s hut up and track this part of the game The thing t DH AW L HH AA L AH M OY AY
+10   00:49.727 → 00:52.714     Participant  2.99      s and via the journal. Ha, girl                      AH M SIL B AY AE SIL SIL JH AA AY L HH AE SIL G AY N
+11   00:56.005 → 00:58.097     Participant  2.09      s and when the time                                  AE N SIL SIL W EH N DH AE N SIL Z D AY
+12   01:01.557 → 01:04.341     Clinician    2.78      s I don't know what all this might sound, dre.       N AH HH N AA L SIL N IH
+13   01:05.708 → 01:11.429     Participant  5.72      s where i警ts godzard and                             W W ER Z AW N SIL S EH IH SIL G Y AE AW Z AA L N S SIL EH AH AH N SIL AW N AH M
+14   01:14.314 → 01:15.934     Participant  1.62      s ays                                                DH AH M SIL F AA N N Y AA R ER
+15   01:20.355 → 01:21.790     Participant  1.43      s Oh, come on!                                       AW N SIL K CH AA M AA L
+16   01:25.705 → 01:26.970     Participant  1.27      s band duo                                           SIL B AE N SIL T AE EH L
+17   01:33.687 → 01:35.070     Clinician    1.38      s They're not more...                                AE N AH SIL M AH AH
+18   01:38.699 → 01:40.319     Clinician    1.62      s more in one                                        AA N L AY N
+19   01:41.145 → 01:43.997     Clinician    2.85      s and may a man earn                                 AE AE EH N M EY EH AH M AE N N L SIL EH N L
+20   01:46.191 → 01:48.216     Clinician    2.02      s Yeah, my little mine.                              DH EH SIL M R AY EY L IY AH M AY SIL
+21   01:53.987 → 01:55.439     Clinician    1.45      s then the time                                      M L AE N DH AH SIL D AY NG SIL
+22   01:56.637 → 01:59.134     Clinician    2.50      s I didn't wanna go away.                            M DH AE L AE AY NG AH N SIL D AH M OY
+23   02:00.484 → 02:02.897     Clinician    2.41      s Moutergan live them                                M AY N AH AE AH IH SIL G AY N M EH L EH M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:07.523 - 00:09.109 (1.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Darren, outs!
+  Phonemic Encoding: DH EH ER IH N SIL T SIL HH AW S
+
+Segment 2:
+  Timestamp: 00:09.464 - 00:10.628 (1.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Alright. I'm doing after..
+  Phonemic Encoding: AH L AY
+
+Segment 3:
+  Timestamp: 00:12.535 - 00:14.897 (2.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Wonder Bear Train.
+  Phonemic Encoding: W AH N SIL DH EH AE AH B EY ER SIL JH R EY NG
+
+Segment 4:
+  Timestamp: 00:20.399 - 00:21.732 (1.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Thunder like
+  Phonemic Encoding: DH L AH N DH AH L L AY
+
+Segment 5:
+  Timestamp: 00:23.436 - 00:26.052 (2.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And self mind?
+  Phonemic Encoding: SIL S AH AH N S R AW L M AA OY AY N SIL D
+
+Segment 6:
+  Timestamp: 00:26.828 - 00:28.448 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yes, darling.
+  Phonemic Encoding: DH AE S AE L EY NG
+
+Segment 7:
+  Timestamp: 00:30.237 - 00:34.135 (3.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And I'm full, I'm pure.
+  Phonemic Encoding: AE N AH SIL DH AA N AE AH M SIL P AA AA L SIL SIL DH AY N EH AH M IH SIL P EH R ER
+
+Segment 8:
+  Timestamp: 00:39.265 - 00:42.437 (3.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: omebody, yeah, family ain't.
+  Phonemic Encoding: S AH M B L IY IH EH AE HH SIL F R AE N N EY N
+
+Segment 9:
+  Timestamp: 00:46.049 - 00:48.225 (2.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: hut up and track this part of the game The thing they call rat Oh my god Oh god What the f*** What is he firing at? He was there
+  Phonemic Encoding: DH AW L HH AA L AH M OY AY
+
+Segment 10:
+  Timestamp: 00:49.727 - 00:52.714 (2.99s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and via the journal. Ha, girl
+  Phonemic Encoding: AH M SIL B AY AE SIL SIL JH AA AY L HH AE SIL G AY N
+
+Segment 11:
+  Timestamp: 00:56.005 - 00:58.097 (2.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and when the time
+  Phonemic Encoding: AE N SIL SIL W EH N DH AE N SIL Z D AY
+
+Segment 12:
+  Timestamp: 01:01.557 - 01:04.341 (2.78s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I don't know what all this might sound, dre.
+  Phonemic Encoding: N AH HH N AA L SIL N IH
+
+Segment 13:
+  Timestamp: 01:05.708 - 01:11.429 (5.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: where i警ts godzard and
+  Phonemic Encoding: W W ER Z AW N SIL S EH IH SIL G Y AE AW Z AA L N S SIL EH AH AH N SIL AW N AH M
+
+Segment 14:
+  Timestamp: 01:14.314 - 01:15.934 (1.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ays
+  Phonemic Encoding: DH AH M SIL F AA N N Y AA R ER
+
+Segment 15:
+  Timestamp: 01:20.355 - 01:21.790 (1.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Oh, come on!
+  Phonemic Encoding: AW N SIL K CH AA M AA L
+
+Segment 16:
+  Timestamp: 01:25.705 - 01:26.970 (1.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: band duo
+  Phonemic Encoding: SIL B AE N SIL T AE EH L
+
+Segment 17:
+  Timestamp: 01:33.687 - 01:35.070 (1.38s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: They're not more...
+  Phonemic Encoding: AE N AH SIL M AH AH
+
+Segment 18:
+  Timestamp: 01:38.699 - 01:40.319 (1.62s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: more in one
+  Phonemic Encoding: AA N L AY N
+
+Segment 19:
+  Timestamp: 01:41.145 - 01:43.997 (2.85s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and may a man earn
+  Phonemic Encoding: AE AE EH N M EY EH AH M AE N N L SIL EH N L
+
+Segment 20:
+  Timestamp: 01:46.191 - 01:48.216 (2.02s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Yeah, my little mine.
+  Phonemic Encoding: DH EH SIL M R AY EY L IY AH M AY SIL
+
+Segment 21:
+  Timestamp: 01:53.987 - 01:55.439 (1.45s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: then the time
+  Phonemic Encoding: M L AE N DH AH SIL D AY NG SIL
+
+Segment 22:
+  Timestamp: 01:56.637 - 01:59.134 (2.50s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I didn't wanna go away.
+  Phonemic Encoding: M DH AE L AE AY NG AH N SIL D AH M OY
+
+Segment 23:
+  Timestamp: 02:00.484 - 02:02.897 (2.41s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Moutergan live them
+  Phonemic Encoding: M AY N AH AE AH IH SIL G AY N M EH L EH M

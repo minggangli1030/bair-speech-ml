@@ -1,0 +1,146 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-25660_ses-20170814_task-picnic_lang-en_final.wav
+Total Segments: 18
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.769 → 00:03.051     Participant  1.28      s It assessed.                                       EH SIL IH S IH S SIL T
+2    00:03.777 → 00:08.822     Participant  5.05      s and even people go out to enjoy themselves.        EH IH SIL N SIL T SIL HH AE SIL IY V R AH SIL P EY IY SIL P L L SIL G AW OW AW AE AW SIL AH N SIL T UW IH N SIL JH OY IH SIL DH AH M AH IH S EH AW L N S
+3    00:09.953 → 00:13.193     Participant  3.24      s In a randomized stack of weights,                  EH SIL P EY IY NG M AH N DH AH SIL OW N M SIL P SIL EH DX L AA N SIL S S
+4    00:13.429 → 00:16.517     Participant  3.09      s Hey, Queen, that's gone in bulk. Do we agree?      HH EH AE EH EY EY SIL F R EY NG N AH T AH SIL B AA AW N DH IH SIL K IH N SIL P L SIL P UW R EY
+5    00:18.357 → 00:20.922     Participant  2.57      s at they all so.                                    AE N DH EY L SIL OW AA L S
+6    00:22.727 → 00:27.132     Participant  4.40      s and try to earn singing the sky.                   AE EH M M SIL CH SH R AY SIL DH AH SIL ER N Z IY NG IH N SIL B DH AH S SIL K G AY
+7    00:30.287 → 00:33.494     Participant  3.21      s There's a lot of active energy. There's a dog.     EH EY IH S IH N L AA DX AH F SIL AE SIL T IH V IH SIL CH IY SIL EH S IH SIL D AA NG
+8    00:34.844 → 00:36.126     Participant  1.28      s is bow.                                            IH Z S SIL SIL B
+9    00:38.522 → 00:41.054     Participant  2.53      s and is sitting outside a house.                    IH N DH SIL EH IH S IH SIL DX IH IY NG AW SIL S AY SIL EH AE AH SIL HH AW L
+10   00:42.370 → 00:44.125     Participant  1.75      s because I have dinner.                             K AY S SIL P HH AA SIL D EH SIL IH N IH N SIL
+11   00:46.285 → 00:49.727     Participant  3.44      s The tree is quite large.                           DH AH SIL T R EY SIL IH Z SIL S SIL K W AY SIL L N SIL CH
+12   00:51.584 → 00:53.912     Participant  2.33      s and I shim greek men shain.                        EH N AY SH IH UW M SIL G IH V IH IY SIL M DH AH M SH AY EY IH N
+13   00:56.072 → 00:59.110     Participant  3.04      s I am the widest old son.                           HH AY AE EH SIL DH AH SIL W AY L SIL AH Z S SIL S SIL OW L SIL S AH N
+14   01:03.210 → 01:07.345     Clinician    4.13      s and there is no person fishing.                    AE NG N DH EH SIL EH IH SIL IH S SIL T IH AH SIL P ER S IH N SIL F IH SH IY NG AH SIL AA SIL S SIL DH ER
+15   01:11.429 → 01:14.652     Clinician    3.22      s out of control of your body!                       AA V F SIL S L EH SIL HH M T EH N AH SIL B AH SIL CH AH SIL K AA M
+16   01:16.845 → 01:20.187     Participant  3.34      s H s O ShrAn't on a P How is it?                    EH SIL IH S AH SIL AH V SH R AE AY AE NG SIL D AA N AH SIL P HH S
+17   01:22.887 → 01:26.785     Participant  3.90      s It's the only thing I know but at least doing      EH SIL S IH Y AE AW N NG N AH SIL B L IY NG AH N AH SIL P AA DX IY S SIL T DH UW IH IY NG
+18   01:32.286 → 01:36.319     Participant  4.03      s And I don't know if they're animals here.          AE HH N N SIL D AY SIL D OW AY N SIL N SIL DH EY SIL Z ER AE N AH M SIL P AH L S HH IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.769 - 00:03.051 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It assessed.
+  Phonemic Encoding: EH SIL IH S IH S SIL T
+
+Segment 2:
+  Timestamp: 00:03.777 - 00:08.822 (5.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and even people go out to enjoy themselves.
+  Phonemic Encoding: EH IH SIL N SIL T SIL HH AE SIL IY V R AH SIL P EY IY SIL P L L SIL G AW OW AW AE AW SIL AH N SIL T UW IH N SIL JH OY IH SIL DH AH M AH IH S EH AW L N S
+
+Segment 3:
+  Timestamp: 00:09.953 - 00:13.193 (3.24s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: In a randomized stack of weights,
+  Phonemic Encoding: EH SIL P EY IY NG M AH N DH AH SIL OW N M SIL P SIL EH DX L AA N SIL S S
+
+Segment 4:
+  Timestamp: 00:13.429 - 00:16.517 (3.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Hey, Queen, that's gone in bulk. Do we agree?
+  Phonemic Encoding: HH EH AE EH EY EY SIL F R EY NG N AH T AH SIL B AA AW N DH IH SIL K IH N SIL P L SIL P UW R EY
+
+Segment 5:
+  Timestamp: 00:18.357 - 00:20.922 (2.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: at they all so.
+  Phonemic Encoding: AE N DH EY L SIL OW AA L S
+
+Segment 6:
+  Timestamp: 00:22.727 - 00:27.132 (4.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and try to earn singing the sky.
+  Phonemic Encoding: AE EH M M SIL CH SH R AY SIL DH AH SIL ER N Z IY NG IH N SIL B DH AH S SIL K G AY
+
+Segment 7:
+  Timestamp: 00:30.287 - 00:33.494 (3.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a lot of active energy. There's a dog.
+  Phonemic Encoding: EH EY IH S IH N L AA DX AH F SIL AE SIL T IH V IH SIL CH IY SIL EH S IH SIL D AA NG
+
+Segment 8:
+  Timestamp: 00:34.844 - 00:36.126 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is bow.
+  Phonemic Encoding: IH Z S SIL SIL B
+
+Segment 9:
+  Timestamp: 00:38.522 - 00:41.054 (2.53s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and is sitting outside a house.
+  Phonemic Encoding: IH N DH SIL EH IH S IH SIL DX IH IY NG AW SIL S AY SIL EH AE AH SIL HH AW L
+
+Segment 10:
+  Timestamp: 00:42.370 - 00:44.125 (1.75s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: because I have dinner.
+  Phonemic Encoding: K AY S SIL P HH AA SIL D EH SIL IH N IH N SIL
+
+Segment 11:
+  Timestamp: 00:46.285 - 00:49.727 (3.44s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The tree is quite large.
+  Phonemic Encoding: DH AH SIL T R EY SIL IH Z SIL S SIL K W AY SIL L N SIL CH
+
+Segment 12:
+  Timestamp: 00:51.584 - 00:53.912 (2.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I shim greek men shain.
+  Phonemic Encoding: EH N AY SH IH UW M SIL G IH V IH IY SIL M DH AH M SH AY EY IH N
+
+Segment 13:
+  Timestamp: 00:56.072 - 00:59.110 (3.04s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I am the widest old son.
+  Phonemic Encoding: HH AY AE EH SIL DH AH SIL W AY L SIL AH Z S SIL S SIL OW L SIL S AH N
+
+Segment 14:
+  Timestamp: 01:03.210 - 01:07.345 (4.13s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and there is no person fishing.
+  Phonemic Encoding: AE NG N DH EH SIL EH IH SIL IH S SIL T IH AH SIL P ER S IH N SIL F IH SH IY NG AH SIL AA SIL S SIL DH ER
+
+Segment 15:
+  Timestamp: 01:11.429 - 01:14.652 (3.22s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: out of control of your body!
+  Phonemic Encoding: AA V F SIL S L EH SIL HH M T EH N AH SIL B AH SIL CH AH SIL K AA M
+
+Segment 16:
+  Timestamp: 01:16.845 - 01:20.187 (3.34s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: H s O ShrAn't on a P How is it?
+  Phonemic Encoding: EH SIL IH S AH SIL AH V SH R AE AY AE NG SIL D AA N AH SIL P HH S
+
+Segment 17:
+  Timestamp: 01:22.887 - 01:26.785 (3.90s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's the only thing I know but at least doing
+  Phonemic Encoding: EH SIL S IH Y AE AW N NG N AH SIL B L IY NG AH N AH SIL P AA DX IY S SIL T DH UW IH IY NG
+
+Segment 18:
+  Timestamp: 01:32.286 - 01:36.319 (4.03s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And I don't know if they're animals here.
+  Phonemic Encoding: AE HH N N SIL D AY SIL D OW AY N SIL N SIL DH EY SIL Z ER AE N AH M SIL P AH L S HH IY

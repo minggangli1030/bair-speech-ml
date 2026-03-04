@@ -1,0 +1,90 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33253_ses-20211029_task-picnic_lang-en_final.wav
+Total Segments: 10
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:03.304 → 00:06.021     Participant  2.72      s I've kite flying, I've flying kite.                EH SIL SIL K AY SIL SIL F TH L AY IY N SIL SIL AH S L AY NG SIL K AY SIL
+2    00:07.962 → 00:10.797     Participant  2.84      s a selling boat.                                    EY EY IH S EH AE L IY M SIL B AW SIL
+3    00:26.980 → 00:28.262     Participant  1.28      s People are having a picnic.                        T IY SIL F L AA R N HH AE V IH SIL P IH SIL N EH SIL K
+4    00:33.257 → 00:36.126     Participant  2.87      s and enter a tree.                                  EH N SIL D IH AH SIL EH N SIL D ER EH N HH AE SIL AE N HH SIL AH IH SIL T CH T R IY SIL
+5    00:45.576 → 00:46.656     Clinician    1.08      s and a                                              AE N SIL D EY SIL
+6    00:48.630 → 00:49.744     Clinician    1.11      s kite is flying.                                    K AY SIL IH S L AY N SIL
+7    00:59.869 → 01:00.932     Participant  1.06      s I think uh...                                      AY SIL TH IY NG SIL K AE AH SIL
+8    01:06.130 → 01:08.205     Participant  2.08      s when soccer is flying.                             AH S AH OW W EH N S AA SIL K IH Z S B L OW IY N SIL
+9    01:15.107 → 01:18.027     Participant  2.92      s There is a person with the fishing.                DH EH R ER IH Z EY SIL P HH ER S IH N SIL W AH IH SIL TH DH EH V SIL F IH SH IY N
+10   01:30.345 → 01:36.690     Participant  6.34      s There is a person drinking, well, drinking a soda, DH ER DH EH ER R ER IH Z DH AH SIL P R ER S IH N SIL D R IH SIL K IY N SIL SIL W SIL AY AH IH SIL JH R IH NG SIL K IY IH N AH S OW DX EH AE EH SIL IH N AE DH EH AE EH SIL S AH AE AH M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:03.304 - 00:06.021 (2.72s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I've kite flying, I've flying kite.
+  Phonemic Encoding: EH SIL SIL K AY SIL SIL F TH L AY IY N SIL SIL AH S L AY NG SIL K AY SIL
+
+Segment 2:
+  Timestamp: 00:07.962 - 00:10.797 (2.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a selling boat.
+  Phonemic Encoding: EY EY IH S EH AE L IY M SIL B AW SIL
+
+Segment 3:
+  Timestamp: 00:26.980 - 00:28.262 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: People are having a picnic.
+  Phonemic Encoding: T IY SIL F L AA R N HH AE V IH SIL P IH SIL N EH SIL K
+
+Segment 4:
+  Timestamp: 00:33.257 - 00:36.126 (2.87s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and enter a tree.
+  Phonemic Encoding: EH N SIL D IH AH SIL EH N SIL D ER EH N HH AE SIL AE N HH SIL AH IH SIL T CH T R IY SIL
+
+Segment 5:
+  Timestamp: 00:45.576 - 00:46.656 (1.08s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and a
+  Phonemic Encoding: AE N SIL D EY SIL
+
+Segment 6:
+  Timestamp: 00:48.630 - 00:49.744 (1.11s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: kite is flying.
+  Phonemic Encoding: K AY SIL IH S L AY N SIL
+
+Segment 7:
+  Timestamp: 00:59.869 - 01:00.932 (1.06s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I think uh...
+  Phonemic Encoding: AY SIL TH IY NG SIL K AE AH SIL
+
+Segment 8:
+  Timestamp: 01:06.130 - 01:08.205 (2.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: when soccer is flying.
+  Phonemic Encoding: AH S AH OW W EH N S AA SIL K IH Z S B L OW IY N SIL
+
+Segment 9:
+  Timestamp: 01:15.107 - 01:18.027 (2.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a person with the fishing.
+  Phonemic Encoding: DH EH R ER IH Z EY SIL P HH ER S IH N SIL W AH IH SIL TH DH EH V SIL F IH SH IY N
+
+Segment 10:
+  Timestamp: 01:30.345 - 01:36.690 (6.34s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is a person drinking, well, drinking a soda, and that's,
+  Phonemic Encoding: DH ER DH EH ER R ER IH Z DH AH SIL P R ER S IH N SIL D R IH SIL K IY N SIL SIL W SIL AY AH IH SIL JH R IH NG SIL K IY IH N AH S OW DX EH AE EH SIL IH N AE DH EH AE EH SIL S AH AE AH M

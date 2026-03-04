@@ -1,0 +1,48 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-3031_ses-20070316_task-picnic_lang-en_final.wav
+Total Segments: 4
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:04.806 → 00:06.038     Clinician    1.23      s how you                                            AH SIL M AH HH L SH IY IH
+2    00:11.387 → 00:14.779     Participant  3.39      s of God they steer and they have with this.         S SIL P AH DH IH NG SIL G AA SIL TH EY S SIL T IH ER V SIL HH AH N DH EY HH EH SIL W AH SIL DH IH S
+3    00:17.699 → 00:19.605     Participant  1.91      s also                                               HH AA L N AA M SIL S SIL T UH SIL HH
+4    00:21.867 → 00:24.516     Participant  2.65      s next 2, 2, all 3.                                  N AE AW S SIL T SIL T M L SIL SIL SIL T UH L SIL AA AH L SIL K EH DX D V IH EH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:04.806 - 00:06.038 (1.23s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: how you
+  Phonemic Encoding: AH SIL M AH HH L SH IY IH
+
+Segment 2:
+  Timestamp: 00:11.387 - 00:14.779 (3.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: of God they steer and they have with this.
+  Phonemic Encoding: S SIL P AH DH IH NG SIL G AA SIL TH EY S SIL T IH ER V SIL HH AH N DH EY HH EH SIL W AH SIL DH IH S
+
+Segment 3:
+  Timestamp: 00:17.699 - 00:19.605 (1.91s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: also
+  Phonemic Encoding: HH AA L N AA M SIL S SIL T UH SIL HH
+
+Segment 4:
+  Timestamp: 00:21.867 - 00:24.516 (2.65s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: next 2, 2, all 3.
+  Phonemic Encoding: N AE AW S SIL T SIL T M L SIL SIL SIL T UH L SIL AA AH L SIL K EH DX D V IH EH

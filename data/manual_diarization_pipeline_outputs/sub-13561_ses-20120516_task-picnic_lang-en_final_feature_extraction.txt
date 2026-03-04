@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-13561_ses-20120516_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:02.174 → 00:05.363     Participant  3.19      s Being able to hold her, picking in.                P IY SIL AH SIL B OW L W HH AH AA ER P IH SIL K IH N EY N
+2    00:10.020 → 00:11.033     Participant  1.01      s I'm Guy.                                           HH AY NG SIL G AY
+3    00:12.535 → 00:15.100     Participant  2.56      s is flying kite.                                    IH S SIL F L AY N AH K AY SIL T
+4    00:29.646 → 00:32.025     Participant  2.38      s Guy is fishing.                                    G AY IH S SIL SIL P B IY IH SH IY NG
+5    00:43.872 → 00:49.812     Participant  5.94      s Um... Tight is So Um,                              M SIL G AY SIL EY S S AH AH M
+6    00:52.613 → 00:54.081     Participant  1.47      s is waving.                                         IH S W EY SIL B IY NG
+7    01:01.911 → 01:04.105     Participant  2.19      s and boy.                                           AE N SIL D AH SIL B OY EY SIL
+8    01:05.573 → 01:07.024     Participant  1.45      s It is...                                           IH DX IH S SIL S S
+9    01:12.053 → 01:14.567     Clinician    2.51      s who are- uh third                                  HH UW AA R ER IH D DH ER SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:02.174 - 00:05.363 (3.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Being able to hold her, picking in.
+  Phonemic Encoding: P IY SIL AH SIL B OW L W HH AH AA ER P IH SIL K IH N EY N
+
+Segment 2:
+  Timestamp: 00:10.020 - 00:11.033 (1.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'm Guy.
+  Phonemic Encoding: HH AY NG SIL G AY
+
+Segment 3:
+  Timestamp: 00:12.535 - 00:15.100 (2.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is flying kite.
+  Phonemic Encoding: IH S SIL F L AY N AH K AY SIL T
+
+Segment 4:
+  Timestamp: 00:29.646 - 00:32.025 (2.38s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Guy is fishing.
+  Phonemic Encoding: G AY IH S SIL SIL P B IY IH SH IY NG
+
+Segment 5:
+  Timestamp: 00:43.872 - 00:49.812 (5.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Um... Tight is So Um,
+  Phonemic Encoding: M SIL G AY SIL EY S S AH AH M
+
+Segment 6:
+  Timestamp: 00:52.613 - 00:54.081 (1.47s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: is waving.
+  Phonemic Encoding: IH S W EY SIL B IY NG
+
+Segment 7:
+  Timestamp: 01:01.911 - 01:04.105 (2.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and boy.
+  Phonemic Encoding: AE N SIL D AH SIL B OY EY SIL
+
+Segment 8:
+  Timestamp: 01:05.573 - 01:07.024 (1.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It is...
+  Phonemic Encoding: IH DX IH S SIL S S
+
+Segment 9:
+  Timestamp: 01:12.053 - 01:14.567 (2.51s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: who are- uh third
+  Phonemic Encoding: HH UW AA R ER IH D DH ER SIL

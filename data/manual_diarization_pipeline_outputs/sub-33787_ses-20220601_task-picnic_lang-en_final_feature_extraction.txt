@@ -1,0 +1,41 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33787_ses-20220601_task-picnic_lang-en_final.wav
+Total Segments: 3
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:01.549 → 00:05.127     Clinician    3.58      s A man is reading a book.                           AH M AE N IH SIL IH DX IH Z S R IY DX IH NG AA AH SIL B AA R
+2    00:05.295 → 00:13.142     Clinician    7.85      s A woman is pouring coffee. A boy is flying a kite. AH W UH M IH N SIL IH S SIL P AA R ER IH NG SIL K AA F SIL T F IY AH SIL SIL B OY EY IH S SIL F L AY IH NG AE EH SIL K HH AY SIL
+3    00:14.610 → 00:42.741     Participant  28.13     s A dog is pretending to be interested and they're a AH SIL D AA SIL G Y IH S P R ER SIL T EH N SIL D IH NG SIL TH EH HH SIL B IY SIL IH N SIL T R IH S SIL T EH IH SIL D IH SIL AE IH SIL SIL SIL DH EH ER SIL AE SIL TH F DH AH L EY SIL SH AA R ER SIL IH EH N EH AH M AE N SIL IH S SIL F TH IH SH CH IH NG SIL AE SIL DH AH SIL D AA SIL SIL IH EH N SIL SIL T UW SIL P IY SIL P L SIL AA R ER HH SIL S EY L IH NG SIL B AY AY SIL AE N AH AH SIL SIL B OY SIL IH S SIL B IH EH L SIL D IH NG AH SIL S EY AE N SIL K AE S AA L SIL AA N DH AH SIL B IY SIL CH SH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:01.549 - 00:05.127 (3.58s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: A man is reading a book.
+  Phonemic Encoding: AH M AE N IH SIL IH DX IH Z S R IY DX IH NG AA AH SIL B AA R
+
+Segment 2:
+  Timestamp: 00:05.295 - 00:13.142 (7.85s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: A woman is pouring coffee. A boy is flying a kite.
+  Phonemic Encoding: AH W UH M IH N SIL IH S SIL P AA R ER IH NG SIL K AA F SIL T F IY AH SIL SIL B OY EY IH S SIL F L AY IH NG AE EH SIL K HH AY SIL
+
+Segment 3:
+  Timestamp: 00:14.610 - 00:42.741 (28.13s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: A dog is pretending to be interested and they're at the lakeshore and a man is fishing at the doc and two people are sailing by and boy is building sand castle on the beach.
+  Phonemic Encoding: AH SIL D AA SIL G Y IH S P R ER SIL T EH N SIL D IH NG SIL TH EH HH SIL B IY SIL IH N SIL T R IH S SIL T EH IH SIL D IH SIL AE IH SIL SIL SIL DH EH ER SIL AE SIL TH F DH AH L EY SIL SH AA R ER SIL IH EH N EH AH M AE N SIL IH S SIL F TH IH SH CH IH NG SIL AE SIL DH AH SIL D AA SIL SIL IH EH N SIL SIL T UW SIL P IY SIL P L SIL AA R ER HH SIL S EY L IH NG SIL B AY AY SIL AE N AH AH SIL SIL B OY SIL IH S SIL B IH EH L SIL D IH NG AH SIL S EY AE N SIL K AE S AA L SIL AA N DH AH SIL B IY SIL CH SH

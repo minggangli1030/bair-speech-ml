@@ -1,0 +1,55 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-18732_ses-20170103_task-picnic_lang-en_final.wav
+Total Segments: 5
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:31.047     Participant  31.02     s The person who is sitting with the family and the  IY SIL P R ER S ER N NG SIL DH T IY HH EY IH S IH Z SIL S IH M B AA R ER SIL K AW M B W AH TH DH IY EY IH SIL T P AE EH M L IY SIL HH IH N DH IY HH AH S AH M M IH N IH SIL SIL N IH W AA AH SIL HH AA R ER HH SIL HH EH F IH NG SIL K SIL HH IH SIL P EH SIL K N IY NG SIL HH SIL D IY L DH EH ER SIL F L AH N SIL HH AA R ER R SIL TH DH ER SIL F P EY SIL K EY SH IH N SIL D SIL HH AH S SIL M N DH EY M OW L M W AH N SIL P SIL HH IH S IH SIL P AA R NG G AW S OW SIL T IH SIL P AA L SIL CH T ER V HH EH SIL D ER S AH AA N M SIL SIL HH IH S SIL F L IH NG EH EY SIL K AA AY HH IH N SIL D IH ER AA L SIL T DH ER S AH S SIL AA ER SIL F TH F IH SH NG SIL K AA L M N SIL D T IY
+2    00:31.215 → 00:33.038     Participant  1.82      s Pearl of the Duck.                                 P R ER IH SIL TH DH IY IH SIL D AA
+3    00:34.034 → 00:45.964     Clinician    11.93     s The other third boat is plinging the water in the  B D IY AH DH TH DH ER TH ER SIL B OW UH SIL T SIL HH IH S SIL P L EY IH NG IH EH N SIL DH IY W AA DX ER HH IH N DH IY S S IH EH N IH N SIL B EH ER S IH EH IH S EY IH SIL P AA L SIL W IH TH SIL TH T IH SIL K AA AH SIL P L
+4    00:45.964 → 00:54.165     Participant  8.20      s and work thing to the camera on the on the beach a IH EH N W UH IH SIL TH IH NG SIL G SIL SIL T UW SIL TH T IY F AE M L IH SIL SIL AA M N DH IY AA N DH IY SIL B IY SIL CH HH AE N D
+5    00:54.267 → 01:22.971     Participant  28.70     s The vacation has its birth to be a branch house wi AH SIL DH IY SIL F TH F EY SIL K EY SH IH N D HH SIL HH AE S IH S EY SIL SIL P R ER S SIL T IH SIL P B IY SIL HH EY SIL R EY N SIL CH HH AE S SIL W UH AH TH SIL TH DH IH SIL W AH IH N SIL K AA ER SIL SIL T P R AA R SIL CH IH N SIL DH D IY SIL F L AY SIL K IH S SIL F L EY SIL F OW L IH NG IH N DH IY W IH N SIL T IH N SIL D IH SIL P R ER S SIL P B IY SIL T S SIL S AH M B AH ER SIL T AH AW M W UH AH SIL DH IH SIL T D IH S IH SH IH S SIL OW SIL SIL SIL CH R ER Y AA ER SIL N M B EY SIL P L SIL CH ER IH SIL TH IY F SH F R ER EH IH N SIL F R EH AY EH SIL T CH JH AA R ER SIL T CH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:31.047 (31.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The person who is sitting with the family and the husband knew what are having a picnic of the old. They are full on their vacation, as the moment is pouring out. So the ball start and their son is falling a cut and their other sons are fishing on the...
+  Phonemic Encoding: IY SIL P R ER S ER N NG SIL DH T IY HH EY IH S IH Z SIL S IH M B AA R ER SIL K AW M B W AH TH DH IY EY IH SIL T P AE EH M L IY SIL HH IH N DH IY HH AH S AH M M IH N IH SIL SIL N IH W AA AH SIL HH AA R ER HH SIL HH EH F IH NG SIL K SIL HH IH SIL P EH SIL K N IY NG SIL HH SIL D IY L DH EH ER SIL F L AH N SIL HH AA R ER R SIL TH DH ER SIL F P EY SIL K EY SH IH N SIL D SIL HH AH S SIL M N DH EY M OW L M W AH N SIL P SIL HH IH S IH SIL P AA R NG G AW S OW SIL T IH SIL P AA L SIL CH T ER V HH EH SIL D ER S AH AA N M SIL SIL HH IH S SIL F L IH NG EH EY SIL K AA AY HH IH N SIL D IH ER AA L SIL T DH ER S AH S SIL AA ER SIL F TH F IH SH NG SIL K AA L M N SIL D T IY
+
+Segment 2:
+  Timestamp: 00:31.215 - 00:33.038 (1.82s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Pearl of the Duck.
+  Phonemic Encoding: P R ER IH SIL TH DH IY IH SIL D AA
+
+Segment 3:
+  Timestamp: 00:34.034 - 00:45.964 (11.93s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: The other third boat is plinging the water in the sin and there's a shape of with a couple
+  Phonemic Encoding: B D IY AH DH TH DH ER TH ER SIL B OW UH SIL T SIL HH IH S SIL P L EY IH NG IH EH N SIL DH IY W AA DX ER HH IH N DH IY S S IH EH N IH N SIL B EH ER S IH EH IH S EY IH SIL P AA L SIL W IH TH SIL TH T IH SIL K AA AH SIL P L
+
+Segment 4:
+  Timestamp: 00:45.964 - 00:54.165 (8.20s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and work thing to the camera on the on the beach and
+  Phonemic Encoding: IH EH N W UH IH SIL TH IH NG SIL G SIL SIL T UW SIL TH T IY F AE M L IH SIL SIL AA M N DH IY AA N DH IY SIL B IY SIL CH HH AE N D
+
+Segment 5:
+  Timestamp: 00:54.267 - 01:22.971 (28.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The vacation has its birth to be a branch house with a one-part branch and the flycase like falling in the wind into birth beats summertime with the decisions of true your The built-in is the friend, right? Jard.
+  Phonemic Encoding: AH SIL DH IY SIL F TH F EY SIL K EY SH IH N D HH SIL HH AE S IH S EY SIL SIL P R ER S SIL T IH SIL P B IY SIL HH EY SIL R EY N SIL CH HH AE S SIL W UH AH TH SIL TH DH IH SIL W AH IH N SIL K AA ER SIL SIL T P R AA R SIL CH IH N SIL DH D IY SIL F L AY SIL K IH S SIL F L EY SIL F OW L IH NG IH N DH IY W IH N SIL T IH N SIL D IH SIL P R ER S SIL P B IY SIL T S SIL S AH M B AH ER SIL T AH AW M W UH AH SIL DH IH SIL T D IH S IH SH IH S SIL OW SIL SIL SIL CH R ER Y AA ER SIL N M B EY SIL P L SIL CH ER IH SIL TH IY F SH F R ER EH IH N SIL F R EH AY EH SIL T CH JH AA R ER SIL T CH

@@ -1,0 +1,146 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-31616_ses-20210107_task-picnic_lang-en_final.wav
+Total Segments: 18
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:07.962     Participant  7.93      s This is a picture of looks like a finally there's  AA V DH IH S IH S EY Y AW AA P HH EH SIL SH ER HH SIL AE AY SIL SIL DH L AH SIL T S L AY SIL K EY IY SIL B AY M AH L IY NG N SIL B EH ER S HH EY IY IY AA M
+2    00:09.902 → 00:19.032     Participant  9.13      s There's a tree and there's like the man and the wo DH AH Z AH SIL CH R IY HH SIL HH AE N SIL SIL N AE EH R ER SIL T S SIL L EY SIL K EH AH DH AH M AE N IH EH N DH AE AH EH M DH IH N SIL B W OW L M IY SIL SIL AY ER AE HH EH M SIL B IY M L DX L SIL SIL AA R SIL SIL T R UW IH SIL N SIL IH SIL
+3    00:19.032 → 00:49.845     Clinician    30.81     s on a blanket. The guy is working at a book and the AA SIL AA N AA AW SIL AA N AH M SIL M M SIL P L AE SIL K IH SIL T SIL M SIL DH IY SIL G AY SIL Y EH S AA EH Z S SIL W OW L B AH W R ER SIL IH N AH ER SIL AW OW SIL B UH SIL G IH DX EH DX AH SIL B UH SIL SIL AE N B DH IH SIL G SIL B IH SIL G ER OW L S AH S SIL AE AW SIL P AH N SIL D G IH EH SIL N HH AA ER DX AH N M B W AY N AA V AH DH EH R Z S AH L UH DX OW L AA M SIL ER EH V AH L EY R EY DX IH ER SIL R ER SIL K AA R EY IH SIL R EY DX IY EH ER AA R ER N SIL DH EH ER SIL AE N IH SIL L UH SIL S EY SIL K SIL HH IY HH AE V S IY IH S AY HH IH Z S F L IH SIL F L AA SIL SIL AA SH SIL DH EH N EH R ER AA N L IY AH SIL P AE SIL DH AH SIL P L AY SIL T IH V EH N SIL DH AH IH SIL D EH N
+4    00:50.706 → 00:55.026     Clinician    4.32      s Behind the tree there is a car.                    AA M B HH AY N DH AH SIL T CH R IY DH EH ER IH Z EY AA AH SIL K AA R ER N EH AH
+5    00:56.747 → 01:02.822     Clinician    6.08      s getting regular in the garage. And it's the house. G IH DX IY IH IH SIL G L ER SIL IH N DH IH SIL K G ER AA AY SH AA M EH N IH SIL T S DH AH HH AW L S SIL DH EH ER Z EH AH ER SIL S AH M SH S AH M B ER IY S
+6    01:03.210 → 01:06.130     Clinician    2.92      s and it's like ever of range things like that.      AH N Z L AY EY SIL SIL EH SIL B ER SIL G R EY IY N S SIL DH IH NG S L AY EY SIL B AE
+7    01:06.653 → 01:14.213     Clinician    7.56      s There's a flight hanging looks like those an ores. HH M M ER DH EH R ER Z EH EY EY DH EH R ER Z AH F L AY IH SIL D HH AE NG IY N L UH SIL K S L AY EY SIL DH R AH OW Z AH N AH SIL AA AA R ER IY Z S
+8    01:17.419 → 01:25.975     Clinician    8.56      s both out there. They look like it's a it is a lake B OW S DH AW L SIL TH DH EH ER M SIL AA M DH EH L UH SIL K S L AY EY SIL K EH AH SIL EH SIL T S EH EY IY AA M IY IH SIL Y IH EH S SIL HH EH EY Y AA SIL SIL AH L EY SIL SIL HH AE N W EH
+9    01:25.975 → 01:28.540     Participant  2.56      s that shun-                                         DH AE SIL S AH M SIL HH AA M SIL
+10   01:30.025 → 01:46.124     Participant  16.10     s Well, trees on that side, there's a bit of a lane  R CH T R IY S SIL AH SIL AA N M L AH SIL DH EH SIL T SH S AY SIL B ER Z N IH DX DH EH ER DX SIL HH SIL AA N DH AH L EY N SIL SIL Y IY SIL SIL SIL AA SIL AA N AH SIL T S AH S SIL S EH AE AW L SIL B OW SIL DH AH SIL T S L UH SIL K IH IY IH S SIL SIL P F W AA R S TH EH SIL P IH N SIL SIL UW IY IY EH ER AA AH N M N AA DX AH DH AH TH F TH AY SIL DH R EY IH N HH EY SIL D L UH UW Y IY EY EH ER W IH DH EH R ER ER V W IH AH DH EH ER M
+11   01:47.828 → 01:49.566     Participant  1.74      s writing to the people of...                        R AA AE AY DX IY SIL N SIL D IH DH AH SIL P IY SIL P L SIL DH AH
+12   01:50.629 → 01:51.743     Participant  1.11      s and the guard for them.                            AE EH SIL B IH SIL G AE ER F AH DH AH
+13   01:51.962 → 01:56.350     Participant  4.39      s people back back there are even more than where th P IY SIL B L SIL B AE SIL P AE SIL K EH ER SIL AA R SIL L IY SIL SIL SIL B R ER V R EH AH SIL DH EH AH N SIL N M W EH DH IH SIL K IH DX V IH S AA M
+14   01:57.700 → 02:13.410     Participant  15.71     s I have it at I am he's flying a kite. There's a th AY SIL AH AA HH AE V IH DX EH SIL T K AA SIL HH AH AE AW M SIL AE HH IY Z F L AY N IH SIL K AY AE DH EH ER Z S EY Y AE AH M SIL DH EH ER Z AH SIL DH AH SIL D AA L M SIL SIL B EH R SIL W AH IH TH HH IH EH M SIL AE DH IH Z L UH L SIL D AA SIL AY L AH SIL TH EH OW L SIL B L UH SIL K G DH IH SIL S AH M B DX IY S IH DX IY IH N DH EH R ER DH IH SH F IH SH N SIL SIL AA N DH AH SIL D AA SIL SIL M
+15   02:13.748 → 02:18.000     Participant  4.25      s There is no look how looks like a                  DH EH ER SIL IH EH S DH AH L L DH L UH SIL K AH DH AH L UH SIL K S Z L AY EY SIL K G EY AH
+16   02:19.553 → 02:36.732     Participant  17.18     s The subject, yeah, kid is getting some water or sa DH AH TH AH M N SIL D ER SIL M Y EH EY SIL AH AA M SIL G AE AW AA SIL SIL K CH IH DX IH S AE AW G IH DX IY NG N S AH M B W AA DX ER SIL AA R ER M SIL R ER S EY AE N SIL D ER S AH M N L DH EH SIL B IH SIL K DH IH Z L SIL K IY UW HH IY Z SIL DH AE AW R AA HH AA AH SIL W L UH SIL K IH NG N M B AY SIL K AE AY EY SIL Y IY EH Z S AH SIL AH SIL P AY EY SIL AA ER AA M SIL AE AY SIL EY SIL IH AW M
+17   02:38.183 → 02:48.409     Participant  10.23     s a shovel and a pipe. It looks like there's some gr M SIL DH AH SH EH V L SIL EH AE EH N SIL AE N AH SIL AH M SIL P AY EY SIL AE EH R ER R AA HH M DH UH SIL K S L AY EY SIL K IH SIL DH ER SH SIL T S AH M SIL G R AE M SIL AE SIL AA ER SIL AA M
+18   02:50.417 → 02:54.045     Participant  3.63      s Mon and                                            M L AA N HH AE N M N M
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:07.962 (7.93s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: This is a picture of looks like a finally there's a
+  Phonemic Encoding: AA V DH IH S IH S EY Y AW AA P HH EH SIL SH ER HH SIL AE AY SIL SIL DH L AH SIL T S L AY SIL K EY IY SIL B AY M AH L IY NG N SIL B EH ER S HH EY IY IY AA M
+
+Segment 2:
+  Timestamp: 00:09.902 - 00:19.032 (9.13s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There's a tree and there's like the man and the woman are having a little part to it.
+  Phonemic Encoding: DH AH Z AH SIL CH R IY HH SIL HH AE N SIL SIL N AE EH R ER SIL T S SIL L EY SIL K EH AH DH AH M AE N IH EH N DH AE AH EH M DH IH N SIL B W OW L M IY SIL SIL AY ER AE HH EH M SIL B IY M L DX L SIL SIL AA R SIL SIL T R UW IH SIL N SIL IH SIL
+
+Segment 3:
+  Timestamp: 00:19.032 - 00:49.845 (30.81s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: on a blanket. The guy is working at a book and the big girls is having a hard online. There's a little overlay rated radio on there and it looks like he has is flip-flop off and they're on the back of the blanket and again.
+  Phonemic Encoding: AA SIL AA N AA AW SIL AA N AH M SIL M M SIL P L AE SIL K IH SIL T SIL M SIL DH IY SIL G AY SIL Y EH S AA EH Z S SIL W OW L B AH W R ER SIL IH N AH ER SIL AW OW SIL B UH SIL G IH DX EH DX AH SIL B UH SIL SIL AE N B DH IH SIL G SIL B IH SIL G ER OW L S AH S SIL AE AW SIL P AH N SIL D G IH EH SIL N HH AA ER DX AH N M B W AY N AA V AH DH EH R Z S AH L UH DX OW L AA M SIL ER EH V AH L EY R EY DX IH ER SIL R ER SIL K AA R EY IH SIL R EY DX IY EH ER AA R ER N SIL DH EH ER SIL AE N IH SIL L UH SIL S EY SIL K SIL HH IY HH AE V S IY IH S AY HH IH Z S F L IH SIL F L AA SIL SIL AA SH SIL DH EH N EH R ER AA N L IY AH SIL P AE SIL DH AH SIL P L AY SIL T IH V EH N SIL DH AH IH SIL D EH N
+
+Segment 4:
+  Timestamp: 00:50.706 - 00:55.026 (4.32s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Behind the tree there is a car.
+  Phonemic Encoding: AA M B HH AY N DH AH SIL T CH R IY DH EH ER IH Z EY AA AH SIL K AA R ER N EH AH
+
+Segment 5:
+  Timestamp: 00:56.747 - 01:02.822 (6.08s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: getting regular in the garage. And it's the house. There's some submarines.
+  Phonemic Encoding: G IH DX IY IH IH SIL G L ER SIL IH N DH IH SIL K G ER AA AY SH AA M EH N IH SIL T S DH AH HH AW L S SIL DH EH ER Z EH AH ER SIL S AH M SH S AH M B ER IY S
+
+Segment 6:
+  Timestamp: 01:03.210 - 01:06.130 (2.92s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and it's like ever of range things like that.
+  Phonemic Encoding: AH N Z L AY EY SIL SIL EH SIL B ER SIL G R EY IY N S SIL DH IH NG S L AY EY SIL B AE
+
+Segment 7:
+  Timestamp: 01:06.653 - 01:14.213 (7.56s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: There's a flight hanging looks like those an ores.
+  Phonemic Encoding: HH M M ER DH EH R ER Z EH EY EY DH EH R ER Z AH F L AY IH SIL D HH AE NG IY N L UH SIL K S L AY EY SIL DH R AH OW Z AH N AH SIL AA AA R ER IY Z S
+
+Segment 8:
+  Timestamp: 01:17.419 - 01:25.975 (8.56s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: both out there. They look like it's a it is a lake and with
+  Phonemic Encoding: B OW S DH AW L SIL TH DH EH ER M SIL AA M DH EH L UH SIL K S L AY EY SIL K EH AH SIL EH SIL T S EH EY IY AA M IY IH SIL Y IH EH S SIL HH EH EY Y AA SIL SIL AH L EY SIL SIL HH AE N W EH
+
+Segment 9:
+  Timestamp: 01:25.975 - 01:28.540 (2.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that shun-
+  Phonemic Encoding: DH AE SIL S AH M SIL HH AA M SIL
+
+Segment 10:
+  Timestamp: 01:30.025 - 01:46.124 (16.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, trees on that side, there's a bit of a lane on a just sailboat that's looking as 4-7 years on all the side. They ain't a little game over there or over there.
+  Phonemic Encoding: R CH T R IY S SIL AH SIL AA N M L AH SIL DH EH SIL T SH S AY SIL B ER Z N IH DX DH EH ER DX SIL HH SIL AA N DH AH L EY N SIL SIL Y IY SIL SIL SIL AA SIL AA N AH SIL T S AH S SIL S EH AE AW L SIL B OW SIL DH AH SIL T S L UH SIL K IH IY IH S SIL SIL P F W AA R S TH EH SIL P IH N SIL SIL UW IY IY EH ER AA AH N M N AA DX AH DH AH TH F TH AY SIL DH R EY IH N HH EY SIL D L UH UW Y IY EY EH ER W IH DH EH R ER ER V W IH AH DH EH ER M
+
+Segment 11:
+  Timestamp: 01:47.828 - 01:49.566 (1.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: writing to the people of...
+  Phonemic Encoding: R AA AE AY DX IY SIL N SIL D IH DH AH SIL P IY SIL P L SIL DH AH
+
+Segment 12:
+  Timestamp: 01:50.629 - 01:51.743 (1.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and the guard for them.
+  Phonemic Encoding: AE EH SIL B IH SIL G AE ER F AH DH AH
+
+Segment 13:
+  Timestamp: 01:51.962 - 01:56.350 (4.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: people back back there are even more than where the kid is.
+  Phonemic Encoding: P IY SIL B L SIL B AE SIL P AE SIL K EH ER SIL AA R SIL L IY SIL SIL SIL B R ER V R EH AH SIL DH EH AH N SIL N M W EH DH IH SIL K IH DX V IH S AA M
+
+Segment 14:
+  Timestamp: 01:57.700 - 02:13.410 (15.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have it at I am he's flying a kite. There's a there's a dog there with him. There's a little dot. Let's look at somebody sitting there on the fishing on the dot.
+  Phonemic Encoding: AY SIL AH AA HH AE V IH DX EH SIL T K AA SIL HH AH AE AW M SIL AE HH IY Z F L AY N IH SIL K AY AE DH EH ER Z S EY Y AE AH M SIL DH EH ER Z AH SIL DH AH SIL D AA L M SIL SIL B EH R SIL W AH IH TH HH IH EH M SIL AE DH IH Z L UH L SIL D AA SIL AY L AH SIL TH EH OW L SIL B L UH SIL K G DH IH SIL S AH M B DX IY S IH DX IY IH N DH EH R ER DH IH SH F IH SH N SIL SIL AA N DH AH SIL D AA SIL SIL M
+
+Segment 15:
+  Timestamp: 02:13.748 - 02:18.000 (4.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: There is no look how looks like a
+  Phonemic Encoding: DH EH ER SIL IH EH S DH AH L L DH L UH SIL K AH DH AH L UH SIL K S Z L AY EY SIL K G EY AH
+
+Segment 16:
+  Timestamp: 02:19.553 - 02:36.732 (17.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The subject, yeah, kid is getting some water or sand or something, that bit there's a queue. He's looking like a game. Yes, a pipe.
+  Phonemic Encoding: DH AH TH AH M N SIL D ER SIL M Y EH EY SIL AH AA M SIL G AE AW AA SIL SIL K CH IH DX IH S AE AW G IH DX IY NG N S AH M B W AA DX ER SIL AA R ER M SIL R ER S EY AE N SIL D ER S AH M N L DH EH SIL B IH SIL K DH IH Z L SIL K IY UW HH IY Z SIL DH AE AW R AA HH AA AH SIL W L UH SIL K IH NG N M B AY SIL K AE AY EY SIL Y IY EH Z S AH SIL AH SIL P AY EY SIL AA ER AA M SIL AE AY SIL EY SIL IH AW M
+
+Segment 17:
+  Timestamp: 02:38.183 - 02:48.409 (10.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a shovel and a pipe. It looks like there's some gram.
+  Phonemic Encoding: M SIL DH AH SH EH V L SIL EH AE EH N SIL AE N AH SIL AH M SIL P AY EY SIL AE EH R ER R AA HH M DH UH SIL K S L AY EY SIL K IH SIL DH ER SH SIL T S AH M SIL G R AE M SIL AE SIL AA ER SIL AA M
+
+Segment 18:
+  Timestamp: 02:50.417 - 02:54.045 (3.63s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Mon and
+  Phonemic Encoding: M L AA N HH AE N M N M

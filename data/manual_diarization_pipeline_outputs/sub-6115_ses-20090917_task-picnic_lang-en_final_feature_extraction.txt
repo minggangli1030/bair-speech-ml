@@ -1,0 +1,209 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-6115_ses-20090917_task-picnic_lang-en_final.wav
+Total Segments: 27
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.785     Participant  1.76      s There's a couple.                                  DH IH ER S AH SIL K AH AA SIL P L L SIL
+2    00:02.224 → 00:03.540     Participant  1.32      s itting on a                                        S IH SIL DX IY NG SIL AA N AW AH
+3    00:04.671 → 00:06.240     Participant  1.57      s A big towel.                                       AY EH SIL B IY SIL T SIL T AW L
+4    00:07.236 → 00:09.008     Participant  1.77      s having a pic naked.                                HH AE V IH IY NG AH SIL P IH SIL K N EY SIL K
+5    00:11.168 → 00:17.699     Participant  6.53      s A man is reading their picnic bass, good.          HH AH M EH N SIL IH S R IY DX IY NG DH EH R S HH EH SIL P IH SIL N EY SIL B AE S SIL S SIL K EH SIL T
+6    00:18.120 → 00:48.411     Participant  30.29     s between them and the woman is pouring wine from an B IH SIL T P W IY N DH EH M SIL IH EH N DH AH W UH AA M IH N SIL IH S SIL P AA R IH NG HH SIL W AY N SIL F AA M AH SIL B AA DX L SIL T UW ER SIL K G L AE S S DH EH R Z S ER W R EY DX IY L L M N EH SIL K S SIL T UW HH ER AE N HH IY IH Z S SIL B EH AH F UH R SIL T HH IH Z S SIL S AE EH N SIL D L S SIL AA R ER S EY S IH DX D IY NG AA N DH AH S AY SIL T SIL DH IY IH ER S IH SIL D IY IH NG SIL AA SIL AA AH N SIL D ER ER IH SIL T R IY SIL B IY HH AY N SIL D DH AH EH AH S IY N SIL IH S HH AH AA HH AW S
+7    00:48.968 → 00:50.487     Participant  1.52      s with the car.                                      W R IH SIL T S EH AE AH F SIL K AA R
+8    00:51.854 → 00:53.220     Participant  1.37      s parked in the...                                   P AA R SIL S IH SIL IH N N DH AH
+9    00:55.161 → 00:56.427     Participant  1.27      s God's way.                                         G R AA SIL CH SH W EY HH
+10   00:59.565 → 01:08.121     Participant  8.56      s Near the house is a flagpole with a flag slaughter M IY IH DH AH HH AW S SIL IH S AH S SH L AE SIL K SIL T P HH OW L B W UH IH DH AH V F F S L AE NG SIL G IH F SH L AH SIL D ER R IH NG SIL SIL IH N DH AH W IH N L D
+11   01:09.218 → 01:11.918     Participant  2.70      s and the boy, the                                   AE N SIL D DH AH SIL B OY IY DH AH
+12   01:13.065 → 01:16.019     Participant  2.95      s The Roy is flying a kite.                          F P ER OY HH EH IH Z S SIL F L AY NG SIL AH SIL K AY SIL
+13   01:17.824 → 01:18.989     Participant  1.16      s and she...                                         AE N SIL SH IY
+14   01:20.609 → 01:22.043     Participant  1.43      s dog with him.                                      D AA SIL G W IH Z S SIL T HH IH EH M
+15   01:25.199 → 01:27.308     Participant  2.11      s Oh, there is a pier.                               AH L EH ER IH S EH AH M SIL P CH IH ER
+16   01:28.236 → 01:29.839     Participant  1.60      s Un-a-lake                                          AA N SIL K SIL HH AH AA AH L EY SIL K
+17   01:31.409 → 01:42.782     Participant  11.37     s from which a person is fishing. There's also a sai F AA R M W IH SIL CH SH SIL AE AH SIL P R ER S N EY IH SH S IH SH IH NG DH EH ER S SIL AA L SIL T S OW SIL L Z SIL S EY AH L SIL B AA R ER SIL T P HH AA N DH AH L EY SIL K
+18   01:44.824 → 01:48.047     Participant  3.22      s but sales to sales                                 M B UH IH SIL TH S TH EH AH AH HH SIL S EY L S S SIL T UW S EH L S
+19   01:55.574 → 02:00.501     Participant  4.93      s They're sailing and they're two people on the boar DH EH R S EY EH L IH NG SIL EH N SIL DH EH R ER SIL T CH UW SIL P IY SIL P AA L SIL AA N DH AH SIL B OW L SIL D T
+20   02:00.855 → 02:04.568     Participant  3.71      s can one of them is waving.                         K EH N SIL M W AA AH N OW S DH IH SIL N DH EH M SIL IH S SIL B W OY EY V IH NG
+21   02:05.800 → 02:08.112     Participant  2.31      s There's also a...                                  D EH S SIL AA L SIL S OW SIL HH AH
+22   02:08.348 → 02:11.976     Participant  3.63      s little boy or a little child                       N DH UH DX L SIL B R OY IY AA AA R SIL AH N L IH DX DH L SIL T CH AY L
+23   02:12.989 → 02:15.098     Clinician    2.11      s and join in the...                                 AW N SIL S EY IY NG SIL IH N DH AH AW
+24   02:19.047 → 02:20.937     Clinician    1.89      s and be happy.                                      AE N SIL P IY Z HH EH SIL
+25   02:22.101 → 02:23.485     Clinician    1.38      s behind the um                                      IY HH AY N SIL D IH SIL EH M SIL
+26   02:24.261 → 02:25.628     Clinician    1.37      s him is uh                                          HH IH EH M SIL IH S AH SIL
+27   02:26.016 → 02:28.429     Clinician    2.41      s pale and shovel.                                   P EY L SIL AE N SIL D AH SH AH V L SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.785 (1.76s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's a couple.
+  Phonemic Encoding: DH IH ER S AH SIL K AH AA SIL P L L SIL
+
+Segment 2:
+  Timestamp: 00:02.224 - 00:03.540 (1.32s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: itting on a
+  Phonemic Encoding: S IH SIL DX IY NG SIL AA N AW AH
+
+Segment 3:
+  Timestamp: 00:04.671 - 00:06.240 (1.57s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A big towel.
+  Phonemic Encoding: AY EH SIL B IY SIL T SIL T AW L
+
+Segment 4:
+  Timestamp: 00:07.236 - 00:09.008 (1.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: having a pic naked.
+  Phonemic Encoding: HH AE V IH IY NG AH SIL P IH SIL K N EY SIL K
+
+Segment 5:
+  Timestamp: 00:11.168 - 00:17.699 (6.53s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: A man is reading their picnic bass, good.
+  Phonemic Encoding: HH AH M EH N SIL IH S R IY DX IY NG DH EH R S HH EH SIL P IH SIL N EY SIL B AE S SIL S SIL K EH SIL T
+
+Segment 6:
+  Timestamp: 00:18.120 - 00:48.411 (30.29s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: between them and the woman is pouring wine from an adult to her glass. There's a radio next to her and he is barefoot. His sandals are sitting on the side. They are sitting under a tree behind the scene is a house.
+  Phonemic Encoding: B IH SIL T P W IY N DH EH M SIL IH EH N DH AH W UH AA M IH N SIL IH S SIL P AA R IH NG HH SIL W AY N SIL F AA M AH SIL B AA DX L SIL T UW ER SIL K G L AE S S DH EH R Z S ER W R EY DX IY L L M N EH SIL K S SIL T UW HH ER AE N HH IY IH Z S SIL B EH AH F UH R SIL T HH IH Z S SIL S AE EH N SIL D L S SIL AA R ER S EY S IH DX D IY NG AA N DH AH S AY SIL T SIL DH IY IH ER S IH SIL D IY IH NG SIL AA SIL AA AH N SIL D ER ER IH SIL T R IY SIL B IY HH AY N SIL D DH AH EH AH S IY N SIL IH S HH AH AA HH AW S
+
+Segment 7:
+  Timestamp: 00:48.968 - 00:50.487 (1.52s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: with the car.
+  Phonemic Encoding: W R IH SIL T S EH AE AH F SIL K AA R
+
+Segment 8:
+  Timestamp: 00:51.854 - 00:53.220 (1.37s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: parked in the...
+  Phonemic Encoding: P AA R SIL S IH SIL IH N N DH AH
+
+Segment 9:
+  Timestamp: 00:55.161 - 00:56.427 (1.27s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: God's way.
+  Phonemic Encoding: G R AA SIL CH SH W EY HH
+
+Segment 10:
+  Timestamp: 00:59.565 - 01:08.121 (8.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Near the house is a flagpole with a flag slaughtering in the wind.
+  Phonemic Encoding: M IY IH DH AH HH AW S SIL IH S AH S SH L AE SIL K SIL T P HH OW L B W UH IH DH AH V F F S L AE NG SIL G IH F SH L AH SIL D ER R IH NG SIL SIL IH N DH AH W IH N L D
+
+Segment 11:
+  Timestamp: 01:09.218 - 01:11.918 (2.70s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and the boy, the
+  Phonemic Encoding: AE N SIL D DH AH SIL B OY IY DH AH
+
+Segment 12:
+  Timestamp: 01:13.065 - 01:16.019 (2.95s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The Roy is flying a kite.
+  Phonemic Encoding: F P ER OY HH EH IH Z S SIL F L AY NG SIL AH SIL K AY SIL
+
+Segment 13:
+  Timestamp: 01:17.824 - 01:18.989 (1.16s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and she...
+  Phonemic Encoding: AE N SIL SH IY
+
+Segment 14:
+  Timestamp: 01:20.609 - 01:22.043 (1.43s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: dog with him.
+  Phonemic Encoding: D AA SIL G W IH Z S SIL T HH IH EH M
+
+Segment 15:
+  Timestamp: 01:25.199 - 01:27.308 (2.11s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Oh, there is a pier.
+  Phonemic Encoding: AH L EH ER IH S EH AH M SIL P CH IH ER
+
+Segment 16:
+  Timestamp: 01:28.236 - 01:29.839 (1.60s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Un-a-lake
+  Phonemic Encoding: AA N SIL K SIL HH AH AA AH L EY SIL K
+
+Segment 17:
+  Timestamp: 01:31.409 - 01:42.782 (11.37s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: from which a person is fishing. There's also a sailboat on the lake.
+  Phonemic Encoding: F AA R M W IH SIL CH SH SIL AE AH SIL P R ER S N EY IH SH S IH SH IH NG DH EH ER S SIL AA L SIL T S OW SIL L Z SIL S EY AH L SIL B AA R ER SIL T P HH AA N DH AH L EY SIL K
+
+Segment 18:
+  Timestamp: 01:44.824 - 01:48.047 (3.22s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: but sales to sales
+  Phonemic Encoding: M B UH IH SIL TH S TH EH AH AH HH SIL S EY L S S SIL T UW S EH L S
+
+Segment 19:
+  Timestamp: 01:55.574 - 02:00.501 (4.93s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: They're sailing and they're two people on the board.
+  Phonemic Encoding: DH EH R S EY EH L IH NG SIL EH N SIL DH EH R ER SIL T CH UW SIL P IY SIL P AA L SIL AA N DH AH SIL B OW L SIL D T
+
+Segment 20:
+  Timestamp: 02:00.855 - 02:04.568 (3.71s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: can one of them is waving.
+  Phonemic Encoding: K EH N SIL M W AA AH N OW S DH IH SIL N DH EH M SIL IH S SIL B W OY EY V IH NG
+
+Segment 21:
+  Timestamp: 02:05.800 - 02:08.112 (2.31s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: There's also a...
+  Phonemic Encoding: D EH S SIL AA L SIL S OW SIL HH AH
+
+Segment 22:
+  Timestamp: 02:08.348 - 02:11.976 (3.63s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: little boy or a little child
+  Phonemic Encoding: N DH UH DX L SIL B R OY IY AA AA R SIL AH N L IH DX DH L SIL T CH AY L
+
+Segment 23:
+  Timestamp: 02:12.989 - 02:15.098 (2.11s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and join in the...
+  Phonemic Encoding: AW N SIL S EY IY NG SIL IH N DH AH AW
+
+Segment 24:
+  Timestamp: 02:19.047 - 02:20.937 (1.89s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and be happy.
+  Phonemic Encoding: AE N SIL P IY Z HH EH SIL
+
+Segment 25:
+  Timestamp: 02:22.101 - 02:23.485 (1.38s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: behind the um
+  Phonemic Encoding: IY HH AY N SIL D IH SIL EH M SIL
+
+Segment 26:
+  Timestamp: 02:24.261 - 02:25.628 (1.37s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: him is uh
+  Phonemic Encoding: HH IH EH M SIL IH S AH SIL
+
+Segment 27:
+  Timestamp: 02:26.016 - 02:28.429 (2.41s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: pale and shovel.
+  Phonemic Encoding: P EY L SIL AE N SIL D AH SH AH V L SIL

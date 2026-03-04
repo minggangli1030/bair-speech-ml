@@ -1,0 +1,62 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-33210_ses-20220304_task-picnic_lang-en_final.wav
+Total Segments: 6
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:21.765     Participant  21.74     s It looks like a family that is having a picnic out SIL EH SIL L UH SIL K S IH SIL SIL L AY SIL K SIL K IH SIL EY F AE AW M L IY SIL DH IH DX IH Z S HH AE V IH IY NG IH SIL P IH SIL N IH SIL K SIL AW SIL S AY SIL B EH IH SIL B AY DH EH ER SIL HH AW S SIL AA R ER DH IH SIL DH EH ER R IH N SIL T IH IY NG SIL B AY IH AH SIL L EY SIL K N S AH M SIL B IH DX IY S SIL S AH M AH DH AH SIL P IY SIL P L AW SIL N DH AH L EY SIL AA R ER S EY L IH NG G SIL IH AE N SIL F TH IH SH IH NG Y IY IY Y AE N AE N AH N AH OW W EH AH SIL TH DH EH ER SIL T UW SIL B IH SIL P R AA V AH SIL B L IY
+2    00:22.778 → 00:25.022     Participant  2.24      s just swimming.                                     SIL D IH S SIL S SIL W IH M IH NG G
+3    00:25.022 → 00:32.279     Clinician    7.26      s And one of the people is flying a tie right next t IH IY IH N W AH N AH V DH AH SIL P IY SIL P L HH SIL HH EH SIL N AH SIL IH Z S SIL F L AY NG AH IH SIL T AY R AY SIL N IH EH SIL K S SIL T UW HH IH S SIL D AA
+4    00:33.105 → 00:34.742     Clinician    1.64      s and there's a flag up.                             IH AE IH N DH EH ER Z AH F L AE SIL G AH SIL
+5    00:35.249 → 00:36.717     Clinician    1.47      s got no idea about that.                            K G AH AA N OW SIL D IY IH SIL B AW SIL D AE
+6    00:39.349 → 00:43.720     Clinician    4.37      s in the kind of radio, obviously got food and stuff IH N DH IH SIL K AA DX AH R EY DX IY OW OW L B AA V IY IH S L IY SIL G AA SIL F UW DX IH N S SIL T AH AA F S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:21.765 (21.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It looks like a family that is having a picnic outside, but by their house or that they're renting, by lake, somebody's, some of the people out in the lake are sailing and fishing, and I don't know what they're doing, but probably...
+  Phonemic Encoding: SIL EH SIL L UH SIL K S IH SIL SIL L AY SIL K SIL K IH SIL EY F AE AW M L IY SIL DH IH DX IH Z S HH AE V IH IY NG IH SIL P IH SIL N IH SIL K SIL AW SIL S AY SIL B EH IH SIL B AY DH EH ER SIL HH AW S SIL AA R ER DH IH SIL DH EH ER R IH N SIL T IH IY NG SIL B AY IH AH SIL L EY SIL K N S AH M SIL B IH DX IY S SIL S AH M AH DH AH SIL P IY SIL P L AW SIL N DH AH L EY SIL AA R ER S EY L IH NG G SIL IH AE N SIL F TH IH SH IH NG Y IY IY Y AE N AE N AH N AH OW W EH AH SIL TH DH EH ER SIL T UW SIL B IH SIL P R AA V AH SIL B L IY
+
+Segment 2:
+  Timestamp: 00:22.778 - 00:25.022 (2.24s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: just swimming.
+  Phonemic Encoding: SIL D IH S SIL S SIL W IH M IH NG G
+
+Segment 3:
+  Timestamp: 00:25.022 - 00:32.279 (7.26s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: And one of the people is flying a tie right next to his dog.
+  Phonemic Encoding: IH IY IH N W AH N AH V DH AH SIL P IY SIL P L HH SIL HH EH SIL N AH SIL IH Z S SIL F L AY NG AH IH SIL T AY R AY SIL N IH EH SIL K S SIL T UW HH IH S SIL D AA
+
+Segment 4:
+  Timestamp: 00:33.105 - 00:34.742 (1.64s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and there's a flag up.
+  Phonemic Encoding: IH AE IH N DH EH ER Z AH F L AE SIL G AH SIL
+
+Segment 5:
+  Timestamp: 00:35.249 - 00:36.717 (1.47s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: got no idea about that.
+  Phonemic Encoding: K G AH AA N OW SIL D IY IH SIL B AW SIL D AE
+
+Segment 6:
+  Timestamp: 00:39.349 - 00:43.720 (4.37s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: in the kind of radio, obviously got food and stuff.
+  Phonemic Encoding: IH N DH IH SIL K AA DX AH R EY DX IY OW OW L B AA V IY IH S L IY SIL G AA SIL F UW DX IH N S SIL T AH AA F S

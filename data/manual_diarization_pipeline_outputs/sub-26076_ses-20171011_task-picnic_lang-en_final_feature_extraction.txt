@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-26076_ses-20171011_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.908 → 00:03.827     Participant  2.92      s Yeah, we've got the family.                        Y IH EH HH AH AW W IY SIL G EH AE SIL T IH AH V SIL IH DH AH F AE M L IY W IH SIL
+2    00:06.392 → 00:15.066     Participant  8.67      s he is man and white and it looks like the guy who' IY HH IH M N M N S M AE N IH N W AY SH SIL W SIL AE EH N SIL D HH IH F IH L UH SIL K S L AY SIL DH IH SIL G AY HH UW Z EY SIL T UW DH UW SIL M L UH SIL K S L AY SIL K HH IY Z AH SIL B AW HH AH IH N
+3    00:15.522 → 00:20.652     Participant  5.13      s You know, maybe 12 or 15 and he's got a kite up th AH HH IH N AH OW M EY SIL B IY SIL T W AA L V ER F IH F SIL T IY N IH N IY Z SIL K G AA AY DX EY EY EY EH IH V SIL K AY SIL T SIL UW M AH SIL DH EH ER
+4    00:20.719 → 00:22.424     Participant  1.70      s and there's the beach.                             IY HH UW ER M SIL HH EH N EH R Z DH AH SIL B IY SIL CH
+5    00:22.677 → 00:23.774     Participant  1.10      s milk the water                                     DH UH OW SIL DH AH W AA DX ER SIL
+6    00:24.077 → 00:25.765     Participant  1.69      s We see, you know,                                  W IH S EY IY EH AH IY IH N AA L
+7    00:28.178 → 00:34.506     Participant  6.33      s thing can remember and then there's there there's  DH TH EY NG HH SIL K EH R IY M EH M SIL B ER EH N EH N ER R Z DH EH ER DH ER Z AH SIL AH SIL HH AW S SIL R AY EY SIL T IH ER N IY SIL CH R IY SIL HH AE EH SIL S
+8    00:34.810 → 00:37.054     Clinician    2.24      s Yeah, and I don't actually                         L DH EH AH SIL AE N AY SIL EH N AH SIL D AA OW AH SIL G AE AY SIL CH EY
+9    00:36.953 → 00:41.678     Participant  4.73      s and a little kid right there, by the way, right th EY AE N AH L IH DX L SIL K IH N R AY EY SIL T EH R SIL B AY DH AH L W AY EH R AY SIL T D EH ER SIL HH AE IH N L UH SIL K S L AY SIL K AH F AA R Y ER OW L
+10   00:44.192 → 00:58.300     Participant  14.11     s with all the stuff. Well, that's, I think that's a W IH DX DH AA L DH AH S SIL T AH HH F L DH AE AW SIL CH S AY SIL T IH EY NG SIL T AE SIL T S EY EH AH Y IH EH N ER DH AE SIL T S DH AE AW SIL DH D AE SIL T S IH AH F G R IH N M N AH ER SIL M Y UW Z IH SIL K IH SIL DH AH M Y UW Z IH SIL K TH IH N SIL AE SIL R EY DX IY Y OW L SIL Y EH DH AE SIL T S AH R EY DX IY AA NG Y IH N AE AE HH IY Z S SIL DH AH SIL DH L UH SIL NG AE DX AH SIL B UH SIL K SIL IH Z SIL G EH DX AH SIL B UH SIL
+11   01:01.354 → 01:11.867     Participant  10.51     s Those look like his not shoes but the shoes. Shoes T OW Z S SIL L UH SIL K L AY SIL K G ER AH HH IH S SH SIL HH IH Z IH SH IY SIL IH SIL N AA SIL CH SH IY UW SIL N SH UW Z SIL B AH SIL DH IY SH UW S SH EH TH N AA SIL CH SH IH UW IH IH ER IH Z EY AE SIL N AA SIL DH AH F OW L SH UW Z SIL B AH SIL DH AH L OW L L W IH N Y IH SIL P UH SIL CH ER
+12   01:13.673 → 01:17.757     Participant  4.08      s foot in there. She is drinking her.                F UH DX IH N EH ER SH IY SIL HH HH EH IH S EH JH R IH SIL K IH N HH ER
+13   01:19.866 → 01:22.600     Participant  2.73      s That's an indigenous territory, person.            IH SIL T EH SIL B EH S AH N M IY SIL S UW N DH AH DH EH SIL DH IH DX AH SIL AA DX AA AY SIL K IH Z
+14   01:26.717 → 01:34.834     Clinician    8.12      s I know what it is. Of course, I know what it is. B HH AE AY N OW W AH DX IH SIL D IH Z S SIL V SIL K W AA R S AY N OW W AH AE N IH DX IH SIL Y AE N SIL B AH N IH M AY SIL IH N S SIL P IH DX IH DX AW HH AH M IY N IH SIL T S SIL IH SIL T S Z SIL N AA DX AH IH SH IH SIL SIL SIL AY N Y OW IH SIL T S SIL G AA DX AH SH IH SIL
+15   01:36.420 → 01:39.964     Clinician    3.54      s I can't tell you any flag. That's what I'm looking HH AY SIL K OW AE N SIL T IH L IY Y AE N IH F L AY SIL K SIL L AY AE SIL T S IH F L AE SIL P IY AA SIL B AH AH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.908 - 00:03.827 (2.92s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Yeah, we've got the family.
+  Phonemic Encoding: Y IH EH HH AH AW W IY SIL G EH AE SIL T IH AH V SIL IH DH AH F AE M L IY W IH SIL
+
+Segment 2:
+  Timestamp: 00:06.392 - 00:15.066 (8.67s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: he is man and white and it looks like the guy who's a looks like he's about
+  Phonemic Encoding: IY HH IH M N M N S M AE N IH N W AY SH SIL W SIL AE EH N SIL D HH IH F IH L UH SIL K S L AY SIL DH IH SIL G AY HH UW Z EY SIL T UW DH UW SIL M L UH SIL K S L AY SIL K HH IY Z AH SIL B AW HH AH IH N
+
+Segment 3:
+  Timestamp: 00:15.522 - 00:20.652 (5.13s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: You know, maybe 12 or 15 and he's got a kite up there.
+  Phonemic Encoding: AH HH IH N AH OW M EY SIL B IY SIL T W AA L V ER F IH F SIL T IY N IH N IY Z SIL K G AA AY DX EY EY EY EH IH V SIL K AY SIL T SIL UW M AH SIL DH EH ER
+
+Segment 4:
+  Timestamp: 00:20.719 - 00:22.424 (1.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's the beach.
+  Phonemic Encoding: IY HH UW ER M SIL HH EH N EH R Z DH AH SIL B IY SIL CH
+
+Segment 5:
+  Timestamp: 00:22.677 - 00:23.774 (1.10s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: milk the water
+  Phonemic Encoding: DH UH OW SIL DH AH W AA DX ER SIL
+
+Segment 6:
+  Timestamp: 00:24.077 - 00:25.765 (1.69s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: We see, you know,
+  Phonemic Encoding: W IH S EY IY EH AH IY IH N AA L
+
+Segment 7:
+  Timestamp: 00:28.178 - 00:34.506 (6.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: thing can remember and then there's there there's a house right there any tree that's
+  Phonemic Encoding: DH TH EY NG HH SIL K EH R IY M EH M SIL B ER EH N EH N ER R Z DH EH ER DH ER Z AH SIL AH SIL HH AW S SIL R AY EY SIL T IH ER N IY SIL CH R IY SIL HH AE EH SIL S
+
+Segment 8:
+  Timestamp: 00:34.810 - 00:37.054 (2.24s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Yeah, and I don't actually
+  Phonemic Encoding: L DH EH AH SIL AE N AY SIL EH N AH SIL D AA OW AH SIL G AE AY SIL CH EY
+
+Segment 9:
+  Timestamp: 00:36.953 - 00:41.678 (4.73s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and a little kid right there, by the way, right there. Yeah. It looks like a four-year-old.
+  Phonemic Encoding: EY AE N AH L IH DX L SIL K IH N R AY EY SIL T EH R SIL B AY DH AH L W AY EH R AY SIL T D EH ER SIL HH AE IH N L UH SIL K S L AY SIL K AH F AA R Y ER OW L
+
+Segment 10:
+  Timestamp: 00:44.192 - 00:58.300 (14.11s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with all the stuff. Well, that's, I think that's a, you know, that's, that's, that's, that's, music, the music thing radio. That's a radio. Yeah. He's looking at a book. He's got a book.
+  Phonemic Encoding: W IH DX DH AA L DH AH S SIL T AH HH F L DH AE AW SIL CH S AY SIL T IH EY NG SIL T AE SIL T S EY EH AH Y IH EH N ER DH AE SIL T S DH AE AW SIL DH D AE SIL T S IH AH F G R IH N M N AH ER SIL M Y UW Z IH SIL K IH SIL DH AH M Y UW Z IH SIL K TH IH N SIL AE SIL R EY DX IY Y OW L SIL Y EH DH AE SIL T S AH R EY DX IY AA NG Y IH N AE AE HH IY Z S SIL DH AH SIL DH L UH SIL NG AE DX AH SIL B UH SIL K SIL IH Z SIL G EH DX AH SIL B UH SIL
+
+Segment 11:
+  Timestamp: 01:01.354 - 01:11.867 (10.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Those look like his not shoes but the shoes. Shoes. Not shoes. Yeah. Not the false shoes but the little when you put your.
+  Phonemic Encoding: T OW Z S SIL L UH SIL K L AY SIL K G ER AH HH IH S SH SIL HH IH Z IH SH IY SIL IH SIL N AA SIL CH SH IY UW SIL N SH UW Z SIL B AH SIL DH IY SH UW S SH EH TH N AA SIL CH SH IH UW IH IH ER IH Z EY AE SIL N AA SIL DH AH F OW L SH UW Z SIL B AH SIL DH AH L OW L L W IH N Y IH SIL P UH SIL CH ER
+
+Segment 12:
+  Timestamp: 01:13.673 - 01:17.757 (4.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: foot in there. She is drinking her.
+  Phonemic Encoding: F UH DX IH N EH ER SH IY SIL HH HH EH IH S EH JH R IH SIL K IH N HH ER
+
+Segment 13:
+  Timestamp: 01:19.866 - 01:22.600 (2.73s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: That's an indigenous territory, person.
+  Phonemic Encoding: IH SIL T EH SIL B EH S AH N M IY SIL S UW N DH AH DH EH SIL DH IH DX AH SIL AA DX AA AY SIL K IH Z
+
+Segment 14:
+  Timestamp: 01:26.717 - 01:34.834 (8.12s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I know what it is. Of course, I know what it is. But am I gonna spit it out? I mean, it's not a ship. I know, it's not a ship.
+  Phonemic Encoding: HH AE AY N OW W AH DX IH SIL D IH Z S SIL V SIL K W AA R S AY N OW W AH AE N IH DX IH SIL Y AE N SIL B AH N IH M AY SIL IH N S SIL P IH DX IH DX AW HH AH M IY N IH SIL T S SIL IH SIL T S Z SIL N AA DX AH IH SH IH SIL SIL SIL AY N Y OW IH SIL T S SIL G AA DX AH SH IH SIL
+
+Segment 15:
+  Timestamp: 01:36.420 - 01:39.964 (3.54s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I can't tell you any flag. That's what I'm looking at.
+  Phonemic Encoding: HH AY SIL K OW AE N SIL T IH L IY Y AE N IH F L AY SIL K SIL L AY AE SIL T S IH F L AE SIL P IY AA SIL B AH AH

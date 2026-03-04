@@ -1,0 +1,174 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-23798_ses-20190729_task-picnic_lang-en_final.wav
+Total Segments: 22
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:03.929 → 00:05.886     Clinician    1.96      s There were couples.                                D EH W ER SIL SIL SIL AH SIL K AH SIL P L SIL
+2    00:07.675 → 00:09.430     Clinician    1.76      s having a picnic.                                   HH AE V IH NG ER AH SIL P EY SIL N EY SIL K
+3    00:10.257 → 00:12.029     Clinician    1.77      s in front of there.                                 IY IH N S R AH N AA L SIL DH EH HH
+4    00:17.817 → 00:19.268     Participant  1.45      s a big tree.                                        AH SIL B EY SIL T CH R IY
+5    00:25.934 → 00:27.419     Participant  1.48      s hadow them.                                        SH EH SIL D OW L SIL D EH M
+6    00:31.907 → 00:32.920     Participant  1.01      s and                                                AE N
+7    00:34.270 → 00:37.392     Participant  3.12      s The man is reading a book.                         DH D AH M AE EH EH N IY IH S SIL R IY SIL T D IY NG AH M SIL P B UH L SIL
+8    00:41.357 → 00:46.150     Participant  4.79      s Lady of the house is listening.                    R L EY SIL D IY AA L F SIL D DH AA HH AW S IY S SIL L EY IY S N M IH
+9    00:47.044 → 00:48.681     Participant  1.64      s pouring charged.                                   AA R EY IY NG SIL CH UW L L S
+10   00:51.314 → 00:52.478     Participant  1.16      s Dad's uh...                                        D AE SIL S
+11   01:07.935 → 01:10.112     Clinician    2.18      s how he treated the flag                            HH OY Z SIL D EH SIL D AH AA AH V SIL F R L AE SIL
+12   01:13.302 → 01:15.242     Participant  1.94      s that boy is                                        D AH SIL B OY AY EY IY S SIL
+13   01:16.643 → 01:20.288     Participant  3.64      s their son is her prime buddy.                      DH AE S AH N IY IH SIL S AH SIL V R M L AY NG AE AH SIL K AY SIL
+14   01:22.802 → 01:26.144     Participant  3.34      s a dog is running around.                           AE AH SIL D AA SIL P SIL R AH AY N IH IY NG AH R AW
+15   01:30.683 → 01:32.640     Clinician    1.96      s Alright, far away                                  F L W EY
+16   01:32.978 → 01:34.395     Clinician    1.42      s Dance Song                                         DH D AE AH SIL S AA
+17   01:41.888 → 01:43.424     Clinician    1.54      s or those?                                          W IH F SIL S DH EH AW S
+18   01:45.044 → 01:47.744     Clinician    2.70      s and to be poor.                                    EH N SIL T UW L SIL P IY SIL P OW AH AH
+19   01:58.139 → 01:59.775     Clinician    1.64      s There's a man.                                     D EH S AA M AE N SIL
+20   02:15.047 → 02:16.549     Participant  1.50      s are carbon.                                        AA AY SIL K AH SIL B IH N
+21   02:17.832 → 02:20.447     Participant  2.62      s is park behind                                     IY IH S SIL P AA SIL K AH SIL B IY AY N AH AH
+22   02:24.531 → 02:26.303     Participant  1.77      s In front of the...                                 IH SIL V R AY N AA L SIL DH EH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:03.929 - 00:05.886 (1.96s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: There were couples.
+  Phonemic Encoding: D EH W ER SIL SIL SIL AH SIL K AH SIL P L SIL
+
+Segment 2:
+  Timestamp: 00:07.675 - 00:09.430 (1.76s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: having a picnic.
+  Phonemic Encoding: HH AE V IH NG ER AH SIL P EY SIL N EY SIL K
+
+Segment 3:
+  Timestamp: 00:10.257 - 00:12.029 (1.77s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: in front of there.
+  Phonemic Encoding: IY IH N S R AH N AA L SIL DH EH HH
+
+Segment 4:
+  Timestamp: 00:17.817 - 00:19.268 (1.45s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: a big tree.
+  Phonemic Encoding: AH SIL B EY SIL T CH R IY
+
+Segment 5:
+  Timestamp: 00:25.934 - 00:27.419 (1.48s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: hadow them.
+  Phonemic Encoding: SH EH SIL D OW L SIL D EH M
+
+Segment 6:
+  Timestamp: 00:31.907 - 00:32.920 (1.01s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and
+  Phonemic Encoding: AE N
+
+Segment 7:
+  Timestamp: 00:34.270 - 00:37.392 (3.12s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: The man is reading a book.
+  Phonemic Encoding: DH D AH M AE EH EH N IY IH S SIL R IY SIL T D IY NG AH M SIL P B UH L SIL
+
+Segment 8:
+  Timestamp: 00:41.357 - 00:46.150 (4.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Lady of the house is listening.
+  Phonemic Encoding: R L EY SIL D IY AA L F SIL D DH AA HH AW S IY S SIL L EY IY S N M IH
+
+Segment 9:
+  Timestamp: 00:47.044 - 00:48.681 (1.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: pouring charged.
+  Phonemic Encoding: AA R EY IY NG SIL CH UW L L S
+
+Segment 10:
+  Timestamp: 00:51.314 - 00:52.478 (1.16s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Dad's uh...
+  Phonemic Encoding: D AE SIL S
+
+Segment 11:
+  Timestamp: 01:07.935 - 01:10.112 (2.18s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: how he treated the flag
+  Phonemic Encoding: HH OY Z SIL D EH SIL D AH AA AH V SIL F R L AE SIL
+
+Segment 12:
+  Timestamp: 01:13.302 - 01:15.242 (1.94s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: that boy is
+  Phonemic Encoding: D AH SIL B OY AY EY IY S SIL
+
+Segment 13:
+  Timestamp: 01:16.643 - 01:20.288 (3.64s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: their son is her prime buddy.
+  Phonemic Encoding: DH AE S AH N IY IH SIL S AH SIL V R M L AY NG AE AH SIL K AY SIL
+
+Segment 14:
+  Timestamp: 01:22.802 - 01:26.144 (3.34s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: a dog is running around.
+  Phonemic Encoding: AE AH SIL D AA SIL P SIL R AH AY N IH IY NG AH R AW
+
+Segment 15:
+  Timestamp: 01:30.683 - 01:32.640 (1.96s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Alright, far away
+  Phonemic Encoding: F L W EY
+
+Segment 16:
+  Timestamp: 01:32.978 - 01:34.395 (1.42s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Dance Song
+  Phonemic Encoding: DH D AE AH SIL S AA
+
+Segment 17:
+  Timestamp: 01:41.888 - 01:43.424 (1.54s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: or those?
+  Phonemic Encoding: W IH F SIL S DH EH AW S
+
+Segment 18:
+  Timestamp: 01:45.044 - 01:47.744 (2.70s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: and to be poor.
+  Phonemic Encoding: EH N SIL T UW L SIL P IY SIL P OW AH AH
+
+Segment 19:
+  Timestamp: 01:58.139 - 01:59.775 (1.64s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: There's a man.
+  Phonemic Encoding: D EH S AA M AE N SIL
+
+Segment 20:
+  Timestamp: 02:15.047 - 02:16.549 (1.50s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: are carbon.
+  Phonemic Encoding: AA AY SIL K AH SIL B IH N
+
+Segment 21:
+  Timestamp: 02:17.832 - 02:20.447 (2.62s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: is park behind
+  Phonemic Encoding: IY IH S SIL P AA SIL K AH SIL B IY AY N AH AH
+
+Segment 22:
+  Timestamp: 02:24.531 - 02:26.303 (1.77s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: In front of the...
+  Phonemic Encoding: IH SIL V R AY N AA L SIL DH EH

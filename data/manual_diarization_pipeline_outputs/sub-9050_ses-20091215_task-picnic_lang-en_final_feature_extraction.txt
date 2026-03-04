@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-9050_ses-20091215_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.705 → 00:03.540     Participant  2.83      s happen it came how with this stuff I won't be able HH AE SIL P F AH IH DH IH SIL IH OW L SIL K EY M SIL B IH SIL EH HH AE M W IH DH IH S SIL T AH F AY M W OW N SIL P IY IH W L SIL T UW SIL
+2    00:19.200 → 00:24.364     Participant  5.16      s I have a boy and a girl. Nancy. Oh.                AH AY HH AE V AH SIL P B OY EY IH N IH N NG SIL G ER L N EH S IY SIL OW L SIL OW M
+3    00:28.026 → 00:30.355     Participant  2.33      s and see little things like this.                   AE N S IY S SIL IH S DH IH SIL IH SIL L UW UH L SIL T IH NG Z AY SIL DH IH S
+4    00:41.526 → 00:42.758     Participant  1.23      s ee you right now, I can't even...                  S IY AY EY N EH AW IH SIL K EH N IY DX IH N SIL
+5    00:46.302 → 00:51.516     Participant  5.21      s Well and yeah, my hair.. My hair is because he...  W EH L SIL EH N SIL B IY Y AE M B AH HH ER HH SIL K B IH HH IH EH ER SIL IH Z S SIL K AH SIL K IH S IH EH ER HH IH Z S EH AH M
+6    00:55.971 → 00:57.473     Clinician    1.50      s eight eight                                        
+7    01:02.029 → 01:03.092     Clinician    1.06      s I mean, I can...                                   DH AY IH SIL K IH N S SIL AH M IY IH N AY SIL K IH N
+8    01:04.847 → 01:06.974     Clinician    2.13      s Glasses, glasses, okay, I got that.                L AE S S SIL K G L AE S IH S AA ER SIL K EY SIL K DH IH SIL G AA SIL DH AE
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.705 - 00:03.540 (2.83s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: happen it came how with this stuff I won't be able to
+  Phonemic Encoding: HH AE SIL P F AH IH DH IH SIL IH OW L SIL K EY M SIL B IH SIL EH HH AE M W IH DH IH S SIL T AH F AY M W OW N SIL P IY IH W L SIL T UW SIL
+
+Segment 2:
+  Timestamp: 00:19.200 - 00:24.364 (5.16s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I have a boy and a girl. Nancy. Oh.
+  Phonemic Encoding: AH AY HH AE V AH SIL P B OY EY IH N IH N NG SIL G ER L N EH S IY SIL OW L SIL OW M
+
+Segment 3:
+  Timestamp: 00:28.026 - 00:30.355 (2.33s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and see little things like this.
+  Phonemic Encoding: AE N S IY S SIL IH S DH IH SIL IH SIL L UW UH L SIL T IH NG Z AY SIL DH IH S
+
+Segment 4:
+  Timestamp: 00:41.526 - 00:42.758 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: ee you right now, I can't even...
+  Phonemic Encoding: S IY AY EY N EH AW IH SIL K EH N IY DX IH N SIL
+
+Segment 5:
+  Timestamp: 00:46.302 - 00:51.516 (5.21s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well and yeah, my hair.. My hair is because he... His-
+  Phonemic Encoding: W EH L SIL EH N SIL B IY Y AE M B AH HH ER HH SIL K B IH HH IH EH ER SIL IH Z S SIL K AH SIL K IH S IH EH ER HH IH Z S EH AH M
+
+Segment 6:
+  Timestamp: 00:55.971 - 00:57.473 (1.50s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: eight eight
+  Phonemic Encoding: 
+
+Segment 7:
+  Timestamp: 01:02.029 - 01:03.092 (1.06s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I mean, I can...
+  Phonemic Encoding: DH AY IH SIL K IH N S SIL AH M IY IH N AY SIL K IH N
+
+Segment 8:
+  Timestamp: 01:04.847 - 01:06.974 (2.13s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Glasses, glasses, okay, I got that.
+  Phonemic Encoding: L AE S S SIL K G L AE S IH S AA ER SIL K EY SIL K DH IH SIL G AA SIL DH AE

@@ -1,0 +1,167 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-17288_ses-20140129_task-picnic_lang-en_final.wav
+Total Segments: 21
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.655 → 00:06.443     Participant  5.79      s I see a large tree and a house.                    AY S TH IY EH AH SIL L AA R ER SIL CH SIL T R IY SIL AE N IH AH HH L S
+2    00:08.282 → 00:12.552     Participant  4.27      s I see a car. I see.                                AY S IY SIL AH SIL K AA R ER AY S IY
+3    00:20.027 → 00:31.266     Participant  11.24     s itting, a man and a lady, sitting there having a p AA L S IH DX EY NG SIL HH AW AA L M AE N IH SIL IH EH N AH N L EY DX IY S IH DX IY SIL SIL DH EH ER HH AE V IH NG SIL EY SIL P IH SIL K SIL N IH SIL K HH EH SIL D DH IH V M AE N IH SIL IH S SIL R IY DX IY NG SIL AH SIL V F SIL B L SIL
+4    00:32.751 → 00:38.961     Participant  6.21      s And the lady is pouring soda.                      AE N SIL D T SIL N SIL DH EH AH L EY DX IY SIL IH S SIL P AA R ER IH NG IH SIL AE AW AW M S OW DX AH
+5    00:40.851 → 00:44.429     Participant  3.58      s I see a tele- oh, radio.                           HH AY S IY IH SIL T EH L SIL AA AY B R EY DX IY OW L
+6    00:45.576 → 00:50.554     Participant  4.98      s and I see a picnic basket.                         AE N SIL HH AY S IY SIL L AH SIL P IH SIL K DX IH SIL K SIL B AE S SIL K IH SIL T
+7    00:52.140 → 00:59.970     Participant  7.83      s I see a blanket or some sort of thing on the groun AY S EY IY SIL AW L P B L AE EY NG SIL K IH DX D AH SIL AA AA R ER SIL S AH M SIL S SIL S AA R DX IH AH V F SIL TH IH NG IH AH AA N DH AH G R EH EH AW
+8    01:01.202 → 01:09.218     Clinician    8.02      s that they're sitting on. I see another young man f AH DH EH IH SIL TH DH EH ER S IH DX IH IY NG AA N IH AY S IY SIL AH N AH DH ER Y OW NG M EH ER N F L AY IH NG SIL AH SIL K AY SIL T
+9    01:11.310 → 01:12.947     Clinician    1.64      s with his dog.                                      W IH DH TH HH IH S SIL D AA L SIL
+10   01:16.930 → 01:22.178     Clinician    5.25      s I see people of person down on the door.           AY S IY SIL SIL P IY SIL P L SIL OW SIL SIL SIL P R ER SH S IH N SIL D AW L N AA M N DH AH SIL D AA
+11   01:24.405 → 01:26.363     Clinician    1.96      s I see our own.                                     AY S IY SIL HH AA L L
+12   01:28.641 → 01:35.290     Clinician    6.65      s A person that seems to be on a some kind of a boar AH SIL P R ER S IH N DH EH SIL S IY N M S SIL T UW SIL B B IY SIL AA N IH SIL EY SIL S AH M SIL K AY N D IH AH V F V UH SIL B P B AA AA R ER SIL DH AE
+13   01:37.804 → 01:44.571     Clinician    6.77      s It isn't surfboard because it's though there are n IH DX IH S IH AH N S ER F SIL B AA R ER SIL D B IH SIL K AH S IH SIL T S DH OW F DH EH R ER ER N OW W EY SIL S
+14   01:46.427 → 01:49.836     Clinician    3.41      s but he seems to be on some kind of a board.        B AH EH DX ER HH Y IY S IY M S SIL T UW SIL B IY AA N S AH M SIL K AY N D ER V F AH SIL B AA R ER
+15   01:51.000 → 01:52.334     Clinician    1.33      s Pat and maybe...                                   TH AE SIL N SIL D R EY V IY
+16   01:53.970 → 02:06.829     Clinician    12.86     s Maybe a boat is in front of him pulling him. I see M EY V B IY IH AH SIL B OW DX D SIL IH S S SIL IY TH SIL P IH N F R AH N IH AH V IH M SIL TH P F AA L IY IH M HH AY S IY IH Z SIL T TH S EY EH L SIL B OW L SIL T SIL AE N SIL SIL P IY SIL P L SIL HH IH N DH IH AH S EY L SIL B OW L SIL T DH EY ER S EY L EY
+17   02:14.592 → 02:16.920     Participant  2.33      s I see a flag.                                      AY S IY IH AH SIL F L AE NG SIL G
+18   02:18.186 → 02:21.797     Participant  3.61      s Post and flag armate post.                         P OW L S SIL T SIL EH F L AE SIL G AH SIL AA R M AE SIL P OW S SIL T
+19   02:22.911 → 02:24.075     Participant  1.16      s Hello, I see.                                      HH EH N AY S IY SIL
+20   02:27.754 → 02:29.340     Participant  1.59      s Crasse him.                                        K G R AE S SIL HH EH N
+21   02:30.775 → 02:31.973     Participant  1.20      s push-ups.                                          B AA R SH IH SIL S
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.655 - 00:06.443 (5.79s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a large tree and a house.
+  Phonemic Encoding: AY S TH IY EH AH SIL L AA R ER SIL CH SIL T R IY SIL AE N IH AH HH L S
+
+Segment 2:
+  Timestamp: 00:08.282 - 00:12.552 (4.27s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a car. I see.
+  Phonemic Encoding: AY S IY SIL AH SIL K AA R ER AY S IY
+
+Segment 3:
+  Timestamp: 00:20.027 - 00:31.266 (11.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: itting, a man and a lady, sitting there having a picnic. At the man is reading of four.
+  Phonemic Encoding: AA L S IH DX EY NG SIL HH AW AA L M AE N IH SIL IH EH N AH N L EY DX IY S IH DX IY SIL SIL DH EH ER HH AE V IH NG SIL EY SIL P IH SIL K SIL N IH SIL K HH EH SIL D DH IH V M AE N IH SIL IH S SIL R IY DX IY NG SIL AH SIL V F SIL B L SIL
+
+Segment 4:
+  Timestamp: 00:32.751 - 00:38.961 (6.21s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And the lady is pouring soda.
+  Phonemic Encoding: AE N SIL D T SIL N SIL DH EH AH L EY DX IY SIL IH S SIL P AA R ER IH NG IH SIL AE AW AW M S OW DX AH
+
+Segment 5:
+  Timestamp: 00:40.851 - 00:44.429 (3.58s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a tele- oh, radio.
+  Phonemic Encoding: HH AY S IY IH SIL T EH L SIL AA AY B R EY DX IY OW L
+
+Segment 6:
+  Timestamp: 00:45.576 - 00:50.554 (4.98s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and I see a picnic basket.
+  Phonemic Encoding: AE N SIL HH AY S IY SIL L AH SIL P IH SIL K DX IH SIL K SIL B AE S SIL K IH SIL T
+
+Segment 7:
+  Timestamp: 00:52.140 - 00:59.970 (7.83s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a blanket or some sort of thing on the ground.
+  Phonemic Encoding: AY S EY IY SIL AW L P B L AE EY NG SIL K IH DX D AH SIL AA AA R ER SIL S AH M SIL S SIL S AA R DX IH AH V F SIL TH IH NG IH AH AA N DH AH G R EH EH AW
+
+Segment 8:
+  Timestamp: 01:01.202 - 01:09.218 (8.02s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: that they're sitting on. I see another young man flying a kite.
+  Phonemic Encoding: AH DH EH IH SIL TH DH EH ER S IH DX IH IY NG AA N IH AY S IY SIL AH N AH DH ER Y OW NG M EH ER N F L AY IH NG SIL AH SIL K AY SIL T
+
+Segment 9:
+  Timestamp: 01:11.310 - 01:12.947 (1.64s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: with his dog.
+  Phonemic Encoding: W IH DH TH HH IH S SIL D AA L SIL
+
+Segment 10:
+  Timestamp: 01:16.930 - 01:22.178 (5.25s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I see people of person down on the door.
+  Phonemic Encoding: AY S IY SIL SIL P IY SIL P L SIL OW SIL SIL SIL P R ER SH S IH N SIL D AW L N AA M N DH AH SIL D AA
+
+Segment 11:
+  Timestamp: 01:24.405 - 01:26.363 (1.96s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: I see our own.
+  Phonemic Encoding: AY S IY SIL HH AA L L
+
+Segment 12:
+  Timestamp: 01:28.641 - 01:35.290 (6.65s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: A person that seems to be on a some kind of a board that...
+  Phonemic Encoding: AH SIL P R ER S IH N DH EH SIL S IY N M S SIL T UW SIL B B IY SIL AA N IH SIL EY SIL S AH M SIL K AY N D IH AH V F V UH SIL B P B AA AA R ER SIL DH AE
+
+Segment 13:
+  Timestamp: 01:37.804 - 01:44.571 (6.77s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: It isn't surfboard because it's though there are no waves.
+  Phonemic Encoding: IH DX IH S IH AH N S ER F SIL B AA R ER SIL D B IH SIL K AH S IH SIL T S DH OW F DH EH R ER ER N OW W EY SIL S
+
+Segment 14:
+  Timestamp: 01:46.427 - 01:49.836 (3.41s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: but he seems to be on some kind of a board.
+  Phonemic Encoding: B AH EH DX ER HH Y IY S IY M S SIL T UW SIL B IY AA N S AH M SIL K AY N D ER V F AH SIL B AA R ER
+
+Segment 15:
+  Timestamp: 01:51.000 - 01:52.334 (1.33s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Pat and maybe...
+  Phonemic Encoding: TH AE SIL N SIL D R EY V IY
+
+Segment 16:
+  Timestamp: 01:53.970 - 02:06.829 (12.86s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: Maybe a boat is in front of him pulling him. I see a sailboat and people in the sailboat, they're sailing.
+  Phonemic Encoding: M EY V B IY IH AH SIL B OW DX D SIL IH S S SIL IY TH SIL P IH N F R AH N IH AH V IH M SIL TH P F AA L IY IH M HH AY S IY IH Z SIL T TH S EY EH L SIL B OW L SIL T SIL AE N SIL SIL P IY SIL P L SIL HH IH N DH IH AH S EY L SIL B OW L SIL T DH EY ER S EY L EY
+
+Segment 17:
+  Timestamp: 02:14.592 - 02:16.920 (2.33s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see a flag.
+  Phonemic Encoding: AY S IY IH AH SIL F L AE NG SIL G
+
+Segment 18:
+  Timestamp: 02:18.186 - 02:21.797 (3.61s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Post and flag armate post.
+  Phonemic Encoding: P OW L S SIL T SIL EH F L AE SIL G AH SIL AA R M AE SIL P OW S SIL T
+
+Segment 19:
+  Timestamp: 02:22.911 - 02:24.075 (1.16s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Hello, I see.
+  Phonemic Encoding: HH EH N AY S IY SIL
+
+Segment 20:
+  Timestamp: 02:27.754 - 02:29.340 (1.59s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Crasse him.
+  Phonemic Encoding: K G R AE S SIL HH EH N
+
+Segment 21:
+  Timestamp: 02:30.775 - 02:31.973 (1.20s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: push-ups.
+  Phonemic Encoding: B AA R SH IH SIL S

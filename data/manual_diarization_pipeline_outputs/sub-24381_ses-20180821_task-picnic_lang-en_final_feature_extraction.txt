@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-24381_ses-20180821_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:15.741     Participant  15.71     s o it's like maybe a family and there are two maybe UH S AY EY SIL K AH M SIL M EY V B IY AH F AE M AH L IY SIL HH AE N SIL T SIL HH AA M HH AE N SIL T DH EH ER SIL T SIL T SIL T UW M EY SIL B IY AH AA M L AY SIL K AH SIL P IH SIL N IH SIL K AE N IH Z SIL P R AA L DX IY N AA SIL HH IH N DH UW W EH EH SIL DH IH SIL JH IH S HH AE V IH NG F AH AA N SIL SIL R AY SIL T SIL HH AE N S OW DH EH ER Z AH
+2    00:16.230 → 01:00.460     Participant  44.23     s It looks like maybe there might be in front of the DH EH ER Z AH AA M SIL IH L UH SIL K S AY EY SIL M EY SIL B IY IH DH ER SIL HH IH M AY SIL B IY IH N F R AH N AH V IH V DH ER SIL AH SIL DH ER HH OW L M SIL B IH SIL K AH Z IH EH V ER AH SIL K AA R ER SIL AE N DH EH AE N SIL HH IH N L UH SIL K S AY SIL K SIL AH AH M SIL DH AH F AA R DH ER IH N DH AH M AH DH ER W IH TH SIL AH M N SIL W IH TH F UW SIL D SIL IH EH N SIL T SIL HH AE N D EH V L SIL HH AA M SIL Y IH N AH N DH IH HH AE V AH IH SIL TH DH R IY EY DX IY NG SIL AE N AE N SIL D AH N DH AH M AH DH ER SIL SIL HH IH Z S SIL P UH DX IH NG L UH SIL K S AE AY EH M AH M SIL T UW AH SIL D R EY NG SIL K S AH M SIL TH IH NG SIL T SIL AE EH N M DH EH N DH IH L UH SIL S AY EY SIL K G AH M SIL AH M Y UW Z IH SIL K IH N S OW N SIL T IH EY SIL K IH N IH DX AA DH EH ER SIL T IH HH AE V IH NG F AY N SIL T SIL AE N DH EH N SIL M EY SIL B IY SIL M EY SIL B IY Y IH W AH IH Z ER S AH N W IH TH AH SIL K AY SIL T HH R AY SIL SIL AE N SIL T S SIL HH AE M DH EH AE N SIL T SIL SIL DH EY ER W AH Z AH IH SIL D AA SIL G IH EH N SIL D
+3    01:01.017 → 01:03.025     Participant  2.01      s And then there's in a look of maybe                HH AE N DH EH N SIL IH N SIL DH EH R Z IH N AH DX L AH UH SIL K AH M EY SIL B IY
+4    01:04.476 → 01:06.552     Clinician    2.08      s It's an ocean or lake.                             IH SIL T S IH N OW SH IH N SIL AA R ER L EY SIL K
+5    01:07.109 → 01:08.475     Clinician    1.37      s and there's another little...                      HH AE N DH IH Z IH N AH DH IH L UH DX OW L
+6    01:08.627 → 01:13.032     Clinician    4.40      s little looks like maybe another son                AH L IH DX OW L SIL L UH SIL S AY EY SIL K OW M SIL M EY SIL B IY AH AH N EH AH DH ER S AH N
+7    01:15.850 → 01:22.650     Participant  6.80      s to the lake or ocean and then there's a sail about T UW DH AH L EY SIL K ER AA R ER SH IH N IH N SIL AE EH N M DH EH N DH ER Z S SIL AA M SIL AH S EY L AH SIL B OW SIL T K HH AH HH AE N SIL D AW M
+8    01:23.781 → 01:27.780     Participant  4.00      s and that's pretty much, I can see.                 HH AE EH N EH N DH AE SIL T S SIL P R ER DX IY IH M AH SIL CH AY SIL K IH SIL S HH IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:15.741 (15.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o it's like maybe a family and there are two maybe like a picnic and it's probably not in the way they're just having fun. And so there is a...
+  Phonemic Encoding: UH S AY EY SIL K AH M SIL M EY V B IY AH F AE M AH L IY SIL HH AE N SIL T SIL HH AA M HH AE N SIL T DH EH ER SIL T SIL T SIL T UW M EY SIL B IY AH AA M L AY SIL K AH SIL P IH SIL N IH SIL K AE N IH Z SIL P R AA L DX IY N AA SIL HH IH N DH UW W EH EH SIL DH IH SIL JH IH S HH AE V IH NG F AH AA N SIL SIL R AY SIL T SIL HH AE N S OW DH EH ER Z AH
+
+Segment 2:
+  Timestamp: 00:16.230 - 01:00.460 (44.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It looks like maybe there might be in front of their home because they have a car. And then it looks like the father and the mother with food and they have reading. And the mother is putting Luxembourg to a drink, something. And then it looks like music and so I'm taking it out there to having fun. And then maybe it was her son with a kite, right? And then there was a dog and...
+  Phonemic Encoding: DH EH ER Z AH AA M SIL IH L UH SIL K S AY EY SIL M EY SIL B IY IH DH ER SIL HH IH M AY SIL B IY IH N F R AH N AH V IH V DH ER SIL AH SIL DH ER HH OW L M SIL B IH SIL K AH Z IH EH V ER AH SIL K AA R ER SIL AE N DH EH AE N SIL HH IH N L UH SIL K S AY SIL K SIL AH AH M SIL DH AH F AA R DH ER IH N DH AH M AH DH ER W IH TH SIL AH M N SIL W IH TH F UW SIL D SIL IH EH N SIL T SIL HH AE N D EH V L SIL HH AA M SIL Y IH N AH N DH IH HH AE V AH IH SIL TH DH R IY EY DX IY NG SIL AE N AE N SIL D AH N DH AH M AH DH ER SIL SIL HH IH Z S SIL P UH DX IH NG L UH SIL K S AE AY EH M AH M SIL T UW AH SIL D R EY NG SIL K S AH M SIL TH IH NG SIL T SIL AE EH N M DH EH N DH IH L UH SIL S AY EY SIL K G AH M SIL AH M Y UW Z IH SIL K IH N S OW N SIL T IH EY SIL K IH N IH DX AA DH EH ER SIL T IH HH AE V IH NG F AY N SIL T SIL AE N DH EH N SIL M EY SIL B IY SIL M EY SIL B IY Y IH W AH IH Z ER S AH N W IH TH AH SIL K AY SIL T HH R AY SIL SIL AE N SIL T S SIL HH AE M DH EH AE N SIL T SIL SIL DH EY ER W AH Z AH IH SIL D AA SIL G IH EH N SIL D
+
+Segment 3:
+  Timestamp: 01:01.017 - 01:03.025 (2.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: And then there's in a look of maybe
+  Phonemic Encoding: HH AE N DH EH N SIL IH N SIL DH EH R Z IH N AH DX L AH UH SIL K AH M EY SIL B IY
+
+Segment 4:
+  Timestamp: 01:04.476 - 01:06.552 (2.08s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: It's an ocean or lake.
+  Phonemic Encoding: IH SIL T S IH N OW SH IH N SIL AA R ER L EY SIL K
+
+Segment 5:
+  Timestamp: 01:07.109 - 01:08.475 (1.37s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and there's another little...
+  Phonemic Encoding: HH AE N DH IH Z IH N AH DH IH L UH DX OW L
+
+Segment 6:
+  Timestamp: 01:08.627 - 01:13.032 (4.40s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: little looks like maybe another son
+  Phonemic Encoding: AH L IH DX OW L SIL L UH SIL S AY EY SIL K OW M SIL M EY SIL B IY AH AH N EH AH DH ER S AH N
+
+Segment 7:
+  Timestamp: 01:15.850 - 01:22.650 (6.80s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: to the lake or ocean and then there's a sail about and
+  Phonemic Encoding: T UW DH AH L EY SIL K ER AA R ER SH IH N IH N SIL AE EH N M DH EH N DH ER Z S SIL AA M SIL AH S EY L AH SIL B OW SIL T K HH AH HH AE N SIL D AW M
+
+Segment 8:
+  Timestamp: 01:23.781 - 01:27.780 (4.00s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and that's pretty much, I can see.
+  Phonemic Encoding: HH AE EH N EH N DH AE SIL T S SIL P R ER DX IY IH M AH SIL CH AY SIL K IH SIL S HH IY

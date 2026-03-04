@@ -1,0 +1,293 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-15069_ses-20130430_task-picnic_lang-en_final.wav
+Total Segments: 39
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.520 → 00:04.469     Participant  3.95      s I see a man flying a kite.                         AE AY S IY IH AH V SIL M AE EH N D SIL F L AY NG EY AH SIL K AY SIL T CH
+2    00:05.464 → 00:08.400     Participant  2.94      s I see a sailboat in the ocean.                     AY S IY EH SIL S EH AH SIL B OW SIL IH N DH IY Y AW AA R SH IH N
+3    00:12.518 → 00:15.690     Participant  3.17      s I see a child playing in the sand.                 AY S IY EH AH SIL CH AY L SIL P L AY EY IH NG IH N L DH AH S AE N SIL D T
+4    00:19.808 → 00:24.330     Participant  4.52      s I see a dog watching low. Boy flying arcade.       AE AY EH S IY IH AH SIL D AA SIL K W AA SIL CH IH NG L DH AH OW L B OY EY F L AY NG ER SIL K AY SIL D T
+5    00:27.081 → 00:29.595     Participant  2.51      s and I see some people.                             DH IH N AY S EY IH S AH M SIL P EY SIL P AA L
+6    00:30.338 → 00:31.620     Participant  1.28      s having a pm                                        HH EH V IH NG AH SIL P EY EH N S EY SIL HH
+7    00:32.852 → 00:35.384     Participant  2.53      s I see a radio on the blanket.                      AY S IY EH AH R EY DX IY IH OW AA N DH AH SIL B L OY AY NG SIL K EH SIL T
+8    00:36.480 → 00:38.877     Participant  2.40      s and a picnic basket there.                         IH N AH SIL P IH EH SIL T EY NG SIL P B R AE S SIL K IH N SIL SIL DH EH ER HH
+9    00:40.632 → 00:43.095     Participant  2.46      s I see a girl pouring...                            AY S IY EH IH SIL G ER L SIL P SIL P AA R AY NG AH HH
+10   00:43.382 → 00:46.740     Participant  3.36      s A glass of something to drink.                     AA HH SIL G L AE S AH V S AH M TH IH NG T AH IH SIL D R IH NG SIL K
+11   00:49.913 → 00:52.005     Participant  2.09      s The boy is raiding a book.                         DH AH SIL B OY AY EH S R EY DX IH NG AH M SIL B UH SIL K
+12   00:53.018 → 00:54.722     Participant  1.70      s He wears glasses.                                  HH IY W EH R Z SIL G L AE S AH S SIL
+13   01:01.067 → 01:05.910     Participant  4.84      s I see a tree growing in front of a window.         AY IH S IY EH SIL CH T R EY IY SIL G R AA IH NG IH HH IH N F R EH N DH AH L V AH W IH N SIL D OW L
+14   01:06.687 → 01:08.864     Participant  2.18      s I see a car in the driveway.                       AY S IY EH IH SIL K AA AY R ER IH N DH AH SIL D R AY W OY OY EY SIL
+15   01:12.154 → 01:14.348     Participant  2.19      s Apparently, it's a Wendy Day.                      AH SIL P IH EH R EH AH L EY EH AE SIL S AH W EH N SIL D EY IY SIL D EY HH
+16   01:16.069 → 01:20.642     Participant  4.57      s I can see the flag flying in the kites flying too. AY SIL K IH N Z S IY DH AH F L AE SIL K F L AY IH NG SIL IH N DH IH SIL K AY DX EH S SIL F L AY IH NG SIL CH UW
+17   01:21.959 → 01:25.350     Participant  3.39      s The sailboat is on the water.                      DH IH S EY EH EH L SIL B OW DX IH S SIL IH Z AW N DH AH W AA DX ER
+18   01:35.762 → 01:39.762     Participant  4.00      s I see those shovels at a sand bucket in the sand.  AE S IY L SH AH V L SIL IH DX AH S EY AE EH IH SIL B AH SIL K IH DX IH SIL IH N DH AH L S AE N SIL T
+19   01:47.389 → 01:49.094     Participant  1.70      s I think the boy is...                              AY S IH NG SIL DH AH SIL B OY AY IH EH S S SIL
+20   01:51.321 → 01:55.371     Participant  4.05      s that was playing in the sand is now in the water.  B DH EH W AH S SIL P L EY IH NG AH N DH AH S AE N SIL D HH IH Z N AW AH IH N DH AH W AA DX ER
+21   01:58.645 → 02:00.720     Participant  2.08      s I see a dark care also.                            AY S IY IH SIL D AA SIL K DH EH R AA L S OW L SIL
+22   02:07.994 → 02:10.457     Participant  2.46      s I see something hanging on there.                  AY S IY S AH M N SIL TH IH NG HH EY NG IY NG AW N DH AH
+23   02:11.048 → 02:12.179     Participant  1.13      s end of the dot.                                    IH EH N AH V DH AH SIL DH AA SIL SIL T
+24   02:13.090 → 02:18.675     Participant  5.59      s I don't know if it was a bait bug or it heard some AY DX OW SIL N OW HH IH V JH EH SIL W AH Z AH SIL B EY SIL B AA SIL G EH DX B ER HH ER SIL S AH M TH IH NG AW L S
+25   02:24.210 → 02:28.834     Participant  4.62      s I see a radio on the blanket with the people that  AY Z S IY IH AH R EY DX IY OW AA N DH AH SIL B L AE NG SIL K IH SIL W UH AH SIL TH DH AH SIL P IY SIL P AH L EH DX ER HH AE V L IH NG AH SIL P IH SIL K M N IH SIL K
+26   02:37.997 → 02:41.288     Participant  3.29      s The girl is wearing shorts and then she's jerked.  DH AH IH SIL G ER L AH Z W R AE IH NG SH AA R ER SIL S SIL IH N IH N CH IY SH ER SIL ER SIL T
+27   02:43.431 → 02:47.414     Participant  3.98      s The moon is wearing long pants in the t-shirt.     DH AH IH M IH N DH IH EH Z SIL W EH ER IH NG HH SIL L AA NG SIL P AE N SIL T S IH N DH AH SIL T S IY IH SH ER SIL
+28   02:50.029 → 02:51.345     Clinician    1.32      s and on the blanket.                                IY IH N AH N DH AH SIL B L AY AE NG SIL K EH AE SIL T S
+29   02:54.315 → 02:59.175     Clinician    4.86      s The man who was flying on kite, wearing long pants DH IH M IH IH EH IH N UW W AH IH Z S F L AY IH NG AE SIL K AY W EH R IH NG AH L W AA NG SIL P AE L N S SIL AA L S OW L
+30   03:06.600 → 03:08.389     Participant  1.79      s Good child in the water.                           DH AH SIL S CH AY L IH N DH AH W AA DX ER
+31   03:09.334 → 03:11.190     Participant  1.86      s It's wearing a bathing suit.                       IH Z W ER IH NG EH AH SIL B EY SIL TH DH IH NG S UW OW SIL T CH S
+32   03:28.032 → 03:31.592     Participant  3.56      s I see mountains on the rise and                    EH S EY M SIL M AW L SIL N Z S SIL SIL AH N DH AH R AY Z AH N
+33   03:33.465 → 03:35.322     Participant  1.86      s Bushes also.                                       SIL B UH ER SH IH S AA L S OW L
+34   03:41.819 → 03:44.265     Participant  2.45      s I see a big tree in the front yard.                AY Z S IY IH M B IH NG SIL CH R EY IH N DH AH F R AA AY Y IH AA ER N SIL D
+35   03:45.869 → 03:47.303     Participant  1.43      s and fly on the camel.                              IH N F AA AW N AH N DH AH IH SIL K AE M SIL B EH N
+36   04:02.507 → 04:05.207     Participant  2.70      s I'd see Eliza's plate on the car.                  AY S IY EH AH L AY Z S AH Z SIL P L AY EY DX AA N DH AH SIL K AA R ER SIL
+37   04:05.562 → 04:08.835     Participant  3.27      s But it doesn't have any information on it.         B AH SIL IH N SIL D UH AH DH EH N HH IY EH V EH N IY IH F ER M R EY SH IH N AH AA L EH S
+38   04:29.136 → 04:33.642     Participant  4.51      s I see a picture window in the add-on to the house. AY EH S IY IH SIL P IH SIL SH ER W IH N D OW HH IH N DH IY SIL AE DX AE N T UW AH DH AH HH AW S
+39   04:44.745 → 04:52.964     Participant  8.22      s Well the roof looks like energy heat. Need some of W L DH AH ER F L UH SIL K S L AY SIL K AE ZH JH IH IY HH SH HH IY SIL CH N EY S AH AA ER V AY SIL S AH S W R ER F IH NG IH M SIL P R ER R IH EH IH S CH
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.520 - 00:04.469 (3.95s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a man flying a kite.
+  Phonemic Encoding: AE AY S IY IH AH V SIL M AE EH N D SIL F L AY NG EY AH SIL K AY SIL T CH
+
+Segment 2:
+  Timestamp: 00:05.464 - 00:08.400 (2.94s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a sailboat in the ocean.
+  Phonemic Encoding: AY S IY EH SIL S EH AH SIL B OW SIL IH N DH IY Y AW AA R SH IH N
+
+Segment 3:
+  Timestamp: 00:12.518 - 00:15.690 (3.17s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a child playing in the sand.
+  Phonemic Encoding: AY S IY EH AH SIL CH AY L SIL P L AY EY IH NG IH N L DH AH S AE N SIL D T
+
+Segment 4:
+  Timestamp: 00:19.808 - 00:24.330 (4.52s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a dog watching low. Boy flying arcade.
+  Phonemic Encoding: AE AY EH S IY IH AH SIL D AA SIL K W AA SIL CH IH NG L DH AH OW L B OY EY F L AY NG ER SIL K AY SIL D T
+
+Segment 5:
+  Timestamp: 00:27.081 - 00:29.595 (2.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and I see some people.
+  Phonemic Encoding: DH IH N AY S EY IH S AH M SIL P EY SIL P AA L
+
+Segment 6:
+  Timestamp: 00:30.338 - 00:31.620 (1.28s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: having a pm
+  Phonemic Encoding: HH EH V IH NG AH SIL P EY EH N S EY SIL HH
+
+Segment 7:
+  Timestamp: 00:32.852 - 00:35.384 (2.53s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a radio on the blanket.
+  Phonemic Encoding: AY S IY EH AH R EY DX IY IH OW AA N DH AH SIL B L OY AY NG SIL K EH SIL T
+
+Segment 8:
+  Timestamp: 00:36.480 - 00:38.877 (2.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and a picnic basket there.
+  Phonemic Encoding: IH N AH SIL P IH EH SIL T EY NG SIL P B R AE S SIL K IH N SIL SIL DH EH ER HH
+
+Segment 9:
+  Timestamp: 00:40.632 - 00:43.095 (2.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a girl pouring...
+  Phonemic Encoding: AY S IY EH IH SIL G ER L SIL P SIL P AA R AY NG AH HH
+
+Segment 10:
+  Timestamp: 00:43.382 - 00:46.740 (3.36s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: A glass of something to drink.
+  Phonemic Encoding: AA HH SIL G L AE S AH V S AH M TH IH NG T AH IH SIL D R IH NG SIL K
+
+Segment 11:
+  Timestamp: 00:49.913 - 00:52.005 (2.09s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The boy is raiding a book.
+  Phonemic Encoding: DH AH SIL B OY AY EH S R EY DX IH NG AH M SIL B UH SIL K
+
+Segment 12:
+  Timestamp: 00:53.018 - 00:54.722 (1.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: He wears glasses.
+  Phonemic Encoding: HH IY W EH R Z SIL G L AE S AH S SIL
+
+Segment 13:
+  Timestamp: 01:01.067 - 01:05.910 (4.84s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a tree growing in front of a window.
+  Phonemic Encoding: AY IH S IY EH SIL CH T R EY IY SIL G R AA IH NG IH HH IH N F R EH N DH AH L V AH W IH N SIL D OW L
+
+Segment 14:
+  Timestamp: 01:06.687 - 01:08.864 (2.18s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a car in the driveway.
+  Phonemic Encoding: AY S IY EH IH SIL K AA AY R ER IH N DH AH SIL D R AY W OY OY EY SIL
+
+Segment 15:
+  Timestamp: 01:12.154 - 01:14.348 (2.19s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Apparently, it's a Wendy Day.
+  Phonemic Encoding: AH SIL P IH EH R EH AH L EY EH AE SIL S AH W EH N SIL D EY IY SIL D EY HH
+
+Segment 16:
+  Timestamp: 01:16.069 - 01:20.642 (4.57s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I can see the flag flying in the kites flying too.
+  Phonemic Encoding: AY SIL K IH N Z S IY DH AH F L AE SIL K F L AY IH NG SIL IH N DH IH SIL K AY DX EH S SIL F L AY IH NG SIL CH UW
+
+Segment 17:
+  Timestamp: 01:21.959 - 01:25.350 (3.39s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The sailboat is on the water.
+  Phonemic Encoding: DH IH S EY EH EH L SIL B OW DX IH S SIL IH Z AW N DH AH W AA DX ER
+
+Segment 18:
+  Timestamp: 01:35.762 - 01:39.762 (4.00s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see those shovels at a sand bucket in the sand.
+  Phonemic Encoding: AE S IY L SH AH V L SIL IH DX AH S EY AE EH IH SIL B AH SIL K IH DX IH SIL IH N DH AH L S AE N SIL T
+
+Segment 19:
+  Timestamp: 01:47.389 - 01:49.094 (1.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I think the boy is...
+  Phonemic Encoding: AY S IH NG SIL DH AH SIL B OY AY IH EH S S SIL
+
+Segment 20:
+  Timestamp: 01:51.321 - 01:55.371 (4.05s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that was playing in the sand is now in the water.
+  Phonemic Encoding: B DH EH W AH S SIL P L EY IH NG AH N DH AH S AE N SIL D HH IH Z N AW AH IH N DH AH W AA DX ER
+
+Segment 21:
+  Timestamp: 01:58.645 - 02:00.720 (2.08s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a dark care also.
+  Phonemic Encoding: AY S IY IH SIL D AA SIL K DH EH R AA L S OW L SIL
+
+Segment 22:
+  Timestamp: 02:07.994 - 02:10.457 (2.46s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see something hanging on there.
+  Phonemic Encoding: AY S IY S AH M N SIL TH IH NG HH EY NG IY NG AW N DH AH
+
+Segment 23:
+  Timestamp: 02:11.048 - 02:12.179 (1.13s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: end of the dot.
+  Phonemic Encoding: IH EH N AH V DH AH SIL DH AA SIL SIL T
+
+Segment 24:
+  Timestamp: 02:13.090 - 02:18.675 (5.59s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I don't know if it was a bait bug or it heard something else.
+  Phonemic Encoding: AY DX OW SIL N OW HH IH V JH EH SIL W AH Z AH SIL B EY SIL B AA SIL G EH DX B ER HH ER SIL S AH M TH IH NG AW L S
+
+Segment 25:
+  Timestamp: 02:24.210 - 02:28.834 (4.62s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a radio on the blanket with the people that are having a picnic.
+  Phonemic Encoding: AY Z S IY IH AH R EY DX IY OW AA N DH AH SIL B L AE NG SIL K IH SIL W UH AH SIL TH DH AH SIL P IY SIL P AH L EH DX ER HH AE V L IH NG AH SIL P IH SIL K M N IH SIL K
+
+Segment 26:
+  Timestamp: 02:37.997 - 02:41.288 (3.29s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The girl is wearing shorts and then she's jerked.
+  Phonemic Encoding: DH AH IH SIL G ER L AH Z W R AE IH NG SH AA R ER SIL S SIL IH N IH N CH IY SH ER SIL ER SIL T
+
+Segment 27:
+  Timestamp: 02:43.431 - 02:47.414 (3.98s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: The moon is wearing long pants in the t-shirt.
+  Phonemic Encoding: DH AH IH M IH N DH IH EH Z SIL W EH ER IH NG HH SIL L AA NG SIL P AE N SIL T S IH N DH AH SIL T S IY IH SH ER SIL
+
+Segment 28:
+  Timestamp: 02:50.029 - 02:51.345 (1.32s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and on the blanket.
+  Phonemic Encoding: IY IH N AH N DH AH SIL B L AY AE NG SIL K EH AE SIL T S
+
+Segment 29:
+  Timestamp: 02:54.315 - 02:59.175 (4.86s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: The man who was flying on kite, wearing long pants also.
+  Phonemic Encoding: DH IH M IH IH EH IH N UW W AH IH Z S F L AY IH NG AE SIL K AY W EH R IH NG AH L W AA NG SIL P AE L N S SIL AA L S OW L
+
+Segment 30:
+  Timestamp: 03:06.600 - 03:08.389 (1.79s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Good child in the water.
+  Phonemic Encoding: DH AH SIL S CH AY L IH N DH AH W AA DX ER
+
+Segment 31:
+  Timestamp: 03:09.334 - 03:11.190 (1.86s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It's wearing a bathing suit.
+  Phonemic Encoding: IH Z W ER IH NG EH AH SIL B EY SIL TH DH IH NG S UW OW SIL T CH S
+
+Segment 32:
+  Timestamp: 03:28.032 - 03:31.592 (3.56s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see mountains on the rise and
+  Phonemic Encoding: EH S EY M SIL M AW L SIL N Z S SIL SIL AH N DH AH R AY Z AH N
+
+Segment 33:
+  Timestamp: 03:33.465 - 03:35.322 (1.86s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Bushes also.
+  Phonemic Encoding: SIL B UH ER SH IH S AA L S OW L
+
+Segment 34:
+  Timestamp: 03:41.819 - 03:44.265 (2.45s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a big tree in the front yard.
+  Phonemic Encoding: AY Z S IY IH M B IH NG SIL CH R EY IH N DH AH F R AA AY Y IH AA ER N SIL D
+
+Segment 35:
+  Timestamp: 03:45.869 - 03:47.303 (1.43s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and fly on the camel.
+  Phonemic Encoding: IH N F AA AW N AH N DH AH IH SIL K AE M SIL B EH N
+
+Segment 36:
+  Timestamp: 04:02.507 - 04:05.207 (2.70s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I'd see Eliza's plate on the car.
+  Phonemic Encoding: AY S IY EH AH L AY Z S AH Z SIL P L AY EY DX AA N DH AH SIL K AA R ER SIL
+
+Segment 37:
+  Timestamp: 04:05.562 - 04:08.835 (3.27s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: But it doesn't have any information on it.
+  Phonemic Encoding: B AH SIL IH N SIL D UH AH DH EH N HH IY EH V EH N IY IH F ER M R EY SH IH N AH AA L EH S
+
+Segment 38:
+  Timestamp: 04:29.136 - 04:33.642 (4.51s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I see a picture window in the add-on to the house.
+  Phonemic Encoding: AY EH S IY IH SIL P IH SIL SH ER W IH N D OW HH IH N DH IY SIL AE DX AE N T UW AH DH AH HH AW S
+
+Segment 39:
+  Timestamp: 04:44.745 - 04:52.964 (8.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well the roof looks like energy heat. Need some of my cells, roofing and pervage.
+  Phonemic Encoding: W L DH AH ER F L UH SIL K S L AY SIL K AE ZH JH IH IY HH SH HH IY SIL CH N EY S AH AA ER V AY SIL S AH S W R ER F IH NG IH M SIL P R ER R IH EH IH S CH

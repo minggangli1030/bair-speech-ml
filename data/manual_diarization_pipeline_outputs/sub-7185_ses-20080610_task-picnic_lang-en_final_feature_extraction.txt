@@ -1,0 +1,83 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-7185_ses-20080610_task-picnic_lang-en_final.wav
+Total Segments: 9
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:08.654     Clinician    8.62      s Okay, what I'm saying is a house and a car and big OW SIL K EY SIL AA AH M W AH EH DX AH M N S EY NG IH SIL HH IH Z AH M M SIL HH AH HH AW L Z S SIL AE N AH SIL K AA R IH N SIL P B IH SIL G SIL T R IY AE N DH IH EH HH AE V IH NG HH EY AE AH M
+2    00:09.042 → 00:11.978     Clinician    2.94      s I'm having to have some food.                      HH HH AE V IH NG SIL T IH HH AE V S AH M F UW L AH
+3    00:11.978 → 00:29.123     Participant  17.14     s and there's a, I think, a swim. It's a husband and N DH IY Y IH N SIL M DH IY IH Z AH SIL AE TH IH S UW M UW L SIL IH SIL T S AH V AH SIL HH AH Z SIL IH N IH N M W AY V DH IH N DH AH HH AH Z SIL AH Z SIL B W UH SIL K IH SIL B HH AE Z S S SIL L UH SIL K IH NG IH DX AH SIL B UH SIL G IH N DH AH W AY F S HH AE Z EY Y EH AE AH M SIL SIL S AH M N SIL JH R EY IH NG SIL K IH SIL AE N DH IH Z S AH SIL B EY AE SH S SIL K IH SIL DH AE S UW M W UH AH TH S AH M SIL B UH L F UW N SIL D HH SIL HH AE N SIL W AA L S OW AY TH IH NG SIL K AH M SIL
+4    00:30.321 → 00:32.093     Participant  1.77      s a sort of a radio.                                 AH S AA DX AH V ER R EY SIL D IY OW
+5    00:32.987 → 00:37.004     Participant  4.02      s and then there's also a big flier and a boy.       AE N DH EH N DH EH Z AA L S OW W AH SIL B IH SIL K F L EY AE AE NG SIL G HH SIL HH AE N AH SIL B OY
+6    00:37.257 → 00:41.138     Participant  3.88      s with a kite and a dog and also someone.            W AH DH TH DH AH SIL K AY SIL HH EH N SIL SIL D AA AA NG SIL G SIL AE EH N SIL AA L S OW L W AH S AH M W AH N SIL
+7    00:41.594 → 00:42.825     Participant  1.23      s and fishing.                                       HH AA N SIL F TH IH SH IH NG
+8    00:43.703 → 00:47.922     Participant  4.22      s and also someone who has a beautiful boat.         AE N SIL W AA L S AH OW AW L S AH M W AH N HH UW HH AE EH Z AH AY AY AH SIL B Y UW DX F L SIL B AH SIL AH OW SIL B OW SIL T
+9    00:50.048 → 00:52.444     Participant  2.40      s o I think I could tell you that.                   S OW AY TH IH N NG SIL K G EH AA M SIL HH AH SIL K IH SIL T L IY IH DH AE SIL
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:08.654 (8.62s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: Okay, what I'm saying is a house and a car and big tree and they're having a...
+  Phonemic Encoding: OW SIL K EY SIL AA AH M W AH EH DX AH M N S EY NG IH SIL HH IH Z AH M M SIL HH AH HH AW L Z S SIL AE N AH SIL K AA R IH N SIL P B IH SIL G SIL T R IY AE N DH IH EH HH AE V IH NG HH EY AE AH M
+
+Segment 2:
+  Timestamp: 00:09.042 - 00:11.978 (2.94s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: I'm having to have some food.
+  Phonemic Encoding: HH HH AE V IH NG SIL T IH HH AE V S AH M F UW L AH
+
+Segment 3:
+  Timestamp: 00:11.978 - 00:29.123 (17.14s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and there's a, I think, a swim. It's a husband and wife, then the husband's looking, has looking at a bird in the wife has a, um, some drink. And there's a basket, a swim with some food. And also, I think, um,
+  Phonemic Encoding: N DH IY Y IH N SIL M DH IY IH Z AH SIL AE TH IH S UW M UW L SIL IH SIL T S AH V AH SIL HH AH Z SIL IH N IH N M W AY V DH IH N DH AH HH AH Z SIL AH Z SIL B W UH SIL K IH SIL B HH AE Z S S SIL L UH SIL K IH NG IH DX AH SIL B UH SIL G IH N DH AH W AY F S HH AE Z EY Y EH AE AH M SIL SIL S AH M N SIL JH R EY IH NG SIL K IH SIL AE N DH IH Z S AH SIL B EY AE SH S SIL K IH SIL DH AE S UW M W UH AH TH S AH M SIL B UH L F UW N SIL D HH SIL HH AE N SIL W AA L S OW AY TH IH NG SIL K AH M SIL
+
+Segment 4:
+  Timestamp: 00:30.321 - 00:32.093 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: a sort of a radio.
+  Phonemic Encoding: AH S AA DX AH V ER R EY SIL D IY OW
+
+Segment 5:
+  Timestamp: 00:32.987 - 00:37.004 (4.02s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and then there's also a big flier and a boy.
+  Phonemic Encoding: AE N DH EH N DH EH Z AA L S OW W AH SIL B IH SIL K F L EY AE AE NG SIL G HH SIL HH AE N AH SIL B OY
+
+Segment 6:
+  Timestamp: 00:37.257 - 00:41.138 (3.88s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: with a kite and a dog and also someone.
+  Phonemic Encoding: W AH DH TH DH AH SIL K AY SIL HH EH N SIL SIL D AA AA NG SIL G SIL AE EH N SIL AA L S OW L W AH S AH M W AH N SIL
+
+Segment 7:
+  Timestamp: 00:41.594 - 00:42.825 (1.23s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and fishing.
+  Phonemic Encoding: HH AA N SIL F TH IH SH IH NG
+
+Segment 8:
+  Timestamp: 00:43.703 - 00:47.922 (4.22s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and also someone who has a beautiful boat.
+  Phonemic Encoding: AE N SIL W AA L S AH OW AW L S AH M W AH N HH UW HH AE EH Z AH AY AY AH SIL B Y UW DX F L SIL B AH SIL AH OW SIL B OW SIL T
+
+Segment 9:
+  Timestamp: 00:50.048 - 00:52.444 (2.40s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: o I think I could tell you that.
+  Phonemic Encoding: S OW AY TH IH N NG SIL K G EH AA M SIL HH AH SIL K IH SIL T L IY IH DH AE SIL

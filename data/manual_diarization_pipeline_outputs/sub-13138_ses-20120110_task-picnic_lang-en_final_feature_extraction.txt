@@ -1,0 +1,125 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-13138_ses-20120110_task-picnic_lang-en_final.wav
+Total Segments: 15
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.887     Participant  1.86      s Well the first thing that catches my eye...        W L AH F ER S N IH SIL K EH SIL CH IH Z SIL M AY SIL AY SIL
+2    00:02.005 → 00:11.033     Participant  9.03      s is the sailboat, which is my favorite thing to do. IH Z DH AH S EY EH L SIL B OW L SIL W IH CH SH IH Z SIL M AY F EY V R ER IH SIL TH IH NG SIL T AH SIL D UW AA SIL S AH OW L SIL DH AH EH SIL T S SIL DH EH SIL K EH SIL CH IH Z SIL M AY AY AH M HH AE EH N SIL DH EH N
+3    00:11.809 → 00:17.614     Participant  5.80      s I see someone just at the edge of the water just k AY EH S IY SIL K TH SIL K S AH M IH N SIL JH IH S SIL T SIL EH SIL DH IY SIL HH EH SIL JH AH DH AH W AA AA DX ER SIL T IH Z SIL K AH N AH SIL P S SIL K W AA DX IH NG SIL D AW N AH N S SIL P B L AE SH IH NG
+4    00:18.441 → 00:26.524     Participant  8.08      s the someone at the edge of the dock sitting there  N SIL DH AH IH S AH M N SIL AE SIL DH IY SIL HH EH SIL JH CH AH V DH AH SIL D AA SIL K S IH DX IH IY NG N DH IH EH ER IH F IH SH IH NG SIL W IH SIL CH IH Z IH N AH L DH AH F AE SIL T IH DH EH SIL S SIL W AH DX IH SIL G OW DX ER SIL K EY SIL K AA AY SIL T W AA R S SIL T IH AH SIL G OW F IH SH IH NG
+5    00:27.267 → 00:34.827     Participant  7.56      s And somebody's got a nice little dog there. And I' IH N SIL T S AH M IH Z SIL K DX AH N AY S SIL L UH L SIL D AA SIL DH IH EH ER AH M SIL HH AE N SIL AY SIL K G EH DX IH N SIL EY DX IY F AY SIL P AW N SIL SIL JH ER M IH N SH EH SIL P R ER IH SIL D T HH UW SIL B IY SIL B AW N SIL T S N R AW N SIL T
+6    00:35.451 → 00:38.067     Participant  2.62      s Does someone here with a kite flying a kite?       DH IH S AH M W AH N HH IH ER W IH TH AH SIL K AY SIL T F L AY IY N DH EH IH SIL K AY SIL T
+7    00:38.674 → 00:55.161     Participant  16.49     s To that person's left there's a flag up that's bla SIL T UW DH AE SIL P ER S IH N Z L EH AE F SIL DH IH Z AH F L AE SIL G AH SIL DH IH SIL S SIL B L AE NG SIL T DH AH DX EY IH SIL K IH N SIL T EH EY Y W AH SIL DH AH F L AE EH IH SIL G IH S AE N DH EH N SIL D SIL T AH DH AE SIL P ER S IH N Z L EH AE F SIL T P SIL M SIL SIL DH IH Z AH M AE N SIL IH N AH W AH M IH N S IH DX IH NG SIL D AW N AH SIL M IH AE IH N HH IY Z R IY DX IY NG AH SIL B UH SIL K IH HH IY S SIL T EY SIL K IH N SIL W AH N AH V IH S AH OW V
+8    00:56.224 → 00:58.570     Participant  2.35      s Flipper's office Pete, his barefoot.               F L IH SIL P ER Z AA F IH Z SIL P T S F SIL P B IY SIL SIL DH HH IY IH Z SIL B EH R F UH SIL
+9    00:59.312 → 01:04.965     Participant  5.65      s between he and the woman is a box which I can't te AA AA M SIL B IH SIL T W IY EY N HH IY IH N DH AH W AH M IH N SIL IH Z AH M SIL P B AA SIL K S L AA W AH CH IH SIL K OW AE N SIL T EH L W AH SIL IH Z S SIL IH N IH EH ER SIL
+10   01:05.556 → 01:09.792     Participant  4.24      s he's pouring some liquid from a bottle into a cup. SH IY Z S SIL P AA R IH NG S AH M W L IH SIL K W IH SIL D SIL SIL F R AH M SIL AH SIL B AA DX L IH N SIL T UW SIL AH SIL K AH SIL P
+11   01:10.416 → 01:14.382     Participant  3.97      s And to her left there's a radio playing.           AE N SIL T UW HH ER L EH AH F SIL T TH N DH EH R ER S SIL EY AH M R EY DX IY L SIL P L EY IH NG
+12   01:15.192 → 01:17.318     Participant  2.13      s and to his left is a nice big tree.                IH AE N SIL T IH HH IH Z SIL L EH AE F SIL T IH Z AH N AY S SIL B IH SIL CH T R IY
+13   01:19.883 → 01:23.562     Participant  3.68      s is a house and in front of the house is an automob IH IH Z AH HH AW S SIL HH IH AE N IH N SIL F R AH N AH DH AH HH AW S SIL HH IH Z AH N AA DX N M L V IY IH L
+14   01:27.915 → 01:37.028     Clinician    9.11      s There's something here on the shore. It looks like DH IH S AH M N SIL TH IH NG HH IH EH ER SIL AA N DH AH SH AA R ER SIL L W UH SIL K S L AH SIL K AH M SIL SIL B AA SIL K S IH ER S AH M N SIL TH IH NG AH M B AH DX IY M W IH L IY SIL K K AE N SIL
+15   01:37.028 → 02:03.977     Participant  26.95     s to tell what that is. But, you know, in looking ac T IH AH SIL T AH L W AH SIL TH DH AE DX EH S SIL B AH M Y IH N OW AH N L UH K IH N AH SIL K R AA S DH AH SH AA R L AY N SIL SIL DH IH Z AH N AH M SIL B V ER SIL T CH T R IY S IH SIL T SIL T D AH NG SIL G OW AH L AA NG SIL SIL HH AE N D AA N DH AH SIL T S EY EH L SIL B OW SIL SIL AY EH S IY SIL T UW SIL P IY SIL P L L UH SIL S AY SIL W AH N SIL P R ER S N S SIL W EY V IH NG W IH TH SIL TH DH EH ER R AA R ER M AE N SIL D AH AH M SIL DH AH S SIL K UH AH IH SIL T UW S EY L Z S AH N IH AH S EY EH L SIL B OW SIL HH AE N AA AA N DH AH M EY N S EY EH L IH Z S SIL G EH SIL T S AH OW M SIL AH N SIL K N F SIL K IH EH N SIL T L F IH SIL S N AH M SIL V ER Z AH S AH M SIL TH IH NG SIL P AH DH AH S AH M N SIL D AA SIL K Y IH M IH N DX AH V SIL DH IH EH AE
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.887 (1.86s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Well the first thing that catches my eye...
+  Phonemic Encoding: W L AH F ER S N IH SIL K EH SIL CH IH Z SIL M AY SIL AY SIL
+
+Segment 2:
+  Timestamp: 00:02.005 - 00:11.033 (9.03s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: is the sailboat, which is my favorite thing to do. So that catches my eye. And then...
+  Phonemic Encoding: IH Z DH AH S EY EH L SIL B OW L SIL W IH CH SH IH Z SIL M AY F EY V R ER IH SIL TH IH NG SIL T AH SIL D UW AA SIL S AH OW L SIL DH AH EH SIL T S SIL DH EH SIL K EH SIL CH IH Z SIL M AY AY AH M HH AE EH N SIL DH EH N
+
+Segment 3:
+  Timestamp: 00:11.809 - 00:17.614 (5.80s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: I see someone just at the edge of the water just kind of squatting down and splashing.
+  Phonemic Encoding: AY EH S IY SIL K TH SIL K S AH M IH N SIL JH IH S SIL T SIL EH SIL DH IY SIL HH EH SIL JH AH DH AH W AA AA DX ER SIL T IH Z SIL K AH N AH SIL P S SIL K W AA DX IH NG SIL D AW N AH N S SIL P B L AE SH IH NG
+
+Segment 4:
+  Timestamp: 00:18.441 - 00:26.524 (8.08s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: the someone at the edge of the dock sitting there fishing, which is another factor. That's what I go to kick-kite boards to go fishing.
+  Phonemic Encoding: N SIL DH AH IH S AH M N SIL AE SIL DH IY SIL HH EH SIL JH CH AH V DH AH SIL D AA SIL K S IH DX IH IY NG N DH IH EH ER IH F IH SH IH NG SIL W IH SIL CH IH Z IH N AH L DH AH F AE SIL T IH DH EH SIL S SIL W AH DX IH SIL G OW DX ER SIL K EY SIL K AA AY SIL T W AA R S SIL T IH AH SIL G OW F IH SH IH NG
+
+Segment 5:
+  Timestamp: 00:27.267 - 00:34.827 (7.56s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And somebody's got a nice little dog there. And I've got an 85 pound German Shepherd who be bouncing around.
+  Phonemic Encoding: IH N SIL T S AH M IH Z SIL K DX AH N AY S SIL L UH L SIL D AA SIL DH IH EH ER AH M SIL HH AE N SIL AY SIL K G EH DX IH N SIL EY DX IY F AY SIL P AW N SIL SIL JH ER M IH N SH EH SIL P R ER IH SIL D T HH UW SIL B IY SIL B AW N SIL T S N R AW N SIL T
+
+Segment 6:
+  Timestamp: 00:35.451 - 00:38.067 (2.62s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Does someone here with a kite flying a kite?
+  Phonemic Encoding: DH IH S AH M W AH N HH IH ER W IH TH AH SIL K AY SIL T F L AY IY N DH EH IH SIL K AY SIL T
+
+Segment 7:
+  Timestamp: 00:38.674 - 00:55.161 (16.49s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: To that person's left there's a flag up that's blank that I can't tell you what the flag is and Then to that person's left There's a man and a woman sitting down And he's reading a book he's taken one of his so
+  Phonemic Encoding: SIL T UW DH AE SIL P ER S IH N Z L EH AE F SIL DH IH Z AH F L AE SIL G AH SIL DH IH SIL S SIL B L AE NG SIL T DH AH DX EY IH SIL K IH N SIL T EH EY Y W AH SIL DH AH F L AE EH IH SIL G IH S AE N DH EH N SIL D SIL T AH DH AE SIL P ER S IH N Z L EH AE F SIL T P SIL M SIL SIL DH IH Z AH M AE N SIL IH N AH W AH M IH N S IH DX IH NG SIL D AW N AH SIL M IH AE IH N HH IY Z R IY DX IY NG AH SIL B UH SIL K IH HH IY S SIL T EY SIL K IH N SIL W AH N AH V IH S AH OW V
+
+Segment 8:
+  Timestamp: 00:56.224 - 00:58.570 (2.35s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: Flipper's office Pete, his barefoot.
+  Phonemic Encoding: F L IH SIL P ER Z AA F IH Z SIL P T S F SIL P B IY SIL SIL DH HH IY IH Z SIL B EH R F UH SIL
+
+Segment 9:
+  Timestamp: 00:59.312 - 01:04.965 (5.65s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: between he and the woman is a box which I can't tell what is in there.
+  Phonemic Encoding: AA AA M SIL B IH SIL T W IY EY N HH IY IH N DH AH W AH M IH N SIL IH Z AH M SIL P B AA SIL K S L AA W AH CH IH SIL K OW AE N SIL T EH L W AH SIL IH Z S SIL IH N IH EH ER SIL
+
+Segment 10:
+  Timestamp: 01:05.556 - 01:09.792 (4.24s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: he's pouring some liquid from a bottle into a cup.
+  Phonemic Encoding: SH IY Z S SIL P AA R IH NG S AH M W L IH SIL K W IH SIL D SIL SIL F R AH M SIL AH SIL B AA DX L IH N SIL T UW SIL AH SIL K AH SIL P
+
+Segment 11:
+  Timestamp: 01:10.416 - 01:14.382 (3.97s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: And to her left there's a radio playing.
+  Phonemic Encoding: AE N SIL T UW HH ER L EH AH F SIL T TH N DH EH R ER S SIL EY AH M R EY DX IY L SIL P L EY IH NG
+
+Segment 12:
+  Timestamp: 01:15.192 - 01:17.318 (2.13s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: and to his left is a nice big tree.
+  Phonemic Encoding: IH AE N SIL T IH HH IH Z SIL L EH AE F SIL T IH Z AH N AY S SIL B IH SIL CH T R IY
+
+Segment 13:
+  Timestamp: 01:19.883 - 01:23.562 (3.68s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: is a house and in front of the house is an automobile.
+  Phonemic Encoding: IH IH Z AH HH AW S SIL HH IH AE N IH N SIL F R AH N AH DH AH HH AW S SIL HH IH Z AH N AA DX N M L V IY IH L
+
+Segment 14:
+  Timestamp: 01:27.915 - 01:37.028 (9.11s)
+  Speaker: Clinician (SPEAKER_01)
+  ASR Transcription: There's something here on the shore. It looks like a box or something, nobody really can't.
+  Phonemic Encoding: DH IH S AH M N SIL TH IH NG HH IH EH ER SIL AA N DH AH SH AA R ER SIL L W UH SIL K S L AH SIL K AH M SIL SIL B AA SIL K S IH ER S AH M N SIL TH IH NG AH M B AH DX IY M W IH L IY SIL K K AE N SIL
+
+Segment 15:
+  Timestamp: 01:37.028 - 02:03.977 (26.95s)
+  Speaker: Participant (SPEAKER_00)
+  ASR Transcription: to tell what that is. But, you know, in looking across the shoreline, there's a number of trees that go along. And on the sailboat, I see two people, looks like one person's waiting with their arm. And, um, let's go two sails on the sailboat. And on the main sail, it's got some, I can't tell if it's numbers or something but there's some document up there.
+  Phonemic Encoding: T IH AH SIL T AH L W AH SIL TH DH AE DX EH S SIL B AH M Y IH N OW AH N L UH K IH N AH SIL K R AA S DH AH SH AA R L AY N SIL SIL DH IH Z AH N AH M SIL B V ER SIL T CH T R IY S IH SIL T SIL T D AH NG SIL G OW AH L AA NG SIL SIL HH AE N D AA N DH AH SIL T S EY EH L SIL B OW SIL SIL AY EH S IY SIL T UW SIL P IY SIL P L L UH SIL S AY SIL W AH N SIL P R ER S N S SIL W EY V IH NG W IH TH SIL TH DH EH ER R AA R ER M AE N SIL D AH AH M SIL DH AH S SIL K UH AH IH SIL T UW S EY L Z S AH N IH AH S EY EH L SIL B OW SIL HH AE N AA AA N DH AH M EY N S EY EH L IH Z S SIL G EH SIL T S AH OW M SIL AH N SIL K N F SIL K IH EH N SIL T L F IH SIL S N AH M SIL V ER Z AH S AH M SIL TH IH NG SIL P AH DH AH S AH M N SIL D AA SIL K Y IH M IH N DX AH V SIL DH IH EH AE

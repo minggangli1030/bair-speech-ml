@@ -1,0 +1,76 @@
+====================================================================================================
+PHASE 1: FEATURE EXTRACTION
+====================================================================================================
+Audio File: sub-21863_ses-20160317_task-picnic_lang-en_final.wav
+Total Segments: 8
+Speakers: Participant and Clinician
+====================================================================================================
+
+Pipeline: Diarization → ASR (OpenAI Whisper) + Phoneme Model (Chenxu) → Feature Extraction
+
+====================================================================================================
+COMBINED OUTPUT: Timestamps | ASR Transcription | Phonemic Encoding
+====================================================================================================
+
+#    Time Range                Speaker      Duration   ASR Transcription                                  Phonemic Encoding
+----------------------------------------------------------------------------------------------------
+1    00:00.030 → 00:01.802     Participant  1.77      s Well, it is...                                     W EH L SIL HH IY IH EH SIL IH S
+2    00:03.034 → 00:06.747     Participant  3.71      s It depicts a very...                               HH IH SIL T S SIL D IH SIL P IH SIL K SIL S EY IH N DH B EH R IY SIL AA SIL
+3    00:07.995 → 00:15.488     Participant  7.49      s and they may be on vacation. So I'll tell you this AH M EY NG M EY SIL M EY SIL B IY AA N V EY SIL K EY SH IH N S AA AH SIL T IH IH AH S OW DH IH S DH IH S IH Z EY SIL F SIL EY SIL B EY SIL K EY SH IH N S SIL B AA SIL T M
+4    00:17.800 → 00:38.050     Participant  20.25     s I think it's there's absolutely at the there's a S HH AY EY TH AE NG SIL K IH SIL IH SIL T S AA IH SIL T S SIL DH EH ER Z S SIL AE SIL S L IY IH EH SIL DH IY Y IY EH AH SIL SIL DH IH ER Z EY Y AH M S AH SIL DH EY Y AH M EH AH SIL JH IH EH SIL B AH HH SIL S OW IH SIL CH IH EH IH V SIL DH EH AH SIL B IY EY N S AH SIL DH AE SIL T S IH SIL T EY Y SH IH SIL S SIL SIL Y IH SIL S EY Y AH SIL K AE DX IH M ER AE N M EY SIL B IY HH EH OW SIL K EY SIL AA SIL DH IH S S S AH M Y AH AA NG M AE N IH EH S
+5    00:38.759 → 00:51.499     Participant  12.74     s flying a kite. And it seems like that there's a go DH F L AY NG IH DX IH SIL K HH AY SIL T HH M HH AE N SIL D SIL IH SIL S IY N S L AY EY SIL K TH SIL DH IH EH SIL DH EH ER Z S SIL AH IH SIL K G ER V ER AH L IH IY Y EH AH NG AE N SIL IH Z S F R IY DX IH NG SIL M SIL EH N M B IH SIL T SIL W EY N DH IY SIL AH AH HH
+6    00:54.368 → 00:59.464     Clinician    5.10      s and she is pouring some kind of libation.          HH AE N SIL D SH IY IH S SIL P AA R IH NG L S AH M SIL K AY N DX IH AH V L AY EH SIL B EY SH IH N
+7    01:01.658 → 01:04.965     Clinician    3.31      s o how can I tell it seinen wool? Yes I did...      S HH EH AE F M SIL P AA HH AH F TH AH F AH F IH SIL S EH SIL IH N IH N SIL L L T IH Z S AH IH
+8    01:04.965 → 01:17.976     Participant  13.01     s that it's okay, it's kind of silt and it's actuall Z S EH DX OW M IH S UW SIL K EY SIL DH IH SIL T S IH OW W IH SIL S SIL K AY N SIL D IH AH S IH EH L SIL IH N IH SIL S EH SIL T S AE SIL CH SH SIL L IY V EH SH L IY SIL IH SIL T S AH V EY SIL K EY SH IH EH N SIL D EY DH EH SIL S AH V IH SIL K EY SH IH N SIL D EY IH SIL T S S IH SIL T S Y IH ER IH SIL DH AH S IY IH N IH SIL S EH V R IH SIL B IH DX IY S HH AE SIL B IY
+
+====================================================================================================
+DETAILED SEGMENT VIEW
+====================================================================================================
+
+Segment 1:
+  Timestamp: 00:00.030 - 00:01.802 (1.77s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: Well, it is...
+  Phonemic Encoding: W EH L SIL HH IY IH EH SIL IH S
+
+Segment 2:
+  Timestamp: 00:03.034 - 00:06.747 (3.71s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: It depicts a very...
+  Phonemic Encoding: HH IH SIL T S SIL D IH SIL P IH SIL K SIL S EY IH N DH B EH R IY SIL AA SIL
+
+Segment 3:
+  Timestamp: 00:07.995 - 00:15.488 (7.49s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: and they may be on vacation. So I'll tell you this, this is a vacation spot.
+  Phonemic Encoding: AH M EY NG M EY SIL M EY SIL B IY AA N V EY SIL K EY SH IH N S AA AH SIL T IH IH AH S OW DH IH S DH IH S IH Z EY SIL F SIL EY SIL B EY SIL K EY SH IH N S SIL B AA SIL T M
+
+Segment 4:
+  Timestamp: 00:17.800 - 00:38.050 (20.25s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: I think it's there's absolutely at the there's a So the A jib so a jib that means that that's it. Hey shits. It's a catamaran maybe Okay, this young man is
+  Phonemic Encoding: HH AY EY TH AE NG SIL K IH SIL IH SIL T S AA IH SIL T S SIL DH EH ER Z S SIL AE SIL S L IY IH EH SIL DH IY Y IY EH AH SIL SIL DH IH ER Z EY Y AH M S AH SIL DH EY Y AH M EH AH SIL JH IH EH SIL B AH HH SIL S OW IH SIL CH IH EH IH V SIL DH EH AH SIL B IY EY N S AH SIL DH AE SIL T S IH SIL T EY Y SH IH SIL S SIL SIL Y IH SIL S EY Y AH SIL K AE DX IH M ER AE N M EY SIL B IY HH EH OW SIL K EY SIL AA SIL DH IH S S S AH M Y AH AA NG M AE N IH EH S
+
+Segment 5:
+  Timestamp: 00:38.759 - 00:51.499 (12.74s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: flying a kite. And it seems like that there's a good early young man is reading in between the uh
+  Phonemic Encoding: DH F L AY NG IH DX IH SIL K HH AY SIL T HH M HH AE N SIL D SIL IH SIL S IY N S L AY EY SIL K TH SIL DH IH EH SIL DH EH ER Z S SIL AH IH SIL K G ER V ER AH L IH IY Y EH AH NG AE N SIL IH Z S F R IY DX IH NG SIL M SIL EH N M B IH SIL T SIL W EY N DH IY SIL AH AH HH
+
+Segment 6:
+  Timestamp: 00:54.368 - 00:59.464 (5.10s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: and she is pouring some kind of libation.
+  Phonemic Encoding: HH AE N SIL D SH IY IH S SIL P AA R IH NG L S AH M SIL K AY N DX IH AH V L AY EH SIL B EY SH IH N
+
+Segment 7:
+  Timestamp: 01:01.658 - 01:04.965 (3.31s)
+  Speaker: Clinician (SPEAKER_00)
+  ASR Transcription: o how can I tell it seinen wool? Yes I did...
+  Phonemic Encoding: S HH EH AE F M SIL P AA HH AH F TH AH F AH F IH SIL S EH SIL IH N IH N SIL L L T IH Z S AH IH
+
+Segment 8:
+  Timestamp: 01:04.965 - 01:17.976 (13.01s)
+  Speaker: Participant (SPEAKER_01)
+  ASR Transcription: that it's okay, it's kind of silt and it's actually, it's a vacation day. It's a vacation day, it's here at the sea and it's everybody's happy.
+  Phonemic Encoding: Z S EH DX OW M IH S UW SIL K EY SIL DH IH SIL T S IH OW W IH SIL S SIL K AY N SIL D IH AH S IH EH L SIL IH N IH SIL S EH SIL T S AE SIL CH SH SIL L IY V EH SH L IY SIL IH SIL T S AH V EY SIL K EY SH IH EH N SIL D EY DH EH SIL S AH V IH SIL K EY SH IH N SIL D EY IH SIL T S S IH SIL T S Y IH ER IH SIL DH AH S IY IH N IH SIL S EH V R IH SIL B IH DX IY S HH AE SIL B IY
