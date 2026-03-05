@@ -1,17 +1,29 @@
-# Automated PPA Subtype Classification via Phonological-Semantic Dissociation
+# IPSS-PPA: Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping
 
-Code repository for the Interspeech 2026 submission: automated classification of Primary Progressive Aphasia (PPA) subtypes from connected speech using phonological adequacy (S_ph), semantic adequacy (S_sem), and their dissociation index (Δ).
+Code repository for the Interspeech 2026 submission: **IPSS-PPA** — an interpretable, fully automated pipeline for PPA subtype classification from WAB Picnic picture description speech.
+
+**Paper:** "Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping"
 
 ---
+
+## Dataset
+
+| Group | Recordings | Label |
+|-------|-----------|-------|
+| Healthy controls | 25 | 0 |
+| svPPA | 42 | 1 |
+| nfvPPA | 78 | 2 |
+| lvPPA | 109 | 3 |
+| **Total** | **254** | |
 
 ## Key Results
 
 | Task | Best Model | Accuracy | AUC | Effect Size |
 |------|------------|----------|-----|-------------|
-| **Control vs svPPA** | S_ph + S_sem | 85.1% | 0.932 | δ = 0.79 (large) |
-| **svPPA vs nfv+lv** | Full_all_L2_graph (RF) | 82.1% | 0.734 | δ = 0.47 (large) |
+| **Control vs svPPA** (n=67) | S_ph + S_sem | 85.1% | 0.932 | δ = 0.79 (large) |
+| **svPPA vs nfv+lv** (n=229) | Full + L2 + Graph (RF) | 82.1% | 0.734 | δ = 0.47 (medium) |
 
-**Core innovation:** The dissociation index Δ = S_ph − S_sem captures the svPPA-specific pattern of preserved phonology with impaired semantics, grounded in dual-stream theory (Hickok & Poeppel 2007).
+**Core innovation:** Task-agnostic acoustic and linguistic features are mapped to ten clinician-aligned constructs (anomia, agrammatism, reduced speech rate, etc.), then integrated into phonological and semantic adequacy scores. The pipeline produces clinician-readable evidence chains suitable for clinical screening.
 
 ---
 
@@ -21,10 +33,11 @@ Code repository for the Interspeech 2026 submission: automated classification of
 
 | File | Contents | Use in Paper |
 |------|----------|--------------|
-| `outputs/classifier_results.json` | Control vs svPPA classifier metrics | Table 1: Binary classification |
-| `outputs/sv_vs_nflf_real_results.json` | svPPA vs (nfv+lv) classifier metrics | Table 2: Subtype discrimination |
+| `outputs/classifier_results.json` | Control vs svPPA classifier metrics | Table 3: Binary classification |
+| `outputs/sv_vs_nflf_real_results.json` | svPPA vs (nfv+lv) classifier metrics | Table 4: Subtype discrimination |
 | `outputs/ppa_stats.json` | Statistical comparisons (Mann-Whitney, Cliff's δ) | Effect sizes, p-values |
 | `outputs/population_l1_stats.json` | Population normalization parameters | Methodology (Layer 2) |
+| `outputs/cu_combined_heatmap_paper.png` | Entity/CU mention rates by group | Figure: Semantic content coverage |
 
 ---
 
@@ -69,6 +82,9 @@ python scripts/run_full_analysis.py
 # 3. Train classifiers
 python scripts/train_dissociation_classifier.py --task control_vs_svppa
 python scripts/train_sv_vs_nflf_real.py
+
+# 4. Failure case analysis (Section 6 of paper)
+python scripts/run_failure_case_analysis.py
 ```
 
 Or run the master script:
@@ -86,7 +102,8 @@ semantic-evaluation/
 ├── requirements.txt
 ├── docs/
 │   ├── METHODOLOGY.md           # Pipeline methodology
-│   └── METHODOLOGY_DETAILED.md  # Detailed procedural specification
+│   ├── METHODOLOGY_DETAILED.md  # Detailed procedural specification
+│   └── FAILURE_CASE_ANALYSIS.md # Section 6: Correct/misclassified examples
 ├── data/
 │   └── graph/picnic_gold_star.json  # Gold scene graph (12 content units)
 ├── scripts/
@@ -95,7 +112,8 @@ semantic-evaluation/
 │   ├── run_full_analysis.py
 │   ├── train_dissociation_classifier.py
 │   ├── train_sv_vs_nflf_real.py
-│   └── run_ablation_*.py            # Ablation studies
+│   ├── run_ablation_*.py            # Ablation studies
+│   └── run_failure_case_analysis.py # Section 6 failure case analysis
 ├── src/features/
 │   ├── graph_semantic.py        # S_sem (scene graph + CU scoring)
 │   ├── phoneme_adequacy.py      # S_ph (phoneme error rate)
@@ -138,9 +156,9 @@ semantic-evaluation/
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{author2026ppa,
-  title={Automated PPA Subtype Classification via Phonological-Semantic Dissociation},
-  author={...},
+@inproceedings{pasumarthy2026issppa,
+  title={Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping},
+  author={Pasumarthy, Sarika and Li, Minggang and Lian, Jiachen and Guo, Chenxu and Yang, Emma and Kurteff, Lynn and Ezzes, Zoe and Keegan-Rodewald, Willa and Vonk, Jet M.J. and Ramkrishnan, Siddarth and Antonicelli, Giada and Miller, Zachary A. and Gorno-Tempini, Maria Luisa and Anumanchipalli, Gopala},
   booktitle={Proc. Interspeech 2026},
   year={2026}
 }
