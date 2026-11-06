@@ -24,7 +24,7 @@ fi
 
 DATA_DIR="$(pwd)/data"
 OUTPUT_DIR="$DATA_DIR/ppa_pipeline_outputs"
-CODE_DIR="${CODE_DIR:-/data/sarikapasumarthy/code}"
+CODE_DIR="${CODE_DIR:-}"
 
 echo "=== Step 1: Diarization + ASR + SylWav phoneme pipeline ==="
 echo "  Data dir: $DATA_DIR"

@@ -1,7 +1,12 @@
-# Large external / third-party
-sylber-wavlm-main/
-
-# Python
+# Local data, recorded speech, caches and subject-level artifacts
+data/*
+!data/graph/
+!data/graph/**
+outputs/*
+!outputs/README.md
+.env
+.env.*
+!.env.example
 .venv/
 venv/
 __pycache__/
@@ -10,25 +15,9 @@ __pycache__/
 .eggs/
 dist/
 build/
-
-# IDE
+.pytest_cache/
+.DS_Store
 .idea/
 .vscode/
-*.swp
-*.swo
-
-# Private patient data (DO NOT COMMIT)
-data/ppa_pipeline_outputs/
-data/cache_ppa/
-data/picnics-*/
-data/manifest_ppa_full.csv
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Intermediate outputs (keep only final results)
-outputs/*.csv
+sylber-wavlm-main/

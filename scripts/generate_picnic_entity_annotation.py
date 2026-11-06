@@ -63,7 +63,6 @@ def main():
         args.input,
         Path("picnic.png"),
         Path("data/picnic.png"),
-        Path("/home/sarikapasumarthy/.cursor/projects/data-sarikapasumarthy/assets/Screenshot_2026-02-27_at_10.52.07_AM-b70bf7fc-a734-4bf2-a447-0eb42d32ad35.png"),
     ]
     img_path = None
     for c in candidates:

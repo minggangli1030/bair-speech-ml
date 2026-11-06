@@ -324,7 +324,7 @@ def predict(
 @app.command()
 def ppa_pipeline(
     manifest: Path = typer.Option(Path("data/manifest_ppa_full.csv"), "--manifest", "-m", help="PPA manifest CSV"),
-    data_dir: Path = typer.Option(Path("/data/sarikapasumarthy/data/PPA/enhanced"), "--data-dir", help="Base dir for PPA audio (enhanced folder)"),
+    data_dir: Path = typer.Option(Path("data/audio"), "--data-dir", help="Base dir for PPA audio (enhanced folder)"),
     output_dir: Path = typer.Option(Path("data/ppa_pipeline_outputs"), "--output-dir", "-o", help="Output dir for *_feature_extraction.txt and *.rttm"),
     audio_column: str = typer.Option("audio_path", "--audio-column"),
     hf_token: Optional[str] = typer.Option(None, "--hf-token", envvar="HF_TOKEN", help="Hugging Face token for pyannote"),

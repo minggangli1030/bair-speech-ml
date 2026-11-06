@@ -1,178 +1,84 @@
-# IPSS-PPA: Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping
+# IPSS-PPA · Interpretable Speech & Semantic Evaluation
 
-Code repository for the Interspeech 2026 submission: **IPSS-PPA** — an interpretable, fully automated pipeline for PPA subtype classification from WAB Picnic picture description speech.
+**Python · ML pipelines · speech processing · graph algorithms · model evaluation**
 
-**Paper:** "Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping"
+A research pipeline that turns picture-description speech into interpretable phonological and semantic features, then evaluates those features with classical classifiers. The project combines diarization, speech recognition, optional phoneme decoding, scene-graph scoring, and experiment orchestration behind reusable Python interfaces.
 
----
+This is collaborative research code associated with the IPSS-PPA manuscript. See [citation and authorship](docs/CITATION.md). It showcases pipeline and evaluation engineering; it is not a deployed clinical product.
 
-## Dataset
+## Engineering and research highlights
 
-| Group | Recordings | Label |
-|-------|-----------|-------|
-| Healthy controls | 25 | 0 |
-| svPPA | 42 | 1 |
-| nfvPPA | 78 | 2 |
-| lvPPA | 109 | 3 |
-| **Total** | **254** | |
+- **Staged inference:** diarization → timestamped ASR → optional acoustic-to-phoneme decoding → structured features → classifiers.
+- **Replaceable model interfaces:** lazy-loaded ASR and phonetic backends separate expensive inference from feature and experiment code.
+- **Reusable intermediates:** disk caches keyed by subject/path and artifact type, plus skip-existing execution for pipeline outputs.
+- **Interpretable graph scoring:** canonical entities and relation rules map transcripts to a scene graph; node/content-unit coverage provides inspectable evidence.
+- **Evaluation tooling:** logistic regression/random-forest comparisons, ablations, multiple seeds, and failure-analysis scripts.
+- **Model artifacts:** baseline persistence records classifier, scaler, feature schema, imputation medians, and per-feature contributions.
 
-## Key Results
+## Architecture
 
-| Task | Best Model | Accuracy | AUC | Effect Size |
-|------|------------|----------|-----|-------------|
-| **Control vs svPPA** (n=67) | S_ph + S_sem | 85.1% | 0.932 | δ = 0.79 (large) |
-| **svPPA vs nfv+lv** (n=229) | Full + L2 + Graph (RF) | 82.1% | 0.734 | δ = 0.47 (medium) |
-
-**Core innovation:** Task-agnostic acoustic and linguistic features are mapped to ten clinician-aligned constructs (anomia, agrammatism, reduced speech rate, etc.), then integrated into phonological and semantic adequacy scores. The pipeline produces clinician-readable evidence chains suitable for clinical screening.
-
----
-
-## Result Files for Paper
-
-**Prerequisites:** Pipeline outputs already generated (diarization + ASR + SylWav) in `data/ppa_pipeline_outputs/`, and manifest `data/manifest_ppa_full.csv`.
-
-| File | Contents | Use in Paper |
-|------|----------|--------------|
-| `outputs/classifier_results.json` | Control vs svPPA classifier metrics | Table 3: Binary classification |
-| `outputs/sv_vs_nflf_real_results.json` | svPPA vs (nfv+lv) classifier metrics | Table 4: Subtype discrimination |
-| `outputs/ppa_stats.json` | Statistical comparisons (Mann-Whitney, Cliff's δ) | Effect sizes, p-values |
-| `outputs/population_l1_stats.json` | Population normalization parameters | Methodology (Layer 2) |
-| `outputs/cu_combined_heatmap_paper.png` | Entity/CU mention rates by group | Figure: Semantic content coverage |
-
----
-
-## Pipeline Overview
-
-```
-Audio → Diarization → ASR + SylWav Phonemes
-                          ↓
-              ┌──────────────────────┐
-              │  S_ph (phonological) │ ← SylWav vs G2P edit distance
-              │  S_sem (semantic)    │ ← Scene graph + Layer 2 constructs
-              │  Δ = S_ph − S_sem    │ ← Dissociation index
-              └──────────────────────┘
-                          ↓
-              Classification (LR / RF)
+```mermaid
+flowchart LR
+  Audio --> Diarization
+  Diarization --> ASR[Whisper interface]
+  Diarization --> Phones[Optional phoneme decoder]
+  ASR --> Cache[(Reusable outputs)]
+  Phones --> Cache
+  Cache --> Features[Acoustic / linguistic features]
+  ASR --> Graph[Scene graph + content units]
+  Features --> Scores[Phonological / semantic scores]
+  Graph --> Scores
+  Scores --> Evaluation[Classifiers / ablations / multi-seed runs]
 ```
 
----
+| Area | Entry point |
+| --- | --- |
+| Configuration and CLI | [src/config.py](src/config.py), [src/cli.py](src/cli.py) |
+| Audio pipeline orchestration | [src/pipeline/runner.py](src/pipeline/runner.py) |
+| Model interfaces | [src/models/](src/models/) |
+| Cache and dataset contracts | [src/io/](src/io/) |
+| Graph-based semantic scoring | [src/features/graph_semantic.py](src/features/graph_semantic.py) |
+| Phonological scoring | [src/features/phoneme_adequacy.py](src/features/phoneme_adequacy.py) |
+| Training and explanations | [src/train/baseline.py](src/train/baseline.py) |
+| Experiment entry points | [scripts/README.md](scripts/README.md) |
 
-## Installation
+## Try the offline example
+
+Use Python 3.11 or 3.12. The small example needs no recorded speech, credentials, downloaded models, or GPU.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/semantic-evaluation.git
-cd semantic-evaluation
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-core.txt
+python scripts/demo_semantic_scoring.py
+python -m pytest -q tests
 ```
 
----
+The example compares fictional scene descriptions and prints semantic coverage and matched content units. It demonstrates scoring behavior, not diagnostic accuracy.
 
-## Reproducing Results
+## Run the research pipeline
 
-**Prerequisites:** Pipeline outputs (diarization + ASR + SylWav) in `data/ppa_pipeline_outputs/` and manifest `data/manifest_ppa_full.csv`.
+Install `requirements.txt` for the full audio/NLP stack; model files and external decoder code require separate provisioning. CLI entry points and dataset schemas are documented in [reproduction](docs/REPRODUCING.md).
 
 ```bash
-# 1. Fix Layer 2 with population normalization
-python scripts/fix_layer2_population_norm.py
-
-# 2. Run full analysis (S_ph, S_sem, Δ)
-python scripts/run_full_analysis.py
-
-# 3. Train classifiers
-python scripts/train_dissociation_classifier.py --task control_vs_svppa
-python scripts/train_sv_vs_nflf_real.py
-
-# 4. Failure case analysis (Section 6 of paper)
-python scripts/run_failure_case_analysis.py
+python -m src.cli --help
+python -m src.cli ppa-pipeline --help
 ```
 
-Or run the master script:
-```bash
-bash scripts/run_paper_pipeline.sh
-```
+The current source tree keeps code, the reference scene graph, documentation, and synthetic tests. Audio, subject-level manifests, caches, and generated outputs remain local and are excluded from the current tracked tree. Earlier Git history is preserved.
 
----
+## Research evidence
 
-## Project Structure
+The original project reports experiments over 254 recordings (25 controls; 42 svPPA, 78 nfvPPA, 109 lvPPA). Historical single-seed results include 85.1% accuracy / 0.932 ROC-AUC for control-versus-svPPA and 82.1% / 0.734 for subtype discrimination. They are retained as reported research outcomes, not independently reproduced or clinical-validation claims.
 
-```
-semantic-evaluation/
-├── README.md
-├── requirements.txt
-├── docs/
-│   ├── METHODOLOGY.md           # Pipeline methodology
-│   ├── METHODOLOGY_DETAILED.md  # Detailed procedural specification
-│   └── FAILURE_CASE_ANALYSIS.md # Section 6: Correct/misclassified examples
-├── data/
-│   └── graph/picnic_gold_star.json  # Gold scene graph (12 content units)
-├── scripts/
-│   ├── run_paper_pipeline.sh        # Master script
-│   ├── fix_layer2_population_norm.py
-│   ├── run_full_analysis.py
-│   ├── train_dissociation_classifier.py
-│   ├── train_sv_vs_nflf_real.py
-│   ├── run_ablation_*.py            # Ablation studies
-│   └── run_failure_case_analysis.py # Section 6 failure case analysis
-├── src/features/
-│   ├── graph_semantic.py        # S_sem (scene graph + CU scoring)
-│   ├── phoneme_adequacy.py      # S_ph (phoneme error rate)
-│   ├── layer1.py / layer2.py    # Clinical constructs
-│   └── dissociation.py          # Δ computation, statistics
-└── outputs/
-    ├── classifier_results.json       # Control vs svPPA
-    ├── sv_vs_nflf_real_results.json  # svPPA vs nfv+lv
-    ├── ppa_stats.json                # Statistical comparisons
-    └── population_l1_stats.json      # L1 population stats
-```
+Some historical classifiers scale features before cross-validation; population normalization and repeated-subject/session grouping also require audit. These limitations should be resolved before relying on the reported estimates. [Evaluation notes](docs/EVALUATION.md) distinguish the historical evidence from the checks performed for this cleanup.
 
----
+## Read more
 
-## Feature Definitions
+- [Architecture and implementation tradeoffs](docs/ARCHITECTURE.md)
+- [Methods](docs/METHODOLOGY.md)
+- [Reproduction and data contracts](docs/REPRODUCING.md)
+- [Evaluation boundaries](docs/EVALUATION.md)
+- [Research citation](docs/CITATION.md)
 
-| Feature | Formula | Description |
-|---------|---------|-------------|
-| **S_ph** | 1 − PER | Phonological adequacy (SylWav vs G2P) |
-| **S_sem** | 0.5 × S_graph + 0.5 × S_L2 | Composite semantic adequacy |
-| **S_sem_graph** | 0.4 × node_recall + 0.6 × CU_recall | Scene graph completeness (12 CUs) |
-| **S_sem_L2** | 1 − mean(all 10 L2 constructs) | Communication adequacy from Layer 2 |
-| **Δ** | S_ph − S_sem | Dissociation index |
-
-**Layer 2 constructs:** reduced_speech_rate, reduced_length_complexity, agrammatism, paragrammatism, anomia, empty_speech, semantic_paraphasias, phonemic_paraphasias_neologisms, self_correction, overall_communication_impairment
-
----
-
-## Statistical Methods
-
-- **Mann-Whitney U test:** Non-parametric group comparison (scipy.stats.mannwhitneyu, two-sided)
-- **Cliff's delta:** Effect size (|δ| < 0.147 negligible, 0.147–0.33 small, 0.33–0.474 medium, ≥0.474 large)
-- **Cross-validation:** Stratified 5-fold, random_state=42
-- **Classifiers:** Logistic Regression (balanced), Random Forest (n=100, max_depth=6)
-
----
-
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@inproceedings{pasumarthy2026issppa,
-  title={Interpretable Phonological–Semantic Scoring for Automated Primary Progressive Aphasia Subtyping},
-  author={Pasumarthy, Sarika and Li, Minggang and Lian, Jiachen and Guo, Chenxu and Yang, Emma and Kurteff, Lynn and Ezzes, Zoe and Keegan-Rodewald, Willa and Vonk, Jet M.J. and Ramkrishnan, Siddarth and Antonicelli, Giada and Miller, Zachary A. and Gorno-Tempini, Maria Luisa and Anumanchipalli, Gopala},
-  booktitle={Proc. Interspeech 2026},
-  year={2026}
-}
-```
-
----
-
-## License
-
-[To be determined]
-
----
-
-## References
-
-- Hickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. Nature Reviews Neuroscience.
-- Nicholas, L. E., & Brookshire, R. H. (1993). A system for quantifying the informativeness and efficiency of the connected speech of adults with aphasia. JSLHR.
+Publication/licensing status is not inferred from the presence of a citation. Preserve the original collaborative attribution and upstream model terms.
