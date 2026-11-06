@@ -1,5 +1,7 @@
 # IPSS-PPA · Interpretable Speech & Semantic Evaluation
 
+Research context: **Berkeley Artificial Intelligence Research (BAIR) Lab, UC Berkeley**.
+
 **Python · ML pipelines · speech processing · graph algorithms · model evaluation**
 
 A research pipeline that turns picture-description speech into interpretable phonological and semantic features, then evaluates those features with classical classifiers. The project combines diarization, speech recognition, optional phoneme decoding, scene-graph scoring, and experiment orchestration behind reusable Python interfaces.
